@@ -1,8 +1,13 @@
-var directory='./top';
-
 var keywords={}, frequent={}, thread=0, intervalId;
-
 var fs = require('fs');
+
+if (process.argv.length != 3) {
+    console.log('invalid arguments');
+    process.exit(0);
+}
+
+var directory = process.argv[2];
+console.log('extracting keywords from directory ' + directory);
 
 var regex = /[-a-zA-Z]{2,}/gm;
 regex.compile(regex);
@@ -44,7 +49,8 @@ function parse(path) {
 function parse_dir(dir) {
     fs.readdir(dir, function (err, files) {
         if (err) {
-            console.log('Err');
+            console.log('Error when processing directory ' + dir);
+            process.exit(1);
         } else if (files && files.length != 0) {
             files.forEach(function (path) {
                 if (path != '.svn') {
