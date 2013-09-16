@@ -3,6 +3,7 @@ var fs = require('fs');
 var output = 'keyword.txt';
 var MAX_SESSION = 50;
 var frequency = 5;
+var min_keyword_length = 4;
 
 if (process.argv.length < 3) {
     console.log('invalid arguments');
@@ -30,15 +31,18 @@ function parse_source_file(path) {
                 var matches = data.match(regex);
                 if (matches) {
                     matches.forEach(function (keyword) {
-                        if (keywords[keyword]) {
-                            keywords[keyword]++;
-                            if (keywords[keyword] > 10) {
-                                frequent[keyword] = true;
+                        if (keyword.length >= min_keyword_length) {
+                            if (keywords[keyword]) {
+                                keywords[keyword]++;
+                                if (keywords[keyword] > 10) {
+                                    frequent[keyword] = true;
+                                }
+                            } else {
+                                keywords[keyword] = 1;
                             }
-                        } else {
-                            keywords[keyword] = 1;
                         }
                     });
+
                 }
             }
 
