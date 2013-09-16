@@ -1,8 +1,10 @@
-var keywords={}, frequent={}, thread=0, intervalId;
+var keywords={}, frequent={}, thread=0, intervalId, file_list=[];
 var fs = require('fs');
 var output = 'keyword.txt';
+var MAX_SESSION = 50;
+var frequency = 5;
 
-if (process.argv.length != 3) {
+if (process.argv.length < 3) {
     console.log('invalid arguments');
     process.exit(0);
 }
@@ -14,37 +16,51 @@ var regex = /[-a-zA-Z]{2,}/gm;
 regex.compile(regex);
 
 function parse(path) {
+    thread++;
+
+    console.log('parsing ' + path);
+    fs.readFile(path, 'utf8', function (err, data) {
+        if (err) {
+            console.error('Error occured when reading ' + path + ' error:' + err);
+        }
+        else {
+            var matches = data.match(regex);
+            if (matches) {
+                matches.forEach(function (keyword) {
+                    if (keywords[keyword]) {
+                        keywords[keyword]++;
+                        if (keywords[keyword] > 10) {
+                            frequent[keyword] = true;
+                        }
+                    } else {
+                        keywords[keyword] = 1;
+                    }
+                });
+            }
+        }
+
+        thread--;
+        schedule();
+    });
+}
+
+function schedule() {
+    if (file_list.length && thread < MAX_SESSION) {
+        var path = file_list.pop();
+        parse(path);
+    }
+
+    console.log('==============' + thread + ' in progress, ' + file_list.length + ' left==============');
+}
+
+function add_task(path) {
     path = path.toLowerCase();
     if (path.indexOf('.html') == path.length - 5 ||
         path.indexOf('.htm') == path.length - 4 ||
         path.indexOf('.css') == path.length - 4 ||
         path.indexOf('.js') == path.length - 3) {
-
-        thread++;
-
-        console.log('parsing ' + path);
-        fs.readFile(path, 'utf8', function (err, data) {
-            if (err) {
-                console.error('Error occured when reading ' + path + ' error:' + err);
-            }
-            else {
-                var matches = data.match(regex);
-                if (matches) {
-                    matches.forEach(function (keyword) {
-                        if (keywords[keyword]) {
-                            keywords[keyword]++;
-                            if (keywords[keyword] > 10) {
-                                frequent[keyword] = true;
-                            }
-                        } else {
-                            keywords[keyword] = 1;
-                        }
-                    });
-                }
-            }
-
-            thread--;
-        });
+        file_list.push(path);
+        schedule();
     }
 }
 
@@ -97,7 +113,7 @@ function checkResult() {
             var key = tuples[i][0];
             var value = tuples[i][1];
 
-            if (value < 2)
+            if (value < frequency)
                 break;
             result += key + ' ';
         }
