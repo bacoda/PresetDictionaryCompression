@@ -24,8 +24,9 @@ function parse(path) {
 
         console.log('parsing ' + path);
         fs.readFile(path, 'utf8', function (err, data) {
-            if (err)
-                console.log('error occured');
+            if (err) {
+                console.error('Error occured when reading ' + path + ' error:' + err);
+            }
             else {
                 var matches = data.match(regex);
                 if (matches) {
