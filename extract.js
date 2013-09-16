@@ -1,5 +1,6 @@
 var keywords={}, frequent={}, thread=0, intervalId;
 var fs = require('fs');
+var output = 'keyword.txt';
 
 if (process.argv.length != 3) {
     console.log('invalid arguments');
@@ -100,7 +101,7 @@ function checkResult() {
 
         console.log('Length: ' + result.length);
         
-        fs.writeFile('keywords.txt', result, function (err) {
+        fs.writeFile(output, result, function (err) {
             if (err) throw err;
             console.log('Saved!');
         });

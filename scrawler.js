@@ -6,7 +6,8 @@ var child_process = require('child_process');
 var command = 'wget -E -H -p -nd -nH -e robots=off -Ptop500/%dir %domain';
 var failed = [];
 var MAX_SESSION = 50;
-var sites;
+var sites = [];
+var sessions = 0;
 
 function get(domain) {
     var cmd = command.replace('%dir', domain).replace('%domain', domain);
@@ -20,6 +21,10 @@ function get(domain) {
 
         if (sites.length != 0)
             get(sites.pop());
+        else
+            sessions--;
+            
+        console.log('=========' + sessions + ' tasks in progress. ' + sites.length + ' left. ' + failed.length + ' failed.=========');
     });
 }
 
@@ -28,7 +33,6 @@ fs.readFile(input, 'utf8', function (err, data) {
         console.log('Invalid input');
     } else {
         sites = data.split(/\r?\n/);
-        var sessions = 0;
         while (sessions < MAX_SESSION) {
             sessions++;
             var domain = sites.pop();
