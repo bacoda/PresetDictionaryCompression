@@ -95,7 +95,7 @@ function schedule() {
         parse_path(path);
     }
 
-    console.log('==============' + thread + ' in progress, ' + file_list.length + ' left==============');
+    //console.log('==============' + thread + ' in progress, ' + file_list.length + ' left==============');
 }
 
 function add_task(path) {
@@ -134,11 +134,13 @@ function checkResult() {
         }
 
         console.log('Length: ' + result.length);
-        
+
         fs.writeFile(output, result, function (err) {
             if (err) throw err;
             console.log('Saved!');
         });
+    } else {
+        console.log('==============' + thread + ' in progress, ' + file_list.length + ' left==============');
     }
 }
 
