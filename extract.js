@@ -13,8 +13,14 @@ if (process.argv.length < 3) {
 var directory = process.argv[2];
 console.log('extracting keywords from directory ' + directory);
 
-var regex = /[-a-zA-Z]{2,}/gm;
+var regex = /[-_a-zA-Z]{2,}/gm;
 regex.compile(regex);
+
+var keyword_underscore_regex = /[a-zA-Z]+/g;
+keyword_underscore_regex.compile(keyword_underscore_regex);
+
+var keyword_camel_regex = /[A-Z]?[a-z]+/g;
+keyword_camel_regex.compile(keyword_camel_regex);
 
 function parse_source_file(path) {
     path = path.toLowerCase();
@@ -32,11 +38,23 @@ function parse_source_file(path) {
                 if (matches) {
                     matches.forEach(function (keyword) {
                         if (keyword.length >= min_keyword_length) {
+                            // split someThing/some_Thing to some and Thing
+                            var words = [], split=[];
+                            words.push(keyword);
+
+                            if (keyword.indexOf('_') != -1 || keyword.indexOf('-') != -1) {
+                                split = keyword.match(keyword_underscore_regex);
+                            } else if (keyword.toLowerCase() != keyword && keyword.toUpperCase() != keyword) {
+                                split = keyword.match(keyword_camel_regex);
+                            }
+
+                            if (split.length > 1) {
+                                words.push(split);
+                                //console.log('Keyword ' + keyword + ' split into ' + words);
+                            }
+
                             if (keywords[keyword]) {
                                 keywords[keyword]++;
-                                if (keywords[keyword] > 10) {
-                                    frequent[keyword] = true;
-                                }
                             } else {
                                 keywords[keyword] = 1;
                             }
