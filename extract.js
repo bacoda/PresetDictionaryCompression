@@ -58,7 +58,10 @@ function parse_dir(dir) {
                     var file_path = dir + '/' + path;
 
                     fs.lstat(file_path, function (err, stats) {
-                        if (stats.isFile()) {
+                        if (!stats) {
+                            console.error('undefained stats for ' + file_path);
+                            process.exit(1);
+                        } else if (stats.isFile()) {
                             parse(file_path);
                         } else {
                             parse_dir(file_path);
