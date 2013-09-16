@@ -15,51 +15,38 @@ console.log('extracting keywords from directory ' + directory);
 var regex = /[-a-zA-Z]{2,}/gm;
 regex.compile(regex);
 
-function parse(path) {
-    thread++;
-
-    console.log('parsing ' + path);
-    fs.readFile(path, 'utf8', function (err, data) {
-        if (err) {
-            console.error('Error occured when reading ' + path + ' error:' + err);
-        }
-        else {
-            var matches = data.match(regex);
-            if (matches) {
-                matches.forEach(function (keyword) {
-                    if (keywords[keyword]) {
-                        keywords[keyword]++;
-                        if (keywords[keyword] > 10) {
-                            frequent[keyword] = true;
-                        }
-                    } else {
-                        keywords[keyword] = 1;
-                    }
-                });
-            }
-        }
-
-        thread--;
-        schedule();
-    });
-}
-
-function schedule() {
-    if (file_list.length && thread < MAX_SESSION) {
-        var path = file_list.pop();
-        parse(path);
-    }
-
-    console.log('==============' + thread + ' in progress, ' + file_list.length + ' left==============');
-}
-
-function add_task(path) {
+function parse_source_file(path) {
     path = path.toLowerCase();
     if (path.indexOf('.html') == path.length - 5 ||
         path.indexOf('.htm') == path.length - 4 ||
         path.indexOf('.css') == path.length - 4 ||
         path.indexOf('.js') == path.length - 3) {
-        file_list.push(path);
+
+        console.log('parsing ' + path);
+        fs.readFile(path, 'utf8', function (err, data) {
+            if (err) {
+                console.error('Error occured when reading ' + path + ' error:' + err);
+            } else {
+                var matches = data.match(regex);
+                if (matches) {
+                    matches.forEach(function (keyword) {
+                        if (keywords[keyword]) {
+                            keywords[keyword]++;
+                            if (keywords[keyword] > 10) {
+                                frequent[keyword] = true;
+                            }
+                        } else {
+                            keywords[keyword] = 1;
+                        }
+                    });
+                }
+            }
+
+            thread--;
+            schedule();
+        });
+    } else {
+        thread--;
         schedule();
     }
 }
@@ -73,23 +60,47 @@ function parse_dir(dir) {
             files.forEach(function (path) {
                 if (path != '.svn') {
                     var file_path = dir + '/' + path;
-
-                    fs.lstat(file_path, function (err, stats) {
-                        if (!stats) {
-                            console.error('Ignoring ' + file_path);
-                        } else if (stats.isFile()) {
-                            parse(file_path);
-                        } else {
-                            parse_dir(file_path);
-                        }
-                    });
+                    add_task(file_path);
                 }
             });
+        }
+
+        thread--;
+        schedule();
+    });
+}
+
+function parse_path(path) {
+    thread++;
+    fs.lstat(path, function (err, stats) {
+        if (!stats) {
+            console.error('Ignoring ' + path);
+            thread--;
+            schedule();
+        } else if (stats.isFile()) {
+            parse_source_file(path);
+        } else {
+            parse_dir(path);
         }
     });
 }
 
-parse_dir(directory);
+function schedule() {
+    if (file_list.length && thread < MAX_SESSION) {
+        var path = file_list.pop();
+        parse_path(path);
+    }
+
+    console.log('==============' + thread + ' in progress, ' + file_list.length + ' left==============');
+}
+
+function add_task(path) {
+    file_list.push(path);
+    schedule();
+}
+
+
+add_task(directory);
 
 function checkResult() {
     if (thread == 0) {
