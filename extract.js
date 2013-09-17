@@ -1,26 +1,36 @@
-var keywords={}, frequent={}, thread=0, intervalId, file_list=[];
 var fs = require('fs');
+var command_line = require('optimist').argv;
+
+var keywords={}, frequent={}, thread=0, intervalId, file_list=[];
 var output = 'keyword.txt';
 var MAX_SESSION = 50;
 var frequency = 5;
 var min_keyword_length = 4;
+var size = 100; // kb
+var regex = /-/;
+regex.compile(/[-_a-zA-Z]{2,}/gm);
+var keyword_underscore_regex = /-/;
+keyword_underscore_regex.compile(/[a-zA-Z]+/g);
+var keyword_camel_regex = /-/;
+keyword_camel_regex.compile(/[A-Z]?[a-z]+/g);
 
-if (process.argv.length < 3) {
-    console.log('invalid arguments');
+if (process.argv.length == 2) {
+    console.log('extract.js [-s kb] target_directory');
     process.exit(0);
 }
 
-var directory = process.argv[2];
-console.log('extracting keywords from directory ' + directory);
+if (!command_line._) {
+    console.log('Missing target directory');
+    process.exit(0);
+}
 
-var regex = /[-_a-zA-Z]{2,}/gm;
-regex.compile(regex);
+var directory = command_line._[0];
+if (command_line.s)
+    size = command_line.s;
 
-var keyword_underscore_regex = /[a-zA-Z]+/g;
-keyword_underscore_regex.compile(keyword_underscore_regex);
+console.log('Extracting keywords from directory ' + directory + ' maximum size: ' + size + ' kb');
 
-var keyword_camel_regex = /[A-Z]?[a-z]+/g;
-keyword_camel_regex.compile(keyword_camel_regex);
+
 
 function parse_source_file(path) {
     var lower_path = path.toLowerCase();
@@ -29,7 +39,7 @@ function parse_source_file(path) {
         lower_path.indexOf('.css') == path.length - 4 ||
         lower_path.indexOf('.js') == path.length - 3) {
 
-        //console.log('parsing ' + path);
+        console.log('parsing ' + path);
         fs.readFile(path, 'utf8', function (err, data) {
             if (err) {
                 console.error('Error occured when reading ' + path + ' error:' + err);
@@ -39,7 +49,7 @@ function parse_source_file(path) {
                     matches.forEach(function (keyword) {
                         if (keyword.length >= min_keyword_length) {
                             // split someThing/some_Thing to some and Thing
-                            var words = [], split=[];
+                            var words = [], split = [];
                             words.push(keyword);
 
                             if (keyword.indexOf('_') != -1 || keyword.indexOf('-') != -1) {
@@ -60,7 +70,8 @@ function parse_source_file(path) {
                             }
                         }
                     });
-
+                } else {
+                    console.log('No keyword for ' + path);
                 }
             }
 
@@ -141,12 +152,12 @@ function checkResult() {
             return a < b ? 1 : (a > b ? -1 : 0);
         });
 
-        var result;
+        var result = '';
         for (var i = 0; i < tuples.length; i++) {
             var key = tuples[i][0];
             var value = tuples[i][1];
 
-            if (value < frequency)
+            if (value < frequency || result.length >= size*1024)
                 break;
             result += key + ' ';
         }
