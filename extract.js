@@ -39,7 +39,9 @@ function parse_source_file(path) {
         lower_path.indexOf('.css') == path.length - 4 ||
         lower_path.indexOf('.js') == path.length - 3) {
 
-        console.log('parsing ' + path);
+        if (command_line.v)
+            console.log('parsing ' + path);
+
         fs.readFile(path, 'utf8', function (err, data) {
             if (err) {
                 console.error('Error occured when reading ' + path + ' error:' + err);
