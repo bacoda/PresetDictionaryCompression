@@ -29,7 +29,7 @@ function parse_source_file(path) {
         path.indexOf('.css') == path.length - 4 ||
         path.indexOf('.js') == path.length - 3) {
 
-        console.log('parsing ' + path);
+        //console.log('parsing ' + path);
         fs.readFile(path, 'utf8', function (err, data) {
             if (err) {
                 console.error('Error occured when reading ' + path + ' error:' + err);
@@ -48,7 +48,7 @@ function parse_source_file(path) {
                                 split = keyword.match(keyword_camel_regex);
                             }
 
-                            if (split.length > 1) {
+                            if (split && split.length > 1) {
                                 words.push(split);
                                 //console.log('Keyword ' + keyword + ' split into ' + words);
                             }
