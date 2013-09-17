@@ -23,11 +23,11 @@ var keyword_camel_regex = /[A-Z]?[a-z]+/g;
 keyword_camel_regex.compile(keyword_camel_regex);
 
 function parse_source_file(path) {
-    path = path.toLowerCase();
-    if (path.indexOf('.html') == path.length - 5 ||
-        path.indexOf('.htm') == path.length - 4 ||
-        path.indexOf('.css') == path.length - 4 ||
-        path.indexOf('.js') == path.length - 3) {
+    var lower_path = path.toLowerCase();
+    if (lower_path.indexOf('.html') == path.length - 5 ||
+        lower_path.indexOf('.htm') == path.length - 4 ||
+        lower_path.indexOf('.css') == path.length - 4 ||
+        lower_path.indexOf('.js') == path.length - 3) {
 
         //console.log('parsing ' + path);
         fs.readFile(path, 'utf8', function (err, data) {
