@@ -97,8 +97,8 @@ function benchmarkFile(site, path, type, completion) {
                 var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
                 total_compressed_size += size;
                 total_dict_compressed_size += cat_size;
-                console.log('testing ' + path);
-                console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
+                //console.log('testing ' + path);
+                //console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
                 appendOutput({
                     site: site,
                     type: type,
