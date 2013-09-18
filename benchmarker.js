@@ -3,6 +3,7 @@ var child_process = require('child_process');
 var command_line = require('optimist').argv;
 var path = require('path');
 var util = require('util');
+var finder = require('findit');
 var taskgroup = require('taskgroup').TaskGroup;
 
 var directory = command_line._[0];
@@ -10,16 +11,19 @@ var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
 var total_compressed_size = 0, total_dict_compressed_size = 0;
 var count = 0;
+var output = [];
 
 function includeFile(path) {
     var lower_path = path.toLowerCase();
     if (lower_path.indexOf('.html') == path.length - 5 ||
-        lower_path.indexOf('.htm') == path.length - 4 ||
-        lower_path.indexOf('.css') == path.length - 4 ||
-        lower_path.indexOf('.js') == path.length - 3)
-        return true;
+        lower_path.indexOf('.htm') == path.length - 4)
+        return 'html';
 
-    return false;
+    if (lower_path.indexOf('.css') == path.length - 4)
+        return 'css';
+
+    if (lower_path.indexOf('.js') == path.length - 3)
+        return 'js';
 }
 
 function zip(file, completion) {
@@ -34,8 +38,32 @@ function zip(file, completion) {
     });
 }
 
-function benchmarkFile(path, completion) {
-    if (!includeFile(path)) {
+function testSite(directory) {
+    var name = path.basename(directory);
+    //output[name] = {
+    //    totalSize:0,
+    //    cssCount:0,
+    //    cssCompressedSize: 0,
+    //    cssCompressedSize2: 0,
+    //    htmlCount: 0,
+    //    htmlCompressedSize: 0,
+    //    htmlCompressedSize2: 0,
+    //    jsCount: 0,
+    //    jsCompressedSize: 0,
+    //    jsCompressedSize2: 0,
+    //};
+
+    finder(directory).on('file', function (file, stat) {
+        count++;
+        tasks.addTask(function (completion) {
+            benchmarkFile(name, file, completion);
+        });
+    });
+}
+
+function benchmarkFile(site, path, completion) {
+    var type = includeFile(path);
+    if (!type) {
         completion();
         return;
     }
@@ -59,6 +87,12 @@ function benchmarkFile(path, completion) {
                 total_compressed_size += size;
                 total_dict_compressed_size += cat_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
+                output.push({
+                    site: site,
+                    type: type,
+                    size: size,
+                    size2: cat_size
+                });
 
                 count--;
                 if (count == 0) {
@@ -82,7 +116,7 @@ if (!fs.existsSync(keyword)) {
 
 var tasks = new taskgroup();
 tasks.setConfig({
-    concurrency: 1
+    concurrency: 30
 });
 
 zip(keyword, function () {
@@ -90,11 +124,7 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    tasks.once('complete', function (err, results) {
-
-    });
-
-    require('findit')(directory).on('file', function (file, stat) {
+    finder(directory).on('directory', function (file, stat) {
         count++;
         tasks.addTask(function (completion) {
             benchmarkFile(file, completion);
