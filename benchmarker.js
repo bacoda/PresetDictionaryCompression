@@ -82,15 +82,15 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
+    tasks.once('complete', function (err, results) {
+        console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
+            (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
+    });
+
     require('findit')(directory).on('file', function (file, stat) {
         tasks.addTask(function (completion) {
             benchmarkFile(file, completion);
         });
-    });
-
-    tasks.once('complete', function (err, results) {
-        console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
-            (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
     });
 
     tasks.run();
