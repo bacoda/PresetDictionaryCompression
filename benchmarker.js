@@ -53,7 +53,6 @@ function benchmarkFile(path, completion) {
                 process.exit(1);
             }
 
-            var command = encoder + ' "' + cat_file + '"';
             zip(cat_file, function () {
                 var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size);
@@ -76,12 +75,7 @@ tasks.setConfig({
     concurrency: 1
 });
 
-child_process.exec(encoder + ' ' + keyword, function (error, stdout, stderr) {
-    if (error) {
-        console.error(error);
-        process.exit(1);
-    }
-
+zip(keyword, function () {
     var zipped = keyword + '.7z';
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
