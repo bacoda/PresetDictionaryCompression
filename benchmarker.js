@@ -51,7 +51,7 @@ function testSite(directory, callback) {
 
     var fileFinder = finder(directory);
     fileFinder.on('file', function (file, stat) {
-        tasks.addTask(function (completion) {
+        fileTasks.addTask(function (completion) {
             var type = fileExt(path);
             if (type == '.css' || type == '.html' || type == '.js') {
                 count++;
@@ -117,8 +117,12 @@ if (!fs.existsSync(keyword)) {
     process.exit(1);
 }
 
-var tasks = new taskgroup();
+var tasks = new taskgroup(), fileTasks = new taskgroup();
 tasks.setConfig({
+    concurrency: 30
+});
+
+fileTasks.setConfig({
     concurrency: 30
 });
 
@@ -133,6 +137,10 @@ zip(keyword, function () {
         });
     });
 
+    tasks.once('complete', function () {
+        console.log('Directory completes');
+        fileTasks.run();
+    });
     tasks.run();
 });
 
