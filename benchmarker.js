@@ -6,7 +6,8 @@ var util = require('util');
 var finder = require('findit');
 var taskgroup = require('taskgroup').TaskGroup;
 
-var directory = command_line._[0];
+var directory = command_line.i;
+var output = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
 var total_compressed_size = 0, total_dict_compressed_size = 0;
@@ -110,7 +111,7 @@ function benchmarkFile(site, path, type, completion) {
 }
 
 
-console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory);
+console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory + ' output: ' + output);
 
 if (!fs.existsSync(keyword)) {
     console.error('File not exist');
@@ -127,12 +128,19 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    finder(directory).on('directory', function (path, stat) {
+    var siteFinder = finder(directory);
+    siteFinder.on('directory', function (path, stat) {
         tasks.addTask(function (completion) {
             testSite(path, completion);
         });
     });
 
-    tasks.run();
+    siteFinder.on('end', function () {
+        tasks.once('complete', function () {
+            console.log('done!!!!!!!!!!!!!!!!');
+        });
+        tasks.run();
+    });
+
 });
 
