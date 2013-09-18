@@ -55,7 +55,7 @@ function testSite(directory) {
                 benchmarkFile(name, file, type, completion);
             } else {
                 output.push({
-                    site: site,
+                    site: name,
                     type: type,
                     size: stat.size
                 });
