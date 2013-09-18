@@ -59,13 +59,14 @@ function benchmarkFile(path, completion) {
                 total_compressed_size += size;
                 total_dict_compressed_size += cat_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
-                completion();
 
                 count--;
                 if (count == 0) {
                     console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
                         (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
                 }
+
+                completion();
             });
         });
     });
