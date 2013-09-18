@@ -77,7 +77,6 @@ function testSite(directory, callback) {
 }
 
 function benchmarkFile(site, path, type, completion) {
-    console.log('testing ' + path);
     zip(path, function () {
         var zipped = path + '.7z';
         var size = fs.statSync(zipped).size;
@@ -95,6 +94,7 @@ function benchmarkFile(site, path, type, completion) {
                 var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
                 total_compressed_size += size;
                 total_dict_compressed_size += cat_size;
+                console.log('testing ' + path);
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
                 appendOutput({
                     site: site,
@@ -150,6 +150,8 @@ zip(keyword, function () {
             console.log('done!!!!!!!!!!!!!!!!');
             done();
         });
+
+        console.log('====ready to run tasks. ' + tasks.getTotals());
         tasks.run();
     });
 
