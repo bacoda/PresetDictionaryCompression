@@ -92,15 +92,14 @@ function testSite(directory, callback) {
 }
 
 function benchmarkFile(site, path, type, completion) {
-    zip(path, function () {
-        var zipped = path + '.7z';
-        var size = fs.statSync(zipped).size;
+		var size_7z, cat_size, gzip_size;
 
         var cat_file = path + '.dict';
-		var cat_size, gzip_size;
         var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"';
 		
 		var localTask = new taskgroup();
+		
+		// cat
 		localTask.addTask(function(callback){
 	        child_process.exec(command, function (error, stdout, stderr) {
 	            if (error) {
@@ -112,15 +111,7 @@ function benchmarkFile(site, path, type, completion) {
 			});	
 		});
 		
-		localTask.addTask(function(callback){
-            zip(cat_file, function () {
-                cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
-                total_7zip_compressed_size += size;
-                total_dict_compressed_size += cat_size;
-                callback();
-            });			
-		});
-		
+		// gzip
 		localTask.addTask(function(callback){
 			gzip(path, function(){
 				gzip_size = fs.statSync(path + '.gz').size;
@@ -128,20 +119,48 @@ function benchmarkFile(site, path, type, completion) {
 				callback();
 			});
 		});
+		
+		// 7zip
+		localTask.addTask(function(callback){
+			if (gzip_size < 1000) {
+				size_7z = gzip_size;
+				callback();
+			} else {
+			    zip(path, function () {
+			        var zipped = path + '.7z';
+			        size_7z = fs.statSync(zipped).size;
+					callback();
+				});					
+			}
+		});
+			
+		// 7zip with dict			
+		localTask.addTask(function(callback){
+			if (gzip_size < 1000) {
+				cat_size = gzip_size;
+				callback();
+			} else {
+	            zip(cat_file, function () {
+                	cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
+	                total_7zip_compressed_size += size_7z;
+	                total_dict_compressed_size += cat_size;
+	                callback();
+	            });					
+			}
+		});
 
 		localTask.addTask(function(){
 	        appendOutput({
 	            site: site,
 	            type: type,
 	            size: gzip_size,
-	            size_7z: size,
+	            size_7z: size_7z,
 				size_dict: cat_size
 	        });			
 		});
 		
 		localTask.once('complete', completion);
 		localTask.run();
-    });
 }
 
 function dump() {
