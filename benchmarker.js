@@ -36,7 +36,7 @@ function gzip(file, completion) {
 }
 
 function zip(file, completion) {
-    var command = '7zr a "' + file + '.7z" "' + file + '"';
+    var command = '7zr a -t7z -m0=lzma -mx=9 -mfb=64 -md=2m -ms=on "' + file + '.7z" "' + file + '"';
     child_process.exec(command, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
