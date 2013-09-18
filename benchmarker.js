@@ -10,10 +10,6 @@ var directory = command_line._[0];
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
 
-var tasks = new taskgroup();
-tasks.setConfig({
-    concurrency: 16
-});
 
 console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory);
 
@@ -34,35 +30,39 @@ function includeFile(path) {
 }
 
 function benchmarkFile(path, completion) {
+    if (!includeFile(path)) {
+        completion();
+        return;
+    }
+
+    console.log('testing ' + path);
     child_process.exec(encoder + ' ' + path, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
             process.exit(1);
-        } else {
-            var zipped = path + '.7z';
-            var size = fs.statSync(zipped).size;
+        }
 
-            var cat_file = path + '.dict';
-            child_process.exec('cat ' + keyword + ' ' + path + ' > ' + cat_file, function (error, stdout, stderr) {
+        var zipped = path + '.7z';
+        var size = fs.statSync(zipped).size;
+
+        var cat_file = path + '.dict';
+        child_process.exec('cat ' + keyword + ' ' + path + ' > ' + cat_file, function (error, stdout, stderr) {
+            if (error) {
+                console.error(error);
+                process.exit(1);
+            }
+
+            child_process.exec(encoder + ' ' + cat_file, function (error, stdout, stderr) {
                 if (error) {
                     console.error(error);
                     process.exit(1);
                 }
 
-                child_process.exec(encoder + ' ' + cat_file, function (error, stdout, stderr) {
-                    if (error) {
-                        console.error(error);
-                        process.exit(1);
-                    }
-
-                    var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size;
-                    console.log('Compressed size: ' + size + ' With dict:' + cat_size);
-                    completion();
-                });
+                var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size;
+                console.log('Compressed size: ' + size + ' With dict:' + cat_size);
+                completion();
             });
-
-
-        }
+        });
     });
 }
 
@@ -75,6 +75,11 @@ child_process.exec(encoder.replace('%path', keyword), function (error, stdout, s
     var zipped = keyword + '.7z';
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
+
+    var tasks = new taskgroup();
+    tasks.setConfig({
+        concurrency: 16
+    });
 
     require('findit')(directory).on('file', function (file, stat) {
         tasks.addTask(function (completion) {
