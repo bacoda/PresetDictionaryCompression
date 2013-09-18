@@ -21,7 +21,7 @@ function includeFile(path) {
 }
 
 function zip(file, completion) {
-    var command = '7zr a ' + file + '.7z ' + file;
+    var command = '7zr a "' + file + '.7z" "' + file + '"';
     child_process.exec(command, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
