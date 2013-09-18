@@ -122,8 +122,10 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    finder(directory).on('directory', function (path, stat) {
-        testSite(path);
+    tasks.addTask(function(){
+        finder(directory).on('directory', function (path, stat) {
+            testSite(path);
+        })
     });
 
     tasks.run();
