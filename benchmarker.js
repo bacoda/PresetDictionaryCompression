@@ -55,7 +55,7 @@ function benchmarkFile(path, completion) {
             }
 
             zip(cat_file, function () {
-                var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size;
+                var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
                 total_compressed_size += size;
                 total_dict_compressed_size += cat_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size);
