@@ -33,6 +33,8 @@ function zip(file, completion) {
 }
 
 function testSite(directory, callback) {
+    console.log('testing site:' + directory);
+
     var name = path.basename(directory);
     //output[name] = {
     //    totalSize:0,
@@ -125,8 +127,8 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    tasks.addTask(function(completion){
-        finder(directory).on('directory', function (path, stat) {
+    finder(directory).on('directory', function (path, stat) {
+        tasks.addTask(function (completion) {
             testSite(path, completion);
         });
     });
