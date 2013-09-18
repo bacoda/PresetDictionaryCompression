@@ -122,7 +122,7 @@ function benchmarkFile(site, path, type, completion) {
 		});
 		
 		localTask.addTask(function(callback){
-			gzip(path, function(callback){
+			gzip(path, function(){
 				gzip_size = fs.statSync(path + '.gz').size;
 				total_gzip_compressed_size += gzip_size;
 				callback();
