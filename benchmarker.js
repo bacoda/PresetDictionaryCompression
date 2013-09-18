@@ -15,6 +15,8 @@ var count = 0;
 var output = [];
 
 function fileExt(path) {
+    if (path.length > 5)
+        path = path.substr(path.length - 5);
     var ext = PATH.extname(path).toLowerCase();
     if (ext == '.htm')
         ext = '.html';
@@ -60,14 +62,15 @@ function testSite(directory, callback) {
         tasks.addTask(function (completion) {
             var type = fileExt(file);
             if (type == '.css' || type == '.html' || type == '.js') {
-                count++;
                 benchmarkFile(name, file, type, completion);
-            } else if (type != '.7z' && type != '.dict') {
-                appendOutput({
-                    site: name,
-                    type: type,
-                    size: stat.size
-                });
+            } else {
+                if (type != '.7z' && type != '.dict') {
+                    appendOutput({
+                        site: name,
+                        type: type,
+                        size: stat.size
+                    });
+                }
                 completion();
             }
         });
