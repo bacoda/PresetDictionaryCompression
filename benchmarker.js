@@ -78,7 +78,7 @@ function benchmarkFile(path, completion) {
 
 var tasks = new taskgroup();
 tasks.setConfig({
-    concurrency: 16
+    concurrency: 1
 });
 
 child_process.exec(encoder + ' ' + keyword, function (error, stdout, stderr) {
