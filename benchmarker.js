@@ -122,36 +122,29 @@ function benchmarkFile(site, path, type, completion) {
 		
 		// 7zip
 		localTask.addTask(function(callback){
-			if (gzip_size < 1000) {
-				size_7z = gzip_size;
-				callback();
-			} else {
 			    zip(path, function () {
 			        var zipped = path + '.7z';
 			        size_7z = fs.statSync(zipped).size;
+					if (size_7z > gzip_size)
+						size_7z = gzip_size;
+		            total_7zip_compressed_size += size_7z;	
 					callback();
 				});					
-			}
 		});
 			
 		// 7zip with dict			
 		localTask.addTask(function(callback){
-			if (gzip_size < 1000) {
-				cat_size = gzip_size;
-				callback();
-			} else {
 	            zip(cat_file, function () {
                 	cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
 					
 					if (cat_size > gzip_size) {
-						console.log('Unexpected growth in size. ' + gzip_size + '->' + size_7z + '(' + cat_size + ') ' + path);
+						console.log('Unexpected growth in size. ' + gzip_size + '->' + cat_size + ' ' + path);
+						cat_size = gzip_size;						
 					}
 					
-	                total_7zip_compressed_size += size_7z;
 	                total_dict_compressed_size += cat_size;
 	                callback();
 	            });					
-			}
 		});
 
 		localTask.addTask(function(){
