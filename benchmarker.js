@@ -1,7 +1,7 @@
 var fs = require('fs');
 var child_process = require('child_process');
 var command_line = require('optimist').argv;
-var path = require('path');
+var PATH = require('path');
 var util = require('util');
 var finder = require('findit');
 var taskgroup = require('taskgroup').TaskGroup;
@@ -14,7 +14,7 @@ var count = 0;
 var output = [];
 
 function fileExt(path) {
-    var ext = path.extname(path).toLowerCase;
+    var ext = PATH.extname(path).toLowerCase;
     if (ext == '.htm')
         ext = '.html';
     return ext;
@@ -35,7 +35,7 @@ function zip(file, completion) {
 function testSite(directory, callback) {
     console.log('testing site:' + directory);
 
-    var name = path.basename(directory);
+    var name = PATH.basename(directory);
     //output[name] = {
     //    totalSize:0,
     //    cssCount:0,
