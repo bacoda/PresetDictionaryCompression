@@ -5,18 +5,9 @@ var path = require('path');
 var util = require('util');
 var taskgroup = require('taskgroup').TaskGroup;
 
-var encoder = 'p7zip';
 var directory = command_line._[0];
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
-
-
-console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory);
-
-if (!fs.existsSync(keyword)) {
-    console.error('File not exist');
-    process.exit(1);
-}
 
 function includeFile(path) {
     var lower_path = path.toLowerCase();
@@ -29,6 +20,18 @@ function includeFile(path) {
     return false;
 }
 
+function zip(file, completion) {
+    var command = '7zr a ' + file + '.7z ' + file;
+    child_process.exec(command, function (error, stdout, stderr) {
+        if (error) {
+            console.error(error);
+            console.error('when executing command: ' + command);
+            process.exit(1);
+        }
+        completion();
+    });
+}
+
 function benchmarkFile(path, completion) {
     if (!includeFile(path)) {
         completion();
@@ -36,15 +39,7 @@ function benchmarkFile(path, completion) {
     }
 
     console.log('testing ' + path);
-    var command = encoder + ' "' + path + '"';
-    console.log(command);
-    child_process.exec(command, function (error, stdout, stderr) {
-        if (error) {
-            console.error(error);
-            console.error('when executing command: ' + command);
-            process.exit(1);
-        }
-
+    zip(path, function () {
         var zipped = path + '.7z';
         var size = fs.statSync(zipped).size;
 
@@ -58,22 +53,22 @@ function benchmarkFile(path, completion) {
                 process.exit(1);
             }
 
-            console.log('2');
             var command = encoder + ' "' + cat_file + '"';
-            child_process.exec(command, function (error, stdout, stderr) {
-                if (error) {
-                    console.error(error);
-                    console.error('when executing command: ' + command);
-                    process.exit(1);
-                }
-
-                console.log('3');
+            zip(cat_file, function () {
                 var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size);
                 completion();
             });
         });
     });
+}
+
+
+console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory);
+
+if (!fs.existsSync(keyword)) {
+    console.error('File not exist');
+    process.exit(1);
 }
 
 var tasks = new taskgroup();
