@@ -14,7 +14,7 @@ var count = 0;
 var output = [];
 
 function fileExt(path) {
-    var ext = PATH.extname(path).toLowerCase;
+    var ext = PATH.extname(path).toLowerCase();
     if (ext == '.htm')
         ext = '.html';
     return ext;
