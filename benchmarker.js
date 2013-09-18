@@ -36,9 +36,11 @@ function benchmarkFile(path, completion) {
     }
 
     console.log('testing ' + path);
-    child_process.exec(encoder + ' ' + path, function (error, stdout, stderr) {
+    var command = encoder + ' ' + path;
+    child_process.exec(command, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
+            console.error('when executing command: ' + command);
             process.exit(1);
         }
 
@@ -46,15 +48,19 @@ function benchmarkFile(path, completion) {
         var size = fs.statSync(zipped).size;
 
         var cat_file = path + '.dict';
-        child_process.exec('cat ' + keyword + ' ' + path + ' > ' + cat_file, function (error, stdout, stderr) {
+        var command = 'cat ' + keyword + ' ' + path + ' > ' + cat_file
+        child_process.exec(command, function (error, stdout, stderr) {
             if (error) {
                 console.error(error);
+                console.error('when executing command: ' + command);
                 process.exit(1);
             }
 
-            child_process.exec(encoder + ' ' + cat_file, function (error, stdout, stderr) {
+            var command = encoder + ' ' + cat_file;
+            child_process.exec(command, function (error, stdout, stderr) {
                 if (error) {
                     console.error(error);
+                    console.error('when executing command: ' + command);
                     process.exit(1);
                 }
 
