@@ -62,7 +62,7 @@ function testSite(directory, callback) {
             if (type == '.css' || type == '.html' || type == '.js') {
                 count++;
                 benchmarkFile(name, file, type, completion);
-            } else {
+            } else if (type != '.7z' && type != '.dict') {
                 appendOutput({
                     site: name,
                     type: type,
