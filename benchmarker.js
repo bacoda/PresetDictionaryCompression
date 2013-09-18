@@ -7,7 +7,7 @@ var finder = require('findit');
 var taskgroup = require('taskgroup').TaskGroup;
 
 var directory = command_line.i;
-var output = command_line.o;
+var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
 var total_compressed_size = 0, total_dict_compressed_size = 0;
@@ -31,6 +31,11 @@ function zip(file, completion) {
         }
         completion();
     });
+}
+
+function appendOutput(obj) {
+    var str = obj.site + '\t' + obj.type + '\t' + obj.size + '\t' + (obj.size2 || '') + '\n';
+    fs.appendFileSync(output_file, str);
 }
 
 function testSite(directory, callback) {
@@ -58,7 +63,7 @@ function testSite(directory, callback) {
                 count++;
                 benchmarkFile(name, file, type, completion);
             } else {
-                output.push({
+                appendOutput({
                     site: name,
                     type: type,
                     size: stat.size
@@ -91,18 +96,12 @@ function benchmarkFile(site, path, type, completion) {
                 total_compressed_size += size;
                 total_dict_compressed_size += cat_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
-                output.push({
+                appendOutput({
                     site: site,
                     type: type,
                     size: size,
                     size2: cat_size
                 });
-
-                count--;
-                if (count == 0) {
-                    console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
-                        (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
-                }
 
                 completion();
             });
@@ -110,6 +109,17 @@ function benchmarkFile(site, path, type, completion) {
     });
 }
 
+function done() {
+    console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
+        (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
+
+    //console.log('saving result to file');
+    //var result = '';
+    //output.forEach(function (obj) {
+    //    var str = obj.site + '\t' + obj.type + '\t' + obj.size + '\t' + (obj.size2 || '') + '\n';
+    //    result += str;
+    //});
+}
 
 console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory + ' output: ' + output);
 
