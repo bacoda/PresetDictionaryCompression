@@ -24,7 +24,7 @@ function fileExt(path) {
 }
 
 function gzip(file, completion) {
-    var command = 'gzip --best -f -c "' + file + '" > ' + file + '.gz';
+    var command = 'gzip --best -f -c "' + file + '" > "' + file + '.gz"';
     child_process.exec(command, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
