@@ -147,7 +147,7 @@ function benchmarkFile(site, path, type, completion) {
 function dump() {
     console.log('gzip size:' + total_gzip_compressed_size
 	 	+ ' 7zip:' + total_7zip_compressed_size + '(' + 100*(total_gzip_compressed_size - total_7zip_compressed_size)/total_gzip_compressed_size + ')'
-	 	+ ' Dict:' + total_dict_compressed_size + '(' + 100*(total_gzip_compressed_size - total_dict_compressed_size)/total_gzip_compressed_size + ')';
+	 	+ ' Dict:' + total_dict_compressed_size + '(' + 100*(total_gzip_compressed_size - total_dict_compressed_size)/total_gzip_compressed_size + ')');
 }
 
 function done() {
