@@ -32,7 +32,7 @@ function zip(file, completion) {
     });
 }
 
-function testSite(directory) {
+function testSite(directory, callback) {
     var name = path.basename(directory);
     //output[name] = {
     //    totalSize:0,
@@ -47,7 +47,8 @@ function testSite(directory) {
     //    jsCompressedSize2: 0,
     //};
 
-    finder(directory).on('file', function (file, stat) {
+    var fileFinder = finder(directory);
+    fileFinder.on('file', function (file, stat) {
         tasks.addTask(function (completion) {
             var type = fileExt(path);
             if (type == '.css' || type == '.html' || type == '.js') {
@@ -63,6 +64,8 @@ function testSite(directory) {
             }
         });
     });
+
+    fileFinder.on('end', callback);
 }
 
 function benchmarkFile(site, path, type, completion) {
@@ -122,10 +125,10 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    tasks.addTask(function(){
+    tasks.addTask(function(completion){
         finder(directory).on('directory', function (path, stat) {
-            testSite(path);
-        })
+            testSite(path, completion);
+        });
     });
 
     tasks.run();
