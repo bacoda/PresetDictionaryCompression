@@ -8,6 +8,7 @@ var taskgroup = require('taskgroup').TaskGroup;
 var directory = command_line._[0];
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
+var total_compressed_size = 0, total_dict_compressed_size = 0;
 
 function includeFile(path) {
     var lower_path = path.toLowerCase();
@@ -55,6 +56,8 @@ function benchmarkFile(path, completion) {
 
             zip(cat_file, function () {
                 var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size;
+                total_compressed_size += size;
+                total_dict_compressed_size += cat_size;
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size);
                 completion();
             });
@@ -87,5 +90,10 @@ zip(keyword, function () {
     });
 
     tasks.run();
+
+    tasks.once('compelte', function (err, results) {
+        console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
+            (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
+    });
 });
 
