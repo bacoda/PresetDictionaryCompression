@@ -117,8 +117,12 @@ if (!fs.existsSync(keyword)) {
     process.exit(1);
 }
 
-var tasks = new taskgroup();
+var tasks = new taskgroup(), fileTasks = new taskgroup();
 tasks.setConfig({
+    concurrency: 30
+});
+
+fileTasks.setConfig({
     concurrency: 30
 });
 
@@ -133,6 +137,10 @@ zip(keyword, function () {
         });
     });
 
+    tasks.once('complete', function () {
+        console.log('Directory completes');
+        fileTasks.run();
+    });
     tasks.run();
 });
 
