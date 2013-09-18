@@ -142,6 +142,11 @@ function benchmarkFile(site, path, type, completion) {
 			} else {
 	            zip(cat_file, function () {
                 	cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
+					
+					if (cat_size > gzip_size) {
+						console.log('Unexpected growth in size. ' + gzip_size + '->' + size_7z + '(' + cat_size + ') ' + path);
+					}
+					
 	                total_7zip_compressed_size += size_7z;
 	                total_dict_compressed_size += cat_size;
 	                callback();
