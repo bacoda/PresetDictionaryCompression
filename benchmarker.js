@@ -66,7 +66,7 @@ function benchmarkFile(path, completion) {
     });
 }
 
-child_process.exec(encoder + ' ' + keyword), function (error, stdout, stderr) {
+child_process.exec(encoder + ' ' + keyword, function (error, stdout, stderr) {
     if (error) {
         console.error(error);
         process.exit(1);
