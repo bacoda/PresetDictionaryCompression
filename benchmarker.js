@@ -11,8 +11,8 @@ var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
 var total_compressed_size = 0, total_dict_compressed_size = 0;
-var count = 0;
 var output = [];
+var intervalId;
 
 function fileExt(path) {
     if (path.length > 5)
@@ -112,9 +112,16 @@ function benchmarkFile(site, path, type, completion) {
     });
 }
 
-function done() {
+function dump() {
     console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
         (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
+
+}
+
+function done() {
+    dump();
+
+    clearInterval(intervalId);
 
     //console.log('saving result to file');
     //var result = '';
@@ -158,5 +165,5 @@ zip(keyword, function () {
         tasks.run();
     });
 
+    intervalId = setInterval(dump, 10000);
 });
-
