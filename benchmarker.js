@@ -13,17 +13,11 @@ var total_compressed_size = 0, total_dict_compressed_size = 0;
 var count = 0;
 var output = [];
 
-function includeFile(path) {
-    var lower_path = path.toLowerCase();
-    if (lower_path.indexOf('.html') == path.length - 5 ||
-        lower_path.indexOf('.htm') == path.length - 4)
-        return 'html';
-
-    if (lower_path.indexOf('.css') == path.length - 4)
-        return 'css';
-
-    if (lower_path.indexOf('.js') == path.length - 3)
-        return 'js';
+function fileExt(path) {
+    var ext = path.extname(path).toLowerCase;
+    if (ext == '.htm')
+        ext = '.html';
+    return ext;
 }
 
 function zip(file, completion) {
@@ -54,20 +48,24 @@ function testSite(directory) {
     //};
 
     finder(directory).on('file', function (file, stat) {
-        count++;
         tasks.addTask(function (completion) {
-            benchmarkFile(name, file, completion);
+            var type = fileExt(path);
+            if (type == '.css' || type == '.html' || type == '.js') {
+                count++;
+                benchmarkFile(name, file, type, completion);
+            } else {
+                output.push({
+                    site: site,
+                    type: type,
+                    size: stat.size
+                });
+                completion();
+            }
         });
     });
 }
 
-function benchmarkFile(site, path, completion) {
-    var type = includeFile(path);
-    if (!type) {
-        completion();
-        return;
-    }
-
+function benchmarkFile(site, path, type, completion) {
     console.log('testing ' + path);
     zip(path, function () {
         var zipped = path + '.7z';
@@ -124,11 +122,8 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    finder(directory).on('directory', function (file, stat) {
-        count++;
-        tasks.addTask(function (completion) {
-            benchmarkFile(file, completion);
-        });
+    finder(directory).on('directory', function (path, stat) {
+        testSite(path);
     });
 
     tasks.run();
