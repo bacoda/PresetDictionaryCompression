@@ -10,7 +10,7 @@ var directory = command_line.i;
 var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
-var total_compressed_size = 0, total_dict_compressed_size = 0;
+var total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
 var output = [];
 var intervalId;
 
@@ -21,6 +21,18 @@ function fileExt(path) {
     if (ext == '.htm')
         ext = '.html';
     return ext;
+}
+
+function gzip(file, completion) {
+    var command = 'gzip --best -f "' + file + '"';
+    child_process.exec(command, function (error, stdout, stderr) {
+        if (error) {
+            console.error(error);
+            console.error('when executing command: ' + command);
+            process.exit(1);
+        }
+        completion();
+    });
 }
 
 function zip(file, completion) {
@@ -36,7 +48,7 @@ function zip(file, completion) {
 }
 
 function appendOutput(obj) {
-    var str = obj.site + '\t' + obj.type + '\t' + obj.size + '\t' + (obj.size2 || '') + '\n';
+    var str = obj.site + '\t' + obj.type + '\t' + obj.size + '\t' + (obj.size_7z || '') + '\t' + (obj.size_dict || '') + '\n';
     fs.appendFileSync(output_file, str);
 }
 
@@ -64,7 +76,7 @@ function testSite(directory, callback) {
             if (type == '.css' || type == '.html' || type == '.js') {
                 benchmarkFile(name, file, type, completion);
             } else {
-                if (type != '.7z' && type != '.dict') {
+                if (type != '.7z' && type != '.dict' && type != '.gz') {
                     appendOutput({
                         site: name,
                         type: type,
@@ -85,30 +97,50 @@ function benchmarkFile(site, path, type, completion) {
         var size = fs.statSync(zipped).size;
 
         var cat_file = path + '.dict';
-        var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"'
-        child_process.exec(command, function (error, stdout, stderr) {
-            if (error) {
-                console.error(error);
-                console.error('when executing command: ' + command);
-                process.exit(1);
-            }
-
+		var cat_size, gzip_size;
+        var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"';
+		
+		var localTask = new taskgroup();
+		localTask.addTask(function(callback){
+	        child_process.exec(command, function (error, stdout, stderr) {
+	            if (error) {
+	                console.error(error);
+	                console.error('when executing command: ' + command);
+	                process.exit(1);
+	            }
+				callback();
+			});	
+		});
+		
+		localTask.addTask(function(callback){
             zip(cat_file, function () {
-                var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
-                total_compressed_size += size;
+                cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
+                total_7zip_compressed_size += size;
                 total_dict_compressed_size += cat_size;
-                //console.log('testing ' + path);
-                //console.log('Compressed size: ' + size + ' With dict:' + cat_size + ' Ratio:' + (size-cat_size)*100/size);
-                appendOutput({
-                    site: site,
-                    type: type,
-                    size: size,
-                    size2: cat_size
-                });
+                callback();
+            });			
+		});
+		
+		localTask.addTask(function(callback){
+			gzip(path, function(callback){
+				gzip_size = fs.statSync(path + '.gz').size;
+				total_gzip_compressed_size += gzip_size;
+				callback();
+			});
+		});
 
-                completion();
-            });
-        });
+		localTask.addTask(function(){
+	        appendOutput({
+	            site: site,
+	            type: type,
+	            size: gzip_size,
+	            size_7z: size,
+				size_dict: cat_size
+	        });			
+		});
+		
+		localTask.once('complete', completion);
+		localTask.run();
     });
 }
 
