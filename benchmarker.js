@@ -91,7 +91,7 @@ zip(keyword, function () {
 
     tasks.run();
 
-    tasks.once('compelte', function (err, results) {
+    tasks.once('complete', function (err, results) {
         console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
             (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
     });
