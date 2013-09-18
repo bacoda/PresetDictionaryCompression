@@ -49,7 +49,7 @@ function benchmarkFile(path, completion) {
         var size = fs.statSync(zipped).size;
 
         var cat_file = path + '.dict';
-        var command = 'cat "' + keyword + '" "' + path + '" > ' + cat_file
+        var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"'
         console.log(command);
         child_process.exec(command, function (error, stdout, stderr) {
             if (error) {
