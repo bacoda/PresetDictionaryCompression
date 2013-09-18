@@ -148,6 +148,7 @@ zip(keyword, function () {
     siteFinder.on('end', function () {
         tasks.once('complete', function () {
             console.log('done!!!!!!!!!!!!!!!!');
+            done();
         });
         tasks.run();
     });
