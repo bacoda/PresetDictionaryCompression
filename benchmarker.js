@@ -76,6 +76,11 @@ function benchmarkFile(path, completion) {
     });
 }
 
+var tasks = new taskgroup();
+tasks.setConfig({
+    concurrency: 16
+});
+
 child_process.exec(encoder + ' ' + keyword, function (error, stdout, stderr) {
     if (error) {
         console.error(error);
@@ -85,11 +90,6 @@ child_process.exec(encoder + ' ' + keyword, function (error, stdout, stderr) {
     var zipped = keyword + '.7z';
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
-
-    var tasks = new taskgroup();
-    tasks.setConfig({
-        concurrency: 16
-    });
 
     require('findit')(directory).on('file', function (file, stat) {
         tasks.addTask(function (completion) {
