@@ -46,7 +46,6 @@ function benchmarkFile(path, completion) {
 
         var cat_file = path + '.dict';
         var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"'
-        console.log(command);
         child_process.exec(command, function (error, stdout, stderr) {
             if (error) {
                 console.error(error);
@@ -89,11 +88,11 @@ zip(keyword, function () {
         });
     });
 
-    tasks.run();
-
     tasks.once('complete', function (err, results) {
         console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
             (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
     });
+
+    tasks.run();
 });
 
