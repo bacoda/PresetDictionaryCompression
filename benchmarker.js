@@ -9,6 +9,7 @@ var directory = command_line._[0];
 var keyword = command_line.dict || 'keyword.txt';
 var keyword_size = 0;
 var total_compressed_size = 0, total_dict_compressed_size = 0;
+var count = 0;
 
 function includeFile(path) {
     var lower_path = path.toLowerCase();
@@ -60,6 +61,12 @@ function benchmarkFile(path, completion) {
                 console.log('Compressed size: ' + size + ' With dict:' + cat_size);
                 completion();
             });
+
+            count--;
+            if (count == 0) {
+                console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
+                    (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
+            }
         });
     });
 }
@@ -83,11 +90,11 @@ zip(keyword, function () {
     console.log('Dictionary compressed size:' + keyword_size);
 
     tasks.once('complete', function (err, results) {
-        console.log('Original compressed size:' + total_compressed_size + ' With dict:' + total_dict_compressed_size + ' Ratio:' +
-            (total_compressed_size - total_dict_compressed_size) * 100 / total_compressed_size);
+
     });
 
     require('findit')(directory).on('file', function (file, stat) {
+        count++;
         tasks.addTask(function (completion) {
             benchmarkFile(file, completion);
         });
