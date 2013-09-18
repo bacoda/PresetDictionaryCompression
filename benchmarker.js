@@ -52,7 +52,7 @@ function testSite(directory, callback) {
     var fileFinder = finder(directory);
     fileFinder.on('file', function (file, stat) {
         tasks.addTask(function (completion) {
-            var type = fileExt(path);
+            var type = fileExt(file);
             if (type == '.css' || type == '.html' || type == '.js') {
                 count++;
                 benchmarkFile(name, file, type, completion);
