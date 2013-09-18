@@ -24,7 +24,7 @@ function fileExt(path) {
 }
 
 function gzip(file, completion) {
-    var command = 'gzip --best -f "' + file + '"';
+    var command = 'gzip --best -f -c "' + file + '" > ' + file + '.gz';
     child_process.exec(command, function (error, stdout, stderr) {
         if (error) {
             console.error(error);
@@ -53,7 +53,7 @@ function appendOutput(obj) {
 }
 
 function testSite(directory, callback) {
-    console.log('testing site:' + directory);
+    console.log('Parsing folder:' + directory);
 
     var name = PATH.basename(directory);
     //output[name] = {
