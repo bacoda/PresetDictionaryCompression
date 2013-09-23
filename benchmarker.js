@@ -7,7 +7,7 @@ var finder = require('findit');
 var taskgroup = require('taskgroup').TaskGroup;
 
 // params
-var directory = command_line.i;
+var input_folder = command_line.i;
 var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 
@@ -57,6 +57,12 @@ function appendOutput(obj) {
 }
 
 function testSite(directory, callback) {
+    var base = PATH.resolve(input_folder);
+    var current = PATH.resolve(directory);
+    var relative = PATH.relative(base, current);
+    if (relative.indexOf(PATh.sep))
+        return;
+
     console.log('Parsing folder:' + directory);
 
     var name = PATH.basename(directory);
@@ -169,7 +175,7 @@ function dump() {
 
 function saveResult(obj) {
     if (obj) {
-        var file = PATH.dirname(directory) + '.' + obj['type'];
+        var file = PATH.dirname(input_folder) + '.' + obj['type'];
         console.log('Writing result to ' + file);
         fs.writeFileSync(file, JSON.stringify(obj));
     }
@@ -192,7 +198,7 @@ function done() {
     //});
 }
 
-console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory + ' output: ' + output);
+console.log('Benchmarking with dictionary: ' + keyword + ' in ' + input_folder + ' output: ' + output);
 
 if (!fs.existsSync(keyword)) {
     console.error('Dictionary file not exist');
@@ -209,7 +215,7 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    var base_file_path = PATH.dirname(directory) + '.gzip';
+    var base_file_path = PATH.dirname(input_folder) + '.gzip';
     console.log('Reading gzip data from ' + base_file_path);
 
     if (fs.existsSync(base_file_path)) {
@@ -246,7 +252,7 @@ zip(keyword, function () {
         };
     }
 
-    var siteFinder = finder(directory);
+    var siteFinder = finder(input_folder);
     siteFinder.on('directory', function (path, stat) {
         tasks.addTask(function (completion) {
             testSite(path, completion);
