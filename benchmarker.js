@@ -13,7 +13,7 @@ var keyword = command_line.dict || 'keyword.txt';
 
 var base_gzip, lzma, lzma_dict, gzip_dict;
 
-var keyword_size = 0, total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
+var dict_lzma_size, dict_gzip_size, total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
 var rebase = false;
 var output = [];
 var intervalId;
@@ -156,7 +156,7 @@ function benchmarkFile(site, path, type, completion) {
 	if (lzma_dict) {
 		localTask.addTask(function (callback) {
 		    zip(cat_file, function () {
-		        var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
+		        var cat_size = fs.statSync(cat_file + '.7z').size - dict_lzma_size + 90;
 
 		        if (cat_size > gzip_size) {
 		            console.log('Unexpected growth in size. ' + gzip_size + '->' + cat_size + ' ' + path);
@@ -234,61 +234,67 @@ tasks.setConfig({
 
 zip(keyword, function () {
     var zipped = keyword + '.7z';
-    keyword_size = fs.statSync(zipped).size;
-    console.log('Dictionary compressed size:' + keyword_size);
+    dict_lzma_size = fs.statSync(zipped).size;
+    console.log('Dictionary lzma compressed size:' + dict_lzma_size);
 
-    var base_file_path = PATH.basename(input_folder) + '.gzip';
-    console.log('Reading gzip data from ' + base_file_path);
+    gzip(keyword, function () {
+        var zipped = keyword + '.gz';
+        dict_gzip_size = fs.statSync(zipped).size;
+        console.log('Dictionary gzip compressed size:' + dict_gzip_size);
 
-    if (fs.existsSync(base_file_path)) {
-        var base_str = fs.readFileSync(base_file_path, 'utf-8');
-        base_gzip = JSON.parse(base_str);
-    } else {
-        console.log('Found no base file, will rebase');
-        rebase = true;
-        base_gzip = {
-            total: 0,
-            type: 'gzip',
-            sizes: {},
-        };
-    }
+        var base_file_path = PATH.basename(input_folder) + '.gzip';
+        console.log('Reading gzip data from ' + base_file_path);
 
-    if (command_line.lzma) {
-        lzma = {
-            type: 'lzma',
-            total: 0,
-        };
-    }
+        if (fs.existsSync(base_file_path)) {
+            var base_str = fs.readFileSync(base_file_path, 'utf-8');
+            base_gzip = JSON.parse(base_str);
+        } else {
+            console.log('Found no base file, will rebase');
+            rebase = true;
+            base_gzip = {
+                total: 0,
+                type: 'gzip',
+                sizes: {},
+            };
+        }
 
-    if (command_line.lzmadict) {
-        lzma_dict = {
-            type: 'shared dictionary lzma',
-            total: 0,
-        };
-    }
+        if (command_line.lzma) {
+            lzma = {
+                type: 'lzma',
+                total: 0,
+            };
+        }
 
-    if (command_line.gzipdict) {
-        gzip_dict = {
-            type: 'shared dictionary gzip',
-            total: 0,
-        };
-    }
+        if (command_line.lzmadict) {
+            lzma_dict = {
+                type: 'shared dictionary lzma',
+                total: 0,
+            };
+        }
 
-    var siteFinder = finder(input_folder);
-    siteFinder.on('directory', function (path, stat) {
-        tasks.addTask(function (completion) {
-            testSite(path, completion);
+        if (command_line.gzipdict) {
+            gzip_dict = {
+                type: 'shared dictionary gzip',
+                total: 0,
+            };
+        }
+
+        var siteFinder = finder(input_folder);
+        siteFinder.on('directory', function (path, stat) {
+            tasks.addTask(function (completion) {
+                testSite(path, completion);
+            });
         });
-    });
 
-    siteFinder.on('end', function () {
-        tasks.once('complete', function () {
-            console.log('==============done!!!!!!!!!!!!!!!!');
-            done();
+        siteFinder.on('end', function () {
+            tasks.once('complete', function () {
+                console.log('==============done!!!!!!!!!!!!!!!!');
+                done();
+            });
+
+            tasks.run();
         });
 
-        tasks.run();
+        intervalId = setInterval(dump, 10000);
     });
-
-    intervalId = setInterval(dump, 10000);
 });
