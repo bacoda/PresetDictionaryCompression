@@ -65,7 +65,9 @@ function testSite(directory, callback) {
         return;
     }
 
-    console.log('Parsing webpage:' + directory);
+    if (command_line.verbose) {
+        console.log('Parsing webpage:' + directory);
+    }
 
     var name = PATH.basename(directory);
 
@@ -279,6 +281,8 @@ zip(keyword, function () {
             };
         }
 
+        console.log('Scanning folders...');
+
         var siteFinder = finder(input_folder);
         siteFinder.on('directory', function (path, stat) {
             tasks.addTask(function (completion) {
@@ -292,6 +296,7 @@ zip(keyword, function () {
                 done();
             });
 
+            console.log('Compression testing...');
             tasks.run();
         });
 
