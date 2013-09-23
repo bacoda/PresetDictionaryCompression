@@ -11,7 +11,7 @@ var directory = command_line.i;
 var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 
-var gzip, lzma, lzma_dict, gzip_dict;
+var base_gzip, lzma, lzma_dict, gzip_dict;
 
 var keyword_size = 0, total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
 var rebase = false;
@@ -96,13 +96,13 @@ function benchmarkFile(site, path, type, completion) {
 	    localTask.addTask(function (callback) {
 	        gzip(path, function () {
 	            gzip_size = fs.statSync(path + '.gz').size;
-	            gzip.total += gzip_size;
-	            gzip.sizes[path] = gzip_size;
+	            base_gzip.total += gzip_size;
+	            base_gzip.sizes[path] = gzip_size;
 	            callback();
 	        });
 	    });
 	} else {
-	    gzip_size = gzip.sizes[path];
+	    gzip_size = base_gzip.sizes[path];
 	    if (!gzip_size) {
 	        console.error('Failed to get size for ' + path);
 	        process.exit(1);
@@ -159,9 +159,25 @@ function benchmarkFile(site, path, type, completion) {
 }
 
 function dump() {
-    console.log('gzip size:' + total_gzip_compressed_size
-	 	+ ' 7zip:' + total_7zip_compressed_size + '(' + 100*(total_gzip_compressed_size - total_7zip_compressed_size)/total_gzip_compressed_size + ')'
-	 	+ ' Dict:' + total_dict_compressed_size + '(' + 100*(total_gzip_compressed_size - total_dict_compressed_size)/total_gzip_compressed_size + ')');
+    console.log('gzip size:' + gzip.total);
+
+    if (lzma) {
+        console.log('lzma size:' + lzma.total + ' Compared with gzip:' + 100*(gzip.total - lzma.total)/gzip.total);
+    }
+    if (lzma_dict) {
+        console.log('lzma with dict size:' + lzma_dict.total + ' Compared with gzip:' + 100 * (gzip.total - lzma_dict.total) / gzip.total);
+    }
+    if (gzip_dict) {
+        console.log('gzip with dict size:' + gzip_dict.total + ' Compared with gzip:' + 100 * (gzip.total - gzip_dict.total) / gzip.total);
+    }
+}
+
+function saveResult(obj) {
+    if (obj) {
+        var file = PATH.dirname(directory) + '.' + obj['type'];
+        console.log('Writing result to ' + file);
+        fs.writeFileSync(file, JSON.stringify(obj));
+    }
 }
 
 function done() {
@@ -169,6 +185,10 @@ function done() {
 
     clearInterval(intervalId);
 
+    saveResult(gzip);
+    saveResult(gzip_dict);
+    saveResult(lzma);
+    saveResult(lzma_dict);
     //console.log('saving result to file');
     //var result = '';
     //output.forEach(function (obj) {
@@ -180,7 +200,7 @@ function done() {
 console.log('Benchmarking with dictionary: ' + keyword + ' in ' + directory + ' output: ' + output);
 
 if (!fs.existsSync(keyword)) {
-    console.error('File not exist');
+    console.error('Dictionary file not exist');
     process.exit(1);
 }
 
@@ -194,8 +214,8 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    var base_file_path = PATH.dirname(directory) + '.base';
-    console.log('Reading base' + folder);
+    var base_file_path = PATH.dirname(directory) + '.gzip';
+    console.log('Reading gzip data from ' + base_file_path);
 
     if (fs.existsSync(base_file_path)) {
         var base_str = fs.readFileSync(folder, 'utf-8');
@@ -205,24 +225,28 @@ zip(keyword, function () {
         rebase = true;
         gzip = {
             total: 0,
+            type: 'gzip',
             sizes: {},
         };
     }
 
     if (command_line.lzma) {
         lzma = {
+            type: 'lzma',
             total: 0,
         };
     }
 
     if (command_line.lzma_dict) {
         lzma_dict = {
+            type: 'shared dictionary lzma',
             total: 0,
         };
     }
 
     if (command_line.gzip_dict) {
         gzip_dict = {
+            type: 'shared dictionary gzip',
             total: 0,
         };
     }
@@ -236,7 +260,7 @@ zip(keyword, function () {
 
     siteFinder.on('end', function () {
         tasks.once('complete', function () {
-            console.log('done!!!!!!!!!!!!!!!!');
+            console.log('==============done!!!!!!!!!!!!!!!!');
             done();
         });
 
