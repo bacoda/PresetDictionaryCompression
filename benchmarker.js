@@ -248,6 +248,7 @@ function done() {
     saveResult(gzip_dict);
     saveResult(lzma);
     saveResult(lzma_dict);
+	saveResult(zopfli);
 }
 
 console.log('Benchmarking with dictionary: ' + keyword + ' in ' + input_folder + ' output: ' + output);
