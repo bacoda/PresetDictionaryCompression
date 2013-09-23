@@ -304,12 +304,12 @@ zip(keyword, function () {
             };
         }
 
-	if (command_line.zopfli) {
-		zopfli = {
-			type: 'zopfli',
-			total: 0
+		if (command_line.zopfli) {
+			zopfli = {
+				type: 'zopfli',
+				total: 0
+			};
 		}
-	}
 
         console.log('Scanning folders...');
 
