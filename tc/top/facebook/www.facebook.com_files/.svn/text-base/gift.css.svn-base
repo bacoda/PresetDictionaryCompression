@@ -1,0 +1,14 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/gifts/gift.css r102773                                                  */
+/*      Machine:  10.16.140.103                                                               */
+/*    Generated:  September 13th 2008 1:22:04 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.gift_outer{padding:3px;float:left;margin-left:4px;margin-top:4px;}
+.gift_inner{background-image:none;background-repeat:no-repeat;width:64px;height:64px;}
+.giftshop_gift_info{margin:0 0 0 4px;float:left;} 
+.giftshop_gift_info .gift_title{margin:0px;font-size:9px;} 
+.giftshop_gift_info .limited_time, 
+.giftshop_gift_info .limited_edition{margin-top:2px;font-size:9px;color:#999;} 

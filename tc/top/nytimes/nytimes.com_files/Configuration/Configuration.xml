@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Configuration onLoadMatric="false">
+  <Teaser Image="StorySpecific" thumbnail_as_raw="true">
+    <ClickAnimation Display="disabled" Position="12,296" Opacity="100"/>
+    <logo Display="enabled" Position="345,260" Opacity="100"/>
+  </Teaser>
+  <AutoPlaySettings AutoPlay="false"/>
+  <EndSlate BackgroundImage="StorySpecific" Replay="true" Send="true" Info="true" MoreVideo="true" Embed="true" thumbnail_as_raw="true">
+    <ClickAnimation Display="disabled" Position="12,304" Opacity="100"/>
+  </EndSlate>
+  <PlayerControls Position="11,296" Shade_Progress="enabled" Shade_Volume="enabled" AutoMute="false" Default_Volume="50" fadeoutTime="1"/>
+  <MetaDisplay>
+    <Default Display="disabled" Position="12,322" Headline="false" Subheadline="false"/>
+    <MouseOver Display="disabled" Position="12,296" Headline="false" Subheadline="false"/>
+  </MetaDisplay>
+  <Componentmenu>
+    <Send Display="true" ReturnSkin="http://cbtelegraph.feedroom.com/custom/natalie/service/sendMail.jsp" TargetSkin=""/>
+    <MoreVideo Display="true" TargetSkin="http://www.feedroom.com/" TargetWindow="_blank"/>
+    <Embed Display="true"/>
+    <Info Display="true"/>
+  </Componentmenu>
+  <Video Progressive="False" Prefix="rtmp://cp30875.edgefcs.net/ondemand/30875/" Converted="http://akaflcdn.feedroom.com/"/>
+  <Preroll Display="enabled" Frequency="2" interstitial="true" interstitialTime="2"/>
+  <Postroll Display="disabled" Frequency="2" interstitial="true" interstitialTime="3"/>
+  <Watermark Display="enabled" Position="335,260" Opacity="100" fadeoutTime="45" inAds="true"/>
+  <Color Primary="0x000000" Secondary="0xBBBBBB" majorGradient="0x006600" minorGradient="0x009999" lineColor="0x000000"/>
+  <EmbedCodes>Object,iFrame,Javascript,Default,Embed</EmbedCodes>
+</Configuration>

@@ -1,0 +1,495 @@
+/* $Id: promos.css,v 1.19 2008/03/19 14:46:10 fisherc Exp $
+   /css/home/screen/promos.css
+   (c)2006 - 2008 The New York Times Company  */
+
+@import url(general2.css); 
+
+
+/*C COLUMN PROMOS*/
+#edPromo .subColumnA .columnGroup:last-child,
+#edPromo .subColumnB .columnGroup:last-child{
+  margin-bottom:0 !important;
+}
+
+#edPromo h4 {
+  margin-bottom: 4px;
+}
+
+#edPromo h4 a{
+  color:black;   
+}
+
+#edPromo .story{
+  margin-top:0px !important;
+  margin-bottom:12px !important;
+}
+
+#mainTable .cColumn #edPromo div.story:last-child{
+  margin-bottom:0 !important;   
+}
+
+#edPromo .story p {
+  line-height:135%;
+}
+
+#edPromo .story p:last-child{
+  margin-bottom:0 !important;
+}
+
+#edPromo .callout {
+  margin:0;
+  padding:  4px 0 4px 5px; 
+}
+
+#edPromo form {
+  display:block;
+  width:auto;
+}
+
+/*nested subcolumns*/
+#edPromo .subColumnA .subColumnA ul,
+#edPromo .subColumnA .subColumnB ul {
+  margin-bottom:12px !important;
+}
+
+#edPromo .subColumnA .subColumnA .refer li,
+#edPromo .subColumnA .subColumnB .refer li{
+  font-size:78%;
+}
+
+#mainTable .cColumn div.subColumnB .refer.opinion{
+  font-size: small;
+  }
+
+#mainTable .cColumn div.subColumnB .refer.opinion li {
+  margin-bottom: 4px;
+  font-size:85%;
+  line-height:1.1em;
+}
+
+#mainTable .cColumn .refer.opinion li a, 
+#mainTable .cColumn .refer.opinion li.free a {
+  font-family: Georgia, Times, serif;
+}
+
+/* Latest Developments */
+#page div#latestDevelopments h5 {
+  font-size: 99.5% !important;
+  line-height: 1.1em;
+  font-family: Georgia, Times, serif;
+  text-transform: none;
+  font-weight: bold;
+} 
+
+/* Election 2006 opinion */
+.cColumn .columnGroup h4 a {
+  color: #000;
+}
+
+#opPromo {
+  overflow: hidden;
+  border-top:0 !important;
+  padding-top:0 !important;
+  margin-top:0 !important;
+}                  
+
+#opPromo h4 {
+  margin-bottom: 4px;
+}
+
+#TSfreeAccess {
+  color: #ef5c23;
+  text-transform: uppercase;
+  font-size: 91.5%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  float:right;
+  
+}
+
+
+/* Market Watch Module (updated)
+---------------------------- */
+h4.marketWatchHeadings {float:left;}
+
+/*\*/
+html*.MyPortfolioLink,
+html*.StockQuotes div.StockInputLabel {
+  margin-top: 1px;
+  _margin-top:-2px;
+   }
+
+.MyPortfolioLink {
+   float:left;
+   font-family:arial,sans-serif;
+   font-size:82%;
+   padding-right:3px;
+   margin-top:-2px;
+   line-height:1.1em;
+   _line-height:1.2em;
+   }
+
+img.StockChart {clear:both;}
+
+.StockQuotes {
+	clear:left;
+	padding-top:6px;
+	overflow:hidden;
+	width:165px;
+	}
+	
+.StockQuotes form {
+	margin:0;
+	padding:0;
+	text-align:right;
+	float:right;
+	width:110px;
+	_padding-top:1px;
+	padding-right:1px;
+	}
+
+.StockQuotes div.StockInputLabel{
+	float:left;
+	color:#666;
+	font-family:arial,sans-serif;
+	font-size:82%;
+	text-align:left;
+	line-height:1.1em;
+	margin-top:-2px;
+	padding-right:2px;
+	padding-left:4px;
+	_padding-left:0;
+	}
+
+.StockQuotes #symb {
+	font-size:93%;
+	}
+
+.StockQuotes #marketsSearchSubmit {
+	padding-bottom:3px;
+	}
+
+* html .StockQuotes #marketsSearchSubmit {
+	padding-bottom:0px;
+	}
+
+/* Market Watch Module (original) 
+------------------------------------  */	   
+#marketWatchModule {
+	color: #666;
+	font: 85% Arial, sans-serif;
+	}
+	
+#marketWatchModule img {
+  margin: 0 10px 10px 0;
+	}
+	
+#marketWatchModule #marketsStockQuoteSearchSubmit {
+	margin-top: 3px;
+	vertical-align: text-bottom;
+	} 
+	
+	
+#marketWatchModule a {
+  font-size: 85%;            
+	display: block;
+	}
+	
+#marketWatchModule input#searchQuery {
+	width:4.7em;
+	margin-bottom:3px;
+	_margin-bottom:0;
+	padding-top:2px;}
+
+
+/* START classifiedsWidget styles
+------------------------------------  */			
+#classifiedsWidget .tabContent {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom:0 !important;
+    border-bottom: 1px solid #ccc;
+    }
+
+
+		
+#classifiedsWidget .tabContent .summary {
+    line-height:110% !important;
+    margin-bottom:6px !important;
+    }
+
+#classifiedsWidget #allClassifieds .kicker,
+#classifiedsWidget #allClassifieds .refer  {
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+    }
+
+#classifiedsWidget .story {
+    margin-bottom:12px !important;
+} 
+
+#classifiedsWidget .callout {
+    margin-left:12px !important;
+} 
+
+
+#classifiedsWidget .editColumn .kicker,
+#classifiedsWidget .editColumn .refer,
+#classifiedsWidget .searchColumn .kicker, 
+#classifiedsWidget .searchColumn .refer  {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    }
+
+#classifiedsWidget .story .refer {
+        font-size:inherit;
+        }    
+
+#classifiedsWidget .refer {
+        font-family:Arial, Helvetica, sans-serif !important;
+        font-size:85%;
+        }
+
+#classifiedsWidget .tabContent:after {
+    content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html #classifiedsWidget .tabContent {
+	height: 1%; 
+	}
+/* End hide from IE-mac */	
+
+#classifiedsWidget .tabContent .subColumns {
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+    }
+
+#classifiedsWidget .tabContent .subColumnA,
+#classifiedsWidget .tabContent .editColumn {
+    width:173px;
+    float:left;
+    display:inline;
+    margin-left:6px !important;
+    margin-right:6px !important;
+    border:none !important;
+    }
+
+#classifiedsWidget .tabContent .subColumnB,
+#classifiedsWidget .tabContent .searchColumn {
+    width:134px !important;
+    float:left;
+    display:inline;
+    margin-left:6px !important;
+    margin-right:6px !important;  
+    border:none !important; 
+    }
+
+* html #classifiedsWidget .tabContent .subColumnB {
+    margin-left:0px !important;
+    }
+
+#classifiedsWidget .tabContent .story h5 {
+    font-size:100% !important;
+    }
+
+#classifiedsWidget .tabContent .kicker {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:90%;
+    text-transform:uppercase;
+    margin:0 0 2px 0 !important;
+    clear:left;
+    }
+
+#classifiedsWidget .tabContent .subColumnA ul, 
+#classifiedsWidget .tabContent .subColumnB ul {
+    margin:0 0 0px 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:90%;
+    line-height:140%;
+
+    }
+
+
+#classifiedsWidget .tabContent .subColumnA li, 
+#classifiedsWidget .tabContent .subColumnB li {
+    background:none !important;
+padding-left:2px !important;
+    }
+
+
+#classifiedsWidget .tabContent .subheader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    display: block;
+    margin-top: -3px !important;
+    margin-bottom: 7px;
+    }
+
+#classifiedsWidget .tabContent .refer {
+    margin-bottom: 10px;
+    clear: both;
+    }
+        
+#classifiedsWidget .tabContent .searchForm {
+    float: left;
+    display: inline;
+    width: 134px !important;
+    margin: 0 0 12px 0 !important;
+    }
+
+#classifiedsWidget .tabContent .searchForm input#searchQuery {
+    width:128px;
+    margin-bottom:4px;
+    }
+
+#classifiedsWidget .tabContent .searchForm input#searchSubmit {
+    float:left;
+    display:inline;
+    clear:none !important;
+    }
+
+#classifiedsWidget .tabContent .searchForm .more {
+    float:right;
+    display:inline;
+    margin-top:5px;
+    font-size:.8em !important;
+    }
+
+
+/*Ads and announcements in classifieds*/
+
+#classifiedsWidget .tabContent .announcement {
+    width:305px !important;
+    height:auto !important;
+    padding:7px !important;
+    margin: 4px 7px 7px 7px !important;
+    background-color:#EFEFEF !important;
+    }
+
+#classifiedsWidget .tabContent .announcement p.summary {
+    margin: 0px !important;
+    }
+
+#classifiedsWidget .tabContent .announcement .callout {
+    width:120px;
+    height:60px;
+    margin-bottom:0px !important;
+    /*border:1px solid #ccc;*/
+    overflow:hidden;
+    border:none;
+    /*overflow:visible;*/
+    }
+
+#classifiedsWidget .tabContent .advertisement {
+    clear:both;
+    width:318px;
+    padding:7px 0 0 !important;
+    margin:0 7px 7px 7px !important;
+	border-top: 1px solid #e2e2e2;    
+}
+
+div.tabFoot {
+	text-align:center;
+	padding:5px 0 0 0 !important;
+	margin-bottom:5px;
+}
+
+div.tabFoot a.more {
+	font-size:91.6%;
+	font-family:Arial,sans-serif;
+}
+
+
+
+#jobMarket .advertisement .kicker,
+#jobMarket .advertisement .summary,
+#jobMarket .advertisement .refer {
+    float:right !important;
+    clear:none !important;
+    width:172px !important;
+    }
+
+#classifiedsWidget .tabContent .advertisement .callout {
+    float:left !important;
+    display:inline;
+    width:171px;
+    height:96px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    margin-left:0px !important;
+    margin-right:13px;
+    padding:0;
+    }
+
+#classifiedsWidget .tabContent .story.advertisement h5, 
+#classifiedsWidget .tabContent .story.announcement h5 {
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size:90%!important;
+    margin-bottom:0px !important;
+    line-height:120%!important;
+    }
+
+#classifiedsWidget .tabContent .story.advertisement h5,
+#classifiedsWidget .tabContent .story.advertisement p.summary {
+    display:block;
+    }
+
+#classifiedsWidget .tabContent .story.advertisement p.summary, 
+#classifiedsWidget .tabContent .story.announcement p.summary {
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size:90%!important;
+    line-height:120%!important;
+    margin-bottom:6px !important;
+    color:#000 !important;
+    letter-spacing:-0.01em;
+    word-spacing:-0.15em;
+    }
+
+#classifiedsWidget .tabContent .advertisement .adCreative {
+    float:left !important;
+    } 
+
+#classifiedsWidget .tabContent .searchColumn #moduleAd {
+    clear:both;
+    margin: 0px 0px 0px 0px !important;
+    border:none;
+    text-align:center;
+    }
+
+#jobMarket .adCreative {
+    float:left !important;
+    width:120px !important;
+    height:60px !important;
+    padding: 7px !important;
+    margin:0 6px 0 0px;
+    background:#EFEFEF;
+    overflow:hidden;
+    }
+
+#classifiedsWidget .tabContent .searchColumn .adCreative {
+    width:120px !important;
+    height:60px !important;
+    float:none !important;
+    background: #EFEFEF;
+    padding:7px;
+    text-align:center;
+    overflow:hidden;
+    }
+
+#classifiedsWidget .tabContent .searchColumn .adCreative img {
+    text-align:center;
+    float:none !important;
+    margin:0;
+    padding:0;
+    }
+    
+/* END classifiedsWidget styles
+------------------------------------  */    
+	
+	

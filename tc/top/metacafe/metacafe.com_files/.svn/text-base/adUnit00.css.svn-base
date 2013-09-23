@@ -1,0 +1,141 @@
+html{
+	width:100%;
+	margin:0px;
+}
+
+body{
+	font-family: verdana;
+	font-size: 11px;
+	margin:0px;
+	width:100%;
+	border-bottom: 0px solid #DBDBDB;
+	background-color:Transparent;	
+}
+a {
+	color: #1d73a3;
+	text-decoration: underline;
+}
+.adUnitCompanion {
+	clear: both;
+	background: url('hpPlayer.gif') left top no-repeat;
+	width: 290px;
+	height: 37px;
+	margin: 4px 2px 0 4px;
+}
+* html .adUnitCompanion {
+	background: url('hpPlayer.gif') left top no-repeat;
+	width: 294px;
+	height: 41px;
+	margin: 4px 2px 0 2px;
+}
+.info {
+	width: 190px;
+	padding: 5px 0 5px 10px ;
+}
+* html .info {
+	width: 220px;
+	padding: 5px 10px;
+}
+.image {
+	float: left;
+	width: 290px;
+	height: 33px;
+	margin: 1px 0px 1px 1px ;
+}
+* html .image {
+	float: left;
+	width: 289px;
+	height: 33px;
+	margin: 1px 0px 1px 0px ;
+	position: relative;
+	left: 1px;
+}
+.imageRight {
+	float: right;
+	width: 60px;
+	height: 33px;
+	margin: 2px 3px 0 0;
+}
+* html .imageRight {
+	float: right;
+	width: 60px;
+	height: 33px;
+	margin: 2px 3px 0 0;
+}
+.adUnitCompanionBox {
+	clear: both;
+	float: left;
+	width: 298px;
+	height: 45px;
+	/*border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
+	border-bottom: 1px solid #DBDBDB;*/
+}
+* html .adUnitCompanionBox {
+	width: 300px;
+	height: 33px;
+} 
+
+.adUnit{
+	background-color:#000000;
+	/*border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;*/
+}
+.hebrew {
+	direction:rtl;
+	text-align:right;
+	float:right;
+	margin:0 5px;
+}
+#DiggBanner {
+	width: 288px;
+	height: 35px;
+	position: relative;
+	left: 1px;
+	top:1px;
+}
+#DiggBanner a {
+	display: block;
+	padding: 4px 0 0 35px;
+	float: left;
+	height: 19px;
+	margin: 8px 0 0 0;
+	font-size: 9px;
+}
+#DiggBanner .DiggIt{
+	position: absolute;
+	right:0;
+	background: #fafafa;
+	height: 35px;
+	width: 120px;
+}
+#DiggBanner .DiggIt div {
+	background: #fafafa;	
+	margin: 12px 0 0 0;
+}
+* html #DiggBanner .DiggIt div {
+	margin: 10px 0 0 0;
+}
+* html iframe{
+	right:3px;
+	bottom:10px;
+	position:absolute;
+}
+.adUnitText {
+	border: 1px solid #603d21;
+	background: #d1bea0;
+	width: 268px;
+	height: 24px;
+	margin:2px auto;
+	padding: 5px 10px;
+}
+* html .adUnitText {
+	width: 288px;
+	margin:2px 6px;
+}
+.adUnitText.Image {
+	width: 288px;
+	height: 34px;
+	margin:2px auto;
+	padding: 0;
+}

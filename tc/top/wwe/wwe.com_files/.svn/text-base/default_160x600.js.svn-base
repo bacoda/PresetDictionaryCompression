@@ -1,0 +1,1 @@
+document.write('<!-- BEGIN STANDARD TAG - 160 x 600 - WWE Remnant (int): Run-of-site - DO NOT MODIFY -->\n\n<IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=160 HEIGHT=600 SRC=\"wwe.com_files/st_160x600.html\"></IFRAME>\n\n<!-- END TAG -->');

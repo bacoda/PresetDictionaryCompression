@@ -1,0 +1,171 @@
+/* $Id: insidenytimes.css,v 1.6 2007/09/14 18:30:54 fisherc Exp $
+   /css/common/screen/insidenytimes.css
+   (c)2006 - 2007 The New York Times Company  */
+
+/* <insideNYTimes> */
+
+div#shell div#page div#main div#insideNYTimes {
+    background: transparent url(aColumnH.gif) repeat-x bottom left;
+    padding-bottom: 4px;
+    clear: both;
+    }
+
+div#shell div#page div#main div#insideNYTimes div#insideNYTimesHeader {
+    clear: both;
+    background: transparent url(aColumnH.gif) repeat-x 0px 0px;
+    border-bottom: 1px solid #D3D3D3; 
+    display: block;
+    padding: 0px 10px;
+    }
+    
+div#insideNYTimes div#insideNYTimesHeader #mothNavButtons {        
+    float: right;
+    margin-top:7px
+    }
+
+div#shell div#page div#main div#insideNYTimes div#insideNYTimesHeader h4 {
+    font-family:Georgia, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0px;
+    font-size: 100%;
+    _font-size: 95%;
+    padding: 11px 0px 6px 0px;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 970px;
+    position: static;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td , 
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th {
+    border: 0px solid #D3D3D3; 
+    border-left-width: 1px;
+    text-align: left;
+    /*\*/vertical-align: top;/*\*/
+    width: 160px !important;
+    padding:0 !important;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story {
+    width:151px;
+    padding: 0 5px !important;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story h5 {
+    font-size: 100%;
+    _font-size: 95%;
+    font-weight:normal;
+    margin-top: 5px;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story a.select:first-line {
+    font-size: inherit;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th h4 {
+    margin: 15px 5px 10px !important;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    height: 1.2em;
+    font-size: 100%;
+    width:140px !important;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th h4 a {
+    padding: 0px;
+    color:#000000;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th h4.select {
+    color: transparent;
+    padding-top: 1.2em;
+    height: 0px;
+    overflow: hidden;
+    background: transparent url(timessel.gif) no-repeat left;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td , 
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th {
+    border-left-width: expression( this == this.parentNode.firstChild ? "0px" : "1px" );
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td:first-child , 
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th:first-child {
+    border-left-width: 0px;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story div.callout {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+
+	
+/* </insideNYTimes> */
+
+
+
+/* <abColumn insideNYTimes> */
+.abColumn div#insideNYTimes {
+margin-bottom:12px;
+}
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser {
+    float:left;
+    }
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser td,
+.abColumn div#insideNYTimes table#insideNYTimesBrowser th {
+   width:160px!important;
+   padding:0;
+   border-left-width: 1px !important;
+   border-right-width: 1px !important;
+   }
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser {
+    width:480px !important;
+    }
+
+.abColumn div#insideNYTimes div.leftPanel,
+.abColumn div#insideNYTimes div.rightPanel {
+    width:58px;
+    float:left;
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    height:30px;
+    }
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser td div.story {
+    width:151px;
+    }
+
+.abColumn div#insideNYTimes:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html .abColumn div#insideNYTimes {
+	height: 1%; 
+	}
+/* End hide from IE-mac */
+	    
+/* </abColumn insideNYTimes> */
+

@@ -1,0 +1,522 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title : Lightbox CSS
+Author : Kevin Hale
+URL : http://particletree.com/features/lightbox-gone-wild/
+
+Created : January 13, 2006
+Modified : February 1, 2006
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+img {
+	border: 0;
+}
+
+#lightbox {
+	display: none;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	z-index: 1600001;
+	margin: -280px 0 0 -230px;
+}
+
+#lightbox strong, .lightbox-content strong, .lightbox-footer strong {
+	font-size: 135%;
+	line-height: 100%;
+	font-weight: normal;
+	color: #fff;
+	margin: 0;
+}
+
+.lightbox-footer strong a {
+	color: #fff;
+}
+
+.lightbox-footer strong a:hover {
+	color: #ccc;
+}
+
+#lightbox[id]{
+	position: fixed;
+	padding-top: 13px;
+	width: 460px;
+}
+
+.lightbox-content {
+	background: url(lightbox.gif) no-repeat 0 0;
+	height: 406px;
+	width: 460px;
+	padding-top: 10px;
+    position: relative;
+}
+
+.lightbox-player-youtube {
+	clear: both;
+	margin: 0 auto;
+	padding: 0 5px;
+	width: 425px;
+	height: 350px;
+	background: #1F1F1F url(lightbox.gif) no-repeat 50% 50%;
+}
+
+.lightbox-player-rev3 {
+	clear: both;
+	margin: 0 auto;
+	padding: 35px 0 0 0 !important;
+	width: 425px;
+	height: 315px; 
+	background: #1f1f1f url(lightbox.gif) no-repeat 50% 50%;
+}
+
+.lightbox-player-google {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px;
+	width: 400px;
+	height: 326px;
+	background: #1F1F1F url(lightbox.gif) no-repeat 50% 50%;
+}
+
+.lightbox-player-metacafe {
+	clear: both;
+	margin: 0 auto;
+	padding: 0 5px;
+	width: 400px;
+	height: 345px;
+	background: #1F1F1F url(lightbox.gif) no-repeat 50% 50%;
+}
+
+.lightbox-player-vsocial {
+	clear: both;
+	margin: 0 auto;
+	padding: 0 5px;
+	background: #1F1F1F url(lightbox.gif) no-repeat 50% 50%;
+}
+
+/* close button */
+.lightbox-close:visited, .lightbox-close {
+	display: block;
+	float: right;
+	height: 19px;
+	margin: 0 10px 6px 0;
+	padding: 2px 23px 0 0;
+	font-weight: bold;
+	line-height: 1em;
+	background: url(lightbox.gif) no-repeat 100% 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lightbox-share-content .lightbox-close:visited, .lightbox-share-content .lightbox-close {
+	background: url(lightbox.gif) no-repeat 100% 0;
+}
+
+.lightbox-close:hover {
+	background-position: 100% -110px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* digg it button */
+
+#lightbox-digg {
+	float: left;
+	height: 38px;
+	background: url(lightbox.gif) no-repeat;
+	min-width: 7.4em;
+}
+
+#lightbox-digg div {
+	float: left;
+	height: 32px;
+	min-width: 2.5em;
+	color: #50470D;
+	font-size: 110%;
+	font-weight: bold;
+	padding: 8px 5px 0 3px;
+	text-align: center;
+	margin: 0;
+	background: url(lightbox.gif) no-repeat 100% 0;
+} * html #lightbox-digg div { width: 3em; }
+
+#lightbox-digg #lightbox-digg-it a, #lightbox-digg #lightbox-digg-it span {
+	float: left;
+	display: block;
+	min-width: 2.5em;
+	height: 28px;
+	color: #37618D; 
+	padding: 10px 6px 0 6px;
+	font-size: 85%;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	background: #fff url(lightbox.gif) no-repeat 100% 100%;
+} * html #lightbox-digg a, #lightbox-digg #lightbox-digg-it span { width: 3em; }
+
+.lightbox-title {
+	text-align: left;
+}
+
+.lightbox-footer {
+	padding: 0 20px 20px 20px;
+	min-height: 40px;
+	width: 420px;
+	background: url(lightbox.gif) no-repeat 0 100%;
+} * html .lightbox-footer { height: 40px; }
+
+#overlay{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1600000;
+	background-image: url(lightbox.png);
+	filter: alpha(opacity=80);
+}
+
+#overlay[id]{
+	position:fixed;
+}
+
+#lightbox.done #lbLoadMessage{
+	display:none;
+}
+#lightbox.done #lbContent{
+	display:block;
+	position: relative;
+}
+#lightbox.loading #lbContent{
+	display:none;
+}
+#lightbox.loading #lbLoadMessage{
+	display:block;
+}
+
+/**** BETA Lightbox *****/
+
+#beta {
+	height: auto;
+	background: url(lightbox.gif) no-repeat 0 0;
+}
+
+.beta-contents {
+	color: #ccc;
+	text-align: left;
+	padding: 20px 55px 10px 55px;
+    background: url(beta-bad.gif) 10px 5px no-repeat;
+}
+
+#beta h2 {
+	color: #f9faa4;
+	margin: -15px 0 0.1em 0;
+    font-weight: bold;
+}
+
+.beta-footer {
+    background-image: url(lightbox.gif);
+    text-align: left;
+    padding: 0 20px 20px 50px;
+	width: 390px;
+}
+
+
+/**** Share Lightbox *****/
+.lightbox-share-content {
+	background: url(lightbox.gif) no-repeat 0 0;
+	width: 596px;
+	padding-bottom: 10px;
+    position: relative;
+	margin: 0 0 0 -70px;
+}	
+ 
+.lightbox-share {
+	clear: both;
+	margin: 5px 12px;
+	padding: 10px 15px;
+	background: #fff;
+	width: 542px;
+	height: 360px;
+	color: #333;
+	text-align: left;
+	overflow: auto;
+}
+
+.lightbox-share .warning,
+.lightbox-share .notice,
+.lightbox-share .confirm {
+	line-height: 2em !important;
+	height: 2em !important;
+	min-height: 0 !important;
+}
+
+.lightbox-share label {
+	display: block;
+	font-size: 85%;
+	font-weight: bold;
+}
+
+.lightbox-share p {
+	margin-bottom: 10px;
+	font-size: 85%;
+}
+
+#lightbox-share-title {
+	width: 95%;
+}
+
+.lightbox-add {
+    margin-left: 16px;
+	font-size: 85%;
+	font-weight: bold;
+	color: #090;
+}
+
+.lightbox-share textarea {
+	width: 95%;
+	padding: 2px;
+	height: 3.5em;
+	font-size: 13px;
+}
+
+.lightbox-share textarea#message-text {
+	height: 6em;
+}
+
+#message-text {
+	height: 2.5em;
+}
+
+.lightbox-share .disabled {
+	background-color: #F1F1F1;
+	color: #ccc;
+}
+
+.lightbox-share-footer {
+	padding: 4px;
+	min-height: 2px;
+	position: relative;
+	left: -70px;
+	width: 596px;
+	background: url(lightbox.gif) no-repeat 0 100%;
+} * html .lightbox-share-footer { height: 20px; left: -35px; }
+
+.lightbox-hidden {
+	display: none;
+}
+
+.lightbox-show {
+	display: block;
+}
+
+.lightbox-email {
+    clear: left;
+    margin-right: 4px;
+}
+
+#lightbox-email-it input.email {
+	width: 200px;
+}
+
+#lightbox-message-text-toggle {
+	display: block;
+	font-size: 85%;
+}
+
+#lightbox-captcha-text {
+	float: left;
+	width: 6em;
+	margin-right: 10px;
+}
+
+#lightbox-email-app {
+	display: block;
+	float: right;
+	width: 170px;
+	font-size: 85%;
+	text-decoration: none;
+	color: #000;
+	border: 2px solid #BDE79F;
+	padding: 2px;
+}
+
+#lightbox-email-app div {
+	padding: 10px;
+	background: #EDF7E6;
+}
+
+#lightbox-email-app img {
+	padding: 0 10px;
+}
+
+#lightbox-email-app span {
+	text-decoration: underline;
+}
+
+#lightbox-email-app img {
+	margin-top: 4px;
+}
+
+
+/* choices tabs */ 
+
+.lightbox-share-content .extra-nav ul {
+	padding: 7px 0 0 1px;
+	margin: 0;
+}
+
+.lightbox-share-content .extra-nav {
+	margin: 5px 11px -1px 11px;
+	background: none;
+	width: 568px;
+} * html .lightbox-share-content .extra-nav { margin-left: 4px; position: relative; top: 5px; left: 3px; }
+   
+.lightbox-share-content .extra-nav li {
+	float: left;
+	background: url(lightbox.png) 100% -100px;
+	padding-right: 6px;
+	border-bottom: 1px solid #A1B7CB;
+	list-style: none;
+	font-weight: bold;
+	margin-right: 2px;
+}
+
+.lightbox-share-content .extra-nav li.active {
+	background: url(lightbox.png) 100% 0;
+	border-bottom: 1px solid #fff;
+}
+
+.lightbox-share-content .extra-nav li a, .lightbox-share-content .extra-nav li a:visited,
+	.lightbox-share-content .extra-nav li span {
+	display: block;
+	float: left;
+	padding: 5px 11px 5px 8px;
+	text-align: center;
+	white-space: nowrap;
+	text-decoration: none;
+	min-height: 17px; /* fixes FX/Mac issue */
+	background: url(lightbox.png) 0 -100px;
+	color: #666;
+}
+
+
+.lightbox-share-content .extra-nav li.active a, .lightbox-share-content .extra-nav li.active span {
+	background: url(lightbox.png) 0 0 !important; /*imp for ie6*/
+}
+
+.lightbox-share-content .extra-nav li:hover {
+	background-position: 100% -200px;
+}
+
+.lightbox-share-content .extra-nav li.active:hover {
+	background-position: 100% 0;
+}
+
+.lightbox-share-content .extra-nav li:hover a {
+	background-position: 0 -200px;
+}
+
+.lightbox-share-content .extra-nav li.active:hover a {
+	background-position: 0 0;
+	text-decoration: none;
+}
+
+.lightbox-share-content .extra-nav em {
+	background: url(lightbox.gif) no-repeat;
+	padding-left: 25px;
+	display: block;
+	font-style: normal;
+}
+
+.lightbox-share img.captcha {
+	float: right;
+	margin-right: 20px;
+}
+
+#lightbox-shout-it-tab em {
+	background-position: 0 -198px;
+}
+
+#lightbox-email-it-tab em {
+	background-position: 0 -98px;
+}
+
+#lightbox-blog-it-tab em {
+	background-position: 0 2px;
+}
+
+#lightbox-shout-it label span {
+	font-weight: normal;
+}
+
+#lightbox-shout-it p {
+    clear: both;
+}
+
+#lightbox-shout-friends {
+	height: 120px;
+	border: 2px solid #BDE79F;
+	padding: 5px;
+	overflow: auto;
+}
+
+#lightbox-shout-friends a {
+	width: 159px;
+	display: block;
+	float: left;
+	padding: 2px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	background: url(lightbox.png) #fff no-repeat 3px 3px;
+}
+
+#lightbox-shout-friends a:hover {
+	border: 1px solid #E0E078;
+}
+
+#lightbox-shout-friends img {
+	vertical-align: middle;
+	margin-right: 5px;
+	border: 1px solid #bbb;
+}
+
+#lightbox-shout-friends a.selected {
+	color: #228120;
+	background: url(lightbox.png) #DEF7CC no-repeat 3px 3px;
+}
+
+#lightbox-shout-all {
+    font-size: 85%;
+    float: right;
+    font-weight: bold;
+}
+
+#lightbox-shout-filter {
+    float: left;
+    margin: 2px 0 2px 0;
+}
+
+#lightbox-shout-filter-label {
+    font-size: 85%;
+    font-weight: bold;
+    float: left;
+    background: url(lightbox.png) no-repeat 0 0;
+    margin: 2px 0 0 3px;
+    padding: 0 0 0 18px;
+    height: 15px;
+}
+
+.lightbox-message {
+	margin-top: 10px;
+	border: 2px solid #BDE79F;
+	padding: 2px;
+}
+
+.lightbox-message div {
+	padding: 10px;
+	background: #EDF7E6;
+}

@@ -1,0 +1,106 @@
+div.mainContent {
+	background:#cef;
+}
+
+#animPlayer {
+	background: url( bg_mainC.gif );
+}
+
+#hotGames {
+	background: url( bg_mainC.gif ) 100% 0;
+}
+
+.catItems {
+	background:url( bg_catli.gif ) repeat-y 50% 0;
+}
+
+#gameSections li {
+	background:url( bg_games.gif );
+}
+
+.ad_300x250 {
+	background: url( ad_300x2.gif );
+}
+
+.topTen {
+	background: url( bg_topte.gif ) no-repeat transparent;	
+}
+
+.myGames {
+	background-image:url( bg_mymin.gif );
+}
+
+#moreNav li a {
+	background:url( bullet_b.gif ) no-repeat 0 2px;
+}
+
+#moreNav .sub li a {
+	background-image:url( bullet_l.gif );
+}
+
+#moreNav span {
+	background:url( bg_morem.gif ) no-repeat bottom;	
+}
+
+#miniPanel {
+	background:url( bg_minip.gif );
+}
+
+#wrapperNav {
+	background:url( nav00000.gif ) no-repeat;
+}
+
+#subNav a.current, #subNav strong {
+	text-decoration:none;
+	color:#09f;
+}
+
+#controls #animNumber a.selected {
+	background:url( bg_animn.gif ) no-repeat 0 3px;
+}
+
+#tabMainNav li {
+	background:url( button_i.gif ) 100% -25px no-repeat;
+}
+
+#tabMainNav a {
+	background:url( icon_im_.gif ) 5px -23px no-repeat;	 
+}
+
+#tabMainNav span {
+	background:url( button_i.gif ) 0 -25px;	
+}
+
+#tabMainNav li.selected {
+	background:url( button_i.gif ) 100% 0 no-repeat;
+}
+
+.corner_tr.bb, .corner_tl.bb, .corner_br.bb, .corner_bl.bb {
+	background-image: url( border_4.gif );
+}
+
+/* categories */
+
+#catSection {
+	background:url( bg_catSe.gif );
+}
+
+.breadcrumb { background:url( bg_g_bre.gif ); }
+.breadcrumb .support span { background:url( bg_g_bre.gif ) top right; }
+.breadcrumb .support { background:url( bg_g_bre.gif ) top left no-repeat; }
+
+a.channel { background-color:#cef; }
+
+.corner_tr.bb, .corner_tl.bb, .corner_br.bb, .corner_bl.bb {
+	background-image: url( border_4.gif );
+}
+
+#moreNav {
+	border:5px solid #cef;
+	border-width:5px 0 0 0;
+	background:transparent url( nav_morf.gif ) bottom;
+}
+
+#closeMoreNav {
+	background:#e5f5ff url( nav_clos.gif ) no-repeat;
+}

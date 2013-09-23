@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>WrkCrshLne_300x250v2_fl</title>
+<meta HTTP-EQUIV="expires" CONTENT="0"></meta>
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache"></meta>
+<script LANGUAGE="JavaScript" type="text/javascript"> 
+var nRequiredVersion = 9; 
+var bIsRightVersion = false;	
+var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+if(isIE && isWin){
+document.writeln('<SCR' + 'IPT LANGUAGE=VBScript\>');
+document.writeln('on error resume next');
+document.writeln('Set oFlashPlayer = CreateObject("ShockwaveFlash.ShockwaveFlash." & nRequiredVersion)');
+document.writeln('If IsObject(oFlashPlayer) Then');
+document.writeln('bIsRightVersion = True');
+document.writeln('End If');
+document.writeln('If (Not bIsRightVersion) And (nRequiredVersion < 3) Then');
+document.writeln('Set oFlashPlayer = CreateObject("ShockwaveFlash.ShockwaveFlash")');
+document.writeln('If IsObject(oFlashPlayer) Then');
+document.writeln('bIsRightVersion = True');
+document.writeln('End If');
+document.writeln('End If');
+document.writeln('</SCR' + 'IPT\>'); 
+}
+function CheckSwfVer(){
+if (navigator.plugins != null && navigator.plugins.length > 0) {
+if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+var descArray = flashDescription.split(" ");
+var tempArrayMajor = descArray[2].split(".");	
+var versionMajor = tempArrayMajor[0];
+bIsRightVersion = (versionMajor >= nRequiredVersion);
+}
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1)
+{
+bIsRightVersion = (4 >= nRequiredVersion);
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1)
+{
+bIsRightVersion = (3 >= nRequiredVersion);
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) 
+{
+bIsRightVersion = (2 >= nRequiredVersion);
+}
+}
+function detectFlashSTV1215544071442() 
+{ 
+if (!bIsRightVersion) {
+CheckSwfVer();
+}
+}
+detectFlashSTV1215544071442(); 
+ </script>
+</head>
+<body style="border-width:0px;margin:0px;" bgcolor="White">
+<script LANGUAGE="JavaScript" type="text/javascript"> 
+var _strContentSTV1215544071442 = '';
+if(bIsRightVersion) 
+{ 
+var strFQDN = "HTTP://spe.atdmt.com/ds/6MMDSSPTVSTV/"; 
+var index = strFQDN.indexOf("/ds/");
+strFQDN = strFQDN.substring(0, index);
+_strContentSTV1215544071442 = '' + '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="HTTP://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" width="300" height="250">'
++ '<param name="movie" value="WrkCrshLne_300x250v2_fl.swf?ver=1&clickTag1=http://ad.doubleclick.net/click%3Bh=v8/3706/3/0/%2a/m%3B206042952%3B0-0%3B0%3B18273353%3B4307-300/250%3B27533950/27551829/1%3Bu%3Dc3706a5c624d441e9346c2485ae5f22c%3B%7Esscs%3D%3fhttp://clk.atdmt.com/go/100584532/direct;ai.49811197;ct.1/01&clickTag=http://ad.doubleclick.net/click%3Bh=v8/3706/3/0/%2a/m%3B206042952%3B0-0%3B0%3B18273353%3B4307-300/250%3B27533950/27551829/1%3Bu%3Dc3706a5c624d441e9346c2485ae5f22c%3B%7Esscs%3D%3fhttp://clk.atdmt.com/go/100584532/direct;ai.49811197;ct.1/01" />'
++ '<param name="base" value="HTTP://spe.atdmt.com/ds/6MMDSSPTVSTV/Wrecked_Flash/" />'
++ '<param name="quality" value="high" />'
++ '<param name="salign" value="lt" />'
++ '<param name="loop" value="true" />'
++ '<param name="wmode" value="opaque" />'
++ '<embed quality="high" salign="LT" loop="true" type="application/x-shockwave-flash" pluginspace="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" base="HTTP://spe.atdmt.com/ds/6MMDSSPTVSTV/Wrecked_Flash/" wmode="opaque" src="WrkCrshLne_300x250v2_fl.swf?ver=1&clickTag1=http://ad.doubleclick.net/click%3Bh=v8/3706/3/0/%2a/m%3B206042952%3B0-0%3B0%3B18273353%3B4307-300/250%3B27533950/27551829/1%3Bu%3Dc3706a5c624d441e9346c2485ae5f22c%3B%7Esscs%3D%3fhttp://clk.atdmt.com/go/100584532/direct;ai.49811197;ct.1/01&clickTag=http://ad.doubleclick.net/click%3Bh=v8/3706/3/0/%2a/m%3B206042952%3B0-0%3B0%3B18273353%3B4307-300/250%3B27533950/27551829/1%3Bu%3Dc3706a5c624d441e9346c2485ae5f22c%3B%7Esscs%3D%3fhttp://clk.atdmt.com/go/100584532/direct;ai.49811197;ct.1/01" width="300" height="250" />'
++ '</object>'
++ '';
+} 
+else 
+{ 
+_strContentSTV1215544071442 = '<a target="_blank" href="http://ad.doubleclick.net/click%3Bh=v8/3706/3/0/%2a/m%3B206042952%3B0-0%3B0%3B18273353%3B4307-300/250%3B27533950/27551829/1%3Bu%3Dc3706a5c624d441e9346c2485ae5f22c%3B%7Esscs%3D%3fhttp://clk.atdmt.com/go/100584532/direct;ai.49811197;ct.1/01"><img border="0" src="HTTP://spe.atdmt.com/ds/6MMDSSPTVSTV/Wrecked_Flash/WrkCrashln_300x250V2_im.jpg?ver=1" width="300" height="250" /></a>';
+}
+</script>
+<script LANGUAGE="JavaScript" type="text/javascript" src="DocumentDotWrite.js"></script>
+<script LANGUAGE="JavaScript" type="text/javascript">DocumentDotWrite(_strContentSTV1215544071442);
+</script>
+<noscript> 
+<a target="_blank" href="http://ad.doubleclick.net/click%3Bh=v8/3706/3/0/%2a/m%3B206042952%3B0-0%3B0%3B18273353%3B4307-300/250%3B27533950/27551829/1%3Bu%3Dc3706a5c624d441e9346c2485ae5f22c%3B%7Esscs%3D%3fhttp://clk.atdmt.com/go/100584532/direct;ai.49811197;ct.1/01"><img border="0" src="HTTP://spe.atdmt.com/ds/6MMDSSPTVSTV/Wrecked_Flash/WrkCrashln_300x250V2_im.jpg?ver=1" width="300" height="250" /></a>
+</noscript>
+</body>
+</html>

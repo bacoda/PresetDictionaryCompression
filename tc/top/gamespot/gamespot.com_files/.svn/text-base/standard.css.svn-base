@@ -1,0 +1,7318 @@
+/* DEFAULT STYLES
+*********************************/
+body {
+font-family:Arial,Helvetica,sans-serif;
+color:#fff;
+background:#3c3c3c url(bg000000.gif) repeat-y center;
+margin:0;
+scrollbar-arrow-color:#ccc;
+scrollbar-3dlight-color:#111;
+scrollbar-highlight-color:#666;
+scrollbar-face-color:#444;
+scrollbar-shadow-color:#191919;
+scrollbar-track-color:#111;
+scrollbar-darkshadow-color:#191919;
+}
+
+a {
+font-weight:bold;
+text-decoration:none;
+color:#fc3;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+img {
+border:0;
+}
+
+ul, li, dl, dt, dd {
+padding:0;
+border:0;
+margin:0;
+list-style:none;
+}
+
+h1, h2, h3, h4, h5 {
+padding:0;
+margin:0;
+}
+
+table {
+font-size:11px;
+border-collapse:collapse;
+}
+
+/* AD STUFF - DO NOT REMOVE
+*********************************/
+.absolute {
+width:1px;
+height:1px;
+font-size:1px;
+position:absolute;
+top:0;
+left:0;
+}
+
+.header-cobrand {
+width:125px;
+height:125px;
+overflow:hidden;
+position:absolute;
+top:0;
+right:0;
+}
+
+#no_skin, #no_marquee {
+width:1px;
+height:1px;
+font-size:1px;
+position:absolute;
+top:0;
+left:0;
+display:none;
+}
+
+#skin, #curl {
+font-size:1px;
+position:absolute;
+top:0;
+left:0;
+}
+
+#skin iframe, #skin img, #curl iframe, #curl img {
+width:1px;
+height:1px;
+font-size:1px;
+position:absolute;
+top:0;
+left:0;
+}
+
+.glead {
+width:758px;
+}
+
+/* BODY
+*********************************/
+#body_shell {
+width:760px;
+text-align:left;
+}
+
+#body_wrap {
+width:760px;
+float:left;
+}
+
+/* GNE NAV
+*********************************/
+#gnenav {
+font-size:10px;
+text-align:left;
+color:#999;
+background:#000;
+padding:3px 0 1px 8px;
+border-bottom:3px solid #333;
+height:14px;
+line-height:15px;
+}
+
+#gnenav a {
+font-weight:normal;
+color:#ccc;
+}
+
+#gnenav a:hover {
+text-decoration:none;
+color:#fff;
+}
+
+#gnenav .ad {
+padding-right:7px;
+float:right;
+}
+
+#gnenav .ad img {
+    vertical-align:top;
+    margin-right:1px;
+}   
+
+/* SITE HEADER
+*********************************/
+#header_all,
+#header_pc,
+#header_playstation,
+#header_xbox,
+#header_nintendo,
+#header_portable {
+width:760px;
+height:74px;
+background-color:#333;
+background-repeat:no-repeat;
+}
+
+#header_all {background-image:url(header_a.jpg);}
+#header_pc {background-image:url(header_p.jpg);}
+#header_playstation {background-image:url(header_p.jpg);}
+#header_xbox {background-image:url(header_x.jpg);}
+#header_nintendo {background-image:url(header_n.jpg);}
+#header_portable {background-image:url(header_p.jpg);}
+
+#masthead {
+width:450px;
+height:74px;
+font-size:1px;
+float:left;
+}
+
+#masthead img {
+width:450px;
+height:74px;
+}
+
+/* LOGIN
+*********************************/
+#login {
+width:305px;
+font-size:11px;
+float:right;
+}
+#login .right {
+float:right;
+width:255px;
+} 
+
+#login .messages_txt {
+width:46px;
+height:5px;
+background:url(header_m.gif) no-repeat;
+}
+
+#login .updates_txt {
+width:38px;
+height:5px;
+background:url(header_u.gif) no-repeat;
+}
+
+#login input, #login select {
+font-size:11px;
+}
+
+#login .user_rank{float:left;}
+
+/* GLOBAL SEARCH
+*********************************/
+#global_search, #footer_search {
+width:760px;
+height:24px;
+line-height:24px;
+margin:0;
+border:0;
+font-size:11px;
+padding:4px 0;
+float:left;
+}
+
+#global_search {
+color:#ccc;
+background:#333 url(header_s.gif) repeat-x;
+border-top:1px solid #000;
+height:32px;
+padding:0;
+float:none;
+clear:both;
+}
+
+#footer_search {
+background:#2a2a2a;
+}
+
+#global_search a, #footer_search a {
+font-weight:normal;
+}
+
+#global_search form{float:left;display:block;height:20px;line-height:20px;margin:0;padding:6px 10px;overflow:hidden;}
+
+#global_search input, #footer_search input {
+font-size:12px;
+}
+
+#global_search input.text{font-size:12px;width:311px;}
+
+input#srchbtn,
+#global_search input.srchbtn{
+width:70px;
+height:20px;
+background:url(btn-sear.gif) 0px 0px no-repeat;
+margin:0 0 -5px 3px;
+}
+
+#global_search .theme_selector{float:right;padding:4px 10px;}
+
+/* CROSS-PROMOTIONAL UNIT
+******************************/
+
+.xpromolink {color:#C4C4C4;font-weight:normal;}
+.xpromositename {color:#ff0000;}
+.rubics_netxp1_main {float:right;font-size:10px;color:#C4C4C4;font-weight:bold;font-family:Tahoma;line-height:10px;padding:11px 5px 0;}
+
+
+/* GLOBAL NAV
+*********************************/
+#global_nav{background:#ccc url(nav00000.gif) repeat-x;
+border-top:1px solid #000;font:11px/11px tahoma,arial,helvetica,sans-serif;height:33px;width:760px;}
+#global_nav li,
+#global_nav ul{float:left;position:relative;}
+#global_nav a,
+#global_nav a b{cursor:pointer;float:left;}
+#global_nav a{background:repeat-x top left;color:#333;text-decoration:none;}
+#global_nav a,
+#global_nav .hub_nav .first a{background-image:url(nav_glob.gif);}
+#global_nav a b{padding:11px 9px;}
+#global_nav .hub_nav a{background-image:url(nav_gloc.gif);}
+#global_nav .hub_nav b{padding:11px 6px 11px 8px;}
+#global_nav .hub_nav .first b{padding:11px 6px;}
+#global_nav a:hover,
+#global_nav a.on:hover{background-position:center left;color:#fff;}
+#global_nav a.on{background-position:bottom left;}
+/* console nav */
+#global_nav .console_nav{background:url(nav_cons.gif) no-repeat top right;padding:3px 1px 0 0;}
+#global_nav .console_nav a,
+#global_nav .console_nav a b{background:url(nav_cont.gif) no-repeat;}
+#global_nav .console_nav a{color:#fff;background-position:top left;padding:0 0 0 10px;}
+#global_nav .console_nav a:hover{background-position:bottom left;}
+#global_nav .console_nav a b{background-position:top right;padding:8px 10px 11px 0;}
+#global_nav .console_nav a:hover b{background-position:bottom right;}
+#global_nav .console_nav .first a,
+#global_nav .console_nav .first a b{background-image:url(nav_conu.gif);}
+#global_nav .console_nav .first a{padding:0 0 0 11px;}
+#global_nav .console_nav .last a,
+#global_nav .console_nav .last a b{background:url(nav_conv.gif) no-repeat;}
+#global_nav .console_nav .last a{background-position:top right;padding:0 10px 0 0;}
+#global_nav .console_nav .last a b{background-position:top left;padding:8px 0 11px 10px;}
+#global_nav .console_nav .last a:hover{background-position:bottom right;}
+#global_nav .console_nav .last a:hover b{background-position:bottom left;}
+/* console nav - pc */
+#pc #global_nav a.on{color:#9cf;}
+#pc #global_nav a.on,
+#pc #global_nav a.on b{background-image:url(nav_conw.gif);}
+#pc #global_nav .first a.on,
+#pc #global_nav .first a.on b{background-image:url(nav_conw.gif);}
+#pc #global_nav .last a.on,
+#pc #global_nav .last a.on b{background-image:url(nav_conw.gif);}
+/* console nav - xbox */
+#xbox #global_nav a.on{color:#9c0;}
+#xbox #global_nav a.on,
+#xbox #global_nav a.on b{background-image:url(nav_conw.gif);}
+#xbox #global_nav .first a.on,
+#xbox #global_nav .first a.on b{background-image:url(nav_conw.gif);}
+#xbox #global_nav .last a.on,
+#xbox #global_nav .last a.on b{background-image:url(nav_conw.gif);}
+/* console nav - playstation */
+#playstation #global_nav a.on{color:#a7a7ff;}
+#playstation #global_nav a.on,
+#playstation #global_nav a.on b{background-image:url(nav_conw.gif);}
+#playstation #global_nav .first a.on,
+#playstation #global_nav .first a.on b{background-image:url(nav_conw.gif);}
+#playstation #global_nav .last a.on,
+#playstation #global_nav .last a.on b{background-image:url(nav_conw.gif);}
+/* console nav - nintendo */
+#nintendo #global_nav a.on{color:#c9f;}
+#nintendo #global_nav a.on,
+#nintendo #global_nav a.on b{background-image:url(nav_conw.gif);}
+#nintendo #global_nav .first a.on,
+#nintendo #global_nav .first a.on b{background-image:url(nav_conw.gif);}
+#nintendo #global_nav .last a.on,
+#nintendo #global_nav .last a.on b{background-image:url(nav_conw.gif);}
+
+/* SECONDARY NAV
+*********************************/
+#secondary_nav {
+width:760px;
+font-size:11px;
+background:#9F5806 url(secondna.gif) repeat-x;
+border-bottom:1px solid #000;
+float:left;
+}
+
+#secondary_nav a {
+font-weight:normal;
+color:#fff;
+padding:0 6px;
+}
+
+#secondary_nav li {
+line-height:21px;
+padding:8px 0;
+float:left;
+display:block;
+}
+
+#pc #secondary_nav {
+background:#2F5379 url(secondnb.gif) repeat-x;
+}
+
+#playstation #secondary_nav {
+background:#40497D url(secondnb.gif) repeat-x;
+}
+
+#xbox #secondary_nav {
+background:#41631B url(secondnb.gif) repeat-x;
+}
+
+#nintendo #secondary_nav {
+background:#563A73 url(secondnb.gif) repeat-x;
+}
+
+#portable #secondary_nav {
+background:#1F6F66 url(secondnb.gif) repeat-x;
+}
+
+/* PLATFORM ICONS */
+#secondary_nav .icon_all {
+padding:0;
+margin:4px 0 -4px;
+}
+
+#secondary_nav .icon_all img {
+width:28px;
+height:28px;
+background:url(icon_all.gif) no-repeat;
+}
+
+#secondary_nav .icon_pc {
+padding:0 0 0 1px;
+margin:5px 0 -5px;
+}
+
+#secondary_nav .icon_pc img {
+width:24px;
+height:25px;
+background:url(icon_pc0.gif) no-repeat;
+}
+
+#secondary_nav .icon_ps2 {
+padding:0;
+margin:8px 0 -8px;
+}
+
+#secondary_nav .icon_ps2 img {
+width:28px;
+height:19px;
+background:url(icon_ps2.gif) no-repeat;
+}
+
+#secondary_nav .icon_ps3 {
+padding:0;
+margin:10px 0 -10px;
+}
+
+#secondary_nav .icon_ps3 img {
+width:34px;
+height:17px;
+background:url(icon_ps3.gif) no-repeat;
+}
+
+#secondary_nav .icon_psp {
+padding:0;
+margin:11px 0 -11px;
+}
+
+#secondary_nav .icon_psp img {
+width:31px;
+height:16px;
+background:url(icon_psp.gif) no-repeat;
+}
+
+#secondary_nav .icon_xbox {
+padding:0 6px;
+margin:8px 0 -8px;
+}
+
+#secondary_nav .icon_xbox img {
+width:28px;
+height:21px;
+background:url(icon_xbo.gif) no-repeat;
+}
+
+#secondary_nav .icon_x360 {
+padding:0 0 0 5px;
+margin:3px 0 -3px;
+}
+
+#secondary_nav .icon_x360 img {
+width:15px;
+height:29px;
+background:url(icon_xbo.gif) no-repeat;
+}
+
+#secondary_nav .icon_xbox360 {
+padding:0;
+padding-left:5px;
+margin-top:3px;
+margin-bottom:-3px;
+}
+
+#secondary_nav .icon_xbox360 img {
+width:15px;
+height:29px;
+background:url(icon_xbo.gif) no-repeat;
+}
+
+#secondary_nav .icon_gc {
+padding:0;
+margin:5px 0 -5px;
+}
+
+#secondary_nav .icon_gc img {
+width:23px;
+height:24px;
+background:url(icon_gc0.gif) no-repeat;
+}
+
+#secondary_nav .icon_wii {
+padding:0 0 0 3px;
+margin:3px 0 -3px;
+}
+
+#secondary_nav .icon_wii img {
+width:19px;
+height:29px;
+background:url(icon_rev.gif) no-repeat;
+}
+
+#secondary_nav .icon_ds {
+padding:0;
+margin:5px 0 -5px;
+}
+
+#secondary_nav .icon_ds img {
+width:25px;
+height:25px;
+background:url(icon_ds0.gif) no-repeat;
+}
+
+#secondary_nav .icon_gba {
+padding:0;
+margin:10px 0 -10px;
+}
+
+#secondary_nav .icon_gba img {
+width:28px;
+height:17px;
+background:url(icon_gba.gif) no-repeat;
+}
+
+#secondary_nav .icon_mobile {
+padding:0 0 0 2px;
+margin:6px 0 -6px;
+}
+
+#secondary_nav .icon_mobile img {
+width:22px;
+height:24px;
+background:url(icon_mob.gif) no-repeat;
+}
+
+#secondary_nav .icon_videos {
+padding:0;
+margin:5px 0 -5px -2px;
+}
+
+#secondary_nav .icon_videos img {
+width:38px;
+height:27px;
+background:url(icon_vid.gif) no-repeat;
+}
+
+/* BREAKING NEWS
+*********************************/
+#breakingnews {
+width:746px;
+height:16px;
+font-size:12px;
+background:#c00 url(breaking.gif) repeat-x;
+padding:11px 7px 10px;
+float:left;
+clear:both;
+}
+
+#breakingnews strong {
+font-size:14px;
+}
+
+#breakingnews a {
+font-weight:normal;
+color:#fff;
+}
+
+#breakingnews_head {
+font-size:14px;
+font-weight:bold;
+line-height:17px;
+color:#fff;
+background:#c00 url(breaking.gif) repeat-x;
+padding:4px 7px;
+clear:both;
+}
+
+/* HOTSLOT TOP NAV
+*********************************/
+#hotslot_nav{position:relative;width:760px;overflow:hidden;}
+#hotslot_nav #global_search{background:url(header_t.gif) repeat-x 0 0;}
+#hotslot_nav #global_search form{padding:5px 6px 4px;}
+#hotslot_nav #global_search input.text{width:300px;}
+#hotslot_nav #secondary_nav ul{width:370px;}
+#hotslot_nav #global_nav a b{padding:11px 9px;text-align:center;width:32px;/*width is for safari*/}
+#hotslot_nav #global_nav .console_nav{background-image:url(nav_conw.gif);padding-right:0;}
+#hotslot_nav #global_nav .console_nav a{padding:0 0 0 8px;}
+#hotslot_nav #global_nav .console_nav a b{padding:8px 8px 11px 0;width:26px;}
+#hotslot_nav #global_nav .console_nav .first a{padding:0 0 0 8px;}
+#hotslot_nav #global_nav .console_nav .last a{padding:0 8px 0 0;}
+#hotslot_nav #global_nav .console_nav .last a b{padding:8px 0 11px 8px;}
+#hotslot_nav #global_nav .console_nav .xbox360 a b{width:52px;}
+#hotslot_nav #global_nav .hub_nav{float:right;margin:-33px 0 0 0;height:32px;position:relative;}
+#hotslot_nav #global_nav .hub_nav li{background:none;}
+#hotslot_nav #global_nav .hub_nav a{background:url(nav_glod.gif) no-repeat top left;color:#fff;}
+#hotslot_nav #global_nav .hub_nav a:hover,
+#hotslot_nav #global_nav .hub_nav a.on:hover{background-position:center left;}
+#hotslot_nav #global_nav .hub_nav a.on{background-position:bottom left;}
+#hotslot_nav #global_nav .hub_nav a b{padding:10px 6px 11px 8px;width:auto;}
+#hotslot_nav #secondary_nav ul{height:37px;overflow:hidden;}
+#hotslot_nav #secondary_nav li{padding:8px 0 8px 8px;}
+#hotslot_nav #secondary_nav li a{padding:0;}
+
+/* HOTSLOT */
+#hotslot_nav #hotslot{background:url(hotslot_.gif) no-repeat top left;
+border-top:1px solid #000;font:10px/11px tahoma,arial,helvetica,sans-serif;height:70px;width:380px;padding:0 0 0 10px;position:relative;float:right;margin:0 -390px 0 0;left:-390px;}
+#hotslot_nav #hotslot .hotslot_wrap{background:url(hotslot0.gif) repeat-x top left;height:70px;padding:0 5px 0 0;}
+#hotslot_nav ul.slots{float:right;height:70px;overflow:hidden;}
+#hotslot_nav .slots li{float:left;position:relative;}
+#hotslot_nav .slots li a{color:#fff;float:left;height:46px;width:79px;padding:8px 3px;overflow:hidden;}
+#hotslot_nav .slots li a:hover,
+#hotslot_nav .slots li a.on{width:196px;text-decoration:none;}
+#hotslot_nav .slots li a *{cursor:pointer;}
+#hotslot_nav .slots li a img{border:1px solid #222;float:right;height:44px;width:77px;}
+#hotslot_nav .slots li a.on img,
+#hotslot_nav .slots li a:hover img{border:1px solid #aaa;}
+#hotslot_nav .slots li .slot_details{display:none;visibility:hidden;}
+#hotslot_nav .slots li a.on .slot_details,
+#hotslot_nav .slots a:hover .slot_details{display:block;visibility:visible;font-weight:normal;position:absolute;top:0;left:0;height:53px;width:111px;padding:8px 6px 0 3px;overflow:hidden;}
+
+#hotslot_takeover_wrap{display:none;height:65px;width:385px;bottom:5px;right:0;}
+#hotslot_takeover{height:65px;width:385px;}
+#hotslot_takeover_wrap a{color:#fff;display:block;height:0;padding-top:65px;width:100%;overflow:hidden;}
+
+/* BREADCRUMB
+*********************************/
+#breadcrumb {
+width:760px;
+background:#3F4A59;
+padding:4px 0 5px;
+border-top:1px solid #000;
+border-bottom:2px solid #222;
+float:left;
+}
+
+#breadcrumb h1 {
+font-size:10px;
+color:#ccc;
+}
+
+/* CONTENT
+*********************************/
+#content_wrap {
+width:760px;
+font-size:12px;
+color:#fff;
+float:left;
+}
+
+.txt1 {
+color:#fff;
+}
+
+.txt2 {
+color:#ccc;
+}
+
+.lnk1 {
+color:#fc3;
+}
+
+.lnk2 {
+color:#f90;
+}
+
+.lnk3 {
+color:#fff;
+}
+
+.error {
+color:#f93;
+}
+
+.all {
+color:#fc3;
+}
+
+#pc .content a, .pc {
+color:#9cf;
+}
+
+#playstation .content a, .playstation, .ps2, .ps3, .psp {
+color:#a7a7ff;
+}
+
+#xbox .content a, .xbox, .x360, .xbox360 {
+color:#9c0;
+}
+
+#nintendo .content a, .nintendo, .gc, .wii, .ds, .gba {
+color:#c9f;
+}
+
+#portable .content a, .portable, .mobile {
+color:#3c9;
+}
+
+#main_col h4, #side_col h4 {
+font-size:12px;
+line-height:15px;
+padding:5px 10px;
+clear:both;
+}
+
+/* 60/40 - DEFAULT 2 COLUMN LAYOUT
+**********************************
+
+$$$$$$$$$$$$ col_wrap $$$$$$$$$$$$
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$               $$               $
+$ main_col_wrap $$ side_col_wrap $
+$     446px     $$     314px     $
+$               $$               $
+$ $$$$$$$$$$$$$ $$ $$$$$$$$$$$$$ $
+$ $           $ $$ $           $ $
+$ $  main_col $ $$ $  side_col $ $
+$ $   432px   $ $$ $   302px   $ $
+$ $           $ $$ $           $ $
+$ $$$$$$$$$$$$$ $$ $$$$$$$$$$$$$ $
+$               $$               $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+*********************************/
+
+/* COL WRAP */
+#col_wrap {
+width:760px;
+background:#3F4A59 url(col_wrap.gif) repeat-y;
+border-top:1px solid #8aa9c2;
+float:left;
+}
+
+#pc #col_wrap {
+background:#2B425E url(col_wraq.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #col_wrap {
+background:#2A2E4F url(col_wraq.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#xbox #col_wrap {
+background:#37422D url(col_wraq.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #col_wrap {
+background:#3B3747 url(col_wraq.gif) repeat-y;
+border-top:1px solid #C197EA;
+}
+
+#portable #col_wrap {
+background:#2C554C url(col_wraq.gif) repeat-y;
+border-top:1px solid #72C0C0;
+}
+
+/* SHOULDER */
+#shoulder {
+width:760px;
+height:10px;
+font-size:1px;
+background:#3F4A59 url(shoulder.gif) repeat-x;
+clear:both;
+}
+
+#pc #shoulder {
+background:#2B425E url(shouldes.gif) repeat-x;
+}
+
+#playstation #shoulder {
+background:#2A2E4F url(shouldes.gif) repeat-x;
+}
+
+#xbox #shoulder {
+background:#37422D url(shouldes.gif) repeat-x;
+}
+
+#nintendo #shoulder {
+background:#3B3747 url(shouldes.gif) repeat-x;
+}
+
+#portable #shoulder {
+background:#2C554C url(shouldes.gif) repeat-x;
+}
+
+/* NECK */
+#neck {
+width:760px;
+height:10px;
+font-size:1px;
+background:#3F4A59 url(neck_all.gif) repeat-x top;
+clear:both;
+}
+
+#pc #neck {
+background:#2B425E url(neck_pc0.gif) repeat-x top;
+}
+
+#playstation #neck {
+background:#2A2E4F url(neck_pla.gif) repeat-x top;
+}
+
+#xbox #neck {
+background:#37422D url(neck_xbo.gif) repeat-x top;
+}
+
+#nintendo #neck {
+background:#3B3747 url(neck_nin.gif) repeat-x top;
+}
+
+#portable #neck {
+background:#2C554C url(neck_por.gif) repeat-x top;
+}
+
+/* LONG NECK */
+#longneck {
+width:760px;
+font-size:1px;
+background:#000 url(longneck.gif) repeat-x bottom;
+clear:both;
+}
+
+#pc #longneck {
+background:#000 url(longneck.gif) repeat-x bottom;
+}
+
+#playstation #longneck {
+background:#000 url(longneck.gif) repeat-x bottom;
+}
+
+#xbox #longneck {
+background:#000 url(longneck.gif) repeat-x bottom;
+}
+
+#nintendo #longneck {
+background:#000 url(longneck.gif) repeat-x bottom;
+}
+
+#portable #longneck {
+background:#000 url(longneck.gif) repeat-x bottom;
+}
+
+/* MAIN */
+#main_col_wrap {
+width:446px;
+overflow:hidden;
+float:left;
+}
+
+#main_col {
+padding:0 7px 7px;
+}
+
+/* SIDE */
+#side_col_wrap {
+width:308px;
+background-image:url(side_col.gif);
+background-repeat:no-repeat;
+padding:0 0 7px 6px;
+float:left;
+}
+
+#pc #side_col_wrap {
+background-image:url(side_com.gif);
+}
+
+#playstation #side_col_wrap {
+background-image:url(side_com.gif);
+}
+
+#xbox #side_col_wrap {
+background-image:url(side_com.gif);
+}
+
+#nintendo #side_col_wrap {
+background-image:url(side_com.gif);
+}
+
+#portable #side_col_wrap {
+background-image:url(side_com.gif);
+}
+
+#side_col {
+width:302px;
+margin-top:7px;
+}
+
+/* SKY LAYOUT
+**********************************
+
+$$$$$$$$$$ sky_col_wrap $$$$$$$$$$
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$               $$               $
+$ main_col_wrap $$ side_col_wrap $
+$     586px     $$     174px     $
+$               $$               $
+$ $$$$$$$$$$$$$ $$ $$$$$$$$$$$$$ $
+$ $           $ $$ $           $ $
+$ $  main_col $ $$ $  side_col $ $
+$ $   572px   $ $$ $   160px   $ $
+$ $           $ $$ $           $ $
+$ $$$$$$$$$$$$$ $$ $$$$$$$$$$$$$ $
+$               $$               $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+*********************************/
+
+/* SKY COL WRAP */
+#sky_col_wrap {
+width:760px;
+background:#3F4A59 url(skywrap_.gif) repeat-y;
+border-top:1px solid #7C8796;
+float:left;
+}
+
+#pc #sky_col_wrap {
+background:#2B425E url(skywrap_.gif) repeat-y;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #sky_col_wrap {
+background:#2A2E4F url(skywrap_.gif) repeat-y;
+border-top:1px solid #649ACC;
+}
+
+#xbox #sky_col_wrap {
+background:#37422D url(skywrap_.gif) repeat-y;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #sky_col_wrap {
+background:#3B3747 url(skywrap_.gif) repeat-y;
+border-top:1px solid #C197EA;
+}
+
+#portable #sky_col_wrap {
+background:#2C554C url(skywrap_.gif) repeat-y;
+border-top:1px solid #72C0C0;
+}
+
+/* MAIN */
+#sky_col_wrap #main_col_wrap {
+width:586px;
+}
+
+/* SIDE */
+#sky_col_wrap #side_col_wrap {
+width:167px;
+background-image:url(side_sky.gif);
+background-repeat:no-repeat;
+padding:5px 0 0 7px;
+}
+
+#pc #sky_col_wrap #side_col_wrap {
+background-image:url(side_sky.gif);
+}
+
+#playstation #sky_col_wrap #side_col_wrap {
+background-image:url(side_sky.gif);
+}
+
+#xbox #sky_col_wrap #side_col_wrap {
+background-image:url(side_sky.gif);
+}
+
+#nintendo #sky_col_wrap #side_col_wrap {
+background-image:url(side_sky.gif);
+}
+
+#portable #sky_col_wrap #side_col_wrap {
+background-image:url(side_sky.gif);
+}
+
+#sky_col_wrap #side_col {
+width:160px;
+padding:0;
+}
+
+/* FULL WIDTH LAYOUT W/O SKY
+**********************************
+
+$$$$$$$$$ full_col_wrap $$$$$$$$$$
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$                                $
+$         main_col_wrap          $
+$             760px              $
+$                                $
+$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+$ $                            $ $
+$ $          main_col          $ $
+$ $           746px            $ $
+$ $                            $ $
+$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $
+$                                $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+*********************************/
+
+/* FULL COL WRAP */
+#full_col_wrap {
+width:760px;
+background:#3F4A59;
+border-top:1px solid #7C8796;
+float:left;
+}
+
+#pc #full_col_wrap {
+background:#2B425E;
+border-top:1px solid #70A1D3;
+}
+
+#playstation #full_col_wrap {
+background:#2A2E4F;
+border-top:1px solid #649ACC;
+}
+
+#xbox #full_col_wrap {
+background:#37422D;
+border-top:1px solid #96AE63;
+}
+
+#nintendo #full_col_wrap {
+background:#3B3747;
+border-top:1px solid #C197EA;
+}
+
+#portable #full_col_wrap {
+background:#2C554C;
+border-top:1px solid #72C0C0;
+}
+
+#full_col_wrap #main_col_wrap {
+width:760px;
+}
+
+#filter #col_wrap,
+#filter #sky_col_wrap,
+#filter #full_col_wrap,
+#hub #col_wrap,
+#hub #sky_col_wrap,
+#hub #full_col_wrap,
+#forums #col_wrap,
+#forums #sky_col_wrap,
+#forums #full_col_wrap,
+#search #col_wrap,
+#search #sky_col_wrap,
+#search #full_col_wrap,
+#special_events #col_wrap,
+#special_events #sky_col_wrap,
+#special_events #full_col_wrap {
+border-top:0;
+}
+
+/* SITE FOOTER
+*********************************/
+#footer_leaderboard {
+background:#111;
+}
+
+#footer {
+color:#999;
+background:#111;
+padding-bottom:12px;
+}
+
+#footer .shoe {
+background:#000;
+}
+
+#footer h1 {
+font-size:10px;
+font-weight:normal;
+display:inline;
+}
+
+#footer a {
+padding:0 1px;
+}
+
+#footer .gsfoot {
+background:#333 url(gs_foot0.gif) no-repeat -8px 0px;
+}
+
+#footer .footnav1, #footer .footnav2 {
+background:#131313;
+border-top:1px solid #333;
+border-bottom:1px solid #333;
+}
+
+#footer .footnav2 a {
+color:#ccc;
+}
+
+#footer .footnav3 {
+color:#777;
+border-bottom:1px solid #333;
+}
+
+#footer .footnav3 a {
+font-weight:normal;
+color:#999;
+}
+
+#footer .sole a {
+font-weight:normal;
+color:#999;
+}
+
+#cbsi_f {
+    font-size: 11px;
+    text-align: left;
+    padding:0px 5px;
+}
+#cbsi_f a {
+    /* color: #d67606; */
+}
+#cbsi_f form {
+    float: right;
+    text-align: right;
+}
+#cbsi_f select, #cbsi_footer input {
+    border: 1px solid #ccc;
+    margin-left: 2px;
+    padding: 2px;
+    font-size: 9px;
+}
+#cbsi_f label {
+    display: block;
+    font-size: 95%;
+    margin-bottom: 2px;
+}
+#cbsi_f input:hover {
+    /*background-color: #333;*/
+    /*color: #ddd;*/
+}
+#cbsi_f_pop {
+    margin-bottom: 8px;
+}
+
+
+/* MODULES, BUBBLES, & BOXES
+*********************************/
+.module_wrap, .bubble_wrap {
+clear:both;
+}
+
+.no_module_head{
+background:url(module_3.gif) no-repeat;
+padding-top:6px;
+}
+
+.bubble_wrap {
+padding-top:6px;
+}
+
+/* MODULE HEAD */
+.module_head {
+width:100%;
+font-size:11px;
+line-height:14px;
+color:#000;
+background:url(head_all.gif) no-repeat top right;
+float:left;
+}
+
+#col_wrap #main_col .module_head {
+width:432px;
+}
+
+#sky_col_wrap #main_col .module_head {
+width:572px;
+}
+
+#full_col_wrap #main_col .module_head {
+width:746px;
+}
+
+.module_head a, #main_col .module_head a {
+color:#000;
+}
+
+#pc .module_head {
+background:url(head_pc0.gif) no-repeat top right;
+}
+
+#playstation .module_head {
+background:url(head_pla.gif) no-repeat top right;
+}
+
+#xbox .module_head {
+background:url(head_xbo.gif) no-repeat top right;
+}
+
+#nintendo .module_head {
+background:url(head_nin.gif) no-repeat top right;
+}
+
+#portable .module_head {
+background:url(head_por.gif) no-repeat top right;
+}
+
+.module_head .module_head_right {
+font-size:10px;
+padding:4px 18px 0 0;
+float:right;
+}
+
+.module_head h2 {
+font-size:11px;
+line-height:14px;
+padding:4px 0 4px 10px;
+float:left;
+}
+
+#gamespace #main_col .module_head,
+#gamespace #main_col .module_head h2{background-image:url(head_gam.gif);}
+
+#gamespace #main_col .module_head h2 {
+font-size:13px;
+line-height:16px;
+padding:3px 0 3px 10px;
+}
+
+/* MODULE TABS
+*******************************/
+
+.module_head ul.tabs {
+background:url(module_t.gif) repeat-x;
+clear:both;
+display:block;
+height:27px;
+padding:8px 0 0;
+border-left:solid #000 1px;
+border-right:solid #000 1px;
+}
+#side_col .module_head ul.tabs {
+    width:300px;
+}
+
+.module_head ul.tabs li{
+display:inline;
+float:left;
+height:27px;
+line-height:27px;
+margin:0 0 0 3px;
+}
+
+.module_head ul.tabs a,
+.module_head ul.tabs a b{
+background:url(module_t.gif) no-repeat;
+cursor:pointer;
+display:block;
+}
+
+.module_head ul.tabs a{
+background-position:bottom right;
+color:#fff;
+padding:0 10px 0 0;
+}
+
+.module_head ul.tabs a b{
+background-position:bottom left;
+padding:0 0 0 10px;
+}
+
+.module_head ul.tabs li.on a{
+background-position:top right;
+}
+
+.module_head ul.tabs li.on a b{
+background-position:top left;
+}
+
+/* MAIN */
+#main_col .module_head h2 {
+background:#3F4A59 url(head_all.gif) no-repeat top left;
+}
+
+#pc #main_col .module_head h2 {
+background:#2B425E url(head_pc0.gif) no-repeat top left;
+}
+
+#playstation #main_col .module_head h2 {
+background:#2A2E4F url(head_pla.gif) no-repeat top left;
+}
+
+#xbox #main_col .module_head h2 {
+background:#37422D url(head_xbo.gif) no-repeat top left;
+}
+
+#nintendo #main_col .module_head h2 {
+background:#3B3747 url(head_nin.gif) no-repeat top left;
+}
+
+#portable #main_col .module_head h2 {
+background:#2C554C url(head_por.gif) no-repeat top left;
+}
+
+/* SIDE */
+#side_col .module_head h2 {
+background:#737D8C url(head_all.gif) no-repeat top left;
+}
+
+#pc #side_col .module_head h2 {
+background:#537592 url(head_pc0.gif) no-repeat top left;
+}
+
+#playstation #side_col .module_head h2 {
+background:#4A6384 url(head_pla.gif) no-repeat top left;
+}
+
+#xbox #side_col .module_head h2 {
+background:#5E7C3F url(head_xbo.gif) no-repeat top left;
+}
+
+#nintendo #side_col .module_head h2 {
+background:#5C566F url(head_nin.gif) no-repeat top left;
+}
+
+#portable #side_col .module_head h2 {
+background:#4E8670 url(head_por.gif) no-repeat top left;
+}
+
+/* MODULE */
+.module, .bubble {
+padding-bottom:20px;
+clear:both;
+}
+
+/* MAIN */
+#main_col .module, #main_col .bubble {
+width:432px;
+}
+
+#sky_col_wrap #main_col .module, #sky_col_wrap #main_col .bubble {
+width:572px;
+}
+
+#full_col_wrap #main_col .module, #full_col_wrap #main_col .bubble {
+width:746px;
+}
+
+#main_col h4 {
+background:#333;
+}
+
+#main_col .module a .on {
+color:#fff;
+}
+
+/* SIDE */
+#side_col .module_wrap, #side_col .bubble_wrap {
+padding-bottom:7px;
+}
+
+#side_col .module, #side_col .bubble {
+font-size:11px;
+color:#ccc;
+background:url(module_4.gif) no-repeat bottom;
+padding:0 7px 10px;
+}
+
+#side_col h4 {
+color:#fff;
+background:#444;
+}
+
+/* GENERIC BUBBLES */
+#col_wrap .bubble_wrap {
+background:url(module_5.gif) no-repeat top;
+}
+
+#sky_col_wrap .bubble_wrap {
+background:url(module_5.gif) no-repeat top;
+}
+
+#full_col_wrap .bubble_wrap {
+background:url(module_7.gif) no-repeat top;
+}
+
+#col_wrap .bubble {
+background:url(module_5.gif) no-repeat bottom;
+}
+
+#sky_col_wrap .bubble {
+background:url(module_6.gif) no-repeat bottom;
+}
+
+#full_col_wrap .bubble {
+background:url(module_7.gif) no-repeat bottom;
+}
+
+/* BROWSE */
+#col_wrap #browse_module .module {
+width:432px;
+background:url(module_5.gif) no-repeat bottom;
+}
+
+#sky_wrap #browse_module .module {
+width:572px;
+background:url(module_6.gif) no-repeat bottom;
+}
+
+#full_col_wrap #browse_module .module {
+width:746px;
+background:url(module_7.gif) no-repeat bottom;
+}
+
+.alpha_nav a {
+padding:0 3px 0 2px;
+}
+
+/* ADS */
+#story_marquee #lmq_module.module_wrap {
+background:none;
+}
+
+#mpu_module.module_wrap, #lmq_module.module_wrap {
+background:url(module_3.gif) no-repeat;
+padding-top:6px;
+}
+
+#mpu_module .module, #lmq_module .module {
+text-align:center;
+padding:0 1px 6px;
+}
+
+#mpu_module .module #mpu, #lmq_module .module #mpu {
+font-size:1px;
+padding-top:0;
+clear:both;
+}
+
+#mpu_module .more, #lmq_module .more {
+font-size:1px;
+padding:0 0 3px;
+}
+
+/* EXCEPTIONS */
+#gumballs_module .module {background:url(module_5.gif) no-repeat bottom;}
+#gumballs_module .sponsored, #gumballs_module .sponsored a{color:#9b9b9b; font-weight:bold;}
+#gumballs_inline .sponsored, #gumballs_inline .sponsored a{color:#9b9b9b; font-weight:bold;}
+
+.bc432 {
+background:url(module_5.gif) no-repeat bottom;
+}
+
+/* BOXES */
+.box {
+font-size:11px;
+text-align:center;
+background:#2C333E;
+padding:7px 0 10px;
+border:1px solid #737D8C;
+margin-bottom:20px;
+clear:both;
+}
+
+#col_wrap .box {
+width:432px;
+}
+
+#col_wrap #side_col .box {
+    width:300px;
+}
+
+#sky_col_wrap .box {
+width:572px;
+}
+
+#full_col_wrap .box {
+width:746px;
+}
+
+#pc .box,
+#pc #side_col .box{
+background:#263A52;
+border:1px solid #537592;
+}
+
+#playstation .box,
+#playstation #side_col .box{
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#xbox .box,
+#xbox #side_col .box{
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+#nintendo .box,
+#nintendo #side_col .box{
+background:#312E3B;
+border:1px solid #5C566F;
+}
+
+#portable .box,
+#portable #side_col .box{
+background:#264841;
+border:1px solid #4E8670;
+}
+
+#checkprices .box {
+background:#777;
+border:1px solid #333;
+}
+
+/* DEFAULT CLASSES
+*********************************/
+.fft {font-family:Tahoma,Arial,Helvetica,sans-serif;}
+.f10 {font-size:10px;}
+.f11 {font-size:11px;}
+.f12 {font-size:12px;}
+.f13 {font-size:13px;}
+.f14 {font-size:14px;}
+.f15 {font-size:15px;}
+.f16 {font-size:16px;}
+.f17 {font-size:17px;}
+.f18 {font-size:18px;}
+.f21 {font-size:21px;}
+.f24 {font-size:24px;}
+.f30 {font-size:30px;}
+
+.fwn {font-weight:normal;}
+.fwb {font-weight:bold;}
+
+.lh12 {line-height:12px;}
+.lh14 {line-height:14px;}
+.lh16 {line-height:16px;}
+.lh21 {line-height:21px;}
+
+.tal {text-align:left;}
+.tar {text-align:right;}
+.tac {text-align:center;}
+
+.b0 {border:0;}
+.b1s000 {border:1px solid #000;}
+.b1s333 {border:1px solid #333;}
+.b1s666 {border:1px solid #666;}
+.b1s999 {border:1px solid #999;}
+
+.p0 {padding:0;}
+.pt0 {padding-top:0;}
+.pr0 {padding-right:0;}
+.pb0 {padding-bottom:0;}
+.pl0 {padding-left:0;}
+
+.p4 {padding:4px;}
+.pt4 {padding-top:4px;}
+.pr4 {padding-right:4px;}
+.pb4 {padding-bottom:4px;}
+.pl4 {padding-left:4px;}
+
+.p5 {padding:5px;}
+.pt5 {padding-top:5px;}
+.pr5 {padding-right:5px;}
+.pb5 {padding-bottom:5px;}
+.pl5 {padding-left:5px;}
+
+.p7 {padding:7px;}
+.pt7 {padding-top:7px;}
+.pr7 {padding-right:7px;}
+.pb7 {padding-bottom:7px;}
+.pl7 {padding-left:7px;}
+
+.p10 {padding:10px;}
+.pt10 {padding-top:10px;}
+.pr10 {padding-right:10px;}
+.pb10 {padding-bottom:10px;}
+.pl10 {padding-left:10px;}
+
+.p15 {padding:15px;}
+.pt15 {padding-top:15px;}
+.pr15 {padding-right:15px;}
+.pb15 {padding-bottom:15px;}
+.pl15 {padding-left:15px;}
+
+.p20 {padding:20px;}
+.pt20 {padding-top:20px;}
+.pr20 {padding-right:20px;}
+.pb20 {padding-bottom:20px;}
+.pl20 {padding-left:20px;}
+
+.m0 {margin:0;}
+.mt0 {margin-top:0;}
+.mr0 {margin-right:0;}
+.mb0 {margin-bottom:0;}
+.ml0 {margin-left:0;}
+
+.m5 {margin:5px;}
+.mt5 {margin-top:5px;}
+.mr5 {margin-right:5px;}
+.mb5 {margin-bottom:5px;}
+.ml5 {margin-left:5px;}
+
+.m7 {margin:7px;}
+.mt7 {margin-top:7px;}
+.mr7 {margin-right:7px;}
+.mb7 {margin-bottom:7px;}
+.ml7 {margin-left:7px;}
+
+.m10 {margin:10px;}
+.mt10 {margin-top:10px;}
+.mr10 {margin-right:10px;}
+.mb10 {margin-bottom:10px;}
+.ml10 {margin-left:10px;}
+
+.m15 {margin:15px;}
+.mt15 {margin-top:15px;}
+.mr15 {margin-right:15px;}
+.mb15 {margin-bottom:15px;}
+.ml15 {margin-left:15px;}
+
+.m20 {margin:20px;}
+.mt20 {margin-top:20px;}
+.mr20 {margin-right:20px;}
+.mb20 {margin-bottom:20px;}
+.ml20 {margin-left:20px;}
+
+.ml90 {margin-left:90px;}
+.mr90 {margin-right:90px;}
+
+.mauto {margin:auto;}
+.mtauto {margin-top:auto;}
+.mrauto {margin-right:auto;}
+.mbauto {margin-bottom:auto;}
+.mlauto {margin-left:auto;}
+
+.fl {float:left;}
+.fr {float:right;}
+.fn {float:none;}
+
+.cl {clear:left;}
+.cr {clear:right;}
+.cb {clear:both;}
+
+.w50 {width:50px;}
+.w60 {width:60px;}
+.w70 {width:70px;}
+.w90 {width:90px;}
+.w100 {width:100px;}
+.w140 {width:140px;}
+.w270 {width:270px;}
+.w288 {width:288px;}
+.w300 {width:300px;}
+.w306 {width:306px;}
+.w315 {width:315px;}
+.w320 {width:320px;}
+.w328 {width:328px;}
+.w340 {width:340px;}
+.w345 {width:345px;}
+.w353 {width:353px;}
+.w432 {width:432px;}
+.w572 {width:572px;}
+.w746 {width:746px;}
+.w50p {width:50%;}
+.w100p {width:100%;}
+
+.wsn {white-space:nowrap;}
+.oh {overflow:hidden;}
+.db {display:block;}
+
+.fff {color: #FFF;}
+
+/* MORE DEFAULT CLASSES
+*********************************/
+.more {
+font-size:11px;
+text-align:center;
+color:#ccc;
+padding-top:10px;
+clear:both;
+}
+
+.posted {
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+font-size:10px;
+color:#ccc;
+}
+
+.bullet {
+background:url(bullet00.gif) no-repeat 2px 4px;
+padding-left:12px;
+}
+
+.dots {
+background:url(dot00000.gif) repeat-x bottom;
+}
+
+.dots_top {
+background:url(dot00000.gif) repeat-x top;
+}
+
+.user, .img_box {
+width:110px;
+font-size:11px;
+text-align:center;
+background:#333;
+padding:5px 0;
+border:1px solid #666;
+margin-right:5px;
+float:left;
+overflow:hidden;
+}
+
+.user {
+padding:10px 0;
+}
+
+.user a {
+font-size:11px;
+}
+
+#user_banned {
+width:760px;
+height:681px;
+background:url(banned_p.jpg) no-repeat;
+}
+
+.avatar-sm {
+width:40px;
+height:40px;
+background-position:center;
+margin:0 10px 4px 0;
+}
+
+.avatar-sm img {
+width:40px;
+height:40px;
+border:1px solid #000;
+position:relative;
+}
+
+.avatar {
+width:80px;
+height:80px;
+background-position:center;
+background-repeat:no-repeat;
+display:block;
+}
+
+.avatar_wrap {
+width:82px;
+overflow:hidden;
+}
+
+.user .avatar {
+margin:auto auto 4px;
+}
+
+.score {
+width:70px;
+height:60px;
+background:url(score_70.gif) no-repeat;
+text-align:center;
+float:right;
+}
+
+.score .number {
+font-size:21px;
+font-weight:bold;
+padding-top:10px;
+}
+
+.username, .unionname {
+color:#fff;
+}
+
+.video_thumb {
+width:102px;
+height:70px;
+overflow:hidden;
+}
+
+.video_thumb a,
+.video_thumb span{
+background:url(videothu.gif) no-repeat 0 0;
+display:block;
+height:0;
+width:100%;
+padding:70px 0 0;
+overflow:hidden;
+}
+
+.video_thumb img {
+width:102px;
+height:70px;
+background:url(videothu.gif) no-repeat;
+}
+
+.hd_thumb {
+width:102px;
+height:70px;
+overflow:hidden;
+}
+
+.hd_thumb img {
+width:102px;
+height:70px;
+}
+
+.hd_thumb a,
+.hd_thumb span{
+background:url(videothu.gif) no-repeat 0 0;
+}
+
+.psp_thumb {
+width:102px;
+height:75px;
+overflow:hidden;
+}
+
+.psp_thumb img {
+ width:102px;
+height:75px;
+}
+
+.table {
+width:100%;
+font-size:11px;
+}
+
+.table th {
+background:#000;
+padding:4px 5px;
+}
+
+.table th a {
+color:#fff;
+}
+
+.table td {
+background:#32363D;
+padding:4px 5px;
+}
+
+.alt {
+background:#21262D;
+}
+
+.table .alt td {
+background:#21262D;
+}
+
+#filter .table td {
+border-right:1px solid #586270;
+}
+
+#filter .table td.b0 {
+border:0;
+}
+
+.mceEditor {
+height:200px;
+}
+
+a.watch{
+    background:url(watch_mi.gif) no-repeat center left;
+    padding:2px 0 1px 25px;
+}
+a.download{
+    background:url(download.gif) no-repeat center left;
+    padding:2px 0 1px 25px;
+}
+
+/* DEFAULT FORMS
+*********************************/
+form {
+display:inline;
+}
+
+#content_wrap select, #content_wrap input, #content_wrap textarea {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+.form {
+color:#fff;
+background:#222;
+}
+
+/* HEADER / TABS / SUBNAV
+*********************************/
+#head_wrap {
+width:760px;
+height:140px;
+color:#fff;
+background:#000;
+border-bottom:1px solid #000;
+float:left;
+position:relative;
+z-index:0;
+}
+#head_wrap a {
+text-decoration:none;
+}
+
+#head_wrap h1 {
+font-size:26px;
+line-height:26px;
+color:#fff;
+margin:0;
+padding:51px 10px 34px;
+text-decoration:none;
+}
+#head_wrap h1 a{
+color:#fff;
+}
+/* header for profile pages */
+#head_wrap h1.profile{
+padding:0;
+}
+#head_wrap h1.profile a{
+display:block;
+padding:51px 10px 34px;
+}
+/* header for gamespaces */
+#head_wrap h1.gamespace{
+padding:35px 10px 0;
+}
+#head_wrap #gamespace_mini_info{
+color:#a4a4a4;
+font-size:11px;
+font-weight:bold;
+line-height:11px;
+padding:4px 10px 35px;
+}
+#head_wrap #gamespace_mini_info a{
+    font-weight:bold;
+}
+#head_wrap #gamespace_mini_info a:hover{
+    text-decoration:underline;
+}
+#head_wrap #gamespace_head_promo{
+position:absolute;
+top:0;
+right:0;
+}
+#head_wrap #gamespace_head_promo a{
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+/* TABS */
+#tabs {
+font-size:11px;
+line-height:14px;
+color:#fff;
+padding-left:10px;
+margin-bottom:-2px;
+float:left;
+position:relative;
+z-index:1;
+}
+
+#tabs a {
+font-weight:bold;
+color:#333;
+}
+
+#tabs a:hover {
+text-decoration:underline;
+}
+
+#tabs .tab {
+text-align:center;
+background:url(tab00000.gif);
+padding:9px 6px 8px 6px;
+float:left;
+}
+
+#tabs .tab#first_tab {
+background:url(tab_firs.gif);
+padding-left:12px;
+}
+
+#tabs .tab#last_tab {
+background:url(tab_last.gif) top right;
+}
+
+#gamespace #tabs .tab#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#gamespace #tabs .tab#last_tab_off {
+background:url(tab_last.gif) top right;
+}
+
+#tabs .on {
+background:url(tab_all0.gif);
+}
+
+#tabs .on#first_tab {
+background:url(tab_firs.gif);
+padding-left:12px;
+}
+
+#tabs .on#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#pc #tabs .on {
+background:url(tab_pc00.gif);
+}
+
+#pc #tabs .on#first_tab {
+background:url(tab_firt.gif);
+}
+
+#pc #tabs .on#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#playstation #tabs .on {
+background:url(tab_play.gif);
+}
+
+#playstation #tabs .on#first_tab {
+background:url(tab_firt.gif);
+}
+
+#playstation #tabs .on#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#xbox #tabs .on {
+background:url(tab_xbox.gif);
+}
+
+#xbox #tabs .on#first_tab {
+background:url(tab_firt.gif);
+}
+
+#xbox #tabs .on#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#nintendo #tabs .on {
+background:url(tab_nint.gif);
+}
+
+#nintendo #tabs .on#first_tab {
+background:url(tab_firt.gif);
+}
+
+#nintendo #tabs .on#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#portable #tabs .on {
+background:url(tab_port.gif);
+}
+
+#portable #tabs .on#first_tab {
+background:url(tab_firt.gif);
+}
+
+#portable #tabs .on#last_tab {
+background:url(tab_lasu.gif) top right;
+}
+
+#tabs .off, #subnav .off {
+font-weight:bold;
+color:#777;
+}
+
+/* SUBNAV */
+#subnav_wrap {
+width:760px;
+background:#3F4A59;
+padding:14px 0 16px;
+float:left;
+overflow:hidden;
+}
+
+#pc #subnav_wrap {
+background:#2B425E url(subnav_p.gif) repeat-x;
+}
+
+#playstation #subnav_wrap {
+background:#2A2E4F url(subnav_p.gif) repeat-x;
+}
+
+#xbox #subnav_wrap {
+background:#37422D url(subnav_x.gif) repeat-x;
+}
+
+#nintendo #subnav_wrap {
+background:#3B3747 url(subnav_n.gif) repeat-x;
+}
+
+#portable #subnav_wrap {
+background:#2C554C url(subnav_p.gif) repeat-x;
+}
+
+#main_col #subnav{padding-left:0;}
+#main_col #subnav_wrap,
+#main_col #pc #subnav_wrap,
+#main_col #playstation #subnav_wrap,
+#main_col #xbox #subnav_wrap,
+#main_col #nintendo #subnav_wrap,
+#main_col #portable #subnav_wrap{background:none;padding-top:0;width:100%;}
+
+#filter #subnav_wrap, #search #subnav_wrap, #uservideos #subnav_wrap {
+background:#3F4A59;
+padding-top:0;
+}
+
+#filter #pc #subnav_wrap {
+background:#2B425E;
+padding-top:0;
+}
+
+#filter #playstation #subnav_wrap {
+background:#2A2E4F;
+padding-top:0;
+}
+
+#filter #xbox #subnav_wrap {
+background:#37422D;
+padding-top:0;
+}
+
+#filter #nintendo #subnav_wrap {
+background:#3B3747;
+padding-top:0;
+}
+
+#filter #portable #subnav_wrap {
+background:#2C554C;
+padding-top:0;
+}
+
+/* SUBTABS */
+#subnav {
+font-size:11px;
+line-height:13px;
+padding-left:10px;
+float:left;
+}
+
+#subnav a {
+font-weight:normal;
+color:#036;
+display:block;
+}
+
+#subnav li {
+padding:6px 9px 5px;
+border-right:1px solid #000;
+float:left;
+}
+
+#subnav li,
+#subnav .first,
+#subnav .last {
+    background-image:url(subtab00.gif);
+    background-position:center;
+    }
+#subnav .first,
+#subnav .first_on {
+padding-left:11px;
+    background-position:left;
+}
+#subnav .last,
+#subnav .last_on {
+    background-position:right;
+padding-right:11px;
+border:0;
+}
+#subnav .on,
+#subnav .first_on,
+#subnav .last_on {
+    background-image:url(subtab_a.gif);
+}
+#pc #subnav .on,
+#pc #subnav .first_on,
+#pc #subnav .last_on,
+#images #pc #subnav .on#user_images a,
+#images #pc #subnav .on#gamespot_images a {
+    background-image:url(subtab_p.gif);
+}
+#playstation #subnav .on,
+#playstation #subnav .first_on,
+#playstation #subnav .last_on,
+#images #playstation #subnav .on#user_images a,
+#images #playstation #subnav .on#gamespot_images a {
+    background-image:url(subtab_p.gif);
+}
+#xbox #subnav .on,
+#xbox #subnav .first_on,
+#xbox #subnav .last_on,
+#images #xbox #subnav .on#user_images a,
+#images #xbox #subnav .on#gamespot_images a {
+    background-image:url(subtab_x.gif);
+}
+#nintendo #subnav .on,
+#nintendo #subnav .first_on,
+#nintendo #subnav .last_on,
+#images #nintendo #subnav .on#user_images a,
+#images #nintendo #subnav .on#gamespot_images a {
+    background-image:url(subtab_n.gif);
+}
+
+
+/* IMAGES SUBTABS */
+#images #subnav li {
+    position:relative;
+    z-index:1;
+}
+#images #subnav .first strong {
+    padding-left:4px;
+}
+#images #subnav #gamespot_images,
+#images #subnav #user_images {
+    border:0;
+    padding:0;
+}
+#images #subnav #gamespot_images a,
+#images #subnav #user_images a {
+    line-height:24px;
+    margin:0 5px 0 0;
+    padding:0 5px 0 10px;
+}
+#images #subnav #user_images .off {
+    line-height:24px;
+    margin:0 5px 0 0;
+    padding:5px 5px 5px 10px;
+}
+#images #subnav #user_images {
+    margin-left:25px;
+    margin-right:-5px;
+    z-index:5;
+    position:relative;
+}
+#images #pc #subnav #user_images,
+#images #pc #subnav #gamespot_images,
+#images #xbox #subnav #user_images,
+#images #xbox #subnav #gamespot_images,
+#images #playstation #subnav #user_images,
+#images #playstation #subnav #gamespot_images,
+#images #nintendo #subnav #user_images,
+#images #nintendo #subnav #gamespot_images {
+    background:url(subtab_e.gif) top right no-repeat;
+}
+#images #pc #subnav #user_images a,
+#images #pc #subnav #gamespot_images a,
+#images #xbox #subnav #user_images a,
+#images #xbox #subnav #gamespot_images a,
+#images #playstation #subnav #user_images a,
+#images #playstation #subnav #gamespot_images a,
+#images #nintendo #subnav #user_images a,
+#images #nintendo #subnav #gamespot_images a,
+#images #subnav #user_images .off {
+    background:url(subtab00.gif) top left;
+}
+#images #pc #subnav .on#user_images,
+#images #pc #subnav .on#gamespot_images {
+    background-image:url(subtab_p.gif);
+}
+#images #xbox #subnav .on#user_images,
+#images #xbox #subnav .on#gamespot_images {
+    background-image:url(subtab_x.gif);
+}
+#images #playstation #subnav .on#user_images,
+#images #playstation #subnav .on#gamespot_images {
+    background-image:url(subtab_p.gif);
+}
+#images #nintendo #subnav .on#user_images,
+#images #nintendo #subnav .on#gamespot_images {
+    background-image:url(subtab_n.gif);
+}
+
+/* COLORS */
+#images #pc #subnav a,
+#pc #tabs a, #pc #subnav a {
+color:#036;
+}
+#images #playstation #subnav a,
+#playstation #tabs a, #playstation #subnav a {
+color:#006;
+}
+#images #xbox #subnav a,
+#xbox #tabs a, #xbox #subnav a {
+color:#240;
+}
+#images #nintendo #subnav a,
+#nintendo #tabs a, #nintendo #subnav a {
+color:#471E7E;
+}
+
+#portable #tabs a, #portable #subnav a {
+color:#044;
+}
+
+#tabs .on a,
+#gamespace #tabs .tab#last_tab a,
+#subnav .on a,
+#subnav .first_on a,
+#subnav .last_on a,
+#pc #tabs .on a,
+#pc #subnav .on a,
+#pc #subnav .first_on a,
+#pc #subnav .last_on a,
+#playstation #tabs .on a,
+#playstation #subnav .on a,
+#playstation #subnav .first_on a,
+#playstation #subnav .last_on a,
+#xbox #tabs .on a,
+#xbox #subnav .on a,
+#xbox #subnav .first_on a,
+#xbox #subnav .last_on a,
+#nintendo #tabs .on a,
+#nintendo #subnav .on a,
+#nintendo #subnav .first_on a,
+#nintendo #subnav .last_on a,
+#portable #tabs .on a,
+#portable #subnav .on a,
+#portable #subnav .first_on a,
+#portable #subnav .last_on a,
+#images #pc #subnav .on a,
+#images #pc #subnav .first_on a,
+#images #pc #subnav .last_on a,
+#images #playstation #subnav .on a,
+#images #playstation #subnav .first_on a,
+#images #playstation #subnav .last_on a,
+#images #xbox #subnav .on a,
+#images #xbox #subnav .first_on a,
+#images #xbox #subnav .last_on a,
+#images #nintendo #subnav .on a,
+#images #nintendo #subnav .first_on a,
+#images #nintendo #subnav .last_on a {
+color:#fff;
+}
+
+/* MOST POPULAR
+*********************************/
+#most_popular {
+margin-bottom:20px;
+}
+
+#mostpopular {
+width:432px;
+}
+
+#mostpopular .head_wrap {
+width:432px;
+height:84px;
+color:#fff;
+background-color:transparent;
+background-repeat:no-repeat;
+border-bottom:1px solid #000;
+float:left;
+position:relative;
+z-index:0;
+}
+
+#mostpopular .head_wrap a {
+text-decoration:none;
+}
+
+/* HEADERS */
+#mostpopular #mp_0.head_wrap {
+background-image:url(topten00.gif);
+}
+
+/* PLATFORMS */
+#mostpopular #mp_5.head_wrap {
+background-image:url(topten_p.gif);
+}
+
+#mostpopular #mp_7.head_wrap  {
+background-image:url(topten_p.gif);
+}
+
+#mostpopular #mp_1028.head_wrap  {
+background-image:url(topten_p.gif);
+}
+
+#mostpopular #mp_1024.head_wrap  {
+background-image:url(topten_p.gif);
+}
+
+#mostpopular #mp_13.head_wrap  {
+background-image:url(topten_x.gif);
+}
+
+#mostpopular #mp_1029.head_wrap  {
+background-image:url(topten_x.gif);
+}
+
+#mostpopular #mp_11.head_wrap  {
+background-image:url(topten_g.gif);
+}
+
+#mostpopular #mp_1031.head_wrap {
+background-image:url(topten_r.gif);
+}
+
+#mostpopular #mp_1026.head_wrap {
+background-image:url(topten_d.gif);
+}
+
+#mostpopular #mp_12.head_wrap  {
+background-image:url(topten_g.gif);
+}
+
+#mostpopular #mp_1006.head_wrap {
+background-image:url(topten_n.gif);
+}
+
+#mostpopular #mp_1025.head_wrap {
+background-image:url(topten_m.gif);
+}
+
+/* GENRES */
+#mostpopular #mp_sports.head_wrap {
+background-image:url(topten_s.gif);
+}
+
+/* FILES */
+#mostpopular .head_wrap #mpfiles_all {
+background-image:url(topten_f.gif);
+}
+
+#mostpopular .head_wrap #mpfiles_demos {
+background-image:url(topten_d.gif);
+}
+
+#mostpopular .head_wrap #mpfiles_patches {
+background-image:url(topten_p.gif);
+}
+
+#mostpopular .head_wrap #mpfiles_maps {
+background-image:url(topten_m.gif);
+}
+
+#mostpopular .head_wrap #mpfiles_mods {
+background-image:url(topten_m.gif);
+}
+
+#mostpopular .head_wrap #mpfiles_movies {
+background-image:url(topten_m.gif);
+}
+
+#mostpopular .head_wrap #mpfiles_others {
+background-image:url(topten_f.gif);
+}
+
+/* VIDEOS */
+#mostpopular .head_wrap #mp_videos {
+background-image:url(topten_v.gif);
+}
+
+/* NEWS */
+#mostpopular .head_wrap #mp_news {
+background-image:url(topten_n.gif);
+}
+
+#mostpopular #tabs {
+width:432px;
+padding-left:0;
+position:absolute;
+top:54px;
+left:0;
+}
+
+#mostpopular #shoulder {
+width:430px;
+border:1px solid #000;
+border-top:0;
+}
+
+#mostpopular .num1 {
+background:url(topten_n.jpg) no-repeat;
+border-right:1px solid #000;
+border-left:1px solid #000;
+border-bottom:1px solid #666;
+}
+
+#mostpopular .todays_num1 {
+width:142px;
+height:10px;
+background:url(todays_n.gif) no-repeat;
+}
+
+#mostpopular .todays_num1_video {
+width:144px;
+height:10px;
+background:url(todays_o.gif) no-repeat;
+}
+
+#mostpopular .todays_num1_file {
+width:134px;
+height:10px;
+background:url(todays_o.gif) no-repeat;
+}
+
+#mostpopular .num1 table {
+border-top:1px solid #666;
+border-bottom:1px solid #666;
+}
+
+#mostpopular .table {
+border-bottom:1px solid #000;
+}
+
+#mostpopular .table td {
+padding:5px;
+}
+
+#mostpopular .table td.rank {
+border-left:1px solid #000;
+}
+
+#mostpopular .table td.score_col {
+border-right:1px solid #000;
+}
+
+#mostpopular .table td.rank, #mostpopular .table td.score_col {
+background:#454950;
+}
+
+#mostpopular .table .alt td.rank, #mostpopular .table .alt td.score_col {
+background:#32363D;
+}
+
+#mostpopular .rankings {
+background:url(module_6.gif) no-repeat bottom;
+}
+
+/* BUTTONS
+*********************************/
+.bttn {
+font-size:11px;
+line-height:14px;
+font-weight:bold;
+text-align:center;
+text-shadow:2px 2px #000;
+color:#fff;
+padding:4px 0px 6px;
+border:0px;
+margin:5px auto 0px;
+cursor:pointer;
+}
+
+.btno156 {
+width:156px;
+background:url(button40.gif) no-repeat;
+}
+
+.btnr114 {
+width:114px;
+background:url(button50.gif) no-repeat;
+}
+
+.btno106 {
+width:106px;
+background:url(button60.gif) no-repeat;
+}
+
+.btno69 {
+width:69px;
+background:url(button70.gif) no-repeat;
+}
+
+.button1 {
+width:127px;
+font-size:11px;
+line-height:14px;
+font-weight:bold;
+text-align:center;
+text-shadow:2px 2px #000;
+color:#fff;
+background:url(button10.gif) no-repeat;
+padding:4px 0 6px;
+border:0;
+margin:5px auto 0;
+cursor:pointer;
+}
+
+.button2 {
+width:127px;
+font-size:11px;
+line-height:14px;
+font-weight:bold;
+text-align:center;
+text-shadow:2px 2px #000;
+color:#fff;
+background:url(button20.gif) no-repeat;
+padding:4px 0 6px;
+border:0;
+margin:5px auto 0;
+cursor:pointer;
+}
+
+.button3 {
+width:127px;
+font-size:11px;
+line-height:14px;
+font-weight:bold;
+text-align:center;
+text-shadow:2px 2px #000;
+color:#fff;
+background:url(button30.gif) no-repeat;
+padding:4px 0 6px;
+border:0;
+margin:5px auto 0;
+cursor:pointer;
+}
+
+.button1nopointer {
+width:127px;
+font-size:11px;
+line-height:14px;
+font-weight:bold;
+text-align:center;
+text-shadow:2px 2px #000;
+color:#fff;
+background:url(button10.gif) no-repeat;
+padding:4px 0 6px;
+border:0;
+margin:5px auto 0;
+}
+
+
+#user_uploads .button1 a,
+#user_uploads .button2 a,
+.button1 a, .button2 a, .button1nopointer a, .bttn a {
+color:#fff;
+}
+
+.button7 {
+width:69px;
+height:24px;
+font-size:11px;
+line-height:11px;
+font-weight:bold;
+text-align:center;
+text-shadow:2px 2px #000;
+color:#fff;
+background:url(button70.gif) no-repeat;
+padding:0 0 2px 0;
+border:0;
+margin:5px 0 0;
+cursor:pointer;
+}
+
+/* STREAM & DOWNLOAD */
+.button_stream {
+width:117px;
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+font-size:10px;
+font-weight:bold;
+text-align:center;
+background:url(button_s.gif) no-repeat;
+padding:3px 0 6px;
+margin-bottom:5px;
+}
+
+.button_stream img {
+width:10px;
+height:11px;
+background:url(icon_str.gif) no-repeat;
+margin:2px 1px -2px -2px;
+}
+
+.button_stream2 {
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+font-size:10px;
+font-weight:bold;
+padding-right:10px;
+}
+
+.button_stream2 img {
+width:20px;
+height:17px;
+background:url(btn_stre.gif) no-repeat;
+margin-right:2px;
+vertical-align:middle;
+}
+
+.button_download {
+width:117px;
+font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+font-size:10px;
+font-weight:bold;
+text-align:center;
+background:url(button_d.gif) no-repeat;
+padding:4px 0 6px;
+margin-bottom:5px;
+}
+
+.button_download img {
+width:10px;
+height:10px;
+background:url(icon_dow.gif) no-repeat;
+margin:2px 1px -2px -4px;
+}
+
+.button_download2 {
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+font-size:10px;
+font-weight:bold;
+padding-right:10px;
+}
+
+.button_download2 img {
+width:20px;
+height:17px;
+background:url(btn_down.gif) no-repeat;
+margin-right:2px;
+vertical-align:middle;
+}
+
+.button_stream a,
+.button_download a,
+.button_stream2 a,
+.button_download2 a {
+color:#fff;
+text-decoration:none;
+text-shadow:2px 2px #000;
+}
+
+/* ICONS
+*********************************/
+.icon_messages {
+width:16px;
+height:11px;
+background:url(icon_mes.gif) no-repeat;
+margin:4px 0 -2px;
+}
+
+.icon_updates {
+width:12px;
+height:13px;
+background:url(icon_upd.gif) no-repeat;
+margin:2px 0 -2px;
+}
+
+.icon_toggle_light {
+width:14px;
+height:13px;
+background:url(icon_tog.gif) no-repeat;
+}
+
+.icon_toggle_dark {
+width:14px;
+height:13px;
+background:url(icon_tog.gif) no-repeat;
+}
+
+a.icon_toggle_light,
+a.icon_toggle_dark{
+float:left;
+height:0;
+padding:13px 0 0;
+margin:0;
+overflow:hidden;
+}
+
+.icon_best {
+width:32px;
+height:11px;
+background:url(icon_bes.gif) no-repeat;
+margin:2px 0 -2px;
+}
+
+.icon_comment {
+width:19px;
+height:13px;
+background:url(icon_com.gif) no-repeat;
+margin:4px 0 -4px 1px;
+}
+
+.icon_online {
+width:12px;
+height:12px;
+background:url(icon_onl.gif);
+margin:2px 0 -2px;
+}
+
+.icon_offline {
+width:12px;
+height:12px;
+background:url(icon_off.gif);
+margin:2px 0 -2px;
+}
+
+.icon_down_arrow {
+width:9px;
+height:10px;
+background:url(icon_arr.gif) no-repeat;
+}
+
+.icon_up_arrow {
+width:9px;
+height:10px;
+background:url(icon_arr.gif) no-repeat;
+}
+
+.icon_edchoice img {
+width:89px;
+height:40px;
+background:url(icon_edc.gif) no-repeat;
+}
+
+.icon_rank_down {
+width:11px;
+height:9px;
+background:url(icon_ran.gif) no-repeat;
+}
+
+.icon_rank_up {
+width:11px;
+height:9px;
+background:url(icon_ran.gif) no-repeat;
+}
+
+.icon_off {
+width:13px;
+height:13px;
+background:url(plus_off.gif) no-repeat;
+margin:3px 5px -3px 0;
+}
+
+.icon_tracked {
+width:13px;
+height:13px;
+background:url(plus_blu.gif) no-repeat;
+margin:3px 5px -3px 0;
+}
+
+.icon_collection {
+width:13px;
+height:13px;
+background:url(plus_gre.gif) no-repeat;
+margin:3px 5px -3px 0;
+}
+
+.icon_wishlist {
+width:13px;
+height:13px;
+background:url(plus_ora.gif) no-repeat;
+margin:3px 5px -3px 0;
+}
+
+.icon_nowplaying {
+width:13px;
+height:13px;
+background:url(plus_yel.gif) no-repeat;
+margin:3px 5px -3px 0;
+}
+
+.icon_rss {
+width:16px;
+height:16px;
+background:url(icon_rss.gif) no-repeat;
+vertical-align:text-bottom;
+}
+
+/* ESRB */
+.esrb_teen, .esrb_adultsonly, .esrb_kidstoadul, .esrb_ratingpend, .esrb_earlychild, .esrb_everyone, .esrb_mature, .esrb_everyone10 {
+width:32px;
+height:44px;
+}
+
+.esrb_teen {
+background:url(esrb_t00.gif) no-repeat;
+}
+
+.esrb_adultsonly {
+background:url(esrb_ao0.gif) no-repeat;
+}
+
+/*.esrb_kidstoadul {
+}*/
+.esrb_ratingpend {
+background:url(esrb_rp0.gif) no-repeat;
+}
+
+.esrb_earlychild {
+background:url(esrb_ec0.gif) no-repeat;
+}
+
+.esrb_everyone {
+background:url(esrb_e00.gif) no-repeat;
+}
+
+.esrb_mature {
+background:url(esrb_m00.gif) no-repeat;
+}
+
+.esrb_everyone10 {
+background:url(esrb_e10.gif) no-repeat;
+}
+
+/* PEGI */
+.pegi_3, .pegi_7, .pegi_12, .pegi_16, .pegi_18 {
+width:32px;
+height:42px;
+}
+
+/* PAGINATION
+*********************************/
+.pagination {
+text-align:center;
+color:#bbb;
+margin-bottom:10px;
+clear:both;
+}
+
+.pagination .off {
+font-weight:bold;
+color:#888;
+}
+
+.pagination .on {
+font-weight:bold;
+color:#fff;
+}
+
+.pagination .hid {
+display:none;
+}
+
+.pagination a.prev {
+width:88px;
+height:28px;
+display:block;
+background:url(btn-prev.gif) top left;
+}
+
+.pagination .prev {
+width:88px;
+height:28px;
+display:block;
+background:url(btn-prev.gif) top left;
+}
+
+.pagination a.prev:hover {
+background-position:bottom left;
+}
+
+.pagination a.next {
+width:90px;
+height:28px;
+display:block;
+background:url(btn-prev.gif) top right;
+}
+
+.pagination .next {
+width:90px;
+height:28px;
+display:block;
+background:url(btn-next.gif) top right;
+}
+
+.pagination a.next:hover {
+background-position:bottom right;
+}
+
+.review_page_nav,
+.story_page_nav{clear:both;}
+.story_page_nav ul{text-align:center;font-size:13px;font-weight:bold;line-height:15px;padding:6px 0;margin:0 91px;}
+.story_page_nav ul li{border-right:1px solid #666;display:inline;padding:0 5px 0 6px;}
+.story_page_nav ul li.last{border:0;padding:0 5px;}
+.story_page_nav .page_flipper a,
+.story_page_nav .page_flipper span{background:url(page_nav.gif) no-repeat top left;color:#fff !important;font-weight:bold;line-height:27px;text-align:center;width:60px;}
+.review_page_nav .page_flipper .next,
+.story_page_nav .page_flipper .next{background-position:bottom left;}
+.review_page_nav .page_flipper .prev,
+.story_page_nav .page_flipper .prev{float:left;padding:0 4px 0 27px;}
+.review_page_nav .page_flipper .next,
+.story_page_nav .page_flipper .next{float:right;padding:0 27px 0 4px;}
+.story_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+#xbox .story_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+#nintendo .story_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+#playstation .story_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+
+.review_page_nav{height:27px;}
+.review_page_nav .page_flipper a,
+.review_page_nav .page_flipper span{background:url(page_nav.gif) no-repeat top left;color:#fff;font-weight:bold;line-height:27px;text-align:center;width:101px;}
+.review_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+#xbox .review_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+#nintendo .review_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+#playstation .review_page_nav .page_flipper a{background-image:url(page_nav.gif);}
+
+
+/* TOOLBAR
+*********************************/
+.storybtns {
+margin:4px 0;
+width:99%;
+height:24px;
+float:left;
+background:url(t_tools_.gif) top left no-repeat;
+padding:1px;
+}
+
+.storybtns .right {
+background:url(t_tools_.gif) top right no-repeat;
+width:6px;
+height:24px;
+float:right;
+position:relative;
+top:-1px;
+right:-6px;
+}
+
+.storybtns a {
+display:block;
+float:left;
+color:#ccc;
+font-size:11px;
+height:18px;
+padding:1px 4px 2px 4px;
+}
+
+.storybtns a div {
+padding:4px 0 0 24px;
+}
+
+.btn_print {
+background:url(t2_icon_.gif) no-repeat 7px 1px;
+}
+
+.btn_email {
+background:url(t2_icon_.gif) no-repeat 7px 1px;
+}
+
+.btn_discuss {
+background:url(t2_icon_.gif) no-repeat 4px 1px;
+}
+
+.btn_comment {
+background:url(t2_icon_.gif) no-repeat 6px 2px;
+}
+
+.btn_tag {
+background:url(t_icon_t.gif) no-repeat 9px 3px;
+}
+
+.btn_tag2 {
+background:url(t_icon_t.gif) no-repeat 4px 1px;
+padding-left: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.btn_review {
+background:url(t2_icon_.gif) no-repeat 4px 1px;
+}
+
+.btn_abuse {
+background:url(t2_icon_.gif) no-repeat 7px 1px;
+}
+
+.btn_add {
+background:url(t2_icon_.gif) no-repeat 10px 1px;
+}
+
+.btn_blog {
+background:url(t_icon_b.gif) no-repeat 7px 2px;
+}
+
+.btn_digg {
+background:url(t_icon_d.gif) no-repeat 8px 4px;
+}
+
+.btn_facebook {
+background:url(t_icon_f.gif) no-repeat 7px 7px;
+}
+
+.storybtns .btn_facebook div {
+padding-left:14px;
+}
+
+/* TAGS & COMMENTS
+*********************************/
+#tag-story, #tag-story-top, .tag-blog {
+background:url(t_tagfor.gif) no-repeat;
+}
+
+#blogit {
+background:url(t_blogfo.gif) no-repeat;
+}
+
+#tag-story, #tag-story-top, #blogit{
+width:431px;
+margin:0;
+clear:left;
+color:#ddd;
+}
+
+.tag-blog {
+padding:10px;
+width:431px;
+margin:10px 0;
+clear:left;
+color:#ddd;
+}
+
+#main_col .forum_tags,
+#main_col .forum_tags a {
+color:#ccc;
+}
+
+#tag-topic-wrap {
+height:165px;
+}
+
+#forums .tag-forums,
+#show_messages .tag-forums {
+background:url(tag_foru.gif) no-repeat;
+width:520px;
+color:#fff;
+margin:15px auto;
+padding:12px 10px 10px;
+clear:both;
+}
+
+#forums .tag-forums textarea,
+#show_messages .tag-forums textarea {
+width:508px;
+height:35px;
+border:1px solid #999;
+}
+
+#tag-topic-success {
+height:110px;
+}
+
+#main_col a.btn-tag-forums {
+display:block;
+background:url(t_icon_t.gif) no-repeat 11px 1px;
+color:#fff;
+border-right:1px solid #777;
+padding:3px 10px 2px 30px;
+}
+
+#main_col .hidden_toggle {
+display:none;
+}
+
+#main_col .show_toggle {
+display:block;
+}
+
+.comments {
+background:url(t_commen.gif) no-repeat;
+width:420px;
+height:23px;
+margin:0 0 6px 0;
+}
+
+.comments {
+background:url(t_commen.gif) no-repeat;
+width:420px;
+height:23px;
+margin:0 0 6px 0;
+}
+
+.comment_check {
+float:right;
+padding:4px 25px 0 0;
+}
+
+.blog_comment {
+overflow: hidden;
+word-wrap: break-word;
+}
+
+.table .alt td.mceEditor {
+border:0;
+padding-bottom:10px;
+}
+
+.table .alt td.mceEditor td {
+background:#f0f0ee;
+}
+
+.thumbs_up, .thumbs_down {
+display:block;
+float:left;
+height:20px;
+width:18px;
+}
+
+.thumbs_up {background:url(thumbs_u.gif) no-repeat;}
+.thumbs_down {background:url(thumbs_d.gif) no-repeat;}
+
+/* GENERIC COMMENTS TABBED UI
+*********************************/
+#col_wrap #generic_comments .gen_comments_pages .pagination {
+width:auto;
+border:1px solid red;
+}
+
+#generic_comments .gen_comments_pages {
+background:url(gen_comm.gif) repeat-x 0 0;
+clear:both;
+height:34px;
+padding:0 5px;
+}
+
+/* PAGINATION */
+#generic_comments .gen_comments_pages .gc_pagination_l {
+background:url(gen_comm.gif) no-repeat 0 5px;
+padding:5px 0 0 5px;
+}
+
+#generic_comments .gen_comments_pages .gc_pagination {
+background:url(gen_comm.gif) no-repeat top right;
+clear:none;
+color:#fff;
+display:block;
+font:bold 11px/24px arial,helvetica,sans-serif;
+height:24px;
+text-align:left;
+width:auto;
+overflow:hidden;
+}
+
+#generic_comments .gen_comments_pages .gc_pagination .pages {
+float:left;
+}
+
+/* STYLES TO POSITION TABS */
+#generic_comments {
+min-width:385px;
+width:100%;
+height:100%;
+}
+
+#generic_comments #gen_comments_tabs {
+padding:0 10px 0 185px;
+}
+
+#generic_comments #gen_comments_tabs .tabs_sort, #generic_comments #gen_comments_tabs .gc_pagination_l {
+float:left;
+position:relative;
+}
+
+#generic_comments #gen_comments_tabs .gc_pagination_l {
+width:100%;
+_margin-right:-5px;
+}
+
+#generic_comments #gen_comments_tabs .tabs_sort {
+display:inline;
+margin-left:-185px;
+_left:0;
+padding:4px 0 0 2px;
+}
+
+/* PREV & NEXT */
+#generic_comments .gen_comments_pages .gc_pagination .page_flipper, #generic_comments .gen_comments_pages .pagination .page_flipper {
+float:right;
+padding:4px 5px 4px 0;
+}
+
+#generic_comments .gen_comments_pages .page_flipper a, #generic_comments .gen_comments_pages .page_flipper span {
+float:left;
+display:block;
+line-height:16px;
+padding:0 0 0 4px;
+}
+
+#generic_comments .gen_comments_pages .page_flipper span {
+color:#828282;
+}
+
+#generic_comments .gen_comments_pages .page_flipper .gc_prev {
+border-right:1px solid #4d4d4d;
+padding:0 3px 0 0;
+}
+
+/* TABS */
+#generic_comments #gen_comments_tabs .tabs_sort .comments_tab {
+float:left;
+padding:0 0 0 3px;
+}
+
+#generic_comments #gen_comments_tabs .tabs_sort a, #generic_comments #gen_comments_tabs .tabs_sort span {
+color:#fff;
+display:block;
+font-size:12px;
+text-align:center;
+height:27px;
+overflow:hidden;
+}
+
+#generic_comments #gen_comments_tabs .tabs_sort a b, #generic_comments #gen_comments_tabs .tabs_sort span b {
+background:url(gen_comm.gif) no-repeat 0px 0px;
+display:block;
+height:27px;
+line-height:27px;
+width:87px;
+}
+
+#generic_comments #gen_comments_tabs .tabs_sort a:hover b {
+background-position:0px -27px;
+cursor:pointer;
+}
+
+#generic_comments #gen_comments_tabs .tabs_sort span b {
+background-position:bottom left;
+color:#000;
+}
+
+/* HUBS
+*********************************/
+
+/* PICKS MODULE */
+
+#picks {
+position:relative;
+margin:10px 0 0 -7px;
+background-position:top left;
+background-repeat:no-repeat;
+background-image:url(picks_bg.gif);
+width:446px;
+}
+
+.inline_tabs {
+line-height:34px;
+height:34px;
+margin:17px 0 -2px 0;
+position:relative;
+z-index:1px;
+float:left;
+padding:0 0 5px 15px;
+}
+
+.inline_tabs li {
+background-position:left top;
+background-image:url(picks_ta.gif);
+height:34px;
+margin-right:9px;
+float:left;
+}
+
+.inline_tabs li.on,
+.inline_tabs li.on a {
+background-image:url(picks_tb.gif);
+color:#fff;
+}
+
+.inline_tabs a {
+background:url(picks_ta.gif) right top;
+display:inline;
+float:left;
+margin-left:4px;
+padding:0 16px 0 13px;
+font:bold 12px/34px Arial;
+color:#fff;
+margin-right:-4px;
+position:relative;
+}
+
+#picks #hp-module li {
+clear:both;
+margin-left:10px;
+overflow:hidden;
+padding:10px 0;
+width:427px;
+}
+
+#picks h3 {
+font-size:16px;
+}
+
+#picks p {
+margin:0 0 2px;
+padding:0;
+}
+
+#picks .foot {
+color:#666;
+clear:both;
+position:relative;
+background-position:top;
+background-repeat:no-repeat;
+width:446px;
+background-image:url(picks_bo.gif);
+padding:14px 0 15px;
+}
+
+#picks .foot a {
+color:#c30;
+padding: 0 6px 1px;
+}
+
+#picks .foot .dots_right {
+background:url(dots_ver.gif) repeat-y right ;
+}
+
+#picks .dots_video {
+background:url(dots_ver.gif) repeat-y left ;
+padding-left:10px;
+margin-left:7px;
+}
+
+#picks .thumb {
+width:140px;
+height:80px;
+}
+
+#pc #picks {
+background-image:url(picks_pc.gif);
+}
+
+#pc #picks .inline_tabs li,
+#pc #picks .inline_tabs a {
+background-image:url(picks_pc.gif);
+}
+
+#pc #picks .inline_tabs li.on,
+#pc #picks .inline_tabs li.on a {
+background-image:url(picks_pc.gif);
+}
+
+#pc #picks .foot {
+background-image:url(picks_pc.gif);
+}
+
+#pc #picks .foot a {
+color:#159;
+}
+
+#playstation #picks {
+background-image:url(picks_so.gif);
+}
+
+#playstation #picks .inline_tabs li,
+#playstation #picks .inline_tabs a {
+background-image:url(picks_so.gif);
+}
+
+#playstation #picks .inline_tabs li.on,
+#playstation #picks .inline_tabs li.on a {
+background-image:url(picks_so.gif);
+}
+
+#playstation #picks .foot {
+background-image:url(picks_so.gif);
+}
+
+#playstation #picks .foot a {
+color:#04a;
+}
+
+#xbox #picks {
+background-image:url(picks_xb.gif);
+}
+
+#xbox #picks .inline_tabs li,
+#xbox #picks .inline_tabs a {
+background-image:url(picks_xb.gif);
+}
+
+#xbox #picks .inline_tabs li.on,
+#xbox #picks .inline_tabs li.on a {
+background-image:url(picks_xb.gif);
+}
+
+#xbox #picks .foot {
+background-image:url(picks_xb.gif);
+}
+
+#xbox #picks .foot a {
+color:#380;
+}
+
+#nintendo #picks {
+background-image:url(picks_ni.gif);
+}
+
+#nintendo #picks .inline_tabs li,
+#nintendo #picks .inline_tabs a {
+background-image:url(picks_ni.gif);
+}
+
+#nintendo #picks .inline_tabs li.on,
+#nintendo #picks .inline_tabs li.on a {
+background-image:url(picks_ni.gif);
+}
+
+#nintendo #picks .foot {
+background-image:url(picks_ni.gif);
+}
+
+#nintendo #picks .foot a {
+color:#609;
+}
+
+#videos #picks {
+background-image:none;
+}
+
+/* VIDEO PLAYER MODULE */
+#videoplayer_module .module {
+background:transparent;
+padding:0;
+}
+
+/* GSC PROMO MODULE */
+#gscpromo_module .module {
+background:transparent;
+}
+
+/* ON THE SPOT MODULE */
+#side_col #ots_module .module {
+background:url(module_o.gif) no-repeat bottom left;
+padding:0 0 10px;
+clear:none;
+}
+
+#side_col #ots_module .module .body {
+background:url(module_o.gif) repeat-y top left;
+padding:2px 15px;
+}
+
+#side_col_wrap #side_col #ots_module .module_head {
+background:url(module_o.gif) no-repeat bottom left;
+padding:0 0 5px;
+margin:0;
+float:none;
+}
+
+#side_col #ots_module .module_head img {
+display:block;
+/* needed to prevent IE from adding extra margin spacing for whitespaces before/after img */}
+
+/* LAST WORD */
+#lastword {
+width:432px;
+height:135px;
+color:#333;
+position:relative;
+}
+
+#lastword table {
+width:143px;
+height:135px;
+position:absolute;
+left:147px;
+overflow:hidden;
+}
+
+#lastword img {
+position:absolute;
+right:8px;
+top:22px;
+}
+
+#lastword a {
+color:#c30;
+}
+
+#lastword .lastword_regular, #lastword .lastword_shout, #lastword .lastword_whisper {
+width:432px;
+height:135px;
+}
+
+#lastword .lastword_regular {
+background:url(lastword.gif) no-repeat;
+}
+
+#lastword .lastword_regular img {
+right:7px;
+top:21px;
+}
+
+#lastword .lastword_shout {
+background:url(lastword.gif) no-repeat;
+}
+
+#lastword .lastword_shout table {
+width:123px;
+left:167px;
+}
+
+#lastword .lastword_whisper {
+background:url(lastword.gif) no-repeat;
+}
+
+#lastword .lastword_whisper table {
+width:133px;
+left:157px;
+}
+
+/* GAMESPACE
+*********************************/
+#gamespace a.gamespace{color:#ff8500;}
+#gamespace #main_col .more{font-size:12px;text-align:left;}
+#gamespace #main_col .module h3{font-size:14px;margin:0;}
+#gamespace #summary_module div.deck{font-size:11px;font-weight:bold;}
+#gamespace #summary_module div.deck p{color:#fff;font-size:13px;margin:0 0 8px;}
+#gamespace #summary_module div.score_summary{float:right;}
+
+#gamespace #gameguide_module .module{
+padding-left:2px;
+padding-right:2px;
+width:428px;
+}
+#gamespace #gameguide_module ul,
+#gamespace #gameguide_module li{float:left;width:100%;}
+#gamespace #gameguide_module li{color:#666;padding:10px 0 0;}
+#gamespace #gameguide_module h3{font-size:16px;margin:0;}
+#gamespace #gameguide_module p{color:#fff;margin:0 0 10px;}
+
+/* commerce module */
+#gamespace #side_col #commerce_module .module{overflow:hidden;padding-bottom:7px;width:288px;}
+#gamespace .commerce_item{float:left;}
+.commerce_item div{display:inline;float:left;height:24px;width:140px;}
+.commerce_item div.commerce_details{font:bold 10px/12px tahoma,verdana,geneva,sans-serif;margin-right:8px;}
+.commerce_item div.commerce_details a.price{font-size:12px;font-family:arial,verdana,helvetica,sans-serif;}
+.commerce_item div.commerce_btn{text-align:center;}
+.commerce_item div.commerce_btn a{
+    color:#fff;
+    cursor:pointer;
+    display:block;
+    font-size:11px;
+    height:0px;
+    overflow:hidden;
+    padding:24px 0 0;
+    position:relative;
+    text-decoration:none;
+    width:100%;
+}
+.commerce_item div.commerce_btn a *{cursor:pointer;}
+.commerce_item div.commerce_btn a .price{font-size:12px;}
+
+/* best buy */
+.commerce_item div.bestbuy{background:url(bestbuy0.gif) no-repeat top left;line-height:24px;}
+.commerce_item div.bestbuy a{}
+.commerce_item div.bestbuy a.text_w_price{font-size:10px;}
+.commerce_item div.bestbuy a span{display:block;position:absolute;top:0;}
+.commerce_item div.bestbuy .price{line-height:10px;padding:7px 0;left:0;text-align:center;width:50px;}
+.commerce_item div.bestbuy .text{background:url(bestbuy_.gif) no-repeat center right;font-size:11px;line-height:10px;right:22px;padding:7px 31px 7px 0;text-transform:capitalize;width:65px;}
+.commerce_item div.bestbuy a.text_w_price .text{font-size:10px;line-height:8px;padding:8px 31px 8px 0;right:4px;width:auto;}
+/* gamefly */
+.commerce_item div.gamefly{background:url(gamefly0.gif) no-repeat top left;}
+/* digital purchase */
+.commerce_item div.digital_dl{background:url(digital_.gif) no-repeat top left;}
+.commerce_item div.digital_dl a{color:#004d6b;}
+.commerce_item div.digital_dl a span{display:block;font-size:11px;line-height:10px;padding:7px 6px 7px 0;position:absolute;right:0;top:0;text-transform:uppercase;}
+.commerce_item div.digital_dl a span.price{font-size:12px;}
+/* amazon uk */
+.commerce_item div.amazon_uk{background:url(amazon_u.gif) no-repeat top left;}
+.commerce_item div.amazon_uk a span{display:block;font-size:11px;line-height:10px;padding:7px 3px 7px 83px;position:absolute;top:0;left:0;text-align:center;width:54px;}
+.commerce_item div.amazon_uk a span.price{font-size:12px;}
+/* hmv uk */
+.commerce_item div.hmv_uk{background:url(hmv_uk00.gif) no-repeat top left;}
+.commerce_item div.hmv_uk a span{display:block;font-size:11px;line-height:10px;padding:7px 3px 7px 83px;position:absolute;top:0;left:0;text-align:center;width:54px;}
+.commerce_item div.hmv_uk a span.price{font-size:12px;}
+/* swapgame */
+.commerce_item div.swapgame{background:url(swapgame.gif) no-repeat top left;}
+/* metaboli */
+.commerce_item div.metaboli{background:url(metaboli.gif) no-repeat top left;}
+/* free trial */
+.commerce_item div.freetrial{background:url(freetria.gif) no-repeat top left;}
+
+
+#stats_module .module{padding:0 1px 7px;width:300px;overflow:hidden;}
+#stats_module .commerce_btns{padding:0 6px 7px;overflow:hidden;height:1%;}
+
+#stats_module dl.stats{font:bold 10px tahoma,verdana,geneva,sans-serif;line-height:16px;margin:0;padding:0 0 7px;}
+#stats_module dl.stats dt{color:#fff;padding:0 6px;}
+#stats_module dl.stats dt.alt{background:#333;}
+#stats_module dl.stats dd{float:right;margin:-16px 0 0;padding:0 6px;}
+#stats_module dl.stats dd strong{color:#fff;}
+#stats_module dl.show_boxshot dd{padding-right:75px;}
+
+#stats_module a.boxshot,
+#stats_module a.no_boxshot{border:1px solid #999;color:#999;display:inline;float:right;position:relative;margin:6px -62px 0 0;top:0;left:-68px;text-decoration:none;width:60px;}
+
+#stats_module a.no_boxshot{background:#222;border:1px solid #555;color:#555;}
+#stats_module a.no_boxshot b{display:block;font:bold 9px/12px tahoma,verdana,geneva,sans-serif;padding:35px 0;text-align:center;text-transform:capitalize;}
+#stats_module a.boxshot img{display:block;width:60px;vertical-align:top;}
+
+#stats_module .rank_up{background:url(stats_ra.gif) no-repeat center left;padding-left:9px;color:#1cc400;font-weight:normal;}
+#stats_module .rank_down{
+background:url(stats_ra.gif) no-repeat center left;padding-left:9px;color:#c00;font-weight:normal;}
+#stats_module .other_details{/*font:bold 11px tahoma,verdana,geneva,sans-serif;*/font-size:12px;padding:0 6px 7px;}
+#stats_module .other_details a.on{color:#fff;}
+#stats_module .other_details a.best{background:url(icon_bes.gif) no-repeat center right;padding-right:35px;}
+#stats_module .other_details ul{float:left;font-weight:bold;line-height:1.2;width:100%;overflow:hidden;}
+#stats_module .other_details ul a{float:none;margin:0;}
+#stats_module .other_details ul strong{color:#fff;}
+#stats_module .has_maturity_rating{padding-left:46px;}
+#stats_module .has_maturity_rating a{float:left;margin-left:-39px;}
+#stats_module .has_maturity_rating_au{padding-left:62px;}
+#stats_module .has_maturity_rating_au a{float:left;margin-left:-58px;}
+#stats_module form.tagGame{display:block;font:10px tahoma,verdana,geneva,sans-serif;color:#999;margin:0;padding:0 6px;}
+#stats_module form.tagGame fieldset{padding:0 0 7px;margin:0;border:none;}
+#stats_module form.tagGame legend{display:none;}
+#stats_module form.tagGame p{margin:0 0 4px;}
+#stats_module form.tagGame p strong{color:#fff;}
+#stats_module form.tagGame p.status_msg{color:#fff;font:bold 11px arial,helvetica,sans-serif;}
+#stats_module form.tagGame p.error{color:#f00;font-weight:normal;}
+#stats_module form.tagGame textarea{width:98%;padding:0;}
+#stats_module form.tagGame div.actions{font-size:12px;line-height:25px;margin:8px 0 0;text-align:center;}
+#stats_module form.tagGame div.form_btns{line-height:25px;height:25px;}
+#stats_module form.tagGame div.processing{background:url(gen_comm.gif) no-repeat center right;color:#fff;text-align:left;font-weight:bold;}
+#stats_module form.tagGame a.submit{background:url(score_su.gif) no-repeat 0 0;color:#fff;float:left;padding:0 0 0 20px;margin-left:80px;}
+#stats_module form.tagGame a.submit b{background:#222 url(score_su.gif) no-repeat top right;cursor:pointer;padding:0 20px 0 0;float:left;text-align:center;width:70px;}
+#stats_module form.tagGame a.reset{float:left;text-transform:lowercase;margin:0 0 0 10px;}
+#videos_module .module{overflow:hidden;}
+#videos_module ul.videos{float:left;display:inline;}
+#videos_module ul.videos li{background:url(dot00000.gif) repeat-x bottom;float:left;padding:10px 0;width:432px;overflow:hidden;}
+#videos_module ul.videos li div.hd_thumb,
+#videos_module ul.videos li div.video_thumb{float:left;}
+#videos_module ul.videos li p.views, #videos_module .posted{color:#fff;font-size:11px;margin:0;line-height:16px;}
+#videos_module ul.videos li div.details{float:left;width:315px;padding-left:7px;}
+
+#gameguides_module .list {
+width:288px;
+}
+
+#gameguides_module .item {
+width:288px;
+float:left;
+}
+
+#gameguides_module .cover {
+float:left;
+}
+
+#vital_stats {
+background:url(stats000.gif) no-repeat bottom;
+}
+
+#vital_stats_u {
+background:url(stats_u2.gif) no-repeat top;
+}
+
+#vital_stats_r {
+background:url(stats_u2.gif) no-repeat top;
+}
+
+#vital_stats2_u {
+background:url(stats_u0.gif) no-repeat bottom;
+}
+
+#vital_stats2_r {
+background:url(stats_r0.gif) no-repeat bottom;
+}
+
+#sliderbox {
+background:url(slider_b.gif) no-repeat top;
+}
+
+#side_col span.beston div.cb {
+clear:none;
+}
+
+/* SCORE */
+div.score_summary,
+#gamespace #similar div.score_summary{background:url(score_ga.gif) no-repeat;float:right;padding:0;text-align:center;margin-left:5px;width:85px;}
+div.score_summary a:hover{text-decoration:none;}
+div.score_summary dl{font-weight:bold;margin:0;}
+div.score_summary dd{margin:0;padding:0;}
+div.score_summary dl.main_score,
+#gamespace #similar div.score_summary dl.main_score{color:#fc3;height:60px;padding:6px;width:73px;}
+div.score_summary dl.main_score dt,
+#gamespace #similar div.score_summary dl.main_score dt{font-size:36px;line-height:46px;padding:0;}
+div.score_summary dl.main_score dd.word,
+#gamespace #similar div.score_summary dl.main_score dd.word{font-size:13px;line-height:12px;margin:-2px 0 0;text-transform:lowercase;}
+div.score_summary dl.main_score dd.choice,
+#gamespace #similar div.score_summary dl.main_score dd.choice{font-size:9px;line-height:14px;}
+div.score_summary dl.main_score dd.choice a,
+#gamespace #similar div.score_summary dl.main_score dd.choice a{background:url(score_ga.gif) no-repeat top center;display:block;padding:14px 0 0;height:0;overflow:hidden;}
+
+#gamespace div.score_summary{background-image:url(score_ga.gif);margin:0;width:112px;}
+#gamespace div.score_summary dl.main_score{padding:0 6px;height:95px;width:100px;}
+#gamespace div.score_summary dl.main_score dt{font-size:60px;line-height:72px;}
+#gamespace div.score_summary dl.main_score dd{font-size:58px;line-height:58px;}
+#gamespace div.score_summary dl.main_score dd.word{font-size:12px;line-height:12px;margin:0 0 4px;text-transform:capitalize;}
+#gamespace div.score_summary dl.main_score dd.choice{font-size:12px;line-height:16px;}
+#gamespace div.score_summary dl.main_score dd.choice a{background-image:url(score_ed.gif);padding:16px 0 0;}
+#gamespace div.score_summary div.other_score{margin:7px 0 0;height:35px;}
+#gamespace div.score_summary dl.other_score{float:left;width:55px;padding:2px 0;}
+#gamespace div.score_summary dl.other_score dt{font:9px/7px tahoma,arial,helvetica,sans-serif;}
+#gamespace div.score_summary dl.other_score dd{font-size:24px;line-height:18px;padding-top:4px;}
+#gamespace div.score_summary dl.critic_score{border-right:1px solid #666;}
+
+#review_summary div.score_summary{background-image:url(score_re.gif);}
+#review_summary div.score_summary dl.main_score{padding:6px 3px;height:91px;width:106px;}
+#review_summary div.score_summary dl.main_score dt{font-size:12px;line-height:12px;padding:5px 0 0;}
+
+#score {
+width:90px;
+height:80px;
+text-align:center;
+background:url(score_90.gif) no-repeat;
+padding:0px;
+float:right;
+}
+
+#score .number {
+font-family:Impact,Tahoma,Arial,Helvetica,sans-serif;
+font-size:48px;
+line-height:50px;
+color:#fc3;
+padding-top:5px;
+}
+
+#score a {
+text-decoration:none;
+}
+
+#score .number .editorschoice_gold {
+color:#fd0;
+}
+
+/* USER SUBMISSIONS */
+#content_wrap #side_col .user_submission{background:url(dot00000.gif) repeat-x bottom;float:left;font-size:11px;overflow:hidden;padding:10px 0;width:100%;}
+#side_col .user_submission dt{float:left;margin-right:3px;}
+#side_col .user_submission dl a{font-weight:normal;}
+#side_col .user_submission h3{font-size:11px;}
+#content_wrap #side_col .user_submission p{font-size:11px;color:#fff;margin:0;}
+#side_col .user_submission .details{padding:0 0 8px 0;}
+#side_col .user_submission .image_thumb{display:inline;float:right;margin:0 0 0 5px;width:102px;}
+#side_col .user_submission .image_thumb img{display:block;width:102px;}
+/* user images */
+/* user video */
+#side_col .user_video .image_thumb img{height:72px;}
+
+/* COMMERCE MODULE */
+#commerce_module.module_wrap {
+background:url(module_3.gif) no-repeat;
+padding-top:6px;
+}
+
+.commerce_button {
+width:165px;
+float:right;
+}
+
+.commerce_button a {
+color:#fff;
+}
+
+.button_bestbuy {
+width:165px;
+height:30px;
+background:url(bestbuy0.gif) no-repeat top right;
+cursor:pointer;
+float:right;
+}
+
+.button_bestbuy div,
+.button_swapgame div {
+width:78px;
+float:right;
+line-height:30px;
+margin-right:2px;
+display:inline;
+text-align:center;
+}
+
+.button_play {
+width:145px;
+text-align:right;
+background:url(play0000.gif) no-repeat top right;
+padding:7px 10px 10px;
+cursor:pointer;
+}
+
+.button_amazon_uk {
+text-align:right;
+width:145px;
+background:url(amazon_u.gif) no-repeat top right;
+padding:8px 10px 10px;
+cursor:pointer;
+}
+
+.button_amazon_uk_text {
+text-align:right;
+width:145px;
+padding-right:15px;
+cursor:pointer;
+}
+
+.button_gamefly {
+width:145px;
+text-align:right;
+background:url(gamefly0.gif) no-repeat top right;
+padding:7px 14px 10px 6px;
+cursor:pointer;
+}
+
+.button_swapgame {
+width:165px;
+height:30px;
+background:url(swapgame.gif) no-repeat top right;
+cursor:pointer;
+float:right;
+}
+
+.button_digitaldownload {
+width:145px;
+text-align:right;
+background:url(digitald.gif) no-repeat top right;
+padding:7px 14px 10px 6px;
+cursor:pointer;
+}
+
+.commerce_button a:hover .button_bestbuy,
+.commerce_button a:hover .button_play,
+.commerce_button a:hover .button_gamefly,
+.commerce_button a:hover .button_swapgame
+.commerce_button a:hover .button_digitaldownload {
+text-decoration:underline;
+}
+
+#commerce_module .module #mpu {
+font-size:1px;
+padding-top:8px;
+clear:both;
+}
+
+#commerce_module .more {
+font-size:1px;
+padding:0px 0px 3px;
+}
+
+/* HINTS & CHEATS MODULE */
+#main_col #cheats_module .list {
+width:432px;
+}
+
+#side_col #cheats_module .list {
+width:288px;
+}
+
+/* TOPICS MODULE */
+#main_col #topics_module .item {
+width:432px;
+}
+
+#side_col #topics_module .item {
+width:288px;
+}
+
+/* STORY PAGES
+*********************************/
+.content p {
+font:10pt/1.3em Arial, Helvetica, sans-serif;
+margin-top:0px;
+margin-bottom:16px;
+}
+
+.content h2 {
+font-size:18px;
+}
+
+.content li {
+list-style:disc;
+margin-left:15px;
+margin-bottom:5px;
+}
+
+.content table {
+font-size:11px;
+margin:0 4px 0 8px;
+}
+
+.content #mostpopular h2 {
+font-size:11px;
+}
+
+.content #mostpopular table {
+margin:0px;
+}
+
+.content #mostpopular .num1 table {
+font-size:10px;
+margin-bottom:5px;
+}
+
+.content table .gsheader2 {
+width:180px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+text-align:center;
+padding:20px 0 0;
+border-top:1px solid #888;
+display:block;
+}
+
+.content table .gsheader3 {
+width:180px;
+font-size:11px;
+text-align:center;
+padding:0 0 20px;
+border-bottom:1px solid #888;
+display:block;
+}
+
+.pullquote {
+width:180px;
+text-align:center;
+padding:20px 0;
+border-top:1px solid #888;
+border-bottom:1px solid #888;
+margin:0 4px 0 8px;
+float:right;
+}
+
+.quote {
+font-size:14px;
+font-weight:bold;
+}
+
+.attribution {
+font-size:11px;
+}
+
+/* EMBSCREEN */
+.embscreen {
+width:182px;
+font-size:11px;
+text-align:center;
+background:#2C333E;
+padding:5px;
+border:1px solid #737D8C;
+margin:0 0 10px 10px;
+float:right;
+}
+
+.embscreen img {
+border:1px solid #999;
+margin-bottom:2px;
+}
+
+.embscreen a {
+font-weight:normal;
+}
+
+.embscreen_large {
+width:432px;
+font-size:11px;
+text-align:center;
+float:right;
+margin-bottom:10px;
+}
+
+.embscreen_large img {
+border:1px solid #727272;
+}
+
+.embscreen_large a {
+font-weight:normal;
+color:#fff;
+}
+
+.embscreen_large .embscreen_caption {
+text-align:center;
+background:url(embed_bo.gif) bottom no-repeat;
+padding:5px;
+}
+
+#pc .embscreen {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#playstation .embscreen {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#xbox .embscreen {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+#nintendo .embscreen {
+background:#312E3B;
+border:1px solid #5C566F;
+}
+
+#portable .embscreen {
+background:#264841;
+border:1px solid #4E8670;
+}
+
+/* SEE IT */
+.seeit {
+width:162px;
+font-size:11px;
+text-align:center;
+margin:0 0 10px 10px;
+float:right;
+}
+
+#col_wrap #main_col .seeit .module_head,
+#sky_col_wrap #main_col .seeit .module_head,
+#full_col_wrap #main_col .seeit .module_head {
+width:162px;
+}
+
+.seeit .module_head h2 {
+width:138px;
+font-size:11px;
+text-align:center;
+}
+
+.embvideo {
+text-align:center;
+padding:7px;
+clear:both;
+}
+
+.embvideo .video_thumb {
+margin:auto auto 5px;
+}
+
+.embvideo a {
+font-weight:normal;
+}
+
+.seeit .embvideo {
+background:#2C333E;
+border-top:0;
+}
+
+#pc .seeit .embvideo {
+background:#263A52;
+border-top:0;
+}
+
+#playstation .seeit .embvideo {
+background:#242743;
+border-top:0;
+}
+
+#xbox .seeit .embvideo {
+background:#2E3727;
+border-top:0;
+}
+
+#nintendo .seeit .embvideo {
+background:#312E3B;
+border-top:0;
+}
+
+#portable .seeit .embvideo {
+background:#264841;
+border-top:0;
+}
+
+/* FLASH AUDIO */
+.flashaudio {
+width:240px;
+font-size:11px;
+text-align:center;
+background:#2C333E;
+padding:5px;
+border:1px solid #737D8C;
+margin:0 0 10px 10px;
+float:right;
+}
+
+.flashaudio .caption {
+padding:7px;
+}
+
+#pc .flashaudio {
+background:#263A52;
+border:1px solid #537592;
+}
+
+#playstation .flashaudio {
+background:#242743;
+border:1px solid #4A6384;
+}
+
+#xbox .flashaudio {
+background:#2E3727;
+border:1px solid #5E7C3F;
+}
+
+#nintendo .flashaudio {
+background:#312E3B;
+border:1px solid #5C566F;
+}
+
+#portable .flashaudio {
+background:#264841;
+border:1px solid #4E8670;
+}
+
+/* REVIEWS PAGE
+*******************************/
+#reviews .video_review,
+#reviews #legacy_score_module,
+#reviews #about_review_system,
+#review_proscons .module_wrap{background:url(reviewsp.gif) no-repeat top left;padding:10px 0;}
+#reviews .video_review .module,
+#reviews #legacy_score_module .module,
+#reviews #about_review_system .module,
+#review_proscons .module{background:url(reviewsp.gif) no-repeat bottom left;padding:5px 10px 15px;width:412px;}
+
+#reviews #about_review_system .module{text-align:center;padding-top:0;padding-bottom:10px;}
+
+/* review summary */
+#reviews #review_summary{padding:0 0 10px 122px;width:310px;}
+#reviews #review_summary .deck{float:left;font-size:15px;font-weight:bold;line-height:18px;width:100%;}
+/* user review summary */
+#user_review_summary .module{padding:10px 122px 10px 92px;margin-bottom:10px;width:auto;}
+#user_review_summary .review{font-size:14px;float:left;width:100%;}
+#user_review_summary .review h3{font-size:15px;}
+#user_review_summary .review p{margin:0;}
+#user_review_summary .review p.deck{font-weight:bold;margin:2px 0 5px;}
+#user_review_summary .review .user_feedback{color:#ccc;font:10px tahoma,arial,helvetica,sans-serif;}
+#user_review_summary .avatar{border:1px solid #000;display:inline;float:left;margin-left:-92px;}
+#user_review_summary div.score_summary{display:inline;float:right;margin-left:10px;margin-right:-122px;}
+/* user review feedback and actions */
+#reviews .user_feedback_action{background:url(user_fee.gif) no-repeat 0 0;padding-left:10px;}
+#reviews .user_feedback_action ul{line-height:15px;height:15px;margin:7px 0;}
+#reviews .user_feedback_action .wrap{background:url(user_fee.gif) no-repeat top right;color:#fff;height:29px;line-height:29px;width:100%;}
+#reviews .user_feedback_action .user_feedback{float:left;font-size:12px;}
+#reviews .user_feedback_action .user_action{font-size:11px;padding:0 10px 0 0;}
+#reviews .user_feedback span{float:left;margin-right:5px;}
+#reviews .user_feedback a{background:url(thumb_up.gif) no-repeat;float:left;height:0;width:16px;padding:20px 0 0;position:relative;top:-2px;overflow:hidden;}
+#reviews .user_feedback ul{border-right:1px solid #666;float:left;width:21px;position:relative;}
+#reviews .user_feedback li{position:absolute;top:0;}
+#reviews .user_feedback li.pos{left:0;}
+#reviews .user_feedback li.neg{left:27px;}
+#reviews .user_feedback li.pos a{background-position:0 0;}
+#reviews .user_feedback li.pos a:hover{background-position:0 -20px;}
+#reviews .user_feedback li.neg a{background-position:-16px 0;}
+#reviews .user_feedback li.neg a:hover{background-position:-16px -20px;}
+#reviews .user_action ul{float:right;}
+#reviews .user_action li{display:inline;float:left;line-height:15px;}
+#reviews .user_action li.track{border-right:1px solid #666;margin:0 7px 0 0;padding:0 6px 0 0;}
+#reviews .user_action li.track a{color:#fd8c00;}
+#reviews .user_action li.regulate a{color:#fd0000;}
+
+/* review page score */
+#review_summary div.score_summary{display:inline;float:left;margin-left:-122px;}
+#side_col dl.scores{font-weight:bold;line-height:24px;text-align:right;position:relative;}
+#side_col dl.scores dd{background:url(score_sc.gif) no-repeat 124px 0;border-bottom:1px solid #333;color:#fff;font-size:22px;margin:0 0 7px;padding:0 0 6px 0;width:100%;}
+#side_col dl.scores dd.last{border:none;}
+#side_col dl.scores dd.scale_1{background-position:124px -30px;}
+#side_col dl.scores dd.scale_2{background-position:124px -60px;}
+#side_col dl.scores dd.scale_3{background-position:124px -90px;}
+#side_col dl.scores dd.scale_4{background-position:124px -120px;}
+#side_col dl.scores dd.scale_5{background-position:124px -150px;}
+#side_col dl.scores dd.scale_6{background-position:124px -180px;}
+#side_col dl.scores dd.scale_7{background-position:124px -210px;}
+#side_col dl.scores dd.scale_8{background-position:124px -240px;}
+#side_col dl.scores dd.scale_9{background-position:124px -270px;}
+#side_col dl.scores dd.scale_10{background-position:124px -300px;}
+#side_col dl.scores dd.scale_11{background-position:124px -330px;}
+#side_col dl.scores dd.scale_12{background-position:124px -360px;}
+#side_col dl.scores dd.scale_13{background-position:124px -390px;}
+#side_col dl.scores dd.scale_14{background-position:124px -420px;}
+#side_col dl.scores dd.scale_15{background-position:124px -450px;}
+#side_col dl.scores dd.scale_16{background-position:124px -480px;}
+#side_col dl.scores dd.scale_17{background-position:124px -510px;}
+#side_col dl.scores dd.scale_18{background-position:124px -540px;}
+#side_col dl.scores dd.scale_19{background-position:124px -570px;}
+#side_col dl.scores dd.scale_20{background-position:124px -600px;}
+#side_col dl.scores dt{color:#7a7a7a;float:left;font-size:10px;line-height:12px;height:37px;text-align:left;margin-bottom:-38px;}
+#side_col dl.scores dt.editor_score{line-height:24px;}
+
+#side_col dl.scores dt a,
+#side_col dl.scores dt.your_score{font-size:14px;font-weight:bold;color:#fff;}
+#side_col dl.scores dt.your_score span.caption{font-size:10px;color:#ff5a00;}
+#side_col dl.scores dd.your_score{background:none;border:none;height:43px;margin:0;padding:0;position:relative;}
+#side_col dl.scores dd.your_score a{font-weight:normal;color:#ff5a00;}
+#side_col div.game_action a{background:url(score_su.gif) no-repeat top left;color:#fff;display:block;font-size:12px;line-height:25px;height:25px;padding:0 0 0 10px;text-align:center;}
+#side_col div.game_action a b{background:#222 url(score_su.gif) no-repeat top right;display:block;padding:0 10px 0 0;text-align:center;}
+#side_col div.game_actions{float:left;clear:both;display:inline;margin-left:-8px;}
+#side_col div.game_actions a{background:url(score_su.gif) no-repeat top left;color:#fff;float:left;font-size:12px;line-height:25px;height:25px;width:130px;margin-left:8px;padding:0 0 0 10px;text-align:center;}
+#side_col div.game_actions a b{background:#222 url(score_su.gif) no-repeat top right;float:left;padding:0 10px 0 0;width:120px;}
+/* sliderater styles */
+.game_rater_wrap{position:relative;text-align:right;width:100%;}
+.game_rater_wrap .game_rater{background:url(score_sc.gif) no-repeat top left;height:33px;width:128px;margin:0;text-align:left;position:absolute;top:0;left:0;}
+.game_rater_wrap .game_rater .scale_bg {width:120px;height:20px;margin-bottom:2px;padding:0 0 0 1px;overflow:hidden;}
+.game_rater_wrap .game_rater .scale_fg {background:url(score_sc.gif) 0 -20px;width:10%;height:20px;overflow:hidden;}
+.game_rater_wrap .game_rater .slider_bg {width:122px;height:11px;line-height:11px;margin-left:7px;overflow:hidden;}
+.game_rater_wrap .game_rater .slider {background:url(score_sc.gif);cursor:pointer;width:14px;height:11px;overflow:hidden;}
+.game_rater_wrap .status{color:#ff5a00;font:bold 10px/10px tahoma,verdana,geneva,sans-serif;padding:0;float:right;margin-top:-10px;}
+.game_rater_wrap .status a{font-weight:normal;}
+.game_rater_wrap .your_score{padding:0 0 10px;}
+
+/* sliderater in side_col */
+#side_col .game_rater_wrap .game_rater{left:123px;}
+#side_col .game_rater_wrap .status{margin-top:-20px;}
+#side_col .game_rater_wrap .your_score{padding:0 0 20px;}
+
+/* review video review */
+#reviews .video_review .video_thumb{float:left;}
+#reviews .video_review .video_thumb a{background:url(videothu.gif) no-repeat;display:block;height:0;padding-top:70px;width:102px;overflow:hidden;}
+#reviews .video_review .video_details{float:left;font-size:13px;width:300px;padding:0 0 0 10px;}
+#reviews .video_review .video_details h2{font-size:14px;margin:0 0 5px;}
+#reviews .video_review .video_details p.deck{margin:0 0 5px;}
+/* review legacy scores */
+#legacy_score_module .module{color:#ccc;font-size:12px;line-height:18px;}
+#legacy_score_module .gsscore_wrap{border-right:1px solid #666;margin-right:230px;position:relative;}
+#legacy_score_module dd{margin:0;}
+#legacy_score_module dl.scores{float:left;font-size:11px;font-weight:bold;line-height:12px;margin:0;padding:0 5px;width:170px;}
+#legacy_score_module dl.scores dt{text-align:right;padding:2px 0;width:56px;}
+#legacy_score_module dl.scores dd{background:url(gsscoreb.gif) no-repeat top left;  float:right;font-size:12px;margin:-14px 0 0;padding:0 0 0 82px;text-align:center;width:26px;}
+#legacy_score_module dl.scores dd.score_1{background-position:0px -12px;}
+#legacy_score_module dl.scores dd.score_2{background-position:0px -24px;}
+#legacy_score_module dl.scores dd.score_3{background-position:0px -36px;}
+#legacy_score_module dl.scores dd.score_4{background-position:0px -48px;}
+#legacy_score_module dl.scores dd.score_5{background-position:0px -60px;}
+#legacy_score_module dl.scores dd.score_6{background-position:0px -72px;}
+#legacy_score_module dl.scores dd.score_7{background-position:0px -84px;}
+#legacy_score_module dl.scores dd.score_8{background-position:0px -96px;}
+#legacy_score_module dl.scores dd.score_9{background-position:0px -108px;}
+#legacy_score_module dl.scores dd.score_10{background-position:bottom left;}
+#legacy_score_module div.review_details{font-size:11px;padding:0 5px;}
+#legacy_score_module .gsscore_wrap div.review_details{float:left;margin:0 -230px 0 0;padding:0 0 0 10px;width:220px;}
+#legacy_score_module div.review_details ul{font-size:12px;font-weight:bold;line-height:16px;margin-bottom:5px;}
+/* review pros and cons */
+#review_proscons{clear:both;}
+#review_proscons h2{font-size:22px;margin:0 0 5px;}
+#review_proscons p{font-size:12px;line-height:16px;margin:0;}
+#review_proscons ul{font-size:12px;line-height:16px;}
+#review_proscons ul li{display:inline;}
+#review_proscons ul li span{background:url(proscons.gif) no-repeat 3px 5px;padding:0 0 0 8px;overflow:hidden;}
+#review_proscons div.review_emblems{float:left;padding:0 0 10px;}
+#review_proscons .review_emblems div.emblem_type{display:inline;float:left;width:120px;padding:0 3px 3px 0;}
+#review_proscons .review_emblems a{font-size:10px;}
+#review_proscons .review_emblems h2{line-height:37px;margin:0;}
+#review_proscons .review_emblems ul{float:left;}
+#review_proscons .review_emblems .more_emblems{float:left;width:100%;}
+#review_proscons .review_emblems .more_emblems div{float:left;width:100%}
+#review_proscons .review_emblems li{float:left;display:inline;margin:0 4px 4px 0;height:37px;width:37px;overflow:hidden;}
+#review_proscons .review_emblems img{display:block;height:37px;width:37px;}
+
+.review_emblem-tip{font-size:11px;color:#333;width:360px;}
+.review_emblem-tip div.review_emblem-top{float:left;background:url(review_e.gif) no-repeat 0 0;padding:12px 0 0;z-index:999999;width:360px;}
+.review_emblem-tip div.review_emblem-btm{float:left;background:url(review_e.gif) no-repeat bottom left;padding:0 12px 12px;width:336px;}
+.review_emblem-tip div .review_emblem-img,
+.review_emblem-tip div .review_emblem-img img{float:left;height:77px;width:77px;}
+.review_emblem-tip div .review_emblem-img{}
+.review_emblem-tip div .review_emblem-title,
+.review_emblem-tip div .review_emblem-text{float:right;width:249px;}
+.review_emblem-tip div .review_emblem-title{font-size:14px;font-weight:bold;line-height:14px;padding-bottom:5px;}
+
+#gsscore_module .module{background:url(gsscore0.gif) no-repeat bottom;}
+#gsscore_module strong {
+color:#fff;
+}
+/*user reviews*/
+ul.user_reviews{width:100%;float:left;padding:0 0 10px;}
+ul.user_reviews li{background:url(dot00000.gif) repeat-x bottom;padding:8px 96px 9px;width:auto;}
+ul.user_reviews li .avatar{border:1px solid #000;display:inline;float:left;margin-left:-91px;}
+ul.user_reviews h3{font-size:14px;margin:0;}
+ul.user_reviews p{margin:0 0 10px;}
+ul.user_reviews p.deck{margin-top:5px;}
+ul.user_reviews p.deck a.continue{text-transform:lowercase;white-space:nowrap;}
+ul.user_reviews .posted{margin-top:10px;}
+ul.user_reviews .review{float:left;padding:0;margin:0;width:100%; overflow:hidden;}
+ul.user_reviews .review_score{border-left:1px solid #5a5a5a;display:inline;float:right;font-size:12px;font-weight:bold;line-height:10px;padding:12px 0;margin:0 -91px 0 10px;text-align:center;width:80px;}
+ul.user_reviews .review_score a{font-size:36px;line-height:27px;display:block;margin-bottom:5px;text-decoration:none;}
+
+#side_col #communityreviews_module .module{padding:0 0 10px;}
+#side_col .user_score_summary{border-bottom:1px solid #333;padding:7px 7px 0;}
+#side_col .user_score_summary dl.scores dd.last{margin:0;}
+#side_col ul.user_reviews{padding:0 7px 0; width:95%;}
+#side_col ul.user_reviews h3{font-size:12px;}
+#side_col ul.user_reviews li{padding:8px 91px 9px;}
+#side_col ul.user_reviews li p{font-size:11px;margin:0;}
+#side_col ul.user_reviews p.deck a.continue{text-transform:capitalize;}
+
+/* player review */
+#player_review{}
+#player_review fieldset.scoring{border:0;padding:10px 0;margin:0;}
+#player_review fieldset.scoring legend{display:none;}
+#player_review fieldset.scoring label{float:left;}
+#player_review fieldset.scoring select{width:170px;}
+#player_review fieldset.scoring dl{border:1px solid #000;padding:0 6px;}
+#player_review fieldset.scoring dt{float:left;line-height:36px;margin-bottom:-36px;}
+#player_review fieldset.scoring dd{border-bottom:1px solid #333;line-height:24px;height:24px;padding:6px 0;text-align:right;}
+#player_review fieldset.scoring dd.your_score{height:auto;}
+#player_review fieldset.scoring dd.last{border:none;}
+#player_review fieldset.scoring li{padding:0;text-align:right;width:100%;}
+#player_review .game_rater_wrap .game_rater{left:auto;right:40px;}
+#player_review .game_rater_wrap .your_score{font-size:22px;font-weight:bold;line-height:24px;}
+
+#gsscore_module table td {
+padding:2px 4px;
+}
+
+#gsscore_module table td.criterion {
+text-align:right;
+}
+
+#gsscore_module table td.num {
+width:12px;
+color:#fff;
+text-align:center;
+padding-right:5px;
+border-right:1px solid #000;
+}
+
+#gsscore_module table td .bar {
+width:75px;
+font-size:1px;
+background:#1a1a1a;
+border-top:1px solid #000;
+border-right:1px solid #888;
+border-bottom:1px solid #888;
+border-left:1px solid #000;
+}
+
+#gsscore_module .score0,
+#gsscore_module .score1,
+#gsscore_module .score2,
+#gsscore_module .score3,
+#gsscore_module .score4,
+#gsscore_module .score5,
+#gsscore_module .score6,
+#gsscore_module .score7,
+#gsscore_module .score8,
+#gsscore_module .score9,
+#gsscore_module .score10 {
+background:url(gsscoreb.gif) repeat-x;
+height:12px;
+}
+
+#gsscore_module .score0 {
+width:0%;
+}
+
+#gsscore_module .score1 {
+width:10%;
+}
+
+#gsscore_module .score2 {
+width:20%;
+}
+
+#gsscore_module .score3 {
+width:30%;
+}
+
+#gsscore_module .score4 {
+width:40%;
+}
+
+#gsscore_module .score5 {
+width:50%;
+}
+
+#gsscore_module .score6 {
+width:60%;
+}
+
+#gsscore_module .score7 {
+width:70%;
+}
+
+#gsscore_module .score8 {
+width:80%;
+}
+
+#gsscore_module .score9 {
+width:90%;
+}
+
+#gsscore_module .score10 {
+width:100%;
+}
+
+/* IMAGES PAGE
+*******************************/
+#images #sky_col_wrap .item {
+width:143px;
+}
+
+#images #full_col_wrap .item {
+width:149px;
+}
+
+/* VIDEOS PAGE
+*******************************/
+#videos #content .thumb {
+width:102px;
+height:70px;
+overflow:hidden;
+}
+
+#videos #content .thumb img {
+width:102px;
+height:70px;
+background:url(videothu.gif) no-repeat;
+}
+
+/* DOWNLOAD PAGE
+*******************************/
+#download #content h2 {
+font-size:18px;
+}
+
+#download #content .embscreen {
+width:122px;
+font-size:11px;
+text-align:center;
+background:#555;
+padding:5px;
+margin:0px 0px 10px 10px;
+float:right;
+}
+
+/*TIER 2 DEMOS*/
+.dl-image-tier2{width:430px; height:100px; border:1px solid #000;border-top:none;}
+.dl-bubble-tier2 {background:transparent url(module_5.gif) no-repeat scroll center bottom;width:421px;clear:both;padding-bottom:10px;padding-left:11px;color:#fff;}
+.dl-summary-tier2 {padding:10px 0px 0px 0px;}
+.dl-box-tier2 {background:url(dna_dl_b.gif) no-repeat top; border:1px solid #222222; width:409px; margin:10px 0px 0px 0px; color:#333;}/*border seems to fix margin bug*/
+.dl-box-tier2 a{color:#EA7001;}
+.dl-box-tier2 .dots{background:transparent url(dot00001.gif) repeat-x scroll center bottom;}
+.dl-box-tier2 .dl-tier2-countdown{background:url(dna_dl_c.gif) no-repeat top; width:398px; height:21px; margin-top:10px; margin-left:5px; padding-top:5px; text-align:center; font-weight:bold;font-size:11px;}
+.dl-box-tier2 .dl-tier2-countdown #event_countdown{display:inline;font-size:12px;color:#fff;margin-left:5px;}
+
+.dl-box-tier2 .dl-tier2-countdown2{text-align:center; font-weight:bold; padding-top:7px; font-size:11px;}
+.dl-box-tier2 .dl-tier2-countdown2 #event_countdown{display:inline;font-size:12px;;margin-left:5px;}
+
+.signup-shorter{margin-left:0px;margin-top:10px;}
+.dl-box-tier2 .dl-box-bottom  {width:409px;height:10px;background:#222222 url(dna_dl_b.gif) no-repeat scroll;}
+
+/*REGULAR DOWNLOADS/DEMOS*/
+#download .dl-box{
+width:431px;
+margin-bottom:10px;
+}
+
+#download #all .dl-box {background:url(dna_dl_b.gif) no-repeat scroll;}
+#download #pc .dl-box {background:url(dna_dl_b.gif) no-repeat scroll;}
+#download #xbox .dl-box {background:url(dna_dl_b.gif) no-repeat scroll;}
+#download #playstation .dl-box {background:url(dna_dl_b.gif) no-repeat scroll;}
+#download #nintendo .dl-box {background:url(dna_dl_b.gif) no-repeat scroll;}
+#download #portable .dl-box {background:url(dna_dl_b.gif) no-repeat scroll;}
+
+#download .dl-box .dl-box-bottom{width:431px;height:10px;}
+
+#download #all .dl-box .dl-box-bottom{background:#3F4A59 url(dna_dl_b.gif) no-repeat scroll;}
+#download #pc .dl-box .dl-box-bottom{background:#2B425E url(dna_dl_b.gif) no-repeat scroll;}
+#download #xbox .dl-box .dl-box-bottom{background:#37422D url(dna_dl_b.gif) no-repeat scroll;}
+#download #playstation .dl-box .dl-box-bottom{background:#2A2E4F url(dna_dl_b.gif) no-repeat scroll;}
+#download #nintendo .dl-box .dl-box-bottom{background:#3B3747 url(dna_dl_b.gif) no-repeat scroll;}
+#download #portable .dl-box .dl-box-bottom{background:#2B425E url(dna_dl_b.gif) no-repeat scroll;}
+
+.sampler_hd {background:#000;color:#6C6C6C;}
+.sampler_hd .header {background: url(module_h.jpg) no-repeat;display:block;float:none;height:61px;width:432px;}
+.sampler_hd #init_dl_wrap .init_dl_head {background: url(neck_spo.gif) no-repeat;line-height:7px;}
+.sampler_hd #init_dl_wrap .init_dl_foot {background:none;}
+.sampler_hd #init_dl_wrap .tac {background:url(module_f.gif) no-repeat bottom;padding-bottom:50px;text-align:right;}
+.sampler_hd #init_dl_wrap .row {padding:0 20px 5px 0;}
+.sampler_hd #init_dl_wrap .row .button.hd {width:120px;}
+.sampler_hd #init_dl_wrap .row .button.hd a {color:#E9E7E8;}
+    
+#download #all .sampler_hd, #download #pc .sampler_hd, #download #xbox .sampler_hd, #download #playstation .sampler_hd, #download #nintendo .sampler_hd, #download #portable .sampler_hd {background:#000 url(module_f.gif) no-repeat bottom;padding-bottom:26px;}
+#download #all .sampler_hd .dl-box .dl-box-bottom, #download #pc .sampler_hd .dl-box .dl-box-bottom, #download #xbox .sampler_hd .dl-box .dl-box-bottom, #download #playstation .sampler_hd .dl-box .dl-box-bottom, #download #nintendo .sampler_hd .dl-box .dl-box-bottom, #download #portable .sampler_hd .dl-box .dl-box-bottom {background:none;}   
+#download #all .sampler_hd .dl-box, #download #pc .sampler_hd .dl-box, #download #xbox .sampler_hd .dl-box, #download #playstation .sampler_hd .dl-box, #download #nintendo .sampler_hd .dl-box, #download #portable .sampler_hd .dl-box {background: url(neck_spo.gif) no-repeat left top;}
+#download #all .sampler_hd .dl-box .pl10, #download #pc .sampler_hd .dl-box .pl10, #download #xbox .sampler_hd .dl-box .pl10, #download #playstation .sampler_hd .dl-box .pl10, #download #nintendo .sampler_hd .dl-box .pl10, #download #portable .sampler_hd .dl-box .pl10{padding-left:15px;}
+#download #all .sampler_hd .dl-box .pr10, #download #pc .sampler_hd .dl-box .pr10, #download #xbox .sampler_hd .dl-box .pr10, #download #playstation .sampler_hd .dl-box .pr10, #download #nintendo .sampler_hd .dl-box .pr10, #download #portable .sampler_hd .dl-box .pr10{padding-right:15px;}
+
+#download .embscreen {
+padding: 5px 34px 10px;
+width:auto;
+}
+
+.dlbutton a{
+width:140px;
+height:41px;
+background:url(dl_big_b.gif) no-repeat;
+padding:0;
+float:right;
+}
+
+#jnbutton a:hover {
+background:url(jn-butto.gif) no-repeat;
+float:right;
+}
+
+#init_dl_wrap {
+background:url(dl_box_b.gif) repeat-y scroll;
+width:432px;
+margin-bottom:15px;
+}
+
+#all #init_dl_wrap, #all #init_dl_wrap .init_dl_head, #all #init_dl_wrap .init_dl_foot {background-color:#3F4A59;}
+#pc #init_dl_wrap, #pc #init_dl_wrap .init_dl_head, #pc #init_dl_wrap .init_dl_foot {background-color:#2B425E;}
+#xbox #init_dl_wrap, #xbox #init_dl_wrap .init_dl_head, #xbox #init_dl_wrap .init_dl_foot {background-color:#37422D;}
+#nintendo #init_dl_wrap, #nintendo #init_dl_wrap .init_dl_head, #nintendo #init_dl_wrap .init_dl_foot {background-color:#3B3747;}
+#playstation #init_dl_wrap, #playstation #init_dl_wrap .init_dl_head, #playstation #init_dl_wrap .init_dl_foot {background-color:#2A2E4F;}
+#portable #init_dl_wrap, #portable #init_dl_wrap .init_dl_head, #portable #init_dl_wrap .init_dl_foot {background-color:#2C554C;}
+
+#init_dl_wrap .init_dl_head {
+background: url(dl_box_h.gif) no-repeat bottom scroll;
+width:432px;
+height:7px;
+margin:0;
+padding:0;
+}
+
+#init_dl_wrap .init_dl_foot {
+background: url(dl_box_f.gif) no-repeat scroll;
+width:432px;
+height:7px;
+}
+
+#init_dl_wrap .row {
+height:25px;
+line-height:25px;
+padding:0 81px 5px 0;
+}
+
+#init_dl_wrap .text {
+text-align:right;
+}
+
+.orange_text{
+color:#ef6600;
+}
+
+#init_dl_wrap .button {
+float:right;
+height:25px;
+padding-left:12px;
+display:block;
+width:81px;
+}
+
+#init_dl_wrap .download_button {
+height:25px;
+padding:0 10px 0 15px;
+display:block;
+position:relative;
+background-position:top left;
+text-align:center;
+}
+
+#init_dl_wrap .download_button span {
+width:10px;
+height:25px;
+position:absolute;
+right: -5px;
+top: 0;
+background-position: top right;
+}
+
+#init_dl_wrap .download_button.orange, #init_dl_wrap .download_button.orange span {
+color:#fff;
+background-image:url(btn_oran.gif);
+}
+
+#init_dl_wrap .download_button.gray, #init_dl_wrap .download_button.gray span {
+color:#bbb;
+background-image:url(btn_gray.gif);
+}
+
+#dna_benefits {
+height:353px;
+width:412px;
+padding:20px 10px 0;
+margin-bottom:11px;
+}
+
+#all #dna_benefits {background:url(dna_bene.gif);}
+#pc #dna_benefits {background:url(dna_bene.gif);}
+#xbox #dna_benefits {background-image:url(dna_bene.gif);}
+#nintendo #dna_benefits {background-image:url(dna_bene.gif);}
+#playstation #dna_benefits {background-image:url(dna_bene.gif);}
+#portable #dna_benefits {background-image:url(dna_bene.gif);}
+
+
+#dna_benefits ul {
+padding-left:15px;
+}
+
+#dna_benefits li {
+padding-bottom:6px;
+font-weight:bold;
+font-size:14px;
+}
+
+#dna_benefits ul li img{
+vertical-align:middle;
+padding-right:10px;
+}
+
+.twogig_bg {
+background: url(dna_2gb_.gif) no-repeat scroll;
+width:432px;
+height:50px;
+margin-bottom:10px;
+padding:15px 0 0;
+text-align:center;
+}
+
+#dna_jn_totalaccess,
+#dna_jn_totalaccess_subscriber {
+background: url(dna_upse.gif) no-repeat scroll;
+width:392px;
+height:90px;
+padding:73px 20px 0;
+margin-bottom:15px;
+text-align:center;
+color:#000;
+}
+
+#dna_jn_totalaccess_subscriber {
+background: url(dna_upse.gif) no-repeat scroll;
+}
+
+#dna_jn_totalaccess .dna_jn_btn,
+#dna_jn_totalaccess_subscriber .dna_jn_btn {
+background: url(dna_jn_b.gif) no-repeat scroll;
+width:130px;
+height:25px;
+display:block;
+margin: 0 auto;
+line-height:25px;
+color:#fff;
+}
+
+/* SIMILAR PAGE
+*******************************/
+#similar #content .score .number {
+font-family:Impact,Tahoma,Arial,Helvetica,sans-serif;
+font-size:30px;
+}
+
+/* POST REVIEW
+*******************************/
+.worstbest {
+background:#222 url(worstbes.gif) no-repeat 125px 4px;
+}
+
+.threes td {
+height:22px;
+font-size:10px;
+color:#ccc;
+background-color:#333;
+padding:0px;
+}
+
+.twos td {
+height:22px;
+font-size:10px;
+color:#ccc;
+background-color:#222;
+padding:0px;
+}
+
+.desc {
+width:175px;
+background:url(rategame.gif) no-repeat 2px right;
+}
+
+td.desc {
+padding-left:5px;
+}
+
+.end {
+width:50px;
+background:url(rategame.gif) no-repeat 2px left;
+}
+
+.yourscore {
+width:210px;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+color:#ccc;
+padding:2px 0px;
+margin:5px auto 0px;
+}
+
+.yourscore div {
+line-height:30px;
+float:left;
+}
+
+#score_word {
+width:100px;
+font-size:16px;
+font-weight:bold;
+text-align:center;
+color:#ccc;
+}
+
+#scorediv {
+font-size:22px;
+font-weight:bold;
+color:#f90;
+padding-left:6px;
+}
+
+/* the following is deprecated */
+#communityreviews_module .user_review {border-left:1px solid #ccc;}
+#pc #communityreviews_module .user_review {border-color:#537592;}
+#playstation #communityreviews_module .user_review {border-color:#4a6384;}
+#xbox #communityreviews_module .user_review {border-color:#5E7C3F;}
+#nintendo #communityreviews_module .user_review {border-color:#5c566f;}
+/* the above is deprecated */
+
+/* DOWNLOAD INI PAGE
+*********************************/
+#dl_gsb.module_wrap, #dl_gsc.module_wrap {
+background:url(module_5.gif) no-repeat;
+padding-top:10px;
+}
+
+#dl_gsb .module, #dl_gsc .module {
+text-align:center;
+background:url(module_5.gif) no-repeat bottom;
+padding-bottom:10px;
+}
+
+.module_wrap_download {
+background:url(module_7.gif) no-repeat top;
+padding-top:10px;
+position:relative;
+}
+
+.module_wrap_download.experience-hd {
+width:432px;
+background-image:url(module_7.gif);
+}
+
+.module_download {
+background:url(module_7.gif) no-repeat bottom;
+padding:0 5px 8px 5px;
+}
+
+.module_wrap_download.experience-hd .module_download {
+width:422px;
+background-image:url(module_7.gif);
+}
+
+.module_download .title {
+width:230px;
+height:43px;
+background:url(title000.gif) no-repeat bottom;
+}
+
+.module_wrap_download.experience-hd .title {
+width:421px;
+height:48px;
+background-image:url(title_so.gif);
+}
+
+.module_download a.subscribe_button {
+width:138px;
+height:39px;
+background:url(btn_subs.gif) no-repeat bottom;
+position:absolute;
+top:10px;
+left:285px;
+}
+
+.module_download a.join_button {
+width:138px;
+height:39px;
+background:url(btn_join.gif) no-repeat bottom;
+position:absolute;
+top:10px;
+left:285px;
+}
+
+.module_wrap_download.experience-hd .module_download a.join_button {
+width:120px;
+height:39px;
+background-image:url(btn_join.gif);
+margin-left:20px
+}
+.module_download .download_box_wrap {
+background:url(module_d.gif) no-repeat top;
+padding-top:5px;
+margin-bottom:8px;
+}
+
+.module_download .download_box {
+color: #666;
+background:url(module_d.gif) no-repeat bottom;
+padding:5px 15px 10px 0;
+}
+
+.module_download .row {
+height:25px;
+line-height:25px;
+margin: 0 5px 5px 0;
+position:relative;
+}
+
+.module_download .download_box .orange_text {
+color:#ef6600;
+}
+
+.module_download .button {
+position: absolute;
+right:0;
+}
+
+.module_download .text {
+padding-right:115px;
+}
+
+.module_download .download_button {
+height:25px;
+font:bold 12px/25px Arial;
+padding:0 10px 0 15px;
+display:block;
+position:relative;
+}
+.module_download .download_button span {
+width:10px;
+height:25px;
+position:absolute;
+top:0;
+right:-5px;
+}
+
+#main_col .module_download .download_button.orange {
+color:#fff;
+background:url(btn_oran.gif);
+}
+
+#main_col .module_download .download_button.gray {
+color:#bbb;
+background:url(btn_gray.gif);
+}
+
+.module_download .download_button.orange span {
+background:url(btn_oran.gif) top right;
+}
+
+.module_download .download_button.gray span {
+background:url(btn_gray.gif) top right;
+}
+
+.module_download .foot {
+height:24px;
+line-height:24px;
+background-position: bottom center;
+background-repeat: no-repeat;
+padding:0 0 0 8px;
+position:relative;
+}
+
+#main_col .module_download .foot.subscriber {
+color:#fff;
+background-image:url(module_b.gif);
+}
+
+/* TOP DOWNLOADS MODULE */
+#top_downloads_module .module {
+padding:0 0 10px;
+}
+
+#top_downloads_module .featured {
+background:#0E0907 url(sidemodu.gif) top repeat-x;
+border-bottom:1px solid #4B4340;
+padding:7px 8px 10px 9px;
+width:285px;
+}
+
+
+#top_downloads_module .featuredpic {
+margin:0px;
+float:right;
+width:88px;
+height:66px;
+border:1px solid #000;
+}
+
+#top_downloads_module .dots {
+margin:0px 4px;
+display:inline;
+width:285px;
+padding:3px 4px;
+}
+
+#top_downloads_module h3 {
+float:left;
+color:#fff;
+font-weight:bold;
+font-size:16px;
+margin-top:2px;
+}
+
+/* MEMBERS */
+#main_col  .module_download .foot.member {
+color:#fff;
+background-image:url(module_b.gif);
+}
+
+#main_col .module_download .foot.member  {
+color:#fff;
+background-image:url(module_b.gif);
+}
+
+#main_col .module_download .foot.member a {
+color:#fd0;
+}
+
+/* NON-MEMBERS */
+#main_col .module_download .foot.nonmember {
+color:#fff;
+background-image:url(module_b.gif);
+}
+
+#main_col .module_download .foot.nonmember a {
+color:#ff0;
+}
+
+.module_download .download_box_wrap_dark {
+background:url(module_d.gif) no-repeat top;
+padding-top:5px;
+margin-bottom:8px;
+}
+
+.module_download .download_box_dark {
+color: #999;
+background:url(module_d.gif) no-repeat bottom;
+padding:5px 15px 10px 0;
+}
+
+.module_download .download_box_dark .row {
+color:#ccc;
+}
+
+/* OLD STYLES FOR BLAZING DOWNLOAD BOX */
+#dlbutton a {
+width:139px;
+height:40px;
+background:url(dl-butto.jpg) no-repeat;
+padding:0px 0px 0px 0px;
+margin-right:10px;
+float:right;
+}
+
+#jnbutton a{
+width:139px;
+height:40px;
+background:url(jn-butto.gif) no-repeat;
+padding:0;
+float:right;
+}
+
+#jnbutton a:hover {
+background:url(jn-butto.gif) no-repeat;
+float:right;
+}
+
+.rateserver {
+width:410px;
+height:47px;
+background:url(rate-bg0.gif) no-repeat center;
+padding:10px 0px 0px 10px;
+margin:10px 0px 0px 3px;
+float:left;
+}
+
+.rateserver a {
+color:#c30;
+}
+
+.rateserver-complete {
+width:420px;
+height:52px;
+background:url(rate-bg-.jpg) no-repeat;
+margin:10px 0px 0px 5px;
+float:left;
+}
+
+.serverlocal {
+width:433px;
+height:19px;
+_height:21px;
+font-size:11px;
+font-weight:bold;
+text-align:left;
+color:#000000;
+background:url(serverlo.gif) no-repeat;
+padding:3px 0px 0px 5px;
+margin:5px 0px -2px 2px;
+_margin:5px 0px -3px 3px;
+float:left;
+display:inline;
+}
+
+/* CHECK PRICES PAGE
+*********************************/
+#checkprices #pc #full_col_wrap,
+#checkprices #playstation #full_col_wrap,
+#checkprices #xbox #full_col_wrap,
+#checkprices #nintendo #full_col_wrap,
+#checkprices #portable #full_col_wrap,
+#checkprices #pc #shoulder,
+#checkprices #playstation #shoulder,
+#checkprices #xbox #shoulder,
+#checkprices #nintendo #shoulder,
+#checkprices #portable #shoulder {
+background:#fff;
+}
+
+#checkprices #main_col {
+color:#333;
+}
+
+#checkprices #main_col a {
+color:#c30;
+}
+
+#checkprices #main_col .pc {
+color:#036;
+}
+
+#checkprices #main_col .playstation {
+color:#006;
+}
+
+#checkprices #main_col .xbox {
+color:#240;
+}
+
+#checkprices #main_col .nintendo {
+color:#471E7E;
+}
+
+#checkprices #main_col .portable {
+color:#044;
+}
+
+#checkprices #pc #main_col .module_head h2,
+#checkprices #playstation #main_col .module_head h2,
+#checkprices #xbox #main_col .module_head h2,
+#checkprices #nintendo #main_col .module_head h2,
+#checkprices #portable #main_col .module_head h2 {
+background-color:#fff;
+}
+
+#checkprices .buyit_module {
+width:222px;
+text-align:center;
+background:url(buyit_mo.gif) repeat-y;
+float:right;
+}
+
+#checkprices .buyit_module .top {
+width:222px;
+height:16px;
+background:url(buyit_mo.gif) no-repeat;
+}
+
+#checkprices #main_col .buyit_module .btns {
+width:80px;
+}
+
+#checkprices #main_col .buyit_module .btns a {
+color:#fff;
+}
+
+#checkprices .buyit_module .btn {
+width:80px;
+font-size:11px;
+background:url(buyit_mo.gif) no-repeat;
+padding:4px 0;
+float:left;
+cursor:pointer;
+}
+
+#checkprices .buyit_module .divider {
+width:222px;
+height:9px;
+font-size:1px;
+background:url(buyit_mo.gif) no-repeat;
+}
+
+#checkprices .buyit_module .btm {
+text-align:left;
+background:#ffeeba url(buyit_mo.gif) no-repeat bottom;
+padding:7px 10px 10px;
+}
+
+#checkprices #main_col table {
+width:100%;
+color:#333;
+border:1px solid #999;
+border-top:0;
+clear:both;
+}
+
+#checkprices #main_col table th {
+text-align:left;
+background:#bbb;
+border-bottom:1px solid #999;
+}
+
+#checkprices #main_col table td {
+background:#ddd;
+padding:5px 10px 5px 0;
+border-bottom:1px solid #9C9A9C;
+}
+
+#checkprices #main_col table .merchant {
+font-weight:bold;
+padding:5px 0 5px 8px;
+}
+
+#checkprices #main_col table .merchant img {
+border:1px solid #000000;
+margin:0 0 -1px -2px;
+}
+
+#checkprices #main_col table .title {
+font-size:12px;
+}
+
+#checkprices #main_col table .merchant a,
+#checkprices #main_col table .price a,
+#checkprices #main_col table .buy a {
+color:#000;
+}
+
+#checkprices #main_col table .results {
+color:#fff;
+background:#bbb;
+padding-left:10px;
+}
+
+#checkprices .box,
+#checkprices #pc .box,
+#checkprices #playstation .box,
+#checkprices #xbox .box,
+#checkprices #nintendo .box,
+#checkprices #portable .box {
+background:#ddd;
+border:1px solid #999;
+}
+
+#checkprices .box .txt2,
+#checkprices #pc .box .txt2,
+#checkprices #playstation .box .txt2,
+#checkprices #xbox .box .txt2,
+#checkprices #nintendo .box .txt2,
+#checkprices #portable .box .txt2 {
+color:#666;
+}
+
+/* PROFILE
+*********************************/
+.profile_img {
+width:86px;
+float:right;
+}
+
+.profile_img img {
+width:84px;
+height:84px;
+border:1px solid #000;
+}
+
+.emblems {
+text-align:center;
+margin:0 auto;
+}
+
+.emblems img {
+width:38px;
+height:38px;
+background:#111;
+border:1px solid #333;
+margin:0 3px 5px 2px;
+}
+
+#about_module input {
+border:1px solid #333;
+}
+
+#about_module .item1 {
+padding:1px 0;
+float:left;
+}
+
+#about_module .item2 {
+width:288px;
+padding:1px 0;
+float:left;
+}
+
+#about_module .data {
+width:58px;
+line-height:18px;
+text-align:left;
+padding:0 2px 0 0;
+float:left;
+}
+
+#about_module .entry1 {
+width:132px;
+line-height:18px;
+color:#fff;
+float:left;
+}
+
+#about_module .entry1 input {
+width:130px;
+}
+
+#about_module .entry2 {
+width:222px;
+line-height:18px;
+color:#fff;
+float:left;
+}
+
+#about_module .entry2 input {
+width:220px;
+}
+
+#about_module textarea {
+width:288px;
+border:1px solid #333;
+}
+
+#mygamesinfo_module textarea {
+width:288px;
+height:92px;
+border:1px solid #333;
+}
+
+#mygamesinfo_module .data, #myplatforms_module .data {
+width:150px;
+float:left;
+}
+
+#mygamesinfo_module strong, #myplatforms_module strong {
+color:#fff;
+}
+
+#myfriends_module .tracked_username {
+color:#eee;
+}
+
+.pollheader, .pollfooter {
+background-image: url(header-f.gif);
+height: 12px;
+font-size:0px;
+}
+
+/* .pollheader.side, .pollfooter.side {
+background-image: url(http://image.com.com/gamespot/shared/gs5/profile/polls/header-footer-gray.gif);
+height: 12px;
+font-size:0px;
+}*/
+
+.pollheader.left {
+background-position: top left; padding-left: 10px;
+}
+
+.pollheader.right {
+background-position: top right;
+}
+
+.pollfooter.footleft {
+background-position: bottom left; padding-left: 10px;
+}
+
+.pollfooter.footright {
+background-position: bottom right;
+}
+
+.profilepoll {
+color:#fff; padding-top:10px;background:#747b86;
+}
+
+/* POPUPS
+*********************************/
+#popup_header {
+text-align:left;
+background:url(popup_he.gif) repeat-x;
+border-bottom:1px solid #000;
+color:#fff;
+}
+
+.pophead_inset {
+background:url(popup_in.gif) no-repeat 0px 2px;
+}
+
+.pophead_inset_right {
+background:url(popup_in.gif) no-repeat right 2px;
+}
+
+#popup #content_wrap, #popup #full_col_wrap, #popup #full_col_wrap #main_col_wrap, #popup #shoulder {
+width:100%;
+}
+
+/* PREFERENCES POPUP
+*********************************/
+#poptabs_wrap {
+width:100%;
+height:44px;
+color:#fff;
+background:#2C3440;
+border-bottom:1px solid #000;
+float:left;
+position:relative;
+z-index:0;
+}
+
+#poptabs_wrap #tabs {
+margin-top:15px;
+}
+
+/* POP-UP WARNING
+*********************************/
+#popup_warning {
+width:494px;
+height:261px;
+text-align:center;
+background:transparent url(popup_wa.png);
+position:absolute;
+z-index:5;
+}
+
+* html #popup_warning {
+background-color:#333;
+back\ground-color:transparent;
+background-image:url(blank000.gif);
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://image.com.com/gamespot/shared/gs5/themes/standard/popup_warning.png", sizingMethod="scale");
+}
+
+a.close_popup {
+cursor:pointer;
+}
+
+/* NEW SEARCH
+*********************************/
+#search #neck {
+height:auto;
+}
+
+#unisearchbox {
+background:url(t_search.gif) repeat-x;
+width:750px;
+height:75px;
+font-size:11px;
+color:#CCC;
+}
+
+#unisearchbox .search_tips{
+    background:#333;
+    display:inline;
+    font:10px tahoma,arial,helvetica,sans-serif;
+    float:right;
+    margin:-26px 8px 0 0;
+    padding:5px;
+    width:220px;
+}
+
+#search_search input.srchbtn {
+height:20px;
+width:70px;
+background:url(btn-sear.gif) 0px 0px no-repeat;
+margin:4px 0 -5px 3px;
+}
+
+#subnav2 {
+background:url(t_subnav.gif) repeat-x;
+float:left;
+width:726px;
+color:#999;
+padding-left:22px;
+}
+
+#subnav2 a {
+font-weight:normal;
+}
+
+#subnav2 li {
+padding:8px 0 5px;
+margin:0 10px 0 0;
+float:left;
+}
+
+#subnav2 li.on {
+background:url(t_subtab.gif) no-repeat right;
+margin:0 4px 0 0;
+}
+
+#subnav2 li.on a {
+background:url(t_subtab.gif) no-repeat 0px 0px;
+padding:8px 2px 5px 9px;
+position:relative;
+left:-5px;
+color:#fff;
+}
+
+.secondary {
+background:#1E1F1F;
+width:100%;
+height:auto;
+float:left;
+}
+
+/* TAGS
+*********************************/
+#tagcrumb a {
+color:#ddd;
+}
+
+#tagcloud {
+background:#3F4A59;
+}
+
+#tagcloud a {
+color:#CCC;
+}
+
+#tagcloud .smallest {
+font-size:10px;
+font-weight:normal;
+color:#777;
+}
+
+#tagcloud .small {
+font-size:11px;
+font-weight:normal;
+color:#aaa;
+}
+
+#tagcloud .medium {
+font-size:12px;
+font-weight:bold;
+color:#ccc;
+}
+
+#tagcloud .large {
+font-size:15px;
+font-weight:bold;
+color:#ddd;
+}
+
+#tagcloud .largest {
+font-size:18px;
+font-weight:bold;
+color:#fff;
+}
+
+#tagcloud_all .smallest {
+font-size:11px;
+font-weight:normal;
+color:#777;
+margin:4px;
+}
+
+#tagcloud_all .small {
+font-size:13px;
+font-weight:normal;
+color:#aaa;
+margin:6px;
+}
+
+#tagcloud_all .medium {
+font-size:15px;
+font-weight:bold;
+color:#ccc;
+margin:8px;
+}
+
+#tagcloud_all .large {
+font-size:18px;
+font-weight:bold;
+color:#ddd;
+margin:10px;
+}
+
+#tagcloud_all .largest {
+font-size:24px;
+font-weight:bold;
+color:#fff;
+margin:12px;
+}
+
+#tags_module .smallest {
+font-size:10px;
+font-weight:normal;
+color:#777;
+}
+
+#tags_module .small {
+font-size:10px;
+font-weight:normal;
+color:#bbb;
+}
+
+#tags_module .medium {
+font-size:11px;
+font-weight:normal;
+color:#ccc;
+}
+
+#tags_module .large {
+font-size:11px;
+font-weight:bold;
+color:#ccc;
+}
+
+#tags_module .largest {
+font-size:12px;
+font-weight:bold;
+color:#fff;
+}
+
+/* USER UPLOADS AND UNIONS
+*********************************/
+#user_uploads {
+background-color:#fff;
+color:#333;
+font-size:13px;
+padding:0 7px 0 7px;
+}
+
+#user_uploads p a,
+#user_uploads .box_links a {
+color:#c30;
+}
+
+#user_uploads .button1 a,
+#user_uploads .button2 a {
+color:#fff;
+}
+
+#user_uploads .alt {
+background:#dcd4c6;
+}
+
+#user_uploads .ml140 {
+margin-left:140px;
+}
+
+#user_uploads .input_short {
+width:145px;
+}
+
+#user_uploads #steps {
+color:#999;
+float:left;
+font-weight:bold;
+font-size:12px;
+margin:10px 0 10px 10px;
+}
+
+#user_uploads #steps li {
+float:left;
+background-repeat:no-repeat;
+}
+
+#user_uploads #steps .on {
+color:#333;
+}
+
+#user_uploads #steps #one {
+background-image:url(v_step10.gif);
+padding:6px 40px 8px 34px;
+}
+
+#user_uploads #steps #one.on {
+background-image:url(v_step1o.gif);
+}
+
+#user_uploads #steps #two {
+padding:6px 40px 8px 104px;
+background-image:url(v_step20.gif);
+}
+
+#user_uploads #steps #two.on {
+background-image:url(v_step2o.gif);
+}
+
+#user_uploads #steps #three {
+padding:6px 0 8px 104px;
+background-image:url(v_step30.gif);
+}
+
+#user_uploads #steps #three.on {
+background-image:url(v_step3o.gif);
+}
+
+#user_uploads #submit {
+background:#F1E9DA;
+clear:both;
+position:relative;
+margin-bottom:20px;
+}
+
+#user_uploads #submit .head,
+#user_uploads #submit .head div,
+#user_uploads #submit .foot,
+#user_uploads #submit .foot div {
+background-image: url(submit-f.gif);
+height: 7px;
+font-size: 0;
+}
+
+#user_uploads #submit .head {
+background-position: top left;
+margin: 0;
+}
+
+#user_uploads #submit .head div {
+background-position: top right;
+margin-left: 10px;
+}
+
+#user_uploads #submit .foot {
+clear: both;
+background-position: bottom left;
+margin: 0;
+}
+
+#user_uploads #submit .foot div {
+clear: both;
+background-position: bottom right;
+margin-left: 10px;
+}
+
+#user_uploads #submit .body {
+margin: 10px;
+position: relative;
+}
+
+#user_uploads h1 {
+padding:5px 10px 5px 60px;
+font-weight:normal;
+font-size:30px;
+background-repeat:no-repeat;
+}
+
+#user_uploads #c1 {
+background-image:url(v_circle.gif);
+}
+
+#user_uploads #c2 {
+background-image:url(v_circle.gif);
+}
+
+#user_uploads #c3 {
+background-image:url(v_circle.gif);
+}
+
+#user_uploads #up_arrow {
+background-image:url(icon_upl.gif);
+}
+
+#user_uploads #right_arrow {
+background-image:url(icon_edi.gif);
+}
+
+#user_uploads form fieldset {
+border:none;
+padding:0;
+}
+
+#user_uploads fieldset p {
+width:38%;
+}
+
+#user_uploads form legend {
+padding:0px 0px 45px 64px;
+font-weight:bold;
+}
+
+#user_uploads form label.name {
+float:left;
+line-height:16px;
+font-weight:bold;
+text-align:right;
+padding-right:10px;
+width: 18%;
+}
+
+#user_uploads form label.instr {
+width:37%;
+float:left;
+}
+
+#user_uploads form fieldset li {
+width:100%;
+overflow:hidden;
+padding:10px 0;
+}
+
+#user_uploads form fieldset li.upgrade {
+padding:0px;
+}
+
+#user_uploads form em {
+font-weight: bold;
+font-style: normal;
+color: #f00;
+}
+
+#user_uploads form fieldset textarea,
+#user_uploads form fieldset .text,
+#user_uploads form fieldset select,
+#user_uploads form fieldset .input_text {
+width:39%;
+float:left;
+margin-right:10px;
+}
+
+#user_uploads form fieldset input.radio {
+margin:2px 3px 0 0;
+}
+
+#user_uploads form fieldset input.button1 {
+width:127px;
+margin-top:-1px;
+margin-bottom:0;
+float:left;
+}
+
+#unions #user_uploads .button2 {
+margin-left:10px;
+margin-top:-1px;
+}
+
+#user_uploads .boxed {
+background:#DCD4C6;
+border:1px solid #8F8F8F;
+padding:10px 2px 15px;
+margin:0 auto 20px;
+width:98%;
+}
+
+#user_uploads #vlnotes ul, #user_uploads #vlnotes li {
+list-style-type:disc;
+margin:10px;
+}
+
+#user_uploads .finished {
+margin:0 0 80px 64px;
+}
+
+#user_uploads .copyrighted {
+margin:-25px 0 20px 64px;
+width:98%;
+}
+
+#user_uploads .copyrighted strong {
+color:#f00;
+}
+
+#user_uploads .ml140 {
+margin-left:140px;
+}
+
+#user_uploads a {
+color:#c30;
+}
+
+#user_uplaods .search {
+width:145px;
+}
+
+#user_uploads #files_list li {
+margin-left:60%;
+position:relative;
+padding:5px 0;
+border-bottom:1px solid #999;
+}
+
+.vitem .v3thumb {
+background:url(v_3thumb.gif) no-repeat;
+height:92px;
+width:402px;
+}
+
+.vitem .v3t_loading {
+background:url(v_3thumb.gif) no-repeat;
+width:402px;
+height:92px;
+color:#ccc;
+}
+
+.vitem .v3t_error {
+background:url(v_3thumb.gif) no-repeat;
+width:402px;
+height:92px;
+color:#ccc;
+}
+
+.vitem .v3t_error a {
+color:#ccc;
+}
+
+.vviewinfo {
+background:#111;
+}
+
+.unions_member_tab {
+margin-bottom:20px;
+}
+
+/* VIDEO HUB REDO */
+#hub #videos #tags_module .module_head_right {
+background:url(head_all.gif) right #7F7F7F;
+}
+
+.vh-module {
+background:url(mod-head.gif) top left no-repeat;
+position:relative;z-index:1;padding-bottom:10px;clear:both;
+}
+
+.vh-module h2 a {position:absolute;right:10px;font:normal 10px/22px Tahoma;color:#000;}
+
+.vh-module h2 {
+background:url(mod-head.gif) top right no-repeat #FFF;
+color: #000;
+margin-left:10px;font:bold 11px/22px Tahoma;height:22px;background-color:#fff;
+}
+
+/* GS LIVE SCHEDULE // REDO PT 2
+*********************************/
+.gslive_schedule {
+    margin:0 0 10px 2px;
+    clear:both;
+    }
+#side_col .gslive_schedule .module {
+    padding:0 0 12px;
+    border-top:1px solid #000;
+    background:url(module_7.gif) no-repeat bottom;
+    }
+.gslive_schedule .module .click_thru a {
+    display:block;
+    width:300px;
+    height:70px;
+    }
+.gslive_schedule .module .click_thru a:hover {
+    text-decoration:none;
+    }
+#vh-countdown {
+    line-height:26px;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    font-size:12px;
+    height:26px;
+    }
+#vh-countdown span {
+    color:#fff600;
+    margin-left:8px;
+    }
+.gslive_schedule .module #vh-countdown a {
+    color:#fff600;
+    font-size:14px;
+    }
+.gslive_schedule .module table {
+    width:300px;
+    }
+
+/* HOTSPOT */
+.gslive_schedule .module table #hotspot td.next_show a {
+    color:#ffea00;
+    }
+
+/* TTV */
+.gslive_schedule .module table #ttv td.next_show a,
+.gslive_schedule .module .featured#ttv #vh-countdown span {
+    color:#e00005;
+    }
+.gslive_schedule .module table #ttv strong,
+.gslive_schedule .module table #ttv td {
+    color:#474747;
+    }
+
+/* BUTTON MASHING */
+.gslive_schedule .module table #bm td.next_show a {
+    color:#ff0;
+    }
+
+/* BTG - behind the games */
+.gslive_schedule .module table #btg td.next_show a {
+    color:#ff0;
+    }
+
+    
+/*********************************************                              
+UPDATE PROTEUS.CSS please
+When you add a new image for an uberpop event, 
+don't forget to update proteus.css too.
+**********************************************/
+
+ .gslive_schedule .module table #madden_info td.next_show a,
+ .gslive_schedule .module .featured#madden #vh-countdown span {
+    color:#72d300;
+    }
+
+.gslive_schedule .module table .featured td {
+    height:42px;
+    background-position:top;
+    }
+.gslive_schedule .module table .featured td.next_show {
+    padding-left:10px;
+    background-position: bottom left;
+    }
+.gslive_schedule .module table .featured td.remind {
+    background-position:bottom right;
+    }
+.gslive_schedule .module table tr {
+    background:#3b3b3b;
+    }
+.gslive_schedule .module table tr.alt {
+    background:#272727;
+    }
+.gslive_schedule .module table td {
+    height:57px;
+    }
+.gslive_schedule .module table strong {
+    color:#9a9a9a;
+    }
+.gslive_schedule .module table .date {
+    width:1%;
+    padding:0 5px;
+    background:#2c2c2c;
+    text-align:center;
+    }
+.gslive_schedule .module table .alt .date {
+    background:#1d1d1d;
+    }
+.gslive_schedule .module table .date {
+    background:#2c2c2c;
+    }
+.gslive_schedule .module table .show {
+    padding-left:10px;
+    }
+.gslive_schedule .module table .show a {
+    color:#fff;
+    }
+.gslive_schedule .module table .remind {
+    width:70px;
+    padding:0 5px;
+    }
+
+.vh-schedule-on {width:57px;height:8px;background:url(remind-m.gif);display:block;font-size:0;margin-top:3px;}
+.vh-schedule-off {width:69px;height:8px;background:url(remind-m.gif);display:block;font-size:0;margin-top:3px;}
+
+#ttv .vh-schedule-on {width:57px;height:8px;background:url(ttv_remi.gif);display:block;font-size:0;margin-top:3px;}
+#ttv .vh-schedule-off {width:69px;height:8px;background:url(ttv_remi.gif);display:block;font-size:0;margin-top:3px;}
+
+/* THE PULSE
+*********************************/
+.pulseimage {
+padding:0;
+float:left;
+margin:auto;
+margin-right:5px;
+clear:left;
+background:#2f3646;
+}
+
+.pulseimage_ui {
+float:left;
+margin:auto;
+margin-right:5px;
+clear:left;
+background:#2f3646;
+height:90px;
+}
+
+.pulseintro {
+background:#3f4a59;
+padding:10px 10px 20px 10px;
+font-weight:bold;
+}
+
+/* CNE NEWS MODULE
+*********************************/
+#news-nav {
+width:302px;
+height:36px;
+background:#101010;
+padding:0;
+border-bottom:1px solid #696e74;
+float:left;
+}
+
+#news-nav li {
+float:left;
+text-align:center;
+padding-top:15px;
+}
+
+#news-nav a {
+margin-right:10px;
+margin-left:10px;
+color:#ff9900;
+font-weight:bold;
+font-size:11px;
+}
+
+#news-nav .on {
+background:url(news-mod.gif);
+width:92px;
+height:21px;
+color:#ffffff;
+font-weight:bold;
+border-bottom:1px solid #222222;
+float:left;
+display:inline;
+}
+
+#news-nav .on a{
+color:#ffffff;
+font-weight:bold;
+font-size:11px;
+}
+
+#moreMP3 a {
+color:#fff;
+}
+
+#moreMP3 a:hover {
+color:#fff;
+}
+
+#moreTV a {
+color:#fff;
+}
+
+#moreTV a:hover {
+color:#fff;
+}
+
+/* EDITORS CHOICE PAGE
+*********************************/
+#choicetitle {
+width:570px;
+height:133px;
+background:url(title000.jpg) no-repeat;
+}
+
+/* REVIEW AND WIN
+*********************************/
+#reviewandwin_module .header {
+width:433px;
+height:86px;
+}
+
+#reviewandwin_bg {
+background:url(module-b.gif) repeat-y;
+width:433px;
+}
+
+#reviewandwin_bottom {
+background:url(module-b.gif) no-repeat;
+width:433px;
+height:11px;
+margin-bottom:10px;
+}
+
+#reviewandwin_checkbox {
+clear:both;
+background:url(checkbg0.gif) no-repeat;
+width:438px;
+height:47px;
+margin:10px 3px 10px 0;
+}
+
+/* OLD SITE FIX
+*********************************/
+#maincolumn {
+clear:both;
+}
+
+/* READABILITY
+*********************************/
+#profile #content_wrap p,
+#main_col .blog_post,
+#show_messages .table .message_col .message p,
+#show_messages .table .message_col,
+#story p,
+#communityreviews_module p {
+font:10pt/1.3em Arial, Helvetica, sans-serif;
+}
+
+/* TECH
+*********************************/
+.datatable {
+font-size:12px;
+}
+
+.perfchart {
+background:#767676;
+color:#fff;
+text-align:left;
+padding:0px !important;
+margin:10px 0 0;
+clear:left;
+float:left;
+}
+
+#feature .perfchart {
+width:572px;
+}
+
+#feature .perfchart .bars2 {
+width:552px;
+}
+
+#col_wrap .perfchart {
+width:432px;
+}
+
+#col_wrap .perfchart .bars2 {
+width:412px;
+}
+
+#sky_col_wrap .perfchart {
+width:572px;
+}
+
+#sky_col_wrap .perfchart .bars2 {
+width:552px;
+}
+
+#full_col_wrap .perfchart {
+width:746px;
+}
+
+#full_col_wrap .perfchart .bars2 {
+width:726px;
+}
+
+.perfchart div.graphtitle {
+padding:5px 10px;
+}
+
+.perfchart div.graphtitle h3 {
+font-size:16px;
+margin:0;
+padding:0;
+}
+
+.perfchart div.graphtitle p {
+font-size:10px;
+margin:0;
+}
+
+.perfchart .legend {
+clear:both;
+float:left;
+font-size:10px;
+padding:0 10px 5px 10px;
+margin:0;
+}
+
+.perfchart .legend .a1 {
+margin:0px 5px;
+float:left;
+}
+
+.perfchart .legend .testname{
+background:none;
+display:inline;
+float:left;
+width:auto;
+height:auto;
+white-space:nowrap;
+}
+
+.perfchart .legend .test1,
+.perfchart .legend .test2,
+.perfchart .legend .test3,
+.perfchart .legend .test4,
+.perfchart .legend .test5,
+.perfchart .legend .test6,
+.perfchart .legend .test7,
+.perfchart .legend .test8,
+.perfchart .legend .test9,
+.perfchart .legend .test10,
+.perfchart .legend .test11,
+.perfchart .legend .test12,
+.perfchart .legend .test13,
+.perfchart .legend .test14,
+.perfchart .legend .test15,
+.perfchart .legend .test16,
+.perfchart .legend .test17,
+.perfchart .legend .test18,
+.perfchart .legend .test19,
+.perfchart .legend .test20 {
+background:#c00;
+display:block;
+float:left;
+height:10px;
+width:10px;
+margin-top:2px;
+}
+
+.perfchart .legend .test1,
+.perfchart .legend .test3,
+.perfchart .legend .test5,
+.perfchart .legend .test7,
+.perfchart .legend .test9,
+.perfchart .legend .test11,
+.perfchart .legend .test13,
+.perfchart .legend .test15,
+.perfchart .legend .test17,
+.perfchart .legend .test19 {
+background: #c00;
+}
+
+.perfchart .legend .test2,
+.perfchart .legend .test4,
+.perfchart .legend .test6,
+.perfchart .legend .test8,
+.perfchart .legend .test10,
+.perfchart .legend .test12,
+.perfchart .legend .test14,
+.perfchart .legend .test16,
+.perfchart .legend .test18,
+.perfchart .legend .test20 {
+background: #f00;
+}
+
+.perfchart .bars {
+color:#333;
+background:#fff;
+border:1px solid #c8c8c8;
+border-top:0px;
+margin:0;padding:0;
+width:auto;
+float:none;
+clear:both;
+}
+
+.perfchart .bars2 {
+background:none;
+width:542px;
+padding:10px !important;
+margin:0;
+float:none;
+}
+
+.perfchart .bars2 h4,
+#content_wrap .perfchart .bars h4 {
+margin:0;
+padding:0;
+}
+
+#feature .perfchart .bars h4,
+#col_wrap .perfchart .bars h4,
+#sky_col_wrap .perfchart .bars h4,
+#full_col_wrap .perfchart .bars h4,
+.perfchart .bars h4,
+#content_wrap .perfchart .bars h4 {
+font-size:14px;
+font-weight:bold;
+background:transparent;
+margin:0 0 5px 0;
+padding:0;
+}
+
+.perfchart .bars2 div {
+font-weight:bold;
+line-height:13px;
+text-align:right;
+margin:6px 0 0;padding:0;
+float:none;
+clear:both;
+}
+
+.perfchart .bars2 div div.label{
+margin:0;padding:2px 8px;
+width:auto;
+border:1px solid #5e5e5e;
+}
+
+.perfchart .bars2 div.barname {
+font-size:11px;
+font-weight:bold;
+line-height:13px;
+padding:0;
+margin-bottom:6px;
+text-align:left;
+}
+
+.perfchart .bars2 div {
+padding-left:0;
+padding-right:0;
+}
+
+.perfchart .bars2 .b1,
+.perfchart .bars2 .b3,
+.perfchart .bars2 .b5,
+.perfchart .bars2 .b7,
+.perfchart .bars2 .b9,
+.perfchart .bars2 .b11,
+.perfchart .bars2 .b13,
+.perfchart .bars2 .b15,
+.perfchart .bars2 .b17,
+.perfchart .bars2 .b19 {
+background:#c00;
+color:#fff;
+}
+
+.perfchart .bars2 .b2,
+.perfchart .bars2 .b4,
+.perfchart .bars2 .b6,
+.perfchart .bars2 .b8,
+.perfchart .bars2 .b10,
+.perfchart .bars2 .b12,
+.perfchart .bars2 .b14,
+.perfchart .bars2 .b16,
+.perfchart .bars2 .b18,
+.perfchart .bars2 .b20 {
+background:#f00;
+color:#fff;
+
+}
+
+/* IMAGE GALLERY
+*******************************/
+
+/* basic layout */
+#images .user_images#content_wrap #sky_col_wrap {
+    background-image:none;
+    }
+#images .user_images#content_wrap #sky_col_wrap #main_col_wrap {
+    width:574px;
+    }
+#images .user_images#content_wrap #sky_col_wrap #main_col {
+    padding: 0 0 7px 15px;
+    }
+#images .user_images#content_wrap #sky_col_wrap #side_col_wrap {
+    width:186px;
+    padding:0 0 20px 0;
+    background:none;
+    }
+#images .user_images#content_wrap #sky_col_wrap #side_col {
+    padding:0 0 0 1px;
+    margin:0 auto;
+    width:185px;
+    }
+
+/* subnav */
+#images .user_images#content_wrap #subnav_wrap {
+    width:574px;
+    padding:0;
+    position:relative;
+    }
+#images .user_images#content_wrap .breadcrumb a {
+    font-weight:normal;
+    color:#fff;
+    }
+#images .user_images#content_wrap .breadcrumb .on {
+    color:#fc3;
+    }
+
+/* initial view */
+.album_image_wrap {
+    width:252px;
+    margin: 10px 0 30px;
+    }
+.album_image {
+    border:1px solid #b3b3b3;
+    }
+.album_image img {
+    width:240px;
+    height:180px;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-position:center;
+    }
+a:hover.album_image {
+    border:1px solid #999;
+    }
+
+/* image toolbar */
+#images .user_images#content_wrap #sky_col_wrap .image_toolbar .icon {
+    font:10px/21px Arial;
+    background-repeat:no-repeat;
+    background-position:top left;
+    margin:0 17px 15px 0;
+    padding-left:22px;
+    float:left;
+    }
+.image_toolbar .share {
+    background-image:url(icon_sha.gif);
+    padding-left:25px;
+    }
+.image_toolbar .print {
+    background-image:url(icon_pri.gif);
+    }
+.image_toolbar .email {
+    background-image:url(icon_ema.gif);
+    }
+.image_toolbar .comment {
+    background-image:url(icon_com.gif);
+    }
+.image_toolbar .tag {
+    background-image:url(icon_tag.gif);
+    }
+.image_toolbar .moderate {
+    background-image:url(icon_mod.gif);
+    }
+
+/* comments */
+.user_images#content_wrap #sky_col_wrap #main_col .module_head {
+    width:517px;
+    margin-bottom:-2px;
+    }
+#images .user_images#content_wrap #post_blog_comment .form {
+    border:1px solid #737d8c;
+    }
+#images .user_images#content_wrap #sky_col_wrap .box,
+#images .user_images#content_wrap #blogit {
+    width:515px;
+    }
+#images .user_images#content_wrap #post_blog_comment .form {
+    width:auto;
+    }
+#images #pc .user_image_info_wrap {
+    background:#263A52;
+    }
+#images #pc .user_images#content_wrap .b1s999,
+#images #pc .user_images#content_wrap #post_blog_comment .form,
+#images #pc .user_image_info_wrap {
+    border-color:#537592;
+    }
+#images #xbox .user_image_info_wrap {
+    background:#2E3727;
+    }
+#images #xbox .user_images#content_wrap .b1s999,
+#images #xbox .user_images#content_wrap #post_blog_comment .form,
+#images #xbox .user_image_info_wrap {
+    border-color:#5e7c3f;
+    }
+#images #nintendo .user_image_info_wrap {
+    background:#312e3b;
+    }
+#images #nintendo .user_images#content_wrap .b1s999,
+#images #nintendo .user_images#content_wrap #post_blog_comment .form,
+#images #nintendo .user_image_info_wrap {
+    border-color:#5c566f;
+    }
+#images #playstation .user_image_info_wrap {
+    background:#242743;
+    }
+#images #playstation .user_images#content_wrap .b1s999,
+#images #playstation .user_images#content_wrap #post_blog_comment .form,
+#images #playstation .user_image_info_wrap {
+    border-color:#4a6384;
+    }
+#images .user_images#content_wrap #generic_comments {
+    width:517px;
+    padding-top:30px;
+    margin:0;
+    }
+
+/* share table */
+#images .user_images#content_wrap #blogit {
+    background:none;
+    }
+#images .user_images#content_wrap #blogit table {
+    border-collapse:separate;
+    }
+#images #blogit .dimensions td {
+    border:1px solid #737d8c;
+    background:#fff;
+    color:#333;
+    text-align:center;
+    }
+#images #sky_col_wrap #blogit .dimensions td a {
+    color:#333;
+    font-weight:normal;
+    padding:5px;
+    display:block;
+    }
+#images #sky_col_wrap #blogit .dimensions td a.on {
+    background:#ccc;
+    }
+#images #blogit .dimensions .size {
+    background:#666;
+    color:#fff;
+    }
+#images .user_images#content_wrap #blogit input {
+    width:315px;
+    height:17px;
+    border:1px solid #d3d3d3;
+    line-height:17px;
+    margin-bottom:15px;
+    }
+
+/* side col album set */
+#images .user_images#content_wrap .album_set_name {
+    background:#56606d url(module_a.gif) no-repeat bottom left;
+    width:189px;
+    margin-bottom:17px;
+    }
+#images .user_images#content_wrap .album_set_name .head {
+    background:url(module_h.gif) no-repeat top left;
+    padding:6px 0 0;
+    }
+#images .user_images#content_wrap .album_set_name .body {
+    width:175px;
+    padding:3px 7px;
+    background:#56606d;
+    }
+#images .title_head {
+    background:url(module_h.gif) no-repeat bottom;
+    width:175px;
+    height:5px;
+    font-size:1px;
+    }
+#images .title_body {
+    background:#727982 url(module_a.gif) no-repeat bottom;
+    width:175px;
+    line-height:18px;
+    }
+#images .user_images#content_wrap .album_set_name .arrow {
+    background:url(dbl_arro.gif) no-repeat top left;
+    color:#6d7177;
+    font-size:1px;
+    float:left;
+    margin:1px 7px 0 9px;
+    width:18px;
+    height:17px;
+    }
+#images .user_images#content_wrap .album_set_name .arrow.down {
+    background-image:url(dbl_arro.gif);
+    }
+
+/* pc */
+#images #pc .user_images#content_wrap .album_set_name {
+    background:url(module_a.gif) no-repeat bottom left;
+    }
+#images #pc .user_images#content_wrap .album_set_name .head {
+    background:url(module_h.gif) no-repeat top left;
+    }
+#images #pc .user_images#content_wrap .album_set_name .body {
+    background:none;
+    }
+#images #pc .title_head {
+    background:url(module_h.gif) no-repeat bottom;
+    }
+#images #pc .title_body {
+    background:url(module_a.gif) no-repeat bottom;
+    }
+#images #pc .user_images#content_wrap .album_set_name .arrow {
+    background:url(dbl_arro.gif) no-repeat top left;
+    }
+#images #pc .user_images#content_wrap .album_set_name .arrow.down {
+    background-image:url(dbl_arro.gif);
+    }
+
+/* xbox */
+#images #xbox .user_images#content_wrap .album_set_name {
+    background:url(module_a.gif) no-repeat bottom left;
+    }
+#images #xbox .user_images#content_wrap .album_set_name .head {
+    background:#37422D url(module_h.gif) no-repeat top left;
+    }
+#images #xbox .user_images#content_wrap .album_set_name .body {
+    background:none;
+    }
+#images #xbox .title_head {
+    background:url(module_h.gif) no-repeat bottom;
+    }
+#images #xbox .title_body {
+    background:#452 url(module_t.gif) no-repeat bottom;
+    }
+#images #xbox .user_images#content_wrap .album_set_name .arrow {
+    background:url(dbl_arro.gif) no-repeat top left;
+    }
+#images #xbox .user_images#content_wrap .album_set_name .arrow.down {
+    background-image:url(dbl_arro.gif);
+    }
+
+/* playstation */
+#images #playstation .user_images#content_wrap .album_set_name {
+    background:url(module_a.gif) no-repeat bottom left;
+    }
+#images #playstation .user_images#content_wrap .album_set_name .head {
+    background:url(module_h.gif) no-repeat top left;
+    }
+#images #playstation .user_images#content_wrap .album_set_name .body {
+    background:none;
+    }
+#images #playstation .title_head {
+    background:url(module_h.gif) no-repeat bottom;
+    }
+#images #playstation .title_body {
+    background:#374c67 url(module_t.gif) no-repeat bottom;
+    }
+#images #playstation .user_images#content_wrap .album_set_name .arrow {
+    background:url(dbl_arro.gif) no-repeat top left;
+    }
+#images #playstation .user_images#content_wrap .album_set_name .arrow.down {
+    background-image:url(dbl_arro.gif);
+    }
+
+/* nintendo */
+#images #nintendo .user_images#content_wrap .album_set_name {
+    background:url(module_a.gif) no-repeat bottom left;
+    }
+#images #nintendo .user_images#content_wrap .album_set_name .head {
+    background:url(module_h.gif) no-repeat top left;
+    }
+#images #nintendo .user_images#content_wrap .album_set_name .body {
+    background:none;
+    }
+#images #nintendo .title_head {
+    background:url(module_h.gif) no-repeat bottom;
+    }
+#images #nintendo .title_body {
+    background:#4e495e url(module_t.gif) no-repeat bottom;
+    }
+#images #nintendo .user_images#content_wrap .album_set_name .arrow {
+    background:url(dbl_arro.gif) no-repeat top left;
+    }
+#images #nintendo .user_images#content_wrap .album_set_name .arrow.down {
+    background-image:url(dbl_arro.gif);
+    }
+
+
+/* image upload */
+#files_list {
+    width:235px;
+    }
+#files_list div {
+    padding:3px;
+    position:relative;
+    border-bottom:1px solid #999;
+    }
+#files_list div div {
+    padding:0;
+    width:200px;
+    overflow:hidden;
+    border:0;
+    }
+#files_list input {
+    position:absolute;
+    top:3px;
+    right:3px;
+}
+
+/* album view */
+#images .album_highlight img {
+    margin-bottom:35px;
+    }
+#images .all_images {
+    overflow:auto;
+    }
+#images .all_images li {
+    margin:15px 21px 0 0;
+    }
+#images .all_images img {
+    width:80px;
+    height:80px;
+    padding:4px;
+    }
+#images .all_images .end_row,
+#images .latest_albums .end_row,
+#images .all_albums .end_row {
+    margin-right:0px;
+    }
+#images .latest_albums li {
+    margin:0 25px 0 20px;
+    display:inline;
+    overflow:hidden;
+    }
+#images .latest_albums img,
+#images .all_albums img {
+    background:url(bg_album.gif) no-repeat;
+    padding:6px 10px 10px 6px;
+    }
+#images .all_albums {
+    margin-left:-50px;
+    margin-bottom:20px;
+    float:left;
+    overflow:hidden;
+    display:inline;
+    }
+#images .all_albums li {
+    height:190px;
+    margin-left:50px;
+    width:96px;
+    display:inline;
+    }
+
+/* view image */
+#images .view_image#content_wrap #sky_col_wrap #main_col_wrap {
+    width:535px;
+    }
+#images .view_image#content_wrap #sky_col_wrap #side_col_wrap {
+    width:225px;
+    }
+#images .view_image#content_wrap #sky_col_wrap #side_col {
+    width:189px;
+    padding:0;
+    margin:0 auto;
+    }
+#form_create_album {
+    position:absolute;
+    top:35px;
+    right:0;
+    width:165px;
+    padding:3px 12px;
+    text-align:left;
+    background:#2C333E;
+    border:1px solid #737D8C;
+    }
+#form_create_album #album_name {
+    width:140px;
+        margin:0 5px 0 0;
+        padding:0;
+        border:1px solid #ccc;
+    }
+#images .user_image_info_wrap {
+    background:#2c333e;
+    border:1px solid #737d8c;
+    margin-top:30px;
+    width:506px;
+    }
+
+/* gamespace */
+#gamespace #images #content_wrap.user_images #subnav_wrap {
+    width:100%;
+    height:55px;
+    }
+#images #user_images .item,
+#images #user_images .item {
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow:hidden;
+    display:inline;
+    width:120px;
+    height:90px;
+    }
+#images #full_col_wrap #user_images .item {
+    margin:0 13px 15px;
+    }
+#images #sky_col_wrap #user_images .item {
+    margin:0 10px 15px;
+    }
+
+#images .user_images#content_wrap #user_uploads #subnav_wrap {
+    background:#fff;
+    }
+#images .user_images#content_wrap #user_uploads #subnav_wrap .breadcrumb a {
+    color:#333;
+    }
+#images .user_images#content_wrap #user_uploads #subnav_wrap .breadcrumb .on {
+    color:#c30;
+    }
+
+
+/* SCAVENGER HUNT
+*******************************/
+#scavenger_outer_wrap {
+    left:-16px;
+    position: absolute;
+    width: 100%;
+    z-index:5;
+    }
+#scavenger_inner_wrap {
+    position:fixed;
+    _position:relative;
+    height:128px;
+    margin:0 auto;
+    width:793px;
+    z-index:4;
+    }
+/* change the next 2 things for each new skin */
+#scavenger_inner_wrap, 
+#scavenger_inner_wrap .corner {
+    background:url(scavenat.gif) no-repeat;
+    }
+.au #scavenger_inner_wrap,
+.au #scavenger_inner_wrap .corner {
+    background:url(scavenat.gif) no-repeat;
+    }
+    
+#scavenger_title {
+    background:none;
+    width:442px;
+    height:100px;
+    float:left;
+    overflow:hidden;
+    }
+#scavenger_title .click-thru {
+    display:block;
+    height:100px;
+    }
+.scavenger_text {
+    position:absolute;
+    top:2px;
+    font:bold 12px Tahoma, Verdana, sans-serif;
+    color:#ff3;
+    z-index:6;
+    }
+.scavenger_text#scavenger_timer {
+    right:240px;
+    }
+.scavenger_text#scavenger_items {
+    right:165px;
+    }
+.scavenger_btn {
+    position:absolute;
+    top:3px;
+    width:63px;
+    height:15px;
+    font:bold 10px/15px Tahoma, Arial, sans-serif;
+    text-align: center;
+    }
+.scavenger_btn#home {
+    color:#666;
+   right:76px;
+    }
+.scavenger_btn#quit {
+    color:#c00;
+    right:8px;
+    }
+.scavenger_bin {
+    float: right;
+    margin: 40px 13px 0 0;
+    padding-left:1px;
+    width:315px;
+    height:55px;
+    display:inline;
+    position:relative;
+    }
+.scavenger_bin #arrow {
+    width:5px;
+    height:9px;
+    background-repeat:no-repeat;
+    background-position:top left;
+    font:1px/1px Arial;
+    position:absolute;
+    top:24px;
+    }
+.scavenger_bin a#arrow:hover {
+    text-decoration:none;
+    background-position:bottom left;
+    }
+.scavenger_bin .left#arrow {
+    background-image:url(arrow-le.gif);
+    left:0;
+    }
+.scavenger_bin .right {
+    background-image:url(arrow-ri.gif);
+    right:0;
+    }
+.scavenger_bin .left.off,
+.scavenger_bin .right.off {
+    background-position:top left;
+    }
+.scavenger_bin img {
+    margin:1px 0 0 8px;
+    float:left;
+    }
+.scavenger_bin_itemfound {
+    }
+.scavenger_bin_highlight {
+    background-color:#d4d4d4;
+    opacity:0.7;
+    }
+#scavenger_hint {
+    float:left;
+    font:bold 12px/17px Arial, Helvetica, sans-serif;
+    height:17px;
+    width:700px;
+    display:inline;
+    margin:5px 0 0 5px;
+    padding-left:42px;
+    background:url(hint-off.gif) no-repeat left;
+    }
+#scavenger_hint a {
+    color:#ff3;
+    }
+#scavenger_icon_wrap {
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+    }
+#scavenger_icon {
+    border: 2px solid #333;
+    position:absolute;
+    display: none;
+    z-index: 2;
+    }
+#scavenger_modal {
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    width: 300px;
+    height: 150px;
+    z-index: 5001;
+    background-color: #222;
+    border: #ddd solid 1px;
+    color: #ccc;
+    padding: 8px;
+    text-align: center;
+    opacity: 1;
+    }
+#scavenger_inner_wrap .corner {
+    background-position:bottom left;
+    bottom:-19px;
+    height:19px;
+    left:0;
+    position:absolute;
+    width:21px;
+    }
+#scavenger_inner_wrap .corner.b {
+    background-position:bottom right;
+    left:772px;
+    }
+#scavenger_offset {
+    height:95px;
+    }
+    
+/* THE PULSE EVENT TICKER
+*******************************/
+
+#event_ticker{position:relative;width:760px;z-index:1999999999;}
+
+/* html body {background-attachment: fixed;}*/
+* html #event_ticker{position: absolute;top: expression(document.body.scrollTop + "px");left:0; }
+
+/*#event_ticker #tick_box {position:relative;top:0;left:0;}*/
+#event_ticker a{position:relative;overflow:hidden;height:0;padding-top:15px;width:54px;display:block;}
+#dock_btn, #undock_btn, #hide_btn {position:relative;}
+#dock_btn a.dock, #undock_btn a.dock {background:url(docking_.jpg) no-repeat top left;}
+#undock_btn a.dock {background-position:0 -15px;}
+#hide_btn a.close {background:url(close_bt.jpg) no-repeat;}
+
+/* NAV with E3
+*****************************
+#global_nav .console_nav a b {padding:8px 8px 11px 0;}
+#global_nav .hub_nav b {padding:11px 4px 11px 7px;}
+
+#hotslot_nav #global_nav li.e_three a, #global_nav li.e_three a{background-image:url(http://image.com.com/gamespot/shared/gs5/special_events/e32007/nav_global_e3_divided.jpg);}
+#hotslot_nav #global_nav li.e_three a:hover,#global_nav li.e_three a:hover {background-position:bottom left;}
+#hotslot_nav #global_nav li.e_three a b,#global_nav li.e_three a b{padding-right:8px;width:13px;visibility:hidden;}
+#hotslot_nav #global_nav a b{padding:11px 9px;text-align:center;width:38px;}
+#hotslot_nav #global_nav .console_nav a b{padding:8px 8px 11px 0;width:20px;}
+*/
+
+/* NAV with TGS
+*****************************
+
+#global_nav .console_nav a b {padding:8px 8px 11px 0;}
+#global_nav .hub_nav b {padding:11px 4px 11px 7px;}
+#global_nav a b {padding:11px 4px 11px 7px;}
+#global_nav .hub_nav .first b {padding:11px 4px;}
+
+#hotslot_nav #global_nav li.tgs a, #global_nav li.tgs a{background-image:url(http://image.com.com/gamespot/shared/gs5/special_events/tgs07/nav_global_tgs.jpg);}
+#hotslot_nav #global_nav li.tgs a:hover,#global_nav li.tgs a:hover {background-position:bottom left;}
+#hotslot_nav #global_nav li.tgs a b,#global_nav li.tgs a b{height:33px;width:42px;padding:0;visibility:hidden;}
+#hotslot_nav #global_nav a b{padding:11px 4px 11px 7px;text-align:center;width:35px;}
+#hotslot_nav #global_nav .console_nav a b{padding:8px 8px 11px 0;width:20px;}
+#hotslot_nav #global_nav .console_nav .last a {padding:0 6px 0 0;}
+*/
+
+/* E3 COUNTDOWN
+*****************************/
+#ms_countdown_box, #nintendo_countdown_box, #sony_countdown_box {
+width:302px;
+height:78px;
+background:url(e3_count.gif) no-repeat scroll;
+}
+
+#nintendo_countdown_box {background:url(e3_count.gif) no-repeat scroll;}
+#sony_countdown_box {background:url(e3_count.gif) no-repeat scroll;}
+
+#ms_countdown_box .remind, #nintendo_countdown_box .remind, #sony_countdown_box .remind {padding:7px 8px 0 0;}
+
+#ms_countdown, #nintendo_countdown, #sony_countdown {
+font-size:12px;
+font-weight:bold;
+height:26px;
+float:left;
+}
+
+#ms_countdown span {color:#75a785;}
+#nintendo_countdown span {color:#76a4c3;}
+#sony_countdown span {color:#ec9038;}
+
+#ms_countdown_box .live, #nintendo_countdown_box .live, #sony_countdown_box .live {font-weight:bold; float:right;}
+
+#ms_countdown_box .live{color:#75a785;}
+#nintendo_countdown_box .live{color:#76a4c3;}
+#sony_countdown_box .live{color:#ec9038;}
+
+#ms_countdown_box .start_date, #nintendo_countdown_box .start_date, #sony_countdown_box .start_date {
+font-weight:bold;
+text-align:right;
+font-size:11px;
+padding:1px 8px 5px;
+color:#fff;
+}
+
+#ms_countdown, #nintendo_countdown, #sony_countdown {
+color:#fff;
+}
+
+.ms-remind-on,.nin-remind-on, .sny-remind-on, .ms-remind-off,.nin-remind-off, .sny-remind-off {
+width:137px;
+height:27px;
+display:block;
+float:right;
+}
+
+.ms-remind-on {background:url(ms_remin.gif) no-repeat scroll;}
+.nin-remind-on {background:url(nin_remi.gif) no-repeat scroll;}
+.sny-remind-on {background:url(sny_remi.gif) no-repeat scroll;}
+
+.ms-remind-off {background:url(ms_remin.gif) no-repeat scroll;}
+.nin-remind-off {background:url(nin_remi.gif) no-repeat scroll;}
+.sny-remind-off {background:url(sny_remi.gif) no-repeat scroll;}
+
+/*****************************************
+    HI-RES STREAM DOWNLOAD
+*****************************************/
+
+.ms_header, .nin_header, .sny_header {
+    background:url(ms_downl.gif) no-repeat;
+    height:60px;
+    width:302px;
+    }
+
+.nin_header {background:url(nin_down.gif) no-repeat;}
+.sny_header {background:url(sny_down.gif) no-repeat;}
+
+.ms_body, .nin_body, .sny_body {
+    background:url(ms_downl.gif) repeat-y;
+    width:278px;
+    padding:9px 12px 2px;
+    position:relative;
+    }
+
+.nin_body {background:url(nin_down.gif);}
+.sny_body {background:url(sny_down.gif);}
+
+#side_col .ms_body .btn, #side_col .nin_body .btn, #side_col .sny_body .btn {
+    background:url(ms_e3_ge.gif) no-repeat;
+    color:#006666;
+    line-height:27px;
+    width:137px;
+    text-align:center;
+    padding-bottom:6px;
+    }
+
+#side_col .nin_body .btn {
+    background:url(btn_nint.gif) no-repeat;
+    color:#006699;
+    width:92px;
+    }
+#side_col .nin_body .btn span {
+    font-weight:normal;
+    }
+#side_col .nin_body .btn.center {
+    margin-left:1px;
+    }
+#side_col .sny_body .btn {
+    background:url(sny_e3_g.gif) no-repeat;
+    color:#7d2a00;
+    }
+
+#side_col .ms_body .btn a {color:#006666;}
+#side_col .nin_body .btn a {color:#006699;}
+#side_col .sny_body .btn a {color:#7d2a00;}
+
+#side_col .ms_body .btn.soon a, #side_col .nin_body .btn.soon a, #side_col .sny_body .btn.soon a {color:#999999;}
+
+#side_col .ms_body .btn.soon,
+#side_col .nin_body .btn.soon,
+#side_col .sny_body .btn.soon {
+    background:url(coming_s.gif) no-repeat;
+    color:#999;
+    }
+
+.ms_body .info_bar, .nin_body .info_bar, .sny_body .info_bar {
+    background:url(ms_descr.gif) no-repeat left top;
+    height:27px;
+    }
+
+.nin_body .info_bar {background:url(nin_desc.gif) no-repeat left top;}
+.sny_body .info_bar {background:url(sny_desc.gif) no-repeat left top;}
+
+.ms_footer, .nin_footer, .sny_footer {
+    background:url(ms_downl.gif) no-repeat;
+    height:12px;
+    width:302px;
+    }
+    
+.nin_footer {background:url(nin_down.gif) no-repeat;}
+.sny_footer {background:url(sny_down.gif) no-repeat;}
+
+/*****************************************
+    GAMESPACE WIKIA
+*****************************************/
+/* GLOBALS */
+#wiki .articles, #wiki #wiki_jump, #wiki #wiki_more_links {padding-bottom:10px;}
+
+/* WIKIA MODULE */
+#wikia_module p {margin:0; padding-bottom:10px;}
+#wikia_module .wikia_logo {background:url(wikia_lo.gif) no-repeat; display:inline; float:right; height:0px; margin:-29px 10px 0 0 ; padding-top:24px;overflow:hidden; width:56px;}
+
+/*HEADER*/
+#wiki #wiki_header {margin: 10px 0;}
+#wiki #wiki_header #text {padding-right:110px;}
+#wiki #wiki_header h2 {font-size: 16px;}
+#wiki #wiki_header .blurb {font-size: 11px; font-weight:bold;}
+#wiki #wiki_header .count {font-size:11px; font-style:italic;}
+
+/*SEARCH*/
+#wiki #wiki_search {height: 20px; padding: 9px 10px 21px; background: url(search_b.gif) no-repeat scroll;}
+#wiki #wiki_search form {display:block; float:left; height:20px;}
+#wiki #wiki_search input {border:none; height:20px; width:335px; margin:0; padding:0; float:left;}
+#wiki #wiki_search input.srchbtn {height:20px; width: 70px; float:right; margin:0; padding:0;  background: url(btn-sear.gif) no-repeat scroll;}
+
+/* JUMP LINKS */
+#wiki #wiki_jump {font-size: 11px; font-weight:bold; text-align:center;}
+
+/* FEATURED ARTICLES */
+#wiki .articles ul {margin-bottom:7px;}
+#wiki .articles ul li {padding:5px 10px;}
+#wiki .articles ul.featured li {padding:10px;}
+#wiki .articles li .content h2 {font-size:18px; padding-bottom: 5px;}
+#wiki .articles li .content p {margin:0; font-size:11px;}
+#wiki .articles li span {font-size:10px; color:#999; font-style:italic;}
+
+/* MORE LINKS */
+#wiki #wiki_more_links div.module {padding:15px 0;}
+#wiki #xbox #wiki_more_links .module {background:url(bottombg.gif) no-repeat scroll bottom;}
+#wiki #pc #wiki_more_links .module {background:url(bottombg.gif) no-repeat scroll bottom;}
+#wiki #playstation #wiki_more_links .module {background:url(bottombg.gif) no-repeat scroll bottom;}
+#wiki #nintendo #wiki_more_links .module {background:url(bottombg.gif) no-repeat scroll bottom;}
+
+
+/*****************************************
+    Search Results
+*****************************************/
+
+.search_results #full_col_wrap,
+.search_results #sky_col_wrap,
+.search_results #col_wrap {
+    border-top:0;
+    }
+.search_results #subnav2 {
+    width:100%; 
+    }
+.search_results .featured-details {
+    margin-left:125px;
+    }
+.error404 {
+    background:url(header_4.jpg) no-repeat;
+    color:#FFF;
+    clear:both;
+    font-size:12px;
+    height:152px;   
+    padding:0 20px 0 20px;  
+    }
+
+/*****************************************
+    Game Finder
+*****************************************/
+
+#search .game-finder #neck {
+    height:10px;
+    }
+.game-finder #main_col{
+    font-size:11px;
+    }
+.game-finder .module {
+    padding-top:7px;
+    }
+.game-finder fieldset {
+    border:0;
+    padding:0;
+    }
+.game-finder fieldset label {
+    float:left;
+    padding:0 0 5px;
+    width:139px;
+    }
+.game-finder fieldset input {
+    margin:0 5px 0 0;
+    padding:1px;
+    }
+.game-finder .platform label {
+    height:40px;
+    line-height:40px;
+    }
+.game-finder .platform input {
+    float:left;
+    margin-top:15px;
+    }
+.game-finder .platform img {
+    float:left;
+    margin:5px 7px 0 1px;
+    }
+.game-finder .attributes label {
+    width:160px;
+    }
+    
+/* CNET Survey */
+#sMessShell {
+    z-index:1000000 !important;
+    }

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* Stylesheet for Opera-generated messages*/
+/* Copyright 2008 Opera Software */
+@media tv {html {font-size: 150%;}}
+@media screen, projection, tv, speech {
+html {
+	font-family: sans-serif;
+	color: hsl(0,0%,22%);
+	background-color: hsl(0,0%,93%);
+	margin: 0 auto 10px;
+	border-width: 0 1px;
+	border-color: hsl(0,0%,57%);
+	border-style: solid;
+	max-width: 600px;
+	voice-family: female;
+}
+body {
+	color: inherit;
+	background-color: hsl(0,0%,96%);
+	margin: 0;
+}
+h1 {
+	font-family: sans-serif;	
+	font-size: 130%;
+	text-align: right;
+	letter-spacing: -1px;
+	color: hsl(0,0%,29%);
+	background-image: url(images/top.png);
+	background-repeat: repeat-x;
+	padding: 20px 10px 15px 5em;
+	margin: 0;
+	border-bottom: 1px solid hsl(0,0%,57%);
+	min-height: 25px;
+}
+html[dir="rtl"] h1 {
+	text-align: left;
+	letter-spacing: normal;
+	padding: 20px 5em 15px 10px;
+}
+a {
+	color: hsl(0,0%,29%);
+	background-color: transparent;
+	
+}
+a:hover {
+	color: black;
+	background: transparent;
+}
+p {
+	font-size: 83%;
+	-o-text-overflow: ellipsis;
+	margin: 20px 10px;
+	overflow: hidden;
+	display: block;
+}
+address {
+	font-size: 70%;
+	font-style: normal;
+	background-color: hsl(0,0%,98%);
+	background-image: url(images/center.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding: 3px 3px 5px;
+	border-top: 1px solid hsl(0,0%,57%);
+}}
+@media screen and (max-width: 350px), projection and (max-width: 350px), tv and (max-width: 350px) {
+	h1 {
+		text-align: center;
+		background-position: 0 -2px;
+		padding: 20px 10px 7px;
+		min-height: 0;
+	}
+}
+@media screen and (max-width: 300px), projection and (max-width: 300px), tv and (max-width: 300px) {
+	h1 {
+		font-size: 100%;
+		padding: 15px 5px 7px;
+	}
+}
+@media screen and (max-width: 250px), projection and (max-width: 250px), tv and (max-width: 250px) {
+	h1 {font-size: 83%;}
+}
+@media all and (min-width: 1025px) {html {max-width: 700px;}}
+@media all and (min-width: 1281px) {html {max-width: 800px;}}
+@media all and (min-width: 1601px) {html {max-width: 900px;}}
+@media print {
+	* {border: none;}
+	h1 {
+		font-size: 13pt;
+		font-weight: bold;
+		page-break-before: avoid;
+		page-break-after: avoid;
+	}
+}
+

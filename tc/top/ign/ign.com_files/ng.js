@@ -1,0 +1,1 @@
+document.write('<!-- TYPE=transparentpixel -->\n<!-- SIZE  -->\n<!-- STYLE=html -->\n<img src=\"ign.com_files/1x1transparent.gif\" border=\"0\" style=\"position: absolute; visibility: hidden;\"><img width=1 src=\"ign.com_files/1x1transparent.png\" height=1 border=0 style=\"position: absolute; visibility: hidden;\">');

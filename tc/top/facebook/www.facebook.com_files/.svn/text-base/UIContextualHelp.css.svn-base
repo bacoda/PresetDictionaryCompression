@@ -1,0 +1,28 @@
+/*       Source:  Local Cache                                                                 */
+/*     Location:  rsrc:121073:nu_ll:/html/css/UIContextualHelp.css                            */
+/*      Machine:  10.16.140.105                                                               */
+/*    Generated:  September 13th 2008 1:22:04 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.UIRooster_Container{padding:10px 0px 10px 0px;margin:0px;}
+.UIRooster_Content{background:#fff8cc;border-bottom:1px solid #ebae7f;padding-top:11px;padding-left:15px;padding-bottom:10px;padding-right:15px;color:#444;line-height:14px;}
+.UIRooster_Title{color:#444;font-size:11px;font-weight:bold;padding-bottom:5px;}
+.UIRooster_Close{float:right;font-weight:normal;}
+.UIRooster_ContextualHelp{padding-top:15px;padding-bottom:25px;}
+.UIContextualFlag_Container{position:absolute;margin:0px;z-index:0;}
+.UIContextualFlag_SideArrow{display:none;}
+.UIContextualFlag_HasSideArrow .UIContextualFlag_SideArrow{display:block;background:transparent url(UIContextualFlag_RoosterArrowVertical.gif) 0px 0px no-repeat;width:5px;height:19px;padding:0px;margin:0px;float:left;}
+.UIContextualFlag_Main{height:19px;background:#fff8cc;border-bottom:1px solid #ebae7f;float:left;}
+.UIContextualFlag_HasSideArrow .UIContextualFlag_Main{border-bottom:0px;margin-left:5px;float:none;}
+.ie6 .UIContextualFlag_HasSideArrow .UIContextualFlag_Main{margin:0;float:left;}
+.UIContextualFlag_Hide{background-image:url(x_to_hide_gray.gif);display:block;height:12px;width:10px;margin:2px 0px 0px 4px;}
+a.UIContextualFlag_Hide:hover{background-image:url(x_to_hide_dark_blue.gif);}
+.UIContextualFlag_Title{display:block;white-space:nowrap;padding:3px 13px 0px 8px;margin-right:7px;font-weight:bold;background:transparent url(see_more_down.gif) right 8px no-repeat;}
+.UIContextualFlag_Arrow{margin:-1px 0px 0px 0px;padding:0px;display:inline;background:transparent url(UIContextualFlag_RoosterArrow.gif) 0px 0px no-repeat;height:5px;float:left;clear:left;width:7px;}
+.UIContextualFlag_HasSideArrow .UIContextualFlag_Arrow{display:none;}
+#dropmenu_container .UIContextualFlag_Description{background:#fffbe5;position:absolute;width:200px;padding:8px 10px;margin:0px;line-height:14px;border-bottom:1px solid #f5d6bf;}
+.UIContextualFlag_ShowDescription .UIContextualFlag_Arrow{display:none;}
+.UIContextualFlag_ShowDescription .UIContextualFlag_Main{border-bottom-color:#fffbe5;background:#fffbe5;}
+.UIContextualFlag_TempContainer{height:0px;width:0px;position:absolute;overflow:hidden;}

@@ -1,0 +1,31 @@
+<script language="JavaScript">
+<!--
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=");
+  if (c_start!=-1)
+    { 
+    c_start=c_start + c_name.length+1; 
+    c_end=document.cookie.indexOf(";",c_start);
+    if (c_end==-1) c_end=document.cookie.length;
+    return document.cookie.substring(c_start,c_end);
+    } 
+  }
+return "";
+}
+
+try {
+  var xmain = getCookie('x-main');
+  if((0 < xmain.length) && (0 < location.search.length)) {
+    i = new Image();
+    i.src = "http://www.imdb.com/ads/c.gif"
+    + location.search + "=" + xmain;
+  }
+} catch (err) {}
+
+//-->
+</script>
+
+<!-- This document saved from http://images.amazon.com/images/G/01/advertising/associate._V259486457_.html?649-5095874-2174061 -->

@@ -1,0 +1,60 @@
+/*       Source:  Local Cache                                                                 */
+/*     Location:  rsrc:120768:nu_ll:/html/ads/css/emu.css                                     */
+/*      Machine:  10.16.140.106                                                               */
+/*    Generated:  September 13th 2008 1:22:05 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.emu_ad .wallpost{background-color:#ECEFF5;border-bottom:1px solid #E5EAF1;clear:both;float:none;margin:0px 0px 2px 0px;overflow:hidden;padding:6px 4px 6px 6px;}
+.emu_ad .wallimage{float:left;text-align:left;}
+.emu_ad .wallimage img{height:35px;width:35px;}
+.emu_ad .wallcontent{float:left;padding:0px 0px 0px 6px;width:249px;}
+.emu_ad .wallcontent .wallfrom .wallmeta{color:#999999;font-size:9px;font-weight:normal;}
+.emu_ad .walltext{padding:2px 0px 4px;}
+.emu_ad .wallcontent .x_to_hide{background:transparent url(x_to_hide.gif) no-repeat scroll center;border:medium none;float:right;margin-left:3px;margin-top:-1px;overflow:hidden;padding:1px 5px 2px;width:3px;}
+.emu_ad .comment_box .wallcontent .x_to_hide:hover{background:#3B5998 url(x_to_hide_hover.gif) no-repeat scroll center;}
+.emu_ad .wall_style_post{background:url(quote_nub_blue.gif) no-repeat 52px 10px;clear:both;margin:0px 0px 4px 0px;}
+.emu_ad .wall_style_post .wall_image{float:left;padding-right:2px;}
+.emu_ad .wall_style_post .wall_image img{height:50px;width:50px;}
+.emu_ad .wall_style_post .wall_content{background-color:#EDEFF4;border-bottom:1px solid #CAD1E2;float:left;margin:0px 0px 0px 7px;padding:2px 0px 0px 5px;}
+.emu_ad .wall_style_post .wall_from{width:185px;}
+.emu_ad .wall_style_post .wall_text{padding:2px 4px 4px 0px;width:185px;}
+.emu_ad .wall_style_post .nowrap_name{white-space:nowrap;}
+.emu_ad .hidden{display:none;}
+.emu_ad .morecontent_toggle_link a{margin-top:0px;}
+.emu_ad .ad_image{display:block;float:left;margin-right:10px;}
+.emu_ad .ad_body{float:left;width:160px;}
+.emu_ad .ad_title{font-weight:bold;}
+.emu_ad .ad_text{margin:3px 0px 0px 0px;}
+.emu_preview{background-color:#F7F7F7;border:1px solid #CCCCCC;padding:10px;width:300px;}
+.emu_ad .emu_video_frame .emu_video_holder{background-color:#000000;}
+.emu_ad .emu_video_frame .video_thumb{float:none;position:relative;}
+.emu_ad .expanded_video .ad_body{float:none;margin-top:5px;width:auto;}
+.emu_ad .emu_comment_frame{margin:5px 0px 5px 0px;}
+.emu_ad .comment_box{font-size:11px;margin:6px 0px 0px 0px;overflow:hidden;}
+.emu_ad .comment_box .morecontent_toggle_link{padding-bottom:5px;}
+.emu_ad .add_comment{padding-bottom:5px;}
+.emu_ad .comment_box .comments_add_box .inputtext{width:275px;}
+.emu_ad .comment_box .comments_add_box .inputsubmit{padding:2px 5px 3px 5px;}
+.emu_ad .comment_box .comments_add_box .comment_button{margin:5px 0px 0px 0px;}
+.emu_ad .comment_box .comments_add_box .submit_progress{margin:2px 0px 0px 10px;}
+.emu_ad .fan_action_frame{}
+.emu_ad .fan_action_frame .pictures_container{margin:0px;padding:10px 0px 0px;}
+.emu_ad .fan_action_frame .existing_fans{margin-top:10px;}
+.emu_ad .fan_action_frame .fan_link{background:url(fbpage_add.gif) no-repeat 0px 0px;padding:1px 0px 1px 22px;margin:10px 0px 0px;}
+.emu_ad .fan_action_frame .more_link{margin:0px;}
+.emu_ad .fan_action_frame .morecontent_toggle_link a{margin-top:2px;}
+.emu_ad .gift_action_frame .give_link{background:url(gift.gif) no-repeat 0px 0px;padding:1px 0px 1px 22px;margin:10px 0px 0px;}
+.emu_ad .gift_action_frame .give_link .can_give{font-weight:bold;}
+.emu_ad .gift_action_frame .gift_givers{margin:10px 0px 0px 0px;}
+.emu_ad .gift_action_frame .gift_form .form_label{margin-top:10px;padding-bottom:2px;}
+.emu_ad .gift_action_frame .gift_form .inputtext{width:292px;}
+.emu_ad .gift_action_frame .gift_form textarea{overflow:auto;width:292px;}
+.emu_ad .gift_action_frame .gift_form .gift_form_submit{margin-top:10px;}
+.emu_ad .gift_action_frame .give_success{margin:5px 0px 0px 0px;}
+.emu_ad .gift_action_frame .delete_gift{display:block;font-size:9px;}
+.emu_ad .gift_action_frame .tokenizer{border:1px solid #BDC7D8;width:295px;}
+.emu_ad .wall_style_post .wall_gift_message{float:left;margin-right:10px;}
+.emu_ad .wall_style_post .wall_mini_gift{float:right;padding:5px 5px 3px 0px;}
+.emu_ad .wall_style_post .wall_mini_gift_image{width:32px;height:32px;}

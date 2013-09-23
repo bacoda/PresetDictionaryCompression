@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hosts>
+  <skin>http://graphics8.nytimes.com/feedroom/nytc4/</skin>
+  <autoRefresh>http://graphics8.nytimes.com/feedroom/nytc4/ifr_params.html?ord=11333&video%5Fplaying</autoRefresh>
+  <version>3.0.10</version>
+</hosts>

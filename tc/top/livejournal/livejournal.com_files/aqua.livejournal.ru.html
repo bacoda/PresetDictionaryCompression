@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<link id="main_style" rel="stylesheet" type="text/css" href="aqua.livejournal.ru_files/damper00.css"/>
+		<!--[if IE]><style type="text/css"> #ctSettings form .cb input { margin: -2px 0 0 -25px; } </style><![endif]-->
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/utilitie.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/myXMLOve.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/StyleInt.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/Array000.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/Numbers0.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/tinyDOM0.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/Animatio.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/Cookie00.js"></script>
+		<script type="text/javaScript" src="aqua.livejournal.ru_files/TV000000.js"></script>
+		<script src="aqua.livejournal.ru_files/urchin00.js" type="text/javascript"></script>
+		<title>Aqua</title>
+	</head>
+	<body class="EN">
+		<div id="ctWait">
+			<em class="ru">Cейчас оттуда поплывут рыбки →</em>
+			<em class="en">Look! The fish are coming →</em>
+		</div>
+		<div id="ctFlow"></div>
+		<div id="ctDebug">...</div>
+		<div id="ctTimer">00 : 00</div>
+		<div id="ctPause"></div>
+		<div id="ctKeywords" class="dialog set1"><div class="bottom"></div>
+			<div class="filterHeader">
+				<div class="btTop"><i class="z1"></i><i class="z2"></i><i class="z3"></i><i class="z4"></i><i class="z5"></i><i class="z6"></i><i class="z7"></i><i class="z8"></i></div>
+				<div class="btTop"><b class="b1"></b><b class="b3"></b><b class="b4"></b><b class="b5"></b><b class="b6"></b></div>
+			</div>
+			<p>
+				<em class="ru">Укажите через запятую список пользователей, посты которых не следует отображать:</em>
+				<em class="en">Specify a list of users (separated by commas), whose entries should not be shown:</em>
+			</p>
+			<label><textarea id="ctArea" rows="10" cols="30"></textarea></label>
+			<button id="ctSave"><em class="ru">Сохранить</em><em class="en">Save</em></button>&nbsp;<button id="ctReset"><em class="ru">Удалить</em><em class="en">Reset</em></button>
+			<div class="btBottom"><i class="z8"></i><i class="z7"></i><i class="z6"></i><i class="z5"></i><i class="z4"></i><i class="z3"></i><i class="z1"></i><i class="z2"></i></div>
+			<div class="btBottom"><b class="b6"></b><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b1"></b></div>
+		</div>
+		<div id="ctBaloon">
+			<div class="right" id="ctRight"></div>
+			<div class="bottom" id="ctBottom"></div>
+			<div class="corner" id="ctCorner"></div>
+			<a id="ctUserPic"></a>
+			<span class="inf"><a id="ctUser" href="http://users.livejournal.com/" class="user">user</a> <span id="ctTime">00:00</span> <em class="ru">назад</em><em class="en">ago</em></span>
+			<div id="ctIcons"><div id="ctImage"></div><div id="ctVideo"></div></div>
+			<p id="ctText">...</p>
+			<div class="btTop"><i class="z1"></i><i class="z2"></i><i class="z3"></i><i class="z4"></i><i class="z5"></i><i class="z6"></i><i class="z7"></i><i class="z8"></i></div>
+			<div class="btTop"><b class="b1"></b><b class="b3"></b><b class="b4"></b><b class="b5"></b><b class="b6"></b></div>
+			<div class="btBottom"><i class="z8"></i><i class="z7"></i><i class="z6"></i><i class="z5"></i><i class="z4"></i><i class="z3"></i><i class="z1"></i><i class="z2"></i></div>
+			<div class="btBottom"><b class="b6"></b><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b1"></b></div>
+			<div class="btPimp"><b class="p1"></b><b class="p2"></b><b class="p3"></b><b class="p4"></b><b class="p5"></b><b class="p6"></b><b class="p7"></b><b class="p8"></b></div>
+		</div>
+		<div id="ctSettings" class="dialog"><div class="bottom"></div><span class="button-close" id="button_close_settings"></span>
+			<h2><em class="ru">Настройки &laquo;Aqua&raquo;</em><em class="en">&laquo;Aqua&raquo; settings</em></h2>
+			<form id="ctForm" action="" onsubmit="return false">
+				<fieldset class="cb">
+					<label><input type="checkbox" name="displayUserPics" value="true" /><em class="ru">Показывать юзерпики</em><em class="en">Display userpics</em></label>
+					<label><input type="checkbox" name="displayUserNames" value="true" /><em class="ru">Показывать имена пользователей</em><em class="en">Display users names</em></label>
+					<label><input type="checkbox" name="dynamicDescription" value="true" /><em class="ru">Просмотр во время движения</em><em class="en">Display post during flying</em></label>
+					<label><input type="checkbox" name="dynamicPauseAll" value="true" /><em class="ru">Пауза при просмотре</em><em class="en">Pause all flying while post displayed</em></label>
+					<label><input type="checkbox" name="dynamicSlow" value="true" /><em class="ru">Замедление при просмотре</em><em class="en">Slow all flying while post displayed</em></label>
+					<label><input type="checkbox" name="dynamicLaunch" value="true" /><em class="ru">Автоподбор п/ способности</em><em class="en">Dynamic capacity tuning</em></label>
+					<label><input type="checkbox" name="singleColorFiler" value="true" /><em class="ru">Одноцветный фильтр</em><em class="en">Single color filter</em></label>
+					<label><input type="checkbox" name="displayHelp" value="true" /><em class="ru">Показывать подсказки</em><em class="en">Display on-screen help</em></label>
+					<label><input type="checkbox" name="debug" value="true" /><em class="ru">Отображать отладочную информацию</em><em class="en">Show debug status line</em></label>
+				</fieldset>
+				<fieldset class="input">
+					<label>
+						<em class="ru">Максимум ссылок одновременно:</em>
+						<em class="en">Links on screen at same time:</em>
+						<input type="text" name="onScreen" value="0" size="3" />
+					</label>
+				</fieldset>
+				<fieldset class="select">
+					<!--
+					<label>
+						<em class="ru">Алгоритм вычисления:</em>
+						<em class="en">Calculation algorithm:</em>
+						<select name="algorithm" disabled="disabled"><option value="A">по длине поста</option></select>
+					</label>
+					-->
+					<label>
+						<em class="ru">Показывать посты:</em>
+						<em class="en">Show posts:</em>
+						<select name="filter"><option value="all">Все</option><option value="ru">Только кирилические</option><option value="en">Non cyrilic only</option></select>
+					</label>
+					<label>
+						<em class="ru">Язык:</em>
+						<em class="en">Language:</em>
+						<select name="language"><option value="RU">Русский</option><option value="EN">English</option></select>
+					</label>
+					<label>
+						<em class="ru">Стиль:</em>
+						<em class="en">Style:</em>
+						<select name="style" id="style_select">
+							<option value="igrick">Igrick</option>
+							<option value="damper">Damper</option>
+						</select>
+					</label>
+				</fieldset>
+			</form>
+			<div class="btTop"><i class="z1"></i><i class="z2"></i><i class="z3"></i><i class="z4"></i><i class="z5"></i><i class="z6"></i><i class="z7"></i><i class="z8"></i></div>
+			<div class="btTop"><b class="b1"></b><b class="b3"></b><b class="b4"></b><b class="b5"></b><b class="b6"></b></div>
+			<div class="btBottom"><i class="z8"></i><i class="z7"></i><i class="z6"></i><i class="z5"></i><i class="z4"></i><i class="z3"></i><i class="z1"></i><i class="z2"></i></div>
+			<div class="btBottom"><b class="b6"></b><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b1"></b></div>
+		</div>
+		<div id="ctHelp" class="dialog"><div class="bottom"></div>
+			<p class="ru">&laquo;Aqua&raquo; показывает публикуемые в ЖЖ посты в реальном времени. На данный момент размер ссылок обратно зависит от длины поста, т.е. чем короче пост, тем больше размер шрифта и скорость полета.</p>
+			<p class="ru">Управление осуществляется с клавиатуры:</p>
+			<ul class="ru">
+				<li><span>Пробел</span> — пауза;</li>
+				<li><span>«S»</span> — показать окно настроек;</li>
+				<li><span>Shift+«S»</span> — сбросить настройки;</li>
+				<li><span>«1»..«9»</span> — задать фильтры;</li>
+				<li><span>«+»/«-»</span> — увеличить/уменьшить скорость;</li>
+				<li><span>«T»</span> — показывать время.</li>
+			</ul>
+			<p class="ru">Вы можете обсуждать, предлагать идеи и сообщать об ошибках в <a href="http://community.livejournal.com/lj_labs">сообществе ЖЖ-Лаборатории</a>.</p>
+			<p class="ru fright">Проект <a href="http://www.livejournal.com/lab.bml">ЖЖ-Лаборатории</a></p>
+			<p class="en"><strong>Aqua</strong> broadcasts in real time all of the public entries published in LiveJournal. The size of links is in inverse proportion to the length of the entry, i.e. the shorter the entry, the larger the font and the quicker the speed of the text.</p>
+			<p class="en"><strong>Aqua</strong> is controlled through your keyboard:</p>
+			<ul class="en">
+				<li><span>Space</span> — pause;</li>
+				<li><span>«S»</span> — show settings;</li>
+				<li><span>Shift+«S»</span> — reset settings;</li>
+				<li><span>«1»..«9»</span> — set filters;</li>
+				<li><span>«+»/«-»</span> — increase/decrease speed;</li>
+				<li><span>«T»</span> — show time.</li>
+			</ul>
+			<p class="en">You can discuss <strong>Aqua</strong>, suggest ideas and report any bugs at the <a href="http://community.livejournal.com/lj_labs">LJ Labs community</a>.</p>
+			<p class="en fright">This is the project of <a href="http://www.livejournal.com/lab.bml">LJ Labs</a></p>
+			<div class="btTop"><i class="z1"></i><i class="z2"></i><i class="z3"></i><i class="z4"></i><i class="z5"></i><i class="z6"></i><i class="z7"></i><i class="z8"></i></div>
+			<div class="btTop"><b class="b1"></b><b class="b3"></b><b class="b4"></b><b class="b5"></b><b class="b6"></b></div>
+			<div class="btBottom"><i class="z8"></i><i class="z7"></i><i class="z6"></i><i class="z5"></i><i class="z4"></i><i class="z3"></i><i class="z1"></i><i class="z2"></i></div>
+			<div class="btBottom"><b class="b6"></b><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b1"></b></div>
+		</div>
+		<div id="ctHelpLine">
+			<em class="ru">Нажмите «H» на клавиатуре что бы показать окно помощи</em>
+			<em class="en">Press H for help</em>
+		</div>
+		<script type="text/javascript">_TV_ = new TV( 'xml/lj-latest.tve' );_uacct = "UA-3933637-1";if(window.urchinTracker)urchinTracker();</script>
+	</body>
+</html>
+
+<!-- This document saved from http://aqua.livejournal.ru/ -->

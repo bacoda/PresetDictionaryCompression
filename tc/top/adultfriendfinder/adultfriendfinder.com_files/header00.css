@@ -1,0 +1,119 @@
+	TD,P,TR,BODY { color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px }
+	TD.BIG {color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	.MEDIUM { color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	.SMALL { color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	
+	.subtitle { color:white;text-decoration:none;font-size:12px;font-weight:bold }
+	.subtitle_large { color:white;text-decoration:none;font-size:16px;font-weight:bold }
+	
+	TD.NEW {color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	
+	A.BIG:link {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	A.BIG:active {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	A.BIG:visited {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	A.BIG:hover {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	
+	TD.YELLOW {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	TD.BODY {color:000000;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	
+	A.AFFIL_LINK:link { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica }
+	A.AFFIL_LINK:active { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica }
+	A.AFFIL_LINK:visited { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica }
+	A.AFFIL_LINK:hover { color:white;text-decoration:underline;font-family:arial,sans-serif,helvetica }
+	
+	A.NULL:link {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.NULL:active {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.NULL:visited {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.NULL:hover {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	
+	A.FORGOT_PWD:link {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	A.FORGOT_PWD:active {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	A.FORGOT_PWD:visited {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	A.FORGOT_PWD:hover {color:yellow;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:10px }
+	
+	TD.white {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	TD.NUM {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px;font-weight:bold }
+	TD.SUBTITLE_GRAY {color:172430;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	
+	A.MEDIUM:link {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	A.MEDIUM:active {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	A.MEDIUM:visited {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	A.MEDIUM:hover {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	
+	A.SITES:link {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	A.SITES:active {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	A.SITES:visited {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	A.SITES:hover {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	
+	A.NAV:link {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAV:active {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAV:visited {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAV:hover {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	A.NAVJOIN:link {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAVJOIN:active {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAVJOIN:visited {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAVJOIN:hover {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	TD.MAIL {color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	TD.CHAT {color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	TD.SM {color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	B.WELCOME {color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:16px;font-weight:bold}
+	B.STD_INFO {color:black;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold}
+	
+	A.MEDIUM2:link {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.MEDIUM2:active {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.MEDIUM2:visited {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.MEDIUM2:hover {color:blue;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px}
+	A.MAIL:link {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.MAIL:active {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.MAIL:visited {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.MAIL:hover {color:blue;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.SM:link {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.SM:active {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.SM:visited {color:blue;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px}
+	A.SM:hover {color:blue;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:11px}
+	
+	.MEDIUM_TABLE_STYLE { color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px }
+
+	A.MEDIUM_TABLE_STYLE:link { color:FFFFFF;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px }
+	A.MEDIUM_TABLE_STYLE:active { color:FFFFFF;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px }
+	A.MEDIUM_TABLE_STYLE:visited { color:FFFFFF;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px }
+	.mc_button { color:#000000;background-color:#CCCCCC; font-size:11px; border: 1px #800000 solid }
+
+
+
+    table.blt td { padding-right: 15px; padding-left: 15px; color: #000000; border-right:1px solid #BFCCD1;}
+
+    /* Rounded Corners: for 23100 */
+    b.rtop, b.rtop b, b.rbottom, b.rbottom b { font-size: 0px; }
+    b.rtop, b.rbottom, b.r1, b.r2, b.r3, b.r4, b.r5, b.r6, b.r7, b.r8 {padding: 0px;}
+    b.rtop, b.rbottom     {display:block; height: 5px;}
+    b.rtop b, b.rbottom b {display:block;height: 1px; overflow: hidden;}
+    b.r1, b.bdr1 {margin: 0 5px}
+    b.r2, b.bdr2 {margin: 0 3px}
+    b.r3, b.bdr3 {margin: 0 2px}
+    b.rtop b.r4, b.rbottom b.r4, b.rtop b.bdr4, b.rbottom b.bdr4 {margin: 0 1px;height: 2px}
+    b.r5 {margin: 0 5px 0 0}
+    b.r6 {margin: 0 3px 0 0}
+    b.r7 {margin: 0 2px 0 0}
+    b.rtop b.r8, b.rbottom b.r8 {margin: 0 1px 0 0;height: 2px}
+    b.bdr1, b.bdr2 { border-right-width: 2px; border-left-width: 2px; border-left-style: solid; border-right-style: solid; border-color: #DEDEDE; }
+    b.bdr3, b.bdr4 { border-right-width: 1px; border-left-width: 1px; border-left-style: solid; border-right-style: solid; border-color: #DEDEDE; }
+
+    /* 23100 Redesign adjustments */
+    .category_select select { float: right; }
+        .guest_won_title { color: #FFFFFF; font-size: 30px; font-family: Verdana, sans-serif; line-height: .85em; }
+    .guest_won_banner { color: #FFFFFF; font-size: 12px; font-family: Verdana, sans-serif; }
+        .won_buttons { font-weight: bold; font-size: 11pt; } 
+        .table_header { padding:0 5px 5px 5px; }
+    .table_subheader, .table_body, .table_alt_body, .table_hilite_body { padding: 5px; }
+    
+        .table_header, .table_subheader, .table_header_title { font-size:15px; font-weight:bold; margin:0;  background: #FFFFFF; color: #484848}
+    .table_body { background: #FFFFFF; }
+    .table_alt_body { background: #EFEFEF; }
+    .table_body, .table_alt_body { color: #000000; }
+        .table_hilite_body { background: #FFFD9F; color: #000000 }

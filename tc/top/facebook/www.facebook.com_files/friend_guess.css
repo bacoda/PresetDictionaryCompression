@@ -1,0 +1,30 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/friend_guess.css r101722                                                */
+/*      Machine:  10.16.140.110                                                               */
+/*    Generated:  September 13th 2008 1:22:07 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.friend_guesses.list{background:#f3f7ff;padding:2px 0px 4px;}
+.friend_guesses.list h2{margin:0px;padding:6px 12px 5px;}
+.friend_guesses.list p{margin:2px 0px 0px 0px;padding:5px 12px 5px;}
+.friend_guesses.list .fguess{background:#fff;border:solid #ccc 1px;margin:8px;padding:8px;}
+.friend_guesses.list .fguess img{float:left;margin-right:8px;}
+.friend_guesses.list .fguess .fg_name{font-size:11px;font-weight:bold;}
+.friend_guesses.list .fguess .fg_mutual,
+.friend_guesses.list .fguess .fg_links{display:block;margin-top:4px;}
+.friend_guesses.list .fguess .fg_links .inactive{color:#666;}
+.friend_grid .friend_grid_row{margin:10px 0 5px;}
+.friend_grid .friend_grid_col{margin-left:10px;float:left;width:174px;overflow:hidden;}
+.friend_grid .friend_grid_col .fg_img{float:left;width:50px;margin:0;padding:0;}
+.friend_grid .friend_grid_col .fg_img img{width:50px;height:50px;display:block;}
+.friend_grid .friend_grid_col .fg_links{padding:0;width:97px;overflow:hidden;float:left;padding:1px 0px 0px 8px;}
+.friend_grid .friend_grid_col .fg_links .fg_name{font-size:11px;font-weight:bold;color:#333;padding-bottom:4px;}
+.friend_grid .friend_grid_col .fg_links .fg_action_view{display:none;}
+.friend_grid .friend_grid_col .fg_links .fg_action_add .inactive{color:#666;}
+.friend_grid .friend_grid_col .fg_action_hide{float:right;width:12px;height:11px;margin:3px 2px 0 0;}
+.friend_grid .no_x .fg_action_hide{visibility:hidden;}
+.friend_grid .friend_grid_col .fg_action_hide h5{display:block;margin:0;padding:0;}
+.friend_grid .friend_grid_col .fg_action_hide h5 a{height:12px;width:11px;display:block;text-indent:-5000px;background:url(spr_pymk_x_fff.gif) 0px 0px no-repeat;margin:0;padding:0;}
+.friend_grid .friend_grid_col .fg_action_hide h5 a:hover{display:block;background:url(spr_pymk_x_fff.gif) -11px 0px no-repeat;}

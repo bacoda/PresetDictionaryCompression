@@ -1,0 +1,1 @@
+for (;;);{"error":1357004,"errorSummary":"Authentication Failure","errorDescription":"You are not permitted to do that.","errorIsWarning":false,"payload":null,"bootload":[{"name":"js\/common.js.pkg.php","type":"js","src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/v2\/pkg\/92\/121698\/js\/common.js.pkg.php"}]}

@@ -1,0 +1,64 @@
+<!-- MAC ad --><html><head>
+<style type="text/css">
+body {background-color: transparent}
+</style>
+</head>
+<body>
+
+
+<script type="text/javascript" src="AC_OETags.js"></script>
+<script type="text/javascript">
+<!--
+// Globals
+
+// Major version of Flash required
+var requiredMajorVersion = 8;
+
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+
+// Minor version of Flash required
+var requiredRevision = 0;
+
+// -->
+</script>
+<script type="text/javascript">
+<!--
+
+// Version check based upon the values entered above in "Globals"
+
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+// Check to see if the version meets the requirements for playback
+if (hasRequestedVersion) {
+
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	var FlashCreative =  AC_FL_RunContent(
+		"src", "E3_300x250_checkitout_NH",
+		"width", "300",
+		"height", "250",
+		"id", "803532",
+		"quality", "high",
+		"FlashVars","clickTAG=http:%2F%2Fadlog%2Ecom%2Ecom%2Fadlog%2Fe%2Fr%3D7108%26s%3D803532%26o%3D1:%26h%3Dcn%26p%3D2%26b%3D4%26l%3Den_US%26site%3D6%26pt%3D2001%26nd%3D1%26pid%3D%26cid%3D%26pp%3D100%26e%3D%26rqid%3D00c17-ad-e12488E1940100E55C%26orh%3D%26oepartner%3D%26epartner%3D%26ppartner%3D%26pdom%3D%26cpnmodule%3D%26count%3D%26ra%3D213%2e236%2e208%2e22%26pg%3D%26t%3D2008.07.30.15.07.58%26event=7/http%3A%2F%2Fe3.gamespot.com%2F",
+		"menu","false",
+		"scale","noscale",
+		"loop","true",
+		"play","true",
+		"wmode","opaque",
+		"name", "803532",
+		"allowScriptAccess","always",
+		"type", "application/x-shockwave-flash",
+		'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab'
+	);
+		
+document.write('<br /><img src="dotclear.gif" height="1" width="1" />');
+} else {  // flash is too old or we can't detect the plugin
+	var alternateContent = '<a href="http://adlog.com.com/adlog/c/r=7108&amp;s=803532&amp;o=1:&amp;h=cn&amp;p=2&amp;b=4&amp;l=en_US&amp;site=6&amp;pt=2001&amp;nd=1&amp;pid=&amp;cid=&amp;pp=100&amp;e=&amp;rqid=00c17-ad-e12488E1940100E55C&amp;orh=&amp;oepartner=&amp;epartner=&amp;ppartner=&amp;pdom=&amp;cpnmodule=&amp;count=&amp;ra=213%2e236%2e208%2e22&amp;pg=&amp;t=2008.07.30.15.07.58/http://e3.gamespot.com/" target="_blank"><img src="E3_300x250_still.jpg" width="300" height="250" border="0" alt="Click Here!" /></a>';
+	document.write(alternateContent);  // insert non-flash content
+}
+// -->
+</script>
+<noscript><a href="http://adlog.com.com/adlog/c/r=7108&amp;s=803532&amp;o=1:&amp;h=cn&amp;p=2&amp;b=4&amp;l=en_US&amp;site=6&amp;pt=2001&amp;nd=1&amp;pid=&amp;cid=&amp;pp=100&amp;e=&amp;rqid=00c17-ad-e12488E1940100E55C&amp;orh=&amp;oepartner=&amp;epartner=&amp;ppartner=&amp;pdom=&amp;cpnmodule=&amp;count=&amp;ra=213%2e236%2e208%2e22&amp;pg=&amp;t=2008.07.30.15.07.58/http://e3.gamespot.com/" target="_blank"><img src="http://i.i.com.com/cnwk.1d/Ads/2443/11/E3_300x250_still.jpg" width="300" height="250" border="0" alt="Click Here!" /></a></noscript>
+
+</body></html><!-- MAC [r20080616-1708-msm-1-13-10-LogArgmap:1.13.10] c18-ad-xw8.cnet.com::4042636208 2008.07.30.15.07.58 --><!-- MAC T 0.1 -->

@@ -1,0 +1,475 @@
+/* Copyright 2006 Google. All rights reserved. */
+
+/* Styles to support Button.gxp */
+
+/*
+  All button images should be 400x400 pixels.
+
+  Large buttons are made in Photoshop using the rounded rectangle tool and
+  a corner radius of 6 pixels. The border is made by stroking this rectangle
+  along the outside with a thickness of 3 pixels.
+*/
+
+/* @author phopkins */
+/* @author cw */
+
+
+/* Important: Also include buttons_dir.css if using this file; it contains
+   language direction-dependent sections of the code */
+
+/* --------------------------  SHARED  --------------------------------------*/
+
+.ubtn {
+  font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  cursor:pointer;
+  cursor:hand;
+}
+
+.ubtn a, input.ubtn {
+  font-weight:bold;
+  text-transform:uppercase;
+  color:white !important;
+  text-decoration:none !important;
+  overflow:hidden;
+}
+
+.ubtn a:hover, .ubtn:hover a {
+  text-decoration:underline !important;
+}
+
+.ubtn-disabled, .ubtn-disabled a,
+.ubtn-disabled a:hover, .ubtn-disabled:hover a {
+  color:#cacaca !important;
+  text-decoration:none !important;
+  cursor:default;
+}
+
+/* ---------------------------  BLOCK  --------------------------------------*/
+
+div.ubtn {
+  background-position:right;
+  background-repeat:no-repeat;
+  padding:0 3px 0 0;
+  margin:.25em;
+  max-width:397px;
+  max-height:400px;
+}
+
+div.ubtn div {
+  background-repeat:no-repeat;
+}
+
+div.ubtn .i {
+  background-position:left;
+  padding: 0 0 0 3px;
+}
+
+.ubtn-large div.ubtn .i div {
+  line-height:10px;
+  font-size:10px;
+}
+
+.ubtn-small div.ubtn .i div {
+  line-height:9px;
+  font-size:9px;
+}
+
+div.ubtn .t {
+  background-position:top right;
+  margin:0 -3px;
+}
+
+div.ubtn .t div {
+  float:left;
+  background-position:top left;
+  width:10px;
+}
+
+.ubtn-small div.ubtn .t div {
+  width:7px;
+}
+
+div.ubtn .b {
+  background-position:bottom right;
+  margin:0 -3px;
+}
+
+div.ubtn .b div {
+  float:left;
+  background-position:bottom left;
+  width:10px;
+}
+
+.ubtn-small div.ubtn .b div {
+  width:7px;
+}
+
+div.ubtn a {
+  clear:both;
+  display:block;
+  margin:0 .5em -4px;
+  padding:0 .5em;
+  line-height:14px;
+  text-align:center;
+  position:relative;
+  overflow:visible;
+  white-space:nowrap;
+  width:1%;
+}
+
+div.ubtn a span {
+  display:block;
+  position:relative;
+  top:-2px;
+  background:transparent !important;
+}
+
+.ubtn-small div.ubtn a {
+  margin:0 .5em -3px;
+  padding:0 .5em;
+  line-height:10px;
+}
+
+.arrow-large-right div.ubtn {
+  padding-right:35px;
+}
+
+.arrow-large-right div.ubtn .i{
+  position:relative;
+  padding-left:10px;
+}
+
+.arrow-large-left div.ubtn {
+  padding-right:10px;
+}
+
+.arrow-large-left div.ubtn .i {
+  position:relative;
+  padding-left:30px;
+}
+
+.arrow-large-left div.ubtn a,
+.arrow-large-right div.ubtn a {
+  white-space:nowrap;
+  line-height:41px;
+}
+
+.arrow-large-right div.ubtn a {
+  text-align:left;
+}
+
+.arrow-large-left div.ubtn a {
+  text-align:right;
+}
+
+.no-bidi div.ubtn .t div, .no-bidi div.ubtn .b div {
+  float:none;
+}
+
+.no-bidi div.ubtn a {
+  clear:none;
+  width:auto;
+}
+
+
+/* --------------------------  INLINE  --------------------------------------*/
+
+
+span.ubtn {
+  vertical-align:bottom;
+}
+
+.ubtn-small span.ubtn {
+  display:inline-block;  
+}
+
+span.ubtn span, span.ubtn a {
+  background-repeat:no-repeat;
+}
+
+span.ubtn .i {
+  background-position:top;
+}
+
+span.ubtn .i a {
+  padding-left:1em;
+  padding-right:1em;
+  background-position:bottom;
+  white-space:nowrap;
+  unicode-bidi:embed;
+}
+
+span.ubtn img {
+  _display:none;
+}
+
+span.ubtn .left {
+  background-position:top left;
+}
+
+span.ubtn .left span {
+  background-position:bottom left;
+}
+
+span.ubtn .right {
+  background-position:top right;
+}
+
+span.ubtn .right span {
+  background-position:bottom right;
+}
+
+.ubtn-small span.ubtn .i,
+.ubtn-small span.ubtn .left,
+.ubtn-small span.ubtn .right {
+  padding-top:3px;
+}
+
+.ubtn-small span.ubtn .i a,
+.ubtn-small span.ubtn .left span,
+.ubtn-small span.ubtn .right span {
+  padding-bottom:3px;
+}
+
+.ubtn-large span.ubtn .i,
+.ubtn-large span.ubtn .left,
+.ubtn-large span.ubtn .right {
+  padding-top:7px;
+}
+
+.ubtn-large span.ubtn .i a,
+.ubtn-large span.ubtn .left span,
+.ubtn-large span.ubtn .right span {
+  padding-bottom:7px;
+}
+
+.ubtn-large span.ubtn .left img {
+  padding-right:5px;
+}
+
+.ubtn-large span.ubtn .right img {
+  padding-left:5px;
+}
+
+.ubtn-large span.ubtn .left span {
+  _padding-right:5px;
+}
+
+.ubtn-large span.ubtn .right span {
+  _padding-left:5px;
+}
+
+.arrow-large-right span.ubtn,
+.arrow-large-left span.ubtn {
+  line-height:44px;
+}
+
+.arrow-large-right span.ubtn .i,
+.arrow-large-right span.ubtn .left,
+.arrow-large-right span.ubtn .right,
+.arrow-large-left span.ubtn .i,
+.arrow-large-left span.ubtn .left,
+.arrow-large-left span.ubtn .right {
+  padding-top:14px;
+  padding-bottom:15px;
+}
+
+.arrow-large-right span.ubtn .i a,
+.arrow-large-right span.ubtn .left span,
+.arrow-large-right span.ubtn .right span,
+.arrow-large-left span.ubtn .i a,
+.arrow-large-left span.ubtn .left span,
+.arrow-large-left span.ubtn .right span {
+  background-image:none !important;
+}
+
+.arrow-large-right span.ubtn .right img {
+  padding-left:30px;
+}
+
+.arrow-large-left span.ubtn .left img {
+  padding-right:30px;
+}
+
+.arrow-large-right span.ubtn .right span {
+  _padding-left:30px;
+}
+
+.arrow-large-left span.ubtn .left span {
+  _padding-right:30px;
+}
+
+/* --------------------------  NOSCRIPT INPUT  ------------------------------*/
+
+input.ubtn {
+  border:2px solid;
+  color:white;
+}
+
+input.ubtn-block {
+  display:block;
+  float:left;
+}
+
+/* --------------------------  COLORS  --------------------------------------*/
+
+.ubtn-large .ubtn-blue-on-white div.ubtn,
+.ubtn-large .ubtn-blue-on-white div.ubtn div,
+.ubtn-large .ubtn-blue-on-white span.ubtn span,
+.ubtn-large .ubtn-blue-on-white span.ubtn a {
+  background-color:#6699ff;
+  background-image:url(ubtn_blu.png);
+}
+
+.ubtn-large .ubtn-blue-on-blue div.ubtn,
+.ubtn-large .ubtn-blue-on-blue div.ubtn div,
+.ubtn-large .ubtn-blue-on-blue span.ubtn span,
+.ubtn-large .ubtn-blue-on-blue span.ubtn a {
+  background-color:#3366cc;
+  background-image:url(ubtn_blu.png);
+}
+
+.ubtn-large .ubtn-orange-on-white div.ubtn,
+.ubtn-large .ubtn-orange-on-white div.ubtn div,
+.ubtn-large .ubtn-orange-on-white span.ubtn span,
+.ubtn-large .ubtn-orange-on-white span.ubtn a {
+  background-color:#6699ff;
+  background-image:url(ubtn_ora.png);
+}
+
+.ubtn-small .ubtn-blue-on-white div.ubtn,
+.ubtn-small .ubtn-blue-on-white div.ubtn div,
+.ubtn-small .ubtn-blue-on-white span.ubtn span,
+.ubtn-small .ubtn-blue-on-white span.ubtn a {
+  background-color:#6699ff;
+  background-image:url(ubtn_blv.png);
+}
+
+.ubtn-small .ubtn-orange-on-white div.ubtn,
+.ubtn-small .ubtn-orange-on-white div.ubtn div,
+.ubtn-small .ubtn-orange-on-white span.ubtn span,
+.ubtn-small .ubtn-orange-on-white span.ubtn a {
+  background-color:#ff6600;
+  background-image:url(ubtn_ora.png);
+}
+
+.ubtn-small .ubtn-blue-on-tan div.ubtn,
+.ubtn-small .ubtn-blue-on-tan div.ubtn div,
+.ubtn-small .ubtn-blue-on-tan span.ubtn span,
+.ubtn-small .ubtn-blue-on-tan span.ubtn a {
+  background-color:#6699ff;
+  background-image:url(ubtn_blv.png);
+}
+
+.ubtn-small .ubtn-orange-on-dark_tan div.ubtn,
+.ubtn-small .ubtn-orange-on-dark_tan div.ubtn div,
+.ubtn-small .ubtn-orange-on-dark_tan span.ubtn span,
+.ubtn-small .ubtn-orange-on-dark_tan span.ubtn a {
+  background-color:#ff6600;
+  background-image:url(ubtn_ora.gif);
+}
+
+.ubtn-small .ubtn-blue-on-dark_tan div.ubtn,
+.ubtn-small .ubtn-blue-on-dark_tan div.ubtn div,
+.ubtn-small .ubtn-blue-on-dark_tan span.ubtn span,
+.ubtn-small .ubtn-blue-on-dark_tan span.ubtn a {
+  background-color:#6699ff;
+  background-image:url(ubtn_blv.gif);
+}
+
+.ubtn-small .ubtn-blue-on-white div.ubtn-disabled,
+.ubtn-small .ubtn-blue-on-white div.ubtn-disabled div,
+.ubtn-small .ubtn-blue-on-white span.ubtn-disabled span,
+.ubtn-small .ubtn-blue-on-white span.ubtn-disabled a,
+.ubtn-small .ubtn-orange-on-white div.ubtn-disabled,
+.ubtn-small .ubtn-orange-on-white div.ubtn-disabled div,
+.ubtn-small .ubtn-orange-on-white span.ubtn-disabled span,
+.ubtn-small .ubtn-orange-on-white span.ubtn-disabled a {
+  background-color:#959595;
+  background-image:url(ubtn_gra.png);
+}
+
+.ubtn-blue-on-white input.ubtn {
+  border-color:#99ccff #003366 #003366 #99ccff;
+  background-color:#6699ff;
+}
+
+.ubtn-orange-on-white input.ubtn {
+  border-color:#ff751a #e55c00 #e55c00 #ff751a;
+  background-color:#ff6600;
+}
+
+.ubtn-blue-on-blue input.ubtn {
+  border-color:#6699ff #002255 #002255 #6699ff;
+  background-color:#3366cc;
+}
+
+.arrow-large-left .ubtn-orange-on-white div.ubtn div,
+.arrow-large-right .ubtn-orange-on-white div.ubtn div {
+ background-image:none;
+ background-color:transparent;
+}
+
+.arrow-large-right .ubtn-orange-on-white div.ubtn,
+.arrow-large-right .ubtn-orange-on-white div.ubtn .i,
+.arrow-large-right .ubtn-orange-on-white span.ubtn span,
+.arrow-large-right .ubtn-orange-on-white span.ubtn a {
+ background-image:url(arrow_or.gif);
+ background-color:transparent;
+}
+
+.arrow-large-left .ubtn-orange-on-white div.ubtn,
+.arrow-large-left .ubtn-orange-on-white div.ubtn .i,
+.arrow-large-left .ubtn-orange-on-white span.ubtn span,
+.arrow-large-left .ubtn-orange-on-white span.ubtn a {
+ background-image:url(arrow_os.gif);
+ background-color:transparent;
+}
+
+.arrow-large-right .ubtn-orange-on-white div.ubtn a span,
+.arrow-large-left .ubtn-orange-on-white div.ubtn a span {
+  /* TODO: Make this work for inline arrows w/o images */
+  background-color:#ff6600;
+}
+
+.arrow-large-right .ubtn-gray-on-white div.ubtn,
+.arrow-large-right .ubtn-gray-on-white div.ubtn .i,
+.arrow-large-right .ubtn-gray-on-white span.ubtn span,
+.arrow-large-right .ubtn-gray-on-white span.ubtn a {
+  background-image:url(arrow_gr.png);
+}
+
+.arrow-large-left .ubtn-gray-on-white div.ubtn,
+.arrow-large-left .ubtn-gray-on-white div.ubtn .i,
+.arrow-large-left .ubtn-gray-on-white span.ubtn span,
+.arrow-large-left .ubtn-gray-on-white span.ubtn a {
+  background-image:url(arrow_gr.png);
+}
+.arrow-large-right .ubtn-gray-on-white div.ubtn a span,
+.arrow-large-left .ubtn-gray-on-white div.ubtn a span {
+  /* TODO: Make this work for inline arrows w/o images */
+  background-color:#b5b5b5;
+}
+
+/* Make IE draw the background */
+.arrow-large-right .ubtn-orange-on-white div.ubtn .i,
+.arrow-large-left .ubtn-orange-on-white div.ubtn .i {
+  background-color:white;
+}
+
+
+/* hack: remove once Google accounts pages point to buttons_dir.css */
+div.ubtn-left {
+  float:left;
+  display:inline;
+}
+
+div.ubtn-right {
+  float:right;
+  display:inline;
+}
+
+div.ubtn-none {
+  float:none;
+}

@@ -1,0 +1,7 @@
+<script language="javascript" type="text/javascript">
+<!--
+document.domain = "";
+parent.parent.document.getElementById('tkn_adspecial2').style.display = "none";
+//-->
+</script>
+

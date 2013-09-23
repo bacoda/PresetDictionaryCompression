@@ -1,0 +1,303 @@
+/* $Id: belowFold.css,v 1.6 2007/12/12 20:38:28 kom Exp $
+BEGIN generic below fold styles */	
+
+div#page div#main div#belowFold {
+	background: #f2f4f3;
+	background: transparent url(belowFol.gif) repeat-y 0px 0px;
+	padding: 7px 0px 0px 0px;
+	}
+
+div#page div#main div#belowFold:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html div#page div#main div#belowFold {
+	height: 1%; 
+	}	
+
+#belowFoldTable {
+	width: 973px;
+	_width: 968px;
+	display: block;
+	_display: table;
+	border-collapse: collapse;
+	/*\*/vertical-align: top;/*\*/
+	background: transparent url(belowFol.gif) repeat-y 0px 0px;
+	}
+
+#belowFoldTable td {
+	/*\*/vertical-align: top;/*\*/
+	}
+
+#belowFoldTable td ul li ul li {
+	margin: 0 !important;
+	padding: 0 0 10px 8px !important;
+	background-image: url(bullet4x.gif) ;
+	background-position: 0 4px !important;
+	_background-position: 0 7px !important;
+	background-repeat: no-repeat !important;
+	font-size: 90%;
+	}
+
+#belowFoldTable td ul h4 {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 8px !important;
+	font-family: Arial, sans-serif;
+	font-size: 85%;
+	text-transform: uppercase;
+	}
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA,
+#belowFoldTable .cColumn div.columnGroup div.subColumnB{	
+	width: 49%;
+	padding: 0px;
+	position: static;
+	border: none;
+	}
+
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA ul,
+#belowFoldTable .cColumn div.columnGroup div.subColumnB ul,
+#belowFoldTable .cColumn div.columnGroup.Bottom1  {
+	margin: 0px;
+	padding-bottom:0px;
+	font-size: 85%;
+	font-family: Arial, sans-serif;
+	list-style: none;
+	}
+	
+#belowFoldTable .cColumn div.columnGroup.Bottom1{
+	
+}
+/* END generic below fold styles */	
+
+
+	
+/* BEGIN c-Column styles */	
+#belowFoldTable .cColumn {
+	/**/border-left: 1px solid #E2E2E2;
+	padding: 0px 10px 12px 5px;
+	margin: 0px 0px 0px 5px;
+	height: 100%;
+	width:341px;
+	_width:336px;
+	float:none;
+	}
+
+	
+#belowFoldTable .cColumn div.columnGroup {
+	 margin: 10px 0px 0px 0px;
+	 padding: 10px 0px 0px 0px;
+	 border-top:1px #ccc solid;/**/
+}	
+
+#belowFoldTable .cColumn div#Box1 {
+	 border-top:none;
+	 margin: 0px 0px 0px 0px;
+	 padding: 0px 0px 0px 0px;
+}	
+	
+/* BEGIN Most Popular Module
+------------------------------ */
+
+#belowFoldTable td.cColumn #mostPopWidget {
+	font-size:90%;
+	}
+
+#belowFoldTable td.cColumn .firstColumnGroup #mostPopWidget {
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 0px !important;
+	}
+	
+#belowFoldTable td.cColumn #mostPopWidget h4{
+	margin: 0px 0px 3px 0px;
+	}
+/* END Most Popular Module 
+----------------------------- */
+
+
+/* BEGIN classifiedsWidget
+------------------------------ */
+#belowFoldTable td.cColumn #classifiedsWidget{
+	margin-bottom: 12px;
+	}
+
+#belowFoldTable td.cColumn #classifiedsWidget .tabContent {
+	font-size:95%;
+	}
+	
+#belowFoldTable td.cColumn div.columnGroup #classifiedsWidget div#tabsContainer {
+	top: 1px;
+	}
+
+/* END classifiedsWidget 
+----------------------------- */
+
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA {
+	border-right:1px #ccc solid;
+	}
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA div.centered,
+#belowFoldTable .cColumn div.columnGroup div.subColumnB div.centered {
+	text-align:center;
+	}
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA h5,
+#belowFoldTable .cColumn div.columnGroup div.subColumnB h5{
+	font-family: Arial, sans-serif;
+	font-size: 80%;
+	margin: 0 0 0 0;
+	padding: 0 0 2px 0;
+	color: #000;
+	font-weight: normal;
+	text-transform: uppercase;
+	}
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA ul,
+#belowFoldTable .cColumn div.columnGroup div.subColumnB ul{
+	margin: 0 0 0 0;
+	padding: 0 0 5px 0;
+}
+/**/
+#belowFoldTable .cColumn div.columnGroup ul.singleColumn li{
+	margin: 0 0 0 0;
+	padding: 0 0 4px 0;
+}
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA ul li,
+#belowFoldTable .cColumn div.columnGroup div.subColumnB ul li{
+	margin: 0 0 0 0;
+	padding: 0 0 5px 0;
+}
+
+#belowFoldTable .cColumn div.columnGroup div.subColumnA ul li.last{
+	padding: 0 0 0 0;
+
+}
+	
+#belowFoldTable .cColumn div.columnGroup img.imageXML {
+	padding-bottom:0px;
+}
+	
+/* BEGIN c-Column ad bar styles */	
+#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails ,
+#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li, 
+#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li a {
+	width: auto;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	height: auto;
+	color: #808080;
+	}
+
+#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li { 
+	margin-bottom: 13px;
+	}
+	
+#belowFoldTable td#adBar {
+	width: 88px;
+	_width: 82px;
+	padding-left: 5px;
+	padding-right: 4px;
+	border-left: none;	
+	height: 100%;
+	}
+
+#belowFoldTable td#adBar font {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	}	
+	
+#belowFold #belowFoldTable #SponLinkHP {
+	margin-top:12px;
+	}
+	
+#belowFold #belowFoldTable #SponLinkHP table table td{
+	padding-top: 4px;
+	}
+	
+/* END c-Column ad bar styles */	
+
+/* END c-Column styles */	
+
+	
+	
+/* BEGIN A2/headline well styles */	
+#belowFoldTable td.listing div.columnGroup {
+	border-top: 1px solid #ccc;
+	padding-top: 12px;
+	margin: 12px 7px 0px 0px;
+	}
+
+#belowFoldTable td.listing div.centered {
+	text-align:center;
+}
+
+#belowFoldTable td.listing ul li h4 a {
+	color:#000;
+	font-weight: normal;
+}
+
+#belowFoldTable td.listing {
+	border-left: 1px solid #E2E2E2;
+	width: 165px;
+	_width: 160px;
+	padding: 0px 5px;
+	/**/
+	padding-left: expression( this == this.parentNode.firstChild ? "10px" : "5px" );
+	width: expression( this == this.parentNode.firstChild ? "165px" : "170px" );
+	
+	border-left-width: expression( this == this.parentNode.firstChild ? "0px" : "1px" );
+	}
+
+/*	*/
+#belowFoldTable td.listing.first {
+	border-left: none;
+	width: 162px;
+	_width: 167px;
+	padding: 0px 5px;
+	/**/
+	padding-left: expression( this == this.parentNode.firstChild ? "10px" : "5px" );
+	
+	width: expression( this == this.parentNode.firstChild ? "162px" : "167px" );
+	
+	}
+
+#belowFoldTable td.listing ul {
+	margin-left: 2px;
+	margin-right: 5px;
+	}
+
+#belowFoldTable td.listing ul ul {
+	margin-left: 0;	
+	}
+
+#belowFoldTable td.listing ul ul li {
+	padding: 0;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+	}
+
+
+#belowFoldTable td.listing:first-child {
+	padding-left: 10px;
+	width: 163px;
+	border-left: none;
+	}
+
+#belowFoldTable td.listing ul,
+#belowFoldTable td.listing ul li {
+	list-style: none;
+	padding-bottom: 6px;
+	}
+
+/* END A2/headline well styles */	
+	

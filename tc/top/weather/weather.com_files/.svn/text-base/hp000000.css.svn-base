@@ -1,0 +1,243 @@
+/* Added Summer palette 2008 sbs 6/25/08 */
+div#hpContentLeft {width:325px;float:left;font-size:85%;overflow:hidden;}
+div#hpContentRight {width:264px;float:right;font-size:85%;overflow:hidden;}
+.hpPad10 {padding:10px;}
+.hpPadTop {padding-top:10px;}
+.hpFloatLeft {float:left;}
+.hpFloatRight {float:right;}
+.hpClearLeft {clear:left;}
+.hpClearBoth {clear:both;}
+.hpClearRight {clear:right;}
+div#hpContentRight p {margin-bottom:5px;}
+ul {margin-right:0;}
+
+/* Carousel 1 (Text Links) */
+div#viewBox1 {background:#f6f6f6;width: 291px;height:18px;border:1px solid #f6f6f6;overflow:hidden;float:left;}
+div#viewBox2 {width: 283px;height:18px;overflow:hidden;float:left;}
+ul#carousel1 {width:2000px;font-size:10px;margin: 2px 0 0 0;padding:0;list-style-type:none;}
+ul#carousel1 li {list-style-type:none;float:left;padding:0 10px 0 10px;margin:0;border-right: 1px solid #333;}
+ul#carousel1 li.last {list-style-type:none;float:left;padding:0 0 0 10px;margin:0;border-right: none;}
+.prevActive {width:14px;height:18px;border:1px solid #eaeaea;background: #fff url('icons_sp.gif') 4px -81px;float:left;cursor:pointer;}
+.nextActive {width:14px;height:18px;border:1px solid #eaeaea;background: #fff url('icons_sp.gif') 5px -50px;float:left;cursor:pointer;}
+.prevOver {width:14px;height:18px;border:1px solid #333;background: #fff url('icons_sp.gif') 4px -81px;float:left;cursor:pointer;}
+.nextOver {width:14px;height:18px;border:1px solid #333;background: #fff url('icons_sp.gif') 5px -50px;float:left;cursor:pointer;}
+.prevInactive {width:14px;height:18px;border:1px solid #eaeaea;background: #fff url('icons_sp.gif') 4px -143px;float:left;cursor:default;}
+.nextInactive {width:14px;height:18px;border:1px solid #eaeaea;background: #fff url('icons_sp.gif') 5px -112px;float:left;cursor:default;}
+
+/* Carousel 2 (Images) */
+#carousel2Wrapper {padding:0;margin:0 0 10px 0;}
+div#viewBox3 {background:#f6f6f6;width:207px;height:48px;border:1px solid #f6f6f6;overflow:hidden;float:left;}
+div#viewBox4 {padding: 0 0 0 6px;}
+div#viewBox5 {width:195px;height:48px;overflow:hidden;float:left;border:none;}
+ul#carousel2 {width:2000px;font-size:10px;margin:0;padding:0;list-style-type:none;}
+ul#carousel2 li {list-style-type:none;float:left;}
+ul#carousel2 li a {display:block;border:1px solid #f6f6f6;padding:4px;margin:0 2px;font-size:1px;}/* 2px to much bottom margin in all but IE without font-size:1px attribute */
+ul#carousel2 li a:hover {border:1px solid #333;}
+ul#carousel2 li img {border:none;width:51px;height:38px;}
+.prevActive2 {width:15px;height:48px;border:1px solid #eaeaea;background: url('icons_sp.gif') 4px -67px;float:left;cursor:pointer;}
+.nextActive2 {width:15px;height:48px;border:1px solid #eaeaea;background: url('icons_sp.gif') 5px -36px;float:left;cursor:pointer;}
+.prevOver2 {width:15px;height:48px;border:1px solid #333;background: url('icons_sp.gif') 4px -67px;float:left;cursor:pointer;}
+.nextOver2 {width:15px;height:48px;border:1px solid #333;background: url('icons_sp.gif') 5px -36px;float:left;cursor:pointer;}
+.prevInactive2 {width:15px;height:48px;border:1px solid #eaeaea;background: url('icons_sp.gif') 4px -129px;float:left;cursor:default;}
+.nextInactive2 {width:15px;height:48px;border:1px solid #eaeaea;background: url('icons_sp.gif') 5px -98px;float:left;cursor:default;}
+
+/* Main Module */
+div#hpMainTabContent {height:248px;width:325px;overflow:hidden;}
+div#hpMainPad {margin:0 0 7px 0;height:18px;border-bottom: 2px solid #012876;}
+div#hpMain {height:18px;}
+ul#hpMainTabs {padding:0;margin:0;}
+ul#hpMainTabs li {height:17px;background:#012876;margin:0 0 0 0;padding:0 0 0 0;list-style-type:none;float:left;background:#f6f6f6;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-right: 1px solid #ddd;}
+ul#hpMainTabs li.active {color:white;background:#012876;border-left: 1px solid #012876;border-top: 1px solid #012876;border-right: 1px solid #012876;}
+ul#hpMainTabs li div {cursor:pointer;text-decoration:none;font-size:10px;color:#626262;padding: 2px 10px;margin:0;}
+ul#hpMainTabs li.active div {cursor:default;font-weight:bold;color:white;background:#012876;border-left: 1px solid #012876;border-top: 1px solid #012876;border-right: 1px solid #012876;}
+ul#hpMainTabs li span.videoIcon {background: url('icons_sp.gif') no-repeat 0 3px;padding:0 5px;margin:0 0 0 5px;font-size:10px;line-height:10px;}
+ul#hpMainTabs li.active span.videoIcon {background: url('icons_sp.gif') no-repeat 0 -24px;padding:0 5px;margin:0 0 0 5px;font-size:10px;line-height:10px;}
+div#hpMainDate {font-size:10px;float:right;color:#333;padding:5px 0 0 0;margin: 0;}
+p#hpMainImage {margin:0;padding:0;}
+#hpMainImage2, #hpMainImage3, #hpMainImage4 {position:relative;}
+.hpMainPlay {cursor:pointer;position:absolute;top:79px;left:117px;width:92px;height:62px;background: url('icons_sp.gif') no-repeat 0px -565px;}
+.displayNone {display:none;}
+.displayBlock {display:block;}
+.hpMainMore {float:right;margin-right:10px;}
+#goSeason {background:#333333;}
+
+/* 010 Video Tabs */
+div#hpVideoTabContent, #hpVideoTabContent1, #hpVideoTabContent2 {width:323px;}
+div#hpVideoContent {padding-bottom:15px;}
+div#hpVideoPad {margin:10px 0 0px 0;height:18px;border-bottom: 2px solid #012876;}
+div#hpVideo {height:18px;width:325px;}
+ul#hpVideoTabs {padding:0;margin:0;}
+ul#hpVideoTabs li {height:17px;background:#012876;margin:0 0 0 0;padding:0 0 0 0;list-style-type:none;float:left;background:#f6f6f6;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-right: 1px solid #ddd;}
+ul#hpVideoTabs li.active {color:white;background:#012876;border-left: 1px solid #012876;border-top: 1px solid #012876;border-right: 1px solid #012876;}
+ul#hpVideoTabs li div {cursor:pointer;text-decoration:none;font-size:10px;color:#626262;padding: 2px 10px;margin:0;}
+ul#hpVideoTabs li.active div {cursor:default;font-weight:bold;color:white;background:#012876;border-left: 1px solid #012876;border-top: 1px solid #012876;border-right: 1px solid #012876;}
+ul#hpVideoTabs li span.videoIcon {background: url('icons_sp.gif') no-repeat 0 3px;padding:0 5px;margin:0 0 0 5px;font-size:10px;line-height:10px;}
+ul#hpVideoTabs li.active span.videoIcon {background: url('icons_sp.gif') no-repeat 0 -24px;padding:0 5px;margin:0 0 0 5px;font-size:10px;line-height:10px;}
+.hpVideoBox {color:#33f;border:1px solid #ddd;background: url('vid_grad.gif') repeat-x left bottom;width:321px;height:48px;overflow:hidden;}
+.hpVideoBoxSize {cursor:pointer;padding:5px;}
+.hpVideoBoxImage {float:left;margin:0 10px 0 0;}
+.hpVideoBoxPlay {width:49px;height:38px;background: url('icons_sp.gif') 0px -240px;float:left;}
+.hpVideoBoxLink {margin:0 0 0 10px;padding: 5px 0;float:left;}
+.hpVideoBoxLinkText {display:table-cell;vertical-align:middle;height:28px;width:190px;}
+.hpVideoBoxActive {border:1px solid #333;cursor:pointer;}
+.hpVideoBoxPlayActive {background: url('icons_sp.gif') 0px -357px;}
+.hpVideoBoxLinkTextActive {text-decoration:underline;}
+#hpVideoMore {width:323px;border:1px solid #ddd;}
+#hpVideoMore div {text-align:right;padding:8px 10px;color:#ddd;}
+#hpVideoTabContent2 {border:1px solid #ddd;color:#666;}
+#hpVideoTabContent2 h2 {margin:0;padding:0;font-size:85%;padding:10px 0 0 10px;}
+#hpVideoTabContent2 .hpUVTh {float:left;width:123px;margin-top:4px;position:relative;}
+#hpVideoTabContent2 .hpUVPlay {cursor:pointer;position:absolute;background: url('icons_sp.gif') 0px -214px;width:15px;height:15px;top:56px;left:93px;}
+#hpVideoTabContent2 .hpUVTitle {width:180px;height:36px;}
+#hpVideoTabContent2 .hpUVBioBox {height:44px;width:180px;}
+#hpVideoTabContent2 .hpUVBioText {float:left;font-size:10px;margin:7px 0 0 10px;}
+#hpVideoTabContent2 .hpPad10 {padding:20px 10px;}
+#hpVideoTabContent2 div.hpFloatLeft {float:left;}
+#hpVideoTabContent2 .hpClearLeft {clear:left;}
+#hpVideoTabContent2 .hpBorder {border-top:1px solid #eee;margin:0 10px;}
+#hpUVMore {margin:32px 10px 0 10px;}
+#hpUVMore div {border-top:1px solid #ddd;text-align:right;color:#ddd;padding:8px 0;}
+div.hpVNTh {width:51px;height:38px;}
+div#hpVNTh1 {background: url('newsvide.jpg') 0 0;}
+div#hpVNTh2 {background: url('newsvide.jpg') 0 -38px;}
+div#hpVNTh3 {background: url('newsvide.jpg') 0 -76px;}
+div#hpVNTh4 {background: url('newsvide.jpg') 0 -114px;}
+div#hpVNTh5 {background: url('newsvide.jpg') 0 -152px;}
+div#hpVNTh6 {background: url('newsvide.jpg') 0 -190px;}
+
+/* 007 News Center Module */
+#hpNewsCenter {margin-bottom: 15px;color:#333;}
+.hpPadBot {padding-bottom:10px;}
+#hpNewsCenter h1 {margin:0 0 .35em 0;padding:0;font-size:14px;}
+#hpNewsCenter h2 {margin:0 0 .5em 0;padding:0;font-size:12px;}
+#hpNewsCenter h3 {margin:0 0 .5em 0;padding:0;font-size:11px;color:#333;}
+#hpNewsCenter p.hpNCHeader {font-size:10px;color:#666;font-weight:bold;margin:0;padding:0 0 5px 0;}
+#hpNewsCenter li {line-height:1.3em;margin-left:4px;}
+#hpMinHeight {float:right;height:242px;width:1px;}
+#hpNewsCenter .hpMarTop {margin:10px 0 0 0}
+div.hpNCPhotoBox {margin:10px 0 0 0;padding:0;}
+#hpNewsCenter p.hpNCPhotoP {float:left;width:61px;height:38px;margin:0;padding:0;}
+#hpNewsCenter p.hpNCPhotoTxt {float:left;width:200px;vertical-align:middle;height:38px;padding: 5px 0 0 0;margin:0;}
+.hpNCBorder1 {border-top:1px dashed #ddd;margin: 10px;}
+.hpNCModBox {padding:10px;border:1px solid #ddd;margin-bottom:15px;}
+.hpNCModBox .hpH2 {margin:0 0 .5em 0;padding:0;font-size:12px;font-weight:bold;color:#333;}
+.hpNCWxImage {float:left;width:110px;}
+.hpNCtd1 {width:64px;float:left;}
+.hpNCtd2 {width:68px;float:left;}
+.hpNCtd3 {width:102px;float:left;}
+.hpNCtd4 {width:30px;float:left;}
+#hpNewsCenter .videoIcon {background: url('icons_sp.gif') no-repeat 0 2px;padding:0 5px;margin:0 0 0 5px;font-size:10px;line-height:10px;}
+#hpNCTable1 {margin-bottom:10px;}
+#hpNCTable1 td {padding-right:3px;}
+#hphurrdata ul {padding:0 0 15px 0}
+
+/* 011 Vertical Module - new class added 3/11 for homepage.*/
+#hpVertBoxGO {margin:0;padding:0;color:white;background:#ff9000;border:2px solid #ff9000;font-weight:bold;}
+#hpVerticalBox {margin-bottom:15px;padding:9px;border:1px solid #ddd;background: url('gradient.gif') repeat-x left top;}
+#hpVerticalBox h2 {background: url('icons_se.gif') 0px 0px no-repeat;padding:2px 0 10px 22px;font-size:12px;color:#ff6600;}
+#hpVerticalBox li {padding-bottom: 10px;margin-left:4px;}
+.hpVBorder {border-top:1px dashed #ddd;margin: 10px 0;}
+.hpVTitle {font-weight:bold;color:#333333}
+#hpFE {margin-bottom:15px;padding:9px;border:1px solid #ddd;position:relative;}
+#hpFE h2 {font-size:10px;margin:0;padding:0 0 10px 0;color:#666;}
+#hpFE img {display:block;float:left;margin:2px 10px 0 0}
+#hpFE .hpFELink {float:left;width:180px;}
+#hpFE .hpFELink p {margin:0;padding:0 0 10px 0;}
+#hpFE .hpFEMore {margin:0;padding:0;text-align:right;}
+
+/* 009 Daily Wx Module */
+#hpDailyWx {color:#666;margin-bottom: 15px;padding:9px;border:1px solid #ddd;background-color:#fff;}
+#hpDailyWx h2 {font-size:10px;margin:0;padding:0;}
+#hpDailyWxImg {margin:10px 0;}
+#hpDailyWxImg img {display:block;float:left;margin:0;padding:0 10px 0 0;}
+.hpDWLinks1 {padding:0;margin:0;}
+#hpDailyWx p.hpDWLinks2 {padding:5px 0 0 0;margin:10px 0 0 0;border-top:1px solid #ddd;}
+
+/* 012 Weather Tools */
+#hpWxTools {font-size:11px;color:#333;margin: 15px 0;padding:9px;border:1px solid #ddd;color:#333;overflow:hidden;background-color:#fff;}
+#hpWxTools h2 {font-size:10px;margin:0;padding:0 0 10px 0;color:#666;}
+#hpWxTools ul {margin-top:5px;}
+#hpWxTools li {margin-left:4px;padding-bottom:6px;}
+#hpWxTools a {white-space: nowrap;}
+#hpWxTLeft {float:left;width:140px;margin-right:12px;}
+#hpWxTRight {float:left;width:127px;}
+
+/* On the Weather */
+#ontwcmod {width:323px !important;margin:0 0 15px 0 !important;}
+.ontwctxt {width:175px !important;}
+
+/* Featured Ads */
+.hpFeatMid {padding:0 15px;float:left;}
+.hpFeat {float:left;}
+.hpFeatIn {width:192px;background: url('ad_gradi.gif') 0px 0px repeat-x;}
+.hpFeatIn div {padding:10px;}
+.hpFeatIn div.ad_partPosition {padding:0;}
+
+.hbBannerMenuItemSelected {border: solid #FFFFFF;border-width: 1px 1px 0px 1px; color: #FFFFFF;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;font-size: 10px;font-weight: bold;text-align : center;line-height: 19px;height: 30px;background-color:#ff9000;z-index: 4;}
+
+#hpVerticalBox .iconWint {} /* default */
+#hpVerticalBox .iconSpri {background-position:0px -38px;}
+#hpVerticalBox .iconSumm {background-position:0px -73px;}
+#hpVerticalBox .iconFall {background-position:0px -111px;}
+#hpVerticalBox .iconAche {background-position:0px -148px;}
+#hpVerticalBox .iconAirQ {background-position:0px -186px;}
+#hpVerticalBox .iconAlle {background-position:0px -224px;}
+#hpVerticalBox .iconBoat {background-position:0px -263px;}
+#hpVerticalBox .iconCold {background-position:0px -148px;}
+#hpVerticalBox .iconFitn {background-position:0px -148px;}
+#hpVerticalBox .iconGolf {background-position:0px -300px;}
+#hpVerticalBox .iconInte {background-position:0px -338px;}
+#hpVerticalBox .iconHome {background-position:0px -376px;}
+#hpVerticalBox .iconLawn {background-position:0px -412px;}
+#hpVerticalBox .iconOutd {background-position:0px -449px;}
+#hpVerticalBox .iconPets {background-position:0px -487px;}
+#hpVerticalBox .iconRush {background-position:0px -525px;}
+#hpVerticalBox .iconSkin {background-position:0px -148px;}
+#hpVerticalBox .iconSki {background-position:0px -560px;}
+#hpVerticalBox .iconSpec {background-position:0px -595px;}
+#hpVerticalBox .iconSpor {background-position:0px -595px;}
+#hpVerticalBox .iconVaca {background-position:0px -631px;}
+#hpVerticalBox .iconWedd {background-position:0px -668px;}
+#hpVerticalBox .iconNewY {background-position:0px -705px;}
+#hpVerticalBox .iconVale {background-position:0px -745px;}
+#hpVerticalBox .iconMemo {background-position:0px -781px;}
+#hpVerticalBox .iconMoth {background-position:0px -817px;}
+#hpVerticalBox .iconFath {background-position:0px -853px;}
+#hpVerticalBox .iconFour {background-position:0px -893px;}
+#hpVerticalBox .iconHall {background-position:0px -928px;}
+#hpVerticalBox .iconThan {background-position:0px -962px;}
+#hpVerticalBox .iconStPa {background-position:0px -998px;}
+#hpVerticalBox .iconChri {background-position:0px -1034px;}
+#hpVerticalBox .iconKwan {background-position:0px -1074px;}
+#hpVerticalBox .iconHanu {background-position:0px -1110px;}
+#hpVerticalBox .iconMLB {background-position:0px -1147px;}
+#hpVerticalBox .iconNFL {background-position:0px -1182px;}
+#hpVerticalBox .iconBask {background-position:0px -1215px;}
+#hpVerticalBox .iconTenn {background-position:0px -1250px;}
+#hpVerticalBox .iconStar {background-position:0px -1289px;}
+#hpVerticalBox .iconCale {background-position:0px -1324px;}
+#hpVerticalBox .iconSuit {background-position:0px -1358px;}
+#hpVerticalBox .iconFami {background-position:0px -1394px;}
+/* 6 new sprites DN 2/14/2008 */
+#hpVerticalBox .iconBea {background-position:0px -1430px;}
+#hpVerticalBox .iconBus {background-position:0px -1465px;}
+#hpVerticalBox .iconBoa2 {background-position:0px -1502px;}
+#hpVerticalBox .iconCell {background-position:0px -1540px;}
+#hpVerticalBox .iconUmb {background-position:0px -1575px;}
+#hpVerticalBox .iconLigh {background-position:0px -1613px;}
+
+/* bz18047 - news video */
+#hpNewsVidMod {width:323px;border:1px solid #ddd;}
+.hpNewsWrap {width:323px;background-color:#FFFFFF;}
+#hpVideoMoreB {width:316px;border:0px;text-align:right;margin: 5px 3px 5px 0px;}
+.hpNewsLinks {width:305px;padding: 9px;background-color: yellow;}
+.hpVidlink {float: left;width:140px;font-size:10px;font-weight:bold;color: #666666;}
+.hpUpdateLink {float: right;width:155px;text-align:right;font-size:10px;font-weight:normal;color: #333333;}
+.hpUpdateLinkSevere {float: right;width:155px;text-align:right;font-size:10px;font-weight:normal;color: #cc0000;}
+div#hpVideoContentB {width:320px;padding-bottom:0px;}
+.hpVideoBoxB {color:#33f;border:1px solid #ddd;background: url('vid_grad.gif') repeat-x left bottom;width:308px;height:48px;margin-left:8px;overflow:hidden;}
+div#hpVideoTabContentB, #hpVideoTabContent1B, #hpVideoTabContent2B {width:323px;padding-top:5px;}
+
+
+
+

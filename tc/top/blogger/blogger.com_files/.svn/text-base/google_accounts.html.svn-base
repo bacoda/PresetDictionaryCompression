@@ -1,0 +1,105 @@
+<html><head><title>Google Accounts</title>
+
+<script type="text/javascript">  
+
+function getIframeSize() {
+ if (document.getElementById){ 
+    var t = document.getElementById("t");
+    try {
+      parent.wh(t.offsetWidth, t.offsetHeight);
+    } catch (e) { 
+    } 
+  } 
+} 
+
+function setFocus() {
+  if (document.forms[0].Email.value == null || 
+      document.forms[0].Email.value == "") { 
+    try {
+      document.forms[0].Email.focus();
+    } catch (e) {
+    }
+  } else {
+    try {
+      document.forms[0].Passwd.focus();
+    } catch (e) {
+    } 
+  } 
+}
+
+</script>
+
+<script type="text/javascript">
+  function onlogin() {
+    return;
+  }
+</script>
+<style type="text/css">
+  body, td, th { font-family: Arial, sans-serif;}
+  div.errormsg { color: red; font-size: smaller; font-family: arial,sans-serif; }
+  font.errormsg { color: red; font-size: smaller; font-family: arial,sans-serif; }  
+</style>
+<style type="text/css">
+.gaia.le.lbl { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.gaia.le.fpwd { font-family: Arial, Helvetica, sans-serif; font-size: 70%; }
+.gaia.le.chusr { font-family: Arial, Helvetica, sans-serif; font-size: 70%; }
+.gaia.le.val { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.gaia.le.button { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.gaia.le.rem { font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+
+   
+  .gaia.captchahtml.desc { font-family: arial, sans-serif; font-size: smaller; } 
+  .gaia.captchahtml.cmt { font-family: arial, sans-serif; font-size: smaller; font-style: italic; }
+  
+</style></head>
+<body style="background:#efefef" onload="getIframeSize(); setFocus()" dir="ltr"><!-- ServiceLoginBox.nui=default -->
+<div class="body"><form action="ServiceLoginBoxAuth" method="post" onsubmit="return(onPreLogin());"><table id="t" align="center" border="0" cellpadding="1" cellspacing="0">
+<script type="text/javascript">
+    function onPreCreateAccount() {
+    
+      return true;
+    
+    }
+
+    function onPreLogin() {
+    
+      
+      if (window["onlogin"] != null) {
+        return onlogin();
+      } else {
+        return true;
+      }
+    
+    }
+  </script>
+<tr><td colspan="2" align="center"><div class="errorbox-good"></div></td></tr>
+<tr><td nowrap><div align="right"><span class="gaia le lbl">Email:</span></div></td>
+<td>        <input type="hidden" name="service" value="blogger">                                           
+
+
+
+
+
+
+
+
+
+<input type="hidden" name="GA3T" value="ZWKsbAOHyGA">
+
+<input type="text" name="Email" value="" id="Email" class="gaia le val" size="18"></td></tr>
+<tr><td></td>
+<td align="left"></td></tr>
+<tr><td align="right"><span class="gaia le lbl">Password:</span></td>
+<td><input type="password" name="Passwd" id="Passwd" class="gaia le val" size="18"></td></tr>
+<tr><td></td>
+<td align="left"></td></tr>
+
+<tr><td align="right" valign="top"><input type="checkbox" name="PersistentCookie" checked value="yes">&nbsp;
+<input type="hidden" name="rmShown" value="1"></td>
+<td><span class="gaia le rem">Remember me on this computer.</span></td></tr>
+
+<!-- LoginElementsSubmitButton.nui=default -->
+<tr><td></td>
+<td align="left"><input type="submit" value="Sign in" class="gaia le button"></td></tr>
+<tr id="ga-fprow"><td colspan="2" nowrap height="33.0" class="gaia le fpwd" align="center" valign="bottom"><a href="https://www.blogger.com/forgot.g" target="_top">Forgot your password?</a></td></tr>
+</table></form></div></body></html>

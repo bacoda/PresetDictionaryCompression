@@ -1,0 +1,19 @@
+/* Copyright 2007 Google, Inc.  All rights reserved.
+
+   Direction-dependent CSS for ubtns.
+   
+*/
+
+body div.ubtn-left {
+  float:left;
+  display:inline;
+}
+
+body div.ubtn-right {
+  float:right;
+  display:inline;
+}
+
+body div.ubtn-none {
+  float:none;
+}

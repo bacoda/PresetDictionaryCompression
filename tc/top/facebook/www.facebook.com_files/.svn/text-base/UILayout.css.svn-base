@@ -1,0 +1,18 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/UILayout.css r119582                                                    */
+/*      Machine:  10.16.139.102                                                               */
+/*    Generated:  September 13th 2008 1:22:07 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.UITwoColumnLayout_Container{margin:0px;overflow:hidden;}
+.UITwoColumnLayout_Content{float:left;margin:0px;padding:0px;width:540px;}
+.UITwoColumnLayout_NarrowContent{float:right;width:200px;}
+.UITwoColumnLayout_FullPage .UITwoColumnLayout_Content{width:600px;}
+.UITwoColumnLayout_FullPage .UITwoColumnLayout_NarrowContent{width:320px;}
+.UITwoColumnLayout_StandardWide .UITwoColumnLayout_Content{width:420px;}
+.UITwoColumnLayout_StandardWide .UITwoColumnLayout_NarrowContent{width:320px;}
+.UITwoColumnLayout_LeftOrientation .UITwoColumnLayout_Content{float:right;}
+.UITwoColumnLayout_LeftOrientation .UITwoColumnLayout_NarrowContent{float:left;}
+.UITwoColumnLayout_TopMargin{padding:17px 0px 0px 0px;}

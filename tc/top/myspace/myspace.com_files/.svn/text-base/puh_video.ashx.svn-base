@@ -1,0 +1,65 @@
+<div id="todayVideos" class="middle clearfix selected"><div id="currentVideo" class="clearfix">
+<div id="videoPlayer"><object height="260" width="312">
+<param name="allowFullScreen" value="true">
+<param name="movie" value="http://mediaservices.myspace.com/services/media/embed.aspx/m=38891349,t=1,mt=video">
+<embed src="http://mediaservices.myspace.com/services/media/embed.aspx/m=38891349,t=1,mt=video" allowfullscreen="true" type="application/x-shockwave-flash" height="260" width="312">
+</object></div>
+	<h3><a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&amp;VideoID=38891349" title="Slipknot">Slipknot</a></h3>
+	<p class="description">Ny video fra metallheltene!</p>
+	<p class="count">Avspillinger: <small>1 269</small></p>
+	<ul id="currentVideoLinks">
+		<li class="last"><a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&amp;VideoID=38891349" title="Vis kommentarer">Vis kommentarer</a></li>
+	</ul>
+</div><div id="otherVideos"><ul id="otherVideosLinks"><li class=" clearfix">
+									<div class="thumbnail">
+										<a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=38222503" title="Basshunter Now You&#39;re Gone LIVE"><img src="http://cache01-videos02.myspacecdn.com/26/thumb1_9024a52aa113bd3df250eec3e03a5895.jpg" alt="Basshunter Now You&#39;re Gone LIVE" /></a>
+									</div>
+									<div class="info">
+										<h3><a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=38222503" title="Basshunter Now You&#39;re Gone LIVE">Basshunter Now You&#39;re Gone LIVE</a></h3>
+										<div class="rating clearfix">
+											<div class="rate" style="width:66%"><div></div></div><span class="count">94%</span>
+										</div>
+										<p>Visninger: <small>6 640</small></p>
+										<p>Kommentarer: <small>90</small></p>
+										
+									</div>
+								</li><li class=" clearfix">
+									<div class="thumbnail">
+										<a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=38149096" title="The Facehunter Show Moscow - Part 2"><img src="http://cache01-videos02.myspacecdn.com/18/thumb1_a79c945658b8f91c70a57d25b96bb6b8.jpg" alt="The Facehunter Show Moscow - Part 2" /></a>
+									</div>
+									<div class="info">
+										<h3><a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=38149096" title="The Facehunter Show Moscow - Part 2">The Facehunter Show Moscow - Part 2</a></h3>
+										<div class="rating clearfix">
+											<div class="rate" style="width:43%"><div></div></div><span class="count">58%</span>
+										</div>
+										<p>Visninger: <small>14 526</small></p>
+										<p>Kommentarer: <small>5</small></p>
+										
+									</div>
+								</li><li class=" clearfix">
+									<div class="thumbnail">
+										<a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=37957712" title="MySpace Denmark meets Hot Chip"><img src="http://cache01-videos02.myspacecdn.com/29/thumb1_4f211a7483a2183718057b3d6bad2e2d.jpg" alt="MySpace Denmark meets Hot Chip" /></a>
+									</div>
+									<div class="info">
+										<h3><a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=37957712" title="MySpace Denmark meets Hot Chip">MySpace Denmark meets Hot Chip</a></h3>
+										<div class="rating clearfix">
+											<div class="rate" style="width:64%"><div></div></div><span class="count">91%</span>
+										</div>
+										<p>Visninger: <small>1 161</small></p>
+										<p>Kommentarer: <small>1</small></p>
+										
+									</div>
+								</li><li class="last clearfix">
+									<div class="thumbnail">
+										<a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=38126180" title="Midnight Juggernauts : Into the Galaxy"><img src="http://cache01-videos02.myspacecdn.com/38/thumb1_de2c9c456f768cd4829ccde1633d62c0.jpg" alt="Midnight Juggernauts : Into the Galaxy" /></a>
+									</div>
+									<div class="info">
+										<h3><a href="http://vids.myspace.com/index.cfm?fuseaction=vids.individual&VideoID=38126180" title="Midnight Juggernauts : Into the Galaxy">Midnight Juggernauts : Into the Galaxy</a></h3>
+										<div class="rating clearfix">
+											<div class="rate" style="width:59%"><div></div></div><span class="count">83%</span>
+										</div>
+										<p>Visninger: <small>15 751</small></p>
+										<p>Kommentarer: <small>36</small></p>
+										
+									</div>
+								</li></ul><a href="http://vids.myspace.com/" class="more">Flere videoer &gt;&gt;</a></div></div>

@@ -1,0 +1,1117 @@
+<html><head>
+<link rel='stylesheet' type='text/css' href='adultfriendfinder.com_files/header00.css' />
+<link rel='shortcut icon' type='image/x-icon' href='adultfriendfinder.com_files/favicon0.bmp' />
+<link rel="meta" href="http://graphics.pop6.com/images/ICRA_labels_rdf_adult.rdf" type="application/rdf+xml" title="ICRA labels" />
+<meta http-equiv="pics-Label" content='(pics-1.1 "http://www.icra.org/pics/vocabularyv03/" l gen true for "http://adultfriendfinder.com" r (n 3 s 3 v 0 l 3 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 3)  gen true for "http://www.adultfriendfinder.com" r (n 3 s 3 v 0 l 3 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 3))' />
+<meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+</head>
+<!-- X.X.41.16 -->
+<!-- v./code/20080702 -->
+
+<script language="Javascript">
+    var ie7 = 0;
+    if (window.XMLHttpRequest && window.ActiveXObject) {
+        ie7 = 1;
+    }
+    var poptest = null;
+    if (window.SymRealWinOpen){
+        window.open = SymRealWinOpen;
+    }
+    if (window.NS_ActualOpen){
+        window.open = NS_ActualOpen;
+    }
+    function blockError(){
+        //alert("Block Error");
+        return true;
+    }
+    window.onerror = blockError;
+    function bypass(){
+        window.onfocus=null;
+        // alert("BY PASS");
+        if (ie7 == 0) poptest = window.showModelessDialog("javascript:function blockError(){return true;} window.onerror = blockError; function pop(){setTimeout(\"self.blur(); self.parent.focus(); top.location.href='adultfriendfinder.com_files/alt.com.html'; self.close(); self.opener.focus(); self.parent.focus(); \",2);} pop(); self.blur(); self.parent.focus(); self.parent.focus();","","dialogtop=9999; dialogleft=9999; dialogheight:0px; dialogWidth:0px; dialogHide:1; resizable: 1; status:no; help:no;scroll:yes;status:yes");
+        else poptest = window.showModelessDialog("adultfriendfinder.com_files/alt.com.html");
+                poptest.innerHeight = "720";
+                poptest.height = "720";
+                poptest.innerWidth = "815";
+                poptest.width = "815";
+                poptest.blur();
+                poptest.parent.focus();
+                poptest.window.opener.focus();
+    }
+    var from_pop = 0; 
+        if (from_pop != 1) {
+    //poptest = window.open('adultfriendfinder.com_files/alt.com.html','poptest','location=yes,scrollbars=yes,menubar=yes,toolbar=yes,resizable=yes,screenX=0,screenY=0,height=720,width=815');
+    poptest = true;                                                                                                                         
+    if(!poptest){
+         window.onfocus=bypass;
+         window.focus();
+    }                                                                                                                             
+    poptest.blur();
+    
+    window.focus();
+    }
+</script>
+
+
+
+
+
+<head>
+
+
+  <meta name="description" lang="en" content="  
+  The World's Largest Sex &amp; Swinger Personals Community
+">
+  <meta name="keywords" lang="en" content="adult dating, adult personals, chat, chat online, chat room, contact, dating, dating chat, dating service, dating site, free chat, free dating online, friend finder, friends, friendship, gay, girl, girl friend, girlfriend, guy, hot girl, hot guy, hot woman, internet dating, internet personal, lady, lesbian, love, lover, man, match maker, meet singles, online dating, online personals, penpal, personal web site, personals, romance, romance online, romantic, senior dating, sexy girl, sexy woman, single connection, single man, single man seeking woman, single romance, singles, soul mate, woman">
+<title>Adult FriendFinder - The World’s Largest Online Adult Personals for Adult Dating, Swingers, Sexy Adult Photos, Amateur Member Videos, and Adult Chat</title>
+<META HTTP-EQUIV="expires" CONTENT="0">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+<!--
+var requiredVersion = 8;
+var useRedirect = false;
+var flash2Installed = false;
+var flash3Installed = false;
+var flash4Installed = false;
+var flash5Installed = false;
+var flash6Installed = false;
+var flash7Installed = false;
+var flash8Installed = false;
+var flash9Installed = false;
+var maxVersion = 9;
+var actualVersion = 0;
+var hasRightVersion = false;
+var jsVersion = 1.0;
+
+// -->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript1.1" type="text/javascript">
+<!--
+
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+
+jsVersion = 1.1;
+
+if(isIE && isWin){
+  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+  document.write('on error resume next \n');
+  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');
+  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');
+  document.write('flash9Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9"))) \n');
+  document.write('<\/SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+// -->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+<!--
+
+function detectFlash() {  
+  if (navigator.plugins) {
+    var flashPlugin = navigator.plugins["Shockwave Flash 2.0"];
+    if (!flashPlugin) flashPlugin = navigator.plugins["Shockwave Flash"];
+    if (flashPlugin) {
+      var flashDescription = nflashPlugin.description;
+      var flashVersion = parseInt(flashDescription.substring(16));
+      flash2Installed = flashVersion == 2;    
+      flash3Installed = flashVersion == 3;
+      flash4Installed = flashVersion == 4;
+      flash5Installed = flashVersion == 5;
+      flash6Installed = flashVersion == 6;
+      flash7Installed = flashVersion == 7;
+      flash8Installed = flashVersion == 8;
+      flash9Installed = flashVersion >= 9;
+    }
+  }
+  
+  for (var i = 2; i <= maxVersion; i++) {  
+    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+  }
+
+  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 4;  
+
+  if (actualVersion >= requiredVersion) {
+    if (useRedirect) {
+      if(jsVersion > 1.0) {
+        window.location.replace(flashPage);  
+      } else {
+
+        window.location = flashPage;
+      }
+    }
+    hasRightVersion = true;                
+  } else {  
+
+    if (useRedirect) {
+
+      if(jsVersion > 1.0) {
+        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+      } else {
+        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+      }
+    }
+  }
+}
+
+detectFlash();   
+// -->
+</SCRIPT>
+<script type="text/javascript" src="adultfriendfinder.com_files/rm_lib-1.js"></script>
+
+<style type="text/css">
+<!--
+body      { background-color:#FFFFFF; }
+#wrapper  { width:800px; }
+#header   { width:100%; }
+  .logo_tagline  { float:left; height:auto; margin:0; padding:5px 10px 5px 0; font-family:Arial; color:#ABABAB; font-weight:bold; 
+      font-size:12px;
+      }
+  .login { float:right; height:auto; text-align:right; margin-top:26px; }
+    .login input.textbox { width:84px; height:20px; border:1px solid #898989; background-color:#F0F0F0; color:#898989; margin:0; padding:1px 2px; }
+    .login td { padding-left:5px; }
+    .login .logintext { font-family:Arial; font-size:11px; color:#898989; font-weight:bold; text-align:right; line-height:12px; 
+           }
+    .login .logintext a { font-size:10px; font-weight:normal; color:#898989; }
+    
+#navbar         { display:block; height:22px; position:relative; overflow:hidden; margin-bottom:2px;  }
+  #navbar ul    { list-style-type:none; margin:0; padding:0; }
+  #navbar li { display:inline; margin:0; padding:0; }
+  #navbar a:link, #navbar a:visited { font-family:Arial; font-size:12px; color:#FFFFFF; font-weight:bold; text-decoration:none; height:22px; overflow:hidden; 
+      padding:0px 10px;
+    }
+  .navbar_bg { display:block; width:100%; position:absolute; top:0px; left:0px; z-index:1; }
+    .b1  { display:block; overflow:hidden; height:1px; margin:0 5px; background-color:#BA7F7B; font-size:1px; }
+    .b2  { display:block; overflow:hidden; height:1px; margin:0 3px; background-color:#B67874; font-size:1px; }
+    .b3  { display:block; overflow:hidden; height:1px; margin:0 2px; background-color:#B1706B; font-size:1px; }
+    .b4  { display:block; overflow:hidden; height:2px; margin:0 1px; background-color:#AB6661; font-size:1px; }
+    .b5  { display:block; overflow:hidden; height:1px; margin:0; border-left:1px solid #8A312B; border-right:1px solid #8A312B; background-color:#9B514B; font-size:1px; }
+    .b6  { display:block; overflow:hidden; height:1px; margin:0; border-left:1px solid #822720; border-right:1px solid #822720; background-color:#934741; font-size:1px; }
+    .b7  { display:block; overflow:hidden; height:1px; margin:0; border-left:1px solid #791A14; border-right:1px solid #791A14; background-color:#8D3D37; font-size:1px; }
+    .b8  { display:block; overflow:hidden; height:1px; margin:0; background-color:#761811; font-size:1px; }
+    .b9  { display:block; overflow:hidden; height:1px; margin:0; background-color:#791A13; font-size:1px; }
+    .b10 { display:block; overflow:hidden; height:1px; margin:0; background-color:#7C1D16; font-size:1px; }
+    .b11 { display:block; overflow:hidden; height:1px; margin:0; background-color:#812019; font-size:1px; }
+    .b12 { display:block; overflow:hidden; height:1px; margin:0; background-color:#85231D; font-size:1px; }
+    .b13 { display:block; overflow:hidden; height:1px; margin:0; background-color:#8A261F; font-size:1px; }
+    .b14 { display:block; overflow:hidden; height:1px; margin:0; background-color:#8D2922; font-size:1px; }
+    .b15 { display:block; overflow:hidden; height:2px; margin:0; background-color:#902B24; font-size:1px; }
+    .b16 { display:block; overflow:hidden; height:2px; margin:0 1px; background-color:#902B24; font-size:1px; }
+    .b17 { display:block; overflow:hidden; height:1px; margin:0 2px; background-color:#902B24; font-size:1px; }
+    .b18 { display:block; overflow:hidden; height:1px; margin:0 3px; background-color:#902B24; font-size:1px; }
+    .b19 { display:block; overflow:hidden; height:1px; margin:0 5px; background-color:#902B24; font-size:1px; }
+  .navbar_links { display:block; position:absolute; top:3px; left:0px; z-index:5; padding-left:10px; }
+  
+#mainimage_search { display:block; width:100%; }
+  #mainimage { float:left; width:532px; height:auto; }
+  #search { float:left; margin:0 0 0 40px; font-family:Arial; font-size:11px; color:#000000; font-weight:bold; 
+      }
+    #search select { font-family:Arial; font-size:10px; }
+    input.age { width:25px; height:18px; border:1px solid #A2A2A2; background-color:#FFFFFF; color:#000000; padding:2px 4px; font-family:Arial; font-size:10px; }
+    input.zip { width:50px; height:18px; border:1px solid #A2A2A2; background-color:#FFFFFF; color:#000000; padding:2px 4px; font-family:Arial; font-size:10px; 
+          }
+    a.searchtext { font-family:Arial; color:#000000; font-weight:bold; text-decoration:none; 
+              font-size:14px;
+          }
+    
+#content { display:block; width:100%; margin-bottom:4px; }
+  .findsexpartners { float:left; width:532px; margin-right:4px; }
+  .findsextext { font-family:Arial;  color:#000000; font-weight:bold; letter-spacing:-1px; 
+          font-size:24px;
+      }
+  .watchrealvideos { float:right; width:262px; }
+  .separator  { display:block; overflow:hidden; height:1px; margin:0 15px; background-color:#7D7D7D; font-size:1px; }
+  .city { font-family:Arial;  color:#902B24; font-weight:bold; 
+          font-size:24px;
+      }
+  .join { font-family:Arial;  color:#902B24; font-weight:bold; letter-spacing:-1px; 
+          font-size:22px; 
+      }
+  .webcamtext { margin:10px 0; padding:0 14px; font-size:14px; color:#7D7D7D; }
+    .webcamtext a { font-size:14px; color:#7D7D7D; text-decoration:none; }
+  .videoplayer { font-family:Arial;  color:#000000; text-align:center; 
+          font-size:18px;
+      }
+
+span.location { font-size:9px !important; }
+
+
+#stats { margin:10px 0 12px 0; font-size:12px; font-weight:bold; padding:0 15px; 
+  line-height:22px;
+}
+  #stats .num { color:#000000; font-weight:bold; }
+
+#footer { display:block; width:100%; margin-bottom:4px; font-family:Arial; font-size:14px; color:#7D7D7D; }
+  .upsell { float:left; width:532px; margin-right:4px; line-height:20px; }
+  .banner { float:right; width:262px; text-align:right; }
+  #footer .otherlangs { display:block; margin-top:20px; text-align:center; font-size:12px; }
+  #footer a      { color:#902B24; }
+  #footer .desc  { color:#7D7D7D; font-size:14px; }
+  #footer .title { color:#000000; font-size:14px; font-weight:bold; }
+  
+.clear { clear:both; }
+.rc_box_white, .rc_box_gray { margin-bottom:6px; }
+.rc_box_white_top, .rc_box_white_bottom, .rc_box_gray_top, .rc_box_gray_bottom { display:block; }
+.rc_box_white1          { display:block; overflow:hidden; height:1px; margin:0 5px; background-color:#DFDFDF; font-size:1px; }
+.rc_box_white2          { display:block; overflow:hidden; height:1px; margin:0 3px; border-left:2px solid #DFDFDF; border-right:2px solid #DFDFDF; background-color:#FFFFFF; font-size:1px; }
+.rc_box_white3          { display:block; overflow:hidden; height:1px; margin:0 2px; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; background-color:#FFFFFF; font-size:1px; }
+.rc_box_white4          { display:block; overflow:hidden; height:2px; margin:0 1px; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; background-color:#FFFFFF; font-size:1px; }
+.rc_box_white_content   { display:block; background-color:#FFFFFF; height:auto; margin:0; padding:5px 10px; font-family:Arial; font-size:12px; color:#000000; border-left:1px solid #DFDFDF; border-right:1px solid #DFDFDF; }
+.rc_box_gray1           { display:block; overflow:hidden; height:1px; margin:0 5px; background-color:#E8E8E8; font-size:1px; }
+.rc_box_gray2           { display:block; overflow:hidden; height:1px; margin:0 3px; background-color:#E8E8E8; font-size:1px; }
+.rc_box_gray3           { display:block; overflow:hidden; height:1px; margin:0 2px; background-color:#E8E8E8; font-size:1px; }
+.rc_box_gray4           { display:block; overflow:hidden; height:2px; margin:0 1px; background-color:#E8E8E8; font-size:1px; }
+.rc_box_gray_content    { display:block; background-color:#E8E8E8; height:auto; margin:0; padding:5px; font-family:Arial; font-size:12px; color:#7D7D7D; }
+.contentheight { height:513px; }
+-->
+</style>
+</head>
+
+<body onload="poptest.blur(); window.focus(); ">
+  
+  <div id="wrapper">
+    
+    <!-- BEGIN HEADER DIV -->
+    <div id="header">
+      <div class="logo_tagline">
+        <!-- BEGIN LOGO & TAGLINE -->
+                  <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/logo0000.gif" border="0" alt="Adult FriendFinder" /></a>
+                <br>  World's Largest Adult Social Network and Sex Personals
+        <!-- END LOGO & TAGLINE -->
+      </div>
+      <div class="login">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tr><form method="post" action="https://secure.adultfriendfinder.com/p/login.cgi" name="LOGIN" target="_top" >
+<div><input type="hidden" name="who" value="UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-" /></div>
+<input type="hidden" name="site" value="ffadult" /><input type="hidden" name="action" value="login" />
+            <td class="logintext">Username:<br /><a href="http://adultfriendfinder.com/go/page/forgot_login.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Forgot username?</a></td>
+            <td><input type="text" name="handle" class="textbox" tabindex="1"></td>
+            <td class="logintext">Password:<br /><a href="http://adultfriendfinder.com/go/page/forgot_login.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Forgot password?</a></td>
+            <td><input type="password" name="password" class="textbox" tabindex="2"></td>
+            <td><input type="image" src="adultfriendfinder.com_files/login_su.gif" name="submit" value="submit"></td>
+          </tr></form>
+        </table>
+      </div>
+      <div class="clear"></div>
+    </div>  <!-- end header div -->
+    <!-- END HEADER DIV -->
+    
+    
+    <!-- BEGIN NAVBAR DIV -->
+    <div id="navbar">
+      <div class="navbar_bg">
+        <b class="b1"></b>
+        <b class="b2"></b>
+        <b class="b3"></b>
+        <b class="b4"></b>
+        <b class="b5"></b>
+        <b class="b6"></b>
+        <b class="b7"></b>
+        <b class="b8"></b>
+        <b class="b9"></b>
+        <b class="b10"></b>
+        <b class="b11"></b>
+        <b class="b12"></b>
+        <b class="b13"></b>
+        <b class="b14"></b>
+        <b class="b15"></b>
+        <b class="b16"></b>
+        <b class="b17"></b>
+        <b class="b18"></b>
+        <b class="b19"></b>
+      </div>
+      
+      <div class="navbar_links">
+        <ul>
+          <li><a href="http://adultfriendfinder.com/p/page.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>Home</nobr></a></li>
+          <li><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>JOIN NOW!</nobr></a></li>
+          <li><a href="http://adultfriendfinder.com/go/page/standard_login.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>Member Login</nobr></a></li>
+          
+          
+                      
+            <li><a href="http://search.adultfriendfinder.com/browse/index.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>Browse</nobr></a></li>
+            
+            
+             <!-- affiliate toggle -->
+              <li><a href="http://chat.adultfriendfinder.com/p/chat/makerooms.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>Chat</nobr></a></li>
+                                
+          
+          
+          
+                                    <li><a href="https://secure.adultfriendfinder.com/p/partners/main.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>Affiliates</nobr></a></li>
+                                
+          
+                     <!-- affiliate toggle -->
+                      <li><a href="http://adultfriendfinder.com/magazine/index.html?site=ffadult&who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-"><nobr>Magazine</nobr></a></li>
+                              
+        
+            <li><a href="http://adultfriendfinder.com/p/video/manager.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult&date_range=30_day&max_age=40&filter_show_sex=2&action=sort_score&min_age=18&show_sex=2" class="guest_nav-element" target="_top"><nobr>Video</nobr></a>
+		  
+          
+                     <!-- affiliate toggle -->
+            <li><a href="http://adultfriendfinder.com/blog/index.html?site=ffadult&who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-"><nobr>Blog</nobr></a></li>
+                              
+          <li><a href="http://adultfriendfinder.com/p/help.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><nobr>Help</nobr></a></li>
+        </ul>
+      </div>
+      
+      <div class="clear"></div>
+    </div>
+    <!-- END NAVBAR DIV -->
+    
+    
+    <!-- BEGIN MAIN IMAGE AND SEARCH -->
+    <div id="mainimage_search">
+      
+      <div class="rc_box_white">
+        <b class="rc_box_white_top">
+          <b class="rc_box_white1"></b>
+          <b class="rc_box_white2"></b>
+          <b class="rc_box_white3"></b>
+          <b class="rc_box_white4"></b>
+        </b>
+        <div class="rc_box_white_content" style="padding:1px 5px;">
+          <!-- BEGIN BODY CONTENT -->
+            <div style="width:790px; _width:785px;">
+              <!-- BEGIN MAIN IMAGE & TAGLINE -->
+              <div id="mainimage">
+                <div style="float:left;"><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/main_sha.jpg" width="223" height="255" border="0"></a></div>
+                <div style="float:left;"><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/main_tag.jpg" width="306" height="181" border="0"></a></div>
+                <div style="float:left;"><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/main_shb.jpg" width="306" height="74" border="0"></a></div>
+              </div>
+              <!-- END MAIN IMAGE & TAGLINE -->
+              
+              <!-- BEGIN SEARCH -->
+              <div id="search">
+                                  <form method="post" action="http://adultfriendfinder.com/p/register.cgi" name=search_form >
+<div><input type="hidden" name="who" value="UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-" /></div>
+<input type="hidden" name="site" value="ffadult" />
+                                <input type="hidden" name="searchtype" value="photo_search">
+                <input type="hidden" name="quick_search" value="1">
+                <input type="hidden" name="hottest" value="1">
+                <input type="hidden" name="prefill_from_cookie" value="1">
+                <input type="hidden" name="photo_rating" value="30">
+                <input type="hidden" name="bday_year" value="76">
+                <input type="hidden" name="looking_for_what" value="*">
+                <div style="margin-bottom:10px;"><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" class="searchtext">Search Our Hot Members</a></div>
+                <div style="margin-bottom:3px;">I am/We are a<br />
+  <select name="REG_sex" id="REG_sex" class="field_sm">
+    <option value="1" selected>Man</option>
+      <option value="2" >Woman</option>
+      <option value="3" >Couple (man and woman)</option>
+      <option value="5" >Couple (2 women)</option>
+      <option value="6" >Couple (2 men)</option>
+      <option value="4" >Group (men and/or women)</option>
+      <option value="7" >TS/TV/TG</option>
+    </select>
+ 
+ 
+ 
+</div>
+                <div style="margin-bottom:3px;">seeking a<br />
+  <select name="looking_for_person" id="looking_for_person" class="field_sm">
+   
+  <option value="1" > Man</option>
+      <option value="2" selected>Woman</option>
+      <option value="3" >Couple (man and woman)</option>
+      <option value="5" >Couple (2 women)</option>
+      <option value="6" >Couple (2 men)</option>
+      <option value="4" >Group (men and/or women)</option>
+      <option value="7" >TS/TV/TG</option>
+    </select>
+
+
+</div>
+                <div style="margin-bottom:3px;">
+                  between the ages of<br />
+                                      <input type="text" name="min_age" value="18" maxlength="2" class="age" onClick="if(this.value=='18')this.value=''" />
+                                    &nbsp;and&nbsp;
+                                      <input type="text" name="max_age" value="35" maxlength="2" class="age" onClick="if(this.value=='35')this.value=''" />
+                                  </div>
+                <div style="margin-bottom:3px;">Country<script language=javascript src="adultfriendfinder.com_files/english_.js"></script><br /><select name="country" class=field_sm onchange="statedropdown(search_form)"  class=field_sm>
+<option value="United States" >United States</option>
+<option value="Afghanistan" > Afghanistan</option>
+<option value="Albania" > Albania</option>
+<option value="Algeria" > Algeria</option>
+<option value="Andorra" > Andorra</option>
+<option value="Angola" > Angola</option>
+<option value="Antigua and Barbuda" > Antigua and Barbuda</option>
+<option value="Argentina" > Argentina</option>
+<option value="Armenia" > Armenia</option>
+<option value="Aruba" > Aruba</option>
+<option value="Australia" > Australia</option>
+<option value="Austria" > Austria</option>
+<option value="Azerbaijan" > Azerbaijan</option>
+<option value="Bahamas" > Bahamas</option>
+<option value="Bahrain" > Bahrain</option>
+<option value="Bangladesh" > Bangladesh</option>
+<option value="Barbados" > Barbados</option>
+<option value="Belarus" > Belarus</option>
+<option value="Belgium" > Belgium</option>
+<option value="Belize" > Belize</option>
+<option value="Benin" > Benin</option>
+<option value="Bermuda" > Bermuda</option>
+<option value="Bhutan" > Bhutan</option>
+<option value="Bolivia" > Bolivia</option>
+<option value="Bosnia &amp; Herzegovina" > Bosnia &amp; Herzegovina</option>
+<option value="Botswana" > Botswana</option>
+<option value="Brazil" > Brazil</option>
+<option value="Brunei" > Brunei</option>
+<option value="Bulgaria" > Bulgaria</option>
+<option value="Burkina Faso" > Burkina Faso</option>
+<option value="Burma" > Burma</option>
+<option value="Burundi" > Burundi</option>
+<option value="Cambodia" > Cambodia</option>
+<option value="Cameroon" > Cameroon</option>
+<option value="Canada" > Canada</option>
+<option value="Cape Verde" > Cape Verde</option>
+<option value="Cayman Islands" > Cayman Islands</option>
+<option value="Central African Republic" > Central Afr. Rep.</option>
+<option value="Chad" > Chad</option>
+<option value="Chile" > Chile</option>
+<option value="China" > China</option>
+<option value="Colombia" > Colombia</option>
+<option value="Comoros" > Comoros</option>
+<option value="Congo" > Congo</option>
+<option value="Costa Rica" > Costa Rica</option>
+<option value="Croatia" > Croatia</option>
+<option value="Cuba" > Cuba</option>
+<option value="Cyprus" > Cyprus</option>
+<option value="Czech Republic" > Czech Republic</option>
+<option value="Denmark" > Denmark</option>
+<option value="Djibouti" > Djibouti</option>
+<option value="Dominica" > Dominica</option>
+<option value="Dominican Republic" > Dom. Republic</option>
+<option value="Ecuador" > Ecuador</option>
+<option value="Egypt" > Egypt</option>
+<option value="El Salvador" > El Salvador</option>
+<option value="Equatorial Guinea" > Equatorial Guinea</option>
+<option value="Eritrea" > Eritrea</option>
+<option value="Estonia" > Estonia</option>
+<option value="Ethiopia" > Ethiopia</option>
+<option value="Fiji" > Fiji</option>
+<option value="Finland" > Finland</option>
+<option value="France" > France</option>
+<option value="French Guiana" > French Guiana</option>
+<option value="Gabon" > Gabon</option>
+<option value="Gambia" > Gambia</option>
+<option value="Georgia" > Georgia</option>
+<option value="Germany" > Germany</option>
+<option value="Ghana" > Ghana</option>
+<option value="Gibraltar" > Gibraltar</option>
+<option value="Greece" > Greece</option>
+<option value="Grenada" > Grenada</option>
+<option value="Guadeloupe" > Guadeloupe</option>
+<option value="Guatemala" > Guatemala</option>
+<option value="Guinea" > Guinea</option>
+<option value="Guinea-Bissau" > Guinea-Bissau</option>
+<option value="Guyana" > Guyana</option>
+<option value="Haiti" > Haiti</option>
+<option value="Honduras" > Honduras</option>
+<option value="Hong Kong" > Hong Kong</option>
+<option value="Hungary" > Hungary</option>
+<option value="Iceland" > Iceland</option>
+<option value="India" > India</option>
+<option value="Indonesia" > Indonesia</option>
+<option value="Iran" > Iran</option>
+<option value="Iraq" > Iraq</option>
+<option value="Ireland" > Ireland</option>
+<option value="Israel" > Israel</option>
+<option value="Italy" > Italy</option>
+<option value="Ivory Coast" > Ivory Coast</option>
+<option value="Jamaica" > Jamaica</option>
+<option value="Japan" > Japan</option>
+<option value="Jersey" > Jersey</option>
+<option value="Jordan" > Jordan</option>
+<option value="Kazakhstan" > Kazakhstan</option>
+<option value="Kenya" > Kenya</option>
+<option value="Kuwait" > Kuwait</option>
+<option value="Kyrgyzstan" > Kyrgyzstan</option>
+<option value="Laos" > Laos</option>
+<option value="Latvia" > Latvia</option>
+<option value="Lebanon" > Lebanon</option>
+<option value="Lesotho" > Lesotho</option>
+<option value="Liberia" > Liberia</option>
+<option value="Libya" > Libya</option>
+<option value="Liechtenstein" > Liechtenstein</option>
+<option value="Lithuania" > Lithuania</option>
+<option value="Luxembourg" > Luxembourg</option>
+<option value="Macau" > Macau</option>
+<option value="Macedonia" > Macedonia</option>
+<option value="Madagascar" > Madagascar</option>
+<option value="Malawi" > Malawi</option>
+<option value="Malaysia" > Malaysia</option>
+<option value="Maldives" > Maldives</option>
+<option value="Mali" > Mali</option>
+<option value="Malta" > Malta</option>
+<option value="Martinique" > Martinique</option>
+<option value="Mauritania" > Mauritania</option>
+<option value="Mauritius" > Mauritius</option>
+<option value="Mexico" > Mexico</option>
+<option value="Moldova" > Moldova</option>
+<option value="Monaco" > Monaco</option>
+<option value="Mongolia" > Mongolia</option>
+<option value="Morocco" > Morocco</option>
+<option value="Mozambique" > Mozambique</option>
+<option value="Namibia" > Namibia</option>
+<option value="Nepal" > Nepal</option>
+<option value="Netherlands" > Netherlands</option>
+<option value="Netherlands Antilles" > Netherlands Antilles</option>
+<option value="New Zealand" > New Zealand</option>
+<option value="Nicaragua" > Nicaragua</option>
+<option value="Niger" > Niger</option>
+<option value="Nigeria" > Nigeria</option>
+<option value="North Korea" > North Korea</option>
+<option value="Norway" > Norway</option>
+<option value="Oman" > Oman</option>
+<option value="Pakistan" > Pakistan</option>
+<option value="Panama" > Panama</option>
+<option value="Papua New Guinea" > Papua New Guinea</option>
+<option value="Paraguay" > Paraguay</option>
+<option value="Peru" > Peru</option>
+<option value="Philippines" > Philippines</option>
+<option value="Poland" > Poland</option>
+<option value="Portugal" > Portugal</option>
+<option value="Qatar" > Qatar</option>
+<option value="Romania" > Romania</option>
+<option value="Russia" > Russia</option>
+<option value="Rwanda" > Rwanda</option>
+<option value="San Marino" > San Marino</option>
+<option value="Sao Tome &amp; Principe" > Sao Tome &amp; Principe</option>
+<option value="Saudi Arabia" > Saudi Arabia</option>
+<option value="Senegal" > Senegal</option>
+<option value="Serbia &amp; Montenegro" > Serbia &amp; Montenegro</option>
+<option value="Seychelles" > Seychelles</option>
+<option value="Sierra Leone" > Sierra Leone</option>
+<option value="Singapore" > Singapore</option>
+<option value="Slovakia" > Slovakia</option>
+<option value="Slovenia" > Slovenia</option>
+<option value="Somalia" > Somalia</option>
+<option value="South Africa" > South Africa</option>
+<option value="South Korea" > South Korea</option>
+<option value="Spain" > Spain</option>
+<option value="Sri Lanka" > Sri Lanka</option>
+<option value="St. Kitts &amp; Nevis" > St. Kitts &amp; Nevis</option>
+<option value="St. Lucia" > St. Lucia</option>
+<option value="St. Vincent &amp; the Grenadines" > St. Vincent &amp; the Grenadines</option>
+<option value="Sudan" > Sudan</option>
+<option value="Suriname" > Suriname</option>
+<option value="Swaziland" > Swaziland</option>
+<option value="Sweden" > Sweden</option>
+<option value="Switzerland" > Switzerland</option>
+<option value="Syria" > Syria</option>
+<option value="Taiwan" > Taiwan</option>
+<option value="Tajikistan" > Tajikistan</option>
+<option value="Tanzania" > Tanzania</option>
+<option value="Thailand" > Thailand</option>
+<option value="Togo" > Togo</option>
+<option value="Trinidad and Tobago" > Trinidad and Tobago</option>
+<option value="Tunisia" > Tunisia</option>
+<option value="Turkey" > Turkey</option>
+<option value="Turkmenistan" > Turkmenistan</option>
+<option value="Turks and Caicos Islands" > Turks and Caicos Islands</option>
+<option value="Uganda" > Uganda</option>
+<option value="Ukraine" > Ukraine</option>
+<option value="United Arab Emirates" > U.A.E.</option>
+<option value="United Kingdom" > United Kingdom</option>
+<option value="United States" > United States</option>
+<option value="Uruguay" > Uruguay</option>
+<option value="Uzbekistan" > Uzbekistan</option>
+<option value="Venezuela" > Venezuela</option>
+<option value="Vietnam" > Vietnam</option>
+<option value="Western Sahara" > Western Sahara</option>
+<option value="Yemen" > Yemen</option>
+<option value="Zambia" > Zambia</option>
+<option value="Zimbabwe" > Zimbabwe</option>
+</select>
+</div>
+                <div style="margin-bottom:3px;">State/Province<br /><select name="state" style=font-size:11px>
+<option value="*">Any</option>
+</select>
+</div>
+                <div style="margin-bottom:5px;"><b id="zipstyle">Zip Code</b> (U.S. only)&nbsp;&nbsp;<input type="text" name="zip" maxlength="5" class="zip" /></div>
+                <div><input type="image" src="adultfriendfinder.com_files/search_b.gif" width="116" height="23" border="0" /></div>
+              </div></form>
+              <!-- END SEARCH -->
+              
+              <div class="clear"></div>
+            </div>
+          <!-- END BODY CONTENT -->
+        </div>
+        <b class="rc_box_white_bottom">
+          <b class="rc_box_white4"></b>
+          <b class="rc_box_white3"></b>
+          <b class="rc_box_white2"></b>
+          <b class="rc_box_white1"></b>
+        </b>
+      </div>
+    
+    </div>
+    <!-- END MAIN IMAGE AND SEARCH -->
+    
+    
+    <!-- BEGIN FIND SEX PARTNERS & WATCH REAL MEMBER VIDEOS -->
+    <div id="content">
+      
+      <!-- BEGIN FIND SEX PARTNERS -->
+      <div class="rc_box_white findsexpartners">
+        <b class="rc_box_white_top">
+          <b class="rc_box_white1"></b>
+          <b class="rc_box_white2"></b>
+          <b class="rc_box_white3"></b>
+          <b class="rc_box_white4"></b>
+        </b>
+        <div class="rc_box_white_content contentheight">
+          <!-- BEGIN BODY CONTENT -->
+          
+
+          <span class="findsextext">Find sex partners 
+      near <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" class="city">Oslo</a>
+  </span>     
+
+          <br />
+          <div style="margin-top:11px; overflow:hidden;">
+            
+  <style type="text/css">
+  .piclist_7481775371 td {
+    font-family: arial,sans-serif,helvetica;
+    font-size: 12px;
+    color: 000000;
+  }
+  .piclist_7481775371 a {
+    color: 902B24;
+  }
+  .piclist_7481775371 .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .piclist_7481775371 .title a {
+    color: #000000;
+  }
+  .piclist_7481775371 .location {
+    font-size: 10px;
+  }
+  .piclist_7481775371 img {
+    border: 0 transparent none;
+    /* Draw an image frame using padding. */
+    padding: px;
+    background-color: ;
+  }
+  .piclist_7481775371 td.cell,  .piclist_7481775371 td.alternate_cell {
+    background-color: transparent;
+  }
+  .piclist_7481775371 td.cell:hover, .piclist_7481775371 td.alternate_cell:hover {
+    background-color: #FFEE80;
+  }
+
+</style>
+
+
+<div class="piclist_7481775371" align="left" style="margin: 0px 0px 0px 0px;">
+<table style="background-color: transparent;" width="100%" border="0" cellspacing="1" cellpadding="0">
+<tr>
+<td>
+
+<table style="background-color: transparent; width: 100%;" border="0" cellspacing="0" cellpadding="2">
+
+  <!-- cells -->
+  <tr><td class=cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhouLErjj0CAC_tAQC2jwIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/hiLRV8ew.jpg" width="120" height="160" alt="No Photo" title="leolady666" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhouLErjj0CAC_tAQC2jwIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self">leolady666</a>
+    <span class="age_gender">28/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhouLErjj0CAC_tAQC2jwIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td>
+<td class=alternate_cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkgJAt42L60BAI49AgC2jwIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/yYFYr8wp.gif" width="120" height="160" alt="No Photo" title="beautifullady54" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkgJAt42L60BAI49AgC2jwIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self">beautifullady54</a>
+    <span class="age_gender">23/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkgJAt42L60BAI49AgC2jwIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td>
+<td class=cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkiFbP8tto8CAC_tAQCOPQIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/6F48li4t.jpg" width="120" height="160" alt="No Photo" title="jstcgirl" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkiFbP8tto8CAC_tAQCOPQIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self">jstcgirl</a>
+    <span class="age_gender">26/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkiFbP8tto8CAC_tAQCOPQIAZD0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td>
+<td class=alternate_cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhzOHkUZD0CALaPAgAvrQEAjj0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/dsgSP3Sp.jpg" width="120" height="160" alt="No Photo" title="langelgirl03" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhzOHkUZD0CALaPAgAvrQEAjj0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self">langelgirl03</a>
+    <span class="age_gender">29/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhzOHkUZD0CALaPAgAvrQEAjj0CAMUXAAAvDwAAuRMAAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td></tr>
+<tr><td class=cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkjR/6MtxRcAAGQ9AgC2jwIAL60BAI49AgAvDwAAuRMAAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/jxU3c5Ab.jpg" height="160" width="120" alt="No Photo" title="agirlwatcher" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkjR/6MtxRcAAGQ9AgC2jwIAL60BAI49AgAvDwAAuRMAAHqPAgA-&hr=" target="_self">agirlwatcher</a>
+    <span class="age_gender">32/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkjR/6MtxRcAAGQ9AgC2jwIAL60BAI49AgAvDwAAuRMAAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td>
+<td class=alternate_cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkgwMJYnLw8AAMUXAABkPQIAto8CAC_tAQCOPQIAuRMAAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/79100570.jpg" width="120" height="160" alt="No Photo" title="ladyloving1" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkgwMJYnLw8AAMUXAABkPQIAto8CAC_tAQCOPQIAuRMAAHqPAgA-&hr=" target="_self">ladyloving1</a>
+    <span class="age_gender">24/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkgwMJYnLw8AAMUXAABkPQIAto8CAC_tAQCOPQIAuRMAAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td>
+<td class=cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkh4LbI3uRMAAC8PAADFFwAAZD0CALaPAgAvrQEAjj0CAHqPAgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/SLatZK7x.jpg" height="160" width="120" alt="No Photo" title="artbabe97" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkh4LbI3uRMAAC8PAADFFwAAZD0CALaPAgAvrQEAjj0CAHqPAgA-&hr=" target="_self">artbabe97</a>
+    <span class="age_gender">32/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkh4LbI3uRMAAC8PAADFFwAAZD0CALaPAgAvrQEAjj0CAHqPAgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td>
+<td class=alternate_cell style=vertical-align: top; text-align: center>
+  <div style="text-align: center; white-space: nowrap;">
+
+    
+      <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhWlhUveo8CALkTAAAvDwAAxRcAAGQ9AgC2jwIAL60BAI49AgA-&hr=" target="_self"><img style="border: 0 transparent none;" src="adultfriendfinder.com_files/IrPD2RSP.jpg" width="120" height="160" alt="No Photo" title="MissButterfLai" /></a>
+    
+    <br />
+    <a class="handle" href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhWlhUveo8CALkTAAAvDwAAxRcAAGQ9AgC2jwIAL60BAI49AgA-&hr=" target="_self">MissButterfLai</a>
+    <span class="age_gender">20/F</span>
+    <br />
+    <a href="http://adultfriendfinder.com/go/p62151c+reg?picid=2FtDs1XYgbkhWlhUveo8CALkTAAAvDwAAxRcAAGQ9AgC2jwIAL60BAI49AgA-&hr=" target="_self"><span class="location">Oslo</span></a>
+    
+    
+
+  </div>
+</td></tr>
+
+
+  <tr>
+    <td style="text-align: left;" colspan="4" class="legal">
+      <span style="font-size: 0.8em; color: 000000">
+	 	    
+	   *Persons appearing in photographs may not be actual members.  Other data for illustrative purposes only.
+	   
+  World's largest <a href="http://adultfriendfinder.com/go/p62151c+reg" target="_self">sex and swinger personals</a> with over 20,000,000 members.
+
+	  </span>
+    </td>
+  </tr>
+
+
+
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+
+
+          </div>
+          
+          <div style="text-align:right; margin:10px 0 0 0;">
+          <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" class="join">Join now to see more hot members!</a> <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/login_su.gif" border="0" align="absmiddle"></a>
+          </div>
+          <!-- END BODY CONTENT -->
+        </div>
+        <b class="rc_box_white_bottom">
+          <b class="rc_box_white4"></b>
+          <b class="rc_box_white3"></b>
+          <b class="rc_box_white2"></b>
+          <b class="rc_box_white1"></b>
+        </b>
+      </div>
+      <!-- END FIND SEX PARTNERS -->
+      
+      <!-- BEGIN WATCH REAL MEMBER VIDEOS -->
+      <div class="rc_box_gray watchrealvideos">
+        <b class="rc_box_gray_top">
+          <b class="rc_box_gray1"></b>
+          <b class="rc_box_gray2"></b>
+          <b class="rc_box_gray3"></b>
+          <b class="rc_box_gray4"></b>
+        </b>
+        <div class="rc_box_gray_content contentheight">
+          <!-- BEGIN BODY CONTENT -->
+          <div class="videoplayer">
+          Watch Real <b>Member Videos</b><br />
+          
+          
+          <div style="margin-top:16px;">
+          <script language="JavaScript" type="text/javascript">
+          <!--
+          // In this section we set up the content to be placed dynamically on the page.
+          // Customize movie tags and alternate html content below.
+          if (!useRedirect) {    // if dynamic embedding is turned on
+            if(hasRightVersion) {  // if we've detected an acceptable version
+              var swfFile = "http://graphics.pop6.com/images/ffadult/video/26506/video_intro_blonde_strip.swf";
+              
+              var oParams = new Object();
+              oParams.go_url = "http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult";
+              createSWF("Animation", swfFile, 225, 154, oParams, "#e2e2e2");
+            } 
+            else {  // flash is too old or we can't detect the plugin
+              // NOTE: height, width are required!
+              var alternateContent = '<a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/vid.gif" border="0" width="225" height="154" alt="" /></a><br>';
+              document.write(alternateContent);  // insert non-flash content
+            }
+          }
+          // -->
+          </script>
+          </div>
+          
+          
+          
+          <noscript><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/vid00000.gif" border="0" width="225" height="154" alt="" /></a></noscript>
+          </div>
+          
+          <div class="webcamtext" style="cursor:pointer;" onclick="javascript:location.href='http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult'">Explore the erotic lifestyle of millions of people through thousands of 
+<span class="desc-link"><a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">sexy webcam videos</a></span>.</div>
+          
+          <b class="separator"></b>
+          
+          <div id="stats">
+          
+          <span class="format_dutch"><span class="num">24,216,057</span> Members!</span><br />
+          
+          
+          <span class="num"><span class="format_dutch">98,861</span></span> Online NOW!<a href="javascript:void(0);" onClick="window.open('http://adultfriendfinder.com/go/page/note_about_calculations.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&amp;site=ffadult&amp;popup=1', 'invite','resizable=yes,scrollbars=yes,height=300,width=800,false');"  style="color: blue; text-decoration:none;" >*</a><br />
+          
+          
+                      <span class="num"><span class="format_dutch">159,714</span></span>
+            Members in
+            <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" onMouseOver="self.status='Join Now for FREE!';exit=false;return true" onMouseOut="self.status='';" style="color:#800000;"><span>      
+    Norway
+   
+</span><!-- _LOCALIZED --></a><br />
+                    
+          
+          <span class="num"><span class="format_dutch">182,965</span></span> New Photos this week!<br />
+          
+          
+           <!-- affiliate toggle -->
+            <span class="format_dutch"><span class="num">4,606</span> chatting now</span><br />
+                    
+          
+          <span class="format_dutch"><span class="num">10,063</span> using IM now</span><br />
+          </div>
+          
+          <div align="center">
+          <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/real_peo.gif" width="206" height="25" border="0" style="margin-bottom:6px;"></a>
+          <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult"><img src="adultfriendfinder.com_files/join_for.gif" width="206" height="41" border="0"></a>
+          </div>
+          <!-- END BODY CONTENT -->
+        </div>
+        <b class="rc_box_gray_bottom">
+          <b class="rc_box_gray4"></b>
+          <b class="rc_box_gray3"></b>
+          <b class="rc_box_gray2"></b>
+          <b class="rc_box_gray1"></b>
+        </b>
+      </div>
+      <!-- END WATCH REAL MEMBER VIDEOS -->
+      
+      <div class="clear"></div>
+    </div>  <!-- end content div -->
+    <!-- END FIND SEX PARTNERS & WATCH REAL MEMBER VIDEOS -->
+    
+    
+    <!-- BEGIN FOOTER DIV -->
+    <div id="footer">
+      <!-- BEGIN UPSELL TEXT & BANNER -->
+      <div class="upsell"><span class="title">Adult FriendFinder</span>
+<span class="desc">is the world's 
+largest adult sex and swingers site! You can 
+find new hookups with the hottest singles 
+and wildest couples. Whether you're looking
+for sex chat, nude webcams, swinger action, 
+group sex or adult personals, you'll get it on 
+Adult FriendFinder. Turn your wildest fantasies 
+into reality. <a href="http://adultfriendfinder.com/p/register.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Join today</a> and make love tonight.</span></div>
+      <div class="banner"><a href="http://cams.com/go/g43369.subffadult.subcams_cover2" target="_blank"><img src="adultfriendfinder.com_files/260x113_.jpg" width="260" height="113" border="0" alt="Cams.com"></a></div>
+      <div class="clear"></div>
+      <!-- END UPSELL TEXT & BANNER -->
+      
+      <!-- BEGIN OTHER LANGUAGE LINKS -->
+      <span class="otherlangs">
+        Other languages:
+        
+                      
+          <a href="http://adultfriendfinder.com/go/lang/spanish.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Español</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/french.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Français</a>&nbsp;                      <a href="http://adultfriendfinder.com/go/lang/german.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Deutsch</a>&nbsp;                    <a href="http://adultfriendfinder.com/go/lang/japanese.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">&#26085;&#26412;&#35486;</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/portuguese.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Português</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/italian.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Italiano</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/dutch.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Nederlands</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/swedish.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Svenska</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/chinese.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">&#32321;&#39636;&#20013;&#25991;</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/korean.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">&#54620;&#44544;</a>&nbsp;          <a href="http://adultfriendfinder.com/go/lang/tagalog.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult">Tagalog</a>&nbsp;                
+        
+<center>
+
+
+<table width=840 cellpadding=2 cellspacing=0 border=0 align=center>
+  <tr>
+    <td align=center>
+        <script language="JavaScript" src="adultfriendfinder.com_files/getveris.js"></script>
+        </td>
+    <td width=580 align=center style="font-size:10px" rowspan=2>
+    
+             Copyright © 1996-2008 Various, Inc. All rights reserved.<br />
+
+           <br>
+      
+              <SCRIPT LANGUAGE="JavaScript">
+<!--
+  if ( navigator.appName == 'Microsoft Internet Explorer' ) {
+        var url = "http://adultfriendfinder.com";
+        var title = "Adult FriendFinder - Adults only personals";
+        if( window.external && ( navigator.platform == 'Win32' ||
+            ( window.ScriptEngine && ScriptEngine().indexOf('InScript') + 1 ) ) ) {
+                          document.write(' <A id="bookmark" HREF="javascript:window.external.AddFavorite(url,title);">Bookmark this site</a>&nbsp;|');
+                    } 
+  }
+// -->
+</SCRIPT>
+                    <a href="http://adultfriendfinder.com/go/page/corporate.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">Corporate</a> | 
+            <a href="http://adultfriendfinder.com/go/page/privacy.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">Privacy Policy</a> | 
+      <a href="http://adultfriendfinder.com/go/page/terms_of_use.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">Terms of Use</a> | 
+              <a href="http://adultfriendfinder.com/go/page/2257_notice.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">2257 Notice</a><br> 
+        <a href="http://adultfriendfinder.com/go/page/protect_kids.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">Protect Kids</a> | 
+            <a href="http://adultfriendfinder.com/p/help.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">Help / Contact</a> | 
+      <a href="http://adultfriendfinder.com/go/page/abuse.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult&abuse_date_registered=&abuse_pwsid=&abuse_fromip=&abuse_status=&abuse_handle=&abuse_level=&abuse_pid=" target="_top">Report Abuse or Sexually Explicit Ads</a>
+              | <a href="http://adultfriendfinder.com/geozones" target="_top">Adult Personals</a>
+            <br>
+              <a href="https://secure.adultfriendfinder.com/p/partners/main.cgi?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top">Webmasters, Earn Money!</a>
+      
+              | <a href="javascript:void(0);" onClick="window.open('http://adultfriendfinder.com/go/page/note_about_calculations.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&amp;site=ffadult&amp;popup=1', 'invite','resizable=yes,scrollbars=yes,height=300,width=800,false');"  style="" >*Note about Numbers</a>
+         
+          </td>
+            <td width=100 valign=bottom align=center rowspan=2>
+      <!--p62151c|g43369-->
+        <a href="http://alt.com/go/p59732" style="color:#666666" target="_blank">bondage personals</a>
+        <br><br><br>
+         
+        <a href="http://adultfriendfinder.com/go/page/protect_kids.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top"><img src="adultfriendfinder.com_files/88x31_RT.gif" alt="" width="88" height="31" border="0"></a>
+              </td>
+          <td width=50 valign=top align=right>
+      <a href="http://adultfriendfinder.com/go/page/panic_page.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" style="color:red;font-weight:bold;" target="_top">Hide</a><br />
+    </td>
+</tr>
+<tr>
+<td valign=bottom align=center>
+<a href="http://adultfriendfinder.com/go/page/protect_kids.html?who=UmFuZG9tSVah8b33l36yZjPJBdWvG91bp6T76FhhmJ2NlMUqCC0s0eie8cVGlB1gb4fOjt3chGs2FS_Sjl0ENs5NUSLBlrk/ZENQ_7/x2NnYmQKQ9nTLV88Snb7dKflZL9IIEoR0G1y8T37LLhplzCHgQplQIyB4yprLd_qLw1SOXUiNhJUmtsvnoDNxg7xqTPUGrPWEyLs-&site=ffadult" target="_top"><img src="adultfriendfinder.com_files/aw_88x31.gif" alt="" width="88" height="31" border="0"></a>
+</td>
+<td valign=bottom align=center>
+
+</td>
+</tr>
+</table>
+
+
+</center>
+
+
+
+</td></tr></table>
+
+<br><br>
+
+
+
+</body>
+</html>
+
+
+      </span>
+      <!-- END OTHER LANGUAGE LINKS -->
+    </div>  <!-- end footer div -->
+    <!-- END FOOTER DIV -->
+  </div>  <!-- end wrapper div -->
+  
+
+
+
+<script>
+function format_intlNumbers(fNums,fType){
+  for (var i=0; i < fNums.length; i++) {
+    if(fNums[i].className == fType){
+      var fNumstr = fNums[i].innerHTML;
+      if (fType = "format_dutch"){
+        fNumstr = fNumstr.replace(/,/g,".");
+      }
+      fNums[i].innerHTML = fNumstr;
+    }
+  }
+}
+var formatnumber;
+formatnumber = document.getElementsByTagName("span");
+if(formatnumber.length > 0) format_intlNumbers(formatnumber,"format_english");
+</script>
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='adultfriendfinder.com_files/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-2465534-2");pageTracker._setDomainName("adultfriendfinder.com");pageTracker._initData();pageTracker._trackPageview();</script><script language="javascript" type="text/javascript">
+<!--
+var send=(top != self && top.frames.length != 0)?0:1;var pageStartTime = new Date().getTime();function getRefererPageName(url){var page=url.replace(/^http:\/\//,"");page=page.replace(/\?.*/,"");page=page.replace(/&.*/,"");var host=page.replace(/\/.*/,"");if(host=~/adultfriendfinder\.com/){var regex=page.match(/(\/.*)/);page=RegExp.$1;} return escape(page);} function doStatistics(){if(send==1){var pageEndTime=new Date().getTime();var pageRenderTime=pageEndTime-pageStartTime;var site="ffadult";var sessionId=escape("\RT>;AR>T>D0 1215176822 213.236.208.22 ");var country="Norway";var city="";var language="english";var uid="";var pageName=escape(location.pathname);var pageState="";var referer="";var refererPageName=getRefererPageName(referer);var screenResolution=screen.width+"x"+screen.height;var level="";var gpid="g43369";var pid="p62151c";var glean=new Image();var rand=Math.round(10000*Math.random());if(site=="ffadult")glean.src="adultfriendfinder.com_files/glean.gif}} function addLoadEvent(func) {var oldonload = window.onload;if (typeof window.onload != "function") {window.onload = func;} else {window.onload = function() {if (oldonload) {oldonload();}func();}}}addLoadEvent(doStatistics);
+// -->
+ </script> 
+<!-- This document saved from http://adultfriendfinder.com/ -->

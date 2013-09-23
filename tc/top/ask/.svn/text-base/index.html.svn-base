@@ -1,0 +1,1132 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+<html>
+<head>
+<title>Ask.com Search Engine - Better Web Search</title>
+<style type="text/css">
+a,body,div,form,h1,h2,h3,h4,h5,h6,input,ol,option,p,select,table,td,th,ul,.L21, .T14{font-family:Arial,sans-serif;font-size:small;}
+a,a:visited { color:#0046D4;}
+.L19, .L21, .L23, .L13, .L6, .L20,.L1, .L16, .L17 {text-decoration:none;}
+.T3, .T5, .T7,.L13,.L20, .L3, .L8,.T19,.L16, a.L16:visited, .L17, a.L17:visited {font-size:.85em;}
+.T2 {font-size:1.1em;}
+.L6, .L1, .L16 {color:#00C;}
+.L1:hover, .L16:hover {text-decoration:underline;}
+.T2, .T5, .T14 {color:#C00;}
+.L21, .L21:visited, .L20, .L20:visited, .L8, .L8:visited {color:#666;}
+.L13, .L13:visited {color:#FFF;}
+.L17 {color:#336699}
+a.L3 {color:#0000CC}
+a.L3:visited {color:#0046D4;}
+.T19 {color:#Cf1a1a;font-family: "Trebuchet MS", Arial, sans-serif;text-transform: uppercase;}
+.T21{ font-size:1.6em; color:#Cf1a1a;}
+.b {font-weight:bold;}
+.T6 { font-size:1.2em; }
+a.L4, a.L4:visited { font-size:1.2em; }
+a.L4 {color:#0000CC;}
+a.L4:visited {color:#663399;}
+html, body {height:100%;padding:0;margin:0;}
+form {margin:0;padding:0;}
+#tstrip, #lstrip, #rstrip, #bstrip, body {
+background-color:#BCBCBC;
+}
+#skinPop {display:none;width:413px;height:160px;position:absolute;left:0;top:0;padding:10px;z-index: 11;}
+#ctl,#ctr,#cbl,#cbr {
+background-repeat:no-repeat;
+position:absolute;
+width:32px;
+height:32px;
+z-index:5;
+}
+#cbtl {
+top:20px;
+left:20px;
+}
+#ctl {
+top:20px;
+left:20px;
+background-position:-202px -41px;
+}
+#ctr {
+top:20px;
+right:20px;
+background-position:-234px -41px;
+}
+#cbl {
+bottom:20px;
+left:20px;
+background-position:-202px -72px;
+}
+#cbr {
+bottom:20px;
+right:20px;
+background-position:-234px -72px;
+}
+#hlink {
+position:absolute;
+margin-top:15px;
+margin-right:50px;
+top:35px;
+right:5px;
+}
+#mli, #oli {
+padding-left:16px;
+}
+#mli_askeraser, #oli_askeraser {
+padding-left:16px;
+}
+#q {
+width:305px;
+height:20px;
+border:1px solid #9DA2AD;
+padding-top:3px;
+padding-left:5px;
+vertical-align:middle;
+}
+.zm {
+line-height:20px;
+padding-left:6px;
+}
+#ska {
+background-position: -359px -360px;
+padding-right:20px;
+padding-bottom:5px;
+}
+#n_vid {
+background-position: -34px -212px;
+background-repeat:no-repeat;
+}
+#n_shp {
+background-position: -235px -212px;
+}
+#n_shpUK {
+background-position: -34px -253px;
+}
+#n_map {
+background-position: -34px -253px;
+}
+#n_tbr {
+background-position: -34px -210px;
+background-repeat:no-repeat;
+}
+#n_con {
+background-position: -34px -256px;
+height:16px;
+}
+#tnav {
+width:350px;
+height:75px;
+margin:0 0 0 177px;
+position: relative;
+}
+#mnav {
+padding:0;
+margin:0;
+}
+#mnav li {
+list-style-type:none;
+margin-bottom:2px;
+}
+#mnav li a{
+padding-left:49px;
+padding-top:13px;
+padding-bottom:12px;
+display:block;
+}
+#tnav li{
+text-align:center;
+list-style-type:none;
+display: block;
+width: 45px;
+height: 65px;
+position: absolute;
+top:0;
+}
+#tnav a {
+width: 45px;
+height: 65px;
+display: block;
+text-decoration:none;
+font-weight:bold;
+}
+#tnav #more a {
+width: 15px;
+}
+#container {
+height:200px;
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-150px;
+z-index: 10;
+}
+#fcon {
+z-index: 1;
+position:absolute;
+width:100%;
+bottom:40px;
+text-align:center;
+}
+#promo, #promo_all {
+margin-left:161px;
+clear:both;
+padding-top:15px;
+}
+#tstrip {
+width:100%;
+height:23px;
+z-index:1;
+}
+#lstrip {
+position:absolute;
+width:23px;
+height:100%;
+z-index:1;
+}
+#rstrip {
+position:absolute;
+width:23px;
+right:0px;
+height:100%;
+z-index:5;
+}
+#bstrip {
+width:100%;
+height:23px;
+bottom:0;
+position:absolute;
+z-index:1;
+}
+body {
+min-width:700px;
+min-height:500px;
+}
+#wrapper {
+height:100%;
+margin:0 auto;;
+position:relative;
+background-color:#FFF;
+overflow:hidden;
+}
+#qbox {
+padding:30px 11px 13px 11px;
+margin-left:20px;
+position:relative;
+float:left;
+height:45px;
+}
+#qconn {
+position:absolute;
+overflow:hidden;
+height:7px;
+width:16px;
+top:-7px;
+}
+#qcornr,#qcornl {
+position:absolute;
+width:13px;
+height:90px;
+top:-1px;
+}
+#qcornr {right:-13px;}
+#qcornl {left:-13px;}
+#navBubbleBody {
+position:absolute;
+left:20px;
+top:20px;
+z-index:1;
+background-color:#FFF;
+overflow:hidden;
+}
+#skLabel {
+position:absolute;
+top:20px;
+z-index:2;
+left:20px;
+width:405px;
+background-color:#FFF;
+padding-bottom:15px;
+border-bottom:solid 1px #ccc;
+}
+#skinDiv {
+padding-top:3px;
+position:absolute;
+top:59px;
+left:33px;
+width:385px;
+height:100px;
+padding-bottom:7px;
+background-color:#FFF;
+z-index:1;
+overflow:hidden;
+}
+.skinBox {
+float:left;
+width:85px;
+margin-top:5px;
+padding-top:5px;
+padding-left:4px;
+padding-right:1px;
+border:solid 1px #FFF;
+background-color:#FFF;
+padding-bottom:5px;
+margin-right:5px;
+}
+.skinBoxHover {
+border:solid 1px #FCC1B1;
+background-color:#FFF0E1;
+}
+.skinBox DIV {
+height:53px;
+}
+#adv_search {
+width:600px;
+z-index:10;
+background-color: #FFF;
+}
+.nobr {
+white-space:nowrap;
+}
+.pa{ padding:8px 0}
+.pb{ padding:12px 0}
+.pc{ padding: 8px 0 0 0}
+.pd {padding-left:10px}
+.sept{ border-top: #CCC solid 1px;}
+.sepb{ border-bottom: #CCC solid 1px;}
+.gbg { background-color:#F2F2F2}
+.sk_lt, .sk_ct, .sk_rt, .sk_lc, .sk_cc, .sk_rc, .sk_lb, .sk_cb, .sk_rb {
+width:17px;
+height:17px;
+}
+.sk_lt {background-position:-1px -29px;}
+.sk_ct {background-position:-19px -30px;}
+.sk_rt {background-position:-37px -29px;}
+.sk_lc {background-position:-1px -46px;}
+.sk_cc {background-position:-19px -46px;}
+.sk_rc {background-position:-37px -46px;}
+.sk_lb {background-position:-1px -64px;}
+.sk_cb {background-position:-19px -63px;}
+.sk_rb {background-position:-37px -64px;}
+#skinLeft, #skinRight {
+width:12px;
+height:14px;
+position:absolute;
+z-index:10;
+top:95px;
+}
+#skinLeft {
+left:15px;
+}
+#skinRight {
+background-position:-12px 0;
+left:422px;
+}
+.adot, .ddot {
+cursor:pointer;
+width:8px;
+height:8px;
+float:left;
+margin-right:14px;
+}
+.adot {
+background-position:0 -16px;
+}
+.ddot {
+background-position:-9px -16px;
+}
+.dtext, .ltext {
+width:33px;
+height:24px;
+border:solid 1px #FFF;
+margin-right:5px;
+float:left;
+}
+.dtext {
+background-position:0 -83px;
+}
+.ltext {
+background-position:0 -109px;
+}
+#skinBg {
+position:absolute;
+left:20px;
+top:46px;
+z-index:1;
+width:410px;
+height:135px;
+background-color:#FFF;
+}
+#skinStrip {
+width:1800px;
+height:160px;
+position:absolute;
+left:0px;
+}
+.buttonStripTop {
+position:absolute;
+top:300px;
+left:10px;
+border-top:solid 1px #CCCCCC;
+padding-top:5px;
+margin-top:40px;
+width:410px;
+text-align:right;
+}
+.skinHeader {
+margin-top:5px;
+}
+.transparentBorder {
+opacity:0.5;
+background-color:#FFF;
+position:absolute;
+filter:alpha(opacity=50);
+width:0;
+height:0;
+}
+.skinLeftPanel {
+position:absolute;
+margin-top:10px;
+width:220px;
+}
+.skinBottomLeftPanel {
+position:absolute;
+top:160px;
+}
+.skinBottomRightPanel {
+position:absolute;
+top:180px;
+left:100px;
+}
+.skinRightPanel {
+position:absolute;
+left:260px;
+width:160px;
+margin-top:10px
+}
+.skinSmallButton {
+font-size:1.1em;
+margin-top:4px;
+margin-bottom:10px;
+width:130px
+}
+.align {
+margin-right:2px;
+border:solid 1px #FFF;
+float:left;
+}
+.ask_triangle
+{
+vertical-align : middle; /* make ie happy */
+font-size : 70%; /* without, triangle is too large */
+padding-bottom : 2px;
+}
+.hlink a .ask_triangle,
+.hlink a:visited .ask_triangle { color:#888 }
+.hlink a:hover .ask_triangle,
+.hlink a:active .ask_triangle { color:#336699 }
+#askheader_verline{
+color: rgb(51, 51, 51);
+font-size: 0.8em;
+vertical-align: text-bottom;
+}
+.link {
+cursor: pointer;
+margin: 0;
+border: 0;
+padding: 0;
+background-color: transparent;
+color: #666;
+font-size: 84%
+}
+.link:hover {
+color: #336699;
+}
+.lgl, .rgl {
+position:absolute;
+overflow:hidden;
+width:1px;
+height:100%;
+top:20px;
+border-width:0 1px;
+border-style:solid;
+}
+.tgl, .bgl {
+position:absolute;
+overflow:hidden;
+height:1px;
+width:100%;
+border-width:1px 0;
+border-style:solid;
+}
+.bgb1 {background-color:#B5B5B5;}
+.bgb2 {background-color:#ADADAD;}
+.bgb3 {background-color:#A3A3A3;}
+.bgb4 {background-color:#959595;}
+.bgb5 {background-color:#868686;}
+.bgb6 {background-color:#7A7A7A;}
+.tgl1 {top:23px;border-color:#B8B8B8 #000 #B3B3B3;}
+.tgl2 {top:26px;border-color:#B0B0B0 #000 #AAA;}
+.tgl3 {top:29px;border-color:#A7A7A7 #000 #9F9F9F;}
+.tgl4 {top:32px;border-color:#9A9A9A #000 #909090;}
+.tgl5 {top:35px;border-color:#8B8B8B #000 #828282;}
+.tgl6 {top:38px;border-top-color:#7E7E7E;border-bottom-width:0;}
+.bgl1 {bottom:23px;border-color:#B3B3B3 #000 #B8B8B8;}
+.bgl2 {bottom:26px;border-color:#AAA #000 #B0B0B0;}
+.bgl3 {bottom:29px;border-color:#9F9F9F #000 #A7A7A7;}
+.bgl4 {bottom:32px;border-color:#909090 #000 #9A9A9A;}
+.bgl5 {bottom:35px;border-color:#828282 #000 #8B8B8B;}
+.bgl6 {bottom:38px;border-bottom-color:#7E7E7E;border-top-width:0}
+.lgl1 {left:23px;border-color:#000 #B3B3B3 #000 #B8B8B8}
+.lgl2 {left:26px;border-color:#000 #AAA #000 #B0B0B0;}
+.lgl3 {left:29px;border-color:#000 #9F9F9F #000 #A7A7A7;}
+.lgl4 {left:32px;border-color:#000 #909090 #000 #9A9A9A;}
+.lgl5 {left:35px;border-color:#000 #828282 #000 #8B8B8B;}
+.lgl6 {left:38px;border-left-color:#7E7E7E;border-right-width:0}
+.rgl1 {right:23px;border-color:#000 #B8B8B8 #000 #B3B3B3;}
+.rgl2 {right:26px;border-color:#000 #B0B0B0 #000 #AAA;}
+.rgl3 {right:29px;border-color:#000 #A7A7A7 #000 #9F9F9F;}
+.rgl4 {right:32px;border-color:#000 #9A9A9A #000 #909090;}
+.rgl5 {right:35px;border-color:#000 #8B8B8B #000 #828282;}
+.rgl6 {right:38px;border-right-color:#7E7E7E;border-left-width:0}
+#footerCopyright {
+margin: 10px 0 10px 0;
+white-space:nowrap;
+}
+</style>
+<style type="text/css">
+.nav, .nav:visited {color:#666;}
+.navSelected, .navSelected:visited {color:#c00;}
+#sbut,#qconn,#logoimg,#tnav li,#ska, #n_vid,#n_blg,#n_map,#n_shp,#n_tbr,#n_con,#qcornr,#qcornl,#ctl,#ctr,#cbl,#cbr {
+background-image: url(ask.com_files/b3000000.png);
+}
+#logo {
+width:150px;
+height:110px;
+float:left;
+}
+#logoimg {
+background-position: -35px -32px;
+position:absolute;
+width:150px;
+height:110px;
+}
+#tnav #n_web {
+left:0px;
+background-position: -35px -145px;
+}
+#tnav #n_img {
+left:75px;
+background-position: -85px -145px;
+}
+#tnav #n_loc {
+left:150px;
+background-position: -135px -145px;
+}
+#tnav #n_new {
+left:225px;
+background-position: -185px -145px;
+}
+#n_vid {
+background-position: -34px -212px;
+background-repeat:no-repeat;
+}
+#tnav #n_blg {
+left:300px;
+background-position: -235px -145px;
+}
+#tnav #more {
+left:375px;
+background-position: -366px -139px;
+width: 15px;
+}
+#qconn {
+background-position: -102px -393px;
+left:20px;
+}
+#qcornr {
+background-position: -115px -297px;
+}
+#qcornl {
+background-position: -101px -297px;
+}
+#wrapper {
+background-image: url(ask.com_files/peel3_v2.jpg);
+background-position: top left;
+background-repeat:no-repeat;
+max-width:px;
+max-height:px;
+}
+#qbox {
+background-color:#82ABBA;
+border:solid 1px #608695;
+}
+#container {
+width:608px;
+margin-left:-304px;
+}
+#sbut{
+width:68px;
+background-position: -282px -164px;
+height:26px;
+border:0px none;
+padding:0;
+margin:0;
+cursor:pointer;
+vertical-align:middle;
+}
+#q {
+width:308px;
+}
+</style>
+<script type="text/javascript">
+var _bgSrc = "http://sp.ask.com/i/h/sprite/b3.png";
+var _sharedSprite = "ask.com_files/shared2.png";
+var _staticUrl = "sp.ask.com";
+var _path = "web";
+var navColor = "#666";
+var navSelectedColor = "#c00";
+var _advPath = {web : "http://www.ask.com/webadvanced", blg : "http://www.ask.com/blogsadvanced"};
+var _urlPrefix = "http://www.ask.com/";
+var _urlNews ="http://news.ask.com/news?q={0}";
+var _urlShopping = "http://ask.pronto.com/user/search.do?query={0}";
+var _channel = "web";
+var _tbImpressionSrc = "ask.com_files/i.gif?t=a&d=us&s=a&c=h&ti=2&ai=44160&l=dir&o=0&sv=0a300516&ip=d5ecd016&ord=4733064";
+var _locale = "us";
+var _mapsLocale = "http://maps.ask.com/maps?a={0}&qsrc=265";
+var _urlSuffix = "&o=0&l=dir";
+var _applySkin = false;
+var _openBubble = false;
+var _openHpDialog = true;
+var _openUploadDialog = false;
+var _skinMetaInfo = "";
+var _bgImg = "http://sp.ask.com/sh/i/a10f/hp/peel3_v2.jpg";
+var _startTime = new Date().getTime();
+var _reloadUrl = "http://www.ask.com?&o=0&l=dir";
+var _jsPaths = {mystuff : 'ask.com_files/a10mystuff_c.r24898.js',
+blogs : 'inc/js/a10f/blogsadvanced_c.r18418.js'};
+var _theme = "";
+var _maxHeight = 0;
+var _impressionUrl = 'ask.com_files/i.gif?t=a&d=us&s=a&c=h&ti=2&ai=44093&l=dir&o=0&sv=0a300516&ip=d5ecd016&ord=4733064';
+var _skinUserId = "";
+if(!a10) {var a10 = {};}
+if(!a10.strings) { a10.strings = {};}
+a10.strings = {
+signup : "Sign Up",
+signup_tos : "You must agree to the Terms of Service to proceed",
+signup_nicklength : "Nickname must be 2-32 characters in length.",
+signup_pwmismatch : "Passwords do not match.",
+signup_pwlength : "Password must be 6-32 characters in length.",
+signup_emailmismatch : "Email addresses do not match.",
+signup_emaillength : "Email cannot be empty.",
+skins_namerequired : "Skin name is required.",
+skins_tos : "You must agree to the Terms of Service before proceeding",
+skins_urlinvalid : "Eek, your url seems to be invalid",
+skins_emptyselection : "You must select a file or enter a URL",
+skins_urlfile : "Enter either a file or a URL",
+skins_badfile : "Invalid file location",
+skins_upload : "Upload A Skin",
+skins_step3 : "Step 3 of 3",
+skins_step2 : "Step 2 of 3",
+skins_step1 : "Step 1 of 3",
+skins_lighttext : "Dark Text",
+skins_darktext : "Light Text",
+skins_edit : "Edit",
+skins_error : "Our computers are battling with a nasty gang of gremlins. We suggest trying your request again.",
+skins_credit : "Photo by",
+skins_hp : "Set as Homepage",
+skins_tb : "Download the Ask Toolbar",
+skins_errorurl : "http://sp.ask.com/sh/i/a10f/hp/error.gif"
+}
+function _ll(path, id) {
+if (self[id]) {
+return;
+}
+var head = document.getElementsByTagName('head')[0];
+var script = document.createElement('script');
+script.id = id;
+script.type = "text/javascript";
+script.src = path;
+head.appendChild(script);
+self[id] = true;
+};
+function init() {
+_ll('ask.com_files/a10hp_c.r26026.js', 'hp');
+_ts();
+}
+function _ts() {
+new Image().src = "ask.com_files/i.gif?t=a&d=us&s=a&c=h&ti=2&ai=20014&l=dir&o=0&sv=0a300516&ip=d5ecd016&ord=4733064";
+var st = new Image();
+st.src = "ask.com_files/i.gif?t=v&d=us&s=a&c=h&l=dir&o=0&sv=0a300516&p=homepage&ord=4733064";
+}
+function ssloaded() {
+a10.ss.init('q', 'sgpane', 'sgbody');
+a10.ss.offsetLeft = 20;
+}
+function nbloaded() {
+var link = document.getElementById('morelink');
+link.href = "#";
+link.onclick = function (event) {
+sct(43469);
+a10.nb.toggle(event);
+return false;
+};
+a10.event.addListener(window, "resize", a10.nb.repositionBubble);
+a10.nb.offsetLeft = -40;
+a10.nb.offsetTop = 60;
+a10.nb.position = "absolute";
+var nbBody = document.getElementById('navBubbleBody');
+if (nbBody) {
+a10.nb.bodyWidth = parseInt(nbBody.style.width);
+}
+a10.event.addListener(document.documentElement, "click", a10.nb.close);
+}
+function ct(li, id) {
+if (li && li.href && id) {
+if (li.wzup) return true;
+var url = li.href;
+var oInnerHTML = li.innerHTML;
+li.href = "http://wzus.ask.com/r?t=a&d=us&s=a&c=h&ti=1&ai="+enc(id)+"&l=dir&o=0&sv=0a300516&ip=d5ecd016&u="+enc(url)+"";
+li.wzup = 1;
+}
+return true;
+}
+function sct(id,li,im) {
+if (id){
+var url="";
+if (li) {
+url = ((li.href) ? li.href : li);
+}
+var retVal = "ask.com_files/b.html?t=a&d=us&s=a&c=h&ti=1&ai="+enc(id)+"&l=dir&o=0&sv=0a300516&ip=d5ecd016&u="+enc(url)+"";
+retVal = retVal + "&rnd="+Math.random().toString();
+var img = new Image();
+img.src = retVal;
+if(!im) {
+setTimeout(function(){ img }, 100);
+}
+return retVal;
+}
+}
+function enc(s){return (typeof encodeURIComponent != "undefined") ? encodeURIComponent(s) : escape(s);}
+var GlobalNav = {};
+GlobalNav.Constants = {
+webURL : "http://www.ask.com/web?qsrc=0&o=0&l=dir&q=",
+imageURL : "http://images.ask.com/pictures?qsrc=0&o=0&l=dir&q=",
+blogURL : "http://www.ask.com/blogsearch?qsrc=0&o=0&l=dir&q=",
+videoURL : "http://www.ask.com/video?qsrc=0&o=0&l=dir&q=",
+myStuffJsUrl : "http://mystuff.ask.com/jslib/com/m/auth.js",
+askDomain: "ask.com",
+myStuffDomain : "mystuff.ask.com"
+};
+GlobalNav.Messages = {
+msDefaultTitle : 'MyStuff',
+msGuestTitle : 'Guest',
+msStuff : 'Stuff',
+msRecent: 'Recent Searches',
+msSavedResults: 'Saved Results',
+msFolders: 'My Folders',
+msTags: 'My Tags',
+msNoResult: 'No result to display',
+advSearchTitle: 'Advanced Search',
+msSave: 'Save to MyStuff',
+msSaving: 'Saving to MyStuff',
+msSaved: 'Saved to MyStuff',
+msSaveWeb: 'Save Web Page',
+msSaveImg: 'Save Picture',
+msSaveVid: 'Save Video',
+msSaveBlg: 'Save Blog',
+msSaveDef: 'Save to MyStuff',
+msWelcome: 'Welcome Guest.',
+msSignIn: 'Sign in',
+msCreateAcct: 'Create an account',
+msOr: 'or',
+msSignOut: 'sign out',
+msSIErr: 'Please enter your email and password.',
+msSIErrPassword: 'You forgot to enter your password.',
+msSIErrEmail: 'You forgot to enter your email.',
+msSIErrUnknownEmail: 'Oops, unknown user email.&#160;',
+msSIErrHave: 'Have you&#160;',
+msSIErrSignedUp: 'signed up',
+msSIErrYet: '&#160;yet?',
+msSIErrWrongPwd: 'The password is incorrect. Make sure Caps Lock is turned off.',
+msSIErrFolder: 'Failed to create a root folder.',
+msLoggedInAs: 'Logged in as',
+msTitleDefault: "{0}&#39;s Stuff",
+msTitleSpecial: "{0}&#39; Stuff",
+msLocale: 'en_US',
+askeraserin: 'AskEraser '
+};
+GlobalNav.Links = {
+msCreateAcct : 'http://mystuff.ask.com/user/DisplaySignup?prod='
+};
+GlobalNav.Variables = {
+_isEraser : false,
+_isEraserOptOutEligible : false,
+_locale : 'us',
+_staticDomain : 'sp.ask.com',
+_optionsDialogWidth : 375
+};
+</script>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body onload="init()">
+<div id="wrapper" >
+<script type="text/javascript">
+document.getElementById("wrapper").style.display = 'none';
+if(_maxHeight > 0) {
+var winHeight = self.innerHeight || ((document.documentElement && document.documentElement.clientHeight) ? document.documentElement.clientHeight : document.body.clientHeight);
+if(winHeight > _maxHeight) {
+document.getElementById("wrapper").style.top = (winHeight - _maxHeight)/2 + "px";
+}
+}
+document.getElementById("wrapper").style.display = '';
+</script>
+<style type="text/css">
+.link {
+cursor: pointer;
+margin: 0;
+border: 0;
+padding: 0;
+background-color: transparent;
+color: #666;
+font-size: 84%
+}
+.link:hover {
+color: #336699;
+}
+.lgl, .rgl {
+position:absolute;
+overflow:hidden;
+width:1px;
+height:100%;
+top:20px;
+border-width:0 1px;
+border-style:solid;
+}
+.tgl, .bgl {
+position:absolute;
+overflow:hidden;
+height:1px;
+width:100%;
+border-width:1px 0;
+border-style:solid;
+}
+.bgb1 {background-color:#B5B5B5;}
+.bgb2 {background-color:#ADADAD;}
+.bgb3 {background-color:#A3A3A3;}
+.bgb4 {background-color:#959595;}
+.bgb5 {background-color:#868686;}
+.bgb6 {background-color:#7A7A7A;}
+.tgl1 {top:23px;border-color:#B8B8B8 #000 #B3B3B3;}
+.tgl2 {top:26px;border-color:#B0B0B0 #000 #AAA;}
+.tgl3 {top:29px;border-color:#A7A7A7 #000 #9F9F9F;}
+.tgl4 {top:32px;border-color:#9A9A9A #000 #909090;}
+.tgl5 {top:35px;border-color:#8B8B8B #000 #828282;}
+.tgl6 {top:38px;border-top-color:#7E7E7E;border-bottom-width:0;}
+.bgl1 {bottom:23px;border-color:#B3B3B3 #000 #B8B8B8;}
+.bgl2 {bottom:26px;border-color:#AAA #000 #B0B0B0;}
+.bgl3 {bottom:29px;border-color:#9F9F9F #000 #A7A7A7;}
+.bgl4 {bottom:32px;border-color:#909090 #000 #9A9A9A;}
+.bgl5 {bottom:35px;border-color:#828282 #000 #8B8B8B;}
+.bgl6 {bottom:38px;border-bottom-color:#7E7E7E;border-top-width:0}
+.lgl1 {left:23px;border-color:#000 #B3B3B3 #000 #B8B8B8}
+.lgl2 {left:26px;border-color:#000 #AAA #000 #B0B0B0;}
+.lgl3 {left:29px;border-color:#000 #9F9F9F #000 #A7A7A7;}
+.lgl4 {left:32px;border-color:#000 #909090 #000 #9A9A9A;}
+.lgl5 {left:35px;border-color:#000 #828282 #000 #8B8B8B;}
+.lgl6 {left:38px;border-left-color:#7E7E7E;border-right-width:0}
+.rgl1 {right:23px;border-color:#000 #B8B8B8 #000 #B3B3B3;}
+.rgl2 {right:26px;border-color:#000 #B0B0B0 #000 #AAA;}
+.rgl3 {right:29px;border-color:#000 #A7A7A7 #000 #9F9F9F;}
+.rgl4 {right:32px;border-color:#000 #9A9A9A #000 #909090;}
+.rgl5 {right:35px;border-color:#000 #8B8B8B #000 #828282;}
+.rgl6 {right:38px;border-right-color:#7E7E7E;border-left-width:0}
+</style>
+<div id="tstrip"></div><div id="lstrip"></div><div id="rstrip"></div>
+<div id="ctl"></div><div id="ctr"></div><div id="cbl"></div><div id="cbr"></div>
+<div class="tgl bgb1 tgl1"></div><div class="tgl bgb2 tgl2"></div><div class="tgl bgb3 tgl3"></div><div class="tgl bgb4 tgl4"></div><div class="tgl bgb5 tgl5"></div><div class="tgl bgb6 tgl6"></div><div class="bgl bgb1 bgl1"></div><div class="bgl bgb2 bgl2"></div><div class="bgl bgb3 bgl3"></div><div class="bgl bgb4 bgl4"></div><div class="bgl bgb5 bgl5"></div><div class="bgl bgb6 bgl6"></div><div class="lgl bgb1 lgl1"></div><div class="lgl bgb2 lgl2"></div><div class="lgl bgb3 lgl3"></div><div class="lgl bgb4 lgl4"></div><div class="lgl bgb5 lgl5"></div><div class="lgl bgb6 lgl6"></div><div class="rgl bgb1 rgl1"></div><div class="rgl bgb2 rgl2"></div><div class="rgl bgb3 rgl3"></div><div class="rgl bgb4 rgl4"></div><div class="rgl bgb5 rgl5"></div><div class="rgl bgb6 rgl6"></div>
+<div id="hlink" class="T11">
+<a class="L20 eraser_hp nav" id="eli"href="http://www.ask.com/cookiedetection?rp=askeraserjsdisabled&ejs=http%3A%2F%2Fask.com%2F" onClick="if(!Cookie.isEnabled()){this.href = 'http://www.ask.com/askerasercookie?ejs=http%3A%2F%2Fask.com%2F'; askerasercookieDialog.show(); return false;} else {this.href = 'http://www.ask.com/cookiedetection?rp=askeraserjsdisabled&ejs=http%3A%2F%2Fask.com%2F'; askeraserDialog.show(); return false;}">AskEraser</a>
+<a id="mli" href="http://mystuff.ask.com/" class="L20 nav"><span id="mslabel">MyStuff</span><span class="ask_triangle">&#9660;</span></a>
+<a id="oli" href="http://www.ask.com/webprefs?o=0&l=dir" class="L20 nav">Options<span class="ask_triangle">&#9660;</span></a>
+</div>
+<div id="container">
+<ul id="tnav">
+<li id="n_web"><a class="navSelected" href="http://www.ask.com/?&o=0&l=dir" onclick="return a10.hp.ch('web',0,this);" >Web</a></li>
+<li id="n_img"><a class="nav" href="http://www.ask.com/?tool=img&o=0&l=dir" onclick="return a10.hp.ch('img',1,this);" >Images</a></li>
+<li id="n_loc"><a class="nav" href="http://city.ask.com/local?qsrc=&o=0&l=dir" onclick="return a10.hp.ch('loc',2,this);ct(this, 43553);" >City</a></li>
+<li id="n_new"><a class="nav" href="http://news.ask.com/news?qsrc=&o=0&l=dir" onclick="return a10.hp.ch('new',3,this);" >News</a></li>
+<li id="n_blg"><a class="nav" href="http://www.ask.com/?tool=bls&o=0&l=dir" onclick="return a10.hp.ch('blg',4,this);" >Blogs</a></li>
+<li id="more"><a id="morelink" href="http://sp.ask.com/docs/about/site_features.shtml"><span id="moreLabel" style="color:#c00">&nbsp;</span></a></li>
+</ul>
+<div id="logo" title="Ask.com"><div id="logoimg"></div></div>
+<div id="qbox">
+<form id="sform" action="http://ask.com/web" style="margin:0;padding:0" onsubmit="if (a10.ss) a10.ss.updateQsrc();">
+<table cellpadding="0" cellspacing="0"><tr><td>
+<div style="position: relative; z-index: 1;">
+<input autocomplete="off" id="q" name="q" value="" align="bottom">
+<div id="sgpane" style="display:none; z-index: 10;; width:310px">
+<div id="sgbody"></div>
+<div id="sstitle" class="T14 b">Search Suggestions</div>
+</div>
+<script type="text/javascript">
+var _disableSSMsg = "Disable";
+var _noSSFoundMsg = "No Search Suggestions Found";
+var _language = "en";
+var _country = "US";
+var _maxItems = -1;
+if (!a10) {var a10 = {}};
+a10.ss2 = {};
+a10.ss2.createSuggestions = function(suggestions, qsrc, origin, partnerID, siteID, country) {
+var return_str = '<ul id="suggestlist">';
+function createSuggestionList(suggestion, qsrc, origin, partnerID, siteID, country, idx) {
+highlight = "";
+if (highlight == "true") {
+query = a10.ss.lastSuccessfulQuery;
+re = new RegExp("^"+query);
+suggestion = suggestion.replace(re, "<span class='suggest'>"+query+"</span>");
+}
+var link = suggestion.replace(/(<([^>]+)>)/ig,"");
+return "<li><a href='"+_path+"?qsrc=" + qsrc + "&o="+ origin + "&l="+ partnerID + siteID + '&dm=' + country + "&q="+escape(link)+"' class='L1' onmouseover='a10.ss.select(" + (idx) +");'>" + suggestion + "</a></li>";
+}
+var separate = "";
+prefix_suggestions = [];
+mixed_suggestions = [];
+if (separate == "true") {
+for (var i = 0; i < suggestions.length; i++) {
+suggestion = suggestions[i];
+if (suggestion.substring(0, 1) == "<") {
+prefix_suggestions.push(suggestion);
+} else {
+mixed_suggestions.push(suggestion);
+}
+}
+} else {
+mixed_suggestions = suggestions;
+}
+var suggestion_index = 0;
+for (var i = 0; i < prefix_suggestions.length; i++) {
+if (_maxItems > 0 && suggestion_index >= _maxItems) {
+break;
+}
+return_str += createSuggestionList(prefix_suggestions[i], qsrc, origin, partnerID, siteID, country, suggestion_index++);
+}
+if (prefix_suggestions.length && mixed_suggestions.length) {
+if (_maxItems > 0 && suggestion_index < _maxItems) {
+return_str += "<li class=\"separator\"></li>";
+suggestion_index++;
+}
+}
+for (var i = 0; i < mixed_suggestions.length; i++) {
+if (_maxItems > 0 && suggestion_index >= _maxItems) {
+break;
+}
+return_str += createSuggestionList(mixed_suggestions[i], qsrc, origin, partnerID, siteID, country, suggestion_index++);
+}
+return_str += "</ul>";
+return return_str;
+}
+</script>
+<script type="text/javascript">
+var _suggestUrls = {web : "http://ss.ask.com/query?"};
+a10.ss2.getSuggestions = function(jsonData) {
+return jsonData["Suggestions"];
+};
+a10.ss2.getQuery = function(jsonData) {
+return jsonData["Query"];
+};
+a10.ss2.execute = function(query, country, language) {
+url = _suggestUrls['web'] + 'fn=suggestCallBack' +
+"&q=" + encodeURIComponent(query).toLowerCase() +
+"&cn=" + country +
+"&ln=" + language +
+"&ss=reply";
+jrObj = new JSONscriptRequest(url);
+jrObj.makeRequest();
+};
+</script>
+<script type="text/javascript">
+a10.ss2.postRender = function() {
+if(a10.ss.bubble) {
+a10.ss.bubble.redraw();
+} else {
+a10.ss.bubble = new a10.Bubble($(a10.ss.uiId), $(a10.ss.uiBodyId), 220, 0, "up", false, null, 35);
+}
+};
+</script>
+<style type="text/css">
+#sgpane {
+left: -10px;
+top: 30px;
+z-index: 15;
+position: absolute;
+}
+#sgbody {
+position: relative;
+background-color: white;
+left: 16px;
+top: 40px;
+width: 208px;
+padding: 4px 0px 0px 0px;
+z-index: 16;
+}
+#disablediv {
+text-align: right;
+padding-right: 7px;
+margin-top: 3px;
+}
+#sstitle {
+position: absolute;
+top: 20px;
+height: 20px;
+left: 20px;
+width: 203px;
+background-color: #FFF;
+border-bottom: solid 1px #ccc;
+z-index: 16;
+}
+ul#suggestlist {
+list-style-type: none;
+padding-left: 6px;
+margin: 0px;
+}
+ul#suggestlist li {
+margin-bottom: 3px;
+line-height: 17px;
+}
+ul#suggestlist li a:hover, ul#suggestlist li a:visited{
+text-decoration: none;
+}
+ul#suggestlist li.selected a{
+border-bottom: 1px solid #CC0000;
+}
+ul#suggestlist li.separator {
+display: none;
+}
+</style>
+</div>
+</td><td><button type="submit" name="search" value="search" id="sbut" ></button></td></tr></table>
+<div style="padding-top:2px;color:#FFF;width:313px;position:relative;">
+<div style="position:absolute;left:0px;top:0px;margin-top:6px;padding-bottom:5px;">
+<span id="skspan" style="display:none"><a href="" id="ska" class="L13" onclick="a10.hp.showSkin();return false;">Skins</a>&nbsp;<span id="sep" style="display:">|</span>&nbsp;</span><a id="advlink" style="display:" href="http://www.ask.com/webadvanced" class="L13" onmousedown="return ct(this,43452)">Advanced</a>
+</div>
+</div>
+<script type="text/javascript">document.getElementById('q').focus();</script>
+<input id="qsrc" type="hidden" name="qsrc" value="0" />
+<input id="origin" type="hidden" name="o" value="0" />
+<input type="hidden" name="l" value="dir" />
+</form>
+<div id="qconn"></div>
+<div id="qcornr"></div>
+<div id="qcornl"></div>
+</div>
+</div>
+<div id="fcon">
+<notrim>
+<div id="footerLinks" class="nav">
+<a href="http://about.ask.com/en/docs/about/index.shtml" onmousedown="return ct(this,10596)" class="L21 nav" target="_top">About</a>
+<strong>&#183;</strong>
+<a href="http://about.ask.com/en/docs/about/privacy.shtml" onmousedown="return ct(this,10596)" class="L21 nav" target="_top">Privacy</a>
+<strong>&#183;</strong>
+<a href="http://sponsoredlistings.ask.com/" onmousedown="return ct(this,10321)" class="L21 nav" target="_top">Advertise</a>
+<strong>&#183;</strong>
+<a href="http://www.askcareers.com/iacsam/jobboard/default.aspx" onmousedown="return ct(this,5015)" class="L21 nav" target="_top">Careers</a>
+</div>
+</notrim>
+<div id="footerCopyright" class="T7 nav"style=''>&#169;&#160;2008 Ask.com</div>
+</div>
+<div id="bstrip"></div>
+<div id="skinCredit" style="position:absolute;right:54px;bottom:54px;display:none" class="T7 nav" ></div>
+<div id="peelPromo" style="position:absolute;width:114px;height:114px;top:40px;left:40px;cursor:pointer;background-color:transparent" onclick="sct(44138);a10.hp.showSkin();return false;"></div>
+</div>
+<span id="placeholder"></span>
+<div id="skinPop">
+<table id="skLabel" cellpadding="0" cellspacing="0"><tr><td class="T11 b" style="color:#666" nowrap>Choose a New Look,&nbsp;</td><td><input type="button" style="width:100px" class="button T11 b" onclick="a10.hp.showAllSkins('http://www.ask.com/skins');" value="See All Skins"></td><td class="T11 b" style="color:#666" >&nbsp;Or&nbsp;</td><td width="100%" align="left"><input type="button" style="width:130px" class="button T11 b" onclick="sct(13036);a10.hp.hideSkinDialog();a10.skins.showUploadDialog();" value="Upload Your Own"></td></tr></table>
+<div id="skinBg"></div>
+<div id="skinDiv">
+<div id="skinStrip">
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb109" class="skinPV" onclick="return a10.hp.shs(this,'ask100009','/sh/i/a10f/hp/westernsky.jpg',1600,1050, 'bottom center', '#FFFFFF','#000000','43274','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb109').onclick();">Western Sky</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb106" class="skinPV" onclick="return a10.hp.shs(this,'ask100006','/sh/i/a10f/hp/polkadots.jpg',1600,1050, 'bottom center', '#666666','#CC0000','43271','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb106').onclick();">Polka Dots</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb115" class="skinPV" onclick="return a10.hp.shs(this,'ask100015','/sh/i/a10f/hp/cherry_blossoms.jpg',1600,1050, 'bottom center', '#FFFFFF','#CC0000','44081','John Margaretten')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb115').onclick();">Blossoms</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb108" class="skinPV" onclick="return a10.hp.shs(this,'ask100008','/sh/i/a10f/hp/timberbrume.jpg',1600,1050, 'bottom center', '#FFFFFF','#000000','43273','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb108').onclick();">Timber Brume</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb105" class="skinPV" onclick="return a10.hp.shs(this,'ask100005','/sh/i/a10f/hp/pink.jpg',1600,1050, 'bottom center', '#FFFFFF','#CC0000','43270','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb105').onclick();">Pink</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb110" class="skinPV" onclick="return a10.hp.shs(this,'ask100010','/sh/i/a10f/hp/tags.jpg',1600,1050, 'center center', '#FFFFFF','#CC0000','44091','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb110').onclick();">Tags</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb103" class="skinPV" onclick="return a10.hp.shs(this,'ask1000003','/sh/i/a10f/hp/flower.jpg',1600,1050, 'bottom center', '#FFFFFF','#000000','43268','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb103').onclick();">Flower</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb111" class="skinPV" onclick="return a10.hp.shs(this,'ask100011','/sh/i/a10f/hp/autumn_vines.jpg',1600,1050, 'top right', '#FFFFFF','#CC0000','44079','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb111').onclick();">Autumn Vines</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb112" class="skinPV" onclick="return a10.hp.shs(this,'ask100012','/sh/i/a10f/hp/altamont.jpg',1600,1050, 'bottom center', '#FFFFFF','#CC0000','44076','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb112').onclick();">Altamont</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb102" class="skinPV" onclick="return a10.hp.shs(this,'ask1000002','/sh/i/a10f/hp/cartas.jpg',1600,1050, 'bottom center', '#FFFFFF','#000000','43267','Erik Collier')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb102').onclick();">Cartas</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb00" class="skinPV" onclick="return a10.hp.shs(this,'','',null,null,'','','','43776')"></div>
+<a class="L16 b" tabindex="-1" href="http://www.ask.com/?o=0&l=dir" onclick="return $('tb00').onclick();">Default</a>
+</div>
+<div class="skinBox" onmouseover="this.className='skinBox skinBoxHover'" onmouseout="this.className='skinBox'">
+<div id="tb88" class="skinPV" onmousedown="sct(13045, this)" onclick="a10.hp.linkClicked=true;window.location='http://www.ask.com/skins';"></div>
+<a class="L16 b" tabindex="-1" onmousedown="sct(13045, this)" onclick="a10.hp.linkClicked=true;window.location='http://www.ask.com/skins';" href="http://www.ask.com/skins">More Skins</a>
+</div>
+</div>
+</div>
+<div id="skinLeft" title="Previous" onclick="a10.hp.slideLeft(event, 3.0)"></div>
+<div id="skinRight" title="Next" onclick="a10.hp.slideRight(event, 3.0)"></div>
+<a class="L3" id="editLink" href="javascript:void(0)" style="display:none;position:absolute;right:22px;top:162px;z-index:1" onclick="a10.skins.editCurrent();">Edit Current Skin</a>
+<div style="position:absolute;left:200px;top:161px;z-index:1;">
+<div id="skinPg1" class="adot" onclick="a10.hp.skinPage(1)"></div>
+<div id="skinPg2" class="adot" onclick="a10.hp.skinPage(2)"></div>
+<div id="skinPg3" class="adot" onclick="a10.hp.skinPage(3)"></div>
+</div>
+</div>
+<div id="navBubbleBody" style="width:190px;display:none;">
+<a id="navFocusAnchor" href="javascript:void(null)" style="cursor: default"></a>
+<ul id="mnav">
+<li ><a class="L21 b" onclick="a10.hp.ch('vid',-1,this);a10.nb.close();return false;" id="n_vid" href="http://www.ask.com/?tool=vid"><span class="plmnav">Video</span></a></li>
+<li><a class="L21 b" id="n_map" href="http://maps.ask.com/maps?a=&qsrc=265&o=0&l=dir" onclick="return a10.hp.ch('map',-1,this);"><span class="plmnav">Maps &amp; Directions</span></a></li>
+<li><a class="L21 b" id="n_shp" href="http://ask.pronto.com/?&asko=0&askl=dir" onclick="return a10.hp.ch('shp',-1,this);"><span class="plmnav">Shopping&nbsp;</span></a></li>
+<li><a class="L21 b" id="n_b" onmousedown="return ct(this,43263);" href="http://sp.ask.com/docs/about/site_features.shtml"><span class="plmnav">Browse Features</span></a></li>
+</ul>
+</div>
+<noscript>
+<img src="ask.com_files/i0000000.gif" border='0' width='1' height='1' />
+<img src="ask.com_files/i.gif?t=v&d=us&s=a&c=h&l=dir&o=0&sv=0a300516&p=homepage&ord=4733064" height=1 width=1 id="SessionTracker" />
+</noscript>
+<script type="text/javascript">
+var _cssPaths = {
+style1 : "http://a692.g.akamai.net/f/692/809/365d/www.ask.com/dcss/a10f/dialog.r23661.css",
+style2 : "http://a692.g.akamai.net/f/692/809/365d/www.ask.com/dcss/a10f/skinssprite.r24781.css",
+style3 : "http://a692.g.akamai.net/f/692/809/365d/www.ask.com/dcss/a10f/navdropdown.r23725.css",
+style4 : "http://a692.g.akamai.net/f/692/809/365d/www.ask.com/dcss/a10f/settings.r23340.css",
+style5 : "http://a692.g.akamai.net/f/692/809/365d/www.ask.com/dcss/a10f/askeraser.r23340.css",
+style6 : "http://a692.g.akamai.net/f/692/809/365d/www.ask.com/dcss/a10f/signin.r23340.css"
+}
+</script>
+</body>
+</html>
+
+<!-- This document saved from http://ask.com/ -->

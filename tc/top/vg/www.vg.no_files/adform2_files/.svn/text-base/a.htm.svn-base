@@ -1,0 +1,70 @@
+
+<!--//
+var adf_L="0";var adf_T="0";var adf_JS=1;
+var ADFjs = '<scr' + 'ipt language="Javascript1.1"\>adf_JS=2;'+'</scr' + 'ipt\> \n';
+ADFjs +='<scr' + 'ipt language="Javascript1.2"\>adf_JS=3;'+'</scr' + 'ipt\> \n';
+ADFjs +='<scr' + 'ipt language="Javascript1.3"\>adf_JS=4;'+'</scr' + 'ipt\> \n';
+ADFjs +='<scr' + 'ipt language="Javascript1.4"\>adf_JS=5;'+'</scr' + 'ipt\> \n';
+ADFjs +='<scr' + 'ipt language="Javascript1.5"\>adf_JS=6;'+'</scr' + 'ipt\> \n';
+ADFjs +='<scr' + 'ipt language="Javascript1.6"\>adf_JS=7;'+'</scr' + 'ipt\> \n';
+ADFjs +='<scr' + 'ipt language="Javascript1.7"\>adf_JS=8;'+'</scr' + 'ipt\> \n';
+document.write(ADFjs);
+var adf_UA=navigator.userAgent.toUpperCase();
+var adf_NS=(navigator.appName=="Netscape"?1:0);
+var adf_IE=(adf_UA.indexOf('MSIE'));
+var adf_OP=(adf_UA.indexOf('OPERA'));
+var adf_IEV=(parseInt(adf_UA.substr(adf_IE+5)));
+if (isNaN(adf_IEV)){adf_IEV="";}
+var adf_BrLa=(typeof(navigator.browserLanguage)!="undefined")?navigator.browserLanguage:((typeof(navigator.language)!="undefined")?navigator.language:0);
+var adf_OsLa=(typeof(navigator.systemLanguage)!="undefined")?navigator.systemLanguage:adf_BrLa;
+function adf_GFV() {
+   adf_FV=0;var adf_LV=10;
+   if (navigator.plugins != null && navigator.plugins.length > 0) {
+      var adf_FP = navigator.plugins['Shockwave Flash'];
+      if (typeof adf_FP == 'object') {
+         for (var i=adf_LV;i>=3;i--) {
+            if (adf_FP.description.indexOf(i+'.') != -1) {
+               adf_FV = i;
+               break;
+   }  }  }  }
+   else if (adf_UA.indexOf("MSIE") != -1 && parseInt(navigator.appVersion) >= 4 && adf_UA.indexOf("WIN")!=-1 && adf_UA.indexOf("16bit")==-1) {
+      var doc = '<scr' + 'ipt language="VBScript"\> \n';
+      doc += 'On Error Resume Next \n';
+      doc += 'Dim adf_obF4,adf_obF5,adf_obF6,adf_obF7,adf_obF8,adf_obF9,adf_obF10 \n';
+	  doc += 'Set adf_obF10 = CreateObject("ShockwaveFlash.ShockwaveFlash.10") \n';
+	  doc += 'If IsObject(adf_obF10) Then \n adf_FV = 10 \n else Set adf_obF9 = CreateObject("ShockwaveFlash.ShockwaveFlash.9") \n';
+      doc += ' If IsObject(adf_obF9) Then \n adf_FV = 9 \n else Set adf_obF8 = CreateObject("ShockwaveFlash.ShockwaveFlash.8") \n';
+      doc += '  If IsObject(adf_obF8) Then \n adf_FV = 8 \n else Set adf_obF7 = CreateObject("ShockwaveFlash.ShockwaveFlash.7") \n';
+      doc += '   If IsObject(adf_obF7) Then \n adf_FV = 7 \n else Set adf_obF6 = CreateObject("ShockwaveFlash.ShockwaveFlash.6") \n';
+      doc += '    If IsObject(adf_obF6) Then \n adf_FV = 6 \n else Set adf_obF5 = CreateObject("ShockwaveFlash.ShockwaveFlash.5") \n';
+      doc += '     If IsObject(adf_obF5) Then \n adf_FV = 5 \n else Set adf_obF4 = CreateObject("ShockwaveFlash.ShockwaveFlash.4") \n';
+      doc += '  End If \n End If \n End If \n End If \n End If \n End If \n';
+      doc += '</scr' + 'ipt\> \n';
+      document.write(doc);
+   } return adf_FV;}
+var adf_CT ="3";
+if(document.body&&document.body.addBehavior&&(adf_IE>=0)&&(adf_IEV>=5)&&((adf_UA.indexOf('MAC'))==-1)&&(adf_OP==-1)){
+     document.body.addBehavior("#default#clientCaps");
+     adf_CT=document.body.connectionType;
+     if (adf_CT=="lan"){adf_CT="1";}else{if(adf_CT=="modem"){adf_CT="2";}}}
+if((typeof(screen)!="undefined")&&(screen!=null)){
+	var adf_SS=0;
+	var adf_SC=0;
+	var screend=0;
+	eval("try{adf_SS=screen.width+'X'+screen.height; adf_SC=screen.colorDepth; if (navigator.appVersion.substring(0, 1)>=4) screend=screen.pixelDepth; }catch(e){}");
+}
+
+
+var adf_HL=0;
+var adf_IW=adf_NS?(50*Math.round(innerWidth/50)):(document.body?(50*Math.round(document.body.clientWidth/50)):((document.documentElement && document.documentElement.clientWidth)?50*Math.round(document.documentElement.clientWidth/50):0));
+var adf_IH=adf_NS?(50*Math.round(innerHeight/50)):(document.body?(50*Math.round(document.body.clientHeight/50)):((document.documentElement && document.documentElement.clientHeight)?50*Math.round(document.documentElement.clientHeight/50):0));
+var adf_FlV=adf_GFV();
+var adf_CPU=(typeof(navigator.cpuClass)!="undefined")?navigator.cpuClass:"7";
+if(adf_CPU=="x86"){adf_CPU =1;}else{if(adf_CPU=="68k"){adf_CPU=2;}else{if(adf_CPU=="PPC"){adf_CPU=3;}else{if(adf_CPU=="Alpha"){adf_CPU=4;}else{if(adf_CPU=="Arm"){adf_CPU=5;}else{if(adf_CPU=="Other"){adf_CPU=6;}else{if(adf_CPU!="7"){adf_CPU=8;}}}}}}}
+var adf_Set1=escape(adf_OsLa)+"|"+escape(adf_BrLa)+"|"+escape(!adf_SS?0:adf_SS)+"|"+escape(!adf_FlV?0:adf_FlV);
+var adf_Set2=escape(adf_IW)+"|"+escape(adf_IH)+"|"+escape(!adf_SC?0:adf_SC)+"|"+adf_JS+"|"+adf_FlV+"|"+adf_HL+"|"+adf_CT+"|"+adf_CPU+"|"+adf_L+"|"+adf_T;
+var adf_Set3="http%3A%2F%2Fflash%2Evg%2Eno%2Fannonser%2Fadform2%2Ehtml%3Fsource%3Dhttp%3A%2F%2Ftrack%2Eadform%2Enet%2Fadfscript%2F%3Fbn%3D79035%3Bclick%3Dhttp%3A%2F%2Fads%2Evg%2Ebasefarm%2Enet%2FRealMedia%2Fads%2Fclick%5Flx%2Eads%2Fwww%2Evg%2Eno%2Ffront%2F734165300%2Fx21%2FOasDefault%2Fkomplett%5Fknapp%5Ffront%5F2008%2Fkomplett%5Fknapp%5Ffront%5F2008%2Ehtml%2F64356563643031363438626538346630";
+var ADFbanxID = (typeof(ADFafbanID)!="undefined") ? ADFbanxID+1: 1;
+var rndADF = Math.floor(Math.random()*11000);//1512
+document.write('<scr'+'ipt language="JavaScript" SRC="http://track.adform.net/adfserve/?bn=79035;click=http://ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/734165300/x21/OasDefault/komplett_knapp_front_2008/komplett_knapp_front_2008.html/64356563643031363438626538346630?;adfxid='+ADFbanxID+'x;'+rndADF+';set1='+(adf_Set1)+';set2='+(adf_Set2)+'&CREFURL='+adf_Set3+'"></SCR'+'IPT>');
+//-->

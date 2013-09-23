@@ -1,0 +1,128 @@
+/*
+$Id: mostpopular.css,v 1.7 2008/02/04 19:45:22 jguinto Exp $
+(c)2006 - 2007 The New York Times Company
+*/
+
+#mostPopWidget {
+	margin-bottom: 12px;
+	padding-bottom: 0px !important;
+	border-bottom: 1px solid #ccc !important; 
+	width: 335px; 
+	_position: relative;
+	}
+
+#mostEmailed {
+	display: block;
+	overflow: hidden;
+	}
+			
+#mostBlogged,	
+#mostSearched {
+	display: none;
+	overflow: hidden;
+	}
+	
+::root #mostEmailed, 
+::root #mostBlogged,
+::root #mostSearched {	
+	width: 319px;
+	}
+	
+#mostPopWidget h4 {
+	font-size: 90%;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0;
+	}
+
+#mostPopWidget div#tabsContainer {
+	border-left: 1px solid #ccc; 
+	position: relative;
+	top: 1px;
+	_top: 0;
+	left: -1px;
+	_left: 0;
+	_height: 15px;
+	_padding-top: 6px;
+	display: block;
+	}
+
+#mostPopWidget ul.tabs {
+	font-size: 10px;
+	_position: absolute;
+	top: 0;
+	}
+					
+#mostPopWidget ul.tabs li {
+	position: relative;
+	top: 0; 
+	padding-left: 5px;
+	padding-right: 5px;
+	_padding-bottom: 2px;
+	}
+		
+#mostPopWidget ul.tabs li.selected {	
+	_padding-bottom: 3px;
+	}	
+				
+#mostPopWidget ul.tabs li:first-child {
+	border-left-width: 1px;
+	}
+					
+#mostPopWidget  ul.tabs li a {
+	color: #333333;
+	}			
+
+#mostPopWidget ol {
+	padding-left: 0;
+	margin-left: 26px;
+	_margin-left: 30px;
+	line-height: 1.3em; 
+	}	
+	
+#mostPopWidget a.more {
+	font-size: 93% !important; 
+	float: left;
+	display: block !important;
+	margin-bottom:8px;
+	_margin-bottom: 4px;
+	margin-top:8px;
+	_margin-top: 4px;
+	}
+
+#mostPopWidget .moduleAd {
+	border-top: none !important;
+	border-bottom: none;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	color: #ccc;
+  	text-align: right;
+	padding: 0 5px 5px 0 !important; 
+	margin-top: -25px;
+	_height: 1%;
+	width: 328px; 
+	}
+
+#mostPopWidget .moduleAd:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}  
+	
+#mostPopWidget .moduleAd .adCreative {
+	border-top: 1px solid #ccc;
+	text-align: right;
+	float: right;
+	width: 316px;
+	padding: 7px 0 0 5px;
+	}
+
+#mostPopWidget .moduleAd .adCreative img {
+	float: right;
+	padding: 0 0 0 5px;
+	}

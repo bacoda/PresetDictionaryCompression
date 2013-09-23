@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>LiveJournal.com - Start a Free Blog / Journal Today
+</title>
+
+    
+        
+
+    <script>
+    
+    </script>
+    
+        <script language="JavaScript" type="text/javascript">
+            var Site;
+            if (!Site)
+                Site = {};
+
+            var site_p = {"media_embed_enabled": 1,
+"inbox_update_poll": 0,
+"has_remote": 0,
+"statprefix": "http://p-stat.livejournal.com",
+"ctx_popup": 1,
+"imgprefix": "http://p-stat.livejournal.com/img",
+"esn_async": 1,
+"currentJournal": "",
+"siteroot": "http://www.livejournal.com",
+"currentJournalBase": ""};
+            var site_k = ["media_embed_enabled", "inbox_update_poll", "has_remote", "statprefix", "ctx_popup", "imgprefix", "esn_async", "currentJournal", "siteroot", "currentJournalBase"];
+            for (var i = 0; i < site_k.length; i++) {
+                Site[site_k[i]] = site_p[site_k[i]];
+            }
+       </script>
+    <script type="text/javascript" src="livejournal.com_files/journals.js"></script>
+<link rel="stylesheet" type="text/css" href="livejournal.com_files/loggedou.css" />
+
+    <link rel="home" title="Home" href="http://www.livejournal.com/" />
+    <link rel="contents" title="Site Map" href="http://www.livejournal.com/site/" />
+    <link rel="help" title="Technical Support" href="http://www.livejournal.com/support/" />
+    <link rel="apple-touch-icon" href="http://p-stat.livejournal.com/img/apple-touch-icon.png" />
+    
+    <meta name="description" content="LiveJournal.com is a free service for all your journaling and blogging needs, offering privacy controls, photo storage, publishing tools, style templates, and online communities for just about every interest imaginable." />
+    <meta name="keywords" content="diary, journal, online journal, diaries, writing, online diary, web diary, blog, blogs, blogging software, free blog, blogging tool, blogging service, blogging templates, free diary, free journal, how to blog, create a blog, start a blog, social networking, social media, open source software" />
+    <meta name="rating" content="General" />
+    <meta name="ROBOTS" content="All" />
+    <meta name="revisit-after" content="14 days" />
+    
+
+    <!--[if lt IE 7]>
+        <link rel="stylesheet" type="text/css" href="http://p-stat.livejournal.com/lj_base-ie.css" />
+        <link rel="stylesheet" type="text/css" href="http://p-stat.livejournal.com/horizon/ie.css" />
+    <![endif]-->
+  </head>
+
+
+    <body class='logged-out' >
+    <div id="content">
+    
+    <div id="content-inner">
+      
+      
+
+      
+      
+
+      
+
+      
+      <h1 class='logged-out'></h1>
+
+      <div id='content-wrapper' class='' style='margin-right: ; height: 1%'>
+        
+
+        
+
+        <!-- Content -->
+        <div class='homepage-loggedout'>
+<div id='homepage-features' class='columns-2 pkg'>
+<div class='rounded-box' style='background-color: #cfe7ff;'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box-content' style='background-color: #cfe7ff;'><div class='columns-2-left'>
+<p class='intro'><strong>Express Yourself, Share Your Life, Connect with Friends Online</strong></p>
+<p class='intro detail'>You can use LiveJournal in many ways: a private journal, a blog, a discussion forum or a social network.</p>
+<a href='http://www.livejournal.com/tour/'><img src='livejournal.com_files/homepage.gif' border='0' alt="True Community, Content You Care About, Staying in Touch, and Your Personal Journal" /></a></div><!-- end columns-2-left -->
+<div class='columns-2-right join'>
+<div>
+<p class='joindetail'>Joining LiveJournal is completely free.</p>
+<form action='http://www.livejournal.com/create.bml' method='get' class='getstarted-home'><p class='joinlabel'>Choose a username: <input type="text" maxlength="16" name="user" size="20" /><input type='submit' name="submit" value="Create a Journal" class="start" /></form>
+<p class='member'><a href='http://www.livejournal.com/login.bml'>Already a member? Sign In</a></p></div>
+</div><!-- end .columns-2-right -->
+<div style='clear: left;'></div></div></div></div></div></div></div><!-- end .columns-2 -->
+
+<div class='homepage-spotlight'><div class='rounded-box'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box-content'><div class='appwidget appwidget-journalspotlight' id='LJWidget_12'>
+<script>
+Site.JournalSpotlight_showuserpics = 1;
+Site.JournalSpotlight_limit = '';
+Site.JournalSpotlight_user = '';
+</script>
+<h2><span>In Spotlight This Week:</span>
+<span class='spotlight-controls'><img id='prev_spotlights' src='livejournal.com_files/arrow-spotlight-prev.gif' alt='Previous' title='Previous' /> <img id='prev_spotlights_disabled' src='livejournal.com_files/arrow-sp.gif' alt='Previous' title='Previous' /> <img id='next_spotlights' src='livejournal.com_files/arrow-spotlight-next.gif' alt='Next' title='Next' /><img id='next_spotlights_disabled' src='livejournal.com_files/arrow-sq.gif' alt='Next' title='Next' /></span>
+</h2><div id='all_spotlights'>
+<div>
+<div class='normal-users'>
+<ul class='nostyle pkg'>
+<li class='spotlight-1 with-userpic'><span class='userpic'><img src="livejournal.com_files/15024491.jpg" class="userpic-img" /></span><h4 class='user'><span class='ljuser' lj:user='housematehorror' style='white-space: nowrap;'><a href='http://community.livejournal.com/housematehorror/profile'><img src='livejournal.com_files/communit.gif' alt='[info]' width='16' height='16' style='vertical-align: bottom; border: 0; padding-right: 1px;' /></a><a href='http://community.livejournal.com/housematehorror/'><b>housematehorror</b></a></span></h4>
+<p class='description'>Horror stories from the world of shared living spaces. EEK!</p>
+</li>
+<li class='spotlight-2 with-userpic'><span class='userpic'><img src="livejournal.com_files/45283300.gif" class="userpic-img" /></span><h4 class='user'><span class='ljuser' lj:user='bikes' style='white-space: nowrap;'><a href='http://community.livejournal.com/bikes/profile'><img src='livejournal.com_files/communit.gif' alt='[info]' width='16' height='16' style='vertical-align: bottom; border: 0; padding-right: 1px;' /></a><a href='http://community.livejournal.com/bikes/'><b>bikes</b></a></span></h4>
+<p class='description'>A community for everyone who loves bicycles, motorbikes, and more.</p>
+</li>
+<li class='spotlight-3 with-userpic'><span class='userpic'><img src="livejournal.com_files/13284325.png" class="userpic-img" /></span><h4 class='user'><span class='ljuser' lj:user='dwseason4' style='white-space: nowrap;'><a href='http://dwseason4.livejournal.com/profile'><img src='livejournal.com_files/userinfo.gif' alt='[info]' width='17' height='17' style='vertical-align: bottom; border: 0; padding-right: 1px;' /></a><a href='http://dwseason4.livejournal.com/'><b>dwseason4</b></a></span></h4>
+<p class='description'>A journal where the alternative fourth season of the TV show Doctor Who is being written.</p>
+</li>
+<li class='suggest-spotlight detail'>Your favorite community here. <a href='http://www.livejournal.com/misc/suggest_spotlight.bml'>Suggest a Spotlight</a></li>
+<li class='more-comm detail'>View more at <span class='ljuser' lj:user='lj_spotlight' style='white-space: nowrap;'><a href='http://community.livejournal.com/lj_spotlight/profile'><img src='livejournal.com_files/communit.gif' alt='[info]' width='16' height='16' style='vertical-align: bottom; border: 0; padding-right: 1px;' /></a><a href='http://community.livejournal.com/lj_spotlight/'><b>lj_spotlight</b></a></span>.</li>
+</ul>
+</div><!-- .normal-users -->
+</div>
+</div>
+</div><!-- end .appwidget-journalspotlight -->
+</div></div></div></div></div></div></div></div></div></div><div class='homepage-ad'><div class='rounded-box' style='background-color: #ddd;'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box-content' style='padding: 5px; background-color: #ddd;'><div class='ljadwrapper-app-home'>
+<div class="ljad ljadmedrect" id="">
+<h4 style='float: left; margin-bottom: 2px; margin-top: 2px; clear: both;'><a href='http://www.sixapart.com/advertising/'>Advertisement</a></h4>
+<div style='float: right; margin-bottom: 3px; padding-top: 0px; line-height: 1em; white-space: nowrap;'>
+</div>
+<iframe src='livejournal.com_files/advertisement.html' frameborder='0' scrolling='no' id='adframe' style='width: 300px; height: 250px'></iframe></div>
+</div></div></div></div></div></div></div><div class='homepage-promo'><div class='rounded-box'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box-content'><p class='header'>Featured in LiveJournal</p><div class='appwidget appwidget-promotext' id='LJWidget_13'>
+<table cellspacing='0' cellpadding='5'><tr valign='top'><td width='50%'><p class='pkg'><a href='http://www.livejournal.com/update.bml'><img src='livejournal.com_files/photobuc.gif' class='promo-image' alt='' /></a><strong>Photos from your life</strong><br />With our Photobucket integration, you can access all your photos without leaving LJ.  <br /><a href='http://www.livejournal.com/update.bml'>update journal &raquo;</a></p></td><td width='50%'><p class='pkg'><a href='http://www.livejournal.com/misc/expunged_list.bml'><img src='livejournal.com_files/rename-p.gif' class='promo-image' alt='' /></a><strong>What's in a name? </strong><br />Think you have the worst username ever? Find recently purged usernames for your journal.<br /><a href='http://www.livejournal.com/misc/expunged_list.bml'>rename today &raquo;</a></p></td></tr><tr valign='top'><td width='50%'><p class='pkg'><a href='http://www.livejournal.com/voicepost/'><img src='livejournal.com_files/intlvoic.gif' class='promo-image' alt='' /></a><strong>Heard round the world</strong><br />International voice post numbers are available for  Canada, Japan, and the UK.<br /><a href='http://www.livejournal.com/voicepost/'>ready to post &raquo;</a></p></td><td width='50%'><p class='pkg'><a href='http://aqua.livejournal.ru/'><img src='livejournal.com_files/badge-aq.gif' class='promo-image' alt='' /></a><strong>Looking for something new to read?</strong><br />See what people are posting on LiveJournal right now.<br /><a href='http://aqua.livejournal.ru/'>find something new &raquo;</a><img src="livejournal.com_files/aqua.livejournal.ru.html" border='0' width='1' height='1' alt='' /></p></td></tr></table></div><!-- end .appwidget-promotext -->
+</div></div></div></div></div></div></div></div></div></div><!-- end .homepage-promo --><div class='homepage-stats'><div class='rounded-box'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box'><div class='rounded-box-tr'><div class='rounded-box-bl'><div class='rounded-box-br'><div class='rounded-box-content'><p class='header'>About LiveJournal</p><div class='appwidget appwidget-publicstats' id='LJWidget_14'>
+<table cellspacing='0' cellpadding='0'><tr valign='top'><td width='50%' style='padding-right: 10px;'><div class='statmeter stats-total pkg'><div class='publicstats-wrapper'>16.0 million</div><p class='detail'>journals and communities created since 1999</p></div></td><td><div class='statmeter stats-daily pkg'><div class='publicstats-wrapper'>189.9 thousand</div><p class='detail'>entries in the last 24 hours</p></div></td></tr></table></div><!-- end .appwidget-publicstats -->
+<p>Open Minded and <a href='http://www.livejournal.org/'>Open Source</a>.</p><p><a href='http://www.livejournal.com/support/faqbrowse.bml?faqid=57'>Volunteer supported</a> by people who love LJ.</p><p style='margin-top: 15px;'>Read about our latest features in <a href='http://news.livejournal.com/'>News</a>.</p>
+</div></div></div></div></div></div></div></div></div></div><!-- end .homepage-stats -->
+</div><!-- end .homepage-loggedout -->
+
+
+        <div class='clear'></div>
+      
+      </div>
+
+      
+
+    <div id="MiniSiteMap"><div id='MiniSiteMapWrapper'>
+    <ul class="MiniSiteMapCol" id="MiniSiteMapCol0">
+        <li>Mini Sitemap:</li>
+    </ul>
+    <ul class="MiniSiteMapCol" id="MiniSiteMapCol1">
+        <li><a href='http://www.livejournal.com/update.bml'>Post to Journal</a></li>
+        <li><a href="http://www.livejournal.com/download/">Downloads</a></li>
+    </ul>
+    <ul class="MiniSiteMapCol" id="MiniSiteMapCol2">
+        <li><a href="http://www.livejournal.com/shop/">LJ Gift Shop</a></li>
+        <li><a href="http://www.livejournal.com/site/safetytips.bml">Safety Tips</a></li>
+    </ul>
+    <ul class="MiniSiteMapCol" id="MiniSiteMapCol3">
+        <li><a href='http://www.livejournal.com/support/'>Support</a> &amp; <a href='http://www.livejournal.com/support/faq.bml'>FAQs</a></li>
+        <li><a href="http://www.livejournal.com/support/faqbrowse.bml?faqid=57">Be a Support Volunteer</a></li>
+    </ul>
+    <ul class="MiniSiteMapCol" id="MiniSiteMapCol4">
+        <li><a href='http://www.livejournal.com/feedback/'>Feedback</a> &amp; <a href='http://www.livejournal.com/feedback/'>Contact Us</a></li>
+        <li><a href="http://www.livejournal.com/abuse/report.bml">Report Abuse</a></li>
+    </ul>
+    <ul class="MiniSiteMapCol" id="MiniSiteMapCol5">
+        <li><a href="http://www.livejournal.com/news.bml">Site News</a></li>
+        <li id="More"><a href="http://www.livejournal.com/site/">More... (Full Sitemap)</a></li>
+    </ul>
+    <div class="clear"></div>
+</div></div>
+<!-- end minimap -->
+
+    <ul id='footer'><li><a href="http://www.livejournal.com/tour/">Tour</a> |</li><li><a href="http://www.livejournal.com/legal/tos.bml">Terms of Service</a> |</li><li><a href="http://www.livejournal.com/legal/privacy.bml">Privacy Policy</a> |</li><li><a href="http://www.livejournal.com/legal/dmca.bml">Copyright</a> |</li><li><a href="http://www.sixapart.com/advertising/">Advertise</a> |</li><li><a href="http://www.livejournal.com/manage/settings/">Viewing Options</a> |</li><li><a href="http://www.livejournal.com/create.bml">Get a Free Blog / Journal</a></li></ul><!-- end #footer -->
+
+    </div>
+    </div>
+    <!-- End \#content -->
+
+    
+    <div id="navigation">
+    <div id='Userpic'></div><!-- end #Userpic -->
+      <div id="NavigationWelcomeLogo">
+      
+      </div>
+      <!-- End Navigation and Welcome -->
+
+            <div id='NavBar'>
+      <ul id='NavMenu'>
+      <li class='NavMenuItem' id='NavMenuItem1'><a href='http://www.livejournal.com/explore/'>Explore LJ</a></li>
+<li class='NavMenuItem' id='NavMenuItem2'><a href='http://www.livejournal.com/culture/'>Culture</a></li>
+<li class='NavMenuItem' id='NavMenuItem3'><a href='http://www.livejournal.com/entertainment/'>Entertainment</a></li>
+<li class='NavMenuItem' id='NavMenuItem4'><a href='http://www.livejournal.com/life/'>Life</a></li>
+<li class='NavMenuItem' id='NavMenuItem5'><a href='http://www.livejournal.com/music/'>Music</a></li>
+<li class='NavMenuItem' id='NavMenuItem6'><a href='http://www.livejournal.com/news-and-politics/'>News & Politics</a></li>
+<li class='NavMenuItem' id='NavMenuItem7'><a href='http://www.livejournal.com/technology/'>Technology</a></li>
+<li class='NavMenuItem' id='NavMenuItem8'><a href='http://www.livejournal.com/update.bml'>Post to Journal</a></li>
+
+        <li id="NavMenuSearch">
+          <form action='http://www.livejournal.com/multisearch.bml' method='post'>
+            <input type="text" value="Find" size="12" name="q" id='SearchText' onfocus="if(this.value=='Find')this.value='';" onblur="if(this.value=='')this.value='Find';" />
+            <select name="type">
+              <option value='int'>Interest</option>
+              <option value='region'>Region</option>
+              <option value='nav_and_user'>Site &amp; User</option>
+              <option value='faq'>FAQ</option>
+              <option value='email'>Email</option>
+              <option value='im'>IM Info</option>
+            </select>
+            <input type="submit" value="Go" />
+          </form>
+        </li>
+      </ul>
+      </div>
+      <!-- End navbar -->
+
+
+    </div>
+    <!-- End #navigation -->
+
+    <!-- Login -->
+            <div class="lj_loginform" id="Login">
+          <form style='margin: 0; padding: 0;' method="post" action="http://www.livejournal.com/login.bml?ret=1" id="login" class="lj_login_form">
+            
+            <input type='hidden' name='mode' value='login' />
+            <input type='hidden' name='chal' class='lj_login_chal' value='c0:1215172800:1892:300:JLAd3vaCHnvVGG4BF8kk:95e7ecae0e76ca297414b4f0b30cf256' />
+            <input type='hidden' name='response' class='lj_login_response' value='' />
+            <table cellspacing="2" cellpadding="0">
+              <tr>
+                <th class="desc"><label for='login_user'>Username:</label></th>
+                <td><input type="text" name="user" size="24" id='login_user' tabindex="1" /></td>
+                <td rowspan="3" style="padding-left: 10px; vertical-align: top;">
+                  <a href="http://www.livejournal.com/create.bml">Create an Account</a><br />
+                  <a href="http://www.livejournal.com/lostinfo.bml">Forgot your login?</a><br/>
+                  <a href="http://www.livejournal.com/openid/">Login w/ OpenID</a><br/>
+                </td>
+              </tr>
+              <tr>
+                <th class="desc"><label for='login_password'>Password:</label></th>
+                <td style='white-space: nowrap;'><input type="password" name="password" size="15" class="lj_login_password" tabindex="2" />
+                <input type='submit' value="Login" tabindex='3' />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><label><input type="checkbox" name="remember_me" value="1" tabindex="4"  /> Remember Me</label></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="2" style='font-size: .8em; white-space: nowrap'>
+                    <a href="http://www.livejournal.com/manage/settings/">English &bull; Español &bull; Deutsch &bull; Русский&hellip;</a>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+
+    <!-- End Login -->
+
+    <!-- Logo -->
+    <div id="Logo">
+    <a href='' style='border: 0'><img src='livejournal.com_files/logo0000.png' style='width: 83px; height: 86px' alt='' class='transparentpng' /><div class='transparentpng' style="width: 83px; height: 86px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://p-stat.livejournal.com/horizon/logo.png',sizingMethod='scale')"></div>
+</a><div id='SiteName'><a href='' style='border: 0'><img src='livejournal.com_files/livejour.png' style='width: 189px; height: 27px' alt='' class='transparentpng' /><div class='transparentpng' style="width: 189px; height: 27px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://p-stat.livejournal.com/horizon/livejournal.png',sizingMethod='scale')"></div>
+</a></div>
+    </div>
+    <!-- End Logo -->
+
+
+    <!-- Extra block to read style from and call to initialize Horizon which reads style -->
+    <div id='Alpha' style='display: none !important'>&nbsp;</div>
+    <!--[if lt IE 7]><script>Horizon.scheme_init();</script><![endif]-->
+
+    
+    
+  </body>
+</html>
+
+
+<!-- This document saved from http://www.livejournal.com/ -->

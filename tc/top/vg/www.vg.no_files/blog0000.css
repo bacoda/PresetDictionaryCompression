@@ -1,0 +1,100 @@
+.blog-title-normal {
+		font-family: Times New Roman, Times, serif;
+        font-size:large;
+        font-weight:bold; 
+        }
+
+.blog-title-large {
+		font-family: Times New Roman, Times, serif;
+        font-size:200%;
+        font-weight:bold;
+        }
+
+.blog-title-xlarge {
+		font-family: Times New Roman, Times, serif;
+        font-size:300%;
+        font-weight:bold;
+        }
+
+.blog-title-xxlarge {
+		font-family: Times New Roman, Times, serif;
+        font-size:400%;
+        font-weight:bold;
+        }
+.blog-preamble {
+		font-family: Times New Roman, Times, serif;
+        font-size:normal;
+        }
+
+.blog-link {
+		font-family: Times New Roman, Times, serif;
+        color:red;
+        }
+
+a.blog-link:hover {
+		font-family: Times New Roman, Times, serif;
+        color:black;
+        }
+		
+		
+
+#footer {font-size: 11px;}
+#footer a:link {font-size: 11px;}
+
+
+/* TAG-CLOUD i MIDTEN */
+
+#tagcloud {margin: 10px; font-size: 12px; font-weight: bold;}
+h1#tagcloudhead {margin: 5px 0 0 0; padding: 3px; font-family: arial, sans-serif; font-size: 16px; color: #fff; background: #000;}
+
+#tagcloud a:link {color: #444; text-decoration: none;}
+#tagcloud a:visited {color: #666; text-decoration: none;}
+#tagcloud a:hover {color: #f63; text-decoration: underline;}
+
+#tagcloud a.samtStikkord:link, #tagcloud a.samtStikkord {color: red;}
+
+
+/* SPALTEN TIL VENSTRE */
+
+#vhspalte {width: 180px; margin: 0; font-family: arial, helvetica, sans-serif; background: #000; font-size: 12px; color: #ffc; padding: 48px 0 40px 0; background: #000 url(vhspalte.jpg) top left no-repeat; border-bottom: 6px solid #aaa; } 
+
+#vhspalte h1 {margin: 0;}
+
+#opprett a:link, #opprett a:visited {display: block; height:137px; width: 180px; margin: 0 0 20px 0; text-indent: -5000px; background: transparent url(opprett0.gif) 0 0 no-repeat; }
+#opprett a:hover {background-position: 0 -137px;}
+
+#faq a:link, #faq a:visited {display: block; height:137px; width: 180px; margin: 0 0 20px 0; text-indent: -5000px; background: transparent url(blogg_fa.gif) 0 0 no-repeat; }
+#faq a:hover {background-position: 0 -137px;}
+
+
+#vhspalte h2 {margin: 30px 0 5px 0; padding: 10px 3px 2px 3px; font-family: arial, helvetica, sans-serif; font-weight: bold; font-size: 12px; color: #fff; background: #666; border-top: 6px solid #444;}
+
+#vhspalte h2.blogghead {border-bottom: 2px solid #f63;}
+#vhspalte h2.vgdhead {border-bottom: 2px solid #ff0;}
+#vhspalte h2.tabkonkhead {border-bottom: 2px solid #acd373;}
+#vhspalte h2.reisehead {border-bottom: 2px solid #7da7d9;}
+
+#vhspalte a:link, #vhspalte a:visited {color: #ddd;}
+#vhspalte a:hover {color: #fff;}
+
+#vhspalte dl {margin: 4px;padding: 0;}
+#vhspalte dt {margin: 4px 0 0 0; padding: 0;}
+#vhspalte dd {margin: 0; padding: 0; font-size: 11px;}
+
+#bsisteinnl a:hover, #bsistekomm a:hover {color: #f63;}
+#bsisteinnl dd, #bsistekomm dd {color: #c84;}
+
+
+#dsisteinnl a:hover, #dsistetema a:hover {color: #ff0;}
+#dsisteinnl dd, #dsistetema dd {color: #aa5;}
+
+
+#reisefeed a:hover {color: #7da7d9;}
+#vhspalte ul {list-style-type: none; margin: 5px; padding: 0;}
+#vhspalte li {margin: 2px 0 0 0; padding: 0;}
+
+
+
+/* SPALTEN TIL HØYRE */
+
+#hhspalte {width: 180px; margin: 0; font-family: arial, helvetica, sans-serif;background: #000; font-size: 12px; color: #ffc; padding-bottom: 40px; background: #fff;}

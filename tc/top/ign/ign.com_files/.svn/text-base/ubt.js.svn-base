@@ -1,0 +1,1 @@
+IGN.latestupdates.MyUpdates.setArticles([{"articles":[]}]) 

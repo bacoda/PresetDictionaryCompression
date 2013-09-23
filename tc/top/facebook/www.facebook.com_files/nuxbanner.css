@@ -1,0 +1,19 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/nuxbanner.css r116860                                                   */
+/*      Machine:  10.16.140.109                                                               */
+/*    Generated:  September 13th 2008 1:22:07 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+#nux_banner{background-color:white;border:none;padding:0;margin:0 0 20px 0;position:relative;z-index:1;}
+#nux_banner h4{color:#d85d01;padding:0px;margin:0px;border-bottom:none;float:none;}
+#nux_banner .actually_important .important_cap{background-color:#f8f9fb;}
+#nux_banner .actually_important .read_this{display:none;}
+#nux_banner .actually_important .important_text{padding-top:8px;padding-bottom:2px;}
+#nux_banner .actually_important .important_subtext{font-size:11px;font-weight:normal;padding:0 10px 10px 10px;margin:0px;}
+#nux_banner div.new_user_todo_holder{background-color:#f8f9fb;border:1px solid #d8dfea;margin:8px 0px;padding:15px 24px 5px;}
+#nux_banner div.new_user_todo{padding:0px;margin:0px;float:left;padding-bottom:10px;line-height:16px;width:500px;}
+#nux_banner div.new_user_todo_icon{padding-right:10px;float:left;}
+#nux_banner div.new_user_todo h3{font-size:13px;font-weight:bold;padding:0px;margin:0px;padding-bottom:4px;}
+#nux_banner div.new_user_todo h3 img{padding-left:5px;}

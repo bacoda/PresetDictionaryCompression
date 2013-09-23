@@ -1,0 +1,22 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/UIRoundedBox.css r119582                                                */
+/*      Machine:  10.16.139.101                                                               */
+/*    Generated:  September 13th 2008 1:22:03 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.UIRoundedBox_Container{margin:0px;padding:0px;}
+.UIRoundedBox_BottomMargin{padding-bottom:10px;}
+.UIRoundedBox_Box{margin:0px;padding:0px;}
+.UIRoundedBox_Container .UIRoundedBox_Side{background:url(UIRoundedBox_SideSpriteGray.gif) 0 0 repeat-y;}
+.UIRoundedBox_WhiteBackground .UIRoundedBox_Side{background:url(UIRoundedBox_SideSpriteWhite.gif) 0 0 repeat-y;}
+.UIRoundedBox_Container .UIRoundedBox_LS{background-position:left top;}
+.UIRoundedBox_Container .UIRoundedBox_RS{background-position:right top;}
+.UIRoundedBox_Container .UIRoundedBox_Corner{background:url(UIRoundedBox_SpriteGray.gif) 0 0 no-repeat;}
+.UIRoundedBox_WhiteBackground .UIRoundedBox_Corner{background:url(UIRoundedBox_SpriteWhite.gif) 0 0 repeat-y;}
+.UIRoundedBox_Container .UIRoundedBox_TL{padding:0;background-position:left top;}
+.UIRoundedBox_Container .UIRoundedBox_TR{padding:5px 0 0 0;background-position:right top;}
+.UIRoundedBox_Container .UIRoundedBox_BL{padding:0;background-position:left bottom;}
+.UIRoundedBox_Container .UIRoundedBox_BR{padding:0 0 5px 0;background-position:right bottom;}
+.UIInterstitialBox_Container{padding:25px 30px;}

@@ -1,0 +1,166 @@
+/* CSS Document */
+
+/* Top Promo Box */
+
+.rounded_t { background-image: url(grey_dot.gif); background-repeat: repeat-x; background-position: left top; }
+.rounded_tr { width:3px; height:3px; background-image: url(corner_tr.gif); } 
+.rounded_r { background-image: url(grey_dot.gif); background-repeat: repeat-y; background-position: right top; }
+.rounded_br { width:3px; height:3px;  background-image: url(corner_br.gif);} 
+.rounded_b { background-image: url(grey_dot.gif); background-repeat: repeat-x; background-position: left bottom; }
+.rounded_bl { width:3px; height:3px; background-image: url(corner_bl.gif); } 
+.rounded_l { background-image: url(grey_dot.gif); background-repeat: repeat-y; background-position: left top; }
+.rounded_tl { width:3px; height:3px; background-image: url(corner_tl.gif); }
+
+
+/* 
+Each promo/notification needs a block of styles as seen below.  
+Yes, there is redundancy in the styles, but optimization is not as easy as copy and paste
+*/
+
+#promo_start_div {margin:10px 0 30px 30px;}
+#promo_start_div table { background:#EFEFEF; border:0px solid #DCDCDC; margin:0 0 3px 0;width:720px; }
+#promo_start_div .candy_button {float:right; border:0; margin:1px 4px 4px 8px;}
+
+/* ---------------------------------------------- */
+
+#promo_reupgrade td { padding: 0; }
+#promo_reupgrade p { font-size:12px; margin:0; }
+#promo_reupgrade_wrapper_div { padding:4px 0px 4px 4px; }
+#promo_reupgrade_promo_div { margin: 0px; }
+#promo_reupgrade_removed_div { margin: 0px; display:none; position:absolute; }
+
+#candy_hide_promo_reupgrade { float:right; border:0; margin:-2px 0 7px 5px;}
+
+/* ---------------------------------------------- */
+
+
+#promo_ides_alert td { padding: 0; }
+#promo_ides_alert p { font-size:12px; margin:0; }
+
+#promo_ides_alert_wrapper_div { padding:4px 0px 4px 4px; }
+#promo_ides_alert_promo_div { margin: 0px;  width:710px;}
+#promo_ides_alert_removed_div { margin: 0px; display:none; position:absolute; }
+
+
+A.ides_alert {font-weight:bold; color:red}
+
+A.ides_alert, A.ides_alert:link { color: red; text-decoration: underline; font-weight:bold}
+A.ides_alert:visited { color: red; text-decoration: underline; font-weight:bold; }
+A.ides_alert:hover { color: white; text-decoration: none; background: red; font-weight:bold; }
+A.ides_alert:active { color: white; text-decoration: none; background: red; font-weight:bold; }
+
+
+
+/* ---------------------------------------------- */
+
+
+#promo_sec_alert td { padding: 0; }
+#promo_sec_alert p { font-size:12px; margin:0; }
+#promo_sec_alert_wrapper_div { padding:4px 0px 4px 4px;z-index: -1; }
+#promo_sec_alert_promo_div { margin: 0px; width:710px;}
+#promo_sec_alert_removed_div { margin: 0px; display:none; position:absolute; }
+
+
+A.sec_alert {font-weight:bold; color:red}
+
+A.sec_alert, A.sec_alert:link { color: red; text-decoration: underline; font-weight:bold}
+A.sec_alert:visited { color: red; text-decoration: underline; font-weight:bold; }
+A.sec_alert:hover { color: white; text-decoration: none; background: red; font-weight:bold; }
+A.sec_alert:active { color: white; text-decoration: none; background: red; font-weight:bold; }
+
+
+
+/* ---------------------------------------------- */
+
+
+#promo_proexpire td { padding: 0; }
+#promo_proexpire p { font-size:12px; margin:0; }
+#promo_proexpire_wrapper_div {  padding:4px 0px 4px 4px; }
+#promo_proexpire_promo_div { margin: 0px;  }
+
+#promo_proexpire_removed_div { margin: 0px; display:none; position:absolute; }
+
+#candy_hide_promo_proexpire { float:right; border:0; margin:-2px 0 7px 5px;}
+
+/* ---------------------------------------------- */
+
+
+#promo_intl_alert td { padding: 0; }
+#promo_intl_alert p { font-size:12px; margin:0; }
+
+#promo_intl_alert_wrapper_div {padding:4px 0px 4px 4px; }
+#promo_intl_alert_promo_div { margin: 0px; width:710px; }
+#promo_intl_alert_removed_div { margin: 0px; display:none; position:absolute; }
+
+
+
+/* ---------------------------------------------- */
+
+
+#promo_batch_privacy td { padding: 0; }
+#promo_batch_privacy p { font-size:12px; margin:0; }
+
+#promo_batch_privacy_wrapper_div {  padding:4px 0px 4px 4px; }
+#promo_batch_privacy_promo_div { margin: 0px;  width:710px; }
+#promo_batch_privacy_removed_div { margin: 0px; display:none; position:absolute; }
+
+
+
+/* ---------------------------------------------- */
+
+
+#promo_200_photos td { padding: 0; }
+#promo_200_photos p { font-size:12px; margin:0; }
+
+#promo_200_photos_wrapper_div { ; padding:4px 0px 4px 4px; }
+#promo_200_photos_promo_div { margin: 0px;  }
+#promo_200_photos_removed_div { margin: 0px; display:none; position:absolute; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* These are not top promo styles */
+
+
+/* ---------------------------------------------- */
+
+#promo_do_more { background:#EFEFEF; border:0px solid #DCDCDC; margin:0px 0 10px 0; }
+#promo_do_more ul { margin:10px 6px 6px 10px; padding:0; }
+#promo_do_more li { margin-left:35px; }
+#promo_do_more td { padding: 0; }
+#promo_do_more p { font-size:12px; margin:0; }
+
+#promo_do_more_wrapper_div {  padding:4px 0px 4px 4px; }
+#promo_do_more_promo_div { margin: 0px;  }
+
+#promo_do_more_removed_div { padding:20px 10px 10px 10px; display:none; }
+#zazzle_explain_div { padding:6px; display:none; }
+#photoshow_explain_div { padding:6px; display:none; }
+
+#candy_hide_promo_do_more { float:right; border:0; margin:-2px 0 7px 5px;}
+/* ---------------------------------------------- */
+
+#promo_demote    { background:#EFEFEF; border:0px solid #DCDCDC; margin:0px 0 10px 0; }
+#promo_demote ul { margin:10px 6px 6px 10px; padding:0; }
+#promo_demote li { margin-left:35px; }
+#promo_demote td { padding: 0; }
+#promo_demote p  { font-size:12px; margin:0; }
+
+#promo_demote_wrapper_div { padding:4px 0px 4px 4px; }
+#promo_demote_promo_div { margin: 0px 10px 0px 0px;  }
+
+#promo_demote_removed_div { padding:20px 10px 10px 10px; display:none; position:absolute; }
+#candy_hide_promo_demote { float:right; border:0; margin:-2px -8px 10px 5px;}

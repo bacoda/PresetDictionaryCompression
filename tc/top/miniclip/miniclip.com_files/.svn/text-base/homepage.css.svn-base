@@ -1,0 +1,269 @@
+#animPlayer, #playerPlayer {
+	width:414px;
+	height:335px;
+	float:left;
+	margin:0 0 5px 5px;
+	display:inline;	
+	position:relative;
+}
+
+#animPlayer iframe, #playerPlayer iframe {
+	border-width:0;
+	border:0;
+	overflow:hidden;
+	margin:5px 0 0 5px;
+}
+
+#animPlayer h2, #playerPlayer h2 {
+	height:28px;
+	line-height:28px;
+	_line-height:30px;
+	font-weight:bold;
+	color:#fff;
+	font-size:16px;
+	margin:0 0 0 46px;
+}
+
+#animPlayer h2 a, #playerPlayer h2 a {
+	height:28px;
+	line-height:28px;
+	_line-height:30px;
+	font-weight:bold;
+	color:#fff;
+	font-size:16px;
+}
+
+#animViewer, #playerViewer {
+	width:295px; height:295px;
+	margin:0 0 0 8px;
+	float:left;
+	display:inline;
+}
+
+#animList li, #playerList li {
+	height:90px;
+	margin:2px 0 3px 0;
+	float:left;
+	display:inline;
+	padding:5px 0 0 19px;
+	_width:90px;	
+	_margin:0 0 5px -5px;
+}
+
+#animPlayer li.selected, #playerPlayer li.selected {
+	background:url( bg_gamet.gif ) no-repeat left;
+}
+
+#animData {
+	position:relative;
+}
+
+#animData li {
+	display:none;
+	margin:5px 10px;
+	width:280px;
+	height:60px;
+}
+
+#animData li.selected {
+	background:transparent;
+	display:block;
+}
+
+#animData p {
+	width:180px;
+}
+
+#animData a {
+	font-weight:bold;
+	line-height:46px;
+	width:60px;
+	display:block;
+	position:absolute;
+	top:0;
+	padding:10px 0 0 220px;
+	background:url( button_p.gif ) no-repeat 190px 20px;
+}
+
+#animData h3 {
+	font-weight:bold;
+	text-decoration:underline;
+	color:#036;
+}
+
+#animData a h3 {
+	text-decoration:none;
+}
+
+#controls {
+	padding:7px;
+	margin:3px;
+	overflow:hidden;
+	height:14px;
+	position:absolute;
+	bottom:10px;
+}
+
+#controls a {
+	padding:3px 5px;
+}
+
+#controls li {
+	background:none;
+	display:block;
+	height:auto;
+	margin:0;
+	float:left;
+}
+
+#controls .left {
+	text-align:left;
+	width:70px;
+}
+
+#controls #animNumber, #controls #playerNumber {
+	text-align:center;
+	width:138px;
+}
+
+#controls #animNumber a, #controls #playerNumber a {
+	font-weight:bold;
+	margin:0;
+}
+
+#controls #animNumber li, #controls #playerNumber li {
+	margin:0;
+}
+
+#controls #animNumber a.selected, #controls #playerNumber a.selected {
+	color:#fff;
+	text-decoration:none;
+}
+
+#controls .right {
+	text-align:right;
+	width:70px;
+}
+
+#controls .right a {
+	padding-right:16px;
+}
+
+#controls .left a {
+	padding-left:16px;
+}
+
+
+/* homepage  */
+
+#hotGames {
+	width:204px;
+	height:335px;
+	float:left;
+	margin:0 0 0 0;
+	display:inline;
+}
+
+#hotGames h2 {
+	height:28px;
+	line-height:30px;
+	font-weight:bold;
+	color:#fff;
+	font-size:16px;
+	margin:0 0 0 36px;
+}
+
+#hotGames h2 a {
+	height:28px;
+	line-height:30px;
+	font-weight:bold;
+	color:#fff;
+	font-size:16px;
+}
+
+#hotGames ul {
+	margin:0 0 0 2px;
+}
+
+#hotGames li {
+	float:left;
+	display:block;
+	width:78px; height:90px;
+	margin:0 0 5px 6px;
+	display:inline;	
+	padding:5px 0 0 12px;
+}
+
+/* game categories */
+
+#gameSections {
+	padding:0 0 0 5px;
+	overflow:hidden;
+	clear:both;
+	border-top:1px solid #cef;
+	width:625px;
+}
+
+#gameSections h2 {
+	padding:2px 5px;
+	margin:9px 12px 5px 12px;
+}
+
+#gameSections h2 a {
+	display:block;
+	font-weight:bold;
+	color:#000;
+}
+
+#gameSections ul {
+	clear:both;
+	border-top:1px solid #fff;
+}
+
+#gameSections li {
+	width:203px;
+	height:221px;
+	float:left;
+	overflow:hidden;
+	margin:5px 5px 0 0;
+	display:inline;
+}
+
+#gameSections li li {
+	width:auto; height:auto;
+	float:none;
+	display:block;
+	padding:0 0 0 27px;
+	margin:2px 0 0 0;
+	background:url( bullet_o.gif ) no-repeat 10px 1px;
+}
+
+#gameSections li li.b {
+	background:url( bullet_b.gif ) no-repeat 10px 1px;
+	margin:8px 0 0 0;
+}
+
+#gameSections li li.b a {
+	font-weight:bold;
+}
+
+#gameSections .gameIcons {
+	overflow:hidden;
+	margin:-1px 0 0 10px;
+}
+
+#gameSections .gameIcons li {
+	background:transparent none;
+	float:left;
+	width:68px;
+	padding:7px 10px;
+	height:83px;
+	margin:0 5px 4px 0;
+}
+
+/* Girls Section Specifics */
+#gameSections li.gameCategory_485 {	background:url( bg_gameu.gif ); }
+#gameSections li.gameCategory_485 a { color:#534; }
+#gameSections li.gameCategory_485 li { background:url( bullet_p.gif ) no-repeat 10px 1px; }
+#gameSections li.gameCategory_485 li.b { background:url( bullet_q.gif ) no-repeat 10px 1px; }
+#gameSections li.gameCategory_485 .gameIcons li { background:transparent none; }

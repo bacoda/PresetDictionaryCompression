@@ -1,0 +1,58 @@
+    TD,P,BODY,TR { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px }
+	.MEDIUM { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	.SMALL { color:white;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	
+	.subtitle { color:white;text-decoration:none;font-size:12px;font-weight:bold }
+	.subtitle_large { color:white;text-decoration:none;font-size:16px;font-weight:bold }
+	
+	TD.BIG {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	TD.SEARCH {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px }
+	.FIELD {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px }
+	A.BIG:link {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	A.BIG:active {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	A.BIG:visited {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+	A.BIG:hover {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:13px;font-weight:bold }
+
+    .SITESFONT { color:white ;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+    A.SITESFONT:link { text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+    A.SITESFONT:active { text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+    A.SITESFONT:visited { text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+    A.SITESFONT:hover { text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:11px }
+	
+	TD.YELLOW {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	TD.BODY {color:000000;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	TD.TESTIMONIAL { color:ADAAAA;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px }
+	
+	A.FORGOT_PWD:link {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	A.FORGOT_PWD:active {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	A.FORGOT_PWD:visited {text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:10px }
+	A.FORGOT_PWD:hover {text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:10px }
+	
+	TD.white {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	TD.NUM {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:11px;font-weight:bold }
+	TD.SUBTITLE_GRAY {color:172430;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	A.NAV:link {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAV:active {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAV:visited {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAV:hover {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	A.NAVJOIN:link {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAVJOIN:active {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAVJOIN:visited {color:yellow;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	A.NAVJOIN:hover {color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px;font-weight:bold }
+	
+	.MEDIUM_TABLE_STYLE { color:FFFFFF;text-decoration:none;font-family:arial,sans-serif,helvetica;font-size:12px }
+
+	A.MEDIUM_TABLE_STYLE:link { color:FFFFFF;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px }
+	A.MEDIUM_TABLE_STYLE:active { color:FFFFFF;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px }
+	A.MEDIUM_TABLE_STYLE:visited { color:FFFFFF;text-decoration:underline;font-family:arial,sans-serif,helvetica;font-size:12px }
+	.mc_button { color:[var GLOBAL->MEDIUM_TABLE_FONT_COLOR];background-color:[var GLOBAL->MEDIUM_TABLE_COLOR]; font-size:11px; border: 1px [var GLOBAL->DARK_TABLE_COLOR] solid }
+
+    .ALBUMFONT{ color:#DDAA40;text-decoration:none;font-family:SunSans-Regular,Geneva,Swiss,verdana,arial,helvetica;font-size:18px }
+    A.ALBUMFONT:link { text-decoration:underline; }
+    A.ALBUMFONT:active { text-decoration:underline; }
+    A.ALBUMFONT:visited { text-decoration:underline; }
+    A.ALBUMFONT:hover { text-decoration:underline; }
+

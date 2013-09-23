@@ -1,0 +1,2342 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<title>Slashdot: News for nerds, stuff that matters</title>
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="slashdot.org_files/core-tid.css">
+<!--[if IE]><link rel="stylesheet" type="text/css" media="screen, projection" href="//images.slashdot.org/iestyles.css?T_2_5_0_211"><![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="slashdot.org_files/print000.css">
+<link rel="stylesheet" type="text/css" media="handheld" href="slashdot.org_files/handheld.css">
+
+
+<script src="slashdot.org_files/all-mini.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="slashdot.org_files/favicon0.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='slashdot.org_files/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-32013-5");
+pageTracker._setDomainName("slashdot.org");
+pageTracker._initData();
+</script>
+
+</head>
+<body>
+<div id="top_parent"></div>
+
+
+<div id="jump">
+	<a href="">Stories</a>
+	<br>
+	<a href="">Slash Boxes</a>
+	<br>
+	<a href="">Comments</a>
+</div>
+<div class="ad30"><!-- placeholder for ad position 30 --></div>
+
+<div id="frame">
+<div></div>
+	<div id="topnav">
+		<div id="logo">
+			<h1>
+				<a href="">Slashdot</a>
+			</h1>
+		</div>
+		<div class="search">
+
+			<form method="get" action="http://slashdot.org/search.pl">
+				<fieldset>
+					<legend>Search</legend>
+					<input type="text" name="query" value="">
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+
+		</div>
+	</div> 
+	<div id="slogan">
+		<h2>
+			News for nerds, stuff that matters
+		</h2>
+	</div>
+	<div id="wrapper">
+		<div id="user-section">
+			<div class="content">
+				<ul>
+			
+					<li class="begin"><a id="loginlink" class="collapsed" href="http://slashdot.org/login.pl">Log In</a></li>
+					<li><a href="http://slashdot.org/login.pl?op=newuserform" title="">Create Account</a></li>
+                                        <li><a href="http://slashdot.org/help" title="Get help with your account.">Help</a></li>
+					<li><a href="http://slashdot.org/subscribe.pl" title="An option to see Slashdot without these ads">Subscribe</a></li>
+					<li><a href="http://slashdot.org/firehose.shtml">Firehose</a></li>
+			
+				</ul>
+				<ul id="user-utils">
+                                
+					<li><a href="http://slashdot.org/faq/accounts.shtml#ac050" title="Save preferences, your own Journal, define Friends &amp;  Foes for discussions, participate in Moderation and more ...">Why Log In?</a></li>
+				
+				
+					<li><a href="http://slashdot.org/faq/subscriptions.shtml" title="An option to see Slashdot without these ads">Why Subscribe?</a></li>
+				
+				</ul>
+			
+				<div id="loginform">
+					<form action="http://slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="http://slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+				</div>
+			
+			</div>
+		</div>
+		<div id="links">
+			
+			<div class="block" id="links-sections">
+	<div class="title" id="links-sections-title">
+		<h4>
+                        Sections
+		</h4>
+	</div>
+	<div class="content" id="links-sections-content">
+	<ul>
+	<li><h2><a href="">Main</a></h2></li>
+	
+	
+	<li><a href="http://apple.slashdot.org/">Apple</a></li>
+	
+	
+	
+	<li><a href="http://ask.slashdot.org/">AskSlashdot</a></li>
+	
+	
+	
+	<li><a href="http://backslash.slashdot.org/">Backslash</a></li>
+	
+	
+	
+	<li><a href="http://books.slashdot.org/">Books</a></li>
+	
+	
+	
+	<li><a href="http://developers.slashdot.org/">Developers</a></li>
+	
+	
+	
+	<li><a href="http://games.slashdot.org/">Games</a></li>
+	
+	
+	
+	<li><a href="http://hardware.slashdot.org/">Hardware</a></li>
+	
+	
+	
+	<li><a href="http://interviews.slashdot.org/">Interviews</a></li>
+	
+	
+	
+	<li><a href="http://it.slashdot.org/">IT</a></li>
+	
+	
+	
+	<li><a href="http://linux.slashdot.org/">Linux</a></li>
+	
+	
+	
+	<li><a href="http://mobile.slashdot.org//" onclick="javascript:pageTracker._trackPageview('/toshiba/mobile_section')">Mobile</a></li>
+	
+	
+	
+	<li><a href="http://politics.slashdot.org/">Politics</a></li>
+	
+	
+	
+	<li><a href="http://science.slashdot.org/">Science</a></li>
+	
+	
+	
+	<li><a href="http://yro.slashdot.org/">YRO</a></li>
+	
+
+</ul>
+	</div>
+	
+</div>
+
+<div class="block" id="links-help">
+	<div class="title" id="links-help-title">
+		<h4>Help</h4>
+	</div>
+	<div class="content" id="links-help-content">
+		<ul>
+			<li><a href="http://slashdot.org/faq/">FAQ</a></li>
+			<li><a href="http://sourceforge.net/tracker/?func=add&amp;group_id=4421&amp;atid=104421">Bugs</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-stories">
+	<div class="title" id="links-stories-title">
+		<h4>Stories</h4>
+	</div>
+	<div class="content" id="links-stories-content">
+		<ul>
+			<li><a href="http://slashdot.org/search.pl">Old Stories</a></li>
+			<li><a href="http://polls.slashdot.org/">Old Polls</a></li>
+			<li><a href="http://slashdot.org/topics.shtml">Topics</a></li>
+			<li><a href="http://slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://slashdot.org/bookmarks/">Bookmarks</a></li>
+			<li><a href="http://slashdot.org/submit.pl">Submit Story</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-about">
+	<div class="title" id="links-about-title">
+		<h4>About</h4>
+	</div>
+	<div class="content" id="links-about-content">
+		<ul>
+			<li><a href="http://slashdot.org/supporters.shtml">Supporters</a></li>
+			<li><a href="http://slashdot.org/code.shtml">Code</a></li>
+		</ul>
+	</div>
+</div>
+<div class="block" id="links-services">
+	<div class="title" id="links-services-title">
+		<h4>Services</h4>
+	</div>
+	<div class="content" id="links-services-content">
+		<ul>
+			<li><a href="http://jobs.slashdot.org/">Jobs</a></li>
+			<li><a href="http://slashdot.org/relocate.pl?id=5698263263f8466f3709fd92f355367f">PriceGrabber</a></li>
+			<li><a href="http://slashdot.org/relocate.pl?id=a27a66150282ba2c8d94d57fabaf3e58">Special Offers</a></li>
+			<li><a href="http://ad.doubleclick.net/clk;172276006;13503038;t?http://www.linux.com/sponsor_solutions/">Sponsor Solutions</a></li>
+			<li><a href="http://www.techsay.com/default.php?page=join.php&amp;p=slashdot&amp;CID=SLASHDOTSITE">Surveys</a></li>
+		</ul>
+	</div>
+</div> 
+		
+                        
+<div class="block static" id="links-jobs">
+	<div class="title" id="links-jobs-title" style="cursor:pointer;" onclick="window.location='http://jobs.slashdot.org/';">
+		<h4><a href="http://jobs.slashdot.org/" style="text-decoration:none;border-style:none;">Jobs</a></h4>
+	</div>
+	<div class="content" id="links-jobs-content">
+		<script type="text/javascript" src="slashdot.org_files/00000000.htm"></script>
+	</div>
+</div>
+			
+			
+			
+		</div>
+		<div id="contents">
+
+<div class="lb"><div class="ad1"><!-- ad position 1 -->
+<!-- DoubleClick Ad Tag -->
+
+<script type="text/javascript">
+                var ad6 = 'inactive';
+</script>
+<style type="text/css">.lb {_height: 90px;}</style>
+
+<div id="fad1">
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage';
+
+		document.write('<script type="text/javascript" src="slashdot.org_files/mainpage_p1_leader.js"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+</div>
+<!-- End DoubleClick Ad Tag --></div>
+</div>
+<div id="index" class="aduserbox "><div id="ac-select-widget" class="hidden">
+  <input type="text" id="ac-select-input">
+  <div class="completer-container" id="ac-choices"></div>
+</div>
+	<a name="blocks"></a>
+	<div id="slashboxes">
+	<div class="ad2"><!-- placeholder for ad position 2 --></div>
+
+	<div class="block">
+	<div class="title" id="srandblock-title">
+		<h4>
+			<a href="http://slashdot.org/index.pl?section=interview">Interviews</a>
+		</h4>
+	</div>
+	<div class="content" id="srandblock-content">
+		<ul>
+<li>
+	<a href="http://developers.slashdot.org/article.pl?sid=08/07/04/229213">
+		Interview With Author of the First Spoof Language
+	</a>
+</li><li>
+	<a href="http://interviews.slashdot.org/article.pl?sid=08/07/03/1913245">
+		Lt. Col. John Bircher Answers Your Questions
+	</a>
+</li><li>
+	<a href="http://interviews.slashdot.org/article.pl?sid=08/06/26/1842215">
+		Ask Jeremy White and Alexandre Julliard About the Future of WINE
+	</a>
+</li><li>
+	<a href="http://interviews.slashdot.org/article.pl?sid=08/06/17/1452255">
+		Studio Head Answers Your Questions About the Movie Business
+	</a>
+</li><li>
+	<a href="http://interviews.slashdot.org/article.pl?sid=08/06/12/1642212">
+		Ask Lt. Col. John Bircher About Cyber Warfare Concepts
+	</a>
+</li>
+</ul>
+	</div>
+</div><div class="block">
+	<div class="title" id="activetags-title">
+		<h4>
+			<a href="http://slashdot.org/tags">Recent Tags</a>
+		</h4>
+	</div>
+	<div class="content" id="activetags-content">
+		<ul><li><a href="http://slashdot.org/tags/!flamebait">!flamebait</a></li><li><a href="http://slashdot.org/tags/gpl">gpl</a></li><li><a href="http://slashdot.org/tags/bsd">bsd</a></li><li><a href="http://slashdot.org/tags/spam">spam</a></li><li><a href="http://slashdot.org/tags/gnu">gnu</a></li><li><a href="http://slashdot.org/tags/flamebait">flamebait</a></li><li><a href="http://slashdot.org/tags/c">c</a></li></ul>
+	</div>
+</div><div class="block">
+	<div class="title" id="poll-title">
+		<h4>
+			Slashdot Poll
+		</h4>
+	</div>
+	<div class="content" id="poll-content">
+		<form action="http://slashdot.org/pollBooth.pl" method="post">
+			<fieldset>
+				<legend>Poll</legend>
+				<input type="hidden" name="qid" value="1605">
+			
+				<input type="hidden" name="section" value="mainpage">
+			
+				<b>I prefer to sleep in / on ...</b>
+
+			
+				<br><input type="radio" name="aid" value="1">a hammock
+			
+				<br><input type="radio" name="aid" value="2">a mattress+boxspring combo
+			
+				<br><input type="radio" name="aid" value="3">a futon
+			
+				<br><input type="radio" name="aid" value="4">the floor
+			
+				<br><input type="radio" name="aid" value="5">a rope bed
+			
+				<br><input type="radio" name="aid" value="6">something else entirely
+			
+
+				<br><input type="submit" value="Vote">
+				
+				[ <a href="http://slashdot.org/pollBooth.pl?qid=1605&amp;aid=-1"><b>Results</b></a> |
+				<a href="http://slashdot.org/pollBooth.pl"><b>Polls</b></a> ] <br>
+				Comments:<b>257</b> | Votes:<b>10690</b>
+			</fieldset>
+		</form>
+	</div>
+</div><div class="block">
+	<div class="title" id="login-title">
+		<h4>
+			Slashdot Login
+		</h4>
+	</div>
+	<div class="content" id="login-content">
+		<form action="http://slashdot.org/login.pl" method="post">
+<fieldset>
+	<legend>Log In</legend>
+	<label>
+		Nickname
+	</label>
+	<input type="text" name="unickname" size="20" value="">
+	<label>
+		Password
+	</label>
+	<input type="hidden" name="returnto" value="//slashdot.org/">
+	<input type="hidden" name="op" value="userlogin">
+	<input type="password" name="upasswd" size="20">
+	<label class="checkbox">
+		<input type="checkbox" name="login_temp" value="yes">
+		Public Terminal
+	</label>
+	<input type="submit" name="userlogin" value="Log in" class="button">
+	</fieldset>
+</form>
+<p>
+	[ <b>
+		<a href="http://slashdot.org/login.pl?op=newuserform">
+			Create a new account
+		</a>
+	</b> ]
+</p>
+	</div>
+</div><div class="block">
+	<div class="title" id="srandblock_ostg-title">
+		<h4>
+			<a href="http://www.linux.com/">Linux.com</a>
+		</h4>
+	</div>
+	<div class="content" id="srandblock_ostg-content">
+		<ul>
+<li>
+	<a href="http://www.linux.com/feature/139882">
+		Fast, powerful Geany editor offers IDE features
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/140040">
+		Alfresco founder says open source makes software better
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/141080">
+		Patches coming today for DNS vulnerability
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/141077">
+		Maemo 4.1 bring mail and packaging improvements to Nokia's Linux-based tablets
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/140081">
+		A case for text-based DVD rippers
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/140039">
+		Protecting against evil code fragments with HTML Purifier
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/139887">
+		Looming IT talent shortage sidesteps FOSS folks
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/139888">
+		Book review: Blender 3D: Architecture, Buildings, and Scenery
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/140752">
+		Stormy Peters joins the GNOME Foundation as Executive Director
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/140101">
+		AltSearch for OOo Writer functionality trumps first impressions
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/140732">
+		Mozilla officially scores a world record
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/139594">
+		Happy Independence Day
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/139593">
+		How to write a thorough review of a Linux distribution
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/139588">
+		OpenOffice.org extension will add PDF editing
+	</a>
+</li><li>
+	<a href="http://www.linux.com/feature/139754">
+		An introduction to the Kismet packet sniffer
+	</a>
+</li>
+</ul>
+	</div>
+</div><div class="block">
+	<div class="title" id="books-title">
+		<h4>
+			<a href="http://books.slashdot.org/">Book Reviews</a>
+		</h4>
+	</div>
+	<div class="content" id="books-content">
+		Recent reviews from Slashdot readers:
+
+<ul>
+
+
+<li> <a href="http://www.amazon.com/dp/1420071831/ref=nosim/?tag=slashdot0c-20"><cite>Terrorist Recognition Handbook: A Practitioner's Manual for Predicting and Identifying Terrorist Activities, Second Edition</cite></a> The definitive text on terrorist recognition, written from a first hand perspective.(<a href="http://books.slashdot.org/article.pl?sid=08/05/07/139243">Ben Rothke's review.</a>)</li>
+
+<li> <a
+href="http://www.amazon.com/dp/0262083566/ref=nosim/?tag=slashdot0c-20"><cite>Second Person: Role-Playing and Story in Games and Playable Media</cite></a> If you want to learn how to write better interactive fiction, specifically using the second-person narrative, this book is for you.(<a href="http://books.slashdot.org/article.pl?sid=08/05/05/1314249">Michael Fiegel's review.</a>)</li>
+
+
+<li> <a href="http://www.amazon.com/dp/1847192971/ref=nosim/?tag=slashdot0c-20"><cite>Building Powerful and Robust Websites With Drupal 6</cite></a> A comprehensive and upbeat guide, great for learning how to use Drupal 6.(<a href="http://books.slashdot.org/article.pl?sid=08/04/30/1346258">Michael J. Ross's review.</a>)</li>
+</ul>
+
+<p><a href="https://slashdot.org/submit.pl">Submitting a review</a> for
+consideration is easy; please first read <a
+href="http://slashdot.org/book.review.guidelines.shtml">Slashdot's
+book review guidelines</a>. Updated: 2008510 by samzenpus</p>
+
+	</div>
+</div><div class="block">
+	<div class="title" id="index_qlinks-title">
+		<h4>
+			Quick Links
+		</h4>
+	</div>
+	<div class="content" id="index_qlinks-content">
+		<B>Cool Sites:</B>
+<br>&middot; <A href="http://www.xkcd.com/">XKCD</A> (It's teh funz0rz)
+<br>&middot; <A href="http://www.animefu.com/">AnimeFu</A> (Addicted to Anime?)
+<br>&middot; <A href="http://www.penny-arcade.com/">Penny Arcade</A> (The First one is always Free)
+<br>&middot; <A href="http://everything2.com/">Everything</A> (Blow your Mind)
+<br>&middot; <A href="http://themes.freshmeat.net/">Themes.freshmeat.net</A> (Make X Perty)
+
+<P><B>Support Slashdot:</B>
+<br>&middot; <A href="http://www.thinkgeek.com/">ThinkGeek</A> (Clothe Yourself in Slashdot)
+	</div>
+</div><div class="block">
+	<div class="title" id="olderstuff-title">
+		<h4>
+			Older Stuff
+		</h4>
+	</div>
+	<div class="content" id="olderstuff-content">
+		<ul>
+	
+		
+		<li>
+			<br>
+			<a href="http://slashdot.org/index.pl?issue=20080708">			Tuesday</a> July 8		<ul>
+	<li>
+		<a href="http://it.slashdot.org/it/08/07/08/027220.shtml">TrueCrypt 6.0 Released</a>
+		<em>(414)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://tech.slashdot.org/tech/08/07/08/0116238.shtml">Handling Flash Crowds From Your Garage</a>
+		<em>(72)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://developers.slashdot.org/developers/08/07/08/0040253.shtml">Same Dev Tools/Language/Framework For Everyone?</a>
+		<em>(500)</em>
+	</li>
+	
+
+		
+			</ul>
+		</li>
+		
+		<li>
+			<br>
+			<a href="http://slashdot.org/index.pl?issue=20080707">			Monday</a> July 7		<ul>
+	<li>
+		<a href="http://news.slashdot.org/news/08/07/08/0150259.shtml">Hans Reiser Leads Police To Nina's Body</a>
+		<em>(1420)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://tech.slashdot.org/tech/08/07/07/2351252.shtml">Telecoms Suing Municipalities That Plan Broadband Access</a>
+		<em>(276)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://hardware.slashdot.org/hardware/08/07/07/2216222.shtml">The Future of Mind Control of Physical Objects</a>
+		<em>(172)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://ask.slashdot.org/askslashdot/08/07/07/211258.shtml">Learn a Foreign Language As an Engineer?</a>
+		<em>(963)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://hardware.slashdot.org/hardware/08/07/07/1945203.shtml">Larrabee Based On a Bundle of Old Pentium Chips</a>
+		<em>(282)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://news.slashdot.org/news/08/07/07/1940241.shtml">2008 Beijing Olymics as a Media Test-Bed</a>
+		<em>(132)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://yro.slashdot.org/yro/08/07/07/1824228.shtml">User Charged With Felony For Using Fake Name On MySpace</a>
+		<em>(902)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://tech.slashdot.org/tech/08/07/07/1724236.shtml">The Next Browser Scripting Language Is &mdash; C?</a>
+		<em>(365)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://books.slashdot.org/books/08/07/07/1338206.shtml">Head First C#</a>
+		<em>(229)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://tech.slashdot.org/tech/08/07/07/166253.shtml">Rare Tour of Sun Microsystems' "Wonderland"</a>
+		<em>(83)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://science.slashdot.org/science/08/07/07/163254.shtml">First DNA Molecule Constructed from Mostly Synthetic Components</a>
+		<em>(181)</em>
+	</li>
+	
+
+	<li>
+		<a href="http://news.slashdot.org/news/08/07/07/153231.shtml">How Technology Changes Classrooms</a>
+		<em>(377)</em>
+	</li>
+	
+
+		</ul>
+	</li>
+</ul>
+<br>
+<div class="right">
+
+
+<b><a href="http://slashdot.org/search.pl?start=15">Older Articles</a></b>
+
+
+
+<br><b><a href="http://slashdot.org/index.pl?issue=20080708">Yesterday's News</a></b>
+</div>
+	</div>
+</div>
+	</div>
+	<div id="indexhead">
+
+
+
+
+
+
+<div id="message">
+	<div class="content">
+	<p>Slashdot stories can be listened to in audio form via an RSS feed, as <a href="http://feeds.feedburner.com/slashdot/audio">read by our own robotic overlord</a>.</p>
+
+
+
+
+
+
+
+	</div>
+</div>
+
+</div>
+	<a name="main-articles"></a>
+	<div id="articles">
+        
+
+<!-- google_ad_section_start -->
+	<!-- google_ad_section_start (name=tech) -->
+<div class="article" id="art1">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://tech.slashdot.org/">Technology</a>:</span> <a href="http://tech.slashdot.org/tech/08/07/09/0141203.shtml">"New" Words From the Geek Culture</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Wednesday July 09, @03:11AM</b><br>
+	<strong>from the <b>bonny-earl-of-murray</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=267">
+				<img src="slashdot.org_files/topicsoc.gif" width="80" height="49" alt="Social Networks" title="Social Networks" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="mailto:jfekendall@gmail.com" rel="nofollow">thatskinnyguy</a> sends news of <a href="http://news.cnet.com/8301-1023_3-9985074-93.html?part=rss&amp;subj=news&amp;tag=2547-1_3-0-5">Merriam-Webster's 2008 list of new words</a> and, to no-one's surprise, a good number of them come out of geek culture: words like webinar, malware, netroots, pretexting, and fanboy are now official words according to M-W. The CNet article pulls out one "new" word for special appreciation &mdash; mondegreen &mdash; and, while the article gets the origin right, it ends with a lame call for readers to send in their favorite mondegreens. (CNet does have the good grace to link the <a href="http://www.kissthisguy.com/">Kiss This Guy site</a>.) SFGate columnist Jon Carroll has been collecting readers' mondegreens since 1995 and <a href="http://www.sfgate.com/columnists/carroll/mondegreens.shtml">his list</a> is bound to be better. Quoting Carroll, in a prophetic mode: "This space has been for some years the chief publicity agent for mondegreens. The Oxford English Dictionary has not yet seen the light, but it will, it will." Would you believe, Merriam-Webster's?
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=tech) --><div id="tagbox-08-07-09-0141203" class="tags">
+
+<div id="tagbox-title-08-07-09-0141203" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-09-0141203">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/apple">apple</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/social">social</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink2">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://tech.slashdot.org/tech/08/07/09/0141203.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://tech.slashdot.org/tech/08/07/09/0141203.shtml">32</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://tech.slashdot.org/">tech.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=news) -->
+<div class="article" id="art3">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://news.slashdot.org/">News</a>:</span> <a href="http://news.slashdot.org/news/08/07/08/1832255.shtml">Linguistic Problems of GPL Advocacy</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Journal written by <a href="http://slashdot.org/~Chemisor/journal/"
+		>Chemisor (97276)</a> and posted by 
+	kdawson
+
+	on Wednesday July 09, @12:46AM</b><br>
+	<strong>from the <b>shouting-across-the-divide</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=117">
+				<img src="slashdot.org_files/topicgnu.gif" width="50" height="76" alt="GNU is Not Unix" title="GNU is Not Unix" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			Reader Chemisor advances a theory in his journal that a linguistic misunderstanding is at the root of many disagreements over different licensing philosophies, in particular BSD vs. GPL. The argument is that GPL adherents desire the freedom of their <em>code</em>, while those on the BSD side want freedom for their <em>projects</em>.
+<i>"It is difficult to spend a week on Slashdot without colliding with a GPL advocate. Eager to spread their philosophy, they proselytize to anyone willing to listen, and to many who are not. When they collide with a BSD advocate, such as myself, a heated flamewar usually erupts with each side repeating the same arguments over and over, failing to understand how the other party can be so stupid as to not see the points that appear so obvious and right. These disagreements, as I wish to show in this article, are as much linguistic as they are philosophical, and while the latter side can not be reconciled, the former certainly can, hopefully resulting in a more civil and logical discourse over the matter."</i>
+Click below for Chemisor's analysis of the linguistic chasm.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=news) --><div id="tagbox-08-07-08-1832255" class="tags">
+
+<div id="tagbox-title-08-07-08-1832255" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1832255">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/bsd">bsd</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/gnu">gnu</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/gpl">gpl</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/spam">spam</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/flamebait">flamebait</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink4">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://news.slashdot.org/news/08/07/08/1832255.shtml"><b>Read 8281 More Bytes...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://news.slashdot.org/news/08/07/08/1832255.shtml">280</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://news.slashdot.org/">news.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=tech) -->
+<div class="article" id="art5">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://tech.slashdot.org/">Technology</a>:</span> <a href="http://tech.slashdot.org/tech/08/07/09/019240.shtml">The Handwriting of Type Designers</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @10:57PM</b><br>
+	<strong>from the <b>slow-down-you-move-too-fast</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=152">
+				<img src="slashdot.org_files/topicgra.gif" width="69" height="62" alt="Graphics" title="Graphics" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			jamie found this blog post wherein an Australian Web technologist, Cameron Adams, wondered whether the handwriting of his favorite type designers encoded some sort of influence on their designs. So he <a href="http://www.themaninblue.com/articles/handwritten_typographers/">wrote to them and asked for a sample</a>. The result will make you slow down and appreciate the beauty and the aesthetics of type. Or else it won't.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=tech) --><div id="tagbox-08-07-09-019240" class="tags">
+
+<div id="tagbox-title-08-07-09-019240" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-09-019240">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/communications">communications</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/graphics">graphics</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink6">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://tech.slashdot.org/tech/08/07/09/019240.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://tech.slashdot.org/tech/08/07/09/019240.shtml">98</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://tech.slashdot.org/">tech.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=entertainment) -->
+<div class="article" id="art7">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://entertainment.slashdot.org/">Entertainment</a>:</span> <a href="http://entertainment.slashdot.org/entertainment/08/07/08/2059231.shtml">Sci-Fi Books For Pre-Teens?</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @09:08PM</b><br>
+	<strong>from the <b>needle-definitely-oh-and-mission-of-gravity</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=214">
+				<img src="slashdot.org_files/topicsci.gif" width="48" height="64" alt="Sci-Fi" title="Sci-Fi" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			o2binbuzios writes <i>"I have two pre-teen boys who are avid readers, and I am going through my mental catalog for <em>great</em> sci-fi &amp; fantasy books for them. What are some of the classics (and maybe new additions to the classics) that would be great for them to read? I am asking because some of the 'straight-up' classics I remember actually seem kind of dark &amp; cynical for younger readers. Starship Troopers and some of the other Heinlein are definitely darker and more political than I remember... Foundation Trilogy and psycho-history maybe too dry. Road-trip reading season is upon us &mdash; what are the good reads for the kids in the back seat?"</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=entertainment) --><div id="tagbox-08-07-08-2059231" class="tags">
+
+<div id="tagbox-title-08-07-08-2059231" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-2059231">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/books">books</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/scifi">scifi</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/lotr">lotr</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/askslashdot">askslashdot</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/dune">dune</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink8">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://entertainment.slashdot.org/entertainment/08/07/08/2059231.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://entertainment.slashdot.org/entertainment/08/07/08/2059231.shtml">859</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://entertainment.slashdot.org/">entertainment.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><div class="briefarticles"><div class="briefarticle" id="art9">
+	
+
+	<span class="section"><a href="http://bsd.slashdot.org/">BSD</a>:</span> <span class="storytitle"><a href="http://bsd.slashdot.org/bsd/08/07/08/2236232.shtml">33-Year-Old Unix Bug Fixed In OpenBSD</a></span>  84 of 105 comments 
+	
+	
+</div></div><!-- google_ad_section_start (name=tech) -->
+<div class="article" id="art10">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://tech.slashdot.org/">Technology</a>:</span> <a href="http://tech.slashdot.org/tech/08/07/08/239246.shtml">Kodak Unveils 50MP CCD Image Sensor</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @07:22PM</b><br>
+	<strong>from the <b>8176-by-6132-babee</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=152">
+				<img src="slashdot.org_files/topicgra.gif" width="69" height="62" alt="Graphics" title="Graphics" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://www.i4u.com/" rel="nofollow">i4u</a> writes in to let us know that Kodak has announced the world's first <a href="http://www.i4u.com/article18807.html">50 million pixel CCD image sensor</a> for professional photography (i.e., for medium-format cameras). Engineering-grade devices of the CCD, the KAF-50100, are currently available. Kodak plans to enter volume production in Q4 2008. <i>"At 50 megapixels, the sensor captures digital images with unprecedented resolution and detail. For instance, with a 50 megapixel camera, in an aerial photo of a field 1.5 miles [about 2.5 km] across, you could detect an object about the size of a small notebook computer (1 foot by 1 foot)."</i> Here's CNet's Crave blog with a few more <a href="http://crave.cnet.com/8301-1_105-9985480-1.html">technical details</a>.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=tech) --><div id="tagbox-08-07-08-239246" class="tags">
+
+<div id="tagbox-title-08-07-08-239246" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-239246">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/graphics">graphics</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/technology">technology</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/ccd">ccd</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/kodak">kodak</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/pr0n">pr0n</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink11">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://tech.slashdot.org/tech/08/07/08/239246.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://tech.slashdot.org/tech/08/07/08/239246.shtml">173</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://tech.slashdot.org/">tech.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=yro) -->
+<div class="article" id="art12">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://yro.slashdot.org/">Your Rights Online</a>:</span> <a href="http://yro.slashdot.org/yro/08/07/08/226227.shtml">Senate Scrutinizes Privacy Issues of ISP User Tracking</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @06:30PM</b><br>
+	<strong>from the <b>you-want-to-watch-me-you-have-to-pay</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=158">
+				<img src="slashdot.org_files/topicpri.gif" width="71" height="53" alt="Privacy" title="Privacy" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://hughpickens.com/" rel="nofollow">Hugh Pickens</a> writes <i>"As companies collect, use, and disseminate data regarding online users, there is concern that tracking individuals' Internet activity and gathering information from online users violates their expectations of privacy. The Senate Commerce Committee will hold a hearing Wednesday to look at the policy issues, and the hottest topic will be proposed systems by which ISPs can <a href="http://bits.blogs.nytimes.com/2008/07/08/ad-targeting-companies-and-critics-prepare-for-senate-scrutiny/">watch users and sell information about their surfing habits to advertising companies</a>. The Center for Democracy and Technology has issued a report suggesting that <a href="http://cdt.org/privacy/20080708ISPtraffic.pdf">these systems may violate federal law</a> (PDF). 'Advertising per se is not the evil here,' says Leslie Harris from CDT. 'It's the collection of individuals' information, usually without their knowledge, always without their consent, creation of profiles and the complete inability of people to make choices about that.' On the other side NebuAd, the most active ad-targeting company, says its profiles are interest-based, and not personally identifiable. 'We have designed our entire company to make sure that we stay on the opt-out side of those laws and policies,' says NebuAd CEO Robert Dykes. Charter Communications announced last month that it would <a href="http://yro.slashdot.org/yro/08/06/25/1810230.shtml?tid=158">suspend a trial of NebuAd</a> due to customer concerns about privacy."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=yro) --><div id="tagbox-08-07-08-226227" class="tags">
+
+<div id="tagbox-title-08-07-08-226227" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-226227">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/business">business</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/privacy">privacy</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink13">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://yro.slashdot.org/yro/08/07/08/226227.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://yro.slashdot.org/yro/08/07/08/226227.shtml">91</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://yro.slashdot.org/">yro.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=yro) -->
+<div class="article" id="art14">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://yro.slashdot.org/">Your Rights Online</a>:</span> <a href="http://yro.slashdot.org/yro/08/07/08/2050229.shtml">Online "Public" Spaces Don't Guarantee Rights</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @05:41PM</b><br>
+	<strong>from the <b>swatting-at-mosquitos</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=153">
+				<img src="slashdot.org_files/topiccen.gif" width="44" height="55" alt="Censorship" title="Censorship" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="mailto:mikesd@@@ptd...net" rel="nofollow">mikesd81</a> recommends an AP piece covering a lot of examples of the ways <a href="http://ap.google.com/article/ALeqM5iAfAuNiWBtS8vWv-VsrfPMLAcUUgD91P0N980">free speech and other rights don't exist on the private Web</a>. One case featured was that of Dutch photographer Maarten Dors, who had <a href="http://www.flickr.com/photos/maartend/1429385268/in/set-72157601325432416/">this picture</a> deleted by flickr. Without prior notice, Yahoo deleted the photo on grounds it violated an unwritten ban on depicting children smoking. While Dors eventually got the photo restored, after the second time it was deleted, the case highlights the consequence of having online commons controlled by private corporations. <i>"Rules aren't always clear, enforcement is inconsistent, and users can find content removed or accounts terminated without a hearing. Appeals are solely at the service provider's discretion. Users get caught in the crossfire as hundreds of individual service representatives apply their own interpretations of corporate policies, sometimes imposing personal agendas or misreading guidelines. First Amendment protections generally do not extend to private property in the physical world, allowing a shopping mall to legally kick out a customer wearing a T-shirt with a picture of a smoking child."</i> Reason.com has some <a href="http://reason.com/blog/show/127444.html">more analysis</a> on the issues brought up by the AP story.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=yro) --><div id="tagbox-08-07-08-2050229" class="tags">
+
+<div id="tagbox-title-08-07-08-2050229" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-2050229">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/internet">internet</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/censorship">censorship</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/politics">politics</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink15">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://yro.slashdot.org/yro/08/07/08/2050229.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://yro.slashdot.org/yro/08/07/08/2050229.shtml">267</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://yro.slashdot.org/">yro.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=hardware) -->
+<div class="article" id="art16">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://hardware.slashdot.org/">Hardware</a>:</span> <a href="http://hardware.slashdot.org/hardware/08/07/08/2024246.shtml">Mercedes To Phase Out Gasoline By 2015</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @04:55PM</b><br>
+	<strong>from the <b>what-no-flying-monkeys</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=232">
+				<img src="slashdot.org_files/topicpow.gif" width="59" height="66" alt="Power" title="Power" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://vark.blogspot.com/" rel="nofollow">arbitraryaardvark</a> sends in a story a couple of weeks back in Yahoo's Ecogeek blog, reporting that <a href="http://green.yahoo.com/blog/ecogeek/603/mercedes-to-cut-petroleum-out-of-lineup-by-2015.html">Mercedes will phase out petroleum-powered cars by 2015</a> (<a href="http://vark.blogspot.com/2008/07/this-is-here-as-mirror-of-story-in-case.html">mirror</a>), and notes: "Story is unconfirmed but well sourced." <i>"In less than 7 years, Mercedes-Benz plans to ditch petroleum-powered vehicles from its lineup. Focusing on electric, fuel cell, and biofuels, the company is revving up research in alternative fuel sources and efficiency."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=hardware) --><div id="tagbox-08-07-08-2024246" class="tags">
+
+<div id="tagbox-title-08-07-08-2024246" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-2024246">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/power">power</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/transportation">transportation</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/earth">earth</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/suddenoutbreakofcommonsense">suddenoutbreakofcommonsense</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/goodluckwiththat">goodluckwiththat</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink17">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://hardware.slashdot.org/hardware/08/07/08/2024246.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://hardware.slashdot.org/hardware/08/07/08/2024246.shtml">705</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://hardware.slashdot.org/">hardware.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=tech) -->
+<div class="article" id="art18">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://tech.slashdot.org/">Technology</a>:</span> <a href="http://tech.slashdot.org/tech/08/07/08/201245.shtml">Google Open Sources Its Data Interchange Format</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @04:07PM</b><br>
+	<strong>from the <b>it's-fast-that's-why</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=217">
+				<img src="slashdot.org_files/topicgoo.gif" width="104" height="38" alt="Google" title="Google" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			A number of readers have noted Google's <a href="http://google-opensource.blogspot.com/2008/07/protocol-buffers-googles-data.html">open sourcing of their internal data interchange format</a>, called <em>Protocol Buffers</em> (here's <a href="http://code.google.com/p/protobuf/">the code</a> and <a href="http://code.google.com/apis/protocolbuffers/docs/overview.html">the doc</a>). Google elevator statement for Protocol Buffers is "a language-neutral, platform-neutral, extensible way of serializing structured data for use in communications protocols, data storage, and more." It's the way data is formatted to move around inside of Google. Betanews spotlights some of Protocol Buffers' <a href="http://www.betanews.com/article/Google_releases_its_data_encoding_format_to_compete_with_XML/1215530589">contrasts with XML and IDL</a>, with which it is most comparable. Google's blogger claims, "And, yes, it is very fast &mdash; at least an order of magnitude faster than XML."
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=tech) --><div id="tagbox-08-07-08-201245" class="tags">
+
+<div id="tagbox-title-08-07-08-201245" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-201245">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/google">google</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink19">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://tech.slashdot.org/tech/08/07/08/201245.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://tech.slashdot.org/tech/08/07/08/201245.shtml">256</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://tech.slashdot.org/">tech.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=it) -->
+<div class="article" id="art20">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://it.slashdot.org/">IT</a>:</span> <a href="http://it.slashdot.org/it/08/07/08/195225.shtml">Massive, Coordinated Patch To the DNS Released</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @03:12PM</b><br>
+	<strong>from the <b>pretty-much-everybody</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=172">
+				<img src="slashdot.org_files/topicsec.gif" width="59" height="78" alt="Security" title="Security" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://kracomp.blogspot.com/" rel="nofollow">tkrabec</a> alerts us to a CERT advisory announcing a <a href="http://securosis.com/2008/07/08/dan-kaminsky-discovers-fundamental-issue-in-dns-massive-multivendor-patch-released/">massive, multi-vendor DNS patch</a> released today. Early this year, researcher Dan Kaminsky discovered a basic flaw in the DNS that could allow attackers easily to compromise any name server; it also affects clients. Kaminsky has been working in secret with a large group of vendors on a coordinated patch. Eighty-one vendors are listed in the <a href="http://securosis.com/publications/CERT%20Advisory.doc">CERT advisory</a> (DOC). Here is the <a href="http://securosis.com/publications/DNS-Executive-Overview.pdf">executive overview</a> (PDF) to the CERT advisory &mdash; text reproduced at the link above. There's a <a href="http://media.libsyn.com/media/mckeay/nsp-070808-ep111.mp3">podcast interview with Dan Kaminsky</a> too. His site has a <a href="http://www.doxpara.com/">DNS checker tool</a> on the top page. <i>"The issue is extremely serious, and all name servers should be patched as soon as possible. Updates are also being released for a variety of other platforms since this is a problem with the DNS protocol itself, not a specific implementation. The good news is this is a really strange situation where the fix does not [immediately] reveal the vulnerability and reverse engineering isn't directly possible."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=it) --><div id="tagbox-08-07-08-195225" class="tags">
+
+<div id="tagbox-title-08-07-08-195225" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-195225">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/internet">internet</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/networking">networking</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/security">security</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/dnssec">dnssec</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink21">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://it.slashdot.org/it/08/07/08/195225.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://it.slashdot.org/it/08/07/08/195225.shtml">245</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://it.slashdot.org/">it.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=tech) -->
+<div class="article" id="art22">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://tech.slashdot.org/">Technology</a>:</span> <a href="http://tech.slashdot.org/tech/08/07/08/1730231.shtml">W3C's Role In the Growth of a Proprietary Web</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @02:20PM</b><br>
+	<strong>from the <b>slow-even-for-standards</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=185">
+				<img src="slashdot.org_files/topicsof.gif" width="65" height="65" alt="Software" title="Software" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://pseudosavant.com/blog" rel="nofollow">Paul Ellis</a> writes <i>"Mozilla's Asa Dotzler has said 'It's really hard for me to believe that either [Microsoft or Adobe] have the free and open Web at heart when they're actively subverting it with closed technologies like Flash and Silverlight.' But are they really subverting it? Where is the line between serving the consumer and subverting the Web? This blog post makes the case that <a href="http://pseudosavant.com/blog/2008/07/08/a-proprietary-web-blame-the-w3c/">the W3C's glacial process should share in the blame</a> for the growth of proprietary technologies."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=tech) --><div id="tagbox-08-07-08-1730231" class="tags">
+
+<div id="tagbox-title-08-07-08-1730231" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1730231">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/internet">internet</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/software">software</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/technology">technology</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink23">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://tech.slashdot.org/tech/08/07/08/1730231.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://tech.slashdot.org/tech/08/07/08/1730231.shtml">207</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://tech.slashdot.org/">tech.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=yro) -->
+<div class="article" id="art24">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://yro.slashdot.org/">Your Rights Online</a>:</span> <a href="http://yro.slashdot.org/yro/08/07/08/1713205.shtml">Telecom Immunity Bill Hides Spying Provisions</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @01:31PM</b><br>
+	<strong>from the <b>some-compromise-means-capitulation</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=158">
+				<img src="slashdot.org_files/topicpri.gif" width="71" height="53" alt="Privacy" title="Privacy" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://www.corrupt.org/" rel="nofollow">Corrupt</a> notes an Ars analysis of the FISA bill of which the telecom immunity provision has been getting all the attention. Timothy B. Lee enumerates the ways in which the bill <a href="http://arstechnica.com/articles/culture/fisa-compromise.ars">loosens current protections on domestic wiretapping</a> and opens up whole new areas to government eavesdropping. <i>"The legislation eliminates meaningful judicial oversight of eavesdropping between Americans citizen and foreigners located overseas and effectively legalizes dragnet surveillance of domestic-to-foreign traffic. It stretches out the judicial review process so much that the government will in many cases be able to complete its surveillance activities before the courts finish deciding on its legality."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=yro) --><div id="tagbox-08-07-08-1713205" class="tags">
+
+<div id="tagbox-title-08-07-08-1713205" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1713205">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/government">government</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/privacy">privacy</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/bigbrother">bigbrother</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink25">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://yro.slashdot.org/yro/08/07/08/1713205.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://yro.slashdot.org/yro/08/07/08/1713205.shtml">176</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://yro.slashdot.org/">yro.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=hardware) -->
+<div class="article" id="art26">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://hardware.slashdot.org/">Hardware</a>:</span> <a href="http://hardware.slashdot.org/hardware/08/07/08/1622201.shtml">Pioneer Promises 400GB Optical Discs</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tuesday July 08, @12:41PM</b><br>
+	<strong>from the <b>place-for-their-stuff</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=198">
+				<img src="slashdot.org_files/topicsto.gif" width="48" height="51" alt="Data Storage" title="Data Storage" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			schliz writes <i>"Pioneer has developed a 16-layer read-only optical disc which <a href="http://www.itnews.com.au/News/79933,pioneer-promises-400gb-optical-discs.aspx">it claims can store 400GB of data</a>. The per-layer capacity is 25GB, the same as that of a Blu-ray Disc, and the multilayer technology will also be applicable to multilayer recordable discs."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=hardware) --><div id="tagbox-08-07-08-1622201" class="tags">
+
+<div id="tagbox-title-08-07-08-1622201" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1622201">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/media">media</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/storage">storage</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/upgrades">upgrades</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink27">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://hardware.slashdot.org/hardware/08/07/08/1622201.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://hardware.slashdot.org/hardware/08/07/08/1622201.shtml">208</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://hardware.slashdot.org/">hardware.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=idle) -->
+<div class="article" id="art28">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://idle.slashdot.org/">Idle</a>:</span> <a href="http://idle.slashdot.org/idle/08/07/08/1513259.shtml">DHS Official Considered Shock Collars For  Air Travelers</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Journal written by <a href="http://slashdot.org/~MacDork/journal/"
+		>MacDork (560499)</a> and posted by 
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tuesday July 08, @11:50AM</b><br>
+	<strong>from the <b>kip-hawley-please-to-the-red-discourtesy-phone</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=133">
+				<img src="slashdot.org_files/topichum.gif" width="58" height="39" alt="It's funny.  Laugh." title="It's funny.  Laugh." >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<i>"The Washington Times is reporting that the DHS wants to replace your boarding pass with a <a href="http://www.washingtontimes.com/weblogs/aviation-security/2008/Jul/01/want-some-torture-with-your-peanuts/">GPS-enabled shock bracelet</a>.  Plans for the device include subduing passengers remotely as well as onboard interrogation.  There's even a <a href="http://www.lamperdlesslethal.com/video_gallery.asp?video=http://www.lamperdlesslethal.com/video/EMDsafetybracelet.flv&amp;title=">promotional video</a>."</i>
+
+Perhaps Paul Ruwaldt (the official named in this story) has been watching "The Coneheads" a bit too much, or not actually flying enough. Expressing interest is not quite the same as ordering mass quantities, but it's scary enough.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=idle) --><div id="tagbox-08-07-08-1513259" class="tags">
+
+<div id="tagbox-title-08-07-08-1513259" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1513259">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/humor">humor</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/journal">journal</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/transportation">transportation</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/usa">usa</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/policestate">policestate</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink29">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://idle.slashdot.org/idle/08/07/08/1513259.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://idle.slashdot.org/idle/08/07/08/1513259.shtml">607</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://idle.slashdot.org/">idle.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=tech) -->
+<div class="article" id="art30">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://tech.slashdot.org/">Technology</a>:</span> <a href="http://tech.slashdot.org/tech/08/07/08/1439208.shtml">Cable-Laying Boom Will Boost Internet Capacity</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tuesday July 08, @11:02AM</b><br>
+	<strong>from the <b>well-the-oceans-are-cute</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=95">
+				<img src="slashdot.org_files/topicint.gif" width="70" height="73" alt="The Internet" title="The Internet" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://www.pcpro.co.uk/" rel="nofollow">Barence</a> writes <i>"<a href="http://www.pcpro.co.uk/news/210999/internet-cablelaying-boom.html">Dozens of new undersea internet cables</a> are set to be laid over the next couple of years, providing a huge boost to worldwide capacity. The huge boom in internet video has led to doomsday scenarios of the internet running out of capacity. Although experts believe that there is abundant amounts of 'dark fibre' lying unused in oceans across the world, major telcos are pushing ahead with projects that will see at least 25 new cables laid by 2010, at a cost of $6.4bn."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=tech) --><div id="tagbox-08-07-08-1439208" class="tags">
+
+<div id="tagbox-title-08-07-08-1439208" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1439208">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/internet">internet</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/it">it</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/networking">networking</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/technology">technology</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/iran">iran</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink31">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://tech.slashdot.org/tech/08/07/08/1439208.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://tech.slashdot.org/tech/08/07/08/1439208.shtml">163</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://tech.slashdot.org/">tech.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=science) -->
+<div class="article" id="art32">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://science.slashdot.org/">Science</a>:</span> <a href="http://science.slashdot.org/science/08/07/08/1354218.shtml">Simple Mod Turns Diodes Into Photon Counters</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tuesday July 08, @10:11AM</b><br>
+	<strong>from the <b>measure-once-vote-often</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=231">
+				<img src="slashdot.org_files/topicsup.gif" width="81" height="72" alt="Supercomputing" title="Supercomputing" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://www.arxivblog.com/" rel="nofollow">KentuckyFC</a> writes <i>"The standard way to detect single photons is to use an avalanche photodiode in which a single photon can trigger an avalanche of current. These devices have an important drawback, however. They cannot distinguish the arrival of a single photon from the simultaneous arrival of two or more. But a team of physicists in the UK has found a simple mod that <a href="http://arxivblog.com/?p=510">turns avalanche photodiodes into photon counters</a>. They say that in the first instants after the avalanche forms, its current is proportional to the number of photons that have struck. All you have to do is measure it at this early stage. That's like turning a Fiat 500 into a Ferrari. Photon counting is one of the enabling technologies behind optical quantum computing. A number of schemes are known in which it is necessary to count the arrival of 0, 1 or 2 photons at specific detectors (<a href="http://arxiv.org/abs/0807.0330">abstract</a>). With such a cheap detector now available (as well as decent photon guns), we could see dramatic progress in this field in the coming months."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=science) --><div id="tagbox-08-07-08-1354218" class="tags">
+
+<div id="tagbox-title-08-07-08-1354218" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1354218">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/encryption">encryption</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/science">science</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/supercomputing">supercomputing</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/technology">technology</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/quantumcomputing">quantumcomputing</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink33">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://science.slashdot.org/science/08/07/08/1354218.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://science.slashdot.org/science/08/07/08/1354218.shtml">107</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://science.slashdot.org/">science.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=yro) -->
+<div class="article" id="art34">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://yro.slashdot.org/">Your Rights Online</a>:</span> <a href="http://yro.slashdot.org/yro/08/07/08/1245204.shtml">Your Mashup Is Probably Legal</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tuesday July 08, @09:22AM</b><br>
+	<strong>from the <b>oh-thank-you-2-live-crew-thank-you</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=188">
+				<img src="slashdot.org_files/topicmed.gif" width="73" height="59" alt="Media" title="Media" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://tvbarn.com/" rel="nofollow">TV Barn</a> writes <i>"We've been conditioned to think that if you pull something off the web and use it, you're committing some sort of copyright infringement. But increasingly, the law is moving in the opposite direction. Provided you are making a truly new use of the content, you are free to make money off those copyrighted images and video and sound. On Monday the Center for Social Media released '<a href="http://www.centerforsocialmedia.org/resources/publications/fair_use_in_online_video/">Code of Best Practices for Fair Use in Online Video</a>,' which reflects the latest changes in copyright law that has expanded the understanding of fair use to include 'transformational effect.' Already Miro has endorsed the guidelines, as have several public broadcasters. The Center has a good track record, having issued <a href="http://www.centerforsocialmedia.org/resources/publications/statement_of_best_practices_in_fair_use/">guidelines for documentary filmmakers</a> that have greatly reduced copyright claims in that area. The website has plenty of resources for mashers and mixers; <a href="http://blogs.kansascity.com/tvbarn/files/TVB_FairUse_070708.mp3">I interviewed the Center's director</a> in this podcast that summarizes the most important findings of the report."</i> On the other hand, says reader kaliphonia, your guitar <a href="http://www.law.arizona.edu/Journals/ALR/ALR2008/VOL502/Simon%20FINAL.pdf">tablature sites may not fare so well</a>.
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=yro) --><div id="tagbox-08-07-08-1245204" class="tags">
+
+<div id="tagbox-title-08-07-08-1245204" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1245204">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/entertainment">entertainment</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/media">media</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink35">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://yro.slashdot.org/yro/08/07/08/1245204.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://yro.slashdot.org/yro/08/07/08/1245204.shtml">138</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://yro.slashdot.org/">yro.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=yro) -->
+<div class="article" id="art36">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://yro.slashdot.org/">Your Rights Online</a>:</span> <a href="http://yro.slashdot.org/yro/08/07/08/0014248.shtml">Telecom Amnesty Opponents Back New Amendment</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	kdawson
+
+	on Tuesday July 08, @08:31AM</b><br>
+	<strong>from the <b>putting-on-the-sensible-shoes</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=158">
+				<img src="slashdot.org_files/topicpri.gif" width="71" height="53" alt="Privacy" title="Privacy" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			<a href="http://www.eff.org/support" rel="nofollow">I Don't Believe in Imaginary Property</a> writes <i>"With the telecoms all but assured of amnesty for their participation in illegal spying, there's now <a href="http://blog.wired.com/27bstroke6/2008/07/telecom-amnesty.html?cid=121444500">one last amendment in their way</a> &mdash; the Bingaman amendment.  Because President Bush is unwilling to sign FISA reform without immunity, and because <a href="http://en.wikipedia.org/w/index.php?title=Blue_Dog_Coalition&amp;oldid=223259975">Blue Dog Democrats</a> fear for their reelection unless FISA reform as a whole passes, most compromise positions are already off the table. So the new amendment seeks to sidestep part of the problem by moving it to a later date. It would put the court cases and amnesty provision on hold until a report is completed detailing exactly what happened, allowing Congress to consider denying amnesty at that time. There's an <a href="https://secure.eff.org/site/Advocacy?alertId=389&amp;pg=makeACall">EFF campaign</a> to support both this and the Dodd-Feingold amendment, which would strip immunity altogether."</i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=yro) --><div id="tagbox-08-07-08-0014248" class="tags">
+
+<div id="tagbox-title-08-07-08-0014248" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-0014248">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/government">government</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/privacy">privacy</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink37">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://yro.slashdot.org/yro/08/07/08/0014248.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://yro.slashdot.org/yro/08/07/08/0014248.shtml">242</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://yro.slashdot.org/">yro.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div><!-- google_ad_section_start (name=science) -->
+<div class="article" id="art38">
+
+
+
+<div class="generaltitle" >
+	<div class="title">
+		<h3 >
+			<span><a href="http://science.slashdot.org/">Science</a>:</span> <a href="http://science.slashdot.org/science/08/07/08/1135234.shtml">How To Check Yourself For Abnormal Genes</a>
+			
+		</h3>
+	</div>
+</div>
+	<div class="details">
+
+	
+	<b>Posted by
+	
+	<a href="http://www.monkey.org/~timothy/">timothy</a>
+
+	on Tuesday July 08, @07:40AM</b><br>
+	<strong>from the <b>first-grab-some-family-photos</b> dept.</strong>
+	</div>
+	<div class="body">
+		<div class="topic">
+		
+		
+		
+			<a href="http://slashdot.org/search.pl?tid=191">
+				<img src="slashdot.org_files/topicbio.gif" width="42" height="65" alt="Biotech" title="Biotech" >
+			</a>
+		
+		
+		
+		</div>
+		<div class="intro">
+			AnneWoahHickey writes <i>"While the State of California was harassing personalized genomics companies, and hindering the development of personalized medicine, Wired was preparing a guide to genetic testing. It explains how to make sense of the massive sets of raw data offered by 23andMe or deCODEme, and a way to <a href="http://howto.wired.com/wiki/Check_Yourself_for_Genetic_Abnormalities">check yourself for genetic abnormalities</a> that are not covered by microarray tests. Facing a medical community that is fiercely resistant to change, the fate of personalized medicine is truly in the hands of consumers." </i>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+	</div>
+</div>
+<!-- google_ad_section_end (name=science) --><div id="tagbox-08-07-08-1135234" class="tags">
+
+<div id="tagbox-title-08-07-08-1135234" class="tagtitleclosed">&nbsp;<a href="http://slashdot.org/login.pl"><span class="tagsheader" id="toggletags-button-08-07-08-1135234">[+]</span></a>
+
+			<span class="tagname"><a href="http://slashdot.org/tags/biotech">biotech</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/science">science</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/medicine">medicine</a></span>, 		<span class="tagname"><a href="http://slashdot.org/tags/hardhack">hardhack</a></span>
+<i>(<a href="http://slashdot.org/faq/tags.shtml">tagging beta</a>)</i>
+</div>
+
+
+
+</div><div class="storylinks " id="slink39">
+	<div>
+		<ul>
+		
+			
+			
+			<li class="more">
+				<a href="http://science.slashdot.org/science/08/07/08/1135234.shtml"><b>Read More...</b></a>
+			</li>
+		
+		<li class="comments">
+<a href="http://science.slashdot.org/science/08/07/08/1135234.shtml">129</a> comments
+	</li>
+		
+			
+			
+			<li class="section">
+				<a href="http://science.slashdot.org/">science.slashdot.org</a>
+			</li>
+		
+		
+		</ul>
+	</div>
+</div>&lt;&nbsp; 
+
+<a href="http://slashdot.org/index.pl?issue=20080708">Yesterday's News</a>
+
+ &nbsp;&gt;
+<!-- google_ad_section_end -->
+	</div>
+	
+	<div class="ad6"><!-- placeholder for ad position 6 --></div>
+
+<script type="text/javascript">
+        //<![CDATA[
+                if (ad6 == "active") {
+                        document.write('<style type="text/css">#fad6\{position:absolute; top: 0; right: 0; z-index: 10000; border-left: 1em solid #fff; border-bottom: 1em solid #fff;\}#slashboxes \{ clear: none; margin-top: 320px;\} #indexhead \{padding-right: 110px;\}#art1,#art2, #slink1, #slink1 .comments,#slink2, #slink2 .comments \{margin-right: 110px \}#slink1 .comments, #slink2 .comments \{ _margin-right: 110px \!important; \}</style>')}
+        //]]>
+</script></div>	
+		</div>
+			<div id="footer">
+				<div class="search">
+				
+					<form method="get" action="http://slashdot.org/search.pl">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" name="query" value="" size="20">
+							<input type="submit" value="Search" class="button">
+						</fieldset>
+					</form>
+				
+				</div>
+				<div class="rightcontent">
+					
+                		        <small>As pointed out in a followup, Real Perl Programmers prefer things to be
+visually distinct.
+             -- Larry Wall in <199710161841.LAA13208@wall.org></small>
+					
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div class="copyright">
+		<p>
+
+			All trademarks and copyrights on this page are owned by their respective owners.  Comments are owned by the Poster.  The Rest &copy; 1997-2008 <a href="http://sourceforge.com/">SourceForge</a>, Inc.
+		</p>
+	</div>
+	<div class="btmnav">
+		<ul>
+			<li class="begin"><a href="">home</a></li>
+			<li><a href="http://slashdot.org/awards.shtml">awards</a></li>
+			<li><a href="http://slashdot.org/submit.pl">contribute story</a></li>
+			<li><a href="http://slashdot.org/search.pl">older articles</a></li>
+			<li><a href="http://sourceforge.com/">sourceforge, inc.</a></li>
+			<li><a href="http://web.sourceforge.com/media_kit.php">advertise</a></li>
+			<li><a href="http://slashdot.org/about.shtml">about</a></li>
+			<li><a href="http://web.sourceforge.com/terms.php">terms of service</a></li>
+			<li><a href="http://web.sourceforge.com/privacy.php">privacy</a></li>
+			<li><a href="http://slashdot.org/faq/">faq</a></li>
+			<li><a href="http://rss.slashdot.org/Slashdot/slashdot">rss</a></li>
+		</ul>
+	</div>
+<script type="text/javascript">
+pageTracker._trackPageview();
+</script>
+<div id="modal_cover" style="display:none" onclick="hide_modal_box()"></div>
+<div id="modal_box" style="display:none">
+        <div class="generaltitle" >
+                <div class="title"><h3><span id="preference_title"></span> <a href="" onclick="hide_modal_box(); return false"><img src="slashdot.org_files/sic_close.png" alt="Close"></a></h3></div>
+        </div>
+        <div id="modal_box_content"></div>
+</div>
+</body>
+</html>
+<!-- This document saved from http://slashdot.org/ -->

@@ -1,0 +1,1 @@
+document.write('<a target="_blank" href="http://ad.doubleclick.net/click;h=v8/3704/0/0/%2a/u;44306;0-0;0;17714655;14324-150/61;0/0/0;;~okv=;name=/;objid=27144;type=standard;tile=2;sz=150x61;dcove=d;~aopt=2/0/ff/1;~sscs=%3f"><img src="wwe.com_files/817-grey.gif" border=0 alt="Click here to find out more!"></a>');

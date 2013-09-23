@@ -1,0 +1,71 @@
+/* GENERAL RULES
+--------------------------------------------------------------------*/
+
+* {
+	/*overwrite all default browser settings*/
+	margin:				0;
+	padding:			0;	
+	/*global font settings*/
+	font-family: 		serif! important;
+	color: 				#000; /*Main text color*/
+}
+
+body {
+	background: 		#fff;
+	padding:			0 0 0 0px;
+	margin:				0;
+	background:			none; 
+	font-size: 14px;
+}
+
+/* Global Link Settings
+--------------------------------------------------------------------*/
+a, a:visited {
+	color: 				#0238ff;
+	text-decoration: 	underline;
+}
+}
+/* Global Text Settings
+--------------------------------------------------------------------*/
+h1, h2, h3 {
+	font-family: 		serif! important;
+	color:				#7AC142;
+	font-weight:		normal;
+}
+h1 {
+	font-size: 			2.1em;
+	margin:				0 0 1em 0;
+}
+p {
+	margin:				0 0 15px 0;
+	line-height:		15px;
+}
+img {display:none;}
+
+div#video, div#xNav, div#offers, div.rb_hd_r, div.rb_tabs, div.rb_pft_btm, div.rb_ft, div#spons_links, .rb_pft_poptop, .rb_pft_btm, .asl_margin, .rb_pft_ad, .rb_pft_top, .rb_pft_top_l, .rb_pft_form, #rb_srch_ftr{
+	display:			none! important;
+}
+
+#l-col {display:none;}
+#mid-col {width:800px;display:block;}
+#r-col {display:none;}
+
+#Carousel {position:relative! important;width: 600px;display:block; border: 1px solid #cccccc! important; padding:0! important; margin:0! important;height:80px! important;}
+#Carousel .slide .text{border: 1px solid #cccccc! important;height:10px! important;}
+#Carousel .slide .text H1{display:none! important;}
+#Carousel .frame{display:none! important;}
+#Carousel .slide{display:none! important;}
+#Carousel .bg{display:none! important;}
+#Carousel .slide .feature{margin-top: 0px! important;}
+#Carousel #CaroLinks{margin: 0px! important;line-height:12px! important;}
+#carouselblocker{display:none! important;}
+#CaroLinks{display:block;}
+
+#Carousel .slide img {display:none;}
+#Carousel .slide .feature , #Carousel .slide .album{margin:0! important;}	
+#CaroLinks .bubble A IMG {display:none}
+#CaroLinks .bubble .bbg {display:none}
+#cfd06-tops-list .item {clear:both;text-align:left;border:none;}
+#cfd06-tops-list img{display:none}
+.see-all{display:none;}
+

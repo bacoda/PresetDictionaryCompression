@@ -1,0 +1,3 @@
+<FilesMatch "^ad[0-7]">
+  ForceType text/html
+</FilesMatch>

@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+
+</HEAD>
+<BODY >
+	<DIV STYLE="position:relative;margin-top:0px;margin-left: 0px;">
+	<SCRIPT LANGUAGE="JavaScript">
+	
+	function gup( name ) {
+	  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+	  var regexS = "[\\?&]"+name+"=([^&#]*)";
+	  var regex = new RegExp( regexS );
+	  var results = regex.exec( window.location.href );
+	  if( results == null )
+	    return "";
+	  else
+	    return results[1];
+	}
+	
+	var divName=gup("position");var pulseid=gup("pulseid");
+	var cgroup=gup("cgroup");var temp=gup("temp");var humidity=gup("humd");
+	var dec=gup("dec");var md=gup("md");var dma=gup("dma");
+	var cs=gup("cs");var zip=gup("zip");
+	var rmid=gup("rmid");var refParameter=gup("refParam");
+	var localSev=gup("localSev");var title=gup("title");
+	var hyperLocal=gup("hyperLoc");var sev=gup("sev");
+	var moduleSize=gup("format");
+	
+	
+	function createSevArray() {
+		sevNames = new Array();
+		sevNames[0] = new alertOb('CFW001', 'COASTAL FLOOD WARNING UPDATE'); sevNames[1] = new alertOb('CFW002', 'COASTAL FLOOD WATCH UPDATE');sevNames[2] = new alertOb('CFW005', 'COASTAL FLOOD WARNING');
+		sevNames[3] = new alertOb('CFW006', 'COASTAL FLOOD WATCH'); sevNames[4] = new alertOb('WCN001', 'TORNADO WATCH');sevNames[5] = new alertOb('CWF001', 'TROPICAL STORM WARNING UPDATE');sevNames[6] = new alertOb('CWF002', 'TROPICAL STORM WARNING POTENTIAL');
+		sevNames[7] = new alertOb('CWF005', 'TROPICAL STORM WARNING');sevNames[8] = new alertOb('CWF006', 'TROPICAL STORM WATCH UPDATE');sevNames[9] = new alertOb('CWF007', 'TROPICAL STORM WATCH POTENTIAL');
+		sevNames[10] = new alertOb('CWF010', 'TROPICAL STORM WATCH');sevNames[11] = new alertOb('CWF016', 'HURRICANE WARNING UPDATE');sevNames[12] = new alertOb('CWF017', 'HURRICANE WARNING POTENTIAL');
+		sevNames[13] = new alertOb('CWF020', 'HURRICANE WARNING');sevNames[14] = new alertOb('CWF021', 'HURRICANE WATCH UPDATE');sevNames[15] = new alertOb('CWF022', 'HURRICANE WATCH POTENTIAL');
+		sevNames[16] = new alertOb('CWF025', 'HURRICANE WATCH');sevNames[17] = new alertOb('CWF026', 'SMALL CRAFT ADVISORY UPDATE');sevNames[18] = new alertOb('CWF030', 'SMALL CRAFT ADVISORY');sevNames[19] = new alertOb('CWF031', 'SMALL CRAFT MARINE CAUTION');
+		sevNames[20] = new alertOb('CWF032', 'GALE WARNING UPDATE');sevNames[21] = new alertOb('CWF036', 'GALE WARNING');sevNames[22] = new alertOb('CWF037', 'STORM WARNING UPDATE');sevNames[23] = new alertOb('CWF041', 'STORM WARNING');
+		sevNames[24] = new alertOb('CWF042', 'HIGH SURF ADVISORY UPDATE');sevNames[25] = new alertOb('CWF046', 'HIGH SURF ADVISORY');sevNames[26] = new alertOb('EWW001', 'EXTREME WIND WARNING');sevNames[27] = new alertOb('FFA001', 'FLASH FLOOD WATCH UPDATE');
+		sevNames[28] = new alertOb('FFA002', 'FLOOD WATCH UPDATE');sevNames[29] = new alertOb('FFA003', 'FLASH FLOOD WATCH UPDATE');sevNames[30] = new alertOb('FFA004', 'FLOOD WATCH UPDATE');sevNames[31] = new alertOb('FFA005', 'FLASH FLOOD WATCH');
+		sevNames[32] = new alertOb('FFA006', 'FLOOD WATCH');sevNames[33] = new alertOb('FFA007', 'FLOOD WATCH UPDATE');sevNames[34] = new alertOb('FFS010', 'FLASH FLOOD STATEMENT');sevNames[35] = new alertOb('FFW001', 'FLASH FLOOD WARNING');
+		sevNames[36] = new alertOb('FLS001', 'URBAN AND SMALL STREAM FLOOD ADVISORY UPDATE');sevNames[37] = new alertOb('FLW001', 'RIVER FLOOD WARNING');sevNames[38] = new alertOb('FLW002', 'FLOOD WARNING');
+		sevNames[39] = new alertOb('HLS001', 'HURRICANE UPDATE');sevNames[40] = new alertOb('HLS002', 'TROPICAL STORM UPDATE');sevNames[41] = new alertOb('LSH001', 'LAKESHORE FLOOD WARNING UPDATE');sevNames[42] = new alertOb('LSH002', 'LAKESHORE FLOOD WATCH UPDATE');
+		sevNames[43] = new alertOb('LSH005', 'LAKESHORE FLOOD WARNING');sevNames[44] = new alertOb('LSH006', 'LAKESHORE FLOOD WATCH');sevNames[45] = new alertOb('LSH007', 'LAKESHORE FLOOD STATEMENT');sevNames[46] = new alertOb('MWS007', 'MARINE WEATHER STATEMENT');
+		sevNames[47] = new alertOb('NPW001', 'DENSE FOG ADVISORY UPDATE');sevNames[48] = new alertOb('NPW002', 'FOG ADVISORY UPDATE');sevNames[49] = new alertOb('NPW005', 'DENSE FOG ADVISORY');sevNames[50] = new alertOb('NPW006', 'FOG ADVISORY');
+		sevNames[51] = new alertOb('NPW007', 'HIGH WIND WATCH UPDATE');sevNames[52] = new alertOb('NPW008', 'HIGH WIND WARNING UPDATE');sevNames[53] = new alertOb('NPW009', 'WIND ADVISORY UPDATE');sevNames[54] = new alertOb('NPW013', 'HIGH WIND WATCH');
+		sevNames[55] = new alertOb('NPW014', 'HIGH WIND WARNING');sevNames[56] = new alertOb('NPW016', 'FREEZE WARNING UPDATE');sevNames[57] = new alertOb('NPW017', 'FROST WARNING UPDATE');sevNames[58] = new alertOb('NPW020', 'FREEZE WARNING');
+		sevNames[59] = new alertOb('NPW021', 'FROST WARNING');sevNames[60] = new alertOb('NPW024', 'FREEZE ADVISORY');sevNames[61] = new alertOb('NPW028', 'WIND CHILL ADVISORY UPDATE');sevNames[62] = new alertOb('NPW030', 'WIND CHILL ADVISORY');
+		sevNames[63] = new alertOb('NPW031', 'EXCESSIVE HEAT WARNING UPDATE');sevNames[64] = new alertOb('NPW032', 'HEAT ADVISORY UPDATE');sevNames[65] = new alertOb('NPW035', 'EXCESSIVE HEAT WARNING');
+		sevNames[66] = new alertOb('WCN001', 'TORNADO WATCH');sevNames[67] = new alertOb('TOR001', 'TORNADO WARNING');sevNames[68] = new alertOb('NPW036', 'HEAT ADVISORY');sevNames[69] = new alertOb('NPW044', 'EXCESSIVE COLD WARNING UPDATE');
+		sevNames[70] = new alertOb('NPW046', 'EXCESSIVE COLD WARNING');sevNames[71] = new alertOb('NPW047', 'EXCESSIVE COLD WATCH UPDATE');sevNames[72] = new alertOb('NPW049', 'EXCESSIVE COLD WATCH');sevNames[73] = new alertOb('NPW052', 'EXCESSIVE HEAT WATCH');
+		sevNames[74] = new alertOb('NPW053', 'FREEZE WATCH UPDATE');sevNames[75] = new alertOb('NPW055', 'FREEZE WATCH');sevNames[76] = new alertOb('NPW056', 'INLAND HURRICANE WATCH UPDATE');sevNames[77] = new alertOb('NPW058', 'INLAND HURRICANE WATCH');
+		sevNames[78] = new alertOb('NPW059', 'INLAND TROPICAL STORM WATCH UPDATE');sevNames[79] = new alertOb('NPW061', 'INLAND TROPICAL STORM WATCH');sevNames[80] = new alertOb('NPW062', 'INLAND HURRICANE WARNING UPDATE');
+		sevNames[81] = new alertOb('NPW064', 'INLAND HURRICANE WARNING');sevNames[82] = new alertOb('NPW068', 'DUST STORM WARNING UPDATE');sevNames[83] = new alertOb('NPW070', 'DUST STORM WARNING');sevNames[84] = new alertOb('NPW071', 'AIR STAGNATION ADVISORY UPDATE');
+		sevNames[85] = new alertOb('NPW076', 'ASHFALL ADVISORY');sevNames[86] = new alertOb('NPW079', 'BLOWING DUST ADVISORY');sevNames[87] = new alertOb('NPW082', 'BLOWING SNOW ADVISORY');sevNames[88] = new alertOb('NPW085', 'DENSE SMOKE ADVISORY');
+		sevNames[89] = new alertOb('NPW088', 'FREEZING FOG ADVISORY');sevNames[90] = new alertOb('NPW091', 'LAKE WIND ADVISORY');sevNames[91] = new alertOb('NPW094', 'FREEZE OUTLOOK');sevNames[92] = new alertOb('NPW095', 'HIGH WIND OUTLOOK');
+		sevNames[93] = new alertOb('NPW096', 'WIND CHILL OUTLOOK');sevNames[94] = new alertOb('RFW005', 'RED FLAG WARNING');sevNames[95] = new alertOb('RFW006', 'FIRE WEATHER ADVISORY');sevNames[96] = new alertOb('SVR001', 'SEVERE THUNDERSTORM WARNING');
+		sevNames[97] = new alertOb('SVS001', 'SEVERE THUNDERSTORM WARNING UPDATE');sevNames[98] = new alertOb('SVS002', 'TORNADO WARNING UPDATE');sevNames[99] = new alertOb('SVS003', 'SEVERE WEATHER UPDATE');
+		sevNames[100] = new alertOb('TSU001', 'TSUNAMI BULLETIN');sevNames[101] = new alertOb('WCN002', 'SEVERE THUNDERSTORM WATCH');sevNames[102] = new alertOb('WCN004', 'SEVERE THUNDERSTORM WATCH UPDATE');sevNames[103] = new alertOb('FLS002', 'FLOOD WARNING UPDATE');sevNames[104] = new alertOb('ZFP005', 'TROPICAL STORM WARNING');sevNames[105] = new alertOb('ZFP010', 'TROPICAL STORM WATCH');sevNames[106] = new alertOb('ZFP020', 'HURRICANE WARNING');sevNames[107] = new alertOb('ZFP025', 'HURRICANE WATCH');
+		
+		//try {
+		/*var alertParent = parent.alertArray[0].text;
+		//alertParent = alertParent.toUpperCase();
+		
+		// Loop through hash to figure out 
+		var returnId;
+		for(var i=0;i<sevNames.length;i++) {
+			if(sevNames[i].alertTxt == alertParent) {
+				returnId = sevNames[i].alertId;
+				break;
+			}
+		}
+		if(returnId != undefined) {
+			sev = returnId;
+		} 
+		} catch(Exception) {}
+		*/
+	}
+	
+	function alertOb(alertId, alertTxt) {
+	this.alertId = alertId;
+	this.alertTxt = alertTxt;
+}
+// Function to handle all beacon calls that TWCi makes for logging.
+function callBeacon(whichType) {
+}
+	
+	
+	
+try {
+	
+	
+
+if(moduleSize.indexOf("300x235")!=-1)moduleSize="twcpif300x235";if(moduleSize.indexOf("300x170")!=-1)moduleSize="twcpif300x170";if(moduleSize.indexOf("228x335")!=-1)moduleSize="twcsm228x335";if(moduleSize.indexOf("600x189")!=-1)moduleSize="twcm600x189";	
+
+		document.write('<div id="'+divName+'">');
+			document.write('<SCRIPT LANGUAGE="JavaScript" SRC="context.js"><\/SCRIPT>');
+		document.write('</div>');
+		callBeacon(0);
+	} catch(Exception) {
+		callBeacon(1);
+	}
+		
+	</SCRIPT>
+	</DIV>
+</BODY>
+</HTML>
+
+
+

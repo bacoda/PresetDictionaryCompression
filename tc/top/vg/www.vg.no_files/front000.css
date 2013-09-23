@@ -1,0 +1,456 @@
+.spill-title-normal {
+        font-size:115%;
+        font-weight:bold;
+        }
+
+.spill-title-large {
+        font-size:large;
+        font-weight:bold;
+        }
+
+.spill-title-xlarge {
+        font-size:200%;
+        font-weight:bold;
+        }
+
+.spill-title-xxlarge {
+        font-size:300%;
+        font-weight:bold;
+        }
+.spill-preamble {
+        }
+.spill-link {
+        color:red;
+        }
+
+a.spill-link:hover {
+        color:black;
+        }
+.akt-fvm {
+        background-color: #ebf2ee;
+        border: 1px solid #799b63;
+
+}
+.akt-fvm hr {
+        height: 1px;
+	border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #799b63;
+
+}
+
+.akt-bil360 {
+	background-color: #c9c9c9;
+
+}
+
+.akt-bil360 hr {
+        height: 1px;
+	 border-width: 1px 0 0 0;
+         border-style: dashed; border-color: #8e8e8e;
+}
+
+
+.akt-vgblogg {
+        background-color: #F6E9E9;
+        border: 1px solid #c16363;
+
+}
+.akt-vgblogg hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #c16363;
+}
+.akt-leserblogg {
+        background-color:  #eee;
+        border: 1px solid #444;
+}
+.akt-leserblogg hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #444;
+}
+
+.akt-lesernesvg {
+        background-color:  #eee;
+        border: 1px solid #444;
+}
+.akt-lesernesvg hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #444;
+
+}
+.akt-jul {
+        background-color: #f1dbdb;
+        border: 1px solid #900;
+
+}
+.akt-jul hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #900;
+
+}
+.akt-okonomi {
+        background-color: #CFE7F0;
+        border: 1px solid #A8CDDA;
+
+}
+.akt-okonomi hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #A8CDDA;
+}
+.akt-fotball {
+        background-color: #CFE7F0;
+        border: 1px solid #275C27;
+
+}
+.akt-fotball hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #275C27;
+}
+
+.akt-musikk {
+        background-color: #FFE3B8;
+        border: 1px solid #F3C989;
+
+}
+.akt-musikk hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #F3C989;
+}
+
+.akt-utrolig {
+        background-color: #e5ebd0;
+        border: 1px solid #99a27c;
+
+}
+.akt-utrolig hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #99a27c;
+}
+
+.akt-holywood {
+        background-color: #ffe3bb;
+        border: 1px solid #f3c989;
+
+}
+.akt-holywood hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #f3c989;
+}
+.akt-spill {
+        background-color: #D9ECF3;
+        border: 1px solid #BAD7E2;
+
+}
+.akt-spill hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #BAD7E2;
+}
+.akt-helse {
+        background-color: #ECE4DE;
+        border: 1px solid #CAB2A3;
+
+}
+.akt-helse hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #CAB2A3;
+}
+.akt-debatt {
+        background-color: #FADECB;
+        border: 1px solid #F6BE99;
+
+}
+.akt-debatt hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #F6BE99;
+}
+.akt-rampelys {
+        background-color: #ffe9C8;
+        border: 1px solid #ffc773;
+
+}
+.akt-rampelys hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #ffc773;
+}
+.akt-sport {
+        background-color: #d3e9d3;
+        border: 1px solid #b7d8b7;
+}
+.akt-sport hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #b7d8b7;
+}
+
+.akt-annet {
+        background-color: #fdf4d6;
+        border: 1px solid #f9e395;
+}
+.akt-annet hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #f9e395;
+}
+.akt-data {
+        background-color: #e7e7e2;
+        border: 1px solid #b1b09e;
+}
+.akt-data hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #b1b09e;
+}
+
+.akt-mat {
+        background-color: #ecdee3;
+        border: 1px solid #caa3b0;
+}
+.akt-mat hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #caa3b0;
+}
+
+.akt-reise {
+        background-color: #e2eaf3;
+        border: 1px solid #8ba5bf;
+}
+.akt-reise hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #8ba5bf;
+}
+.akt-bil {
+        background-color: #d9ecf3;
+        border: 1px solid #bad7e2;
+}
+.akt-bil hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #bad7e2;
+}
+.akt-vaeret {
+        background-color: #E2EAF3;
+        border: 1px solid #738FAB;
+}
+.akt-vaeret hr {
+        height: 1px;
+        border-width: 1px 0 0 0;
+        border-style: dashed; border-color: #738FAB;
+}
+.f-title-normal {
+	font-size:150%;
+     	font-weight:bold;
+	}
+
+.f-title-large {
+	font-size:200%;
+     	font-weight:bold;
+	}
+
+.f-title-xlarge {
+	font-size:300%;
+     	font-weight:bold;
+	}
+
+.f-title-xxlarge {
+	font-size:400%;
+     	font-weight:bold;
+	}
+.f-preamble {
+	}
+
+a.f-link:hover {
+        color:black;
+        }
+
+.promo-title-normal {
+	font-size:large;
+     	font-weight:bold;
+        font-family: "arial black" , arial,  Helvetica, sans-serif
+	}
+
+.promo-title-large {
+	font-size:200%;
+     	font-weight:bold;
+        font-family: "arial black" , arial,  Helvetica, sans-serif
+	}
+
+.promo-title-xlarge {
+	font-size:300%;
+     	font-weight:bold;
+        font-family: "arial black" , arial,  Helvetica, sans-serif
+	}
+
+.promo-title-xxlarge {
+	font-size:400%;
+     	font-weight:bold;
+        font-family: "arial black" , arial,  Helvetica, sans-serif
+	}
+.promo-preamble {
+        font-family: "arial black" , arial,  Helvetica, sans-serif
+	}
+
+a.promo-link:hover {
+        color:black;
+        font-family: "arial black" , arial,  Helvetica, sans-serif
+        }
+
+.akt-title-normal {
+	font-size:115%;
+     	font-weight:bold;
+	}
+
+.akt-title-large {
+	font-size:large;
+     	font-weight:bold;
+	}
+
+.akt-title-xlarge {
+	font-size:200%;
+     	font-weight:bold;
+	}
+
+.akt-title-xxlarge {
+	font-size:300%;
+     	font-weight:bold;
+	}
+.akt-preamble {
+	color:black;
+	}
+.akt-link {
+	color:red;
+	}
+
+a.akt-link:hover {
+	color:black;
+ 	}
+.vekt-title-normal {         
+        font-size:115%;
+        font-weight:bold;
+        }
+
+.vekt-title-large {      
+        font-size:large;
+        font-weight:bold;
+        }
+
+.vekt-title-xlarge {      
+        font-size:200%;
+        font-weight:bold;
+        }
+
+.vekt-title-xxlarge {      
+        font-size:300%;
+        font-weight:bold;
+        }
+.vekt-preamble {
+        color:black;
+        }
+.vekt-link {
+        color:red;
+        }
+
+a.vekt-link:hover {
+        color:black;
+        }
+.data-title-normal {
+        font-size: 150%; font-weight:bold;
+        }
+
+.data-title-large {
+        font-size:200%;
+        font-weight:bold;
+        }
+
+.data-title-xlarge {
+        font-size:300%;
+        font-weight:bold;
+        }
+
+.data-title-xxlarge {
+        font-size:400%;
+        font-weight:bold;
+        }
+.data-preamble {
+        font-size: 1em;
+}
+
+.data-link {
+        color:red;
+        }
+
+a.data-link:hover {
+        color:black;
+        }
+
+.fspes-title-normal {
+        font-size:115%;
+        font-weight:bold;
+	font-family:arial,helvetica,sans-serif;
+        }
+
+.fspes-title-large {
+        font-size:large;
+        font-weight:bold;
+	font-family:arial,helvetica,sans-serif;
+        }
+
+.fspes-title-xlarge {
+        font-size:200%;
+        font-weight:bold;
+	font-family:arial,helvetica,sans-serif;
+        }
+
+.fspes-title-xxlarge {
+        font-size:300%;
+        font-weight:bold;
+	font-family:arial,helvetica,sans-serif;
+        }
+.fspes-preamble {
+        color:black;
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+        }
+.fspes-link {
+        color:red;
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+        }
+
+a.fspes-link:hover {
+        color:black;
+	font-family:arial,helvetica,sans-serif;
+        }
+
+
+.bunnstrek-dato {
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+        font-weight:bold;
+        color:#ffffff;
+        }
+ 
+.globalsak-front {
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+        font-weight:bold;
+        color:#ffffff;
+        }
+
+.valggraf {font-family:arial,helvetica,sans-serif;font-size:11px;color:white;}
+a.valggraf {color:white;}
+a.valggraf:visited {color:white;}
+

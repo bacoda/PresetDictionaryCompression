@@ -1,0 +1,501 @@
+#cnnPad7Top
+{padding-top: 7px;}
+#cnnPad8Top
+{padding-top:8px;}
+.cnnPad18Top
+{padding-top:18px;}
+
+.cnnPad9TopGrey
+{padding-top:9px; background:#dadada;}
+
+.cnnPad17T18RL
+{padding:17px 18px 0 18px}
+
+.cnnPad7T18LR
+{padding:7px 18px 0 18px;}
+
+.cnnVerticalBar
+{color:#dadada;}
+
+.cnnSuperBox {padding-bottom:9px;}
+
+#cnnT2Col 
+{padding:18px 18px 14px 19px; width:283px;}
+#cnnT2Col .cnnAll 
+{margin-bottom:0px !important;}
+
+#cnnT2Col .cnnT2s ul {position:relative;}
+
+/* Landscape overrides 
+=========================================================================== */
+#cnn_LS #cnnT1Col, #cnn_LS2 #cnnT1Col, #cnn_LS3 #cnnT1Col
+{padding: 18px 0px 14px 18px; width:283px; margin:0px;}
+
+/* election landscape overrides 
+=========================================================================== */
+.cnnMPelexMap { padding-top:0px !important; padding-left:0px !important; }
+.cnnElexSuperResults {padding-bottom:0px !important;}
+.cnnElexSuperResults .cnnSubHead, .cnnElexSuperResults  .cnnElexPrimary, .cnnElexSuperResults  .cnnElexRBox, .cnnElexSuperResults  .cnnElexRBox {margin-left:0px !important;}
+.cnnStBanner {border-bottom:1px solid #DFDFDF;}
+
+/* Overlay overrides 
+=========================================================================== */
+#cnnOpacity
+{height:2700px;}
+#cnnMoPo
+{position:absolute;top:0px;left:-22px;z-index:1500 !important;}
+#cnn_LS #cnnMoPo {top:-300px;}
+#cnn_LS2 #cnnMoPo {top:-350px;}
+#cnnMPpositioner
+{position:relative;z-index:1600;}
+#cnn_Split #cnnOpacity
+{height:1450px;}
+
+/* Header overrides 
+=========================================================================== */
+.cnnHeaderContent .cnnHeaderWIntl .cnnHeadWDivide
+{padding:0px 0px 0px 10px;}
+
+/* End Header overrides 
+=========================================================================== */
+
+/* TV box overrides 
+=========================================================================== */
+.cnnMPctvFootLnks
+{padding-top:0px !important; margin-top:0px !important;} 
+
+.cnnMPctvFootLnks DIV
+{line-height:10px;}
+
+.cnnMPctvFooter 
+{padding-top:9px !important;}
+
+#cnnMPctv .cnnHeadLnk A:hover {color:#ca0002;}
+
+#cnnMPctv .cnnMPctvTopper .cnnMPctvDropdown
+{position:absolute;top:6px;right:9px;}
+
+/* end TV box overrides
+=========================================================================== */
+
+/* video box overrides
+=========================================================================== */
+.cnnMpVideoContent
+{height:119px;overflow:hidden;background:#f2f2f2;border-top: solid 1px #dadada;border-bottom:solid 1px #dadada;}
+
+#cnnMpVidCtnt0,
+#cnnMpVidCtnt1,
+#cnnMpVidCtnt2
+{top:9px;}
+
+.cnnMpVidTease, .cnnMpVidTease A, .cnnMpVidTease A SPAN {font-family:arial, helvetica, sans-serif; font-size:10px; font-weight:normal !important;}
+
+/* end video box overrides
+=========================================================================== */
+
+
+/* world news now (below T2s)
+============================================================================ */
+table.cnnWorldNewsBlog
+{width:283px; min-height:50px; height:50px; overflow:hidden; background:url(news_now.gif) 100% 0 no-repeat; margin-top:18px;}
+
+table.cnnWorldNewsBlog IMG
+{border:none; width:30px; margin:0px 6px 0px 9px;}
+
+table.cnnWorldNewsBlog TD
+{padding:10px 0px; line-height:14px; vertical-align:top;}
+
+table.cnnWorldNewsBlog A
+{text-decoration:none; font-size:12px; color:#000000; font-weight:bold; }
+
+table.cnnWorldNewsBlog SPAN
+{color:#004276;}
+
+table.cnnWorldNewsBlog A:hover, table.cnnWorldNewsBlog A:hover SPAN {color:#ca0002;}
+
+/* world news now (below T2s)
+============================================================================ */
+
+
+/* international on cnn tv box
+============================================================================ */
+.cnnPad2Top
+{padding-top:2px;}
+
+#cnnTVBox2Content
+{background:#fff;}
+
+#cnnTVBox2Content h1
+{font-size:22px; font-weight:bold; margin:0px; padding:1px 0px 6px 12px;border-bottom: 1px solid #e6e6e6; border-top: 1px solid white;}
+
+#cnnTVBox2Content form
+{margin:0; padding:0;}
+
+#cnnTVBox2Content select
+{float:right; width:120px;  margin:7px 12px 0 0;font-size:10px; color:#3d75ac; font-weight:bold;}
+
+#cnnTVBox2LocationFull
+{clear:both;  font-size:10px; color:#949494;padding: 5px 11px 2px 11px; }
+
+#cnnTVBox2LocationFull span
+{float:left;}
+
+#cnnTVBox2LocationFull .cnnWeatherMoreCities
+{float:right; }
+
+.cnnTVBox2NowNext
+{font-size:12px; border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;width:15%; }
+
+.cnnTVBox2NowNext b
+{margin-left:3px;}
+
+.cnnTVBox2ProgramName
+{font-size:12px; border-left:1px solid #e4e4e4; color:#3d75ac;border-bottom:1px solid #e4e4e4; width:70%;}
+
+.cnnTVBox2ProgramName b
+{margin-left:4px;}
+
+.cnnTVBox2StartTime
+{font-size:12px; border-bottom:1px solid #e4e4e4; width:15%;}
+
+.cnnTVBox2StartTime span
+{margin-left:2px;}
+
+.cnnTVBox2Row
+{background:#f2f2f2; margin:0; padding:9px 12px 9px 12px; }
+
+/* end international on cnn tv box
+============================================================================ */
+
+
+/* intl services box
+============================================================================ */
+#cnnAnywhere
+{background:#fff;}
+
+#cnnAnywhere .cnnBoxTitle
+{font-size:22px; margin:0px; padding:12px 18px; border-bottom: 1px solid #dfdfdf; border-top: 1px solid white;}
+
+#cnnAnywhere .cnnBoxTitle span
+{font-size:14px; color:#949494;}
+
+#cnnAnywhereImg {
+    width: 585px; 
+    height: 136px;
+    margin: 18px 18px 15px 18px; 
+    padding: 0;
+    position: relative;}
+    
+#cnnAnywhereImg li 
+{margin: 0; padding: 0; list-style: none; position: absolute; background: url(service_.gif) 0px 0px no-repeat;}
+
+#cnnAnywhereImg li, #cnnAnywhereImg a 
+{height: 39px; width: 190px; display: block;}
+
+#cnnAWimg1a {top: 0px; left: 0px;  background-position: 0px 0px;}
+#cnnAWimg1b {top: 0px; left: 198px; background-position: -198px 0px !important;}
+#cnnAWimg1c {top: 0px; left: 396px; background-position: -396px 0px !important; width:191px;}
+#cnnAWimg2a {top: 48px; left: 0px; background-position:  0px -48px !important;}
+#cnnAWimg2b {top: 48px; left: 198px; background-position: -198px -48px !important;}
+#cnnAWimg2c {top: 48px; left: 396px; background-position: -396px  -48px !important; width:191px;}
+#cnnAWimg3a {top: 97px; left: 0px; background-position: 0px -97px !important;}
+#cnnAWimg3b {top: 97px; left: 198px; background-position: -198px -97px !important;}
+
+/* end services box
+============================================================================ */
+
+/* intl blog box
+============================================================================ */
+#cnnBlogContainer
+{width:100%; background:#fff; border-bottom:1px solid white;}
+#cnnBlogContainer a:link {color:#004276;}
+#cnnBlogContainer a:hover {color:#ca0002;}
+#cnnBlogContainer h1
+{font-size:22px; font-weight:bold; margin:0px; padding:4px 0px 9px 12px; border-bottom: 1px solid #e6e6e6; border-top: 1px solid white;letter-spacing:-1px;line-height:22px;}
+
+#cnnBlogContainer form
+{margin:0px; padding:0px;}
+
+#cnnBlogContainer select
+{float:right; width:150px; margin:6px 18px 0px 0px;font-size:12px; color:#3d75ac; font-weight:bold;}
+
+#cnnBlogContainer #cnnBlogDD_wrap
+{float:right;padding:5px 9px 0px 0px;}
+
+.cnnBlogItems {padding:12px 12px 5px 12px; width:310px; max-width:310px; overflow:hidden;}
+.cnnBlogItems .cnnSum {min-height:45px !important; height:45px !important;margin-bottom:12px;}
+.cnnSum {clear:left; font-size:10px; color:#000; font-weight:normal; line-height:13px; }
+.cnnSum .cnnSumHeadline A {font-size:14px; font-weight:bold; font-family: helvetica, sans-serif;}
+.cnnSum img {float:left; border:none; padding-right: 9px;}
+
+.cnnBlogOther {border-top: 1px solid #e6e6e6;padding-top:12px;}
+.cnnBlogOther ul {margin:-2px 0;padding: 0px;list-style: none; clear:both;}
+.cnnBlogOther ul li {padding:0px 0px 3px 8px; background: url(red_bull.gif) no-repeat left 5px; font-weight:bold; font-size:10px; margin:0; line-height:13px;}
+
+* html .cnnSum a  /* IE 3px jog hack*/
+{height: 1%;  margin-top:0;}
+
+.cnnSum a {text-decoration:none; font-size:14px;}
+
+
+/* end intl blog box
+============================================================================ */
+
+/* intl only on cnn area 
+============================================================================ */
+#cnnFCcontainer h1
+ {font-size:22px; font-weight:bold; margin:0px; padding:4px 0px 9px 18px; border-bottom: 1px solid #e6e6e6; border-top: 1px solid white;letter-spacing:-1px;line-height:22px;}
+
+#cnnFCcontainer form
+{margin:0px; padding:0px;}
+
+#cnnFCcontainer select
+{float:right; width:125px; margin:6px 18px 0 0;font-size:12px; color:#3d75ac; font-weight:bold;}
+
+#cnnFCcontainer #cnnFcDD_wrap
+{float:right;padding:5px 9px 0 0;}
+
+#cnnFCitems 
+{padding:18px 18px 0px 18px;}
+
+#cnnFCitems .cnnSum 
+{clear:both; min-height:49px !important; height:49px; border-bottom:15px solid #fff;  line-height:11px;}
+
+#cnnFCitems .cnnSum .cnnSumHeadline
+{margin-bottom:4px; line-height:14px;}
+
+/* end intl only on cnn area 
+============================================================================ */
+
+
+/* intl partners area 
+============================================================================ */
+.cnnPartner 
+{padding:12px 12px 10px 12px;}
+
+#cnnPartnerBox .cnnBoxContent 
+{padding-bottom:10px; font-family: arial, helvetica, sans-serif; font-size:10px; font-weight:bold; width:334px;}
+
+.cnnPartnerLogo 
+{margin-bottom:5px; padding:0px;}
+
+.cnnPartner ul
+{padding: 0px; margin: 0px; list-style: none; clear:both;}
+
+.cnnPartner ul li
+{font-size:10px; padding-left: 8px;background: url(red_bull.gif) no-repeat left center;}
+
+.cnnPartner ul li a
+{font-weight:bold; margin:0}
+
+#cnnPartnerHeader h1
+{font-size:22px; font-weight:bold; margin:0px; padding:1px 0px 6px 12px; border-bottom: 1px solid #e6e6e6; border-top: 1px solid white;}
+
+
+/* end intl partners area 
+============================================================================ */
+
+
+
+/* intl market box 
+============================================================================ */
+.cnnMBSponsor iframe {position:static !important;}
+
+.cnnMB .cnnMBTop
+{border-bottom:1px solid #e6e6e6; padding:0px; margin:0px;}
+
+.cnnMB .cnnHeadLnk
+{font-weight:bold;font-size:22px; line-height:24px;padding: 5px 12px 8px;}
+
+.cnnMB .cnnHeadLnk A:hover {color:#ca0002;}
+
+.cnnMBSponsor
+{float:right; display:inline; margin:0px 4px 0px 0px; padding:0px; }
+
+#cnnWbMarkets
+{margin:0; padding-bottom:0; border:none;}
+
+.cnnWBPanelCtnt
+{border-left:1px solid #E4E4E4; border-right:1px solid #E4E4E4;}
+
+/* tabs */
+
+TR.cnnWbTabRow TD
+{text-align:center; font-size:10px; font-weight:bold; border-bottom:1px solid #E4E4E4;padding:0px;}
+
+TR.cnnWbTabRow TD#cnnWbMarketsTab1,
+TR.cnnWbTabRow TD#cnnMpVideosTab1,
+TR.cnnWbTabRow TD#cnnWbMarketsTab2,
+TR.cnnWbTabRow TD#cnnMpVideosTab2,
+TR.cnnWbTabRow TD#cnnWbMarketsTab3,
+TR.cnnWbTabRow TD#cnnMpVideosTab3
+{border-right:1px solid #E4E4E4;}
+
+
+TR.cnnWbTabRow TD#cnnWbMarketsTab1
+{width:50px; max-width:50px;}
+TR.cnnWbTabRow TD#cnnWbMarketsTab2
+{width:66px; max-width:66px;}
+TR.cnnWbTabRow TD#cnnWbMarketsTab3
+{width:40px; max-width:40px;}
+/*TR.cnnWbTabRow TD#cnnWbTimestamp
+{min-width:180px; width:180px;}*/
+
+TR.cnnWbTabRow TD a
+{display:block; color:#004276; padding:4px 12px; font-weight:bold; text-decoration:none;}
+
+TR.cnnWbTabRow TD a:hover
+{color:#ca0002;}
+
+TR.cnnWbTabRow TD.active a
+{background: #f2f2f2; color:#999; cursor:text;}
+
+TR.cnnWbTabRow TD.active a:hover
+{background:#f2f2f2; color:#999;}
+
+TR.cnnWbTabRow TD a.visited
+{color: inherit;}
+
+/* /tabs */
+
+TABLE.cnnWbRowsTable TD.cnnMpTopicsContent a
+{font-size:14px; text-decoration:underline;}
+
+TABLE.cnnWbRowsTable TR.cnnHoverState TD.cnnMpTopicsContent a
+{font-size:14px; text-decoration:underline;}
+
+TABLE.cnnWbRowsTable TD.cnnMpCount
+{font-size:16px; font-weight:bold;color:#bbb;padding:2px 6px;}
+
+TABLE.cnnWbRowsTable TD
+{border-bottom:1px solid #E4E4E4;}
+
+TABLE.cnnWbRowsTable TD IMG.cnnMpTzImg
+{border:1px solid #E4E4E4;margin:6px;float:right;}
+
+TABLE.cnnWbRowsTable TR.cnnHoverState TD IMG.cnnMpTzImg
+{border:1px solid #a00;margin:6px;float:right;}
+
+TABLE.cnnWbRowsTable TR TD a
+{color:#4D83BF;font-size:11px;font-weight:bold;text-decoration:none;}
+
+TABLE.cnnWbRowsTable TR.cnnHoverState
+{background:#FEFDE8;}
+
+TABLE.cnnWbRowsTable TR.cnnHoverState TD a
+{color:#ca0002;font-size:11px;font-weight:bold;text-decoration:none;}
+
+TABLE.cnnWbRowsTable TR.cnnWbBotRow TD
+{border-bottom:0;padding:10px 12px 8px 12px;}
+
+TABLE.cnnWbRowsTable TR.cnnWbBotRow TD a
+{font-size:10px; text-decoration:none; color:#004276; font-weight:normal; line-height:10px;}
+
+TABLE.cnnWbRowsTable TR.cnnWbBotRow TD a:hover
+{color:#ca0002}
+
+#cnnWbMarkets2,
+#cnnWbMarkets3
+{display:none;}
+
+.cnnWbContent, .cnnWbContent2,  .cnnWbContent3, .cnnWbContent4
+{background:#f2f2f2; font-size:10px;}
+
+.cnnWbContent
+{padding:6px 0px 6px 11px; width:145px; max-width:156px; min-width: 145px; overflow:hidden;}
+.cnnWbContent2
+{text-align:right; padding:6px 0px; width:9px; max-width:9px; min-width: 9px; overflow:hidden;}
+.cnnWbContent3
+{text-align:right; padding:6px 0px 6px 10px; width:83px; max-width:93px; min-width: 83px; overflow:hidden;}
+.cnnWbContent4
+{text-align:right; padding:6px 12px 6px 12px; width:54px; max-width:76px; min-width: 54px; overflow:hidden;}
+
+
+/* 
+.cnnWbContent
+{white-space:nowrap;padding:6px 6px 6px 11px;  width:52%;  background-color:red;}
+.cnnWbContent2
+{text-align:right; padding:6px 0px 6px 6px; width:8%;  background-color:yellow;}
+.cnnWbContent3
+{text-align:right; padding:6px 0px 6px 18px; width:24%; background-color:blue;}
+.cnnWbContent4
+{text-align:right; padding:6px 12px 6px 18px;  width:16%; background-color:pink;}
+*/
+.cnnWbContent b
+{font-size:16px;font-weight:bold;}
+
+#cnnWbTimestamp
+{font-size:10px; color:#949494; text-align:right; padding-right:12px; font-weight:normal;}
+
+.cnnMarketUp
+{color:#009900;font-size:16px;font-weight:bold;}
+
+.cnnMarketUpSm
+{color:#009900;font-size:10px;}
+
+.cnnMarketDown
+{color:#ca0002;font-size:16px;font-weight:bold;}
+
+.cnnMarketDownSm
+{color:#ca0002;font-size:10px;}
+
+/* end intl market box 
+============================================================================ */
+
+/* quick vote box over-rides
+=================================================================================== */
+
+#cnnQVhomepage .cnnQVHead
+{padding-bottom:8px;}
+
+
+/* end quick vote box
+=================================================================================== */
+
+
+
+/* bullet bins 
+============================================================================ */
+#cnnIntlMoreNews .cnnHeaderLnk
+{font-size:16px;font-weight:bold;line-height:19px;padding:2px 0;}
+
+#cnnIntlMoreNews
+{display:none;position:relative;height:236px;}
+
+#cnnIntlMoreNews #cnnMoreNewsTab1,
+#cnnIntlMoreNews #cnnMoreNewsTab2
+{position:absolute;top:8px;left:18px;background:#fff;overflow:hidden;height:194px;}
+
+#cnnIntlMoreNewsBtns
+{text-align:center;position:absolute;bottom:5px;left:0;width:100%;padding:9px 0 0 0;border-top:1px solid #dfdfdf;}
+
+#cnnIntlMoreNewsBtns img.cnnIntlBtnL
+{margin-right:4px;}
+
+#cnnIntlMoreNewsBtns img.cnnIntlBtnR
+{margin-left:5px;}
+
+
+/* 234 advert over-ride
+============================================ */
+.cnn234ad .cnnAdTxt
+{text-align:center; padding-top:20px;}
+.cnn234ad
+{padding:0px 0px 13px 20px;}
+#cnn_LS .cnn234ad, #cnn_LS2 .cnn234ad, #cnn_LS3 .cnn234ad 
+{padding:0px;}
+
+
+/* Ireport box
+============================================ */
+
+.cnnIreportItem {padding-top:12px;}
+
+.cnnIreportTitleMod
+{padding-bottom:0px;padding-top:12px;}
+
+.cnnIreportMore
+{margin-top: 15px; padding:6px 0px 5px 0px;}
+
+/* end i-report box
+=================================================================================== */

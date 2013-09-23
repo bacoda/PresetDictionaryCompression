@@ -1,0 +1,422 @@
+/* Start Y Styles from yui.yahooapis.com/2.4.1/build/autocomplete/assets/skins/sam/autocomplete.css
+
+
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.4.1
+*/
+.yui-skin-sam .yui-ac{position:relative;font-family:arial;font-size:100%;}
+.yui-skin-sam .yui-ac-input{position:relative;width:100%;}
+.yui-skin-sam .yui-ac-container{position:absolute;top:1.6em;left:-1px;width:100%;}
+.yui-skin-sam .yui-ac-content{position:absolute;width:100%;border:1px solid #808080;background:#fff;max-height:20em;overflow:auto;overflow-x:hidden;_height:20em;z-index:9050;}
+.yui-skin-sam .yui-ac-shadow{position:absolute;margin:.3em;width:100%;background:#000;-moz-opacity:0.10;opacity:.10;filter:alpha(opacity=10);z-index:9049;}
+.yui-skin-sam .yui-ac-content ul{margin:0;padding:0;width:100%;}
+.yui-skin-sam .yui-ac-content li{margin:0;padding:3px 7px;cursor:default;white-space:nowrap; text-indent:0;}
+.yui-skin-sam .yui-ac-content li.yui-ac-prehighlight{background:#B3D4FF;}
+.yui-skin-sam .yui-ac-content li.yui-ac-highlight{background:#426FD9;color:#FFF;}
+
+td.yui-skin-sam .yui-ac-content {
+	width:500px;
+}
+
+/* end Y styles */
+
+#SubNav .Extras div.SlideShowShareButtons { 
+	text-align: right; 
+	margin-top:-6px;
+}
+
+.SlideShowShareButtons {
+	position:relative;
+	text-align:right;
+	z-index:250;
+	zoom:1;
+}
+
+#SSButtonHugger {
+	position:relative;
+	z-index:251;
+	white-space:nowrap;
+	zoom:1;
+}
+
+#SSButtonHugger span {
+	float:right;
+	display:block;
+}
+
+#SSButtonHugger a {
+	text-decoration:none;
+	display:block;
+	font-weight:bold;
+	font-size:11px;
+	zoom:1;
+	_width:30px; 
+}
+
+/* Photo.gne specific */
+td.RHS {
+	padding-top:5px;
+}
+
+td.RHS .SlideShowShareButtons {
+	margin-bottom:34px;
+	_margin-bottom:10px; /* Why must it sting so badly? */
+	margin-top:-6px;
+}
+
+/* RHS ad on photo.gne */
+div.ad_hb {
+	margin-top:0;
+	height:auto;
+}
+
+/* Photostream specific */
+td.Extras #SSButtonHugger {
+	width:210px;
+}
+
+#SubNav #ShareMenu a {
+	text-decoration:underline;
+} 
+
+/* Set specific */
+#setCrumbs .scTopCrumbShareSlideshow {
+	padding-top:0px;
+}
+
+#SlideShowButton, #ShareButton {
+	background:transparent url(sharing_sprite.gif) no-repeat 100% 3px;
+	border:solid 1px #fff;
+	padding:5px 26px 5px 6px;
+	color:#a1a1a1;
+	white-space:nowrap;
+	text-decoration:none;
+	z-index:252;
+}
+
+#ShareButton {
+	border-bottom:solid 5px #fff;
+}
+
+#ShareButton:focus {
+	outline:none;
+}
+
+#ShareButton:hover {
+	color:#0259C4;
+	background-position:100% -19px;
+}
+
+#ShareButton.share_button_on {
+	background-color:#efefef;
+	border:solid 1px #d7d7d7;
+	border-bottom:solid 5px #efefef;
+	background-position:100% -41px;
+	color:#000;
+}
+
+#ShareButton.share_button_on:hover {
+	border-bottom:solid 5px #efefef;
+	background-position:100% -63px;
+}
+
+#SlideShowButton {
+	background-position:100% -85px;
+	padding-right:29px;
+	margin-right:5px;
+}
+
+#SlideShowButton:hover {
+	color:#0259C4;
+	background-position:100% -108px;
+}
+
+#ShareMenu {
+	clear:both;
+	float:none;
+	position:absolute;
+	z-index:50;
+	top:27px;
+	right:0px;
+	white-space:normal;
+	text-align:left;
+	background-color:#efefef;
+	display:none;
+	padding:6px 6px 14px 6px;
+	width:312px;
+	border:solid 1px #d7d7d7;
+}
+
+#ShareMenu h4 {
+	font-size:13px;
+	font-weight:bold;
+	margin:0;
+	color:#000;
+	text-transform:uppercase;
+}
+
+#SubNav .Extras #ShareMenu p {
+	width:auto;
+}
+
+#ShareMenu .sharing_faded_text, #ShareMenu p.sharing_faded_text a, .sendInvite p.sharing_faded_text {
+	/* color:#acacac;*/
+	color:#969593;
+	font-size:11px;
+}
+
+#ShareMenu p.sharing_faded_text, .sendInvite p.sharing_faded_text {
+	margin:0;
+}
+
+#sharing_email_input, #to_email_input {
+	width:125px;
+	border:none;
+	background-color:none;
+	display:none;
+}
+
+#sharing_email_input:focus, #to_email_input:focus {
+	outline:none;
+}
+
+#ShareMenu p.sharing_faded_text a {
+	text-decoration:underline;
+}
+
+#ShareMenu p.sharing_faded_text a:hover {
+/*	background:none;*/
+	color:#fff;
+}
+
+#ShareMenu .CancelButt {
+	margin-left:4px;
+}
+
+.share_inner_list .ShareGPMsg .sharing_privacy_msg {
+	font-size:11px;
+	color:#969593;
+	line-height:normal;
+	margin:5px 0;
+}
+
+#sharing_chbx_family, #sharing_chbx_private {
+	margin-left:5px;
+}
+
+#SharingQuickStatMsg {
+	padding:0 0 0 3px;
+	margin:0;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:#fff;
+}
+
+#SubNav .Extras #ShareMenu p#SharingQuickStatText {
+	padding:0 0 0 20px;
+	margin:0;
+	text-align:left;
+	line-height:18px;
+	font-size:12px;
+	color:#000;
+	width:225px;
+}
+
+#SharingQuickStatText {
+	padding-left:22px;
+}
+
+#SharingQuickStatText a {
+	text-decoration:underline;
+}
+
+#SharingQuickStatText.send_success {
+	background:transparent url(icon_check_small.png) no-repeat 0 1px;
+}
+
+#SharingQuickStatText.send_fail {
+	background:transparent url(icon_error_x_small.png) no-repeat 0 1px;
+}
+
+#QuickShareAddMsg {
+	padding:0;
+	font-size:12px;
+	margin:10px 0px 0px 0px;
+}
+
+#ShareOptions {
+	list-style:none;
+	margin:0 0 15px 0;
+	padding:0;
+}
+
+#ShareOptions li.share_options {
+	margin-bottom:10px;
+	padding:5px 5px 5px 15px;
+	line-height:normal;
+	text-indent:0;
+	border:solid 1px #d7d7d7;
+}
+
+#ShareOptions li.share_options:hover {
+	/* Screw you IE6 */
+	background-color:#fff;
+}
+
+#ShareOptions li.sharing_options_li_open {
+	background-color:#fff;
+	padding-bottom:10px;
+}
+
+#ShareOptions li.share_options #SharingEmbedMarkup.ff_2_mac_hack {
+	display:none;
+}
+
+#ShareOptions li.sharing_options_li_open #SharingEmbedMarkup.ff_2_mac_hack {
+	display:inline;
+}
+
+#ShareOptions div.sharing_options_header {
+	color:#0063dc;
+	font-weight:bold;
+	padding-left:15px;
+	margin-left:-13px;
+	cursor:pointer;
+	background:transparent url(sharing_sprite.gif) no-repeat 5px -130px;
+}
+
+#ShareOptions div.sharing_options_header_open {
+	color:#000;
+	background-position:3px -143px;
+}
+
+#ShareOptions .sharing_options_inner {
+	display:none;
+	zoom:1;
+}
+
+#ShareOptions .sharing_options_inner p.sharing_faded_text {
+	color:#000;
+	font-size:12px;
+	margin:6px 0px 0px 0px;
+	padding:0;
+}
+
+.sharing_embed_cont {
+	margin-top:0;
+	padding-top:0;
+}
+
+.share_inner_list {
+	list-style:none;
+	margin:7px 0 0 0;
+	padding:0;
+}
+
+.share_inner_list li.sharelist {
+	text-indent:0;
+	line-height:normal;
+}
+
+.morethanoneli li.sharelist {
+	background:transparent url(sharing_sprite.gif) no-repeat 0px -183px;
+	padding-left:10px;
+}
+
+.share_inner_list li.sharelist p {
+	font-size:12px;
+	color:#000;
+	margin:0;
+	padding:0;
+}
+
+.share_inner_list li.sharelist #AutoCompleteContactsBox {
+	margin-bottom:10px;
+}
+
+#grab_link_get_butt {
+	text-transform:uppercase;
+	margin:12px 0;
+}
+
+#sharing_grab_link_input {
+	width:275px;
+	margin-bottom:20px;
+}
+
+#SharingEmbedIt textarea {
+	width:280px;
+}
+
+#SharingBlogIt .sharing_blog_link {
+	color:#0063dc;
+	margin-bottom:4px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#SharingBlogIt p.sharing_faded_text a {
+	color:#0063dc;
+}
+
+#SharingBlogIt .sharing_options_inner p.sharing_faded_text {
+	margin-bottom:10px;
+}
+
+#GPTooltip {
+	display:none;
+}
+
+#AutoCompleteContact {
+	display:none;
+}
+
+#AutoCompleteContactsBox {
+	width:265px;
+	background-color:#fff;
+	font-size:12px;
+	border:solid 1px #d7d7d7;
+	padding:4px;
+	min-height:15px;
+	line-height:20px;
+}
+
+.sendContentCol #AutoCompleteContactsBox {
+	width:100%;
+}
+
+b.autocomplete_contact {
+	font-weight:normal;
+	color:#000;
+	margin-right:10px;
+	white-space:normal;
+}
+
+.AutoCompleteContactClose {
+	color:#acacac;
+	margin-left:3px;
+	cursor:pointer;
+}
+
+.autocomplete_hilite {
+	color:#000;
+	background:#c3ddff;
+}
+
+.autocomplete_contact_hilite {
+	background-color:#b5d5ff;
+}
+
+.autocomplete_contact_hilite span {
+	color:#B7410E;
+}
+
+#AutoCompleteLoading {
+	color:#969593;
+	font-style:italic;
+	margin:0;
+	padding:0;
+}

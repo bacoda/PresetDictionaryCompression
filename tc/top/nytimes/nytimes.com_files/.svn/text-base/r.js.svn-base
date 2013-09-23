@@ -1,0 +1,6 @@
+var ANUT=1;
+var ANOO=0;
+var ANCCT=1216117770;
+var ANSL='99999|^|#|60183|50239|60186|50206';
+var ANMSL='$';
+ANRTXR();

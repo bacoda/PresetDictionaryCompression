@@ -1,0 +1,1318 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<title>Welcome to Rediff.com India</title>
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="Mon, 01 Jan 1990 00:00:00 GMT">
+<meta name="DESCRIPTION" content="Rediff.com - India's leading internet portal for news, mail, messenger, entertainment, business, mobile, ecommerce, shopping, auctions, search, sports, jobs, air fares, products, services, blogs, movies, ringtones, classifieds and matrimonials.">
+<meta name="KEYWORDS" content="India News, India Search, Indian Movies, Cricket, Business, Air Fare,Air Tickets, Job Search, People,Friends, contacts, Mobile, Ringtones, Newshound, Blogs, Classifieds, Shopping, Auctions, Matrimonials, Chat, Astrology, Flirt, Dating, Rediffmail, Mail, IM, Instant Messenger">
+<link rel="alternate" type="application/rss+xml" href="http://www.rediff.com/rss/inrss.xml">
+<script language="JavaScript1.2" type="text/javascript">
+function Redirect(url)
+{
+	if(document.cookie.indexOf("RMID=") != -1)
+	{
+		var iBannerPos, iBannerEndPos, strBanner;
+		if((iBannerPos=document.cookie.indexOf("INBANNER=")) != -1)
+		{
+			iBannerEndPos = document.cookie.indexOf(";", iBannerPos);
+			if(iBannerEndPos != -1)
+				strBanner = document.cookie.substr(iBannerPos, iBannerEndPos-iBannerPos);
+			else
+				strBanner = document.cookie.substr(iBannerPos);
+			strBanner = strBanner.replace(/INBANNER=/ig, "");
+			if(parseInt(strBanner)>=10)
+			{
+				window.location = url;
+			}
+			else
+			{
+				var d = new Date();
+				url = escape(url);
+				url.replace("+", "%2B");
+				url.replace("/", "%2F");
+
+				window.location = "http://www.rediff.com/login/inredirect.php?url=" + url + "&tz=" + d.getTimezoneOffset();
+			}
+		}
+		else
+		{
+			var d = new Date();
+			url = escape(url);
+			url.replace("+", "%2B");
+			url.replace("/", "%2F");
+
+			window.location = "http://www.rediff.com/login/inredirect.php?url=" + url + "&tz=" + d.getTimezoneOffset();
+		}
+	}
+	else
+	{
+		window.location = url;
+	}
+	return false;
+}
+</script>
+<script language="JavaScript" type="text/javascript"><!--
+v=10; //--></script>
+<script language="JavaScript1.1" type="text/javascript"><!--
+v=11;
+if (navigator.userAgent.indexOf('Mozilla/3') != -1) {
+	v=10;
+}
+//-->
+</script>
+
+<script language="JavaScript" type="text/javascript"><!--
+var a='rediff.com_files/';
+var RN = new String (Math.random());
+var RNS = RN.substring (2, 11);
+function da(width, height, posn) {
+	var p='www.rediff.com/ind-home.htm/1' + RNS + '@' + posn;
+	if(v < 11) {
+		document.write('<A HREF=' + a + 'click_js.ads/' + p + '><IMG SRC=' + a + 'adstream_js.ads/redifflogo.gif BORDER=0 WIDTH=' + width + ' HEIGHT= ' + height + ' VSPACE=0 HSPACE=0><\/A>');
+	} else {
+		document.write('<SCRIPT LANGUAGE=JavaScript1.1 SRC=' + a + 'adstream_js.ads/redifflogo.js><\/SCRIPT>');
+	}
+}
+//-->
+</script>
+
+
+<script language="javascript" type="text/javascript">
+function submit_Web() {
+ if(document.query.MT.value=="")
+ {
+  alert("The search box cannot be left empty.\nType in your requirement and click Search.");
+  document.query.MT.focus();
+  return false;
+ }
+}
+</script>
+
+
+<script language="JAVASCRIPT" type="text/javascript">
+var ck=document.cookie;
+function tr_getCk(n)
+{
+ var ar=n+"=";
+ var al=ar.length;
+ var cl=ck.length;
+ var i=0;
+ while(i < cl)
+ {
+ j=i+al;
+ if(ck.substring(i,j)==ar)
+ {
+ e=ck.indexOf(";",j);
+ if(e==-1)
+ e=ck.length;
+ return unescape(ck.substring(j,e));
+ }
+ i=ck.indexOf(" ",i)+1;
+ if(i==0)
+ break;
+ }
+ return null;
+}
+function tr_sCk(n,v,x,p,d) {
+ var cstr;
+ document.cookie = n + "=" + escape(v) +
+ ((x) ? "; expires="+x : "") +
+ ((p) ? "; path="+p : "") +
+ ((d) ? "; domain="+d : "");
+}
+function DoCks()
+{
+	v=(((new Date).getTime())*1000)+Math.round(Math.random()*1000);
+	var RetSessionStr,RetUserStr,value;
+	RetUserStr = tr_getCk('RuW'); RetSessionStr = tr_getCk('RsW');
+	if(RetUserStr==null)
+		tr_sCk("RuW",v,"Wed, 31-Dec-2008 23:59:59 GMT","/",".rediff.com");
+	if(RetSessionStr==null)
+		tr_sCk("RsW","IND","","/",".rediff.com");
+	return;
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+signname = new Array ('Aquarius','Pisces','Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn');
+function showdaily()
+{
+sign = document.pred.sign.options[document.pred.sign.selectedIndex].value;
+var wind=window.open("http://astrology.rediff.com/sections/daily/daily.asp?sign="+sign,"RediffDaily","toolbars=no,directory=no,scrolling=no,scrollbars=yes,maximize=null,width=520,height=423");
+}
+function openscore(fileName) {
+
+window.open(fileName,"scorepop","top=2,left=2,toolbars=no,maximize=no,resize=no,width=385,height=380,location=no,directories=no,scrollbars=no");
+}
+function PasswdRemindWin()
+{
+window.open("http://login.rediff.com/cgi-bin/passwd_remind.cgi?FormName=showlogin","win1","toolbar=no,directories=no,resize=yes,menubar=no,location=no,scrollbars=yes,width=490,height=480,maximize=null,top=70,left=80");
+}
+</script>
+
+<script language="JavaScript">
+<!--
+imgnews1=new Image()
+imgnews1.src="rediff.com_files/a-headlines.gif";
+imgnews2=new Image()
+imgnews2.src="rediff.com_files/a-news.gif";
+imgnews3=new Image()
+imgnews3.src="rediff.com_files/a-business.gif";
+imgnews4=new Image()
+imgnews4.src="rediff.com_files/a-movies.gif";
+//-->
+</script><!--1st change on 02-May-07 begins-->
+
+
+<script language="JavaScript">
+function st2new(n)
+{
+	for(i=1;i<=6;i++)
+	{
+		tabnm=document.getElementById('headTab'+ i);
+		toptbnm=document.getElementById('top_tb'+ i);
+		if (n==i)
+		{
+			document.getElementById('imgL'+n).src='rediff.com_files/lw.gif' ;
+			document.getElementById('imgR'+n).src='rediff.com_files/rw.gif' ;
+			tabnm.className="headbacksel";
+			toptbnm.style.background="#FFFFFF";
+			showDiv('dd'+n);
+		}
+		else
+		{
+			document.getElementById('imgL'+i).src='rediff.com_files/l.gif' ;
+			document.getElementById('imgR'+i).src='rediff.com_files/r.gif' ;
+			tabnm.className="headback";
+			toptbnm.style.background="#6592CE";
+			hideDiv('dd'+i);
+		}
+	}
+}
+</script><!--1st change on 02-May-07 ends-->
+
+
+<script language="JavaScript" type="text/javascript">
+function valipro()
+{
+	admin = document.pronew.user.value;
+	dom = document.pronew.dom.value;
+var errmsg = "";
+	if(document.pronew.dom.value=="")
+		{
+		alert("Please enter Domain field");
+		return false;
+		}
+			else {
+document.pronew.action ="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/38286_36971/38692/1?PARTNER=4&OAS_QUERY=null&PARAM=admin%3D"+admin+"%26dom%3D"+dom+"%26tld%3D.com";
+		return true;
+				}
+}
+</script>
+<script language="JavaScript">
+<!--
+function shopTabShow(n)
+{
+	for(i=1;i<=2;i++)
+	{
+		tabnm=document.getElementById('shopTab'+ i);
+		toptbnm=document.getElementById('shtop_tb'+ i);
+
+		if (n==i)
+		{
+			document.getElementById('imgshL'+n).src='rediff.com_files/lw.gif' ;
+			document.getElementById('imgshR'+n).src='rediff.com_files/rw.gif' ;
+			tabnm.className="headbacksel";
+			toptbnm.style.background="#FFFFFF";
+			showDiv('shopdiv'+n);
+		}
+		else
+		{
+			document.getElementById('imgshL'+i).src='rediff.com_files/l.gif' ;
+			document.getElementById('imgshR'+i).src='rediff.com_files/r.gif' ;
+			tabnm.className="headback";
+			toptbnm.style.background="#6592CE";
+			hideDiv('shopdiv'+i);
+		}
+	}
+}
+
+function showDiv(divnm)
+{
+		document.getElementById(divnm).style["display"]="block" ;
+		document.getElementById(divnm).style["visibility"]="visible" ;
+}
+
+function hideDiv(divnm)
+{
+		document.getElementById(divnm).style["display"]="none" ;
+		document.getElementById(divnm).style["visibility"]="hidden" ;
+}
+//-->
+function frmSubmit() {
+            if( (document.get_quote.query.value).replace(/^\s+/g,'').replace(/\s+$/g,'')!="" && (document.get_quote.query.value).replace('Company name / code, MF name','')!="")
+                document.get_quote.submit();
+        }
+</script>
+
+<script language="JavaScript" type="text/javascript">
+function scorecard(scr)
+{
+	crik="http://imsports.rediff.com/score/in_match"+scr+".html";
+	location.href=crik;
+}
+</script><!-- CSS Begin //-->
+
+
+<style type="text/css">
+.chatclk{cursor:pointer;cursor:hand;}
+.f10 {FONT-FAMILY: arial; FONT-SIZE: 10px;}
+.f11 {FONT-FAMILY: arial; FONT-SIZE: 11px;}
+.f12 {FONT-FAMILY: arial; FONT-SIZE: 12px;}
+.f12r {FONT-FAMILY: arial; FONT-SIZE: 12px; line-height:13px}
+.f12n {FONT-FAMILY: arial; FONT-SIZE: 12px; line-height: 1.3em}
+.ft11a{font-family:Tahoma;font-size:11px;line-height: 13px}
+.fv9 {FONT-FAMILY: verdana; FONT-SIZE: 9px;}
+.fv8 {FONT-FAMILY: verdana; FONT-SIZE: 8px;}
+.fv10 {FONT-FAMILY: verdana; FONT-SIZE: 10px;}
+.ft11{font-family:Tahoma;font-size:11px;line-height:14px;}
+.fmicro9 {FONT-FAMILY: Microsoft Sans Serif; FONT-SIZE: 9px;}
+
+a.srchlink:link {color: #2864B4; text-decoration: none;}
+a.srchlink:visited {color: #W2864B4;}
+a.srchlinksel:link {color: #000000; text-decoration: none; cursor:text}
+a.srchlinksel:visited {color: #000000; text-decoration: none; cursor:text}
+a.srchlink2:link {color: #2864B4; text-decoration: underline; }
+a.srchlink2:visited {color: #2864B4; text-decoration: underline; }
+a.srchlinksel2:link {color: #FFFFFF; text-decoration: none; cursor:text}
+a.srchlinksel2:visited {color: #FFFFFF; text-decoration: none; cursor:text}
+
+.tb2 {background-color:#D9E9F6;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#EEF5FB',EndColorStr:'#D9E9F6');}
+.tbmain2 {background-color:#FFFFFF;}
+.lfttbl {background-color:#DEFFC6;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#DEFFC6',EndColorStr:'#B7E4A2');}
+.rttbl {background-color:#EEF5FB;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#EEF5FB',EndColorStr:'#DEEFF7');border:1px solid #B5D6EF;}
+.rttblx {background-color:#FFFFFF;border:1px solid #B5D6EF;}
+
+.rt_tbl {background-color:#B5D6EF;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#B5D6EF',EndColorStr:'#D6EFF7')}
+.toptbl {background-color:#00426B;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#4A84AD',EndColorStr:'#00426B')}
+.srchtbl {background-color:#A5DEDE;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#FFFFFF',EndColorStr:'#A5DEDE')}
+
+.tbheadline {background-color:#033980;}
+.tbnews {background-color:#F33F3E;}
+.tbbusiness {background-color:#4095EF;}
+.tbmovies {background-color:#CD3298;}
+.tbsports {background-color:#018C00;}
+
+a {text-decoration: none}
+a:hover { text-decoration: underline }
+
+/* 2nd change on 21-sep-06 begins */
+.tbtopsrch {background-color:#d9eeff;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#d9eeff',EndColorStr:'#FFFFFF');}
+/* 2nd change on 21-sep-06 ends */
+.blueback1{background-color:#EFF7FD;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#EFF7FD',EndColorStr:'#E1F0F8');}
+
+.fntTr14{font-family:'Trebuchet MS';font-size:14px;}
+
+/* 2nd change on 02-May-07 begins */
+.shopback1{background:#033980;color:#FFFFFF;cursor:text;}
+.shopback2{background:#ffffff;color:#000000;cursor:pointer;cursor:hand;border:solid 1px #b5d6ef;border-bottom:none;}
+.headback{background:#6592CE; filter:progid:DXImageTransform.Microsoft.Gradient (GradientType:0,StartColorStr:'#6592CE',EndColorStr:'#114EA0');color:#FFFFFF;cursor:pointer;cursor:hand;}
+.headbacksel{background:#ffffff;color:#000000;border:solid 1px #b5d6ef;cursor:text;border-bottom:none;}
+.white{color:#FFFFFF;}
+
+.rmailback{background:#6592CE; filter:progid:DXImageTransform.Microsoft.Gradient (GradientType:0,StartColorStr:'#6592CE',EndColorStr:'#114EA0');color:#FFFFFF;}
+
+
+/* 2nd change on 02-May-07 ends */
+
+
+/* change on 29-06-07 begins */
+.rmailgobtn {background-color:#B6B6B6; border:2px outset #B6B6B6;font-family: arial; font-size: 13px;font-weight:bold;color:#FFFFFF;}
+.srchgobtn {background-color:#f30913;filter:progid:DXImageTransform.Microsoft.Gradient (GradientType:0,StartColorStr:'#fd8c02',EndColorStr:'#f30913'); border:1px solid #020202;font-family: arial; font-size: 12px;font-weight:bold;color:#FFFFFF;}
+/* change on 29-06-07 ends */
+
+/* change BY JATIN on 30-04-08 START*/
+.ft10 {FONT-FAMILY: Tahoma; FONT-SIZE: 10px;}
+.ft12 {FONT-FAMILY: Tahoma; FONT-SIZE: 12px;}
+.tahoma {font-family:tahoma;}
+.tahoma11 {font-family:tahoma; FONT-SIZE: 11px;}
+.fntTr11{font-family:'Trebuchet MS';font-size:11px;}
+
+
+.grayback {background-color:#EFF7F7;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#E7EffF',EndColorStr:'#EFF7F7');}
+
+.featuredback {background-color:#ebf3fb;
+filter:progid:DXImageTransform.Microsoft.Gradient
+(GradientType:0,StartColorStr:'#ffffff',EndColorStr:'#ebf3fb');}
+
+.qnaback {border:solid 1px #d6d6d6;background-color:#ffffe7;
+filter:progid:DXImageTransform.Microsoft.Gradient
+(GradientType:0,StartColorStr:'#ffffff',EndColorStr:'#ffffce'); font-family:arial;font-size:12px;}
+.vmiddle{vertical-align:middle;}
+.grey1{color:#a6a5a5;}
+/* change BY JATIN on 30-04-08 END*/
+.fntTr{font-family:Trebuchet MS;}
+.fntAr{font-family:Arial;}
+.fntVr{font-family:Verdana;}
+.f10{font-size:10px;}
+.f11{font-size:11px;}
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.tdout{border:solid 1px #000000; color:#ffffff; background:#000000;}
+
+.fntWhite{color:#ffffff;}
+.vidtime{color:#989898;}
+
+.partnerdiv{background:#1b1110;}
+.videoback{background-color:#CFCFCF;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType:0,StartColorStr:'#F0F0F0',EndColorStr:'#CFCFCF')}
+.advback{background:#e2f1f9;}
+
+.bluedot{color:#2864b4;font-size:14px;}
+.vdcontain{margin-bottom:4px;padding-top:3px; position:relative;background:#e3e4e1;}
+.vdtitle{text-align:left;border-bottom:solid 1px #d6d6d6;padding-left:8px;margin:0px;}
+.vdmore{text-align:right;margin:-4px 8px 0px 0px;font-size:12px;}
+.morein{text-align:right;margin-top:12px;font-size:12px;}
+.musictd{text-align:center;height:27px;}
+.hline{background:#d6d6d6; height:1px;}
+.grey2{color:#535353;}
+.filmtitle{text-align:right;}
+.filmtitle a{color:#787878;}
+
+
+</style><!-- CSS End //-->
+
+
+<script language="JavaScript" type="text/javascript">
+function set_is_vd_Cookie(c_name,value)
+{
+ document.cookie=c_name+ "=" +escape(value)
+}
+
+
+function get_is_vd_Cookie(c_name)
+{
+ if (document.cookie.length>0)
+ {
+  c_start=document.cookie.indexOf(c_name + "=")
+  if (c_start!=-1)
+  {
+   c_start=c_start + c_name.length+1
+   c_end=document.cookie.indexOf(";",c_start)
+   if (c_end==-1) c_end=document.cookie.length
+   return unescape(document.cookie.substring(c_start,c_end))
+  }
+ }
+ return ""
+}
+
+function showVideo()
+{
+ if(get_is_vd_Cookie("vdcook")== '')
+ {
+  num = Math.round(Math.random()*(videoArr.length-1)) ;
+  set_is_vd_Cookie('vdcook',num);
+ }
+
+ var tempcookie = get_is_vd_Cookie("vdcook");
+
+ switch(tempcookie)
+ {
+
+  case  '0' :
+  num=0 ;
+  set_is_vd_Cookie('vdcook','1');
+  break;
+
+  case  '1' :
+  num=1;
+  set_is_vd_Cookie('vdcook','2');
+  break;
+
+  case  '2' :
+  num=2 ;
+  set_is_vd_Cookie('vdcook','3');
+  break;
+
+  case  '3' :
+  num=3 ;
+  set_is_vd_Cookie('vdcook','4');
+  break;
+
+  case  '4' :
+  num=4 ;
+  set_is_vd_Cookie('vdcook','5');
+  break;
+
+  case  '5' :
+  num=5;
+  set_is_vd_Cookie('vdcook','0');
+  break;
+
+ }
+
+document.getElementById('div_video').innerHTML="<div class=vdcontain><a href="+videoArr[num][0]+"  title='Play video' ><img src=rediff.com_files/"+videoArr[num][1]+" width=132 height=73 border=0></a><p class=vdtitle>"+videoArr[num][2]+"</p></div><div class=vdcontain><a href="+videoArr[num][3]+"  title='Play video' ><img src=rediff.com_files/"+videoArr[num][4]+" width=132 height=73 border=0></a><p class=vdtitle>"+videoArr[num][5]+"</p></div>"
+}
+
+
+
+function showQna(n)
+{
+ document.getElementById('div_qna').innerHTML=qnaQuestion[n]+"<BR><A href="+qnaLink[n]+"><U>Answer this question</U></A>"
+}
+
+
+</script></head><body leftmargin="0" topmargin="0" onload="DoCks()" alink="#2864b4" bgcolor="#ffffff" link="#2864b4" marginheight="0" marginwidth="0" text="#000000" vlink="#d56a9f">
+
+<!-- 040608 change begin-->
+<center>
+<div style="width: 778px; text-align: left;">
+<!-- 040608 change end-->
+
+<!--3rd change on 21-sep-06 begins -->
+<!--TOP bar Begins-->
+<table border="0" cellpadding="0" cellspacing="0" width="778">
+<tbody><tr>
+<td width="9"></td>
+
+<td width="20"></td>
+<td width="135"><img src="rediff.com_files/redifflogo.gif" title="Rediff.com" border="0" height="33" hspace="0" vspace="0" width="135"></td>
+<td class="fv10" align="right" nowrap="nowrap" valign="bottom" width="605">
+<!--A HREF="Nasdaq.html">Rediff on NASDAQ Global Market</A-->
+<span id="hp" style=""></span>
+<script type="text/javascript">
+if (navigator.userAgent.indexOf("MSIE")!=-1)
+{
+var var_hp = document.getElementById("hp");
+var thePage='http://www.rediff.com';
+var theText='Make this your homepage';
+//alert(var_hp.isHomePage(thePage));
+if (!var_hp.isHomePage(thePage)) {document.write("<a  class=srchlink href=\"#\" onclick=\"style.behavior='url(#default#homepage)';setHomePage(thePage);window.location.href=window.location.href;return false;\">"+theText+"</a> | ");}
+}
+</script>
+<a class="srchlink" href="http://www.rediff.com/r/r/tus"> Rediff.com US</a>  | <a class="srchlink" href="http://support.rediff.com/homepagefeedback.html">Feedback</a></td>
+<td width="9"></td>
+</tr>
+</tbody></table>
+<!--TOP bar Ends-->
+
+<!--TOP Search Begins-->
+<table border="0" cellpadding="0" cellspacing="0" width="778">
+<tbody><tr><td height="16"></td></tr>
+<tr>
+<td width="9"></td>
+<td valign="top" width="760">
+ <table class="blueback1 fntTr14" style="border: 1px solid rgb(225, 240, 248);" border="0" cellpadding="0" cellspacing="0" width="760">
+ <tbody><tr><td height="12"></td></tr>
+ <tr>
+  <td width="60"></td>
+  <td class="fntTr14" width="700">
+   <b>Web &nbsp;&nbsp;<a href="http://search.rediff.com/imgsrch/default.php" title="1000s of pics">Images</a> &nbsp;&nbsp; <a href="http://www.rediff.com/r/r/jsb2" title="over 200000 jobs">Find Jobs</a>  &nbsp;&nbsp;<a href="http://www.rediff.com/r/r/ic7" title="Find the cheapest air fare">Air Tickets</a> &nbsp;&nbsp;<a href="http://www.rediff.com/r/r/ic19" title="Find train timetables, seat availability and PNR status">Trains</a>&nbsp;&nbsp; <a href="http://www.rediff.com/r/r/mw8" title="Market info at you fingertips">Stocks</a>&nbsp; &nbsp;<a href="http://www.rediff.com/r/r/msb2" title="Compare prices &amp; features of Electronic products">Compare Mobiles</a> &nbsp;&nbsp; <a href="http://www.rediff.com/r/r/pc7" title="Compare Prices &amp; features of Cars &amp; Bikes">Cars &amp; Bikes</a>&nbsp;&nbsp; <a href="http://search.rediff.com/allsearch/index.html" title="search more">More..</a></b>
+  </td>
+ </tr>
+ <tr><td height="6"></td></tr>
+ <tr>
+ <form name="query" method="get" action="http://search1.rediff.com/dirsrch/default.asp" onsubmit="return submit_Web();"></form>
+ <td align="right"></td>
+ <td><input name="MT" style="border: 2px solid rgb(57, 165, 214); vertical-align: middle; width: 550px; font-size: 14px; font-family: arial; height: 25px;" type="text"><input value="Search" style="border-style: solid solid solid none; border-color: rgb(57, 165, 214) rgb(57, 165, 214) rgb(57, 165, 214) -moz-use-text-color; border-width: 2px 2px 2px medium; width: 70px; height: 25px; vertical-align: middle; font-size: 11px; font-weight: bold;" class="headback" title="Search" type="submit">
+ </td>
+ 
+ </tr>
+ <tr>
+ <td colspan="2" class="fv10" align="center" height="15"><!-- Searchtoday Begin //-->Search today - <a href="http://search1.rediff.com/dirsrch/default.asp?MT=Deepika+Padukone&amp;src=1+celeb">Deepika</a>, <a href="http://search1.rediff.com/dirsrch/default.asp?MT=mallika+sherawat&amp;src=2+celeb">Mallika S</a>, <a href="http://search1.rediff.com/dirsrch/default.asp?MT=indian+cricket+videos&amp;src=3+videos">Cricket videos</a>, <a href="http://search1.rediff.com/dirsrch/default.asp?MT=rediff+astrology&amp;src=3+astro">Astrology</a>, <a href="http://search1.rediff.com/dirsrch/default.asp?MT=stocks+live&amp;src=5+stocks">Stocks Live</a>, <a href="http://search1.rediff.com/dirsrch/default.asp?MT=cricket&amp;src=4+cricket">Cricket </a><!-- Searchtoday End //--></td>
+ </tr>
+ <tr><td height="3"></td></tr>
+ <tr><td colspan="2" class="grayback" height="6"></td></tr>
+ </tbody></table>
+</td>
+<td width="9"></td>
+</tr>
+</tbody></table>
+<!--TOP Search Ends-->
+<table border="0" cellpadding="0" cellspacing="0" height="15" width="1"><tbody><tr><td height="15" width="1"></td></tr></tbody></table>
+<!--3rd change on 21-sep-06 ends -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="778">
+<tbody><tr>
+<td width="9"></td>
+<td valign="top" width="180">
+<!-- Banner Begin //-->
+
+
+<!-- 040608 change begin-->
+<table style="position: relative;" border="0" cellpadding="0" cellspacing="0" height="150" width="180">
+<!-- 040608 change end-->
+
+<tbody><tr><td class="advback">
+<script language="JavaScript" type="text/javascript">
+document.write('<div id="ind_middle" style="width:1;height:1;overflow:none;"></div>');
+</script><div id="ind_middle" style="width: 180px; height: 150px;">
+<script language="JavaScript" type="text/javascript">
+OAS_AD('Middle');
+</script><a href="" target="_top"><img src="rediff.com_files/Shaadi-27Nov.gif" alt="" border="0" height="140" width="180"></a>
+</div>
+<!-- START Banner Display Layer //-->
+<div id="MiddleAd"></div>
+<!-- END Banner Display Layer //-->
+</td>
+</tr>
+</tbody></table>
+<!-- Banner Ends //-->
+</td>
+
+<td width="7"></td>
+<td valign="top" width="573">
+<!-- Directory Begin //--><table style="margin-top: 5px;" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="573">
+
+<tbody><tr class="f11">
+<td width="15">&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/ed1"><b>News</b></a></td>
+<td width="5">&nbsp;</td>
+<td><b>Connect</b></td>
+<td width="5">&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir312"><b>Classifieds</b></a></td>
+<td width="5">&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir454"><b>Shopping</b></a></td>
+<td width="5">&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir22"><b>Mobile</b></a></td>
+<td width="5">&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir34"><b>Hosting Solutions</b></a></td>
+<td width="10">&nbsp;</td></tr>
+<tr>
+<td height="6"></td></tr>
+<tr height="1">
+<td></td>
+<td bgcolor="#e7e7e7"></td>
+<td></td>
+<td bgcolor="#e7e7e7"></td>
+<td></td>
+<td bgcolor="#e7e7e7"></td>
+<td></td>
+<td bgcolor="#e7e7e7"></td>
+<td></td>
+<td bgcolor="#e7e7e7"></td>
+<td></td>
+<td bgcolor="#e7e7e7"></td>
+<td></td></tr>
+<tr>
+<td height="6"></td></tr>
+<tr class="f12r" style="line-height: 1.4em;" valign="top">
+<td>&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir349">Stocks Live!</a><br><a href="http://www.rediff.com/r/r/dir489">India@61</a>&nbsp;<img src="rediff.com_files/new2.gif" border="0"><br><a href="http://www.rediff.com/r/r/dir482">India in SL</a> <br><a href="http://www.rediff.com/r/r/dir487">Olympics 08</a> <br><a href="http://www.rediff.com/r/r/dir494">Phoonk</a><br></td>
+<td>&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/ex159">Videos</a>&nbsp;<img src="rediff.com_files/new2.gif" border="0"><br><a href="http://www.rediff.com/r/r/ex105">Blogs</a><br><a href="http://www.rediff.com/r/r/ex1">Messenger</a><br><a href="http://www.rediff.com/r/r/ex158">Q&amp;A</a><br><a href="http://www.rediff.com/r/r/dir38">Tool bar</a></td>
+<td>&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir352">Post Ad</a><br><a href="http://www.rediff.com/r/r/dir467">Education</a><br><a href="http://www.rediff.com/r/r/dir301">Real Estate</a><br><a href="http://www.rediff.com/r/r/dir303">Services</a><br><a href="http://www.rediff.com/r/r/dir304">Travel</a></td>
+<td>&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir155">Auctions</a><br><a href="http://www.rediff.com/r/r/dir339">Books</a><br><a href="http://www.rediff.com/r/r/dir456">Mobiles</a><br><a href="http://www.rediff.com/r/r/dir459">Mp3 Players</a><br><a href="http://www.rediff.com/r/r/dir492">Watches</a> </td>
+<td>&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir493">Bikini</a><br><a href="http://www.rediff.com/r/r/dir496">Janmashtami</a><br><a href="http://www.rediff.com/r/r/dir495">Phoonk&nbsp;<img src="rediff.com_files/new2.gif" border="0"></a><br><a href="http://www.rediff.com/r/r/dir447">Ringtones</a><br><a href="http://www.rediff.com/r/r/dir307">Wallpapers</a></td>
+<td>&nbsp;</td>
+<td><a href="http://www.rediff.com/r/r/dir237">Book a Domain</a><br><a href="http://www.rediff.com/r/r/dir274">Rediffmail E-PRO</a><br><a href="http://www.rediff.com/r/r/dir6">Rediffmail Pro</a><br><a href="http://www.rediff.com/r/r/dir8">Website Hosting</a></td>
+<td>&nbsp;</td></tr>
+<tr>
+<td height="5"></td></tr>
+<tr>
+<td colspan="11">&nbsp;</td>
+<td class="f12r"><a title="Site map" href="http://www.rediff.com/sitemap.html"><u>View all services</u></a></td>
+<td>&nbsp;</td></tr></tbody></table></td><td width="9"></td></tr></tbody></table><!-- Directory End //-->
+
+<table style="clear: both;" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td height="5"></td></tr></tbody></table>
+<div style="width: 778px;">
+<!--LEFT Section Begins-->
+<div style="float: left; width: 182px; margin-left: 5px; margin-right: 5px;">
+
+<table class="headback" style="cursor: text;" border="0" cellpadding="0" cellspacing="0" width="182">
+<tbody><tr><td height="3"></td></tr>
+<tr><td width="10"></td><td><font class="f11 tahoma" color="#ffffff">Featured Users</font></td></tr>
+<tr><td height="5"></td></tr>
+</tbody></table>
+<div style="border: 1px solid rgb(214, 214, 214);" class="featuredback">
+<!-- Featured Begin //--><table align="center" border="0" cellpadding="0" cellspacing="0" width="157">
+
+<tbody><tr>
+<td height="12"></td></tr>
+<tr>
+<td class="f12"><img class="vmiddle" src="rediff.com_files/qasmall.gif">&nbsp; <a href="http://qna.rediff.com/"><b>Get Answers</b></a></td></tr>
+<tr>
+<td height="5"></td></tr>
+<tr>
+<td class="qnaback">
+<div id="div_qna" style="padding: 6px;"><span class="grey1">Rajiv Sandura asks</span> How can you prevent back-aches?<br><a href="http://qna.rediff.com/Main.php?do=getanswer&amp;catid=8&amp;questid=10464974"><u>Answer this question</u></a></div>
+<script language="JavaScript">
+<!--
+qnaQuestion=new Array("<span class=grey1>Rajiv Sandura asks</span> How can you prevent back-aches?","<span class=grey1>Shabina Khan asks</span> How can you prevent egg shells from cracking?","<span class=grey1>Feline Dsouza asks</span> Can you be still 'good friends' with your ex?","<span class=grey1>Arun Jadhav asks</span> Which is a home remedy for acne problems?");
+ 
+qnaLink=new 
+Array("http://qna.rediff.com/Main.php?do=getanswer&catid=8&questid=10464974","http://qna.rediff.com/Main.php?do=getanswer&catid=7&questid=10464979","http://qna.rediff.com/Main.php?do=getanswer&catid=12&questid=10464987","http://qna.rediff.com/Main.php?do=getanswer&catid=8&questid=10464992") ;
+arrlength=qnaQuestion.length;
+var whichQna = Math.round(Math.random()*(arrlength-1));
+showQna(whichQna);
+//-->
+</script>
+</td></tr>
+<tr>
+<td height="5"></td></tr>
+<tr>
+<td class="f12"><a href="http://qna.rediff.com/">Have a question? Ask</a></td></tr>
+<tr>
+<td height="9"></td></tr>
+<tr>
+<td colspan="3" bgcolor="#d6d6d6" height="1"></td>
+<td></td></tr>
+<tr>
+<td height="9"></td></tr></tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="157">
+
+<tbody><tr>
+<td valign="top" width="48"><a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/15482_14208/15772/1?PARTNER=4&amp;OAS_QUERY=null&amp;PARAM=userid%3D2281435%26pfrm%3Drhome"><img title="NEHA SAXENA" src="rediff.com_files/220808m.gif" border="0" height="56" hspace="0" width="48"></a></td>
+<td width="5"></td>
+<td class="f12" valign="top" width="104"><a href="http://www.rediff.com/r/r/ex63"><b>Matchmaker</b></a><br>Neha Saxena:<br>22, MP<br><a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/15482_14208/15772/1?PARTNER=4&amp;OAS_2180201Y=null&amp;PARAM=userid%3D2281435%26pfrm%3Drhome"><u>Send a smile </u></a></td></tr>
+<tr>
+<td height="9"></td></tr>
+<tr>
+<td colspan="3" bgcolor="#d6d6d6" height="1"></td>
+<td></td></tr>
+<tr>
+<td height="10"></td></tr>
+<tr>
+<td valign="top" width="48"><a href="http://sunainaoct15.rediffiland.com/blogs/2008/08/19/REAL-INTERESTING-STUFF.html"><img title="Sunaina's blog" src="rediff.com_files/2108_sunaina.jpg" border="0" height="56" width="48"></a></td>
+<td width="5"></td>
+<td class="f12" valign="top" width="104"><a href="http://rediff.com/r/r/ex154"><b>Blogs</b></a><br>Sunaina:<br>Did you know?<br><a href="http://sunainaoct15.rediffiland.com/blogs/2008/08/19/REAL-INTERESTING-STUFF.html"><u>Read my blog</u></a><br></td></tr>
+<tr>
+<td height="9"></td></tr>
+<tr>
+<td colspan="3" bgcolor="#d6d6d6" height="1"></td>
+<td></td></tr>
+<tr>
+<td height="10"></td></tr>
+<tr>
+<td valign="top" width="48"><a href="http://photos.rediff.com/photos/share/sh_showenlarge/sureshiffco/35080/0/1052920"><img title="Suresh Iffco's Photos" src="rediff.com_files/200808photos.jpg" border="0" height="56" hspace="0" width="48"></a></td>
+<td width="5"></td>
+<td class="f12" valign="top" width="104"><a href="http://photos.rediff.com/"><b>Photo Albums</b></a><br>Suresh Iffco: <br>Indian birds<br><a href="http://photos.rediff.com/photos/share/sh_thumbs/sureshiffco/35080/0"><u>View my photos</u></a><br></td></tr>
+<tr>
+<td height="13"></td></tr></tbody></table><!-- Featured End //-->
+</div>
+
+<script language="JavaScript" type="text/javascript">
+document.write('<div id="ind_Left3" style="width:180;height:20;overflow:hidden;margin-top:5px;" class="advback"></div>');
+</script><div id="ind_Left3" style="overflow: hidden; width: 180px; height: 20px; margin-top: 5px;" class="advback">
+<script language="JavaScript" type="text/javascript">
+OAS_loc=getCookie('RLOC');
+if (!(OAS_loc))
+{
+	document.write("<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0><TR><TD><IMG SRC=\"rediff.com_files/blank.gif\" BORDER=0 HSPACE=0 VSPACE=0></TD></TR></TABLE>");
+}
+OAS_AD('Left3');
+</script><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="rediff.com_files/blank.gif" border="0" hspace="0" vspace="0"></td></tr></tbody></table><a href="http://ads.rediff.com/RealMedia/ads/click_lx.ads/www.rediff.com/ind-home.htm/2120394252/Left3/default/empty.gif/64356563643031363438393035653930" target="_top"><img src="rediff.com_files/empty.gif" alt="" border="0" height="2" width="2"></a>
+</div>
+</div>
+<!--LEFT Section Ends-->
+
+<!--MIDDLE Section Begins-->
+<div style="float: left; width: 297px; margin-right: 5px;">
+<!--3rd change on 02-May-07 begins-->
+<table border="0" cellpadding="0" cellspacing="0" width="297">
+<tbody><tr>
+<td onclick="st2new('1')" width="58">
+	<a href="javascript:void(0);" style="text-decoration: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="58">
+	<tbody><tr id="top_tb1">
+	<td width="3"><img id="imgL1" src="rediff.com_files/lw.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="52"><table cellpadding="0" cellspacing="0" width="52"><tbody><tr><td width="52"></td></tr></tbody></table></td>
+
+	<td width="3"><img id="imgR1" src="rediff.com_files/rw.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr class="tahoma11"><td id="headTab1" class="headbacksel tahoma11" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top">Headlines</td></tr>
+	</tbody></table>
+	</a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="1"><table cellpadding="0" cellspacing="0" width="1"><tbody><tr><td width="1"></td></tr></tbody></table></td>
+<td onclick="st2new('2')" width="35">
+	<a href="javascript:void(0);" style="text-decoration: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="35">
+
+	<tbody><tr id="top_tb2" style="background-color: rgb(57, 165, 214);">
+	<td width="3"><img id="imgL2" src="rediff.com_files/l.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="29"><table cellpadding="0" cellspacing="0" width="29"><tbody><tr><td width="29"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgR2" src="rediff.com_files/r.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr class="tahoma11"><td id="headTab2" class="headback tahoma11" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top">News</td></tr>
+	</tbody></table></a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="1"><table cellpadding="0" cellspacing="0" width="1"><tbody><tr><td width="1"></td></tr></tbody></table></td>
+<td onclick="st2new('3')" width="51">
+	<a href="javascript:void(0);" style="text-decoration: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="51">
+	<tbody><tr id="top_tb3" style="background-color: rgb(57, 165, 214);">
+	<td width="3"><img id="imgL3" src="rediff.com_files/l.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="43"><table cellpadding="0" cellspacing="0" width="43"><tbody><tr><td width="43"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgR3" src="rediff.com_files/r.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr class="tahoma11"><td id="headTab3" class="headback tahoma11" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top">Business</td></tr>
+
+	</tbody></table></a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="1"><table cellpadding="0" cellspacing="0" width="1"><tbody><tr><td width="1"></td></tr></tbody></table></td>
+<td onclick="st2new('4')" width="43">
+	<a href="javascript:void(0);" style="text-decoration: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="43">
+	<tbody><tr id="top_tb4" style="background-color: rgb(57, 165, 214);">
+	<td width="3"><img id="imgL4" src="rediff.com_files/l.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="37"><table cellpadding="0" cellspacing="0" width="37"><tbody><tr><td width="37"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgR4" src="rediff.com_files/r.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr class="tahoma11"><td id="headTab4" class="headback tahoma11" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top">Movies</td></tr>
+	</tbody></table></a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="1"><table cellpadding="0" cellspacing="0" width="1"><tbody><tr><td width="1"></td></tr></tbody></table></td>
+<td onclick="st2new('5')" width="42">
+	<a href="javascript:void(0);" style="text-decoration: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="42">
+	<tbody><tr id="top_tb5" style="background-color: rgb(57, 165, 214);">
+	<td width="3"><img id="imgL5" src="rediff.com_files/l.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="36"><table cellpadding="0" cellspacing="0" width="36"><tbody><tr><td width="36"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgR5" src="rediff.com_files/r.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr class="tahoma11"><td id="headTab5" class="headback tahoma11" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top">Sports</td></tr>
+	</tbody></table></a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="1"><table cellpadding="0" cellspacing="0" width="1"><tbody><tr><td width="1"></td></tr></tbody></table></td>
+<td onclick="st2new('6')" width="61">
+	<a href="javascript:void(0);" style="text-decoration: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="61">
+
+	<tbody><tr id="top_tb6" style="background-color: rgb(57, 165, 214);">
+	<td width="3"><img id="imgL6" src="rediff.com_files/l.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="55"><table cellpadding="0" cellspacing="0" width="55"><tbody><tr><td width="55"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgR6" src="rediff.com_files/r.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr class="tahoma11"><td id="headTab6" class="headback tahoma11" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top">Get Ahead</td></tr>
+	</tbody></table></a>
+</td>
+</tr>
+<!--3rd change on 02-May-07 ends-->
+</tbody></table>
+<!-- <div style="width:297px;"> -->
+<div style="border-style: none solid solid; border-color: -moz-use-text-color rgb(181, 214, 239) rgb(181, 214, 239); border-width: 0px 1px 1px; width: 297px;">
+<!-- Main Headlines Begin //--><p style="margin-top: 1px; margin-bottom: 1px;" align="right">&nbsp;&nbsp;<!-- wmlheadline begin --><!-- TDate Begin --><!-- Date Begin --><font class="f10" color="#797979">&nbsp; August 22, 2008&nbsp;1537 IST</font><!-- Date End --><!-- TDate End -->&nbsp;</p>
+<div id="dd1" style="display: block; visibility: visible;">
+<table border="0" cellpadding="0" cellspacing="0" height="183" width="293">
+
+<tbody><tr>
+<td width="10"></td>
+<td valign="top"><!-- Tnews starts here --><!-- news starts here --><font class="f12n" color="#16387c">&#8226; <a href="http://specials.rediff.com/getahead/2008/aug/22cat.htm"><strong>Live Chat: CAT 2008</strong></a> | <img src="rediff.com_files/30iconv.gif"> <a href="http://specials.rediff.com/getahead/2008/aug/22iphone.htm"><strong>Here's the new iPhone</strong></a><br>&#8226; <a href="http://specials.rediff.com/money/2008/aug/22slde1.htm"><strong>Tata threatens to pull out of West Bengal</strong></a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/22vij.htm"><strong>Vijender loses bout, wins bronze</strong></a> | <a href="http://specials.rediff.com/sports/2008/aug/22slide1.htm"><strong>Images</strong></a> | <a href="http://www.rediff.com/sports/oly-live.html"><strong>Live</strong></a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/22bmx.htm">Crashes mark BMX Olympic debut</a> | <a href="http://specials.rediff.com/sports/2008/aug/22sld1.htm">Pics</a> | <a href="http://www.rediff.com/sports/oly08-medals.html"><strong>Tally</strong></a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22chink.htm">Chinkara case: No bail for former minister Atram</a><br>&#8226; <strong>Pix:</strong> <a href="http://specials.rediff.com/money/2008/aug/22sld1.htm">Testing times for newspaper industry</a> | <a href="http://money.rediff.com/money/jsp/markets_home.jsp">Stocks</a><br>&#8226; <a href="http://specials.rediff.com/news/2008/aug/22slid1.htm"><strong>Exclusive:</strong> SIMI chief's shocking revelations</a><br>&#8226; <b>Pix:</b> <a href="http://specials.rediff.com/news/2008/aug/21sld1.htm">India's finest take on the West's best</a> | <a href="http://www.rediff.com/video.html"><strong>Video</strong></a><br>&#8226; <a href="http://specials.rediff.com/movies/2008/aug/22shilpa.htm">Pix: Shilpa ready to rock London!</a> | <a href="http://www.rediff.com/movies/2008/aug/22bigb.htm">Big B's gesture</a><br>&#8226; <b>Reviews:</b> <a href="http://www.rediff.com/movies/2008/aug/22mumbai.htm"><i>Mumbai Meri...</i></a> | <a href="http://www.rediff.com/movies/2008/aug/22ganesha.htm"><i>Ganesha 2</i></a> | <a href="http://www.rediff.com/movies/2008/aug/22miss.htm"><i>Pettigrew</i></a><br></font><!-- news ends here --
+><!-- Tnews ends here --><!-- wmlheadline end --></td></tr>
+<tr>
+<td class="f12" colspan="2" align="right" height="22"><a href="http://www.rediff.com/r/r/ed19"><u>Most emailed</u></a> | <a href="http://www.rediff.com/r/r/ed10"><u>Just In!</u></a> | <a href="http://www.rediff.com/r/r/ed15"><u>More</u></a> | <a href="http://www.rediff.com/r/r/ed20"><u>Video</u></a> | <a href="http://www.rediff.com/r/r/ic11"><u>Newshound</u></a> &nbsp; </td></tr></tbody></table></div><!-- Main Headlines End //-->
+
+<div id="dd2" style="visibility: hidden; display: none;">
+		<!-- News Begin //--><table border="0" cellpadding="0" cellspacing="0" height="183" width="293">
+
+<tbody><tr>
+<td class="f12" colspan="2" align="center" height="25"><a href="http://www.rediff.com/news/iday08.html"><u><strong>India@61</strong></u></a> | <a href="http://specials.rediff.com/news/2008/aug/16wspec.htm"><u><strong>Week's Best</strong></u></a> | <a href="http://www.rediff.com/news/gallery.html"><u><strong>Images</strong></u></a> | <a href="http://www.rediff.com/r/r/ne1"><u><strong>MORE</strong></u></a></td></tr>
+<tr>
+<td height="1"></td></tr>
+<tr>
+<td width="10"></td>
+<td valign="top"><font class="f12n" c="" color="#163870"><font color="#16387c">&#8226; <a href="http://www.rediff.com/news/2008/aug/22kanchi.htm"><strong>Sankararaman murder case hearing adjourned</strong></a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22bmw.htm">Delhi: Lawyers strike work to protest HC verdict</a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22amar3.htm">Thousands march to Srinagar</a> | <a href="http://www.rediff.com/news/2008/aug/21guest1.htm">Giving J&amp;K away?</a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22uspoll.htm">Jindal to make history</a> | <a href="http://specials.rediff.com/news/2008/aug/21slid1.htm">Who will be Obama's VP?</a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22mush2.htm">Pak presidential polls on September 6</a> | <a href="http://www.rediff.com/news/musharraf08.html">More</a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22math.htm"><strong>Elephants know maths. Read this to believe! </strong></a><br>&#8226; <a href="http://www.rediff.com/news/2008/aug/22amar1.htm">'Pakistanis are likely to fish in troubled waters'</a><br>&#8226; <b>Images:</b> <a href="http://specials.rediff.com/news/2008/aug/21sld01.htm">Chiranjeevi's B-Day before the D-Day</a><br>&#8226; <a href="http://www.rediff.com/news/iday08.html"><b>India, 61: The Icons That Define India</b></a><br></font></font></td></tr></tbody></table><!-- News End //-->
+	</div>
+	<div id="dd3" style="visibility: hidden; display: none;">
+		<!-- Business Begin //--><table border="0" cellpadding="0" cellspacing="0" height="183" width="293">
+
+<tbody><tr>
+<td class="f12" colspan="2" align="center" height="25">
+<p align="center"><a href="http://www.rediff.com/r/r/mw4"><u><strong>Stocks</strong></u></a> <strong>| </strong><a href="http://www.rediff.com/r/r/mw26"><u><strong>Slide Shows</strong></u></a><strong> | </strong><a href="http://www.rediff.com/r/r/bs2"><u><strong>Money</strong></u></a><strong> | </strong><a href="http://www.rediff.com/money/special.html"><u><strong>Specials</strong></u></a><strong> | </strong><a href="http://www.rediff.com/r/r/bs1"><u><strong>MORE</strong></u></a></p></td></tr>
+<tr>
+<td></td></tr>
+<tr>
+<td width="10"></td>
+<td valign="top"><font class="f12n" color="#16387c">&#8226; <a href="http://www.rediff.com/money/2008/aug/22iphone.htm"><strong>Buy iPhone on EMIs</strong></a><strong> | </strong><a href="http://specials.rediff.com/money/2008/aug/20sld1.htm"><strong>iPhone at Rs 31,000</strong></a><br>&#8226; <a href="http://specials.rediff.com/money/2008/aug/21slide1.htm">Growth: Can India catch up with China?</a><br>&#8226; <a href="http://specials.rediff.com/money/2008/aug/20sl1.htm"><strong>The world's richest college dropouts -I</strong></a>&nbsp;| <a href="http://specials.rediff.com/money/2008/aug/21sl1.htm"><strong>II</strong></a><br>&#8226; <strong>Most popular!</strong> <a href="http://specials.rediff.com/money/2008/aug/18slde1.htm"><strong>9&nbsp;great lessons from Dhirubhai </strong></a><br>&#8226; <a href="http://specials.rediff.com/money/2008/aug/21slde1.htm">Oakley's headquarters: Office or a spaceship?</a><br>&#8226; <a href="http://specials.rediff.com/money/2008/aug/19sld1.htm"><strong>The world's 11 best metro rail systems</strong></a><br>&#8226; <a href="http://specials.rediff.com/money/2008/aug/19quiz1.htm">What does the 'Miracle of Bern' refer to? </a><br>&#8226; <a href="http://specials.rediff.com/money/2008/jul/22slde01.htm">10 calculations to know</a> <strong>|</strong> <a href="http://www.rediff.com/money/2008/mar/24paycom1.htm">All about 6th pay panel</a><br>&#8226; <a href="http://www.rediff.com/money/2008/aug/19tax.htm"><strong>10 tax-smart tips for salary earners </strong></a><br></font></td></tr></tbody></table><!-- Business End //-->
+
+	</div>
+	<div id="dd4" style="visibility: hidden; display: none;">
+		<!-- Movies Begin //--><table border="0" cellpadding="0" cellspacing="0" height="183" width="293">
+
+<tbody><tr>
+<td class="f12" colspan="2" align="center" height="25"><a href="http://www.rediff.com/movies/phoonk08.html"><u><strong>Phoonk</strong></u></a> | <a href="http://www.rediff.com/movies/singh08.html"><u><strong>Singh Is Kinng</strong></u></a> | <a href="http://www.rediff.com/movies/slide.html"><u><strong>Photographs</strong></u></a> | <a href="http://www.rediff.com/movies/index.html"><u><b>MORE</b></u></a></td></tr>
+<tr>
+<td width="10"></td>
+<td valign="top"><font class="f12n" color="#16387c">&#8226; <a href="http://specials.rediff.com/movies/2008/aug/22video1.htm">The making of <i>Phoonk</i></a> | <a href="http://specials.rediff.com/movies/2008/aug/20slid1.htm">RGV chats</a> | <a href="http://www.rediff.com/movies/phoonk08.html">Coverage</a><br>&#8226; <a href="http://www.rediff.com/movies/2008/aug/21nk.htm"><strong>Filming Mumbai's fight for survival</strong></a><br>&#8226; <a href="http://www.rediff.com/movies/2008/aug/22pooja.htm">Pooja Gandhi dons a swimsuit!</a> | <a href="http://www.rediff.com/movies/2008/aug/22look.htm">Sudeep's feat</a><br>&#8226; <a href="http://specials.rediff.com/movies/2008/aug/22slide1.htm">Making the world LOL with their antics!</a><br>&#8226; <img src="rediff.com_files/30iconv.gif">&nbsp;<a href="http://specials.rediff.com/movies/2008/aug/21video.htm"><b>Mallika engaged!</b></a> | <a href="http://specials.rediff.com/movies/2008/aug/21slide1.htm"><strong>Her <i>nautanki</i> act!</strong></a><br>&#8226; <a href="http://www.rediff.com/movies/2008/aug/22ssn.htm">Review: <em>Nayagan</em> works in parts</a><br>&#8226; <a href="http://specials.rediff.com/movies/2008/aug/21slid1.htm">Who will win <em>Bigg Boss 2</em>?</a> | <a href="http://www.rediff.com/movies/2008/aug/21faisal.htm">Faisal vents</a><br>&#8226; <a href="http://www.rediff.com/movies/2008/aug/21bips.htm"><strong>Bipasha promises Vijender Kumar a golden date!</strong></a><br>&#8226; <a href="http://specials.rediff.com/movies/2008/aug/21sli1.htm"><i>Kidnap</i>, story in pix</a> | <a href="http://www.rediff.com/movies/2008/aug/21sschiru.htm">Rendezvous with Chiranjeevi</a><br></font></td></tr>
+<tr>
+<td></td></tr></tbody></table><!-- Movies End //-->
+	</div>
+	<div id="dd5" style="visibility: hidden; display: none;">
+		<!-- Sports Begin //--><table border="0" cellpadding="0" cellspacing="0" height="183" width="293">
+
+<tbody><tr>
+<td class="f12" colspan="2" align="center" height="25"><a href="http://www.rediff.com/cricket/sl08.html"><u><strong>India in SL</strong></u><strong></strong></a> | <a href="http://www.rediff.com/sports/olympics08.html"><u><strong>Olympics 2008</strong></u><strong></strong></a> | <a href="http://www.rediff.com/sports/f1.html"><u><strong>F1</strong></u><strong></strong></a> | <a href="http://www.rediff.com/cricket/index.html"><u><strong>Cricket</strong></u></a> | <a href="http://www.rediff.com/r/r/sp1"><u><strong>Sports</strong></u></a></td></tr>
+<tr>
+<td width="10"></td>
+<td valign="top">
+<p><font class="f12n" color="#16387c">&#8226; <a href="http://www.rediff.com/cricket/2008/aug/22champs.htm">SL ready to host Champions Trophy</a> | <a href="http://www.rediff.com/cricket/schedule.html"><strong>Schedule</strong></a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/22bhup.htm">Bhupathi-Knowles in Pilot Pen semis</a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/21sprints.htm">Jamaica sweeps the sprint golds</a> | <a href="http://specials.rediff.com/sports/2008/aug/21photo1.htm">Images</a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/21relay.htm">US relay teams suffer</a> | <a href="http://www.rediff.com/sports/2008/aug/21bolt1.htm">'Bolt is very special'</a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/22look.htm">Look: Mark Spitz with Phelps</a> | <a href="http://specials.rediff.com/sports/2008/aug/13pic1.htm">Athletes' Village</a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/21sprints.htm">From chemo patient to Olympics champ</a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/22rafa.htm">Nadal launches reign at the Big Apple</a><br>&#8226; <a href="http://www.rediff.com/sports/2008/aug/21sania.htm">Injured Sania pulls out of US Open</a><br>&#8226; <a href="http://specials.rediff.com/sports/2008/aug/20slide1.htm">Amputee Du Toit inspires all</a> | <a href="http://specials.rediff.com/sports/2008/aug/21pic1.htm">Hottest Athlete</a><br></font></p></td></tr>
+<tr>
+<td height="4"></td></tr></tbody></table><!-- Sports End //-->
+	</div>
+	<div id="dd6" style="visibility: hidden; display: none;">
+	<!-- GetAhead Begin //--><table border="0" cellpadding="0" cellspacing="0" height="183" width="293">
+
+<tbody><tr>
+<td width="10"></td>
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" height="2">
+
+<tbody><tr>
+<td height="2"></td></tr></tbody></table><font class="f12">&#8226; <a href="http://specials.rediff.com/getahead/2008/aug/04sld1.htm">Experts reconstruct your CVs</a> | <a href="http://www.rediff.com/getahead/2008/aug/21trans1.htm">Online trading</a><br>&#8226; <a href="http://www.rediff.com/getahead/virgin.html">Comics: The latest from <em>Gamekeeper</em></a><br>&#8226; <a href="http://specials.rediff.com/getahead/2008/aug/21slid1.htm">Quiz: Can you crack this interview?</a><br>&#8226; <a href="http://specials.rediff.com/getahead/2008/aug/21slid1.htm"><b>How Britney Spears got back her bikini bod</b></a><br>&#8226; <img src="rediff.com_files/30iconv.gif"> <a href="http://specials.rediff.com/getahead/2008/aug/19slide1.htm">Video recipes: From Sambhar to Roast Turkey</a><br>&#8226; <img src="rediff.com_files/30iconv.gif"> <a href="http://specials.rediff.com/getahead/2008/aug/20sl1.htm">Indian Salsa extravaganza: Performances!</a><br>&#8226; <a href="http://www.rediff.com/getahead/2008/aug/21iycu2.htm">IDEAZ '08: The PAN IIT Business Idea Challenge</a><br>&#8226; <a href="http://specials.rediff.com/getahead/2008/aug/14sld1.htm">Travel: My Amarnath Yatra</a> | <a href="http://www.rediff.com/getahead/2007/apr/13travel.htm">Share your travels</a><br>&#8226; <a href="http://qna.rediff.com/" target="new">Q&amp;A</a>: <a href="http://qna.rediff.com/Main.php?do=getanswer&amp;catid=17&amp;questid=10481743" target="new">'How does one beat a shopping addiction?'</a><br></font></td></tr>
+<tr>
+<td class="f12" colspan="2" align="right" height="20"><a href="http://www.rediff.com/news/2008/jul/24rediff.htm"><u>Rediff Wants Journalists</u></a> | <a href="http://www.rediff.com/r/r/ga4"><u>Career</u></a> | <a href="http://www.rediff.com/r/r/ga7"><u>Money</u></a> | <a href="http://www.rediff.com/getahead/index.html"><b><u>MORE</u></b></a> &nbsp; </td></tr>
+<tr>
+<td colspan="2" height="4"></td></tr></tbody></table><!-- GetAhead End //-->
+	</div>
+	<!-- </div> -->
+</div>
+
+<!-- ishare video begins -->
+<!-- Tvideo starts here --><!-- Video Begin //--><table class="f12" style="border: 1px solid rgb(181, 214, 239); background: rgb(255, 255, 255) none repeat scroll 0%; margin-top: 5px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" border="0" cellpadding="0" cellspacing="0" height="206" width="297">
+
+<tbody><tr valign="top">
+<td class="f11" style="border-right: 1px solid rgb(181, 214, 239);" align="center" width="50%">
+<div id="div_video"><div class="vdcontain"><a href="http://ishare.rediff.com/filevideo.php?id=407766" title="Play video"><img src="rediff.com_files/407766_vid5.jpg" border="0" height="73" width="132"></a><p class="vdtitle">Bhiwani boxing nursery</p></div><div class="vdcontain"><a href="http://ishare.rediff.com/filevideo.php?id=403275" title="Play video"><img src="rediff.com_files/403275_vid6.jpg" border="0" height="73" width="132"></a><p class="vdtitle">Mendis turns it on!</p></div></div>
+<script language="javascript">
+<!--
+ 
+var videoArr=new Array();
+videoArr[0]=new Array("http://ishare.rediff.com/filevideo.php?id=406998","413201_vid2.jpg","Trailer of Traitor","http://ishare.rediff.com/filevideo.php?id=407513","401393_vid4.jpg","Kat vs Ash");
+videoArr[1]=new Array("http://ishare.rediff.com/filevideo.php?id=407669","413212_vid3.jpg","Three-minute dhokla","http://ishare.rediff.com/filevideo.php?id=407511","399811_vid6.jpg","Mad about Genelia");
+videoArr[2]=new Array("http://ishare.rediff.com/filevideo.php?id=407766","413159_vid5.jpg","Bhiwani boxing nursery","http://ishare.rediff.com/filevideo.php?id=403275","401393_vid4.jpg","Mendis turns it on!");
+videoArr[3]=new Array("http://ishare.rediff.com/filevideo.php?id=407761","412854_vid1.jpg","Deepika on a bus","http://ishare.rediff.com/filevideo.php?id=402861","401393_vid4.jpg","C Kkompany");
+videoArr[4]=new Array("http://ishare.rediff.com/filevideo.php?id=407817","407766_vid5.jpg","Ek Onkar","http://ishare.rediff.com/filevideo.php?id=407809","401393_vid4.jpg","Trailer of Chamku");
+videoArr[5]=new Array("http://ishare.rediff.com/filevideo.php?id=405008","403275_vid6.jpg","Cheetah vs gemsbok","http://ishare.rediff.com/filevideo.php?id=396112","401393_vid4.jpg","Pal's Bollywood voices");
+ 
+showVideo();
+//-->
+</script>
+
+<p class="vdmore"><a href="http://ishare.rediff.com/video.php">More Videos »</a></p></td>
+<td class="f12" align="center" width="50%">
+<table class="f12" align="center" border="0" cellpadding="0" cellspacing="0" width="122">
+
+<tbody><tr>
+<td height="25"><img class="vmiddle" src="rediff.com_files/muicon.jpg" border="0"> <a class="grey2" href="http://ishare.rediff.com/music.php">Music on iShare</a></td></tr>
+<tr>
+<td>&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a title="Dilruba" href="http://ishare.rediff.com/filemusic-Dilruba-Mehbooba-id-353669.php">Dilruba</a> 
+<div class="filmtitle"><a title="Mehbooba" href="http://ishare.rediff.com/searchresult.php?query=Mehbooba&amp;type=music">Mehbooba</a></div></td></tr>
+<tr>
+<td height="4"></td></tr>
+<tr>
+<td>&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a title="Kahin To" href="http://ishare.rediff.com/filemusic-Kahin%20To-Jaane%20Tu%20ya%20jaane%20na-id-310306.php">Kahin To</a> 
+<div class="filmtitle"><a title="Jaane Tu" href="http://ishare.rediff.com/searchresult.php?query=Jaane%20Tu&amp;type=music">Jaane Tu</a></div></td></tr>
+<tr>
+<td height="4"></td></tr>
+<tr>
+<td>&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a title="Soni De Nakhre" href="http://ishare.rediff.com/filemusic-Soni-De-Nakhre-id-401509.php">Soni De Nakhre</a> 
+<div class="filmtitle"><a title="Dard E Sherlyn" href="http://ishare.rediff.com/searchresult.php?query=Dard%20E%20Sherlyn&amp;type=music">Dard E Sherlyn</a></div></td></tr>
+<tr>
+<td height="4"></td></tr>
+<tr>
+<td>&nbsp;<span class="bluedot">&#8226;</span>&nbsp;&nbsp;<a title="Chhup Chupa Ke Piyo" href="http://ishare.rediff.com/filemusic-Chhup-Chhupa-Ke-Piyo-id-10058011.php">Chhup Chupa Ke ...</a>
+<div></div>
+<div class="filmtitle"><a title="Ghulam Ali" href="http://ishare.rediff.com/searchresult.php?query=Ghulam%20Ali&amp;type=music">Ghulam Ali</a></div></td></tr>
+<tr>
+<td height="9"></td></tr>
+<tr>
+<td align="right">More music in<br><a href="http://ishare.rediff.com/music_category.php?id=32">Hindi</a> | <a href="http://ishare.rediff.com/music_category.php?id=33">Bengali</a> </td></tr></tbody></table></td></tr></tbody></table><!-- Video End //--><!-- Tvideo ends here -->
+<!-- ishare video ends -->
+
+</div>
+<!--MIDDLE Section Ends-->
+<!--RIGHT Section Begins-->
+<div style="float: left; width: 275px;">
+<!--Rediffmail Begins-->
+<script language="javascript">
+<!--
+function chkLogin()
+{
+ if(document.loginform.login.value.replace(/ /g,"")=="" && document.loginform.passwd.value=="")
+ {
+  alert("Please enter valid Username and Password");
+  document.loginform.login.value=""
+  document.loginform.login.focus();
+  return false;
+ }
+
+ if(document.loginform.login.value.replace(/ /g,"")=="")
+ {
+  alert("Please enter valid Username");
+  document.loginform.login.value=""
+  document.loginform.login.focus();
+  return false;
+ }
+ if(document.loginform.passwd.value=="")
+ {
+  alert("Please enter valid Password");
+  document.loginform.passwd.value=""
+  document.loginform.passwd.focus();
+  return false;
+ }
+
+  var seclogin = document.loginform.seclogin;
+  if(seclogin.checked == true)
+        {
+               document.loginform.action = "https://mail.rediff.com/cgi-bin/login.cgi";
+        }
+        else
+        {
+               document.loginform.action = "http://mail.rediff.com/cgi-bin/login.cgi";
+        }
+       return true;
+}
+//-->
+</script>
+
+<table class="rmailback" border="0" cellpadding="0" cellspacing="0" width="275">
+<tbody><tr><td colspan="5" height="1"></td></tr>
+<tr>
+<td height="20" width="10"></td>
+<td class="tahoma11" nowrap="nowrap" width="62"><font color="#ffffff"><b>Rediffmail</b></font></td>
+<td width="10">&nbsp;</td>
+<td class="tahoma11" align="right" width="193"><font color="#ffffff">New User? <a href="http://www.rediff.com/r/r/rm4" class="white">Sign Up</a></font>&nbsp;&nbsp;</td>
+</tr>
+</tbody></table>
+<table class="rt_tbl" style="border: 1px solid rgb(181, 214, 239);" border="0" cellpadding="0" cellspacing="0" height="78" width="275">
+<form name="loginform" action="http://mail.rediff.com/cgi-bin/login.cgi" method="post" onsubmit="return chkLogin();"></form>
+<tbody><tr><td height="15"></td></tr>
+<tr>
+<td width="8">&nbsp;</td>
+<td width="100"><input value="Username" style="border: 2px solid rgb(57, 165, 214); width: 100px; height: 22px; font-size: 12px; font-family: arial; color: rgb(112, 112, 112); padding-left: 3px;" maxlength="30" name="login" onfocus="if(this.value=='Username') this.value='';" type="text"></td>
+<td width="4">&nbsp;</td>
+<td class="f10" width="115">
+<input style="border-style: solid none solid solid; border-color: rgb(57, 165, 214) -moz-use-text-color rgb(57, 165, 214) rgb(57, 165, 214); border-width: 2px medium 2px 2px; width: 115px; height: 22px; font-size: 12px; font-family: arial; color: rgb(112, 112, 112); padding-left: 3px;" name="passwd" value="******" onfocus="if(this.value=='******') this.value='';" type="password"><input value="existing" name="FormName" type="hidden"></td>
+<td><input value="Go" style="border: 2px solid rgb(57, 165, 214); width: 40px; height: 22px; font-weight: bold; font-size: 11px;" class="headback" title="Sign in" type="submit">
+</td>
+</tr>
+<tr><td height="3"></td></tr>
+<tr>
+<td colspan="5">
+<table border="0" cellpadding="0" cellspacing="0">
+<!-- Added for secure login  -->
+<tbody><tr>
+<td width="6"></td>
+<td class="ft11">
+<script language="JavaScript" type="text/javascript">
+if(document.location.protocol == "https:")
+{
+    document.write("<input type=checkbox name=seclogin checked=true disabled class='vmiddle'> <font color=#030101>Secured Login</font>");
+}
+else
+{
+ document.write("<input type=checkbox name=seclogin class='vmiddle'> <font color=#030101>Secured Login</font>");
+}
+</script><input name="seclogin" class="vmiddle" type="checkbox"> <font color="#030101">Secured Login</font>
+</td>
+<td width="25"></td>
+<td class="fv10"> <font class="ft11" color="#16387c"><a href="javascript:PasswdRemindWin()">Forgot Password?</a></font> </td>
+</tr>
+<tr><td height="15"></td></tr>
+</tbody></table>
+</td>
+</tr>
+
+</tbody></table>
+<!--Rediffmail Ends-->
+
+<!-- shop changes 2nd may starts -->
+<table border="0" cellpadding="0" cellspacing="0" height="5"><tbody><tr><td height="5"></td></tr></tbody></table>
+
+<table class="f12" border="0" cellpadding="0" cellspacing="0" height="195" width="275">
+<tbody><tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" width="275">
+<tbody><tr>
+<td title="Shopping" onclick="shopTabShow(1)" width="70"><a href="javascript:void(0);" style="text-decoration: none;">
+	<table class="f12" border="0" cellpadding="0" cellspacing="0" width="70">
+	<tbody><tr id="shtop_tb1" style="background: rgb(255, 255, 255) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+	<td width="3"><img id="imgshL1" src="rediff.com_files/lw.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="64"><table cellpadding="0" cellspacing="0" width="64"><tbody><tr><td width="64"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgshR1" src="rediff.com_files/rw.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr><td id="shopTab1" class="headbacksel" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top"><font class="tahoma11">Shopping</font></td></tr>
+	</tbody></table></a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="5">&nbsp;</td>
+<td title="Stock Quotes" onclick="shopTabShow(2)" width="90"><a href="javascript:void(0);" style="text-decoration: none;">
+	<table class="f12" border="0" cellpadding="0" cellspacing="0" width="90">
+	<tbody><tr id="shtop_tb2" style="background: rgb(101, 146, 206) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+	<td width="3"><img id="imgshL2" src="rediff.com_files/l.gif" alt="" border="0" height="3" width="3"></td>
+	<td style="border-top: 1px solid rgb(181, 214, 239);" width="84"><table cellpadding="0" cellspacing="0" width="84"><tbody><tr><td width="84"></td></tr></tbody></table></td>
+	<td width="3"><img id="imgshR2" src="rediff.com_files/r.gif" alt="" border="0" height="3" width="3"></td>
+	</tr>
+	<tr><td id="shopTab2" class="headback" colspan="3" style="border-style: none solid; border-color: -moz-use-text-color rgb(181, 214, 239); border-width: medium 1px;" align="center" height="19" valign="top"><font class="tahoma11">Stock Quotes</font></td></tr>
+	</tbody></table></a>
+</td>
+<td style="border-bottom: 1px solid rgb(181, 214, 239);" width="110">&nbsp;</td>
+</tr>
+</tbody></table>
+</td><td>
+</td></tr>
+<tr>
+<td style="border-style: none solid solid; border-color: -moz-use-text-color rgb(181, 214, 239) rgb(181, 214, 239); border-width: medium 1px 1px;" valign="top"><!-- shop changes 2nd may end -->
+<div style="display: block; visibility: visible;" id="shopdiv1">
+<!-- Shopping Begin //--><table border="0" cellpadding="0" cellspacing="0" width="273">
+
+<tbody><tr>
+<td align="center">
+<script>
+function getRand(range) {
+return Math.round(Math.random() * range);
+}
+prod1 = new Array();
+prod1[0]="<A href=/r/r/shp2927><IMG hspace=0 src=rediff.com_files/220808main_sh03.gif border=0></A>"
+prod1[1]="<A href=/r/r/shp2635><IMG hspace=0 src=rediff.com_files/220808main_sh06.gif border=0></A>"
+num1 = getRand(1);
+prod2 = new Array();
+prod2[0] = "<A href=/r/r/shp2928><IMG hspace=0 src=rediff.com_files/220808main_sh04.gif border=0></A>";
+prod2[1] = "<A href=/r/r/shp2635><IMG hspace=0 src=rediff.com_files/220808main_sh07.gif border=0></A>";
+num2 = getRand(1);
+prod3 = new Array();
+prod3[0] = "<A href=/r/r/shp2914><IMG hspace=0 src=rediff.com_files/220808main_sh05.gif border=0></A>";
+num3 = getRand(0);
+var threeprods;
+threeprods = prod1[num1] + prod2[num2] + prod3[num3];
+document.write("<TABLE cellSpacing=0 cellPadding=0 width=273 border=0><TR><TD height=12></TD></TR><TR><TD width=2></TD><TD vAlign=top width=258 align=center><TABLE cellSpacing=0 cellPadding=0 width=258 bgColor=#ffffff border=0  style='padding-left:10px;padding-right:9px;'><TR><TD><A href=/r/r/shp2788><IMG hspace=0 src=rediff.com_files//220808main_sh01.gif border=0></A><A href=/r/r/shp2926><IMG hspace=0 src=rediff.com_files/220808main_sh02.gif border=0></A></td></tr><tr><td><IMG hspace=0 margin=0 height=12 width=253 src=rediff.com_files/line.gif border=0></td></tr><tr><td>"+threeprods+"</TD></TR><tr><td><IMG hspace=0 src=rediff.com_files/line.gif border=0></td></tr></TABLE><TABLE width=273 cellSpacing=0 cellPadding=0 bgColor=#ffffff border=0 style='padding-left:10px;'><TR><TD class=tahoma11 height=40 ><FONT style='FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: tahoma; TEXT-DECORATION: none' color=#ff0000><A href=/r/r/shp2621>Digital Cameras</A><font color=#0000ff>, </font><A href=/r/r/shp2822>Pen Drives</A><font color=#0000ff>, </font><A href=/r/r/shp2823>Mobiles</A><font color=#0000ff>, </font><A href=/r/r/shp2824>Shirts</A><font color=#0000ff>, </font><A href=/r/r/shp2473>Watches</A></FONT><br><FONT style='FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: tahoma; TEXT-DECORATION: none'><A href=/r/r/shp2413>Flowers</A><font color=#0000ff>, </font><A href=/r/r/shp2859><font color=#ff0000>Auctions @ Rs.1</font></A><font color=#0000ff>, </font><A href=/r/r/shp2616>Mp3 Player</A><font color=#0000ff>, </font><A href=/r/r/shp2923>Laptop</A><font color=#0000ff>, </font><A href=/r/r/shp2825>Toys</A></FONT><BR/><FONT style='FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: tahoma; TEXT-DECORATION: none' color=#ff0000><A href=/r/r/shp2829>More</a><font color='#111111'>:</font> <A href=/r/r/shp2579>Shopping</A><font color=#5a5a5a> |</font> <A href=/r/r/shp2409><FONT color=#0000ff>Books</font></A> <font color=#5a5a5a>| </font><A href=/r/r/shp2808><font color=#0000ff>Auctions</font></A><font color=#5a5a5a> |</font> <A href=/r/r/shp2411><font color=#0000ff>Video</font></A><font color=#5a5a5a> | </font><A href=/r/r/shp2809><font color=#0000ff>Gifts</font></A></TD></TR><TR><TD height=12></TD></TR></TABLE></TD></TR></TABLE>");</script><table border="0" cellpadding="0" cellspacing="0" width="273"><tbody><tr><td height="12"></td></tr><tr><td width="2"></td><td align="center" valign="top" width="258"><table style="padding-left: 10px; padding-right: 9px;" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="258"><tbody><tr><td><a href="http://www.rediff.com/r/r/shp2788"><img src="rediff.com_files/220808main_sh01.gif" border="0" hspace="0"></a><a href="http://www.rediff.com/r/r/shp2926"><img src="rediff.com_files/220808main_sh02.gif" border="0" hspace="0"></a></td></tr><tr><td><img margin="0" src="rediff.com_files/line.gif" border="0" height="12" hspace="0" width="253"></td></tr><tr><td><a href="http://www.rediff.com/r/r/shp2635"><img src="rediff.com_files/220808main_sh06.gif" border="0" hspace="0"></a><a href="http://www.rediff.com/r/r/shp2635"><img src="rediff.com_files/220808main_sh07.gif" border="0" hspace="0"></a><a href="http://www.rediff.com/r/r/shp2914"><img src="rediff.com_files/220808main_sh05.gif" border="0" hspace="0"></a></td></tr><tr><td><img src="rediff.com_files/line.gif" border="0" hspace="0"></td></tr></tbody></table><table style="padding-left: 10px;" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="273"><tbody><tr><td class="tahoma11" height="40"><font style="font-size: 11px; line-height: 15px; font-family: tahoma; text-decoration: none;" color="#ff0000"><a href="http://www.rediff.com/r/r/shp2621">Digital Cameras</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2822">Pen Drives</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2823">Mobiles</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2824">Shirts</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2473">Watches</a></font><br><font style="font-size: 11px; line-height: 15px; font-family: tahoma; text-decoration: none;"><a href="http://www.rediff.com/r/r/shp2413">Flowers</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2859"><font color="#ff0000">Auctions @ Rs.1</font></a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2616">Mp3 Player</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2923">Laptop</a><font color="#0000ff">, </font><a href="http://www.rediff.com/r/r/shp2825">Toys</a></font><br><font style="font-size: 11px; line-height: 15px; font-family: tahoma; text-decoration: none;" color="#ff0000"><a href="http://www.rediff.com/r/r/shp2829">More</a><font color="#111111">:</font> <a href="http://www.rediff.com/r/r/shp2579">Shopping</a><font color="#5a5a5a"> |</font> <a href="http://www.rediff.com/r/r/shp2409"><font color="#0000ff">Books</font></a> <font color="#5a5a5a">| </font><a href="http://www.rediff.com/r/r/shp2808"><font color="#0000ff">Auctions</font></a><font color="#5a5a5a"> |</font> <a href="http://www.rediff.com/r/r/shp2411"><font color="#0000ff">Video</font></a><font color="#5a5a5a"> | </font><a href="http://www.rediff.com/r/r/shp2809"><font color="#0000ff">Gifts</font></a></font></td></tr><tr><td height="12"></td></tr></tbody></table></td></tr></tbody></table>
+</td></tr></tbody></table><!-- Shopping End //-->
+</div>
+<div id="shopdiv2" style="visibility: hidden; display: none;">
+<!-- Moneywiz Begin //--><table border="0" cellpadding="0" cellspacing="0" width="273">
+
+<tbody><tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="270">
+
+<tbody><tr>
+<td colspan="2" height="11">
+<table border="0" cellpadding="0" cellspacing="0" height="12">
+
+<tbody><tr>
+<td height="12"></td></tr></tbody></table></td></tr>
+<tr>
+<td valign="bottom" width="270">
+<form style="margin: 0px; padding: 0px;" name="get_quote" action="http://portfolio.rediff.com/money/jsp/quote_process_home.jsp" method="post">
+<table border="0" cellpadding="0" cellspacing="0" height="25" width="270">
+
+<tbody><tr>
+<td style="padding-left: 10px;"><input value="0" name="cmpsearch" type="hidden"><input style="border: 1px solid rgb(173, 173, 173); font-size: 11px; vertical-align: middle; width: 182px; color: rgb(112, 112, 112); margin-right: 2px; height: 22px;" name="query"><input style="border: 1px solid rgb(152, 152, 156); background: rgb(173, 173, 173) none repeat scroll 0%; font-weight: bold; font-size: 11px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; vertical-align: middle; width: 70px; color: rgb(255, 255, 255); height: 22px;" onclick="frmSubmit();" value="Get quote" name="" type="button"></td></tr></tbody></table></form></td></tr>
+<tr height="23">
+<td class="tahoma11" style="padding-left: 10px;" colspan="2"><a href="http://www.rediff.com/r/r/mw11">Stock Market commentary</a> | <a href="http://www.rediff.com/r/r/mw28">Global Indicators</a></td></tr></tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tbody><tr>
+<td height="3"></td></tr>
+<tr>
+<td valign="top" width="100"><iframe id="frame_mny_mkt_indx1" src="rediff.com_files/home_index.htm" frameborder="0" height="91" scrolling="no" width="100"></iframe></td>
+<td width="4">
+<table border="0" cellpadding="0" cellspacing="0">
+
+<tbody><tr>
+<td width="4"></td></tr></tbody></table></td>
+<td width="168">
+<table style="border: 1px solid rgb(222, 222, 222);" border="0" cellpadding="0" cellspacing="0" width="160">
+
+<tbody><tr>
+<td>
+<script src="rediff.com_files/chart.js" type="text/javascript"></script>
+
+<script type="text/javascript">                    write_chart_compare('http://money.rediff.com/money/jsp/home_chart_bse1.jsp','',160,90);
+     </script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="FusionCharts_1" height="90" width="160"><param name="movie" value="http://money.rediff.com/money1/images/FC_2_3_MSLine.swf"><param name="FlashVars" value="&amp;dataURL=http://money.rediff.com/money/jsp/home_chart_bse1.jsp?companyCode=&amp;chartWidth=160&amp;chartHeight=90"><param name="quality" value="high"><param name="bgcolor" value="#FFFFFF"><embed src="rediff.com_files/operatest.swf" flashvars="&amp;dataURL=http://money.rediff.com/money/jsp/home_chart_bse1.jsp?companyCode=&amp;chartWidth=160&amp;chartHeight=90" quality="high" bgcolor="#FFFFFF" name="FusionCharts_1" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" align="" height="90" width="160"></object>
+</td></tr></tbody></table></td></tr></tbody></table></td></tr>
+<tr>
+<td></td></tr></tbody></table><!-- Moneywiz End //-->
+</div>
+</td>
+</tr>
+</tbody></table>
+<script language="JavaScript">
+<!--
+var dt=new Date();
+hr=dt.getHours()  ;
+mt=dt.getMinutes()  ;
+
+if(dt.getDay() > 0 && dt.getDay() < 6)
+{
+  if(hr >=0 && hr<10)
+  {
+   shopTabShow(1);
+  }
+  if( (hr >=10 && hr <11) )
+  {
+   shopTabShow(2);
+  }
+  if( hr >=11 && hr<15 )
+  {
+   shopTabShow(1);
+  }
+  if( (hr >=15) && (hr<16 ))
+  {
+      shopTabShow(2);
+  }
+
+  if( (hr >=16 ) && (hr<17 ))
+  {
+  if(mt<30)
+      shopTabShow(2);
+  else
+   shopTabShow(1);
+  }
+
+  if( hr >=17 && hr<=24 )
+  {
+     shopTabShow(1);
+  }
+}
+else
+{
+ shopTabShow(1);
+}
+//-->
+</script>
+
+<!-- Sponsors Begin //--><table style="border: 1px solid rgb(181, 214, 239); margin-top: 4px; margin-bottom: 4px;" border="0" cellpadding="0" cellspacing="0" width="275">
+
+<tbody><tr bgcolor="#d3d3d4">
+<td width="10"></td>
+<td class="f12" width="85"><b>Sponsors</b></td>
+<td>
+<script language="JavaScript" type="text/javascript">
+document.write('<div id="ind_bottom2" style="width:180;height:20;"></div>');
+</script><div id="ind_bottom2" style="width: 180px; height: 20px;">
+<script language="JavaScript" type="text/javascript">
+OAS_AD('Bottom2');
+</script><a href="http://ads.rediff.com/RealMedia/ads/click_lx.ads/www.rediff.com/ind-home.htm/1654148795/Bottom2/default/empty.gif/64356563643031363438393035653930" target="_top"><img src="rediff.com_files/Shaadi-27Nov.gif" alt="" border="0" height="2" width="2"></a>
+</div>
+</td></tr>
+<tr>
+<td height="5"></td></tr>
+<tr>
+<td width="12"></td>
+<td class="ft11a" colspan="2"><font color="#16387c">
+<script language="JavaScript" type="text/javascript">
+document.write('<div id="ind_BottomRight" style="width:258;overflow:none;"></div>');
+</script></font><div id="ind_BottomRight" style="width: 258px;">
+<script language="JavaScript" type="text/javascript">
+OAS_AD('BottomRight');
+</script>&#8226; <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2211373_2203730/2206408/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">Here&#8217;s ur someone special</a> | <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2258318_2250632/2253552/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">Where R U?</a><br>&#8226; <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2211381_2203738/2206419/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">High Salaries@ naukri.com</a> | <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2254612_2246926/2249742/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">Cheap domestic flights</a><br>&#8226; <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2257716_2250030/2252872/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">HDFC Home Loans.Apply</a> | <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2254612_2246926/2256923/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">Mumbai-Delhi @ 0+Tax</a><br>&#8226; <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2261521_2253835/2256798/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">Fly Bangalore, Hong Kong</a> | <a href="http://adworks.rediff.com/cgi-bin/AdWorks/click.cgi/www.rediff.com/textlinks.htm/1050715198@Top/2262925_2255239/2258247/1?PARTNER=4&amp;OAS_QUERY=null" target="_new">Top Jobs. Apply Now</a><br>
+</div>
+</td></tr>
+<tr>
+<td height="5"></td></tr></tbody></table><!-- Sponsors End //-->
+
+<!--Right Begins-->
+
+<table class="advback" border="0" cellpadding="0" cellspacing="0" height="40" width="275">
+<tbody><tr><td height="0"></td></tr><tr><td>
+<script language="JavaScript" type="text/javascript">
+document.write('<div id="ind_Right" style="width:275;height:40;overflow:hidden;"></div>');
+</script><div id="ind_Right" style="overflow: hidden; width: 275px; height: 40px;">
+<script language="JavaScript" type="text/javascript">
+OAS_loc=getCookie('RLOC');
+if (!(OAS_loc))
+{
+	document.write("<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0><TR><TD><IMG SRC=\"rediff.com_files/blank.gif\" BORDER=0 HSPACE=0 VSPACE=0></TD></TR></TABLE>");
+}
+OAS_AD('Right');
+</script><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="rediff.com_files/blank.gif" border="0" hspace="0" vspace="0"></td></tr></tbody></table><a href="http://ads.rediff.com/RealMedia/ads/click_lx.ads/www.rediff.com/ind-home.htm/434259284/Right/default/empty.gif/64356563643031363438393035653930" target="_top"><img src="rediff.com_files/empty.gif" alt="" border="0" height="2" width="2"></a>
+</div>
+</td></tr></tbody></table>
+
+<!--Right Ends-->
+</div>
+<!--RIGHT Section Ends-->
+</div>
+
+<!--Footer Begins-->
+<table style="clear: both; margin-top: 10px;" border="0" cellpadding="0" cellspacing="0" width="778">
+<tbody><tr>
+<td width="9"></td>
+<td bgcolor="#d2d3d4" height="2" width="760"></td>
+<td width="9"></td>
+</tr>
+<tr>
+
+<td></td>
+<td align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="760">
+<tbody><tr><td height="10"></td></tr>
+<tr>
+<td align="center"><font color="#5a5a5a"><font class="f12"><script language="JavaScript" src="rediff.com_files/inhome_footer.htm"></script>Copyright © 2008 Rediff.com India Limited. All rights reserved.<br><a href="http://www.rediff.com/r/r/ft1">Investor information</a> | <a href="http://www.rediff.com/r/r/ft2">Advertise with us</a> | <a href="http://www.rediff.com/r/r/ft3">Disclaimer</a> | <a href="http://www.rediff.com/r/r/ft6">Privacy Policy</a> | <a href="http://www.rediff.com/r/r/ft5">Jobs@Rediff</a> | <a href="http://www.rediff.com/r/r/ft48">Heartbeat India?</a></font></font></td>
+</tr>
+<tr><td height="10"></td></tr>
+</tbody></table>
+</td>
+<td></td>
+</tr>
+</tbody></table>
+<!--Footer Ends-->
+
+<!-- 040608 change begin-->
+</div>
+</center>
+<!-- 040608 change end-->
+
+<!-- Added for mjx code starts -->
+<script language="JavaScript" type="text/javascript" src="rediff.com_files/banner.js"></script><script language="JavaScript1.1" src="rediff.com_files/1143484725MiddleBottom2Left3RightBottomRight.js"></script>
+
+<div id="ind_Left3_hidden" style="visibility: hidden; display: none;"></div>
+<div id="ind_bottom2_hidden" style="visibility: hidden; display: none;"></div>
+<div id="ind_Right_hidden" style="display: none; visibility: hidden;"></div>
+
+<div id="ind_middle_hidden" style="visibility: hidden; display: none;"></div>
+
+<div id="ind_BottomRight_hidden" style="visibility: hidden; display: none;"></div>
+
+<script language="JavaScript" type="text/javascript">
+if(document.getElementById("ind_bottom2"))
+	document.getElementById("ind_bottom2").innerHTML = document.getElementById("ind_bottom2_hidden").innerHTML;
+if(document.getElementById("ind_Left3"))
+	document.getElementById("ind_Left3").innerHTML = document.getElementById("ind_Left3_hidden").innerHTML;
+if(document.getElementById("ind_Right"))
+	document.getElementById("ind_Right").innerHTML = document.getElementById("ind_Right_hidden").innerHTML;
+if(document.getElementById("ind_middle"))
+	document.getElementById("ind_middle").innerHTML = document.getElementById("ind_middle_hidden").innerHTML;
+if(document.getElementById("ind_BottomRight"))
+	document.getElementById("ind_BottomRight").innerHTML = document.getElementById("ind_BottomRight_hidden").innerHTML;
+
+	document.getElementById("ind_bottom2_hidden").innerHTML="";
+	document.getElementById("ind_Left3_hidden").innerHTML="";
+	document.getElementById("ind_Right_hidden").innerHTML="";
+	document.getElementById("ind_middle_hidden").innerHTML="";
+	document.getElementById("ind_BottomRight_hidden").innerHTML="";
+
+</script>
+
+<!-- Added for mjx code ends -->
+<!-- <IFRAME SRC="http://im.rediff.com/uim/common/iris_new.html" NAME="Rediffmailjs" WIDTH="1" HEIGHT="1" MARGINWIDTH="0" MARGINHEIGHT="0" FRAMEBORDER="0" SCROLLING="no"></IFRAME> -->
+
+<script language="JavaScript" type="text/javascript">
+document.write("<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0><TR><TD><IMG SRC=\"rediff.com_files/blank.gif\" BORDER=0 HSPACE=0 VSPACE=0></TD></TR></TABLE>");
+</script><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="rediff.com_files/blank.gif" border="0" hspace="0" vspace="0"></td></tr></tbody></table>
+
+
+</body></html>

@@ -1,0 +1,1595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<title>ESPN: The Worldwide Leader In Sports</title>
+	<!-- GENDATE: 1215688717252 -->
+<meta name="verify-v1" content="U2+xa8GqkKgh9SCTItPxmq9QaUCzvr9mdwmT1UJTxps=" /><meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+
+		<meta name="description" CONTENT="ESPN.com provides comprehensive sports coverage.  Complete sports information including NFL, MLB, NBA, College Football, College Basketball scores and news." />
+		<meta name="keywords" CONTENT="ESPN.com, ESPN, ESPN2, ESPNews, ESPN Classic, ESPNU, Insider, sports scores, sports news, MLB scores, NFL scores, NBA scores, NHL scores, College Football scores, College Basketball scores, sports videos, sports information, Fantasy sports, Fantasy games, Fantasy football, Fantasy baseball" />
+		<meta http-equiv="refresh" content="900" />
+		<meta name="robots" content="index, follow" />
+		<meta name="googlebot" content="index, follow" />
+		<style type="text/css">
+@import url(espn.go.com_files/frontpag.css);
+@import url(espn.go.com_files/universa.css);
+</style>
+<script language="Javascript" src="espn.go.com_files/frame070.js" type="text/javascript"></script>
+<script language="Javascript" src="espn.go.com_files/frontpag.js" type="text/javascript"></script>
+<script src="espn.go.com_files/nodetag0.js"></script>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://sports-ak.espn.go.com/espn/rss/news" />
+<link rel="alternate" media="handheld" xhref="http://espn.mobi/" />
+</head><body>
+<div id="container">
+<!-- begin uni login -->
+<script type="text/javascript">
+var returnURL = document.location.href;
+</script>
+<div id="login" style="width: 990px;"><ul class="universalLogin">
+	<script language="Javascript">
+
+	function getLinksMarkUp(uN, fN, lG) {
+		var links = "";
+		if (lG == 1 || lG == "1" || lG == 0 || lG =="0") {
+			links ='| <a href="https://r.espn.go.com/espn/memberServices">Member Services</a>';
+
+			if (lG==0 || lG=="0") {
+				if (fN!=null && fN!="null"){
+					links = links + ' | <a href="https://r.espn.go.com/espn/logout?appRedirect=' + encodeURIComponent(returnURL) + '">Not '+fN+'?</a>'
+				}
+				// links = links+' | <a href="https://r.espn.go.com/espn/memberservices/resetPassword">Forgot Password?</a> ';
+			}
+		} else {
+			
+			links = '| <a href="https://r.espn.go.com/espn/memberservices/pc/register?registrationFormId=espn&sourceName=header&appRedirect=' + encodeURIComponent(returnURL) + '">Register</a> | Forgot: <a href="http://r.espn.go.com/espn/memberservices/resetPassword">Password</a> <a href="https://r.espn.go.com/espn/memberservices/pc/sendMembername">Member Name</a> ';
+			
+		}
+
+
+		return links;
+	}
+
+	</script>
+	<li class="left"><a href="">ESPN.com</a> | <a href="http://myespn.go.com/index?campaign=myespn&source=in_unilogin">MyESPN</a> | <a href="http://myespn.go.com/profile/home?campaign=fanprofile&source=in_unilogin">Profile</a> <span id="unilinks"></span></li>
+
+<script type="text/javascript">
+var omniRegStatus = "";
+</script> 
+
+<li class="right">
+
+<div id="login-wrapper">
+</div>
+
+<script language="JavaScript" type="text/javascript">
+
+function getLoginFormMarkUp(uN, fN, lG) {
+
+	if (lG == 1 || lG == "1"){
+  		var loginForm = 'Welcome, <a style="font-weight:normal" href="http://myespn.go.com/profile/home?campaign=fanprofile&source=in_unilogin">'+fN+'</a> | '
+			loginForm = loginForm + '<a href="http://r.espn.go.com/espn/logout?appRedirect='+encodeURIComponent(returnURL)+'">Sign Out</a>';
+			omniRegStatus = "Registered:Logged in Active";
+
+  } else {
+			var loginForm = '<form method="post" action="https://r.espn.go.com/espn/memberservices/pc/login">';
+			loginForm = loginForm + '<input type="hidden" name="failedAttempts" value="2" />';
+			loginForm = loginForm + '<input type="hidden" name="SUBMIT" value="1" />';
+			loginForm = loginForm + '<input type="hidden" name="aff_code" value="espn_insider" />';
+			loginForm = loginForm + '<input type="hidden" name="appRedirect" value="' + returnURL + '">';
+			loginForm = loginForm + '<input type="hidden" name="failedLocation" value="https://r.espn.go.com/espn/memberservices/pc/login?SUBMIT=failed&appRedirect=' + encodeURIComponent(returnURL) + '">';
+			loginForm = loginForm + '<input type="hidden" name="cookieDomain" value=".go.com" />';
+			loginForm = loginForm + '<input type="hidden" name="multipleDomains" value="true" />';
+			if (lG == 0 || lG == "0"){
+				loginForm = loginForm + '<span class="ul_fieldLabel">Welcome, <a style="font-weight:normal" href="http://myespn.go.com/profile/home?campaign=fanprofile&source=in_unilogin">'+fN+'</a> | </span>'
+				loginForm = loginForm + '<input type="hidden" name="username"  value="' + uN + '" />';
+				omniRegStatus = "Registered:Logged in Passive";
+			} else {
+				loginForm = loginForm + '<span class="ul_fieldLabel">Member Name:</span> <input class="field" name="username" type="text" value="" />';
+				omniRegStatus = "Anonymous";
+			}
+
+			loginForm = loginForm + '<span class="ul_fieldLabel"> Password:</span> <input class="field" name="password" type="password" value="" />';
+			loginForm = loginForm + '<input src="espn.go.com_files/btn_signin.gif" type="image" value="Log In" class="ul_submit_image"/>';
+			loginForm = loginForm + '</form>';
+	}
+
+
+	return loginForm;
+
+}
+	
+
+</script>
+
+</li></ul></div>
+
+	<script type="text/javascript">
+	//<![CDATA
+    var cookies = document.cookie.split("; ");
+	var pLoginState = false;
+	var sLoginState = false;
+	var regReq = null;
+	var regURL = 'http://r.espn.go.com/espn/preferences/passiveLogin?appRedirect=http%3A%2F%2Fespn-ak.starwave.com%2Fi%2Fblank.gif';
+	var returnURL = document.location.href;
+	var xmlURL = 'http://' + document.location.hostname + '/espn/unilogin/loggedIn';
+	if (document.location.hostname=='espn.go.com'){
+		xmlURL = 'http://sports.espn.go.com/espn/unilogin/loggedIn';
+	}
+	var appRedirect = 'null';
+	var unilinks = document.getElementById('unilinks');
+	var loginwrapper = document.getElementById('login-wrapper');
+	var akattState = false;
+
+	if (returnURL.indexOf('sports-ak')>-1 || returnURL.indexOf('sports-att')>-1 || returnURL.indexOf('scores.')>-1){
+		akattState = true;
+	}
+
+	if (appRedirect != '' && appRedirect != 'null') {
+		returnURL = appRedirect;
+	}
+
+	if (returnURL.indexOf("univLogin02", 0) == -1) {
+		if (returnURL.indexOf("?",0) == -1)	{
+			returnURL = returnURL + "?univLogin02=stateChanged";
+		} else {
+			returnURL = returnURL + "&univLogin02=stateChanged";
+		}
+	}
+
+	function getCookie(name) {
+		for (var i=0; i < cookies.length; i++) {
+			cookie = cookies[i].split("=");
+			if (cookie[0] == name)
+				return cookie[1];
+			}
+		return null;
+	}
+
+	function getMarkup(uN,fN,lG){
+		loginFormMarkup = getLoginFormMarkUp(uN, fN, lG);
+		links = getLinksMarkUp(uN, fN, lG);
+		loginwrapper.innerHTML = loginFormMarkup;
+		unilinks.innerHTML = links;
+	}
+
+	function doLoginCheck() {
+		try {
+			var myImage = new Image();
+			myImage.src = regURL;
+			myImage.onload = getLGScript2;
+		}
+		catch (e) {
+			setTimeout(function(){doLoginCheck()}, 100);
+		}
+	}
+
+	function callLoginCheck(evt) {
+		setTimeout('doLoginCheck();', 1500);
+	}
+
+	function checkLoginState() {
+		if (akattState){
+			var cacheStamp = new Date();
+			var cacheBuster = cacheStamp.getTime();
+			xmlURL = 'http://sports.espn.go.com/espn/unilogin/loggedIn?rand='+cacheBuster;
+		}
+		try {
+			regReq = null;
+			if (window.XMLHttpRequest) {
+				regReq = new XMLHttpRequest();
+				regReq.onreadystatechange = processRegResp;
+				regReq.open("GET", xmlURL, true);
+				regReq.send(null);
+			} else if (window.ActiveXObject) {
+				regReq = new ActiveXObject("Microsoft.XMLHTTP");
+				regReq.onreadystatechange = processRegResp;
+				regReq.open("GET", xmlURL, true);
+				regReq.send();
+			}
+		} catch(e) { showmessage(e.message); }
+	}
+
+	function showmessage(message) {
+		window.status = message;
+	}
+
+	function processRegResp(){
+		if (regReq.readyState == 4) {
+			if (regReq.status == 200 && regReq.responseXML!=null) {
+				var markup = null;
+				debug = regReq.responseXML;
+				var fN = regReq.responseXML.getElementsByTagName("FirstName");
+				var lN = regReq.responseXML.getElementsByTagName("LastName");
+				var uN = regReq.responseXML.getElementsByTagName("Username");
+				var lG = regReq.responseXML.getElementsByTagName("Active");
+				getMarkup(uN[0].childNodes[0].nodeValue, fN[0].childNodes[0].nodeValue, lG[0].childNodes[0].nodeValue);
+			}
+		}
+	}
+
+	function getLGScript() {
+		var lgScript = document.createElement("script");
+		lgScript.type = 'text/javascript';
+		lgScript.src = 'http://sports.espn.go.com/espn/js/unilogin?cb=getMarkup';
+		var headObj = document.getElementsByTagName("head").item(0);
+		headObj.appendChild( lgScript );
+	}
+
+	function getLGScript2() {
+		var cacheStamp = new Date();
+		var cacheBuster = cacheStamp.getTime();
+		var lgScript = document.createElement("script");
+		lgScript.type = 'text/javascript';
+		lgScript.src = 'http://sports.espn.go.com/espn/js/unilogin?cb=getMarkup&rand='+cacheBuster
+		var headObj = document.getElementsByTagName("head").item(0);
+		try {
+			headObj.appendChild(lgScript);
+		}
+		catch (e) {
+			setTimeout(function(){getLGScript2()}, 100);
+		}
+	}
+
+	swid = getCookie("SWID");
+	green = getCookie("GREEN");
+
+	if (green!=null && green!="") {
+		if (window.attachEvent) {
+			window.attachEvent("onload", getLGScript2);
+		} else {
+			getLGScript2();
+		}
+	} else if (((green == null || green == "") && (swid != null && swid != "")) || (green!=null && green!="" && ""=="")) {
+		if (swid.indexOf("{")==0 && swid.indexOf("}")==swid.length-1) {
+			if (document.location.hostname == "insider.espn.go.com") {
+				document.location.href = "http://r.espn.go.com/espn/preferences/passiveLogin?appRedirect=" + encodeURIComponent(returnURL);
+			} else {
+				if (window.attachEvent)	{
+					window.attachEvent("onload", callLoginCheck);
+				} else {
+					doLoginCheck();
+				}
+			}
+		} else {
+			getMarkup(null,null, null);
+		}
+	} else {
+		getMarkup(null,null, null);
+	}
+
+//]]>
+</script>
+
+
+<!-- end uni login -->
+
+<!-- begin masthead -->
+<div style="display: none;"><a href="">Skip to the content</a></div>
+<div class="mast-container">
+	<div class="ad_container"><div id="upperad"><table width="772" cellpadding="0" cellspacing="0" border="0" ><tr><td width="728"><IFRAME SRC="espn.go.com_files/log00000.htm" WIDTH=728 HEIGHT=90 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N3880.SD2489.3880/B2696531.5;abr=!ie;dcove=o;sz=728x90;click=http://log.go.com/log?srvc%3dsz%26guid%3d665D7F51-0380-40F5-B232-DFC750C084E6%26drop%3d0%26addata%3d1184:53156:384844:53156%26a%3d1%26goto%3d;ord=2008.07.10.04.18.47?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://log.go.com/log?srvc=sz&amp;guid=665D7F51-0380-40F5-B232-DFC750C084E6&amp;drop=0&amp;addata=1184:53156:384844:53156&amp;a=1&amp;goto=http://ad.doubleclick.net/jump/N3880.SD2489.3880/B2696531.5;abr=!ie4;abr=!ie5;dcove=o;sz=728x90;ord=2008.07.10.04.18.47?">
+<IMG SRC="http://ad.doubleclick.net/ad/N3880.SD2489.3880/B2696531.5;abr=!ie4;abr=!ie5;dcove=o;sz=728x90;ord=2008.07.10.04.18.47?" BORDER=0 WIDTH=728 HEIGHT=90 ALT="Click Here"></A>
+</NOSCRIPT>
+</IFRAME></td><td width="44"></td></tr></table></div>
+<script type="text/javascript">
+var wau_iab = "2"
+</script><div style="display: block; position: absolute; top: 0; left: 0; z-index: 29999;">
+		
+	</div></div>
+
+	<div id="aws" class="aw_search">
+<ul>
+<li id="searchBox-ESPN" class="realm"><a href="javascript:void(0)" onClick="swapSearch('ESPN');">ESPN</a></li>
+<li id="searchBox-Photos"><a href="javascript:void(0)" onClick="swapSearch('Photos');">Photos</a></li>
+<li id="searchBox-Video"><a href="javascript:void(0)" onClick="swapSearch('Video');">Video</a></li>
+</ul>
+<form class="aw_searchForm" id="searchBox" name="searchBox" action="http://sports.espn.go.com/keyword/search" method="get">
+<input autocomplete="off" class="aw_searchInput" name="searchString" id="searchStr" type="text"  />
+<input type="hidden" name="page" id="page" value="espn" />
+<input class="aw_searchBtn" type="submit" value="Search" src="espn.go.com_files/searchButton.gif" />
+</form>
+<div class="hotSearches">
+<span class="aw_topSearches">ESPN.com's Hottest Searches:</span><a href="http://sports.espn.go.com/keyword/search?searchString=titletown&partnerTag=espn_topsearch_site&partner=index&src=m_fp&rT=sports"><u>TitleTown</u></a> | <a href="http://sports.espn.go.com/keyword/search?searchString=bill_simmons&partnerTag=espn_topsearch_site&partner=index&src=m_fp&rT=sports"><u>Simmons</u></a> | <a href="http://sports.espn.go.com/keyword/search?searchString=mlb+allstar+game&partnerTag=espn_topsearch_site&partner=index&src=m_fp&rT=sports"><u>MLB All-Star</u></a><br />
+
+<a href="http://sports.espn.go.com/keyword/search?searchString=espys&partnerTag=espn_topsearch_site&partner=index&src=m_fp&rT=sports"><u></u>ESPYS</a> | <a href="http://sports.espn.go.com/keyword/search?searchString=mlb+rumors&partnerTag=espn_topsearch_site&partner=index&src=m_fp&rT=sports"><u>MLB rumors</u></a> | <a href="http://sports.espn.go.com/keyword/search?searchString=nba+rumors&partnerTag=espn_topsearch_site&partner=index&src=m_fp&rT=sports"><u>NBA rumors</u></a>
+</div>
+</div>
+
+
+</div>
+
+    <!-- begin Scoreboard Module -->
+    <div id="gh" class="headerSwf-container">
+    <script language="javascript">
+    <!--
+	var SOB = new flashObj();
+	SOB.flashFile = "espn.go.com_files/operatest.swf";
+	SOB.flashVars = "&tab0=MLB&tab0Feed=http://scores.espn.go.com/mlb/frontPageScoreboardXML/scoreBoardXML"
+	SOB.width = "990";
+	SOB.height = "87";
+	SOB.scale = "noScale";
+	SOB.salign="lt";
+	SOB.allowScriptAccess="always";
+	SOB.allowNetworking="all";
+	SOB.wmode = "transparent"; // Window Mode
+	SOB.DenyIEdl = "TRUE";
+	SOB.FlashVer = 8;
+	SOB.cabVersion = "8,0,0,0";
+	SOB.altTxt = "<img src=\"espn.go.com_files/espn_fp_hdr_red.jpg\" width=\"990\" height=\"87\" border=\"0\" alt=\"ESPN.com\" />";
+	SOB.ID = "flashmodule";
+	SOB.render(true);
+    //-->
+    </script>
+    </div>
+    <!-- end Sseboard Module -->
+	
+
+<!-- end masthead --><!-- BEGIN PAGE 1 GLOBAL NAV -->
+<div class="nav-row">
+<div class="nav-container" style="">
+<div class="awp1nav_wrap">
+<ul class="awp1nav">
+<li><a href="http://myespn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_top_MyESPN">MyESPN</a></li>
+<li><a href="http://insider.espn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_top_Insider">Insider</a></li>
+<li><a href="http://www.espn360.com/" name="&amp;lpos=fpnav&amp;lid=fp_top_ESPN360">ESPN360</a></li>
+<li><a href="http://sports.espn.go.com/espn/page2/index" name="&amp;lpos=fpnav&amp;lid=fp_top_Page2">Page 2</a></li>
+<li><a href="http://sports.espn.go.com/chat/sportsnation/index" name="&amp;lpos=fpnav&amp;lid=fp_top_SportsNation">SportsNation</a></li>
+<li><a href="http://sports.espn.go.com/espn/blog/main" name="&amp;lpos=fpnav&amp;lid=fp_top_Insider_Blogs">Blogs</a></li>
+<li><a href="http://video.espn.com/">Video</a></li>
+<li><a href="http://espnradio.espn.go.com/espnradio/podcast/index" name="&amp;lpos=fpnav&amp;lid=fp_top_ESPN+Radio+PodCenter">PodCenter</a></li>
+<li><a href="http://sports.espn.go.com/videogames/index" name="&amp;lpos=fpnav&amp;lid=fp_top_videogames" name="&amp;lpos=fpnav&amp;lid=fp_top_video">Video Games</a></li>
+<li><a href="http://arcade.espn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_top_arcade" name="&amp;lpos=fpnav&amp;lid=fp_top_arcade">Arcade</a></li>
+<li><a href="http://sports.espn.go.com/travel/index">Travel</a></li>
+<li><a href="http://x.go.com/cgi/x.pl?goto=http://sports.espn.go.com/espn/contests/index&amp;name=f562&amp;srvc=pro&amp;SOURCE=f562" name="&amp;lpos=fpnav&amp;lid=fp_top_Contests">Contests</a></li>
+<li><a href="http://www.espnshop.com/SID--9062/cm_mmc--Affiliates-_-ESPN-_-headerlink-_-homepageheader/" name="&amp;lpos=fpnav&amp;lid=fp_top_Shop">Shop</a></li>
+<li><a href="http://espndeportes.espn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_top_ESPN+Deportes">En Espa&#241;ol</a></li>
+</ul>
+<div style="">
+<ul class="awp1nav-right">
+<li><a href="http://sports.espn.go.com/espntv/espnGuide" name="&amp;lpos=fpnav&amp;lid=fp_top_ESPNTV">TV Listings</a></li>
+<li><a href="http://espnradio.espn.go.com/espnradio/index" name="&amp;lpos=fpnav&amp;lid=fp_top_ESPNRadio">Radio</a></li>
+<li><a href="http://www.espnthemag.com/" name="&amp;lpos=fpnav&amp;lid=fp_top_Magazine">Magazine</a></li>
+<li><a href="http://proxy.espn.go.com/mobile/products/index" name="&amp;lpos=fpnav&amp;lid=fp_top_Mobile">Mobile</a></li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="aw_nav_wrap">
+<ul id="awnav1" class="aw_nav">
+<li class="lo" style="margin: 0 2px 0 0;"><a href="" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN.com+Front+Page">ESPN</a>
+<ul class="aw_drop double">
+<li style="position:static;">
+<ul>
+	<li><a href="" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN.com+Front+Page">ESPN.com</a></li>
+	<li><a href="http://www.espn360.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN360">ESPN360.com</a></li>
+	<li><a href="http://video.espn.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_video">Video</a></li>
+	<li><a href="http://sports.espn.go.com/espntv/espnGuide" name="&amp;lpos=fpnav&amp;lid=fp_espn_TV+Listings">TV Listings</a></li>
+	<li><a href="http://espndeportes.espn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN+Deportes">ESPNdeportes.com</a></li>
+	<li><a href="http://espnradio.espn.go.com/espnradio/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPNRadio">ESPNRadio.com</a></li>
+	<li><a href="http://espnradio.espn.go.com/espnradio/podcast/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN+Radio+PodCenter">PodCenter</a></li>
+	<li><a href="http://insider.espn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_Insider">Insider <img src="espn.go.com_files/tinyin00.gif" alt="Insider" width="8" height="9" border="0" /></a></li>
+	<li><a href="http://sports.espn.go.com/espn/blog/main" name="&amp;lpos=fpnav&amp;lid=fp_espn_Blogs">Blogs</a></li>
+	<li><a href="http://sports.espn.go.com/espn/page2/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_Page2">Page 2</a></li>
+	<li><a href="http://sports.espn.go.com/keyword/search?searchString=eticket" name="&amp;lpos=fpnav&amp;lid=fp_espn_Eticket">E-ticket</a></li>
+	<li><a href="http://www.espnthemag.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_Page2">ESPN Magazine</a></li>
+	<li><a href="http://www.espnbooks.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN+Books">ESPN Books</a></li>
+</ul>
+<ul>
+	<li><a href="http://myespn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN.com+MyESPN">MyESPN</a></li>
+	<li><a href="http://myespn.go.com/profile/home" name="&amp;lpos=fpnav&amp;lid=fp_espn_FanProfiles">Fan Profiles</a></li>
+	<li><a href="http://sports.espn.go.com/chat/sportsnation/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_SportsNation">SportsNation</a></li>
+	<li><a href="http://sports.espn.go.com/espn/corrections" name="&amp;lpos=fpnav&amp;lid=fp_espn_Corrections">Corrections</a></li>
+	<li><a href="http://sports.espn.go.com/keyword/search?searchString=Le_Anne_Schreiber&amp;rT=sports" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN_Ombudsman">Ombudsman</a></li>		
+	<li><a href="http://sports.espn.go.com/espn/otl/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_otl">Outside the Lines</a></li>
+	<li><a href="http://expn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_EXPN">EXPN.com</a></li>
+	<li><a href="http://proxy.espn.go.com/mobile/alerts/alertmanager" name="&amp;lpos=fpnav&amp;lid=fp_espn_ESPN+Alerts">ESPN Alerts <img src="espn.go.com_files/tinybell.gif" style="margin-bottom:4px;" alt="Alerts" width="8" height="8" border="0" /></a></li>
+	<li><a href="http://sports.espn.go.com/videogames/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_videogames">Video Games</a></li>
+	<li><a href="http://arcade.espn.go.com/" name="&amp;lpos=fpnav&amp;lid=fp_espn_Arcade">Arcade</a></li>
+	<li><a href="http://sports.espn.go.com/travel/index" name="&amp;lpos=fpnav&amp;lid=fp_espn_Travel">Travel</a></li>
+	<li><a href="http://joinourteam.espn.com/joinourteam" name="&amp;lpos=fpnav&amp;lid=fp_espn_Join_Our+Team">Join Our Team</a></li>
+</ul>
+</li>
+</ul> 
+</li>
+<li class="lo" style="margin: 0 2px 0 0;"><a href="http://games.espn.go.com/frontpage" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Fantasy">Fantasy</a>
+<ul class="aw_drop double">
+<li style="position:static;">
+<ul>
+	<li><a href="http://games.espn.go.com/frontpage" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Fantasy">Fantasy Home</a></li>
+	<li><a href="http://games.espn.go.com/frontpage/football" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_NFL_Fantasy+Football">Fantasy Football</a></li>
+	<li><a href="http://games.espn.go.com/frontpage/baseball" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_MLB_Fantasy+Baseball">Fantasy Baseball</a></li>
+	<li><a href="http://games.espn.go.com/frontpage/basketball" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_NBA_Fantasy+Basketball">Fantasy Basketball</a></li>
+	<li><a href="http://games.espn.go.com/frontpage/hockey" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_NHL_Fantasy+Hockey">Fantasy Hockey</a></li>
+	<li><a href="http://games.espn.go.com/frontpage/racing" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Fantasy_Racing">Fantasy Racing</a></li>
+	<li><a href="http://games.espn.go.com/frontpage/soccer" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Fantasy_Soccer">Fantasy Soccer</a></li>
+</ul>
+<ul>
+                
+	<li><a href="http://games.espn.go.com/bbc/frontpage" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Baseball_Challenge">Baseball Challenge</a></li>
+	<li><a href="http://games.espn.go.com/stockcar/frontpage" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Stock_Car_Challenge">Stock Car Challenge</a></li> 
+	<li><a href="http://games.espn.go.com/bestball/frontpage" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Best_Ball_Challenge">Best Ball Challenge</a></li>
+	<li><a href="http://games.espn.go.com/uber/front" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_Uber">Uber Challenge</a></li>
+	<li><a href="http://sports.espn.go.com/espn/poker/index">Poker</a></li>   
+	<li><a href="http://games.espn.go.com/frontpage/games" name="&amp;lpos=fpnav&amp;lid=fp_fantasy_All_Fantasy_Games">All Fantasy Games</a></li> 
+</ul>
+</li>
+</ul>
+</li>
+<li class="lo"><a href="http://sports.espn.go.com/nfl/index" name="&amp;lpos=fpnav&amp;lid=fp_NFL_NFL+Front+Page">NFL</a>
+<ul class="aw_drop">
+	<li><a href="http://scores.espn.go.com/nfl/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_NFL_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/nfl/schedule" name="&amp;lpos=fpnav&amp;lid=fp_NFL_Schedule">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/nfl/standings" name="&amp;lpos=fpnav&amp;lid=fp_NFL_Standings">Standings</a></li>
+	<li><a href="http://sports.espn.go.com/nfl/draft" name="&amp;lpos=fpnav&amp;lid=fp_NFL_Draft08">2008 NFL Draft</a></li>
+	<li><a href="http://sports.espn.go.com/nfl/teams" name="&amp;lpos=fpnav&amp;lid=fp_NFL_Teams">Teams</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=2459789" name="&amp;lpos=fpnav&amp;lid=fp_NFL_Video+Highlights">NFL Video</a></li>
+	<li><a href="http://www.nfl.com/?campaign=ec0009" name="&amp;lpos=fpnav&amp;lid=fp_NFL_NFL.com" target="_blank" rel="nofollow">NFL.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/mlb/index" name="&amp;lpos=fpnav&amp;lid=fp_MLB_MLB+Front+Page">MLB</a>
+<ul class="aw_drop">
+	<li><a href="http://scores.espn.go.com/mlb/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_MLB_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/mlb/schedules" name="&amp;lpos=fpnav&amp;lid=fp_MLB_Schedule">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/mlb/standings" name="&amp;lpos=fpnav&amp;lid=fp_MLB_Standings">Standings</a></li>
+	<li><a href="http://sports.espn.go.com/mlb/players" name="&amp;lpos=fpnav&amp;lid=fp_MLB_Playerss">Players</a></li>
+	<li><a href="http://sports.espn.go.com/mlb/teams" name="&amp;lpos=fpnav&amp;lid=fp_MLB_Teams">Teams</a></li>
+<li><a href="http://sports.espn.go.com/mlb/notebook?page=bbtn" name="&amp;lpos=fpnav&amp;lid=fp_MLB_BBTN">BBTN Clubhouse</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=2521705" name="&amp;lpos=fpnav&amp;lid=fp_MLB_Video+Highlights">MLB Video</a></li>
+	<li><a href="http://x.go.com/cgi/x.pl?goto=http://mlb.mlb.com/NASApp/mlb/mlb/subscriptions/espn.jsp?partnerId=ESPN&amp;affiliateID=ESPNADTYPE_horizNav&amp;srvc=sz&amp;name=mlbtv2006" target="_blank" rel="nofollow" name="&amp;lpos=fpnav&amp;lid=fp_MLB_MLBTV.com">MLB.TV <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/nba/index" name="&amp;lpos=fpnav&amp;lid=fp_NBA_NBA+Front+Page">NBA</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/nba/feature/index?page=transactions" name="&amp;lpos=fpnav&amp;lid=fp_NBA_transactions">Transactions</a></li>
+	<li><a href="http://myespn.go.com/nba/truehoop" name="&amp;lpos=fpnav&amp;lid=fp_NBA_Truehoop">TrueHoop</a></li>
+	<li><a href="http://insider.espn.go.com/nba/features/rumors" name="&amp;lpos=fpnav&amp;lid=fp_NBA_RumorCentral">Rumors</a></li>
+	<li><a href="http://sports.espn.go.com/nba/statistics" name="&amp;lpos=fpnav&amp;lid=fp_NBA_Statistics">Stats</a></li>
+	<li><a href="http://sports.espn.go.com/nba/teams" name="&amp;lpos=fpnav&amp;lid=fp_NBA_Teams">Teams</a></li>
+	<li><a href="http://sports.espn.go.com/nba/players?league=nba&position=all" name="&amp;lpos=fpnav&amp;lid=fp_NBA_Players">Players</a></li>
+	
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=2459788" name="&amp;lpos=fpnav&amp;lid=fp_NBA_Video+Highlights">NBA Video</a></li>
+	<li><a href="http://www.nba.com/" name="&amp;lpos=fpnav&amp;lid=fp_NBA_NBA.com" target="_blank" rel="nofollow">NBA.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://www.wnba.com/" name="&amp;lpos=fpnav&amp;lid=fp_NBA_WNBA.com" target="_blank" rel="nofollow">WNBA.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/nhl/index" name="&amp;lpos=fpnav&amp;lid=fp_NHL_NHL+Front+Page">NHL</a>
+<ul class="aw_drop">
+	<li><a href="http://scores.espn.go.com/nhl/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_NHL_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/nhl/schedule" name="&amp;lpos=fpnav&amp;lid=fp_NHL_Schedule">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/nhl/standings" name="&amp;lpos=fpnav&amp;lid=fp_NHL_Standings">Standings</a></li>
+	<li><a href="http://sports.espn.go.com/nhl/teams" name="&amp;lpos=fpnav&amp;lid=fp_NHL_Teams">Teams</a></li>
+	<li><a href="http://insider.espn.go.com/nhl/features/rumors" name="&amp;lpos=fpnav&amp;lid=fp_NHL_Rumor_Central">Rumor Central</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=2459791" name="&lpos=fpnav&amp;lid=fp_NHL_Video+Highlights">NHL Video</a></li>
+	<li><a href="http://www.nhl.com/" name="&amp;lpos=fpnav&amp;lid=fp_NHL_NHL.com" name="&amp;lpos=fpnav&amp;lid=fp_NHL_NHL.com" target="_blank" rel="nofollow">NHL.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/ncaa/espnu/index" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_ESPNU+Front+Page">ESPNU</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/ncaa/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/ncaa/index" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_college+sports">College Sports</a></li>
+	<li><a href="http://insider.espn.go.com/insider/recruiting/football/index" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_FB_Recruiting">Football Recruiting</a></li>
+	<li><a href="http://insider.espn.go.com/insider/recruiting/basketball/mens/index" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_BB_Recruiting">Basketball Recruiting</a></li>
+	<li><a href="http://sports.espn.go.com/extra/lacrosse/index" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_Lacrosse">Lacrosse</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=3003796" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_Video+Highlights">College Video</a></li>
+	<li><a href="http://www.espn-plus.com/" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_ESPNPlus">ESPNPlus</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/ncf/index" name="&amp;lpos=fpnav&amp;lid=fp_NCF_CollFB+Front+Page">College FB</a>
+<ul class="aw_drop">
+	<li><a href="http://scores.espn.go.com/ncf/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_NCF_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/ncf/schedules" name="&amp;lpos=fpnav&amp;lid=fp_NCF_Schedules">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/ncf/standings" name="&amp;lpos=fpnav&amp;lid=fp_NCF_Conference+Standings">Standings</a></li>
+	<li><a href="http://sports.espn.go.com/ncf/rankingsindex" name="&amp;lpos=fpnav&amp;lid=fp_NCF_Rankings">Rankings</a></li>
+	<li><a href="http://sports.espn.go.com/ncf/bowls" name="&amp;lpos=fpnav&amp;lid=fp_NCF_Bowls">2007 Bowls</a></li>
+	<li><a href="http://sports.espn.go.com/ncf/teams" name="&amp;lpos=fpnav&lid=fp_NCF_Teams">Teams</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=2564308l" name="&amp;lpos=fpnav&amp;lid=fp_NCF_Video+Highlights">College FB Video</a></li>
+	<li><a href="http://www.espn-plus.com/" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_ESPNPlus">ESPNPlus</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/ncb/index" name="&amp;lpos=fpnav&amp;lid=fp_NCB_CollBB+Front+Page">Men's BB</a>
+<ul class="aw_drop">
+	<li><a href="http://scores.espn.go.com/ncb/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/ncb/schedules" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Schedule">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/ncb/standings" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Standings">Standings</a></li>
+	<li><a href="http://sports.espn.go.com/ncb/rankingsindex" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Rankings">Rankings</a></li>
+	<li><a href="http://sports-ak.espn.go.com/ncb/tournament" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Tournament">2008 NCAA Tournament</a></li>
+	<li><a href="http://sports.espn.go.com/ncb/teams" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Teams">Teams</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/broadband/video/videopage?categoryId=2459792" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Video+Highlights">College BB Video</a></li>
+	<li><a href="http://www.espn-plus.com/" name="&amp;lpos=fpnav&amp;lid=fp_ESPNU_ESPNPlus">ESPNPlus</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/sports/womenbb/index" name="&amp;lpos=fpnav&amp;lid=fp_WNBA_Front+Page">Women's BB</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/wnba/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_WNBA_Scoreboard">WNBA Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/wnba/schedule" name="&amp;lpos=fpnav&amp;lid=fp_WNBA_Schedule">WNBA Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/wnba/standings" name="&amp;lpos=fpnav&amp;lid=fp_WNBA_Standings">WNBA Standings</a></li>
+	<li><a href="http://insider.espn.go.com/insider/recruiting/basketball/womens/index" name="&amp;lpos=fpnav&amp;lid=fp_WNBA_HoopGurlz">HoopGurlz</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://www.wnba.com/" name="&amp;lpos=fpnav&amp;lid=fp_NBA_WNBA.com" target="_blank" rel="nofollow">WNBA.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://sports.espn.go.com/ncw/tournament" name="&amp;lpos=fpnav&amp;lid=fp_NCB_Tournament">2008 NCAA Tournament</a></li>
+	<li><a href="http://sports.espn.go.com/ncw/scoreboard" name="&amp;lpos=fpnav&amp;lid=fp_NCW_Scoreboard">NCAA Scoreboard</a></li>
+	<li><a href="http://sports.espn.go.com/ncw/schedules" name="&amp;lpos=fpnav&amp;lid=fp_NCW_Schedule">NCAA Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/ncw/standings" name="&amp;lpos=fpnav&amp;lid=fp_NCW_Standings">NCAA Rankings</a></li>
+	<li><a href="http://sports.espn.go.com/ncw/standings" name="&amp;lpos=fpnav&amp;lid=fp_NCW_Standings">NCAA Standings</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/rpm/nascar/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Autos+Front+Page">NASCAR</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/rpm/nascar/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Schedule">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/rpm/nascar/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Nextel+Cup">Sprint Cup</a></li>
+	<li><a href="http://sports.espn.go.com/rpm/nascar/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Busch+Series">Nationwide Series</a></li>
+	<li><a href="http://sports.espn.go.com/rpm/nascar/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Craftsman+Truck+Series">Craftsman Truck Series</a></li>
+	<li><a href="http://www.jayski.com/" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Jayski.com" target="_blank" rel="nofollow">Jayski.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://espn.myride.com/?id=28433" name="&amp;lpos=fpnav&amp;lid=fp_Autos_ESPN+Cars+Bytel">ESPN Cars</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/rpm/racing/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_IndyCar">Racing</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/rpm/racing/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_IndyCar">IndyCar</a></li>
+	<li><a href="http://sports.espn.go.com/rpm/racing/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Formula+One">Formula One</a></li>
+	<li><a href="http://sports.espn.go.com/rpm/racing/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_NHRA">NHRA</a></li>
+	<li><a href="http://sports.espn.go.com/rpm/racing/index" name="&amp;lpos=fpnav&amp;lid=fp_Autos_Other+Racing">Other Racing</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://espn.myride.com/?id=28433" name="&amp;lpos=fpnav&amp;lid=fp_Autos_ESPN+Cars+Bytel">ESPN Cars</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/golf/index" name="&amp;lpos=fpnav&amp;lid=fp_Golf_Golf+Front+Page">Golf</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/golf/leaderboard" name="&amp;lpos=fpnav&amp;lid=fp_Golf_Leaderboard">Leaderboard</a></li>
+	<li><a href="http://sports.espn.go.com/golf/schedule" name="&amp;lpos=fpnav&amp;lid=fp_Golf_Schedule+Results">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/golf/moneyLeaders" name="&amp;lpos=fpnav&amp;lid=fp_Golf_Money+Leaders">Money Leaders</a></li>
+	<li><a href="http://www.golfdigest.com/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_Golf+Digest" target="_blank" rel="nofollow">Golf Digest  <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://www.masters.org/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_Masters.org" target="_blank" rel="nofollow">Masters.org <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://pgatour.com/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_PGATour.com" target="_blank" rel="nofollow">PGATOUR.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://www.usga.org/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_USGA.org" target="_blank" rel="nofollow">USGA.org <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://activegolf.com/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_ActiveGolf" target="_blank" rel="nofollow">ActiveGolf.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://opengolf.com/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_OpenGolf" target="_blank" rel="nofollow">OpenGolf.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://espngolfschools.com/" name="&amp;lpos=fpnav&amp;lid=fp_Golf_ESPN+Golf+Schools" target="_blank" rel="nofollow">ESPN Golf Schools</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://soccernet.espn.go.com/index?cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_Soccernet+Front+Page">Soccer</a>
+<ul class="aw_drop">
+	<li><a href="http://soccernet.espn.go.com/scoreboard?league=all&amp;cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_Scoreboard">Scoreboard</a></li>
+	<li><a href="http://soccernet.espn.go.com/euro2008/index?cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_Euro+2008">Euro 2008</a></li>
+	<li><a href="http://soccernet.espn.go.com/index?ver=us&amp;cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_USA">United States</a></li>
+	<li><a href="http://soccernet.espn.go.com/section?id=england&amp;cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_England">England</a></li>
+	<li><a href="http://soccernet.espn.go.com/section?id=uefachampionsleague&amp;cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_Champions+League">Champions League</a></li>
+	<li><a href="http://soccernet.espn.go.com/section?id=mls&amp;cc=5901" name="&amp;lpos=fpnav&amp;lid=fp_Soccer_MLS">MLS</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://www.scorecenter.com/" name="&amp;lpos=fpnav&amp;lid=fp_ScoreCenter">ScoreCenter</a></li>
+</ul>
+</li>
+<li class="lo solid"><a name="&amp;lpos=fpnav&amp;lid=fp_Tennis_Tennis+Front+Page" href="http://sports.espn.go.com/sports/tennis/index">Tennis</a>
+<ul class="aw_drop">
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_Tennis_Tennis+Daily+Results" href="http://sports.espn.go.com/sports/tennis/dailyResults">Daily Results</a></li>
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_Tennis_Tennis+Schedule" href="http://sports.espn.go.com/sports/tennis/schedule">Schedule</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://tennis.com/index.aspx" name="&amp;lpos=fpnav&amp;lid=fp_Tennis_Tennis.com" target="_blank" rel="nofollow">Tennis.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://www.wimbledon.org/" name="&amp;lpos=fpnav&amp;lid=fp_Tennis_Wimbledon.org" target="_blank" rel="nofollow">Wimbledon.org <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://www.usta.com/" name="&amp;lpos=fpnav&amp;lid=fp_Tennis_USTA.com" target="_blank" rel="nofollow">USTA.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://www.usopen.org/" name="&amp;lpos=fpnav&amp;lid=fp_Tennis_USOpen.org" target="_blank" rel="nofollow">USOpen.org <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+</ul>
+</li>
+<li class="lo solid"><a name="&amp;lpos=fpnav&amp;lid=fp_Boxing_Boxing+Front+Page" href="http://sports.espn.go.com/sports/boxing/index">Boxing</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/sports/boxing/news/story?page=boxing/schedule/index" name="&amp;lpos=fpnav&amp;lid=fp_Boxing_Boxing_Schedule">Schedule</a></li>
+	<li><a href="http://sports.espn.go.com/sports/boxing/columns/story?columnist=rafael_dan&id=3222461" name="&amp;lpos=fpnav&amp;lid=fp_Boxing_Boxing_Rankings">Rankings</a></li>
+	<li><a href="http://sports.espn.go.com/sports/boxing/news/story?page=boxing/champions/index" name="&amp;lpos=fpnav&amp;lid=fp_Boxing_Boxing_Champions">Champions</a></li>	
+</ul>
+</li>
+<li class="lo solid"><a name="&amp;lpos=fpnav&amp;lid=fp_AFL_AFL+Front+Page" href="http://sports.espn.go.com/extra/afl/index">AFL</a>
+<ul class="aw_drop">
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_AFL_Scoreboard" href="http://sports.espn.go.com/extra/afl/scoreboard">Scoreboard</a></li>
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_AFL_Standings" href="http://sports.espn.go.com/extra/afl/standings">Standings</a></li>
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_AFL_AFL+On+ESPN" href="http://sports.espn.go.com/extra/afl/news/story?id=2780003">AFL on ESPN</a></li>
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_AFL_AFL+Extra" href="http://sports.espn.go.com/extra/afl/aflextra">AFL Extra</a></li>
+	<li><a name="&amp;lpos=fpnav&amp;lid=fp_AFL_Pick+Em" href="http://games.espn.go.com/apickem/frontpage">AFL Pick 'Em</a></li>
+</ul>
+</li>
+<li class="lo solid"><a href="http://sports.espn.go.com/sports/index" name="&amp;lpos=fpnav&amp;lid=fp_More_More+Sports">More +</a>
+<ul class="aw_drop">
+	<li><a href="http://sports.espn.go.com/oly/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Olympics+Front+Page" >Olympic Sports</a></li>
+	<li><a href="http://sports.espn.go.com/oly/tdf2008/index" name="&amp;lpos=fpnav&amp;lid=fp_More_TourDeFrance+Front+Page" >2008 Tour de France</a></li>
+	<li><a href="http://sports.espn.go.com/sports/horse/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Horse+Racing">Horse Racing</a></li>
+	<li><a href="http://sports.espn.go.com/sports/horse/triplecrown08/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Triple+Crown">Triple Crown</a></li>
+	<li><a href="http://sports.espn.go.com/sports/horse/breederscup07/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Breeders+Cup">Breeders' Cup</a></li>
+	<li><a href="http://sports.espn.go.com/extra/mma/index" name="&amp;lpos=fpnav&amp;lid=fp_More_MMA">Mixed Martial Arts</a></li>
+	<li><a href="http://www.sherdog.com/" name="&amp;lpos=fpnav&amp;lid=fp_More_Sherdog.com" target="_blank" rel="nofollow">Sherdog.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>	
+<li><a href="http://sports.espn.go.com/espn/poker/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Poker">Poker</a></li>
+	<li><a href="http://sports.espn.go.com/extra/lacrosse/index" name="&amp;lpos=fpnav&amp;lid=fp_lacrosse">Lacrosse</a></li> 
+	<li><a href="http://sports.espn.go.com/sports/womenbb/index" name="&amp;lpos=fpnav&amp;lid=fp_More_WNBA">WNBA</a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://www.cricinfo.com/espn/content/site/espn/index.html" name="&amp;lpos=fpnav&amp;lid=gfp_More_cricinfo.com" target="_blank" rel="nofollow">Cricinfo (Cricket News) <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://x.go.com/cgi/x.pl?goto=http://www.scrum.com/&amp;name=SCRUM&amp;srvc=sz" name="&amp;lpos=fpnav&amp;lid=fp_More_scrum" target="_blank" rel="nofollow">Scrum.com (Rugby News) <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li class="separator">&nbsp;</li>
+	<li><a href="http://expn.go.com/expn/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Action+Sports">EXPN (Action Sports)</a></li>
+	<li><a href="http://www.surfline.com/home/index.cfm" name="&amp;lpos=fpnav&amp;lid=fp_More_surfline" target="_blank" rel="nofollow">Surfline.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://www.active.com/espn/getactive/" name="&amp;lpos=fpnav&amp;lid=fp_More_Get+Active" rel="nofollow">Get Active (Active.com)</a></li>
+	<li><a href="http://sports.espn.go.com/sports/llws07/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Little+League+World+Series">Little League WS</a></li>
+	<li><a href="http://www.pba.com/" name="&amp;lpos=fpnav&amp;lid=fp_More_PBA.com" target="_blank" rel="nofollow">PBA.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://sports.espn.go.com/outdoors/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Outdoors">Outdoors</a></li>
+	<li><a href="http://sports.espn.go.com/outdoors/bassmaster/index" name="&amp;lpos=fpnav&amp;lid=fp_More_BASS+Membership">Bassmaster</a></li>
+	<li><a href="http://sports.espn.go.com/rodeo/index" name="&amp;lpos=fpnav&amp;lid=fp_More_Rodeo+Bull Riding">Rodeo and Bull Riding</a></li>
+	<li><a href="http://www.rsn.com/" name="&amp;lpos=fpnav&amp;lid=fp_More_rsn" target="_blank" rel="nofollow">RSN.com <img src="espn.go.com_files/outbound.gif" width="12" height="9" border="0" alt="External Link" /></a></li>
+	<li><a href="http://sports.espn.go.com/espn/cnet/index" name="&amp;lpos=fpnav&amp;lid=fp_More_CNET+ESPN+Tech+Guide">CNET/ESPN Tech Guide</a></li>
+	<li><a href="http://sports.espn.go.com/espn/sitemap" name="&amp;lpos=fpnav&amp;lid=fp_More_Site+Map">Site Map</a></li>
+</ul>
+</li>
+</ul>
+<div style="clear: both;"></div>
+</div>
+</div>
+</div>
+<a name="startespn" style="display: none;"></a>
+<script language="Javascript">initnav('awnav1');</script>
+<!-- END PAGE 1 GLOBAL NAV --><div id="main">
+<!-- begin ImpactLogo --><!-- end ImpactLogo --><!-- begin column 3 -->
+<div id="rightc">
+<!-- begin motion2 -->
+
+<script>
+
+var bw = 0;
+if(document.body.clientWidth)
+	bw = document.body.clientWidth;
+var qs = "";
+if(bw<800)
+	qs = "&autoplay=false"
+
+
+var fspdiv = '<div id="motion" style="padding:0px;">'
+		+ '<iframe id="fsp" style="background:#000;" width="230" height="447" src="about:blank" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"></iframe>'
+		+ '</div>';
+document.write(fspdiv);
+</script><!-- end motion2 -->
+<!-- begin TwinTop_HP --><div id="rightcolad"><a href="http://log.go.com/log?srvc=sz&amp;guid=665D7F51-0380-40F5-B232-DFC750C084E6&amp;drop=0&amp;addata=2398:53156:419212:53156&amp;a=1&amp;goto=http://sports.espn.go.com/mlb/feature/index?page=mlballstar2008&addata=2008_HRDti_xxx_xxx_xxx_xxx" target="_new"><img src="espn.go.com_files/espn-230.gif" width="230" height="110" border="0" alt="" /></a></div><!-- end TwinTop_HP -->
+
+	<script>
+		var pList=new Array();
+		var iList=new Array();
+	pList[0]='http://podloc.andohs.net/dloadTrack.mp3?prm=1644xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/pti/pti080709.mp3';iList[0]='espn.go.com_files/pti_224.jpg';pList[1]='http://podloc.andohs.net/dloadTrack.mp3?prm=2811xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/ath/ath080709.mp3';iList[1]='espn.go.com_files/aroundtheHorn_224.jpg';pList[2]='http://podloc.andohs.net/dloadTrack.mp3?prm=1722xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/fantasyfix/fantasybaseball080709.mp3';iList[2]='espn.go.com_files/focusBaseball_224.jpg';
+		function playPodcast(num){
+			if(num<pList.length && pList[num]){
+			  podplayer.flashVars="&BackgroundColor=000000&highlightColor=FFFFFF&borderColor1=686868&borderColor2=888888&autoStart=true&soundLink="+pList[num];
+			  podplayer.useDOM = true;
+			  podplayer.targetElement = "podcast-player-home";
+			  podplayer.render(true);
+			  document.getElementById('pHeaderImage').src=iList[num]
+			}
+		}
+
+		function togglePodcast(num){
+			for(var i=0;i<3;i++){
+				document.getElementById('pInfo'+i).className='podcast-off';
+				document.getElementById('pLink'+i).style.display='none';
+			}
+			document.getElementById('pInfo'+num).className='podcast-highlight';
+			document.getElementById('pLink'+num).style.display='block';
+			playPodcast(num);
+		}
+	
+	</script>
+	<script language="JavaScript" src="espn.go.com_files/analytic.js"></script>
+	<script language="JavaScript"><!--
+		function trackPodPlayer(event){
+			//inits
+			anClearVars();
+			temp_account = s_account;			
+			anLinkURL = window.location;
+			anSiteSection = 'espnradio';
+			anLinkPos = "ESPNFrontPage";
+			anLinkId = "podplayer+"+event;
+
+			s_omni.sa("wdgespradio, wdgespcom");
+			anTrackLink(anLinkURL,anSiteSection,anLinkPos,anLinkId);
+			s_omni.sa(temp_account);
+		}
+	//-->
+	</script>
+	
+
+	
+	  <!-- Podcast --> 
+	   <ul id="podcast-mod">
+		<a name="&lpos=pod" href="http://sports.espn.go.com/espnradio/podcast/index"><img src="espn.go.com_files/h_podcas.png" width="223" height="25" alt="" border="0" /></a>
+	 
+	  <img src="espn.go.com_files/pti_2240.jpg" width="224" height="42" alt="" border="0" id="pHeaderImage" />
+	   <li class="podcast-player" id="podcast-player-home">
+	    <script language="Javascript" type="text/javascript">
+	     <!--
+	      var podplayer = new flashObj();
+	      podplayer.flashFile = "espn.go.com_files/audio_player_black_v1.swf";
+	      podplayer.flashVars = "&BackgroundColor=000000&highlightColor=FFFFFF&borderColor1=686868&borderColor2=888888&soundLink=http://podloc.andohs.net/dloadTrack.mp3?prm=1644xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/pti/pti080709.mp3";
+	      podplayer.width = "224";
+	      podplayer.height = "20";
+	      podplayer.scale = "noScale";
+	      podplayer.salign="lt";
+	      podplayer.wmode = "opaque";  // Window Mode
+	      podplayer.DenyIEdl = "TRUE";
+	      podplayer.FlashVer = 8;
+	      podplayer.cabVersion = "8,0,0,0";
+	      podplayer.altTxt = "";
+	      podplayer.ID = "tm1";
+	      podplayer.render(true);
+	      //-->
+	     </script>
+	    </li>
+				
+				<li class="podcast-highlight" id="pInfo0">
+					<em><a name="&lpos=pod" href="javascript: void(0);" onclick="togglePodcast(0);return false;">Pardon the Interruption</a></em>
+					<span style="display: block;" id="pLink0">
+					 <a name="&lpos=pod" href="http://podloc.andohs.net/dloadTrack.mp3?prm=1644xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/pti/pti080709.mp3" target="_blank">Download</a> | <a name="&lpos=pod" href="http://sports.espn.go.com/espnradio/podcast/archive?id=2406595">Subscribe</a> | <a name="&lpos=pod" href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?artistId=127434126" target="_blank">iTunes</a>		
+					</span>
+				</li>
+							
+				<li class="podcast-off" id="pInfo1">
+					<em><a name="&lpos=pod" href="javascript: void(0);" onclick="togglePodcast(1);return false;">Around the Horn</a></em>
+					<span style="display: none;" id="pLink1">
+					 <a name="&lpos=pod" href="http://podloc.andohs.net/dloadTrack.mp3?prm=2811xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/ath/ath080709.mp3" target="_blank">Download</a> | <a name="&lpos=pod" href="http://sports.espn.go.com/espnradio/podcast/archive?id=2839445">Subscribe</a> | <a name="&lpos=pod" href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?artistId=127434126" target="_blank">iTunes</a>		
+					</span>
+				</li>
+							
+				<li class="podcast-off" id="pInfo2">
+					<em><a name="&lpos=pod" href="javascript: void(0);" onclick="togglePodcast(2);return false;">Fantasy Focus Baseball</a></em>
+					<span style="display: none;" id="pLink2">
+					 <a name="&lpos=pod" href="http://podloc.andohs.net/dloadTrack.mp3?prm=1722xhttp://query-origin.andohs.net/8000A6/content-root3.andomedia.com/origin/mp3/espnradio/fantasyfix/fantasybaseball080709.mp3" target="_blank">Download</a> | <a name="&lpos=pod" href="http://sports.espn.go.com/espnradio/podcast/archive?id=2544461">Subscribe</a> | <a name="&lpos=pod" href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtist?artistId=127434126" target="_blank">iTunes</a>		
+					</span>
+				</li>
+				
+		<li class="podcast-footer">
+		 <a name="&lpos=pod" href="http://sports.espn.go.com/espnradio/index">ESPN Radio</a> | <a name="&lpos=pod" href="javascript:void(0);" onClick="window.open('http://sports.espn.go.com/espnradio/player?station=espn','Popup','width=780,height=515,scrollbars=no,noresize'); return false;">Listen Live</a> <img src="espn.go.com_files/listen00.gif" align="absmiddle" id="listen" />	
+		</li>
+	</ul>
+	<!-- end Podcast -->
+	<div class="whats-hot">
+<img src="espn.go.com_files/whats_ho.jpg" width="242" height="60" border="0" alt="What's Hot" />
+<a name="&lpos=whot" href="http://promo.espn.go.com/espn/specialsection/espys2008/"><img src="espn.go.com_files/wh_espy_.jpg"alt=ESPYS width="242" height="300" border="0" /></a>
+</div>
+<!-- begin flash poll -->
+<div class="poll">
+
+<script language="Javascript" type="text/javascript">
+var cookies = document.cookie.split("; ");
+function getCookie(name) {
+	for (var i=0; i < cookies.length; i++) {
+	  cookie = cookies[i].split("=");
+	  if (cookie[0] == name)
+		return cookie[1];
+	  }
+	  return null;
+}
+var poll = 0;
+var poll = 57320;
+var hasVoted = false;
+var voted = "voted=0";
+var pollBit = poll % 256 % 64 % 4;
+bitArray = new Array();
+bitArray[0] = 8;
+bitArray[1] = 1;
+bitArray[2] = 2;
+bitArray[3] = 4;
+var cookieId = (poll - (poll % 256)) / 256;
+var CookieIdasString = new String(cookieId);
+var cookieName = "POLL" + CookieIdasString;
+pollCookie = getCookie(cookieName)
+if (pollCookie != null) {
+	cookiePosition = pollCookie.length - Math.ceil((poll % 256 )/ 4);
+	cookieValue = pollCookie.substring(cookiePosition, cookiePosition + 1);
+	cookieAsHex = "0x" + cookieValue.toString(1);
+	if ((bitArray[pollBit] & cookieAsHex) == bitArray[pollBit]) {
+		var hasVoted = true;
+	}
+	if (hasVoted) {
+		voted = "voted=1";
+	}
+}
+</script><a href="http://log.go.com/log?srvc=sz&amp;guid=665D7F51-0380-40F5-B232-DFC750C084E6&amp;drop=0&amp;addata=1643:183:325063:183&amp;a=1&amp;goto=http://sports.espn.go.com/chat/sportsnation/index" target="_new"><img src="espn.go.com_files/espn-242.jpg" width="242" height="50" border="0" alt="" /></a><div>
+
+		<script language="Javascript" type="text/javascript">
+		<!--
+		deCookieValue = 'null';
+		deCookieValue = getCookie("DE2");
+		window.document.cookie = deCookieValue;
+		var pollSOB=new flashObj();
+		pollSOB.flashFile = 'espn.go.com_files/poll.swf';
+		pollSOB.flashVars = '&pId=57320&map=true&pType=3&voteButtonText=Vote&mapButtonText=View+map&totalVotesText=Total+votes&fontBold=true&answerFontBold=true&fontColor=FFFFFF&answerFontColor=d4d1b2&barColor=FF0000&buttonColor=cd0000&backgroundUrl=espn.go.com_files/TotemPoll_fp_grad_v5.swf&surveyMsg=&pollUrl=http://sports.espn.go.com/espn/fp/pollDataGenUniversal&submitUrl=http://poll.espn.go.com/cgi/sz/poll.dll&regionSubmitUrl=http://proxy.espn.go.com/espn/fp/pollRegDataInsert'+'&'+voted+'&cookie='+deCookieValue;
+		pollSOB.width = "242";
+		pollSOB.height = "280";
+		pollSOB.DenyIEdl = "TRUE";
+		pollSOB.quality = "best";
+		pollSOB.scale = "noScale";
+		pollSOB.allowScriptAccess = "Always";
+		pollSOB.allowNetworking = "All";
+		pollSOB.altTxt = "Poll";
+		pollSOB.FlashVer = "7";
+		pollSOB.ID = "flashPollSwf";
+		pollSOB.cabVersion = "7,0,19,0";
+		pollSOB.render(true);
+		
+		//-->
+		</script>
+		<div class="pollLinks">
+&#187;&nbsp;<a href="http://sports.espn.go.com/chat/sportsnation/poll/index">More Polls</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- comp -->
+
+
+
+		&#187;&nbsp;<a href="http://widgetcenter.espn.go.com/widgets/tags/ESPN#47602091f7aa998e" >Add ESPN Poll Widget</a>
+</div>
+<div style="clear:both;"></div>
+
+		<script language="Javascript" type="text/javascript">
+		<!--
+			function launchWindow() {
+				window.open('http://sports.espn.go.com/espn/fp/flashPollResultsState?sportIndex=frontpage&pollId=57320','MapPollWin','toolbar=no,status=no,scrollbars=no,location=no,menubar=no,directories=no,resizable=no,width=924,height=608');
+			}
+		//-->
+		</script>
+		</div>
+		<h3><a name="&lpos=chat" href="http://sports.espn.go.com/chat/sportsnation/index">Thursday's Chats!</a></h3>
+<ul>
+
+<li><strong>Chat: </strong><a name="&lpos=chat" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21406">WR Patrick Crayton, 12:45 p.m. ET</a></li>
+<li><strong>Chat: </strong><a name="&lpos=chat" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21361">SN on ESPN Radio, 2 p.m. ET</a></li>
+<li><strong>Chat: </strong><a name="&lpos=chat" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21409">Wladimir Klitschko , 3:30 p.m. ET</a></li>
+
+
+
+
+<li></ul>
+<a name="&lpos=chat" href="http://sports.espn.go.com/chat/sportsnation/story?page=ChatArchiveIndexHome">Read Wednesday's chat wraps!</a>
+
+
+<!--
+<h3><a name="&lpos=chat" href="http://sports.espn.go.com/chat/sportsnation/index">Monday's Featured Chats!</a></h3>
+<ul>
+
+
+<li><strong>1:30pm: </strong><a name="&lpos=chat" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21158">Face of the Program w/Low</a></li>
+<li><strong>2pm: </strong><a name="&lpos=chat" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21099">SportsNation on ESPN Radio</a></li>
+<li><strong>4:30pm: </strong><a name="&lpos=chat" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21155">Rush WR Damian Harrell</a></li>
+
+
+<li></ul>
+<a name="&lpos=chat" href="http://sports.espn.go.com/chat/sportsnation/story?page=ChatArchiveIndexHome">Check today's full chat lineup!</a>
+--></div>
+<!-- end flash poll -->
+</div>
+<!-- end column 3 -->
+<!-- begin column 1 -->
+<div id="leftc">
+<!-- begin ts -->
+<div id="topstory">
+<h1 class="head40"><a name="&lpos=tsHeadline" href="http://sports.espn.go.com/nba/columns/story?columnist=ford_chad&page=FreeAgents-080629">As The NBA Turns</a></h1>
+<div class="photowrap"><a name="&lpos=tsPhoto" href="http://sports.espn.go.com/nba/columns/story?columnist=ford_chad&page=FreeAgents-080629"><img src="espn.go.com_files/nba_free.jpg" alt="NBA Free Agency" class="ts-photo" width="412" height="232" border="0" /></a>
+</div><ul>
+<li class="photocap"><em>Getty Images</em>Waiting: Josh Smith, James Posey, Andre Iguodala and Emeka Okafor.</li>
+<li class="topstory2">
+Just when you thought the Clippers had a chance, Elton Brand bolted. That's the soap opera of  NBA free agency. Upcoming drama: Will the Hawks' Josh Smith be next? <a name="&lpos=ts" href="http://sports.espn.go.com/nba/columns/story?columnist=ford_chad&page=FreeAgents-080629"><b>Chad Ford</b></a> | <a name="&lpos=ts" href="http://sports.espn.go.com/broadband/video/videopage?videoId=3480888&categoryId=2459788&n8pe6c=2"><b>Watch: Chris Sheridan</b></a><br /><br />&#8226; <a name="&lpos=ts" href="http://sports.espn.go.com/nba/columns/story?columnist=adande_ja&page=Brand-Clippers-080710">Adande: Why Brand left</a> ... <a name="&lpos=ts" href="http://sports.espn.go.com/broadband/video/videopage?videoId=3480923&categoryId=2459788">Watch</a> | <a name="&lpos=ts" href="http://insider.espn.go.com/nba/features/rumors">Rumor Central</a> <img src="espn.go.com_files/in.gif" width="11" height="11" border="0" alt="Insider" /> | <a name="&lpos=ts" href="http://sports.espn.go.com/nba/feature/index?page=transactions">Transactions</a><br />&#8226; <a name="&lpos=ts" href="http://sports.espn.go.com/broadband/video/videopage?categoryId=3459272">Watch: Michael Beasley in Episode 5 of "The Rookie"</a> | <a name="&lpos=ts" href="http://sports.espn.go.com/nba/news/story?page=Orlando-Day3-080709">Rookie stars</a></li>
+</ul>
+</div>
+<!-- end ts -->
+
+		<div id="spotlight">
+		<script language="javascript">
+			<!--
+			var sl = new flashObj();
+			sl.flashFile = "espn.go.com_files/operatest.swf";
+			
+				sl.flashVars = "&dataURL=http://sports.espn.go.com/frontpage/format/spotlightXML&isIE="+isIE+"&title=Spotlight";
+			
+			sl.width = "412";
+			sl.height = "255";
+			sl.scale = "noScale";
+			sl.salign="lt";
+			sl.wmode = "opaque";  // Window Mode
+			sl.DenyIEdl = "TRUE";
+			sl.FlashVer = 7;
+			sl.cabVersion = "7,0,0,0";
+			sl.altTxt = "<div>Flash Player Required</div>";
+			sl.ID = "sl1";
+			sl.render(true);
+			//-->
+		</script>
+		</div>
+		<!-- begin must read -->
+<ul id="must-read">
+<li>
+<h1>World Series Of Poker</h1>
+<a name="&lpos=mra" href="" onClick="window.open('http://sports.espn.go.com/espnradio/podcast/player?id=3479750','Popup','width=269,height=134,scrollbars=no,noresize'); return false;">
+<img class="must-photo" src="espn.go.com_files/poker_br.jpg" alt="Brandon Adams" height="75" width="134" border="0" /></a> 
+
+If you're in Las Vegas following the WSOP action, you're lucky. If not? Well, you're still in luck! We've got your back. <b><a name="&lpos=mra" href="" onClick="window.open('http://sports.espn.go.com/espnradio/podcast/player?id=3479750','Popup','width=269,height=134,scrollbars=no,noresize'); return false;"><b>Poker Edge</b></a> <img src="espn.go.com_files/listen01.gif" id="listen"  /></b><br>
+
+&#8226; <a name="&lpos=mra" href="http://sports.espn.go.com/espn/poker/columns/story?columnist=wise_gary&id=3479449">Wise: A new professor</a> | <a name="&lpos=mra" href="http://proxy.espn.go.com/chat/chatESPN?event_id=21365">Chat wrap</a> <img src="espn.go.com_files/in.gif" width="11" height="11" border="0" alt="Insider" /><br>
+
+&#8226; <a name="&lpos=mra" href="http://sports.espn.go.com/broadband/video/videopage?videoId=3479489&categoryId=2378529">Watch: All in on Day 2A</a> | <a name="&lpos=mra" href="http://sports.espn.go.com/espn/blog/index?entryID=3480887&name=poker">Dropping like flies</a>
+<div class="clear"></div>
+</li>
+<li>
+<h1>ACC Atlantic</h1>
+<a name="&lpos=mrb" href="http://myespn.go.com/blogs/acc">
+<img class="must-photo" src="espn.go.com_files/ncf_harp.jpg" alt="Cullen Harper" height="75" width="134" border="0" /></a> 
+
+Will this be the year the ACC atones for its previous BCS sins? With most of its talent returning, Clemson is a perfect candidate. <b><a name="&lpos=mrb" href="http://myespn.go.com/blogs/acc">Heather Dinich blog</a> | Ribbon: <a name="&lpos=mrb" href="http://insider.espn.go.com/ncf/insider/news/story?id=3477741">Clemson</a></b> <img src="espn.go.com_files/infree00.gif" width=37 height=11 hspace=4 border=0><br>
+
+&#8226; <img src="espn.go.com_files/in.gif" width="11" height="11" border="0" alt="Insider" /> <a name="&lpos=mrb" href="http://insider.espn.go.com/ncf/insider/news/story?id=3477627">BC</a> | <a name="&lpos=mrb" href="http://insider.espn.go.com/ncf/insider/news/story?id=3477836">FSU</a> | <a name="&lpos=mrb" href="http://insider.espn.go.com/ncf/insider/news/story?id=3477909">Maryland</a> | <a name="&lpos=mrb" href="http://insider.espn.go.com/ncf/insider/news/story?id=3477965">NC State</a> | <a name="&lpos=mrb" href="http://insider.espn.go.com/ncf/insider/news/story?id=3478047">Wake</a><br>
+<div class="clear"></div>
+</li>
+
+<li>
+<h1>Boxing</h1>
+<a name="&lpos=mrc" href="http://sports.espn.go.com/sports/boxing/features/fifty"target="_new">
+<img class="must-photo" src="espn.go.com_files/box_50st.jpg" alt="50  states, 50 days" height="75" width="134" border="0" /></a>
+
+Every state has great fighters. But over 50 days, ESPN.com is choosing the best from each state. There can be only one. In Montana, that man was a mauler. <a name="&lpos=mrc" href="http://sports.espn.go.com/sports/boxing/features/fifty"target="_new"><b>50 Fighters</b></a><br>
+
+&#8226;&nbsp;<a name="&lpos=mrc" href="http://sports.espn.go.com/sports/boxing/news/story?id=3472003">Criteria for choosing fighters</a> | <a name="&lpos=mrc" href="http://myespn.go.com/s/conversations/show/story/3467327">Your thoughts</a><br />
+<div class="clear"></div>
+</li>
+
+
+<!-- begin ombud  -->
+<li>
+<h1>
+<em>
+<a name="&lpos=omb" href="http://sports.espn.go.com/espn/columns/story?id=2826900">E-mail</a> | 
+<a name="&lpos=omb" href="http://sports.espn.go.com/keyword/search?searchString=le_anne_schreiber&page=espn">Archive</a>
+</em>
+Le Anne Schreiber: Ombudsman
+</h1>
+<p>
+<a name="&lpos=omb" href="http://sports.espn.go.com/espn/columns/story?columnist=schreiber_leanne&id=3438752">Schreiber: Good time to end SC Specials</a> | 
+<a name="&lpos=omb" href="http://sports.espn.go.com/espn/corrections">Corrections</a> | <a name="&lpos=omb" href="javascript:void(0)" onClick="window.open('http://proxy.espn.go.com/chat/correctionsform', 'corrections', 'width=510,height=510,left=20,top=20,scrollbars=no,menubar=no, resizable=no,location=no,toolbar=no');">Report error</a>
+</p>
+<div class="clear"></div>
+</li>
+<!-- end ombud --></ul>
+<!-- end must read -->
+<!-- begin sp links -->
+<div class="sponsored-links"><!-- content page1new sport espn-->
+
+	<div style="margin:0px 0px 5px 0px;">
+	<script type="text/javascript">adsonar_placementId=1303566;adsonar_pid=605757;adsonar_ps=-1;adsonar_zw=404;adsonar_zh=250;adsonar_jv='ads.espn.adsonar.com';</script><script language="JavaScript" src="espn.go.com_files/adsonar0.js"></script>
+	</div>
+	
+</div><!-- end sp links -->
+</div>
+<!-- end column 1 -->
+<!-- begin column 2 -->
+<div id="centerc">
+
+
+<!-- begin headlines tab set -->
+<script language="Javascript" type="text/javascript">
+<!--
+		function changeTabSet2214205 (tabname, hasTabImg) {
+			document.getElementById('tab_2214205_1').style.display = 'none';										
+			document.getElementById('tab_2214205_2').style.display = 'none';
+			document.getElementById('tab_2214205_3').style.display = 'none';
+			document.getElementById('tab_2214205_4').style.display = 'none';
+			document.getElementById(tabname).style.display = 'block';
+		}
+//-->
+</script>
+
+<div style="margin: 0 0 0 6px;">
+<script language="Javascript" type="text/javascript">
+<!--
+  var tm = new flashObj();
+  tm.flashFile = "espn.go.com_files/tabModule2.13.swf";
+  tm.flashVars = "&tabId=2214205&onTab=1&&tab1=News&tab1img=false&onTab=1&&tab2=Rumor Central&tab2img=false&tab3=Fantasy&tab3img=false&tab4=On ESPN TV&tab4img=false";
+  tm.width = "308";
+  tm.height = "26";
+  tm.scale = "noScale";
+  tm.salign="lt";
+  tm.wmode = "opaque";  // Window Mode
+  tm.DenyIEdl = "TRUE";
+  tm.FlashVer = 7;
+  tm.cabVersion = "7,0,0,0";
+  tm.altTxt = "";
+  tm.ID = "tm1";
+  tm.render(true);
+//-->
+</script>
+</div>
+
+<!-- begin news tab -->
+<div id="tab_2214205_1" style="display: block;" class="headlines-mod">
+	<ul><li><a href="http://sports.espn.go.com/nba/news/story?id=3480691" name="&lpos=hn1&lid=Brand snags $79.8 m">Brand snags $79.8 million deal with Sixers</a> | <a href="http://sports.espn.go.com/broadband/video/videopage?videoId=3480923&categoryId=2459788" name="&lpos=hn1sub&lid=Watch">Watch</a></li><li><a href="http://sports.espn.go.com/mlb/recap?gameId=280709116" name="&lpos=hn2&lid=Big Z fires gem, ge">Big Z fires gem, gets 10th win</a> | <a href="http://sports.espn.go.com/mlb/news/story?id=3481016" name="&lpos=hn2sub&lid=Harden joins Cubs">Harden joins Cubs</a></li><li><a href="http://sports.espn.go.com/ncf/news/story?id=3479493" name="&lpos=hn3&lid=UM, Rodriguez to sp">UM, Rodriguez to split $4M buyout to WVU</a> | <a href="http://myespn.go.com/blogs/bigten/0-1-4/RichRod-saga-over-.html" name="&lpos=hn3sub&lid=Blog">Blog</a></li><li><a href="http://sports.espn.go.com/mlb/recap?gameId=280709110" name="&lpos=hn4&lid=Abreu lifts Yanks b">Abreu lifts Yanks by Rays in 10</a> | <a href="http://sports.espn.go.com/mlb/recap?gameId=280709102" name="&lpos=hn4sub&lid=BoSox rout Twins">BoSox rout Twins</a></li><li><a href="" onclick="window.open('http://espn.go.com/afp/tdf2008/isports/flash/index.html','Tour_de_France_Tracker', 'noresizable,noscrollbars,width=780,height=680');" name="&lpos=hn5&lid=Going up? First cli">Going up? First climb of Tour awaits riders</a> <img vspace="6" align="absmiddle" src="espn.go.com_files/ls000000.gif" width="27" height="7" border="0" alt="Live"></a></li><li><a href="http://sports.espn.go.com/rpm/nascar/cup/news/story?id=3480221" name="&lpos=hn6&lid=Gibbs sets sights t">Gibbs sets sights to future after Stewart departure</a></li><li><a href="http://sports.espn.go.com/mlb/recap?gameId=280709106" name="&lpos=hn7&lid=Cabrera's blast bur">Cabrera's blast buries reeling Tribe in 9th</a> | <a href="http://sports.espn.go.com/broadband/video/videopage?videoId=3481070&categoryId=23785" name="&lpos=hn7sub&lid=Watch">Watch</a></li><li><a href="http://sports.espn.go.com/nba/news/story?id=3480697" name="&lpos=hn8&lid=Agent: Bucks set to">Agent: Bucks set to ink Bogut to $72.5M extension</a></li><li><a href="http://sports.espn.go.com/mlb/news/story?id=3480954" name="&lpos=hn9&lid=Mulder's comeback s">Mulder's comeback start halted</a> | <a href="http://sports.espn.go.com/mlb/recap?gameId=280709122" name="&lpos=hn9sub&lid=Cards fall to Phils">Cards fall to Phils</a></li><li><a href="http://sports.espn.go.com/wnba/recap?gameId=280709006" name="&lpos=hn10&lid=Parker's career-hig">Parker's career-high 40 points give Sparks OT win</a></li></ul><p><a name="&lpos=hn&lid=more" href="http://sports.espn.go.com/espn/news/more?sport=gen&page=news">More</a> | <a name="&lpos=hn&lid=wire" href="http://sports.espn.go.com/espn/wire">Wire</a> | <a name="&lpos=hn&lid=local" href="http://insider.espn.go.com/insider/local/index">Local</a> | <a name="&lpos=hn&lid=dline" href="http://sports.espn.go.com/mlb/dailylines">Daily Line</a> |  <a name="&lpos=hn&lid=rss" href="http://sports.espn.go.com/espn/news/story?page=rssinfo"><img src="espn.go.com_files/icon_rss.gif" width="9" height="9" alt="RSS" border="0" /></a> <a name="&lpos=hn&lid=rss" href="http://sports.espn.go.com/espn/news/story?page=rssinfo">RSS</a> | 
+<!-- comp -->
+
+
+
+<img src="espn.go.com_files/add_widg.jpg" alt="[+]" /> <a class="widget-popup" href="http://widgetcenter.espn.go.com/widgets/tags/ESPN#470d51c6d44e21ee" title="Click to add the Headlines Widget" >Widgets</a>
+</p>
+
+</div>
+<!-- end news tab -->
+
+<!-- begin rc tab -->
+<div id="tab_2214205_2" style="display: none;" class="rumorCentral-mod">
+	<ul>
+<li>
+
+
+<img class="rc-photo" src="espn.go.com_files/6039.jpg" width="65" height="90" alt="" border="0" />
+<h1><a name="&lpos=rc" href="http://insider.espn.go.com/mlb/features/rumors">Twins Discussing Next Move</a></h1><br />The Twins have reportedly had discussions internally about possibly aquiring Adrian Beltre from the Mariners. <a name="&lpos=rc" href="http://insider.espn.go.com/mlb/features/rumors">Read More</a><br />
+<strong>&#8226; More Rumors:</strong> <a name="&lpos=rc" href="http://insider.espn.go.com/mlb/features/rumors">MLB</a> | <a name="&lpos=rc" href="http://insider.espn.go.com/nfl/features/rumors">NFL</a> | <a name="&lpos=rc" href="http://insider.espn.go.com/nba/features/rumors">NBA</a> | <a name="&lpos=rc" href="http://insider.espn.go.com/nhl/features/rumors">NHL</a>
+
+<div class="clear"></div>
+</li>	
+		
+<li class="rc-insider">
+
+<h2>More From Insider <img src="espn.go.com_files/tinyin00.gif" width="8" height="9" alt="Insider" border="0" /></h2>
+
+
+&#8226; <a name="&lpos=rc" href="http://insider.espn.go.com/espn/blog/index?name=olney_buster&CMP=ILC-INHEAD">Olney: Anxiety intensifying in NL Central race</a><br />
+
+&#8226; <a name="&lpos=rc" href="http://insider.espn.go.com/espn/blog/index?entryID=3479108&name=Neyer_Rob&CMP=ILC-INHEAD">Neyer: Beane made the deal after all</a><br />
+
+
+<p><a name="&lpos=rc" href="http://insider.espn.go.com/">Index Insider</a> | <a name="&lpos=rc" href="http://insider.espn.go.com/insider/benefits">What Is Insider?</a></p>
+
+</li>			
+</ul>
+</div>
+<!-- end rc tab -->
+
+<!-- begin fantasy tab -->
+<div id="tab_2214205_3" style="display: none;" class="headlines-mod">
+	<ul><li><a href="http://sports.espn.go.com/sports/baseball/flb/outOfTheBox" name="&lpos=fn1&lid=Out of the Box: Sab">Out of the Box: Sabathia wins in his Brewers debut</a></li><li><a href="http://sports.espn.go.com/fantasy/baseball/flb/story?page=dn080710" name="&lpos=fn2&lid=Thursday Daily Note">Thursday Daily Notes: Haren, Halladay to pitch</a></li><li><a href="http://sports.espn.go.com/fantasy/baseball/flb/story?page=re080709" name="&lpos=fn3&lid=Karabell: Forecasti">Karabell: Forecasting second-half save leaders</a></li><li class="audio-link"><a href="" onClick="window.open('http://sports.espn.go.com/espnradio/player?id=3479751','Popup','width=780,height=515,scrollbars=no,noresize'); return false;" name="&lpos=fn4&lid=Fantasy Focus: Fall">Fantasy Focus: Fallout from Rich Harden trade</a></li><li><a href="http://sports.espn.go.com/fantasy/baseball/flb/story?id=3479077" name="&lpos=fn5&lid=Cockcroft: Fantasy">Cockcroft: Fantasy impact of Harden to the Cubs</a></li><li class="insider-link"><a href="http://insider.espn.go.com/fantasy/baseball/flb/story?page=minors080709" name="&lpos=fn6&lid=Grey: Lessons learn">Grey: Lessons learned from the scouting world</a></li><li><a href="http://sports.espn.go.com/fantasy/nascar/story?id=3480127" name="&lpos=fn7&lid=Fantasy NASCAR rank">Fantasy NASCAR rankings: LifeLock 400</a></li><li><a href="http://sports.espn.go.com/fantasy/nascar/story?id=3480025" name="&lpos=fn8&lid=C. Harris: Fantasy">C. Harris: Fantasy spin on Stewart leaving Gibbs</a></li><li><a href="http://sports.espn.go.com/fantasy/hockey/fhl/story?page=nhlnotebook080709" name="&lpos=fn9&lid=Allen: Sharks will">Allen: Sharks will be fearsome on power play</a></li><li><a href="http://sports.espn.go.com/fantasy/baseball/flb/story?page=tmr080708" name="&lpos=fn10&lid=The Talented Mr. Ro">The Talented Mr. Roto: Learning from my mistakes</a></li></ul><p><b>Free Fantasy Football: </b><a name="&lpos=fn&lid=cb" href="http://games.espn.go.com/ffl/welcome">Sign up</b></a> | <a href="http://games.espn.go.com/ffl/mockdraftlobby">Mock draft</a> | <a href="http://games.espn.go.com/frontpage/ffldraftkit">Draft kit</a></p>
+
+</div>
+<!-- end fantasy tab -->
+
+<!-- begin tv tab -->
+<div id="tab_2214205_4" style="display: none;" class="on-tv">
+	<!-- start box --> 
+ 
+
+<div class="tv-item">
+
+ 
+
+<img src="espn.go.com_files/ontv_espn.jpg" width="38" height="10" border="0" alt="ESPN" style="float:left;" />
+
+ 
+
+<h3><a name="&lpos=ontv" href="http://sports.espn.go.com/espntv/espnNetwork?networkID=1">Full ESPN Listings</a></h3>
+
+ 
+
+<ul>
+
+ 
+
+<b>Wednesday</b>               
+
+ 
+
+<li>4 PM ET: NFL Live</li>   
+
+ 
+
+<li>7 PM ET: MLB - Cardinals vs. Phillies</li>
+
+ 
+
+<li>10 PM ET: Baseball Tonight</li> 
+
+      
+
+</ul>
+
+ 
+
+</div>
+
+ 
+
+<!-- end box -->
+
+ 
+
+<!-- start box -->
+
+ 
+
+<div class="tv-item">
+
+ 
+
+<img src="espn.go.com_files/ontv_espn2.jpg" width="49" height="10" border="0" alt="ESPN2" style="float:left;" />
+
+ 
+
+<h3><a name="&lpos=ontv" href="http://sports.espn.go.com/espntv/espnNetwork?networkID=2">Full ESPN2 Listings</a></h3>
+
+ 
+
+<ul>
+
+ 
+
+<b>Wednesday</b>  
+
+
+
+ 
+
+<li>10 AM ET: First Take</li>     
+
+ 
+
+<li>6 PM ET: NASCAR Now</li>   
+
+ 
+
+<li>9 PM ET: Wednesday Night Fights<br />Chris Henry vs. Rubin Williams</li>
+
+ 
+
+  
+
+</ul>
+
+ 
+
+</div>
+
+ 
+
+<!-- end box -->
+
+ 
+
+<p><a name="&lpos=ontv" href="http://sports.espn.go.com/espntv/espnGuide">Full TV Listings</a></p>
+
+ 
+
+<div class="clear"></div>    
+
+	<div class="clear"></div>
+</div>
+<!-- end tv tab -->
+
+
+<!-- end headlines tab set -->
+								<!-- begin cc ad -->
+								<div id="headline-ad"><a href="http://log.go.com/log?srvc=sz&amp;guid=665D7F51-0380-40F5-B232-DFC750C084E6&amp;drop=0&amp;addata=1433:53156:419070:183&amp;a=1&amp;goto=http://www.espys.tv?addata=2008_espti_xxx_xxx_xxx_xxx" target="_new"><img src="espn.go.com_files/espn-308.gif" width="308" height="50" border="0" alt="" /></a></div>
+								<!-- end cc ad-->
+								 <!-- begin simmons -->
+<div id="billSimmons-mod">
+<h1><em>BILL SIMMONS: <a name="&lpos=sim" href="http://sports.espn.go.com/espn/page2/simmons/index">The Sports Guy</a></em></h1>
+<p>
+
+Bill and Dave Dameshek discuss Elton Brand's decision to bolt the Clips and all the NBA fallout. <a name="&lpos=sim" href="" onClick="window.open('http://sports.espn.go.com/espnradio/player?context=podcast&id=3480716','Popup','width=780,height=515,scrollbars=no,noresize'); return false;">B.S. Report</a> <img src="espn.go.com_files/listen00.gif" align="absmiddle" id="listen" /><br>
+
+
+
+&#8226;&nbsp;<a name="&lpos=sim" href="http://sports.espn.go.com/espnmag/story?id=3467732">From the Mag: Hugh Grant Syndrome</a><br>
+
+&#8226;&nbsp;<a name="&lpos=sim" href="http://sports.espn.go.com/espn/page2/story?page=simmons/080626">Draft Diary XII</a> | <a name="&lpos=sim" href="http://sports.espn.go.com/espn/page2/simmons/index">Sports Guy's World</a><br>
+
+
+
+
+<br />
+</p>
+</div>
+<!-- end simmons -->
+
+
+ 
+
+
+
+<!-- begin p2 mag -->
+<ul id="page2mag_mod">
+ 
+<li class="page2">
+<div style="float: left;"><a name="&lpos=p2mag" href="http://sports.espn.go.com/espn/page2/index"><img src="espn.go.com_files/page2_mo.jpg" width="48" height="104" border="0" alt="Page 2"  /></a></div>
+<p></p>
+
+
+&#8226;&nbsp;<a name="&lpos=p2mag" href="http://sports.espn.go.com/espn/page2/story?page=gallagher/080708_excerpt"><strong>Contest: Play Andy Roddick!</strong></a><br>
+
+&#8226;&nbsp;<a name="&lpos=p2mag" href="http://sports.espn.go.com/espn/page2/story?page=lukas/080709">Uni Watch: Send in your OKC uni designs</a><br>
+
+&#8226;&nbsp;<a name="&lpos=p2mag" href="http://sports.espn.go.com/espn/page2/story?page=pearlman/080709&sportCat=mlb">Pearlman: The Fenway stroll</a><br>
+
+<br>
+</li>
+	
+<li class="mag" style="background: url(espn.go.com_files/mag_20080717.jpg) no-repeat 100% 0;">
+<div style="float: right;"><a name="&lpos=p2mag" href="http://insider.espn.go.com/proxy/proxy.dll/insider/magazine/index"><img 
+src="espn.go.com_files/mag_2008.jpg" width="75" height="104" border="0"  /></a></div>
+<p>
+<em>Issue 07/17</em>
+The Rays<br />
+Shine On<br />
+<a name="&lpos=p2mag" href="http://sports.espn.go.com/espnmag/index"><strong>More</strong></a>
+
+</p>	
+</li>
+
+<div class="clear"></div>
+</ul>
+<!-- end p2 mag -->
+
+<!-- begin tabSet -->
+
+		<script language="Javascript" type="text/javascript">
+		<!--
+		function changeTabSet2214204 (tabname) {
+			
+					document.getElementById('tab_2214204_1').style.display = 'none';
+					
+					document.getElementById('tab_2214204_2').style.display = 'none';
+					
+					document.getElementById('tab_2214204_3').style.display = 'none';
+					
+			document.getElementById(tabname).style.display = 'block';
+		}
+		//-->
+		</script>
+		
+		<div style="margin: 10px 0px 0px 6px;">
+		<script language="Javascript" type="text/javascript">
+		<!--
+		  var tm = new flashObj();
+		  tm.flashFile = "espn.go.com_files/tabModule2.13.swf";
+		  tm.flashVars = "&tabId=2214204&onTab=3&&tab1=Reilly&tab1img=false&onTab=1&&tab2=Wojciechowski&tab2img=false&tab3=Forde&tab3img=false";
+		  tm.width = "308";
+		  tm.height = "26";
+		  tm.scale = "noScale";
+		  tm.salign="lt";
+		  tm.wmode = "opaque";  // Window Mode
+		  tm.DenyIEdl = "TRUE";
+		  tm.FlashVer = 7;
+		  tm.cabVersion = "7,0,0,0";
+		  tm.altTxt = "";
+		  tm.ID = "tmcol";
+		  tm.render(true);
+		//-->
+		</script>
+		</div>
+		<!-- begin div -->
+<div id="tab_2214204_1" style="display: block;"><div class="voices-mod" style="background: url(espn.go.com_files/reilly_rick_fp2.jpg) no-repeat 0% 100%;"><p><h1>National Voice: Rick Reilly</h1>
+Yankee Stadium is in its final days. Even Derek Jeter is ready to pillage the sports temple. What would you take?<br><a name="&lpos=t_reilly" href="http://sports.espn.go.com/espnmag/story?id=3478188"><b>Rick Reilly</b></a> | <a name="&lpos=t_reilly" href="http://sports.espn.go.com/keyword/search?searchString=rick_reilly&rT=sports"><b>Archive</b></a>
+
+
+</p></div></div>
+<!-- end div -->
+<!-- begin div -->
+<div id="tab_2214204_2" style="display: none;"><div class="voices-mod" style="background: url(espn.go.com_files/wojciechowski_gene_fp.jpg) no-repeat 0% 100%;"><p><h1>National Voice: Gene Wojciechowski</h1>
+The Green Bay Packers just won the NFL lotto. Brett Favre might return! So why the silence?<br><a name="&lpos=t_wojciechowski" href="http://sports.espn.go.com/espn/columns/story?id=3475850&sportCat=nfl"><b>Speak up, Pack</b></a> | <a name="&lpos=t_wojciechowski" href="http://sports.espn.go.com/keyword/search?searchString=gene_wojciechowski&rT=sports"><b>Archive</b></a></p></div></div>
+<!-- end div -->
+<!-- begin div -->
+<div id="tab_2214204_3" style="display: none;"><div class="voices-mod" style="background: url(espn.go.com_files/forde_pat_fp.jpg) no-repeat 0% 100%;"><p><h1>National Voice: Pat Forde</h1>
+
+
+Where does Mario Chalmers' game-tying 3 rank among the biggest shots in NCAA tourney history?<br>
+
+<a name="&lpos=t_forde" href="http://sports.espn.go.com/espn/columns/story?columnist=forde_pat&id=3477775&sportCat=ncb"><b>Big shots make history</b></a> | <a name="&lpos=t_forde" href="http://sports.espn.go.com/keyword/search?searchString=Pat_Forde"><b>Archive</b></a> 
+
+</p></div></div>
+<!-- end div -->
+<!-- end tabSet -->
+
+		<script language="Javascript" type="text/javascript">
+		<!--
+		changeTabSet2214204('tab_2214204_1');
+		//-->
+		</script>
+		
+
+<!-- begin fan favorites tabset -->
+<script language="javascript">
+function toggleFan(tabNum) {
+	var tabId = "channel"+tabNum;
+	var liId = "channeltab"+tabNum;
+	document.getElementById('channel0').style.display = 'none';
+	document.getElementById('channeltab0').className = "inactive";
+	document.getElementById('channel1').style.display = 'none';
+	document.getElementById('channeltab1').className = "inactive";
+	document.getElementById('channel2').style.display = 'none';
+	document.getElementById('channeltab2').className = "inactive";
+	document.getElementById(tabId).style.display = 'block';
+	document.getElementById(liId).className = "active";
+}
+</script>
+
+<div id="fanFavorites-mod">
+<h1><em>Fan Favorites</em></h1>
+
+<div class="tabbed-events">
+	<ul class="tabset">
+		<li class="active" id="channeltab0"><a href="javascript:void(0);" onclick="toggleFan('0');" name="&lpos=fcomtab"><span>Featured<br />Comment</span></a></li>
+		<li class="inactive" id="channeltab1"><a href="javascript:void(0);" onclick="toggleFan('1');" name="&lpos=mcomtab"><span>Most<br />Commented</span></a></li>
+		<li class="inactive" id="channeltab2"><a href="javascript:void(0);" onclick="toggleFan('2');" name="&lpos=msenttab"><span>Most<br />Sent</span></a></li>					
+	</ul>	
+</div>				
+<div style="clear: both;"></div>
+				
+<div id="channelcontent">
+	<div class="tab-content" id="channel0" style="display:block">
+		<h3 class="f-quote">
+This is the one indispensable guy on the Sox roster. Overnight they're in trouble. 
+
+<img class="quoteEnd" src="espn.go.com_files/dropQuou.gif" alt="" width="25" height="20" border="0" />
+</h3>
+
+<p class="f-info" style="padding: 0 0 0 12px; margin-top: 24px; text-align: left;">
+
+<img src="espn.go.com_files/silo1_gu.jpg"/><br />
+
+<em class="signature"><a name="&lpos=fcom" href="http://sportsnation.espn.go.com/fans/jrdement">jrdement</a></em>
+</p>
+
+<div style="clear: both;"></div>
+
+<p><strong><a name="&lpos=fcom" href="http://myespn.go.com/s/conversations/show/story/3480945">ChiSox's top reliever Jenks put on 15-day DL </a></strong></p>
+	</div>
+						
+	<div class="tab-content" id="channel1" style="display:none">		
+		
+
+<script type="text/javascript">
+var mc_omit_title = true; //IF FALSE, SHOWS TITLE OF WIDGET
+var mc_count = 10; //HOW MANY ITEMS WILL BE RETUNRED
+var mc_attach_point = null; //IF YOU WANT TO USE THIS IN THE HEAD OF THE DOC, CHANGE THIS TO THE ID OF A div TAG
+var mc_cat = 'all'; //CATEGORY TO PULL COMMENTS FROM
+var mc_truncate_after = 39; //LIMITS LENGTH OF HEADLINE
+var mc_sort = 'comments'; //DEFAULT IS 'HOTNESS'
+var mc_feed_url = 'espn.go.com_files/prosperofeed.html';
+var mc_append_to_link = 'name=&lpos=mcom';
+</script>
+<script src="espn.go.com_files/loaddeps.js" type="text/javascript"></script>
+<script src="espn.go.com_files/main-100.js" type="text/javascript"></script>
+<p><a href="http://myespn.go.com/conversation/">Watch Conversations in Real-Time</a></p>
+<br clear="all" />
+	</div>
+
+	<div class="tab-content" id="channel2" style="display:none">						
+		<ul><li><a href="http://sports.espn.go.com/espnmag/story?id=3478188" name="&lpos=msent&lid=Life of Reilly: Gra">Life of Reilly: Grab a piece of Yankee Stadiu...</a></li><li><a href="http://sports.espn.go.com/rpm/nascar/cup/news/story?id=3479199" name="&lpos=msent&lid=Stewart granted rel">Stewart granted release from Gibbs, will...</a></li><li><a href="http://sports.espn.go.com/ncf/news/story?id=3479493" name="&lpos=msent&lid=Michigan, Rodriguez">Michigan, Rodriguez to pay $4M buyout to WVU</a></li><li><a href="http://sports.espn.go.com/espnmag/story?id=3471118" name="&lpos=msent&lid=How one high-flying">How one high-flying moment sent James Felton...</a></li><li><a href="http://sports.espn.go.com/espn/page2/story?page=pearlman/080709&sportCat=mlb" name="&lpos=msent&lid=Pearlman: The Fenwa">Pearlman: The Fenway Walk</a></li><li><a href="http://sports.espn.go.com/mlb/news/story?id=3479584" name="&lpos=msent&lid=Mattingly reclaimin">Mattingly reclaiming role as Dodgers'...</a></li><li><a href="http://sports.espn.go.com/nba/columns/story?columnist=hollinger_john&page=Brand-Sixers-080709" name="&lpos=msent&lid=Hollinger: Brand ne">Hollinger: Brand new Sixers are instant East...</a></li><li><a href="http://sports.espn.go.com/nba/columns/story?columnist=adande_ja&page=Brand-Clippers-080709" name="&lpos=msent&lid=Adande: In Clippers">Adande: In Clippers Country, Brand's departur...</a></li><li><a href="http://sports.espn.go.com/ncb/news/story?id=3479195" name="&lpos=msent&lid=Lawyer: Hoop prospe">Lawyer: Hoop prospect Jennings opting for...</a></li><li><a href="http://sports.espn.go.com/rpm/nascar/cup/news/story?id=3480221" name="&lpos=msent&lid=As Stewart leaves, ">As Stewart leaves, Gibbs looks to future,...</a></li></ul><p><a href="http://sports.espn.go.com/sports/mostsent">More Most Sent</a></p><br clear="all" />
+	</div>			
+
+</div>
+</div>
+<!-- end fan favorites tabset -->
+			<div style="margin: 10px 0px 0px 6px;">
+			<script language="javascript">
+			<!--
+				var SOB = new flashObj();
+				SOB.flashFile = "espn.go.com_files/operatest.swf";
+				SOB.flashVars = "&xmlFeed=http://assets.espn.go.com/frontpage/integratorXML&onTab=3&tab1=Autos&tab2=Travel&tab3=Video Games"
+				SOB.width = "308";
+				SOB.height = "154";
+				SOB.scale = "noScale";
+				SOB.salign="lt";
+				SOB.allowScriptAccess="always";
+				SOB.allowNetworking="all";
+				SOB.wmode = "opaque";  // Window Mode
+				SOB.DenyIEdl = "TRUE";
+				SOB.FlashVer = 7;
+				SOB.cabVersion = "7,0,0,0";
+				SOB.altTxt = "";
+				SOB.ID = "flashmodule";
+				SOB.render(true);
+			//-->
+			</script>
+			</div>
+			<!-- begin ss -->
+<div id="contests-mod"><h1><a href="http://x.go.com/cgi/x.pl?goto=http://sports.espn.go.com/espn/contests/index&name=f563&srvc=pro&SOURCE=f563">Contests and Special Sections</a></h1><p><a name="&lpos=ss1&lid=Road To TitleTown p" href="http://x.go.com/cgi/x.pl?goto=http://promo.espn.go.com/espn/contests/wendys&name=g388&srvc=pro&SOURCE=g388">Road To TitleTown presented by Wendy's </a><br />"SportsCenter" is hitting the road and letting the fans decide which city deserves to be the official TitleTown, USA! Enter to win a Grand Prize VIP sports trip to a TitleTown Finalist city!</p>
+<p><a name="&lpos=ss2&lid=Earn Your Stripes S" href="http://x.go.com/cgi/x.pl?goto=https://r.espn.go.com/espn/specialsection/kelloggs/&name=g264&srvc=pro&SOURCE=g264">Earn Your Stripes Sports Page presented by Kellogg's</a><br />Enter for your chance to go to the ESPYs and earn your stripes.  Check out cool articles on the  latest sports news written by kids for kids.  Post messages, answer sports polls and much more.  Log on now and show us how you have earned your stripes!  </p>
+<p><a name="&lpos=ss3&lid=Up to Speed Challen" href="http://x.go.com/cgi/x.pl?goto=http://promo.espn.go.com/espn/contests/nationwideinsurance/index&name=g182&srvc=pro&SOURCE=g182">Up to Speed Challenge presented by Nationwide Insurance®</a><br />Win up to $100,000 and other cool weekly prizes in a season-long pick 'em game presented by Nationwide Insurance.</p>
+</div>
+<!-- end ss-->
+<br /></div>
+<!-- end column 2 -->
+<!-- begin last row -->
+<div id="footer">
+<script type="text/javascript">
+//<![CDATA[
+var link = window.location;
+var bugText = '<a href="#" onclick="window.open(\'http://dynamic.espn.go.com/espn/bugs?url=' + escape(link) + '\', \'Bugs\',\'noresizable,noscrollbars,height=400,width=400\');">Report a Bug</a> | ';
+//]]>
+</script>
+
+<span style="font-weight:bold;">ESPN.com:</span> <a href="http://sports.espn.go.com/espn/news/story?page=help/index">Help</a> | <a href="http://www.espncorp.com/" rel="nofollow">PR Media Kit</a> | <a href="http://www.espncms.com/" rel="nofollow">Sales Media Kit</a> | <script type="text/javascript">document.write(bugText);</script><a href="http://sports.espn.go.com/espn/news/story?page=contact/index">Contact Us</a> | <a href="http://sports.espn.go.com/espn/latestnews">News Archive</a> | <a href="http://sports.espn.go.com/espn/sitemap">Site Map</a> | <a href="http://www.espnshop.com/SID--9069/cm_mmc--ESPN-_-footerlink-_-ESPNfooter">ESPN Shop</a> | <a href="http://www.joinourteam.espn.com/">Jobs at ESPN</a> | <a href="http://corporate.disney.go.com/corporate/sourcing.html" rel="nofollow"><span style="font-weight:bold;">Supplier Information</span></a><br/>&copy;2008 ESPN Internet Ventures. <a href="http://disney.go.com/corporate/legal/terms.html" rel="nofollow">Terms of Use</a> <span style="font-weight: bold; color: red;">(Updated 5/6/08)</span> and <a href="http://disney.go.com/corporate/privacy/pp_espn.html" rel="nofollow">Privacy Policy and Safety Information/Your California Privacy Rights</a> are applicable to you.  All rights reserved.<!-- begin inv --><!-- end inv -->
+<!-- begin popunder --><!-- pb = yes --><!-- end popunder -->
+</div>
+<!-- end last row -->
+<!--/-->
+
+	<!--WEBSIDESTORY CODE HBX1.0 (Universal)-->
+	<!--COPYRIGHT 1997-2005 WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http://websidestory.com/privacy-->
+	<script type="text/javascript">
+	//<![CDATA[
+	var _hbEC=0,_hbE=new Array;function _hbEvent(a,b){b=_hbE[_hbEC++]=new Object();b._N=a;b._C=0;return b;}
+	var hbx=_hbEvent("pv");hbx.vpc="HBX0100u";hbx.gn="ehg-dig.hitbox.com";
+	var isLoggedIn=false;
+
+	var accessLevel = "anonymous";
+	var hc2 = "anonymous|/gen/ESPN+Front+Page";
+	var pagePath = "|/gen/ESPN+Front+Page";
+	var popSeg = "*";
+	var rollupPop ="";
+	var hc4 ="";
+	var hc8 ="";
+	var hc9 ="";
+
+	if(typeof parent.location.href != 'undefined'){
+		if(parent.location.href.indexOf('news.myspace') != -1){
+			hc9 = 'news.myspace' + pagePath;
+		}
+	}
+
+	function params(wut,qp,dflt){
+		dflt=(dflt==null)?'':dflt; try{r=unescape(wut.match(new RegExp(qp+"=+([^&;]*)"))[1]);}catch(qp){r=dflt;} return r;
+	}
+
+
+	if( typeof sLoginState != 'undefined' && typeof pLoginState != 'undefined')
+	{
+		if (sLoginState == true || pLoginState == true)
+		{
+			isLoggedIn = true;
+		}
+	}
+
+	if(isLoggedIn == false && typeof swid != 'undefined')
+	{
+		if (swid != null && swid.indexOf('{')==0 )
+		{
+			isLoggedIn = true;
+		}
+	}
+
+
+	if((accessLevel=='anonymous' && isLoggedIn==true) || accessLevel == 'registered')
+	{
+
+		hc2 =  'registered'+pagePath;
+		if(rollupPop == '')
+		{
+			popSeg += ';11';
+		}
+		else
+		{
+			popSeg += ',11';
+		}
+	}else if(rollupPop == ''){
+		popSeg += ';*';
+	}
+
+
+	if(popSeg == ''){
+
+		popSeg = '*';
+	}else{
+		popSeg += ';*';
+	}
+
+
+
+
+
+
+	//BEGIN EDITABLE SECTION
+	//CONFIGURATION VARIABLES
+	hbx.acct="DM5104129LMA95EN3;DM5010177GVA95EN3;DM5103083LCA38EN3";//ACCOUNT NUMBER(S)
+	hbx.pn="ESPN+Front+Page";//PAGE NAME(S)
+	hbx.mlc="/gen;/ESPNsite/gen;*";//MULTI-LEVEL CONTENT CATEGORY
+	hbx.pndef="title";//DEFAULT PAGE NAME
+	hbx.ctdef="full";//DEFAULT CONTENT CATEGORY
+
+	//OPTIONAL PAGE VARIABLES
+	//ACTION SETTINGS
+	hbx.fv="";//FORM VALIDATION MINIMUM ELEMENTS OR SUBMIT FUNCTION NAME
+	hbx.lt="auto";//LINK TRACKING
+	hbx.dlf="n";//DOWNLOAD FILTER
+	hbx.dft="n";//DOWNLOAD FILE NAMING
+	hbx.elf="n";//EXIT LINK FILTER
+
+	//SEGMENTS AND FUNNELS
+	hbx.seg=popSeg;//VISITOR SEGMENTATION
+	hbx.fnl="";//FUNNELS
+
+	//CUSTOM VARIABLES
+	hbx.ci=params(document.cookie,"SWID","null");//CUSTOMER ID
+	hbx.hc1="";//COLUMNISTS
+	hbx.hc2=hc2;//PREMIUM ACCESS LEVEL
+	hbx.hc3="edit|/gen/ESPN+Front+Page";//EDITORIAL VS. AUTOMATED
+	hbx.hc4="";//Content Id
+
+	hbx.hrf="";//CUSTOM REFERRER
+	hbx.pec="";//ERROR CODES
+
+	var cv = new _hbEvent("cv");
+	cv.c5 = "";//CUSTOM 5
+	cv.c6 = "";//CUSTOM 6
+	cv.c7 = "";//CUSTOM 7
+	cv.c8 = hc8;//CUSTOM 8
+	cv.c9 = hc9;//CUSTOM 8
+
+
+
+	//INSERT CUSTOM EVENTS
+	hbx.lvm="300"; //MAX LINK TRACKING CHARS
+
+	//INSERT CUSTOM EVENTS
+	var ev1 = new _hbEvent("search"); // required definition to create custom event
+ 	ev1.keywords=""; // required value
+ 	ev1.results=""; // optional value, any integer number of result
+ 	ev1.attr1=""; // Category
+ 	ev1.attr2=""; // Sub Category if one exists
+ 	ev1.attr3="prelink"; // Search Source
+ 	ev1.attr4=""; // optional, can be any string search attribute
+	//END EDITABLE SECTION
+
+	//REQUIRED SECTION. CHANGE "YOURSERVER" TO VALID LOCATION ON YOUR WEB SERVER (HTTPS IF FROM SECURE SERVER)
+	//]]>
+	</script><script type="text/javascript" defer="defer" src="espn.go.com_files/hbxShell.js"></script>
+	<!--END WEBSIDESTORY CODE-->
+
+
+
+<!-- SiteCatalyst code version: H.15.1. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript">
+var s_account="wdgespcom";
+var omniPageName = "espn:home:frontpage";
+var anMultiStepConv = "no";
+</script>
+
+<script language="JavaScript" src="espn.go.com_files/sOmni000.js"></script>
+<!-- Traffic Variables -->
+<script language="JavaScript"><!--
+s_omni.pageName="home:frontpage";
+s_omni.server = window.location.host // Server from the Host
+s_omni.channel = "home";
+s_omni.prop1 = "espn";
+s_omni.prop4 = "index";
+s_omni.prop5 = "home";
+s_omni.prop17 = "en";
+s_omni.prop25 = "none";
+if(typeof(omniRegStatus) != "undefined" && omniRegStatus != "") s_omni.prop29=omniRegStatus;
+s_omni.hier1 = "home";
+s_omni.eVar9 = "en";
+s_omni.eVar13 = "home:frontpage";
+s_omni.eVar19 = "none";
+hbxparams = "{pageName=ESPN+Front+Page, category=/gen, premium=, crossgrid=, contentSection=sports, hasAccess=, columnist=, automated=N, username=}";
+anDebugCase = "v23May08.0.root-gen:page-frontpage:";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+
+//**** Opera Edit: Function that collects user data is coded complicatedly, and has therefore been commented out ****//
+
+//var s_code=s_omni.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.15.1. -->
+
+<script language="JavaScript" src="espn.go.com_files/analytic.js"></script>
+<!--begin revenueScience-->
+
+<!-- Blank --><script language="javascript" type="text/javascript" src="espn.go.com_files/log.js"></script>
+
+<!--end revenueScience-->
+</div></div></body></html>
+
+<!-- This document saved from http://espn.go.com/ -->

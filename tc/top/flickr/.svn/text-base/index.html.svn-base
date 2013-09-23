@@ -1,0 +1,1462 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+	<title>Welcome to Flickr!</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="photography, digital photography, cameraphones, camera, hobby photography, photo, digital camera, compactflash, smartmedia, cameras, canon, nikon, olympus, fujifilm, video">	
+	<meta name="description" content="Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="viewport" content="width=820">
+	<link href="www.flickr.com_files/c_flickr.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/ico" href="www.flickr.com_files/favicon.ico">
+<link href="www.flickr.com_files/c_launch.css" rel="stylesheet" type="text/css">
+<link href="www.flickr.com_files/c_promo.css" rel="stylesheet" type="text/css">
+
+<!--[if LT IE 7]>
+<style type="text/css">
+.trans_png {
+	behavior: url('/javascript/pngbehavior2.htc');
+	border:0;
+}
+</style>
+<![endif]-->
+
+		<link href="www.flickr.com_files/c_en-us.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+var global_magisterLudi = '32379c4654c6d56e682d6be01f316526',
+global_auth_hash = 'fd7af8c4b822b0026a57b7f4f85568da',
+global_auth_token = '',
+global_flickr_secret = '2402c612fe06204b',
+global_slideShowVersion = '6708',
+global_slideShowCodeVersion = '34351',
+global_slideShowVersionV2 = '33427',
+global_slideShowCodeVersionV2 = '49745',
+global_slideShowTextVersion = '58886',
+global_slideShowVersionV3 = '59913',
+global_nsid = '43439401@N00',
+global_ispro = 0,
+global_dbid = '3344145',
+global_name ='operatester666',
+global_expire ='0',
+global_icon_url ='www.flickr.com_files/buddyicon.jpg',
+global_tag_limit = '75',
+global_collection_depth_limit = 5,
+global_stewartVersion = '59809',
+global_contact_limit = '3000',
+global_eighteen = 1,
+global_group_limit = 10,
+global_photos_ids_limit = 20,
+one_photo_show_belongs = 0,
+prefs_isset_viewgeo = 1,
+photos_url = '/photos/43439401@N00/',
+disable_stewart = 0;
+disable_geo = 0;
+var global_rper = 0;
+
+var global_intl_lang = 'en-us';
+
+var _photo_root = 'http://farm.static.flickr.com/';
+var _site_root = 'http://www.flickr.com';
+var _images_root = 'www.flickr.com_files';
+var _intl_images_root = 'http://l.yimg.com/g/images/en-us';
+
+
+var do_bbml = 0;
+
+</script>
+
+
+<script type="text/javascript" src="www.flickr.com_files/global.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="www.flickr.com_files/fold_main.js"></script>
+<script type="text/javascript" src="www.flickr.com_files/personmenu.js"></script>
+<script type="text/javascript" src="www.flickr.com_files/video.js"></script>
+<script type="text/javascript" src="www.flickr.com_files/swfobject.js"></script>
+
+
+<script type="text/javascript" src="www.flickr.com_files/slideshow3.js"></script>
+
+	<link href="www.flickr.com_files/c_sharing.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="www.flickr.com_files/s_output_en-us.js"></script>
+
+<script type="text/javascript">
+
+YAHOO.util.Event.addListener(window, 'load', F._window_onload);
+YAHOO.util.Event.addListener(window, 'resize', F._window_onresize);
+YAHOO.util.Event.addListener(window, 'blur', F._window_onblur);
+YAHOO.util.Event.addListener(window, 'focus', F._window_onfocus);
+YAHOO.util.Event.addListener(window, 'unload', F._window_onunload);
+
+</script>
+
+
+
+<script type="text/javascript">
+var global_joinDate = F.convert_unix_time_stamp('1148045285');
+var global_time_stamp = '080915053319';
+
+
+fixMaxWidth_getWidth = (navigator.userAgent.match(/MSIE 6/i)?function(el) {
+  return el.currentStyle['max-width'];
+}:function(el){
+  return el.currentStyle['maxWidth'];
+});
+
+fixMaxWidth = function(el) {
+  try {
+    el.runtimeStyle.behavior = 'none';
+    var mw = fixMaxWidth_getWidth(el);
+    var nmw = parseInt(mw,10) || 10000;
+    var cW = parseInt(el.offsetWidth);
+    var cH = parseInt(el.offsetHeight);
+    var ratio = (cH/cW);
+    if (el.offsetWidth>nmw) {
+      el.style.width = (nmw+'px');
+      if (!isNaN(cH) && cH) {
+        el.style.height = (Math.ceil(nmw*ratio)+'px');
+      }
+    }
+  } catch(e) {
+    // oh well
+  }
+}
+
+
+
+// Dean Edwards/Matthias Miller/John Resig
+
+/* for Mozilla/Opera9 */
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", F._window_onload_dom, false);
+}
+
+/* for Internet Explorer */
+/*@cc_on @*/
+/*@if (@_win32)
+    document.write("<script id=__ie_onload defer src=javascript:void(0)><\/script>");
+    var script = document.getElementById("__ie_onload");
+    script.onreadystatechange = function() {
+        if (this.readyState == "complete") {
+            F._window_onload_dom(); // call the onload handler
+        }
+    };
+/*@end @*/
+
+/* for Safari */
+if (/WebKit/i.test(navigator.userAgent)) { // sniff
+    F.onload_dom_timer = setInterval(function() {
+        if (/loaded|complete/.test(document.readyState)) {
+            F._window_onload_dom(); // call the onload handler
+        }
+    }, 10);
+}
+
+
+
+</script>
+
+<!--[if IE]>
+<style type="text/css">
+
+img.notsowide {
+ behavior:expression(fixMaxWidth(this));
+}
+
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="www.flickr.com_files/ylc_1.js"></script>
+
+<script language="javascript">
+
+function ult_upgrade_click(code)
+{
+  YAHOO.ULT.beacon_click({'tm_lnk': code, 'tm_ppty':'photos', 'tm_dmech':'text', 'tm_net':'yahoo'});
+  return false;
+}
+
+</script>
+
+
+</head><body>
+
+<div id="beacon"><img src="www.flickr.com_files/f.gif" alt="" width="0" height="0"></div>
+
+<a name="top"></a>
+
+
+
+
+
+
+
+
+<div class="TopBar" id="TopBar">
+	<table class="Header" border="0" cellspacing="0">
+		<tbody><tr>
+			<td class="FlickrLogo">
+				<a href="http://www.flickr.com/"><img src="www.flickr.com_files/flickr_logo_gamma.gif" id="FlickrLogo" alt="Flickr logo. If you click it, you'll go home" width="98" height="26">
+				</a>
+					</td>
+			<td class="Status">
+			        
+                                
+		
+				Signed in as <a href="http://www.flickr.com/account" class="Pale">operatester666</a>
+				&nbsp;&nbsp;&nbsp;
+				
+								
+						&nbsp;&nbsp;&nbsp;<a href="http://www.flickr.com/messages.gne?ok=1" style="background-color: rgb(255, 255, 255);"><img src="www.flickr.com_files/icon_unread_bw.gif" alt="Check your FlickrMail" style="vertical-align: middle;" width="16" height="16"></a>
+					
+				&nbsp;&nbsp;
+				<a href="http://www.flickr.com/help/">Help</a> 
+				
+				&nbsp;&nbsp;&nbsp;
+				<a href="http://www.flickr.com/logout.gne?magic_cookie=fd7af8c4b822b0026a57b7f4f85568da">Sign Out</a>
+				
+				</td>
+		</tr>
+	</tbody></table>
+	<table class="NavBar" border="0" cellspacing="0">
+		<tbody><tr>
+			<td class="Primary">
+		
+<div id="candy_nav_button_bar" class="candy_button_bar">
+	<ul class="site_nav_menu_buttons">
+	        
+		<li class="no_menu_li"><span><a href="http://www.flickr.com/">Home</a></span></li>
+				
+		
+		<li class="menu_li" id="candy_nav_button_you"><span><a href="http://www.flickr.com/photos/43439401@N00/">You</a> <img src="www.flickr.com_files/site_nav_caret_split_default.png" class="nav_button_caret" alt="More options" width="18" height="15"></span>
+		<div class="candy_menu" id="candy_nav_menu_you">
+			<a href="http://www.flickr.com/photos/43439401@N00/">Your Photostream</a>
+						<a href="http://www.flickr.com/photos/43439401@N00/sets/">Your Sets</a>
+			<a href="http://www.flickr.com/photos/43439401@N00/archives/">Your Archives</a>
+			<a href="http://www.flickr.com/photos/43439401@N00/tags/">Your Tags</a>
+			<a title="Photos and videos on a map" href="http://www.flickr.com/photos/43439401@N00/map/">Your Map</a>			<a href="http://www.flickr.com/photos/43439401@N00/favorites/">Your Favorites</a>
+			
+							<a href="http://www.flickr.com/photos/43439401@N00/stats/">Your Stats</a>
+						
+						<a href="http://www.flickr.com/recent_activity.gne?days=2" class="menu_item_line_above">Recent Activity</a>
+			<a href="http://www.flickr.com/photos_comments.gne">Comments You've Made</a>
+						
+			<a href="http://www.flickr.com/photos/upload/" class="menu_item_line_above">Upload Photos and Videos</a>
+			
+			<a href="http://www.flickr.com/account/" class="menu_item_line_above">Your Account</a>
+			<a href="http://www.flickr.com/people/43439401@N00/">Your Profile</a>
+			
+			<a href="http://www.flickr.com/messages.gne?ok=1" class="menu_item_line_above">FlickrMail</a>
+		</div>
+		</li>
+		
+		<li class="menu_li" id="candy_nav_button_organize"><span><a href="http://www.flickr.com/photos/organize/">Organize</a> <img src="www.flickr.com_files/site_nav_caret_split_default.png" class="nav_button_caret" alt="More options" width="18" height="15"></span>
+		<div class="candy_menu" id="candy_nav_menu_organize">
+			<a href="http://www.flickr.com/photos/organize/">All your content</a>
+			<a href="http://www.flickr.com/photos/organize/?start_batch=recent_uploads">Most recent upload</a>
+			<a href="http://www.flickr.com/photos/organize/?start_tab=sets">Your Sets</a>
+			<a href="http://www.flickr.com/photos/organize/?start_tab=map">Your Map</a>
+		</div>
+		</li>
+		
+		<li class="menu_li" id="candy_nav_button_contacts"><span><a href="http://www.flickr.com/photos/43439401@N00/friends/">Contacts</a> <img src="www.flickr.com_files/site_nav_caret_split_default.png" class="nav_button_caret" alt="More options" width="18" height="15"></span>
+		<div class="candy_menu" id="candy_nav_menu_contacts">
+			<a title="Your contacts' photostream" href="http://www.flickr.com/photos/43439401@N00/friends/">Most Recent Uploads</a>
+			<a href="http://www.flickr.com/people/43439401@N00/contacts/">Contact List</a>
+			<a href="http://www.flickr.com/search/people/">People Search</a>
+			
+			<a href="http://www.flickr.com/invite/" class="menu_item_line_above">Invite your Friends</a>
+			<a title="See invites you've sent" href="http://www.flickr.com/invite/history/">Invite History</a>			<a title="See Guest passes you've sent" href="http://www.flickr.com/invite/history/guests/">Guest Pass History</a>
+			<a href="http://www.flickr.com/gift/" class="menu_item_line_above">Give the gift of Flickr</a>
+			
+		</div>
+		</li>
+		
+		<li class="menu_li" id="candy_nav_button_groups"><span><a href="http://www.flickr.com/groups/">Groups</a> <img src="www.flickr.com_files/site_nav_caret_split_default.png" class="nav_button_caret" alt="More options" width="18" height="15"></span>
+		<div class="candy_menu" id="candy_nav_menu_groups">
+			<a href="http://www.flickr.com/groups/">Your Groups</a>
+			<a href="http://www.flickr.com/recent.gne">Recent Changes</a>
+
+			<a class="menu_item_line_above" href="http://www.flickr.com/search/groups/">Search for a Group</a>
+
+			<a class="menu_item_line_above" href="http://www.flickr.com/groups_create.gne">Create a New Group</a>
+		</div>
+		</li>
+
+
+
+		<li class="menu_li" id="candy_nav_button_explore"><span><a href="http://www.flickr.com/explore/" alt="Explore Flickr">Explore</a> <img src="www.flickr.com_files/site_nav_caret_split_default.png" class="nav_button_caret" alt="More options" width="18" height="15"></span>
+		<div class="candy_menu" id="candy_nav_menu_explore">
+			<a href="http://www.flickr.com/explore/">Explore Page</a>
+			<a href="http://www.flickr.com/explore/video/">Video on Flickr</a>
+			<a href="http://www.flickr.com/explore/interesting/7days/">Last 7 Days Interesting</a>
+			<a href="http://www.flickr.com/photos/tags/">Popular Tags</a>
+			<a href="http://www.flickr.com/explore/interesting/2008/09/">Calendar</a>
+			<a href="http://www.flickr.com/photos/">Most Recent Uploads</a>
+			<!--<a href="/explore/interesting/2007/09/">A Year Ago Today</a>-->
+			
+			<a title="Photos and videos on a map" href="http://www.flickr.com/map/" class="menu_item_line_above">World Map</a>			<a href="http://www.flickr.com/places/">Places</a>			
+			<a href="http://www.flickr.com/commons/" class="menu_item_line_above">The Commons</a>
+			<a href="http://www.flickr.com/creativecommons/">Creative Commons</a>
+			
+			<a href="http://blog.flickr.com/" class="menu_item_line_above">FlickrBlog</a>
+			<a href="http://code.flickr.com/">code.flickr</a>
+			<a href="http://www.flickr.com/services/">Flickr Services</a>
+			
+			<a href="http://www.flickr.com/do/more/" class="menu_item_line_above">Do More, Order Prints</a>
+			<a href="http://www.flickr.com/cameras/">Camera Finder</a>		</div>
+		</li>
+
+	</ul>
+</div>
+<script type="text/javascript">F.decorate(_ge('candy_nav_button_bar'), F._nav_button_bar).bar_go_go_go();</script>	
+
+
+	
+			</td>
+
+
+
+
+
+<td style="padding-bottom: 2px;" id="search_header_form_td">
+	<form action="/search/" method="get" onsubmit="_do_header_search('all', '', '/search/', '', '');return false;" id="headersearchform">
+		<input style="color: rgb(153, 153, 153);" name="q" id="header_search_q" class="Box" value="" type="text">
+		<input name="w" value="all" type="hidden">
+		<input name="m" value="" type="hidden">
+		<input name="s" value="" type="hidden">
+		<input name="mt" value="" type="hidden">
+		
+	</form>
+</td>
+<td id="search_header_button_td" width="82">
+
+	<div id="candy_search_button_bar" class="candy_button_bar" style="display: block;">
+		<ul class="site_nav_menu_buttons">
+		<li class="menu_li" id="candy_nav_button_search"><span><a href="http://www.flickr.com/search/" onclick="_do_header_search('all', '', '/search/', '', '');return false;">Search</a> <img src="www.flickr.com_files/site_nav_caret_split_default.png" class="nav_button_caret" alt="More options" width="18" height="15"></span>
+		<div class="candy_menu" id="candy_nav_menu_search">
+			<a title="Everyone's Uploads" href="http://www.flickr.com/search/" onclick="_do_header_search('all', null, null, null, ''); return false;"><b>·</b> Everyone's Uploads</a>
+				<a title="From Your Contacts" href="http://www.flickr.com/search/?w=contacts" onclick="_do_header_search('contacts'); return false;">From Your Contacts</a>
+			<a title="From Your Friends" href="http://www.flickr.com/search/?w=ff" onclick="_do_header_search('ff'); return false;">From Your Friends</a>
+				<a title="Your Photostream" href="http://www.flickr.com/search/" onclick="_do_header_search('43439401@N00', ''); return false;">Your Photostream</a>
+			<a title="Groups" href="http://www.flickr.com/search/groups/" onclick="_do_header_search('', '', '/search/groups/'); return false;">Groups</a>
+			<a title="Flickr Members" href="http://www.flickr.com/search/people/" onclick="_do_header_search('', 'names', '/search/people/'); return false;">Flickr Members</a>
+			<a title="For a Location" href="http://www.flickr.com/map/" onclick="_do_header_search('location', '', '/map/'); return false;">For a Location</a>			
+		</div>
+		</li>
+		</ul>
+	</div>
+	
+	<script type="text/javascript">F.decorate(_ge('candy_nav_button_search'), F._nav_button).button_go_go_go();</script>
+	
+	<script type="text/javascript">
+	var b1 = _ge('headersearchbutton1');
+	b1.parentNode.removeChild(b1);
+	
+	_ge('search_header_form_td').style.paddingBottom = '2px';
+	
+	_ge('candy_search_button_bar').style.display = 'block';
+	
+	
+	var f = _ge('headersearchform');
+	
+	if (f.q.value == '') f.q.style.color = '#999';
+	
+	f.q.onfocus = function() {
+		if (this.value == '') this.value = '';
+		this.style.color = '#222';
+		if (window.map) map._disableKeys = true;
+	}
+	
+	f.q.onblur = function() {
+		if (this.value != '') return;
+		this.style.color = '#999';
+		this.value = '';
+		if (window.map) map._disableKeys = false;
+	}
+	
+	var _do_header_search = function(w, m, action, s, mt) {
+		var f = _ge('headersearchform');
+		if (f.q.value == '') f.q.value = '';
+		f.q.value = f.q.value.trim();
+		
+		
+		// do location search if the location search window is open, or if w == 'location'
+		if (w == 'location' || (_ge('loc_search_div') && _ge('loc_search_div').style.display != 'none')) {
+			if (!_ge('loc_search_div')) {
+				// create the location search crap!
+				var div 	= document.createElement('div');
+				div.id = 'loc_search_div';
+				document.body.appendChild(div);
+				
+				var page_type = 'site';
+				F.decorate(div, F._loc_search_div).div_go_go_go(page_type);
+			}
+			try {_ge('loc_search_div').div_do_loc_search()} catch(err) {writeDebug(err)};return false;
+			return;
+		}
+		
+		
+		
+		
+		f.w.value = w;
+		f.m.value = (m) ? m : '';
+		f.s.value = (s) ? s : '';
+		f.mt.value = (mt) ? mt : '';
+		f.action = (action) ? action : '/search/';
+		
+		if (f.m.value == 'tags' && f.q.value && f.q.value.indexOf(' ') == -1) {
+			var alias = '';
+			alias = (alias) ? alias : f.w.value;
+			var turl = '/photos/';
+			if (f.w.value == 'all') {
+				turl+= 'tags/'+encodeURIComponent(f.q.value); 
+			} else {
+				turl+= alias+'/tags/'+encodeURIComponent(f.q.value); 
+			}
+			document.location = turl;
+			return;
+		}
+		
+		var qsA = ['q='+encodeURIComponent(f.q.value)];
+		if (f.w.value) qsA.push('w='+encodeURIComponent(f.w.value));
+		if (f.m.value) qsA.push('m='+encodeURIComponent(f.m.value));
+		if (f.s.value) qsA.push('s='+encodeURIComponent(f.s.value));
+		if (f.mt.value) qsA.push('mt='+encodeURIComponent(f.mt.value));
+
+		var surl = f.action+'?'+qsA.join('&');
+		document.location = surl;
+	}
+	
+
+	</script>	
+
+</td>	
+		</tr>		
+	</tbody></table>
+</div>
+
+<div id="Main">
+        
+
+<img src="www.flickr.com_files/p_002.gif" class="ad_beacon">
+
+<table class="launchHead">
+        <tbody><tr>
+                <td width="48">
+                	<a href="http://www.flickr.com/iconbuilder/"><img src="www.flickr.com_files/buddyicon.jpg" alt="edit your buddy icon" style="vertical-align: middle;" width="48" height="48"></a>
+                </td>
+                <td>
+			                        <h1><span title="ko-kr" lang="ko">Bangawoyo</span> operatester666!</h1>
+                                                                                                <small id="VastConspiracytoDumbDownFlickr">Now you know how to greet people in Korean!</small>
+                                                        			                </td>
+        </tr>
+        
+</tbody></table>
+
+<!-- NEW START PAGE -->
+
+
+        
+
+        <div id="promo_start_div">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    
+<table cellspacing="0" width="800">
+	<tbody><tr valign="top"> 
+  		<td class="LeftCol">		
+	
+<!-- ALERTS -->
+			<div class="StartAlert">
+				<ul>
+ 
+	<!-- ##### START OF FULL ALERTS ##### -->
+
+
+ 
+					<li><a href="http://www.flickr.com/configurator/">Set up your Flickr basics</a>.</li>
+ 
+ 
+
+
+					<li><a href="http://www.flickr.com/import/people/" title="Check your address books for buddies who already have Flickr accounts">Find your friends</a></li>
+
+
+	<!-- ##### END OF FULL ALERTS ##### -->
+				</ul>
+			</div>
+
+
+<!-- NEWS -->
+			<div class="HomeBox">
+			    				<h3>Flickr News</h3>
+
+				<p><small>11 Aug 08 -</small>
+Flickr’s great for exploring photos by photographer, tag, time, text
+and group, and it’s also great for exploring photos by ... <a href="http://blog.flickr.net/en/2008/08/08/introducing-a-new-way-to-geotag/">read more news</a>
+				</p>
+								<h3 style="margin-top: 10px;">» <a href="http://blog.flickr.net/">Flickr Blog</a>					
+				<span class="Explain">Great content &amp; latest news, daily!</span></h3>
+			</div>
+
+
+                                                
+                                                    <img src="www.flickr.com_files/b_002.gif" alt="" width="1" height="1">
+                                                
+	
+														<script type="text/javascript">
+	
+	var promo_do_more_swap = function(which){
+		if (which) {
+			_ge('promo_do_more_promo_div').style.display = 'none';
+			_ge(which+'_explain_div').style.display = 'block';
+		} else {
+			_ge('zazzle_explain_div').style.display = 'none';
+			_ge('promo_do_more_promo_div').style.display = 'block';
+		}
+	}
+	
+	</script>
+			<table id="promo_do_more" cellpadding="0" cellspacing="0" width="337">
+		<tbody><tr><td class="rounded_tl"></td><td class="rounded_t"></td><td class="rounded_tr"></td></tr>
+		<tr><td class="rounded_l" width="3" height="3"></td>
+		
+		<td><div id="promo_do_more_wrapper_div">
+		
+			<div id="promo_do_more_removed_div">
+				<p style="margin-bottom: 6px;">K! You can always find that stuff at <a href="http://www.flickr.com/do/more/">flickr.com/do/more</a> and there is a link in the footer of every page.</p>
+				
+				<p style="margin-bottom: 6px;">(And don't forget to set your <a href="http://www.flickr.com/account/printing/setup/">printing preferences</a> so we can let you know when regular prints are available in your area.)</p>
+				
+				<p><i>This message will disappear the next time you load this page. <a href="http://www.flickr.com/?remove_do_more=1" onclick="promos_show('promo_do_more'); return false;">Undo?</a></i></p>
+			</div>
+			
+			<div id="zazzle_explain_div">
+				<p style="margin: 0pt 0pt 6px;">To start creating a real U.S. postage stamp with Zazzle, first head over to one of <a href="http://www.flickr.com/photos/me/">your photos</a>. On your photo pages, you will see an "order prints" menu button:
+				
+				<img src="www.flickr.com_files/order_prints_button_example.gif" alt="" style="border: 0pt none ; margin: 5px 0pt; display: block;" width="171" height="53">
+				
+				Click the "Order Prints" button and find the Zazzle option at the bottom. Have fun — and send us a postcard!</p>
+				<p><a href="#" onclick="promo_do_more_swap(); return false;" class="image_link"><img style="border: 0pt none ;" src="www.flickr.com_files/back_arrow.gif" alt="" width="5" height="8"></a> <a href="#" onclick="promo_do_more_swap(); return false;">back</a></p>
+			</div>
+			
+			
+			<div id="promo_do_more_promo_div">
+				<img style="cursor: pointer;" src="www.flickr.com_files/candy_hide_ad_default.gif" id="candy_hide_promo_do_more" class="candy_button" alt="" onclick="promos_remove('promo_do_more');" border="0" width="11" height="11">
+				<a class="image_link" href="http://www.flickr.com/do/more/"><img src="www.flickr.com_files/do_more_small.png" style="border: 0pt none ; margin-left: 37px;" alt="Do more, order prints" border="0" width="238" height="31"></a>
+				
+				<p style="margin: 10px 10px 6px;">Now there's even <a href="http://www.flickr.com/do/more/">more you can do</a> with your photostream:</p>
+				<ul>
+										<li><a href="http://clk.atdmt.com/NYC/go/yhxxxcpc0270000028nyc/direct/01/">Capital One</a> Personalize your credit card <img src="www.flickr.com_files/a.gif" border="0" width="1" height="1"><span class="New">NEW</span></li>
+										<li><a href="http://tabblo.com/partners/flickr/">HP</a> Prints, Photocubes, Posters and Books</li>
+					<li><a href="http://www.moo.com/flickr/">MOO</a> Tiny, wonderful photo calling cards</li>
+					<li><a href="http://www.qoop.com/photobooks/flickr_user">QOOP</a> Calendars, Posters &amp; Books</li>				
+					<li><a href="http://www.blurb.com/partner/flickr/">Blurb</a> Bookstore quality books, by you</li>
+					<li><a href="http://www.imagekind.com/flickr/">ImageKind</a> Frame your Flickr photos</li>
+				</ul>
+				 
+				<p style="margin: 6px 10px;">Make your photos happy -- do something with them!</p>
+				
+				<p style="margin: 0px 10px 10px;">And don't forget to set your <a href="http://www.flickr.com/account/printing/setup/">printing preferences</a> so we can let you know when regular prints are available in your area.</p>
+				
+			</div>
+		
+		</div></td>
+		
+		<td class="rounded_r" width="3" height="3"></td></tr>
+		<tr><td class="rounded_bl"></td><td class="rounded_b"></td><td class="rounded_br"></td></tr>
+	</tbody></table>
+	
+	<script type="text/javascript">F.decorate(_ge('candy_hide_promo_do_more'), F._simple_button).button_go_go_go();</script>	
+	
+
+						
+	
+				
+								
+
+							
+										<div class="HomeBoxTexty">
+						<h4><a href="http://www.flickr.com/upgrade/" onclick="ult_upgrade_click('U1101468');">It's like a photo but it moves</a></h4>
+						<h5><a href="http://www.flickr.com/upgrade/" onclick="ult_upgrade_click('U1101468');">Upload videos when you go pro</a></h5>
+						<h6><a href="http://www.flickr.com/upgrade/" onclick="ult_upgrade_click('U1101468');">Still just <b>$24.95</b> a year plus 3 months free</a></h6>
+					</div>
+			
+										
+	 
+			<div class="HomeBox">
+										<h3><a href="http://www.flickr.com/get_the_most.gne#organize">Organize your Photos and Videos</a></h3>
+				<p>Tags make everything easier to find.</p>	 
+						
+		
+		
+			</div>	
+			
+			
+
+			<div class="HomeBox">
+
+									<h3><a href="http://www.flickr.com/import/people/" title="Check your address books for buddies who already have Flickr accounts" class="cta">Find your friends</a> <span class="Explain">(or, <a href="http://www.flickr.com/invite/">invite people</a>)</span></h3>
+				
+								<p><b>Why?</b>
+Flickr is so much better when your friends and family are on it. When
+you log in, their latest stuff is right there, and they automatically
+see yours. <a href="http://www.flickr.com/invite/">Send an invitation?</a></p>
+				
+			</div>
+				
+
+
+	
+		</td>
+		
+		
+  		<td class="RightCol">
+		
+			<h3>
+									» <a href="http://www.flickr.com/photos/upload/">Upload Photos</a>
+								<span class="Explain">(Or, look at our uploading <a href="http://www.flickr.com/tools/"><b>tools</b></a>...)</span>
+			</h3>
+			
+			<h3>
+				» <a href="http://www.flickr.com/photos/43439401@N00/">Your Photostream</a>
+				<span class="Explain">
+								(<a href="http://www.flickr.com/recent_activity.gne?days=2">Recent activity</a>
+							/
+					<a href="http://www.flickr.com/photos_comments.gne">Comments you've made</a>)
+							
+				</span>
+			</h3>
+			<div class="thumb-squirt-cont clearfix">
+					<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/43439401@N00/2848429302/" title="&quot;/tmp/upload/f9d02903a06c424c92474006401b6893c6a6f77cfe1f372ddecf13fe3a428b0b1/opera96.jpg&quot;"><img src="www.flickr.com_files/2848429302_c5776ae8d8_s.jpg" alt="&quot;/tmp/upload/f9d02903a06c424c92474006401b6893c6a6f77cfe1f372ddecf13fe3a428b0b1/opera96.jpg&quot;" class="pc_img" width="75" height="75"></a></span>
+				</div>
+						<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/43439401@N00/2847597345/" title="&quot;/tmp/upload/f9d02903a06c424c92474006401b6893c6a6f77cfe1f372ddecf13fe3a428b0b1/opera96.jpg&quot;"><img src="www.flickr.com_files/2847597345_4675bf3f4e_s.jpg" alt="&quot;/tmp/upload/f9d02903a06c424c92474006401b6893c6a6f77cfe1f372ddecf13fe3a428b0b1/opera96.jpg&quot;" class="pc_img" width="75" height="75"></a></span>
+				</div> 
+						<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/43439401@N00/2825033764/" title="&quot;/tmp/upload/c99d9f805190bcf394b96edea9cd2ff950fbacb459c102b4530f227b74bdf09d1/beaver.jpeg&quot;"><img src="www.flickr.com_files/2825033764_b9ab105f80_s.jpg" alt="&quot;/tmp/upload/c99d9f805190bcf394b96edea9cd2ff950fbacb459c102b4530f227b74bdf09d1/beaver.jpeg&quot;" class="pc_img" width="75" height="75"></a></span>
+				</div>
+						<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/43439401@N00/2758590159/" title="&quot;/tmp/upload/7b3db8457b029467b9c9b78d235219c7be499a78438bfb8db0ffac4cba7911a01/DSC00001.JPG&quot;"><img src="www.flickr.com_files/2758590159_eda01c5a5d_s.jpg" alt="&quot;/tmp/upload/7b3db8457b029467b9c9b78d235219c7be499a78438bfb8db0ffac4cba7911a01/DSC00001.JPG&quot;" class="pc_img" width="75" height="75"></a></span>
+				</div> 
+								
+			</div>
+			
+			
+			<h3>» <a href="http://www.flickr.com/photos/friends/">From your Contacts</a></h3>
+			<div class="thumb-squirt-cont clearfix">
+						
+				<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/lawmune/2548764601/" title="Cake at Opera's San Diego office by Lawmune"><img src="www.flickr.com_files/2548764601_87a967f50f_s.jpg" alt="Cake at Opera's San Diego office by Lawmune" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/lawmune/">Lawmune</a>
+				</div>
+						<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/lawmune/2548764527/" title="sd-cake02 by Lawmune"><img src="www.flickr.com_files/2548764527_46b63fbd45_s.jpg" alt="sd-cake02 by Lawmune" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/lawmune/">Lawmune</a>
+				</div>
+						<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/lawmune/2549592736/" title="sd-cake03 by Lawmune"><img src="www.flickr.com_files/2549592736_2855a319d0_s.jpg" alt="sd-cake03 by Lawmune" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/lawmune/">Lawmune</a>
+				</div>
+						<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/yuri10b/2438464196/" title="sunset by yuri10b"><img src="www.flickr.com_files/2438464196_727aa1b25b_s.jpg" alt="sunset by yuri10b" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/yuri10b/">yuri10b</a>
+				</div>
+						</div>
+
+			<h3>
+				» <a href="http://www.flickr.com/photos/">Everyone's Uploads</a>
+								<span class="Explain">(<a href="http://www.flickr.com/?hide=1">Hide</a>)</span>
+							
+			</h3>
+			
+			<div class="thumb-squirt-cont clearfix">
+								<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/dbrunod/2859639088/" title="DSCF1793 (Large) by Daniel Brunod"><img src="www.flickr.com_files/2859639088_6fd1578a18_s.jpg" alt="DSCF1793 (Large) by Daniel Brunod" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/dbrunod/">Daniel Brunod</a>
+				</div>
+												<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/killboy/2859639082/" title="IMG_6743.jpg by killboy"><img src="www.flickr.com_files/2859639082_50b14b7aec_s.jpg" alt="IMG_6743.jpg by killboy" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/killboy/">killboy</a>
+				</div>
+												<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/hanhmike/2859639002/" title="P1000735 by Hanh and Mike"><img src="www.flickr.com_files/2859639002_a9de026745_s.jpg" alt="P1000735 by Hanh and Mike" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/hanhmike/">Hanh and Mike</a>
+				</div>
+												<div class="thumb-squirt-indv">
+					<span class="photo_container pc_s"><a href="http://www.flickr.com/photos/lcthedog/2858810465/" title="DSC06788 by lcthedog"><img src="www.flickr.com_files/2858810465_0c4341ec7a_s.jpg" alt="DSC06788 by lcthedog" class="pc_img" width="75" height="75"></a></span>
+					From <a href="http://www.flickr.com/photos/lcthedog/">lcthedog</a>
+				</div>
+							</div>
+		
+			
+			<h3>
+				» <a href="http://www.flickr.com/groups/">Your Groups</a>
+				<span class="Explain">
+					(<a href="http://www.flickr.com/recent.gne?days=2">See what's new</a>)
+				</span>				
+			</h3>			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="www.flickr.com_files/spaceball.gif" alt="" style="border: medium none ;" height="1">	
+		</td>
+		<td>
+			<img src="www.flickr.com_files/spaceball.gif" alt="" style="border: medium none ;" height="1">	
+		</td>
+	</tr>	
+</tbody></table>
+
+
+<img src="www.flickr.com_files/p.gif" class="ad_beacon">
+
+
+
+		
+	<div style="background: rgb(243, 243, 243) none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+	  <div style="padding: 8px;">
+	   <p style="margin: 0px; padding: 0px;">Psssssst! Want a sneak peek at <a href="#" onclick="doTotoInvite();return false">your new home page</a>?</p>
+	         </div>
+	</div>
+	
+	<!-- modal element for opt-in -->
+
+	<div id="totoPopup" style="border: 3px solid rgb(0, 0, 0); background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: fixed; display: none; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; width: 300px; font-size: 12px; z-index: 99999; left: 50%; top: 50%;">
+
+		<div class="contactChangerHeader">
+			<p style="line-height: 18px;">In
+the next few weeks, we'll be launching a new member home page. If
+you're ready to take the plunge, you can start using the new member
+home page now. There's more info on <a href="http://blog.flickr.net/">FlickrBlog</a> or <a href="http://www.flickr.com/help/general/">in the FAQs</a>.</p>
+		</div>
+
+		<div class="contactChangerBody">
+			<div id="toto-buttons" class="contactChangerButtons">
+				<input id="toto-ok" class="Butt" onclick="submitTotoInvite();return false" value="OK" type="button">
+				&nbsp;
+				<a id="toto-cancel" href="#" onclick="undoTotoInvite();return false" style="color: rgb(255, 51, 51); background-color: rgb(255, 255, 255);">Maybe later</a>
+			</div>
+			<div id="toto-anim" class="contactChangerButtons" style="display: none; margin-top: -1.1em;">
+			 <div id="toto-loading">
+			  <div style="margin-bottom: 3px;">Loading...</div>
+			  <div id="toto-anim-target"></div>
+			 </div>
+			 <div id="toto-go" style="display: none;">
+			  <input id="gogogo" class="Butt" value="Ready!" onclick="submitTotoInviteNow();return false" type="button">
+			 </div>
+			</div>
+		</div>
+
+	</div>
+	
+	<form id="toto-form" action="/toto_beta_opt_in.gne" method="post" style="position: absolute; left: -999px; top: -999px;">
+	 <input name="done" id="done" value="1">
+	 <input value="HOOK ME UP!" type="submit"> 
+	</form>
+
+	<script type="text/javascript">
+	var _sm2_url = "http://l.yimg.com/g/javascript/soundmanager2.js.v59581.14";
+	
+	var _sm2_swf = "/images/soundmanager2.swf";
+
+	var _is_submitting = false;
+	var _toto_loading = null;
+
+    function doTotoInvite() {
+
+		icon_ccbgdiv = _ge('contactChangerBackground');
+
+		var icon_opacity = 35;
+		icon_ccbgdiv.style.backgroundColor = '#000';
+		icon_ccbgdiv.style.opacity = icon_opacity/100;
+		icon_ccbgdiv.style.MozOpacity = icon_opacity/100;
+		icon_ccbgdiv.style.filter = 'alpha(opacity='+icon_opacity+')';
+
+		// position (center) and show invite
+		var toto_invite = _ge('totoPopup');
+		toto_invite.style.top = '-999px';
+		toto_invite.style.display = 'block';
+		toto_invite.style.marginTop = -parseInt(parseInt(toto_invite.offsetHeight)/2)+'px';
+		toto_invite.style.marginLeft = -parseInt(parseInt(toto_invite.offsetWidth)/2)+'px';
+		toto_invite.style.top = '50%';
+
+		// show modal underlay
+		icon_ccbgdiv.style.height = Y.D.getDocumentHeight()+'px';
+		icon_ccbgdiv.style.display = 'block';
+		
+		if (!_toto_loading) {
+	      _toto_loading = true;
+		  _ge('toto-anim-target').innerHTML = '<img src="'+_images_root+'/balls-24x12-trans.gif" alt="" style="width:24px;height:12px">';
+		  /*
+	      var so = new SWFObject('/images/pulsar.swf','progress-swf',32,16,8,'#ffffff');
+	      so.write('toto-anim-target');
+	      */
+	    }
+	
+	    // preload some stuffs
+	    var imagePaths = [
+	     _images_root+'/balls-24x12-trans.gif',
+	     _images_root+'/balls-16x8-trans.gif',
+	     _images_root+'/balls-12x6-trans.gif',
+	     _images_root+'/balls-12x6-trans.gif'
+	    ];
+	    F.preload_images(imagePaths[0],imagePaths[1],imagePaths[2],imagePaths[3]);
+	
+        // IE doesn't do position:fixed in particular, but move everyone up to top.
+        try {
+          window.scrollTo(0,0);
+        } catch(e) {
+          // ah well
+        }
+
+	}
+
+	function undoTotoInvite() {
+	  _ge('totoPopup').style.display = 'none';
+	  _ge('contactChangerBackground').style.display = 'none';
+	}
+
+	function submitTotoInvite() {
+	  _ge('toto-buttons').style.display = 'none';
+	  _ge('toto-anim').style.display = 'block';
+
+      if (!window.location.toString().match(/humour=no/i) && typeof INVOKE_HUMOUR != 'undefined') { // disable effect via ?humour=no
+
+        INVOKE_HUMOUR();
+
+        setTimeout(submitTotoInviteNow,60000);
+        setTimeout(function(){
+          _ge('toto-loading').style.display = 'none';
+          _ge('toto-go').style.display = 'block';
+        },10000);
+      } else {
+	    _ge('toto-form').submit();
+	  }
+	}
+	
+	function submitTotoInviteNow() {
+	  if (!_is_submitting) {
+	    _is_submitting = true;
+	    _ge('gogogo').value = 'Please wait...';
+	    _ge('toto-form').submit();
+	  }
+	}
+	
+	
+	/* *********************
+	 And now, a little fun.
+	********************* */
+	
+	function INVOKE_HUMOUR() {
+	  // And now, for something completely different..
+	
+	  var oA = new YAHOO.util.ColorAnim(_ge('contactChangerBackground'),{backgroundColor:{to:'#fff'}},1.5,YAHOO.util.Easing.easeBoth);
+	  var oA2 = new YAHOO.util.Anim(_ge('contactChangerBackground'),{opacity:{to:0.9}},1.5,YAHOO.util.Easing.easeBoth);
+      oA.animate();
+ 	  oA2.animate();
+	  if (!F.is_ie) {
+        var oA3 = new YAHOO.util.Anim(_ge('totoPopup'),{opacity:{to:0.9}},1.5,YAHOO.util.Easing.easeBoth);
+	    oA3.animate();
+	  }
+
+	  function fadeOut() {
+	    if (F.is_ie) return false;
+	    var oA = new YAHOO.util.Anim(document.body,{opacity:{to:0.01}},5,YAHOO.util.Easing.easeNone);
+	    oA.animate();
+	  }
+
+	  function startSound() {
+	    // SM2 has loaded
+	    if (typeof SoundManager == 'undefined') return false;
+	    window.soundManager = new SoundManager();
+	    soundManager.debugMode = false;
+	    soundManager.url = _sm2_swf;
+	    soundManager.onload = function() {
+	      soundManager.createSound('gfi',_images_root+'/ipanema.mp3');
+	      soundManager.play('gfi',{onbeforefinish:fadeOut,onfinish:submitTotoInviteNow});
+	    }
+	    window.setTimeout(soundManager.beginDelayedInit,250);
+	  }
+
+	  var load_js = Y.U.Get.script(_sm2_url, {onSuccess: startSound});
+
+	  window.flickrStorm = null;
+      flickrStorm = new SnowStorm();
+	}
+	
+	function SnowStorm() {
+	  var s = this;
+	  var storm = this;
+	  this.timers = [];
+	  this.flakes = [];
+	  this.disabled = false;
+	  this.terrain = [];
+	
+	  var parallaxValue = 0;
+	  var imagePaths = [
+	   _images_root+'/balls-24x12-trans.gif',
+	   _images_root+'/balls-16x8-trans.gif',
+	   _images_root+'/balls-12x6-trans.gif',
+	   _images_root+'/balls-12x6-trans.gif'
+	  ];
+	  var imageWidths = [24,16,12,6];
+	  var imageHeights = [12,8,6,3];
+	  var flakeTypes = 4;
+	  var flakesMax = 128;
+	  var flakesMaxActive = 32;
+	  var vMax = 3.5;
+	  var flakeWidth = 24;
+	  var flakeHeight = 12;
+	  var flakeBottom = null; // Integer for fixed bottom, 0 or null for "full-screen" snow effect
+	  var snowCollect = false;
+	  var showStatus = true;
+
+	  // --- End of user section ---
+
+	  var isIE = (navigator.appName.toLowerCase().indexOf('internet explorer')+1);
+	  var isWin9X = (navigator.appVersion.toLowerCase().indexOf('windows 98')+1);
+	  var isOpera = (navigator.userAgent.toLowerCase().indexOf('opera ')+1 || navigator.userAgent.toLowerCase().indexOf('opera/')+1);
+	  if (isOpera) isIE = false; // Opera (which is sneaky, pretending to be IE by default)
+	  var screenX = null;
+	  var screenY = null;
+	  var scrollY = null;
+	  var vRndX = null;
+	  var vRndY = null;
+
+	  function rnd(n,min) {
+	    if (isNaN(min)) min = 0;
+	    return (Math.random()*n)+min;
+	  }
+
+	  this.randomizeWind = function() {
+	    vRndX = plusMinus(rnd(vMax,0.2));
+	    vRndY = rnd(vMax,0.5);
+	    if (this.flakes) {
+	      for (var i=0; i<this.flakes.length; i++) {
+	        if (this.flakes[i].active) this.flakes[i].setVelocities();
+	      }
+	    }
+	  }
+
+	  function plusMinus(n) {
+	    return (parseInt(rnd(2))==1?n*-1:n);
+	  }
+
+	  this.resizeHandler = function() {
+	    if (window.innerWidth || window.innerHeight) {
+	      screenX = window.innerWidth-(!isIE?24:2);
+	      screenY = (flakeBottom?flakeBottom:window.innerHeight);
+	    } else {
+	      screenX = (document.documentElement.clientWidth||document.body.clientWidth||document.body.scrollWidth)-(!isIE?8:0);
+	      screenY = flakeBottom?flakeBottom:(document.documentElement.clientHeight||document.body.clientHeight||document.body.scrollHeight);
+	    }
+	    s.scrollHandler();
+	  }
+
+	  this.scrollHandler = function() {
+	    // "attach" snowflakes to bottom of window if no absolute bottom value was given
+	    if (!F.is_ie) return false;
+	    scrollY = (flakeBottom?0:parseInt(window.scrollY||document.documentElement.scrollTop||document.body.scrollTop));
+	    if (isNaN(scrollY)) scrollY = 0; // Netscape 6 scroll fix
+	    if (!flakeBottom && s.flakes) {
+	      for (var i=0; i<s.flakes.length; i++) {
+	        if (s.flakes[i].active == 0) s.flakes[i].stick();
+	      }
+	    }
+	  }
+
+	  this.freeze = function() {
+	    // pause animation
+	    if (!s.disabled) {
+	      s.disabled = 1;
+	    } else {
+	      return false;
+	    }
+	    if (!isWin9X) {
+	      clearInterval(s.timers);
+	    } else {
+	      for (var i=0; i<s.timers.length; i++) {
+	        clearInterval(s.timers[i]);
+	      }
+	    }
+	  }
+
+	  this.resume = function() {
+	    if (s.disabled) {
+	       s.disabled = 0;
+	    } else {
+	      return false;
+	    }
+	    s.timerInit();
+	  }
+
+	  this.stop = function() {
+	    this.freeze();
+	    for (var i=0; i<this.flakes.length; i++) {
+	      this.flakes[i].o.style.display = 'none';
+	    }
+	    removeEventHandler(window,'scroll',this.scrollHandler,false);
+	    removeEventHandler(window,'resize',this.resizeHandler,false);
+	  }
+
+	  this.SnowFlake = function(parent,type,x,y) {
+	    var s = this;
+	    var storm = parent;
+	    this.type = type;
+	    this.x = x||parseInt(rnd(screenX-12));
+	    this.y = (!isNaN(y)?y:-12);
+	    this.vX = null;
+	    this.vY = null;
+	    this.parallaxValue = parallaxValue;
+	    this.vAmpTypes = [2.0,1.5,1.25,1]; // "amplification" for vX/vY (based on flake size/type)
+	    this.vAmp = this.vAmpTypes[this.type];
+	    this.active = 1;
+	    this.o = document.createElement('img');
+	    this.o.style.position = 'absolute';
+	    this.o.style.width = imageWidths[type]+'px';
+	    this.o.style.height = imageHeights[type]+'px';
+	    this.o.style.fontSize = '1px'; // so IE keeps proper size
+	    this.o.style.zIndex = 20001; // sit on top of #contactChangerBackground
+	    this.o.src = imagePaths[type];
+	    document.body.appendChild(this.o);
+
+	    this.refresh = function() {
+	      this.o.style.left = this.x+'px';
+	      this.o.style.top = this.y+'px';
+	    }
+
+	    this.stick = function() {
+	      if (F.is_ie) {
+	        s.o.style.top = (screenY+scrollY-imageHeights[this.type]-storm.terrain[Math.floor(this.x)])+'px';
+	      } else {
+	        s.o.style.position = 'fixed';
+	        s.o.style.top = 'auto';
+	        s.o.style.bottom = '0px';
+	      }
+	      // called after relative left has been called
+	      // this.recycle();
+	    }
+
+	    this.vCheck = function() {
+	      if (this.vX>=0 && this.vX<0.2) {
+	        this.vX = 0.2;
+	      } else if (this.vX<0 && this.vX>-0.2) {
+	        this.vX = -0.2;
+	      }
+	      if (this.vY>=0 && this.vY<0.2) {
+	        this.vY = 0.2;
+	      }
+	    }
+
+	    this.move = function() {
+	      this.x += this.vX+this.parallaxValue;
+	      this.y += (this.vY*this.vAmp);
+	      this.refresh();
+
+	      if (this.vX && screenX-this.x<flakeWidth+this.vX+this.parallaxValue) { // X-axis scroll check
+	        this.x = 0;
+	      } else if (this.vX<0 && this.x+this.parallaxValue<0-flakeWidth) {
+	        this.x = screenX-flakeWidth; // flakeWidth;
+	      }
+	      var yDiff = screenY+scrollY-this.y-storm.terrain[Math.floor(this.x)];
+	      if (yDiff<flakeHeight) {
+	        this.active = 0;
+	        if (snowCollect) {
+	          var height = [0.75,1.5,0.75];
+	          for (var i=0; i<2; i++) {
+	            storm.terrain[Math.floor(this.x)+i+2] += height[i];
+	          }
+	        }
+	        this.o.style.left = ((this.x-(!isIE?0:0))/screenX*100)+'%'; // set "relative" left (change with resize)
+	        if (!flakeBottom) {
+	          this.stick();
+	        }
+	      }
+	    }
+	
+	    this.applyParallax = function(ratio) {
+	      // UR DOING IT RONG
+	      this.parallaxValue = (16-(12*(this.type+1)/4))*ratio;
+	    }
+
+	    this.animate = function() {
+	      // main animation loop
+	      // move, check status, die etc.
+	      this.move();
+	    }
+
+	    this.setVelocities = function() {
+	      this.vX = vRndX+rnd(vMax*0.12,0.1);
+	      this.vY = vRndY+rnd(vMax*0.12,0.1);
+	    }
+
+	    this.recycle = function() {
+	      this.setVelocities();
+	      this.vCheck();
+	      this.x = parseInt(rnd(screenX-flakeWidth-1));
+	      this.y = parseInt(rnd(640)*-1)-flakeHeight;
+	      this.active = 1;
+	    }
+
+	    this.recycle(); // set up x/y coords etc.
+	    this.refresh();
+
+	  }
+	
+	  var snowDiffX = null;
+	
+	  this.mmh = function(e) {
+	    if (!screenX || F.is_ie) return false;
+	    var mX = parseInt(e.clientX);
+	    // split into 2, +/- 10%
+	    var ratio = (mX/screenX);
+	    if (ratio <= 0.4) {
+	      ratio = -1+(ratio/0.4);
+	    } else if (ratio <= 0.5) {
+	      ratio = 0;
+	    } else {
+	      ratio = ((ratio-0.5)/0.5);
+	    }
+	    parallaxValue = ratio;
+	    s.applyParallax(ratio);
+	  }
+	
+	  this.applyParallax = function(ratio) {
+	    for (var i=this.flakes.length-1; i>0; i--) {
+	      if (this.flakes[i].active == 1) {
+	        this.flakes[i].applyParallax(ratio);
+	      }
+	    }
+	  }
+
+	  this.snow = function() {
+	    var active = 0;
+	    var used = 0;
+	    var waiting = 0;
+	    for (var i=this.flakes.length-1; i>0; i--) {
+	      if (this.flakes[i].active == 1) {
+	        this.flakes[i].animate();
+	        active++;
+	      } else if (this.flakes[i].active == 0) {
+	        used++;
+	      } else {
+	        waiting++;
+	      }
+	    }
+	    if (snowCollect && !waiting) { // !active && !waiting
+	      // create another batch of snow
+	      this.createSnow(flakesMaxActive,true);
+	    }
+	    if (active<flakesMaxActive) {
+	      with (this.flakes[parseInt(rnd(this.flakes.length))]) {
+	        if (!snowCollect && active == 0) {
+	          recycle();
+	        } else if (active == -1) {
+	          active = 1;
+	        }
+	      }
+	    }
+	  }
+
+	  this.createSnow = function(limit,allowInactive) {
+	    for (var i=0; i<limit; i++) {
+	      this.flakes[this.flakes.length] = new this.SnowFlake(this,parseInt(rnd(flakeTypes)));
+	      if (allowInactive || i>flakesMaxActive) this.flakes[this.flakes.length-1].active = -1;
+	    }
+	  }
+
+	  this.timerInit = function() {
+	    this.timers = (!isWin9X?setInterval("flickrStorm.snow()",20):[setInterval("flickrStorm.snow()",75),setInterval("flickrStorm.snow()",25)]);
+	  }
+
+	  this.init = function() {
+	    for (var i=0; i<8192; i++) {
+	      this.terrain[i] = 0;
+	    }
+	    this.randomizeWind();
+	    this.createSnow(snowCollect?flakesMaxActive:flakesMaxActive*2); // create initial batch
+	    Y.E.addListener(window,'resize',this.resizeHandler);
+	    Y.E.addListener(window,'scroll',this.scrollHandler);
+	    Y.E.addListener(document,'mousemove',this.mmh);
+	    // addEventHandler(window,'scroll',this.resume,false); // scroll does not cause window focus. (odd)
+	    // addEventHandler(window,'blur',this.freeze,false);
+	    // addEventHandler(window,'focus',this.resume,false);
+	    this.timerInit();
+	  }
+
+	  this.resizeHandler(); // get screen coordinates
+
+	  var parallaxValue = 0;
+
+	  if (screenX && screenY && !this.disabled) {
+	    this.init();
+	  }
+
+	}
+
+	
+	</script>
+
+
+</div>
+
+<br id="MainFooterClear" clear="all">
+
+<div id="FooterWrapper">
+<div class="Footer">
+		
+<table class="Jump" cellspacing="0">
+	        
+                <tbody><tr>
+                <th class="To">
+                        Activity
+                </th>
+                <td>
+		                	<a href="http://www.flickr.com/recent_activity.gne?days=2">On Your Photostream</a> | 
+                	<a href="http://www.flickr.com/photos_comments.gne">Comments You've Made</a> | 
+		                	<a href="http://www.flickr.com/recent.gne">In Your Groups</a> | 
+                	<a href="http://www.flickr.com/photos/43439401@N00/friends/">From your friends</a>			 
+                </td>
+        </tr>
+        <tr>
+                <th class="To">
+                        <a href="http://www.flickr.com/photos/43439401@N00/" class="Plain">You</a>
+                </th>
+                <td>
+			<a href="http://www.flickr.com/photos/43439401@N00/">Your Photostream</a> | 
+			<a href="http://www.flickr.com/photos/organize/">Organize</a> | 
+			<a href="http://www.flickr.com/photos/upload/">Upload</a> | 
+			<a href="http://www.flickr.com/account/">Your Account</a> |
+			<a href="http://www.flickr.com/do/more/">Do More, Order Prints</a>
+					  
+                </td>
+        </tr>
+                <tr>
+                <th class="To">
+                        <a href="http://www.flickr.com/explore/" class="Plain">Explore</a>
+                </th>
+                <td>
+			<a href="http://www.flickr.com/places/">Places</a> | 
+			<a href="http://www.flickr.com/explore/interesting/7days/">Last 7 Days</a> | 
+			<a href="http://www.flickr.com/explore/interesting/2008/09/">This Month</a> | 
+			<a href="http://www.flickr.com/photos/tags/">Popular Tags</a> | 
+			<a href="http://www.flickr.com/commons/">The Commons</a> | 
+			<a href="http://www.flickr.com/creativecommons/">Creative Commons</a> | 
+			<a href="http://www.flickr.com/search/">Search</a>
+                </td>
+        </tr>
+        <tr>
+                <th class="To">
+                        <a href="http://www.flickr.com/help/" class="Plain">Help</a>
+                </th>
+                <td>
+                        <a href="http://www.flickr.com/guidelines.gne">Community Guidelines</a> | 
+                        <a href="http://www.flickr.com/help/forum/">The Help Forum</a> |
+
+                        <a href="http://www.flickr.com/help/faq/">FAQ</a> | 
+                                                        <a href="http://www.flickr.com/tools/">Tools</a> | 
+                                                <a href="http://www.flickr.com/sitemap.gne">Sitemap</a> | 
+                        <a href="http://www.flickr.com/help/contact/">Help by Email</a>		
+                </td>
+        </tr>
+</tbody></table>
+<div class="Delicious">
+<a href="http://del.icio.us/post" onclick="window.open('http://delicious.com/save?partner=flickr&amp;v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;"><img src="www.flickr.com_files/add_to_delicious.gif" width="10" height="10"> &nbsp;Save to Delicious</a>
+</div>			        
+	
+	<p class="About">
+	        
+                                                        <span class="yahoo_logo">
+                                <a href="http://www.yahoo.com/"><img src="www.flickr.com_files/logo_yahoo_company.gif" alt="Flickr, a Yahoo! Company" width="99" height="11"></a>
+                                </span>
+                        		
+		<a href="http://blog.flickr.net/">Flickr Blog</a> | 
+		<a href="http://www.flickr.com/about/">About Flickr</a> | 
+		<a href="http://www.flickr.com/terms.gne" onclick="window.open('/terms.gne','TOC','status=yes,scrollbars=yes,resizable=yes,width=600,height=480'); return false">Terms of Service</a> | 
+		<a href="http://www.flickr.com/privacy_policy.gne">Your Privacy</a> | 
+		<a href="http://docs.yahoo.com/info/copyright/copyright.html" target="_blank">Copyright/IP Policy</a> |		<a id="ft-report-abuse" href="http://www.flickr.com/report_abuse.gne">Report Abuse</a>
+		
+		</p><p class="LanguageSelector">
+        
+                                        
+	<span>
+		<a href="http://www.flickr.com/change_language.gne?lang=zh-hk&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da" class="image_link" id="lang_zh-hk"><img class="trans_png" style="cursor: pointer;" src="www.flickr.com_files/lang_zh-tw_11px_default.png" id="langselect_zh-hk" alt="繁體中文" width="45" height="13"></a>		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=de-de&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da">Deutsch</a>
+		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=en-us&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da" class="selected">English</a>
+		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=es-us&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da">Español</a>
+		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=fr-fr&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da">Français</a>
+		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=ko-kr&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da" class="image_link" id="lang_ko-kr"><img class="trans_png" style="cursor: pointer;" src="www.flickr.com_files/lang_ko-kr_11px_default.png" id="langselect_ko-kr" alt="한글" width="23" height="13"></a>		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=it-it&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da">Italiano</a>
+		<b>|</b>
+		<a href="http://www.flickr.com/change_language.gne?lang=pt-br&amp;magic_cookie=fd7af8c4b822b0026a57b7f4f85568da">Português</a>
+			</span>
+	
+		<script type="text/javascript">if (_ge('langselect_zh-hk')) F.decorate(_ge('langselect_zh-hk'), F._link_button).button_go_go_go();</script>
+	<script type="text/javascript">if (_ge('langselect_ko-kr')) F.decorate(_ge('langselect_ko-kr'), F._link_button).button_go_go_go();</script>
+	Copyright © 2008 Yahoo! Inc. All rights reserved.
+	</p>  	<p></p>
+	
+
+<br>
+
+	
+</div>
+</div>
+<div style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: rgb(0, 255, 0); text-align: left; font-family: &quot;Courier New&quot;,Courier,monospace;"></div>
+
+
+
+
+
+<div style="background-color: rgb(0, 0, 0); opacity: 0.35;" id="contactChangerBackground"></div>
+
+<div id="contactChangerPopup">
+	<div class="contactChangerHeader">
+		<img id="contactChangerIcon" src="www.flickr.com_files/spaceball.gif" alt="" width="48" height="48">
+		<div id="contactChangerText1">x</div>
+	</div>
+	<div class="contactChangerBody">
+		<div id="contactChangerText2">x</div>
+		<div class="contactChangerCheckboxes">
+			<input name="fri" id="contactChangerCheckFriend" type="checkbox"> <label for="contactChangerCheckFriend">Mark as <b>Friend</b>?</label><br>
+			<input name="fam" id="contactChangerCheckFamily" type="checkbox"> <label for="contactChangerCheckFamily">Mark as <b>Family</b>?</label><br>
+		</div>
+		<div id="contactChangerText3">x</div>
+		<div class="contactChangerButtons">
+			<input value="OK" onclick="icon_windowCloseDone();" class="Butt" type="button">
+			<input value="Cancel" onclick="icon_windowClose();" class="DeleteButt" type="button">
+		</div>
+	</div>
+</div>
+
+<div id="person_hover">
+	<div id="person_hover_shadow" class="shadowLight"></div>
+	<div id="person_hover_inner">
+		<a href="#" id="person_hover_link"><img class="person_hover_img" src="www.flickr.com_files/buddyicon.jpg" id="hover_img43439401@N00"></a>
+		<img id="person_hover_pulser_img" src="www.flickr.com_files/pulser2.gif" alt="" border="0" width="32" height="15">
+		<div id="personmenu_button_bar" class="candy_button_bar">
+			<img style="cursor: pointer;" src="www.flickr.com_files/personmenu_down_default.gif" id="personmenu_down_button" class="candy_button" alt="More options" onclick="_ge('person_hover').hover_toggle_menu();" border="0" width="15" height="48">
+			<div class="candy_menu" id="personmenu_down_menu">
+				<div id="personmenu_border_blocker"></div>
+				<p id="personmenu_relationship_p">Hi, you!</p>
+				<div id="person_menu_other_div">
+					<a class="block" href="#" id="personmenu_contact_link" onclick="_ge('person_hover').hover_add_contact(); return false;"></a>
+					<div class="menu_item_line_above">
+						<a class="block" href="#" id="personmenu_photos_link">Photostream</a>
+					</div>
+					<a class="block" href="#" id="personmenu_collections_link">Collections</a>					<a class="block" href="#" id="personmenu_sets_link">Sets</a>
+					<a class="block" href="#" id="personmenu_profile_link">Profile</a>
+					<a class="block" href="#" id="personmenu_tags_link">Tags</a>
+					<a class="block" href="#" id="personmenu_archives_link">Archives</a>
+					<a class="block" href="#" id="personmenu_map_link">Map</a>					<a class="block" href="#" id="personmenu_faves_link">Favorites</a>
+					<a class="block" href="#" id="personmenu_contacts_link">Contacts</a>
+					<div class="menu_item_lines_around">
+						<a class="block" href="#" id="personmenu_mail_link">Send FlickrMail</a>
+					</div>
+					<a href="http://www.flickr.com/ignore.gne" id="personmenu_block_link"></a>
+				</div>
+				<div id="person_menu_you_div">
+					<div class="menu_item_line_above">
+						<a class="block" href="http://www.flickr.com/photos/43439401@N00/" id="personmenu_your_photos_link">Your Photostream</a>
+					</div>
+					<a class="block" href="http://www.flickr.com/photos/43439401@N00/collections/" id="personmenu_collections_link">Your Collections</a>					<a class="block" href="http://www.flickr.com/photos/43439401@N00/sets/" id="personmenu_sets_link">Your Sets</a>
+					<a class="block" href="http://www.flickr.com/recent_activity.gne" id="personmenu_activity_link">Recent Activity</a>
+					<a class="block" href="http://www.flickr.com/messages.gne?ok=1" id="personmenu_your_mail_link">FlickrMail</a>
+					<a class="block" href="http://www.flickr.com/account/" id="personmenu_account_link">Your Account</a>
+					<a class="block" href="http://www.flickr.com/people/43439401@N00/" id="personmenu_your_profile_link">Your Profile</a>
+					<a class="block" href="http://www.flickr.com/photos/43439401@N00/map/" id="personmenu_your_map_link">Your Map</a>					<a class="block" href="http://www.flickr.com/iconbuilder/" id="personmenu_buddyicon_link">Your Buddy Icon</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+
+<script type="text/javascript">
+try{
+	if (window.personmenu_init) personmenu_init(1);
+} catch(er) {}
+
+</script>
+
+
+
+
+<!-- page generated by www26 (in mud) at 05:33:19 09/15/08 in 307ms -->
+
+
+<script src="www.flickr.com_files/a.js"></script><!-- SpaceID=792600147 loc=FR001 noad -->
+ <!-- SpaceID=792600147 loc=SIP noad -->
+<img style="display: none;" alt="" src="www.flickr.com_files/b.gif" width="0" height="0">
+
+
+
+
+
+
+
+
+
+
+</body></html>

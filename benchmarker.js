@@ -6,11 +6,15 @@ var util = require('util');
 var finder = require('findit');
 var taskgroup = require('taskgroup').TaskGroup;
 
+// params
 var directory = command_line.i;
 var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
-var keyword_size = 0;
-var total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
+
+var gzip, lzma, lzma_dict, gzip_dict;
+
+var keyword_size = 0, total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
+var rebase = false;
 var output = [];
 var intervalId;
 
@@ -56,18 +60,6 @@ function testSite(directory, callback) {
     console.log('Parsing folder:' + directory);
 
     var name = PATH.basename(directory);
-    //output[name] = {
-    //    totalSize:0,
-    //    cssCount:0,
-    //    cssCompressedSize: 0,
-    //    cssCompressedSize2: 0,
-    //    htmlCount: 0,
-    //    htmlCompressedSize: 0,
-    //    htmlCompressedSize2: 0,
-    //    jsCount: 0,
-    //    jsCompressedSize: 0,
-    //    jsCompressedSize2: 0,
-    //};
 
     var fileFinder = finder(directory);
     fileFinder.on('file', function (file, stat) {
@@ -92,73 +84,78 @@ function testSite(directory, callback) {
 }
 
 function benchmarkFile(site, path, type, completion) {
-		var size_7z, cat_size, gzip_size;
+	var gzip_size;
 
-        var cat_file = path + '.dict';
-        var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"';
+    var cat_file = path + '.dict';
+    var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"';
 		
-		var localTask = new taskgroup();
+	var localTask = new taskgroup();
 		
-		// cat
-		localTask.addTask(function(callback){
-	        child_process.exec(command, function (error, stdout, stderr) {
-	            if (error) {
-	                console.error(error);
-	                console.error('when executing command: ' + command);
-	                process.exit(1);
-	            }
-				callback();
-			});	
+    // gzip
+	if (rebase) {
+	    localTask.addTask(function (callback) {
+	        gzip(path, function () {
+	            gzip_size = fs.statSync(path + '.gz').size;
+	            gzip.total += gzip_size;
+	            gzip.sizes[path] = gzip_size;
+	            callback();
+	        });
+	    });
+	} else {
+	    gzip_size = gzip.sizes[path];
+	    if (!gzip_size) {
+	        console.error('Failed to get size for ' + path);
+	        process.exit(1);
+	    }
+	}
+
+    // cat
+	if (lzma_dict || gzip_dict) {
+		localTask.addTask(function (callback) {
+		    child_process.exec(command, function (error, stdout, stderr) {
+		        if (error) {
+		            console.error(error);
+		            console.error('when executing command: ' + command);
+		            process.exit(1);
+		        }
+		        callback();
+		    });
 		});
+	}
 		
-		// gzip
-		localTask.addTask(function(callback){
-			gzip(path, function(){
-				gzip_size = fs.statSync(path + '.gz').size;
-				total_gzip_compressed_size += gzip_size;
-				callback();
-			});
+    // 7zip
+	if (lzma) {
+		localTask.addTask(function (callback) {
+		    zip(path, function () {
+		        var zipped = path + '.7z';
+		        var size_7z = fs.statSync(zipped).size;
+		        if (size_7z > gzip_size)
+		            size_7z = gzip_size;
+		        lzma.total += size_7z;
+		        callback();
+		    });
 		});
-		
-		// 7zip
-		localTask.addTask(function(callback){
-			    zip(path, function () {
-			        var zipped = path + '.7z';
-			        size_7z = fs.statSync(zipped).size;
-					if (size_7z > gzip_size)
-						size_7z = gzip_size;
-		            total_7zip_compressed_size += size_7z;	
-					callback();
-				});					
-		});
+	}
 			
-		// 7zip with dict			
-		localTask.addTask(function(callback){
-	            zip(cat_file, function () {
-                	cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
-					
-					if (cat_size > gzip_size) {
-						console.log('Unexpected growth in size. ' + gzip_size + '->' + cat_size + ' ' + path);
-						cat_size = gzip_size;						
-					}
-					
-	                total_dict_compressed_size += cat_size;
-	                callback();
-	            });					
-		});
+    // 7zip with dict
+	if (lzma_dict) {
+		localTask.addTask(function (callback) {
+		    zip(cat_file, function () {
+		        var cat_size = fs.statSync(cat_file + '.7z').size - keyword_size + 90;
 
-		localTask.addTask(function(){
-	        appendOutput({
-	            site: site,
-	            type: type,
-	            size: gzip_size,
-	            size_7z: size_7z,
-				size_dict: cat_size
-	        });			
+		        if (cat_size > gzip_size) {
+		            console.log('Unexpected growth in size. ' + gzip_size + '->' + cat_size + ' ' + path);
+		            cat_size = gzip_size;
+		        }
+
+		        lzma_dict.total += cat_size;
+		        callback();
+		    });
 		});
+	}
 		
-		localTask.once('complete', completion);
-		localTask.run();
+	localTask.once('complete', completion);
+	localTask.run();
 }
 
 function dump() {
@@ -196,6 +193,39 @@ zip(keyword, function () {
     var zipped = keyword + '.7z';
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
+
+    var base_file_path = PATH.dirname(directory) + '.base';
+    console.log('Reading base' + folder);
+
+    if (fs.existsSync(base_file_path)) {
+        var base_str = fs.readFileSync(folder, 'utf-8');
+        gzip = JSON.parse(base_str);
+    } else {
+        console.log('Found no base file, will rebase');
+        rebase = true;
+        gzip = {
+            total: 0,
+            sizes: {},
+        };
+    }
+
+    if (command_line.lzma) {
+        lzma = {
+            total: 0,
+        };
+    }
+
+    if (command_line.lzma_dict) {
+        lzma_dict = {
+            total: 0,
+        };
+    }
+
+    if (command_line.gzip_dict) {
+        gzip_dict = {
+            total: 0,
+        };
+    }
 
     var siteFinder = finder(directory);
     siteFinder.on('directory', function (path, stat) {

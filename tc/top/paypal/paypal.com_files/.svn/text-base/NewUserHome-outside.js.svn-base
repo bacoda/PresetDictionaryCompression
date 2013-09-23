@@ -1,0 +1,1 @@
+document.write('<a target="_top" href="https://ad.doubleclick.net/click;h=v8/3700/0/0/%2a/l;113739964;0-0;1;17564804;19008-520/70;21564621/21582511/1;;~sscs=%3fhttps://www.paypal.com/cgi-bin/webscr?cmd=xpt/cps/general/NewConsumerSafe-outside"><img src="paypal.com_files/dc_PPOfferedSites_US_520x70.gif" border=0 alt="Click here to learn more"></a>');

@@ -1,0 +1,290 @@
+/*
+Box Model
+Layout, looks & typography
+
+by Zedge Ltd 2007 - Kjelsberg, Henrik
+*/
+
+
+
+/* Layout
+--------------------------------------------------------------*/
+.box										{ margin: 4px 0; }
+/* for small boxes under the profile section of People screen ("Zedger of the Day", "Hot forum topics") - Chris */
+.box .fleft									{ float: left; width: 49%; position:relative;}
+.box .fright								{ float: right; width: 49%; position:relative;}
+
+.box .header, .box .footer					{ clear: both; height: 30px; }
+
+.box .white.header { height: 20px; }
+.box .blacktranshead.header, .box .whitetranshead.header, .box .blacktransfoot.footer, .box .blackglossfoot.footer, .box .whitetransfoot.footer, .box .whiteglossfoot.footer, .box .white.footer { height: 10px; }
+.box .black.header, .box .gray.header,
+.box .profileblack.header,
+.box .profilewhite.header					{ height:37px; }
+.box .blackglosshead.header,
+.box .whiteglosshead.header,
+.box .blackprofiletabs.header,
+.box .whiteprofiletabs.header				{ height: 35px; }
+.box .default.header						{ height: 30px; }
+
+.box .default.footer						{ height: 12px; }
+
+.box .header .left, .box .footer .left		{ float: left; width: 25px; height: 100%; }
+
+.box .body									{ clear: both; width: 100%; }
+.box .edge									{ margin-left: 11px; }
+.box .container								{ margin-right: 11px; padding: 10px 15px; }
+/* a less padded container for counter section of People screen - Chris */
+.box .csm									{ padding: 5px 5px; }
+
+.box ul.header, .box ul.footer				{ list-style-type: none; height: 37px; }
+.box .header li, .box .footer li			{ float: left; }
+.box ul.sidebar								{ list-style-type: none; }
+.box ol.sidebar								{ position: relative; left:10px; }
+.box ol.dlringtones							{ list-style-type:none; position:relative; }
+.box ol.dlringtones .whiterow				{ margin-left:-10px; margin-right:-5px; padding-left:10px; padding-right:5px; }
+/* lettered list on Help screen - Chris */
+.lett										{ list-style-type: upper-latin; }
+
+.box .header li a							{ display: block; width: 100%; height: 37px; text-align: center; }
+.box .header li a span,
+.box .black.header h2,
+.box .profileblack.header h2,
+.box .blacktranshead.header h2,
+.box .blackglosshead.header h2,
+.box .profilewhite.header h2,
+.box .whitetranshead.header h2,
+.box .whiteglosshead.header h2,
+.box .orange.header h2					{ position: relative; top: 40%; }
+.box .default.header h2						{ position: relative; top: 60%; }
+
+#related_items .header li					{ position:relative; width:50%; }
+
+.box .items    								{ width: 100%; margin-bottom: 1em; }
+
+.box .footer .go							{ bottom: 20px; display: block; float: right; right: 3em; position: relative; }
+
+#browse ul.header li	{ position: relative; width: 20%; }
+#browse ul.header li a.last { width: 100%; }
+#people ul.header li	{ position: relative; width: 33.3%; }
+#people ul.header li a.last { width: 100%; }
+#people .items dt		{ background-image: none; }
+#browse .items dt		{ background-image: none; }
+
+/* ------- pagination styles --------  */
+.box .paglistholder .blacklistholderleft		{ float:left;height:0px;width:0px;position:absolute; }
+.box .paglistholder .whitelistholderleft		{ float:left;height:0px;width:0px;position:absolute; }
+.box #paglist,
+.box #paglistAlt							{ clear: both;  font-size: small; float: left; height: 34px; width: 100%; position: relative; }
+.box #paglist li,
+.box #paglistAlt li							{ float: left; height: 100%; }
+.box #paglist a,
+.box #paglistAlt a							{ display: block; float: left; height: 100%; cursor:pointer; }
+.box #paglist a:hover,
+.box #paglistAlt a:hover					{ font-weight:bold; text-decoration: none; }
+
+.box #paglist span							{ color: #fff; display: block; padding-top: .5em; text-align: center; }
+.box #paglistAlt span						{ color: #000; display: block; padding-top: .5em; text-align: center; }
+
+.box #paglist .previous a span,
+.box #paglist .next a span,
+.box #paglistAlt .previous a span,
+.box #paglistAlt .next a span				{ padding-top: .5em; width: 50px; }
+.box #paglist .previous a span				{ margin-right: 1.5em; }
+.box #paglist .next,
+.box #paglistAlt .next						{ float: right; }
+.box #paglist .next a span					{ margin: 0 2em 0 1.5em; }
+
+.box #paglist .active span,
+.box #paglistAlt .active span				{ font-weight:bold; margin: 0 5px; padding-top: .4em; }
+
+.box #paglistAlt							{ height:30px; margin:0px; background: url(table-he.png) repeat-x; list-style-type: none; }
+.box #paglistAlt .previous a span			{ margin: 0 1.5em 0 0.25em; }
+.box #paglistAlt .next a span				{ margin: 0 0.75em 0 1em; text-align:right; }
+
+.box #paglist .pagitem1 span				{ width: 20px; }
+.box #paglist .pagitem2 span				{ width: 25px; }
+.box #paglist .pagitem3 span				{ width: 30px; }
+.box #paglist .pagitem4 span				{ width: 35px; }
+.box #paglist .pagitem5 span				{ width: 50px; }
+.box #paglistAlt .pagitem1 span				{ width: 20px; }
+.box #paglistAlt .pagitem2 span				{ width: 25px; }
+.box #paglistAlt .pagitem3 span				{ width: 30px; }
+.box #paglistAlt .pagitem4 span				{ width: 35px; }
+.box #paglistAlt .pagitem5 span				{ width: 50px; }
+
+.itembox_header								{ position: relative; }
+
+/* Looks
+--------------------------------------------------------------*/
+/* Header & footer appearence */
+.box .default								{ background: url( corners_.jpg ) no-repeat; }
+.box .black, .box .profileblack				{ background: url( corners0.jpg ) no-repeat; }
+.box .blacktranshead, .box .blacktransfoot,
+.box .blackglossfoot						{ background: url( corners_.png ) no-repeat; }
+.box .blackglosshead						{ background: url( corners_.png ) no-repeat; }
+.box .whitetranshead, .box .whitetransfoot,
+.box .whiteglossfoot 						 { background: url( corners_.png ) no-repeat; }
+
+.box .whiteglosshead						{ background: url( corners_.png ) no-repeat; }
+
+.box .protop								{ background: url( corners1.jpg ) no-repeat; }
+.box .gray, .box .profilewhite				{ background: url( corners1.jpg ) no-repeat; }
+
+.box .white									{ margin-top:-20px; }
+.box .header.white							{ background: url( corners2.jpg ) no-repeat top right;margin-top:0px; }
+.box .header.white .left					{ background: url( corners2.jpg ) no-repeat top left;margin-top:0px; }
+.box .footer.white							{ background: url( corners2.jpg ) no-repeat bottom right;margin-top:0px; }
+.box .footer.white .left					{ background: url( corners2.jpg ) no-repeat bottom left;margin-top:0px; }
+
+.box .darkgray								{ background: url( corners_.png ) no-repeat; }
+
+.box .orange								{ background-image:none; }
+.box .header.orange							{ background: url( corners2.jpg ) no-repeat top right;height:37px; width:auto; }
+.box .header.orange .left					{ background: url( corners2.jpg ) no-repeat top left; }
+.box .orange .footer						{ background: url( corners_.gif ) no-repeat bottom right;height:30px;margin-left:30px; width:auto; }
+.box .orange .footer .left					{ background: url( corners_.gif ) no-repeat bottom left;margin-left:-30px; width:30px; }
+.box .orange .body							{ background: #fffff5;border-left:1px solid #f6921e;border-right:1px solid #f6921e;width:auto;margin-left:8px;margin-right:13px; }
+.box .orange .container						{ background: #fffff5;margin-right:0px; }
+.box .orange .edge							{ background: none;margin-left:0px;margin-right:20px; }
+
+#register_member_login						{ background:none; height:auto; margin-top:-5px; margin-bottom:6px; }
+#register_member_login .body				{ background: #fffff5;border-left:1px solid #f6921e;border-right:1px solid #f6921e;width:auto;height:100%;margin-left:4px;margin-right:6px; }
+#register_member_login .container			{ background: none;padding-bottom:0; }
+#register_member_login .edge				{ background: #fffff5; }
+#register_member_login .footer				{ background: url( corners_.gif ) no-repeat bottom right;height:30px;margin-left:30px;margin-right:-7px;width:auto; border:0; }
+#register_member_login .footer .left		{ background: url( corners_.gif ) no-repeat bottom left;margin-left:-34px;width:34px;border:0; }
+#register_member_login .field				{ margin-bottom: 5px; }
+
+#phone_select_div_new						{ background:none;text-align:left;margin-top:-2px;height:200px; }
+#phone_select_div_new .header				{ background: url( corners_.gif ) no-repeat top right;height:20px;margin-left:30px; width:auto; }
+#phone_select_div_new .header .left			{ background: url( corners_.gif ) no-repeat top left;margin-left:-30px; width:30px; }
+#phone_select_div_new .footer				{ background: url( corners_.gif ) no-repeat bottom right;height:20px;margin-left:30px; width:auto; }
+#phone_select_div_new .footer .left			{ background: url( corners_.gif ) no-repeat bottom left;margin-left:-30px; width:30px; }
+#phone_select_div_new .body					{ background: #eee;border-left:3px solid #fff;border-right:3px solid #fff;height:180px;width:auto;margin-left:4px;margin-right:3px;margin-bottom:0px;padding-bottom:0px; }
+#phone_select_div_new .container			{ background: none;margin-right:0px;height:180px;margin-bottom:0px;padding-bottom:0px; }
+#phone_select_div_new .edge					{ background: #eee;margin-left:0px;margin-right:0px;height:180px; }
+#phone_select_div_new .content				{ height:180px;margin-bottom:0px;padding-bottom:0px; }
+#phone_select_div_new .header h2			{ position:relative;top:80%;color: #000; font-size: 16px; font-weight: bold; }
+#phone_select_div_new .body p				{ color:#000;padding-left:10px;margin-bottom:0px; }
+#phone_select_div_new .body p.shout			{ margin-bottom:20px; }
+#phone_select_div_new .body .selDiv			{ float:left;border:2px solid #a00;margin-left:10px;margin-bottom:15px;padding:0px; }
+#phone_select_div_new .body .selDiv	select		{ margin-top:0px; }
+#phone_select_div_new .body img				{ float:left;margin-left:10px;margin-top:15px;bottom:0px; }
+#phone_select_div_new .body .linkDiv		{ float:right;margin-right:10px;margin-top:20px;bottom:0px; }
+#phone_select_div_new .content #phonesel_go	{ margin-left:2px;margin-top:2px; }
+
+.box .container								{ background-color: #fafafa; }
+.box .body.white .container					{ background-color: #fff; }
+.box .body.gray .container					{ background-color: #e6e6e6; }
+
+.box .body.blackbody .container				{ background: none !important; padding: 10px 0px 5px 0px; }
+.box .body.whitebody .container				{ background: none !important; padding: 10px 0px; }
+
+.box .header								{ background-position: top right; }
+.box .header .left							{ background-position: top left; }
+.box .header.blacktranshead,
+.box .header.blackglosshead,
+.box .header.whitetranshead,
+.box .header.whiteglosshead					{ background-position: top right; margin-left:30px; width:auto; }
+.box .header.blackglosshead,
+.box .header.whitetranshead,
+.box .header.whiteglosshead					{ margin-right:1px; }
+.box .header.blacktranshead .left,
+.box .header.blackglosshead .left,
+.box .header.whitetranshead .left,
+.box .header.whiteglosshead .left			{ background-position: top left; margin-left:-30px; width:30px; }
+.box .header.blackglosshead .left			{ margin-left:-29px; }
+
+.box .body									{ background: url( edges000.jpg ) repeat-y left; }
+
+
+.box .edge									{ background: url( edges000.jpg ) repeat-y right; }
+.box .white .body							{ margin: 0 7px; background: url( edges_wh.jpg ) repeat-y left; }
+.box .white .edge							{ margin: 0 14px; background: url( edges_wh.jpg ) repeat-y right; }
+
+
+.box .body.blackbody						{ background: url( black_bg.png ) repeat; color:#fff; }
+.box .body.whitebody						{ background: url( white_bg.png ) repeat; color:#000;margin-left:5px;margin-right:5px;width:auto;height:100%; }
+.box .edge.blackedge,
+.box .edge.whiteedge						{ background-image:none; }
+.box .footer								{ background-position: bottom right; }
+.box .footer .left							{ background-position: bottom left; }
+.box .footer.blacktransfoot,
+.box .footer.blackglossfoot,
+.box .footer.whitetransfoot,
+.box .footer.whiteglossfoot						{ background-position: bottom right; margin-left:30px; }
+.box .footer.whitetransfoot,
+.box .footer.whiteglossfoot						{ margin-right:1px; }
+.box ul#paglist.whitetransfoot li a span,
+.box ul#paglist.whiteglossfoot li a span		{ color: #000; }
+.box .footer.blacktransfoot .left,
+.box .footer.blackglossfoot .left,
+.box .footer.whitetransfoot .left,
+.box .footer.whiteglossfoot .left				{ background-position: bottom left; margin-left:-30px; width:30px; }
+
+#profile .box #paglist.blacktransfoot .left, #profile .box #paglist.blackglossfoot .left, #profile .box #paglist.whitetransfoot .left, #profile .box #paglist.whiteglossfoot .left {
+	margin-left: -20px;
+	position: relative;
+	width: 20px;
+}
+#profile .box #paglist.blacktransfoot, #profile .box #paglist.blackglossfoot, #profile .box #paglist.whitetransfoot, #profile .box #paglist.whiteglossfoot {
+	margin-left: 20px;
+	position: relative;
+	width: 692px;
+}
+
+.box ul.header.blackprofiletabs a				{ background: url( corners_.png ) no-repeat top center;color:#fff;height:35px; }
+.box ul.header.whiteprofiletabs a				{ background: url( corners_.png ) no-repeat top center;height:35px; }
+.box ul.header a.first,
+.box ul.header.blackprofiletabs a.first,
+.box ul.header.whiteprofiletabs a.first			{ background-position: top left;}
+.box .header.blackprofiletabs a:hover,
+.box .header.whiteprofiletabs a:hover			{ background: url( corners_.png ) no-repeat top center; }
+.box .header a:hover							{ background: url( corners2.jpg ) top center; }
+.box ul.header .active							{ background: url( corners0.jpg ) top center; }
+.box ul.header a.active:hover					{ background-image: url( corners0.jpg );color:#fff; }
+.box ul.header.blackprofiletabs .active			{ background: url( corners_.png ) no-repeat top center; }
+.box ul.header.whiteprofiletabs .active			{ background: url( corners_.png ) no-repeat top center; }
+.box ul.header.blackprofiletabs a.active:hover	{ background-image: url( tab_red_.gif ); }
+.box ul.header.whiteprofiletabs a.active:hover	{ background-image: url( tab_blac.gif ); }
+.box .header a.first:hover						{ background-position: top left; }
+.box .header a.last,
+.box ul.header.whiteprofiletabs a.last, .box ul.header.blackprofiletabs a.last {
+	background-position: top right;
+	margin-left:0px;
+	width:99%;
+}
+.box .header a.last:hover						{ background-position: top right; }
+.box ul.gray.header								{ height: 37px; }
+
+.box .footer a.first							{ background-position: bottom left; }
+.box .footer a.last								{ background-position: bottom right; }
+
+#profile .box .rank								{ float: right; padding: 9px 0 0 0; }
+
+/* Typography
+--------------------------------------------------------------*/
+.box .black.header h2,
+.box .profileblack.header h2,
+.box .blacktranshead.header h2,
+.box .blackglosshead.header h2,
+.box .orange.header h2						{ color: #fff; font-size: 14px; font-weight: normal;  }
+.box .whitetranshead.header h2,
+.box .whiteglosshead.header h2				{ color: #000; font-size: 14px; font-weight: normal;  }
+.box .header.blackglosshead a, .box .header.blackglosshead a:hover,
+.box .body.blackbody a, .box .body.blackbody h1,
+.box .body.blackbody h2, .box .body.blackbody h3, .box .body.blackbody h4,
+.box ul.header.whiteprofiletabs a:hover	{ color:#fff; }
+
+.box .body.whitebody a, .box .body.whitebody h1,
+.box .body.whitebody h2, .box .body.whitebody h3,
+.box .body.whitebody h4	{ color:#000; }
+.box .body.blackbody a.ident,
+.box .body.whitebody a.ident				{ color: #a00; }
+.box .default.header h2, .box .white.header h2,
+.box .profilewhite.header h2				{ color: #000; font-size: 16px; font-weight: bold; }
+.box .header a,
+.box .header a:hover						{ color: #000; text-decoration: none; text-transform: capitalize; }
+.box ul.header a.active						{ color: #fff; }
+

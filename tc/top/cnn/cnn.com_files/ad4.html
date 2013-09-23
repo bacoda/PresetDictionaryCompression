@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<script>
+        function cnnad_getTld (hostname)
+        {
+               var data = hostname.split(".");
+               if (data.length >= 2)
+               {
+                       return (data[data.length-2] + "." + data[data.length-1]);
+               }
+               return(null);
+        }
+ 
+        var cnnDocDomain = cnnad_getTld(location.hostname);
+        if(cnnDocDomain) {document.domain = cnnDocDomain;}
+
+	function cnnGetId(query) {
+		var keyValPairs = query.split('&');
+		if(!keyValPairs) {
+			keyValPairs = new Array();
+			keyValPairs[keyValPairs.length]=query;
+		}
+		for(var counter=0; counter < keyValPairs.length;counter++) {
+			var keyVal = keyValPairs[counter].split('=');
+			if(keyVal[0]=='domId') {
+				//alert("returning id: " + keyVal[1]);
+				return keyVal[1];
+			}
+		}
+	}
+			
+	function cnnSendData2() {
+		var docId = cnnGetId(decodeURIComponent(location.pathname.substring(9)));
+		var height = 280;
+		var width = 336;
+		top.cnnad_showAd(docId);
+		if ((height > 0)&&(width > 0))
+		{
+			top.cnnad_setAdSize(docId,height,width);
+		}
+	}
+</script> 
+</head>
+
+<body STYLE="background-color:transparent" onload="cnnSendData2()">
+<!--FlightID: 128751-->
+<script src="DartRichMedia_1_03.js"></script>
+
+<SCRIPT LANGUAGE=JavaScript>
+
+var swf_click = "http://ads.cnn.com/event.ng/Type=click&FlightID=128751&AdID=177521&TargetID=36959&Segments=690,2168,2372,2414,2743,3188,5496,7391,8463,8796,13751,13760,14044,14296,14879,15110,15399,15539,17251,17842,18515,18672&Targets=40789,40830,40874,40880,40928,41104,41109,41114,41353,41373,41486,41494,41564,41603,41716,41746,41816,41911,41920,27728,36387,36395,36443,36446,36451,36464,36478,36496,36502,36507,36517,36534,36560,36571,36580,36615,36765,36775,36795,36804,36821,36940,36947,37016,37046,37052,37054,37059,37088,37092,37094,37099,37212,37223,37231,37443,37861,38152,38352,38367,38478,38807,38858,6451,39765,39925,39926,39994,40113,40164,40204,40213,40345,40912,28662,29021,30973,35851,36380,36453,36456,36460,36557,36724,36736,36747,36752,36846,36852,36855,36865,36914,36959,37104,37106,37207,37769,37771,37775,38487,38548,38553,38889,38891,39387,39600,39602,39604,39606,39607,39612,3580,1515,2523,7386,19396,25871,26466,26985,28277,28707&Values=51,62,75,81,91,100,110,150,682,683,685,686,687,853,1293,1557,1575,1590,1598,1599,1601,2757,2863,4413,4418,4443,47181,47457,47740,49517,49520,49521,49553,52263,52507,52738,52900,54438,54682,54733,54738,54766,55059,55695,55998,56058,56609&RawValues=&Redirect=http://edition.cnn.com/CNNI/Programs/mycity_mylife/";
+var dcswf_click = escape(swf_click);
+var ShockMode = 0;
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+if (plugin && parseInt(plugin.description.substring(plugin.description.indexOf(".")-1)) >= 8) 
+{
+ShockMode = 1;
+}
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+&& (navigator.userAgent.indexOf("Windows 95")>=0 || navigator.userAgent.indexOf("Windows 98")>=0 || navigator.userAgent.indexOf("Windows NT")>=0)) {
+document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+document.write('on error resume next \n');
+
+document.write('ShockMode = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8")))\n');
+
+document.write('<\/SCRIPT\> \n');
+}
+if ( ShockMode ) {
+document.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+document.write(' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"');
+document.write(' ID=flashad WIDTH=336 HEIGHT=280>');
+document.write(' <PARAM NAME=movie VALUE="521415336x280_mycity3.swf"> '); 
+document.write(' <PARAM NAME=quality VALUE=autohigh> ');
+document.write(' <PARAM NAME=allowScriptAccess VALUE=always> '); 
+
+document.write(' <param name=wmode value=opaque> ');
+
+document.write(' <EMBED SRC="521415336x280_mycity3.swf" QUALITY=autohigh allowScriptAccess=always'); 
+document.write(' NAME=flashad swLiveConnect=TRUE WIDTH=336 HEIGHT=280 wmode=opaque');
+
+
+document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+document.write('</EMBED>');
+document.write('</OBJECT>');
+} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+document.write('<A HREF="http://ads.cnn.com/event.ng/Type=click&FlightID=128751&AdID=177521&TargetID=36959&Segments=690,2168,2372,2414,2743,3188,5496,7391,8463,8796,13751,13760,14044,14296,14879,15110,15399,15539,17251,17842,18515,18672&Targets=40789,40830,40874,40880,40928,41104,41109,41114,41353,41373,41486,41494,41564,41603,41716,41746,41816,41911,41920,27728,36387,36395,36443,36446,36451,36464,36478,36496,36502,36507,36517,36534,36560,36571,36580,36615,36765,36775,36795,36804,36821,36940,36947,37016,37046,37052,37054,37059,37088,37092,37094,37099,37212,37223,37231,37443,37861,38152,38352,38367,38478,38807,38858,6451,39765,39925,39926,39994,40113,40164,40204,40213,40345,40912,28662,29021,30973,35851,36380,36453,36456,36460,36557,36724,36736,36747,36752,36846,36852,36855,36865,36914,36959,37104,37106,37207,37769,37771,37775,38487,38548,38553,38889,38891,39387,39600,39602,39604,39606,39607,39612,3580,1515,2523,7386,19396,25871,26466,26985,28277,28707&Values=51,62,75,81,91,100,110,150,682,683,685,686,687,853,1293,1557,1575,1590,1598,1599,1601,2757,2863,4413,4418,4443,47181,47457,47740,49517,49520,49521,49553,52263,52507,52738,52900,54438,54682,54733,54738,54766,55059,55695,55998,56058,56609&RawValues=&Redirect=http://edition.cnn.com/CNNI/Programs/mycity_mylife/" target="_blank"><IMG SRC="191415336x280_mycity2.jpg" WIDTH=336 HEIGHT=280 BORDER=0></A>');
+}
+
+</SCRIPT>
+<NOEMBED>
+<A HREF="http://ads.cnn.com/event.ng/Type=click&FlightID=128751&AdID=177521&TargetID=36959&Segments=690,2168,2372,2414,2743,3188,5496,7391,8463,8796,13751,13760,14044,14296,14879,15110,15399,15539,17251,17842,18515,18672&Targets=40789,40830,40874,40880,40928,41104,41109,41114,41353,41373,41486,41494,41564,41603,41716,41746,41816,41911,41920,27728,36387,36395,36443,36446,36451,36464,36478,36496,36502,36507,36517,36534,36560,36571,36580,36615,36765,36775,36795,36804,36821,36940,36947,37016,37046,37052,37054,37059,37088,37092,37094,37099,37212,37223,37231,37443,37861,38152,38352,38367,38478,38807,38858,6451,39765,39925,39926,39994,40113,40164,40204,40213,40345,40912,28662,29021,30973,35851,36380,36453,36456,36460,36557,36724,36736,36747,36752,36846,36852,36855,36865,36914,36959,37104,37106,37207,37769,37771,37775,38487,38548,38553,38889,38891,39387,39600,39602,39604,39606,39607,39612,3580,1515,2523,7386,19396,25871,26466,26985,28277,28707&Values=51,62,75,81,91,100,110,150,682,683,685,686,687,853,1293,1557,1575,1590,1598,1599,1601,2757,2863,4413,4418,4443,47181,47457,47740,49517,49520,49521,49553,52263,52507,52738,52900,54438,54682,54733,54738,54766,55059,55695,55998,56058,56609&RawValues=&Redirect=http://edition.cnn.com/CNNI/Programs/mycity_mylife/" target="_blank"><IMG SRC="191415336x280_mycity2.jpg" WIDTH=336 HEIGHT=280 BORDER=0></A>
+</NOEMBED>
+<img src="1.gif" width=1 height=1 border=0>
+</body>
+</html>

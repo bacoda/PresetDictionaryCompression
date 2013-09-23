@@ -1,0 +1,1287 @@
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+			<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+			<head>				<script type="text/javascript">
+				var startTime = new Date();
+				var reportURL = 'http://winter.metacafe.com';
+				var prevCookies=document.cookie;
+								</script>
+				<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+				<meta name="robots" content="noodp" />		<script type="text/javascript">
+			var omnitureEnv = 'metacafeprod';
+		</script>
+				<script type="text/javascript">
+			var omnitureEnv = 'metacafeprod';
+		</script>
+		<link type="text/css" rel="stylesheet" href="metacafe.com_files/00000000.css" /><script type="text/javascript" src="metacafe.com_files/00000000.js"></script><link type="text/css" rel="stylesheet" href="metacafe.com_files/00000001.css" />		<title>Metacafe - Best Videos &amp; Funny Movies</title>
+					<meta name="description" content="One of the world's largest video sites, serving the best videos, funniest movies and clips." />
+							<meta name="keywords" content="funny, videos, best, movies, clips, films, free, download" />
+				<link rel="alternate" type="application/rss+xml" title="" href="/rss.xml" />			
+						</head>
+			<body>
+							<div id="PageWrapper">
+			<div id="Header">
+			<ul id="SiteNav">
+				<li class="report" id="HomeTab"><a href="" title="Metacafe - Video Entertainment, Powered by You" id="Logo" class="ImageRep">Metacafe</a></li>
+				<li class="Tab report" id="TodayTab"><a href="" title="Today" tabindex="1">Today</a></li>
+				<li class="Tab report" id="TopVideosTab"><a href="http://www.metacafe.com/top_videos/" title="Top Videos" tabindex="2">Top Videos</a></li>
+				<li class="Tab report" id="StudioTab"><a href="http://studio.metacafe.com/" title="Studio" tabindex="3">Studio</a></li>
+				<li class="Tab report" id="ChannelsTab"><a href="http://www.metacafe.com/channels/" title="Channels" tabindex="4">Channels</a></li>
+									<li class="report" id="SubmitTab"><a class="ImageRep" id="Submit" href="http://www.metacafe.com/submit/" title="Submit Your Video" tabindex="5">Submit</a></li>			</ul>		<form action="" method="post" id="SiteSearch">
+			<fieldset>
+				<label for="SearchQuery">Search</label>
+				<input type="text" class="TextField" size="50" name="searchQuery" tabindex="6" id="SearchQuery" />
+						<select name="CategoryFilter" id="slCategoryFilter">
+							<option value="" selected="selected">All Categories</option>
+							<option value="art_and_animation">Art &amp; Animation</option>
+							<option value="comedy">Comedy</option>
+							<option value="cool_commercials">Cool Commercials</option>
+							<option value="entertainment">Entertainment</option>
+							<option value="how_to">How To</option>
+							<option value="music_and_dance">Music &amp; Dance</option>
+							<option value="news_and_events">News &amp; Events</option>
+							<option value="people_and_stories">People &amp; Stories</option>
+							<option value="pets_and_animals">Pets &amp; Animals</option>
+							<option value="science_and_tech">Science &amp; Tech</option>
+							<option value="sports">Sports</option>
+							<option value="travel_and_outdoors">Travel &amp; Outdoors</option>
+							<option value="video_games">Video Games</option>
+							<option value="wheels_and_wings">Wheels &amp; Wings</option>
+							<option value="adult">18+ Only</option>
+					</select>
+						<input type="submit" name="search" class="Btn" value="Go" id="SrchBtn" tabindex="7" />
+			</fieldset>
+			<div class="FamilyFilter">
+				Family Filter
+									<a href="http://www.metacafe.com/family_filter/" title="Change Family Safe Mode" tabindex="8">On</a>
+							</div>
+		</form>
+		<!-- end HeaderSearchBox -->
+				<ul id="UserLinks">
+			<li id="ClientDL"><a href="http://www.metacafe.com/Openads/adclick.php?bannerid=184&zoneid=34&source=-page&dest=http%3A%2F%2Fs.mcstatic.com%2Fpackages%2FMetacafeSetup1.3.31.0.r.exe" title="Download Metacafe Pro">Download Metacafe Pro</a></li>					<li id="Register"><a href="https://secure.metacafe.com/account/login/?token=c831044bef29deb5add9a51ac0afef91" title="Register">Register</a></li>
+					<li><a id="Language" href="http://www.metacafe.com/dispatcher/langSelector/" class="rpc"><img src="metacafe.com_files/no000000.gif" alt="NO" /></a></li>
+					<li><a href="http://www.metacafe.com/recentchanges/" title="Wikicafe recent changes" class="report" id="WikiRecentChanges">Recent Changes</a></li>
+          <li id="SignIn"><a href="https://secure.metacafe.com/account/login/?token=c831044bef29deb5add9a51ac0afef91" title="Sign In">Sign In</a></li>		</ul>			<span id="uuGenContainer">&nbsp;</span>
+		</div>		<div id="Content">
+			<div id="Top">
+								<div id="SubHeader" class=""></div>			</div>
+			<div id="MainCol" class=""><div id="" class="AdProduct"><div id="CMU">
+<img src="metacafe.com_files/Wikicafe.jpg" alt="Background" id="BG"/>
+<ul class="Items Default">
+<li>
+<a target='_top' title="Join the Wikicafe Beta" href="http://www.metacafe.com/Openads//adclick.php?bannerid=2784&amp;zoneid=208&amp;source=searchText-%3Bcategory-0%3Bpage-%3Bccd-%3B&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fwikicafe&amp;ismap=" class="ItemThumb">
+<img alt="The Graffiti Robot" src="metacafe.com_files/Wikicaff.jpg"/>
+</a>
+<h3 class="ItemTitle">
+Join the Wikicafe Beta </h3>
+<p class="ItemInfo">
+Metacafe's newest feature allows you to instantly <br /> edit and enhance video tags, descriptions and more. <br /><br /> <a target='_top' title="Join the Wikicafe Beta" href="http://www.metacafe.com/Openads//adclick.php?bannerid=2784&amp;zoneid=208&amp;source=searchText-%3Bcategory-0%3Bpage-%3Bccd-%3B&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fwikicafe&amp;ismap=">Click here </a> to join the Wikicafe beta program.</p>
+</li>
+</ul>
+</div><div id="beacon_2784" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='metacafe.com_files/adlog.gif' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div></div>		<div class="Catalog ">		<ol class="SortBy"><li><a title="Popular Now" class="Active">Popular Now</a></li><li><a href="http://www.metacafe.com/rated/" title="Highest Rated">Highest Rated</a></li><li><a href="http://www.metacafe.com/most_popular/" title="Most Viewed">Most Viewed</a></li>		<li id="CatSelect">
+			<form id="CatSelectForm" method="get" action="">
+				<label>Category&nbsp;
+					<select id="slCat" name="CatList">							<option value="/" selected>All Categories</option>							<option value="/art_and_animation/" >Art & Animation</option>							<option value="/comedy/" >Comedy</option>							<option value="/cool_commercials/" >Cool Commercials</option>							<option value="/entertainment/" >Entertainment</option>							<option value="/how_to/" >How To</option>							<option value="/music_and_dance/" >Music & Dance</option>							<option value="/news_and_events/" >News & Events</option>							<option value="/people_and_stories/" >People & Stories</option>							<option value="/pets_and_animals/" >Pets & Animals</option>							<option value="/science_and_tech/" >Science & Tech</option>							<option value="/sports/" >Sports</option>							<option value="/travel_and_outdoors/" >Travel & Outdoors</option>							<option value="/video_games/" >Video Games</option>							<option value="/wheels_and_wings/" >Wheels & Wings</option>							<option value="/adult/" >18+ Only</option>					</select>
+				</label>
+			</form>
+		</li>		</ol>		<ul class="Default Items" id="Catalog1">		 <li id="i1_0">
+			<a href="http://www.metacafe.com/watch/1471175/beach_royco_commercial/" title="Beach - Royco Commercial" class="ItemThumb" >
+								<img src="metacafe.com_files/beach_ro.jpg" alt="Beach - Royco Commercial" />
+				 
+				<span>00:29</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1471175/beach_royco_commercial/" title="Beach - Royco Commercial" >
+					<strong>Beach - Royco Commercial</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>1 hour ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.60</em> | 				<em >4,012 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Take a Moment and Get Away. Royco Minute Soup.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/cool_commercials/">Cool Commercials</a>			</p>
+		</li>		 <li id="i1_1">
+			<a href="http://www.metacafe.com/watch/1478968/why_they_dont_crash/" title="Why They Don't Crash? " class="ItemThumb" >
+								<img src="metacafe.com_files/why_they.jpg" alt="Why They Don't Crash? " />
+				 
+				<span>00:58</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478968/why_they_dont_crash/" title="Why They Don't Crash? " >
+					<strong>Why They Don't Crash? </strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>2 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.61</em> | 				<em >1,440 Views</em> | <em>1 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Unbelieveable!!! Very Crazy People.No Rules No Signals And No Crash.Unruly Traffic in my home town.You Must Watch.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/nainlove2005/" title="nainlove2005">nainlove2005</a>				More 					<a href="http://www.metacafe.com/top_videos/wheels_and_wings/">Wheels &amp; Wings</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i1_2">
+			<a href="http://www.metacafe.com/watch/1478649/how_its_made_rolls_royce/" title="How It's Made - Rolls Royce" class="ItemThumb" >
+								<img src="metacafe.com_files/how_its_.jpg" alt="How It's Made - Rolls Royce" />
+				 
+				<span>04:38</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478649/how_its_made_rolls_royce/" title="How It's Made - Rolls Royce" >
+					<strong>How It's Made - Rolls Royce</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>2 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.65</em> | 				<em >3,040 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				How made Rolls royce			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/valued/" title="valued">valued</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		 <li id="i1_3">
+			<a href="http://www.metacafe.com/watch/1474232/code_guardian_part_2/" title="Code Guardian Part 2" class="ItemThumb" >
+								<img src="metacafe.com_files/code_gua.jpg" alt="Code Guardian Part 2" />
+				 
+				<span>06:07</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1474232/code_guardian_part_2/" title="Code Guardian Part 2" >
+					<strong>Code Guardian Part 2</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>3 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.41</em> | 				<em >1,886 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				See part 1 here :  Code Guardian is here!
+After almost five years of wait and hard work in my spare time, my last
+short movie project is...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Turklar/" title="Turklar">Turklar</a>				More 					<a href="http://www.metacafe.com/top_videos/art_and_animation/">Art &amp; Animation</a>			</p>
+		</li>		 <li id="i1_4">
+			<a href="http://www.metacafe.com/watch/1477866/unicycle_compilation/" title="Unicycle Compilation" class="ItemThumb" >
+								<img src="metacafe.com_files/unicycle.jpg" alt="Unicycle Compilation" />
+				 
+				<span>01:15</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1477866/unicycle_compilation/" title="Unicycle Compilation" >
+					<strong>Unicycle Compilation</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>3 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.62</em> | 				<em >3,241 Views</em> | <em>3 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Enjoy.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/neuroshment/" title="neuroshment">neuroshment</a>				More 					<a href="http://www.metacafe.com/top_videos/wheels_and_wings/">Wheels &amp; Wings</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i1_5">
+			<a href="http://www.metacafe.com/watch/1478045/splendour_in_the_seas_4_4/" title="Splendour in the Seas  4/4  " class="ItemThumb" >
+								<img src="metacafe.com_files/splendou.jpg" alt="Splendour in the Seas  4/4  " />
+				 
+				<span>08:55</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478045/splendour_in_the_seas_4_4/" title="Splendour in the Seas  4/4  " >
+					<strong>Splendour in the Seas  4/4  </strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>4 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.32</em> | 				<em >1,508 Views</em> | <em>5 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Fish concealing themselves with wonderful methods of camouflage… False eyes on fishes’ fins which astound their enemies… Intelligent praw...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/fikret1/" title="fikret1">fikret1</a>				More 					<a href="http://www.metacafe.com/top_videos/pets_and_animals/">Pets &amp; Animals</a>, 					<a href="http://www.metacafe.com/top_videos/travel_and_outdoors/">Travel &amp; Outdoors</a>			</p>
+		</li>		 <li id="i1_6">
+			<a href="http://www.metacafe.com/watch/1477631/lastest_shoes_rage_in_japan/" title="Lastest Shoes Rage in Japan" class="ItemThumb" >
+								<img src="metacafe.com_files/lastest_.jpg" alt="Lastest Shoes Rage in Japan" />
+				 
+				<span>01:25</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1477631/lastest_shoes_rage_in_japan/" title="Lastest Shoes Rage in Japan" >
+					<strong>Lastest Shoes Rage in Japan</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>4 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.49</em> | 				<em >4,616 Views</em> | <em>4 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				the lastest shoes rage in japan, la ultima moda de zapatos en japon, rare shoes			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/josealmanza/" title="josealmanza">josealmanza</a>				More 					<a href="http://www.metacafe.com/top_videos/cool_commercials/">Cool Commercials</a>			</p>
+		</li>		 <li id="i1_7">
+			<a href="http://www.metacafe.com/watch/1479396/axe_phone_number/" title="AXE Phone Number" class="ItemThumb" >
+								<img src="metacafe.com_files/axe_phon.jpg" alt="AXE Phone Number" />
+				 
+				<span>00:31</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479396/axe_phone_number/" title="AXE Phone Number" >
+					<strong>AXE Phone Number</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>6 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.00</em> | 				<em >5,900 Views</em> | <em>2 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Streaming AXE Phone Number. Girl drawing her phone number over toast. Cool Commercial ads.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/cool_commercials/">Cool Commercials</a>			</p>
+		</li>		 <li id="i1_8">
+			<a href="http://www.metacafe.com/watch/1479113/shooting_tips_by_rob_leatham_springfield_pistols/" title="Shooting Tips by Rob Leatham, Springfield  Pistols" class="ItemThumb" >
+								<img src="metacafe.com_files/shooting.jpg" alt="Shooting Tips by Rob Leatham, Springfield  Pistols" />
+				 
+				<span>01:25</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479113/shooting_tips_by_rob_leatham_springfield_pistols/" title="Shooting Tips by Rob Leatham, Springfield  Pistols" >
+					<strong>Shooting Tips by Rob Leatham, Springfield  Pistols</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>6 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.34</em> | 				<em >1,950 Views</em> | <em>0 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Shooting Tips by Rob Leatham
+Springfield pistols Handguns			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/husnain67/" title="husnain67">husnain67</a>				More 					<a href="http://www.metacafe.com/top_videos/science_and_tech/">Science &amp; Tech</a>			</p>
+		</li>		 <li id="i1_9">
+			<a href="http://www.metacafe.com/watch/1479208/jumpstart_the_original/" title="Jumpstart - THE ORIGINAL" class="ItemThumb" >
+								<img src="metacafe.com_files/jumpstar.jpg" alt="Jumpstart - THE ORIGINAL" />
+				 
+				<span>01:50</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479208/jumpstart_the_original/" title="Jumpstart - THE ORIGINAL" >
+					<strong>Jumpstart - THE ORIGINAL</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>7 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.73</em> | 				<em >4,500 Views</em> | <em>7 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Created by simonchristen.com
+
+&quot;Jumpstart is a short film We had to come up with a story; design, model, rig and finally animate the chara...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/art_and_animation/">Art &amp; Animation</a>			</p>
+		</li>		 <li id="i1_10">
+			<a href="http://www.metacafe.com/watch/1478687/viva_chihuahuas/" title="Viva Chihuahuas!" class="ItemThumb" >
+								<img src="metacafe.com_files/viva_chi.jpg" alt="Viva Chihuahuas!" />
+				 
+				<span>00:59</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478687/viva_chihuahuas/" title="Viva Chihuahuas!" >
+					<strong>Viva Chihuahuas!</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>7 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.38</em> | 				<em >2,015 Views</em> | <em>0 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Join Papi in the chihuahua revolution. Heel!			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/beawealthy/" title="beawealthy">beawealthy</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i1_11">
+			<a href="http://www.metacafe.com/watch/1478550/burncast_tv_18_lala_toy/" title="BURNcast.TV #18 - Lala Toy" class="ItemThumb" >
+								<img src="metacafe.com_files/burncast.jpg" alt="BURNcast.TV #18 - Lala Toy" />
+				 
+				<span>06:51</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478550/burncast_tv_18_lala_toy/" title="BURNcast.TV #18 - Lala Toy" >
+					<strong>BURNcast.TV #18 - Lala Toy</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>8 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.03</em> | 				<em >6,213 Views</em> | <em>4 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Share your Burning Man			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/BURNcast/" title="BURNcast">BURNcast</a>				More 					<a href="http://www.metacafe.com/top_videos/people_and_stories/">People &amp; Stories</a>			</p>
+		</li>		 <li id="i1_12">
+			<a href="http://www.metacafe.com/watch/1475564/britney_spears_ab_workout_revealed/" title="Britney Spears' Ab Workout Revealed" class="ItemThumb" >
+								<img src="metacafe.com_files/britney_.jpg" alt="Britney Spears' Ab Workout Revealed" />
+				 
+				<span>04:25</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1475564/britney_spears_ab_workout_revealed/" title="Britney Spears' Ab Workout Revealed" >
+					<strong>Britney Spears' Ab Workout Revealed</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>9 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.38</em> | 				<em >5,149 Views</em> | <em>3 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				She may be out of shape now but not for long!
+
+Exercise like Britney Spears with this workout celebrity personal trainers have prescribed...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/DietHealth/" title="DietHealth">DietHealth</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		 <li id="i1_13">
+			<a href="http://www.metacafe.com/watch/1478539/stranded_bud_light_commercial/" title="Stranded - Bud Light Commercial" class="ItemThumb" >
+								<img src="metacafe.com_files/stranded.jpg" alt="Stranded - Bud Light Commercial" />
+				 
+				<span>00:31</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478539/stranded_bud_light_commercial/" title="Stranded - Bud Light Commercial" >
+					<strong>Stranded - Bud Light Commercial</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>10 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.52</em> | 				<em >4,744 Views</em> | <em>4 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Refreshingly Smooth Bud Light always Worth It.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>, 					<a href="http://www.metacafe.com/top_videos/cool_commercials/">Cool Commercials</a>			</p>
+		</li>		 <li id="i1_14">
+			<a href="http://www.metacafe.com/watch/1479362/cleaning_your_microwave_with_lemons/" title="Cleaning Your Microwave With Lemons" class="ItemThumb" >
+								<img src="metacafe.com_files/cleaning.jpg" alt="Cleaning Your Microwave With Lemons" />
+				 
+				<span>01:56</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479362/cleaning_your_microwave_with_lemons/" title="Cleaning Your Microwave With Lemons" >
+					<strong>Cleaning Your Microwave With Lemons</strong>
+				</a>
+								<span>
+										<em>Popular</em>
+					<strong>11 hours ago</strong>
+									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.66</em> | 				<em >6,181 Views</em> | <em>7 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Cleaning Your Microwave With Lemons.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/ikosk/" title="ikosk">ikosk</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		</ul>		<div id="CatalogPageSelector">
+			<ul class="PageSelector">
+								<li id="Previous" class="InActive"><a title="Browse to previous page" href="" rel="0"><span>Previous</span></a></li>
+
+								<li><span class="Active">1</span></li>
+
+				
+								<li><a rel="pageNumber=2" href="http://www.metacafe.com/page-2/" class="PageNumber"><span>2</span></a></li>
+
+				
+								<li><a rel="pageNumber=3" href="http://www.metacafe.com/page-3/" class="PageNumber"><span>3</span></a></li>
+
+				
+								<li><a rel="pageNumber=4" href="http://www.metacafe.com/page-4/" class="PageNumber"><span>4</span></a></li>
+
+				
+								<li><a rel="pageNumber=5" href="http://www.metacafe.com/page-5/" class="PageNumber"><span>5</span></a></li>
+
+				
+								<li><a rel="pageNumber=6" href="http://www.metacafe.com/page-6/" class="PageNumber"><span>6</span></a></li>
+
+				
+								<li><a rel="pageNumber=7" href="http://www.metacafe.com/page-7/" class="PageNumber"><span>7</span></a></li>
+
+				
+								<li><a rel="pageNumber=8" href="http://www.metacafe.com/page-8/" class="PageNumber"><span>8</span></a></li>
+
+				
+								<li><a rel="pageNumber=9" href="http://www.metacafe.com/page-9/" class="PageNumber"><span>9</span></a></li>
+
+				
+								<li><strong>...</strong></li>
+				
+				<li id="Next" ><a title="Browse to next page" rel="pageNumber=2" href="http://www.metacafe.com/page-2/"><span>Next</span></a></li>
+			</ul>
+		</div>
+				</div></div>			
+			<div id="SideCol" class=""><div id="" class="AdProduct">				<!-- begin DoubleClick ad tag-->
+				<iframe id="DclkBnr" src="metacafe.com_files/all00000.htm" width="300" height="300" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling=no borderCOLOR="#000000" allowtransparancy="1">
+				<script src="http://ad.doubleclick.net/adj/mc.today.f1;sz=300x300;age=-1;gen=;leid=499;tile=1;pos=1;ord=1215698421;campaign=;dcZone=/rp/all;pg=1;abr=!ie?" type="text/javascript"></script>
+				<noscript><a href="http://ad.doubleclick.net/jump/mc.today.f1;sz=300x300;age=-1;gen=;leid=499;tile=1;pos=1;ord=1215698421;campaign=;dcZone=/rp/all;pg=1;abr=!ie4;abr=!ie5;abr=!ie6?" target="_blank"><img src="http://ad.doubleclick.net/ad/mc.today.f1;sz=300x300;age=-1;gen=;leid=499;tile=1;pos=1;ord=1215698421;campaign=;dcZone=/rp/all;pg=1;abr=!ie4;abr=!ie5;abr=!ie6;?" width="300" height="300" border="0" alt="" /></a></noscript>
+				</iframe>
+				<!-- End DoubleClick ad tag -->
+				</div><div id="HPFeatures"><big id="SectionHeading" class="h3">Features</big><p class="FeaturesSection"><a target='_top' class='VideoThumb' alt='Wannahaves' href='http://www.metacafe.com/Openads//adclick.php?bannerid=2716&amp;zoneid=167&amp;source=&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fwannahaves%2F&amp;ismap='>
+<img alt='Wannahaves' src='metacafe.com_files/Thumb-fe.jpg'/> </a>
+<a target='_top' href='http://www.metacafe.com/Openads//adclick.php?bannerid=2716&amp;zoneid=167&amp;source=&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fwannahaves%2F&amp;ismap='> <img class='imgHeading' alt='Wannahaves' src='metacafe.com_files/titleHP_.jpg'></a>
+<span> Daily Gadget, Lifestyle and Gaming reviews can now be found on the<a target='_top' href='http://www.metacafe.com/Openads//adclick.php?bannerid=2716&amp;zoneid=167&amp;source=&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fwannahaves%2F&amp;ismap='> Metacafe Wannahaves Channel.</a> </span><div id="beacon_2716" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='metacafe.com_files/adlog.gif' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div></p><p class="FeaturesSection LastSection"><a target='_top' class='VideoThumb' alt='DIGG' href='http://www.metacafe.com/Openads//adclick.php?bannerid=2718&amp;zoneid=195&amp;source=&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fdigg%2F&amp;ismap='>
+<img alt='Digg' src='metacafe.com_files/Features.gif'/> </a>
+<a target='_top' href='http://www.metacafe.com/Openads//adclick.php?bannerid=2718&amp;zoneid=195&amp;source=&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fdigg&amp;ismap='> <img class='imgHeading' alt='Digg' src='metacafe.com_files/Featuret.gif'> </a>
+<span>Digg your favorite Metacafe videos! Check out the most dugg videos and movies on the<a target='_top' href='http://www.metacafe.com/Openads//adclick.php?bannerid=2718&amp;zoneid=195&amp;source=&amp;dest=http%3A%2F%2Fwww.metacafe.com%2Fdigg%2F&amp;ismap='> Digg Channel. </a> </span><div id="beacon_2718" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='metacafe.com_files/adlog.gif' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div></p></div>			<div class="Panel " id="Ctoday1">						<h3 class="h3 Fold">Today's Best Videos			</h3>		<div class="Catalog Scrl">		<ul class="Mode1 Items" id="Catalog2">		 <li id="i2_0">
+			<a href="http://www.metacafe.com/watch/1478858/girl_has_crystals_coming_out_of_eyes/" title="Girl Has Crystals Coming Out Of Eyes" class="ItemThumb" >
+								<img src="metacafe.com_files/girl_has.jpg" alt="Girl Has Crystals Coming Out Of Eyes" />
+				 
+				<span>00:55</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478858/girl_has_crystals_coming_out_of_eyes/" title="Girl Has Crystals Coming Out Of Eyes" >
+					<strong>Girl Has Crystals...</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.37</em> | 				<em >26,602 Views</em> | <em>33 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Unquestionably one of the weirdest things we've ever seen. A 12 year-old girl from Lebanon has razor-sharp crystals coming out of her eyes....			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Diagonal/" title="Diagonal">Diagonal</a>				More 					<a href="http://www.metacafe.com/top_videos/people_and_stories/">People &amp; Stories</a>			</p>
+		</li>		 <li id="i2_1">
+			<a href="http://www.metacafe.com/watch/1476645/top_10_freaks_of_nature/" title="Top 10 Freaks of Nature" class="ItemThumb" >
+								<img src="metacafe.com_files/top_10_f.jpg" alt="Top 10 Freaks of Nature" />
+				 
+				<span>03:20</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1476645/top_10_freaks_of_nature/" title="Top 10 Freaks of Nature" >
+					<strong>Top 10 Freaks of...</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.19</em> | 				<em >16,109 Views</em> | <em>8 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Weird and wonderful facts about unique human beings. Find out about the tallest, shortest and heavest people who have ever lived and many other fas...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/TOP10Video/" title="TOP10Video">TOP10Video</a>				More 					<a href="http://www.metacafe.com/top_videos/people_and_stories/">People &amp; Stories</a>, 					<a href="http://www.metacafe.com/top_videos/science_and_tech/">Science &amp; Tech</a>			</p>
+		</li>		 <li id="i2_2">
+			<a href="http://www.metacafe.com/watch/1479396/axe_phone_number/" title="AXE Phone Number" class="ItemThumb" >
+								<img src="metacafe.com_files/axe_phoo.jpg" alt="AXE Phone Number" />
+				 
+				<span>00:31</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479396/axe_phone_number/" title="AXE Phone Number" >
+					<strong>AXE Phone Number</strong>
+				</a>
+								<span>
+										18 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.00</em> | 				<em >5,900 Views</em> | <em>2 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Streaming AXE Phone Number. Girl drawing her phone number over toast. Cool Commercial ads.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/cool_commercials/">Cool Commercials</a>			</p>
+		</li>		 <li id="i2_3">
+			<a href="http://www.metacafe.com/watch/1471486/bull/" title="Bull" class="ItemThumb" >
+								<img src="metacafe.com_files/bull0000.jpg" alt="Bull" />
+				 
+				<span>00:14</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1471486/bull/" title="Bull" >
+					<strong>Bull</strong>
+				</a>
+								<span>
+										2 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.90</em> | 				<em >1,873 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				The bull lose by himself			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Ace28/" title="Ace28">Ace28</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>			</p>
+		</li>		 <li id="i2_4">
+			<a href="http://www.metacafe.com/watch/1475248/scary_movie_4_funny_scene/" title="Scary Movie 4 - Funny Scene" class="ItemThumb" >
+								<img src="metacafe.com_files/scary_mo.jpg" alt="Scary Movie 4 - Funny Scene" />
+				 
+				<span>02:26</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1475248/scary_movie_4_funny_scene/" title="Scary Movie 4 - Funny Scene" >
+					<strong>Scary Movie 4 - F...</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.85</em> | 				<em >14,782 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Scary Movie Four: Guy takes Viagra instead of Sleeping pills...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/sincity5555/" title="sincity5555">sincity5555</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i2_5">
+			<a href="http://www.metacafe.com/watch/1478903/coin_vanish_magic_trick_tutorial/" title="Coin Vanish Magic Trick Tutorial" class="ItemThumb" >
+								<img src="metacafe.com_files/coin_van.jpg" alt="Coin Vanish Magic Trick Tutorial" />
+				 
+				<span>01:12</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478903/coin_vanish_magic_trick_tutorial/" title="Coin Vanish Magic Trick Tutorial" >
+					<strong>Coin Vanish Magic...</strong>
+				</a>
+								<span>
+										23 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.77</em> | 				<em >2,134 Views</em> | <em>4 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				http://www.freemagictricks4u.com
+For More FREE Magic Tricks and Illusions.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/FreeMagic4u/" title="FreeMagic4u">FreeMagic4u</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		 <li id="i2_6">
+			<a href="http://www.metacafe.com/watch/1479208/jumpstart_the_original/" title="Jumpstart - THE ORIGINAL" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s1.mcstatic.com/thumb/1479208/7425565/4/panel_catalog/0/1/jumpstart_the_original.jpg" alt="Jumpstart - THE ORIGINAL" />
+				 
+				<span>01:50</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479208/jumpstart_the_original/" title="Jumpstart - THE ORIGINAL" >
+					<strong>Jumpstart - THE O...</strong>
+				</a>
+								<span>
+										21 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.73</em> | 				<em >4,500 Views</em> | <em>7 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Created by simonchristen.com
+
+&quot;Jumpstart is a short film We had to come up with a story; design, model, rig and finally animate the characters. The...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/art_and_animation/">Art &amp; Animation</a>			</p>
+		</li>		 <li id="i2_7">
+			<a href="http://www.metacafe.com/watch/1477646/usb_popcorn_maker/" title="USB Popcorn Maker" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/1477646/7421430/4/panel_catalog/0/1/usb_popcorn_maker.jpg" alt="USB Popcorn Maker" />
+				 
+				<span>01:21</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1477646/usb_popcorn_maker/" title="USB Popcorn Maker" >
+					<strong>USB Popcorn Maker</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.71</em> | 				<em >33,981 Views</em> | <em>10 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Make fresh popcorn with your laptop.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/loup226/" title="loup226">loup226</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>, 					<a href="http://www.metacafe.com/top_videos/science_and_tech/">Science &amp; Tech</a>			</p>
+		</li>		 <li id="i2_8">
+			<a href="http://www.metacafe.com/watch/1482010/how_to_make_smoke_come_out_of_your_fingers/" title="How To Make Smoke Come Out Of Your Fingers" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/1482010/7435012/4/panel_catalog/0/1/how_to_make_smoke_come_out_of_your_fingers.jpg" alt="How To Make Smoke Come Out Of Your Fingers" />
+				 
+				<span>02:35</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1482010/how_to_make_smoke_come_out_of_your_fingers/" title="How To Make Smoke Come Out Of Your Fingers" >
+					<strong>How To Make Smoke...</strong>
+				</a>
+								<span>
+										3 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.70</em> | 				<em >1,445 Views</em> | <em>2 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				must see pretty awsome!			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/trickliferocks/" title="trickliferocks">trickliferocks</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>, 					<a href="http://www.metacafe.com/top_videos/science_and_tech/">Science &amp; Tech</a>			</p>
+		</li>		 <li id="i2_9">
+			<a href="http://www.metacafe.com/watch/1478649/how_its_made_rolls_royce/" title="How It's Made - Rolls Royce" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s2.mcstatic.com/thumb/1478649/7424107/4/panel_catalog/0/1/how_its_made_rolls_royce.jpg" alt="How It's Made - Rolls Royce" />
+				 
+				<span>04:38</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478649/how_its_made_rolls_royce/" title="How It's Made - Rolls Royce" >
+					<strong>How It's Made - R...</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.65</em> | 				<em >3,040 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				How made Rolls royce			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/valued/" title="valued">valued</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		 <li id="i2_10">
+			<a href="http://www.metacafe.com/watch/1479355/sweet_canadian_street_performer/" title="Sweet Canadian Street Performer" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s4.mcstatic.com/thumb/1479355/7426051/4/panel_catalog/0/1/sweet_canadian_street_performer.jpg" alt="Sweet Canadian Street Performer" />
+				 
+				<span>02:09</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1479355/sweet_canadian_street_performer/" title="Sweet Canadian Street Performer" >
+					<strong>Sweet Canadian St...</strong>
+				</a>
+								<span>
+										20 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.63</em> | 				<em >1,114 Views</em> | <em>1 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				This street performer in Montreal Canada has got some sick skills with a giant hoop!			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/soul3/" title="soul3">soul3</a>				More 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>, 					<a href="http://www.metacafe.com/top_videos/music_and_dance/">Music &amp; Dance</a>			</p>
+		</li>		 <li id="i2_11">
+			<a href="http://www.metacafe.com/watch/1475795/how_to_make_towel_elephant/" title="How To Make Towel Elephant" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s4.mcstatic.com/thumb/1475795/7416773/4/panel_catalog/0/1/how_to_make_towel_elephant.jpg" alt="How To Make Towel Elephant" />
+				 
+				<span>01:10</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1475795/how_to_make_towel_elephant/" title="How To Make Towel Elephant" >
+					<strong>How To Make Towel...</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.67</em> | 				<em >9,711 Views</em> | <em>6 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				How To Make Towel Elephant. More: http://www.infotv.sk			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/ikosk/" title="ikosk">ikosk</a>				More 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		 <li id="i2_12">
+			<a href="http://www.metacafe.com/watch/1475576/rc_helicopter_fishing_dave_tries_hand_at_heli_fishing/" title="RC Helicopter FISHING! Dave Tries Hand at &quot;Heli Fishing&quot;" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s1.mcstatic.com/thumb/1475576/7416368/4/panel_catalog/0/1/rc_helicopter_fishing_dave_tries_hand_at_heli_fishing.jpg" alt="RC Helicopter FISHING! Dave Tries Hand at &quot;Heli Fishing&quot;" />
+				 
+				<span>03:12</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1475576/rc_helicopter_fishing_dave_tries_hand_at_heli_fishing/" title="RC Helicopter FISHING! Dave Tries Hand at &quot;Heli Fishing&quot;" >
+					<strong>RC Helicopter FIS...</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.63</em> | 				<em >8,713 Views</em> | <em>23 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Risking my $469 E-Flite Blade 400 for some entertainment, (even if you don't believe it), I doubt most others would risk their heli just to hover o...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Night+Flyer/" title="Night Flyer">Night Flyer</a>				More 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>, 					<a href="http://www.metacafe.com/top_videos/science_and_tech/">Science &amp; Tech</a>			</p>
+		</li>		 <li id="i2_13">
+			<a href="http://www.metacafe.com/watch/1477866/unicycle_compilation/" title="Unicycle Compilation" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/1477866/7421994/4/panel_catalog/0/1/unicycle_compilation.jpg" alt="Unicycle Compilation" />
+				 
+				<span>01:15</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1477866/unicycle_compilation/" title="Unicycle Compilation" >
+					<strong>Unicycle Compilation</strong>
+				</a>
+								<span>
+										Yesterday									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.62</em> | 				<em >3,241 Views</em> | <em>3 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Enjoy.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/neuroshment/" title="neuroshment">neuroshment</a>				More 					<a href="http://www.metacafe.com/top_videos/wheels_and_wings/">Wheels &amp; Wings</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i2_14">
+			<a href="http://www.metacafe.com/watch/1478968/why_they_dont_crash/" title="Why They Don't Crash? " class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s1.mcstatic.com/thumb/1478968/7424930/4/panel_catalog/0/1/why_they_dont_crash.jpg" alt="Why They Don't Crash? " />
+				 
+				<span>00:58</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1478968/why_they_dont_crash/" title="Why They Don't Crash? " >
+					<strong>Why They Don't Cr...</strong>
+				</a>
+								<span>
+										3 hours ago									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.61</em> | 				<em >1,440 Views</em> | <em>1 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Unbelieveable!!! Very Crazy People.No Rules No Signals And No Crash.Unruly Traffic in my home town.You Must Watch.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/nainlove2005/" title="nainlove2005">nainlove2005</a>				More 					<a href="http://www.metacafe.com/top_videos/wheels_and_wings/">Wheels &amp; Wings</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		</ul>		</div>			<div class="PanelBtm"><a href="http://www.metacafe.com/rated/">View more Today's Best Videos</a></div>			</div>			<div class="Panel " id="Crecently_popular2">						<h3 class="h3 Fold">Metacafe Classics			</h3>		<div class="Catalog Scrl">		<ul class="Mode1 Items" id="Catalog3">		 <li id="i3_0">
+			<a href="http://www.metacafe.com/watch/168411/c6_z06_vs_gallardo/" title="C6 Z06 Vs Gallardo" class="ItemThumb" >
+								<img src="metacafe.com_files/c6_z06_v.jpg" alt="C6 Z06 Vs Gallardo" />
+				 
+				<span>01:03</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/168411/c6_z06_vs_gallardo/" title="C6 Z06 Vs Gallardo" >
+					<strong>C6 Z06 Vs Gallardo</strong>
+				</a>
+								<span>
+										15-Jul-06									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.32</em> | 				<em >56,971 Views</em> | <em>43 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Fast street race between two fast cars. Who's faster???			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/jum3a_316/" title="jum3a_316">jum3a_316</a>				More 					<a href="http://www.metacafe.com/top_videos/wheels_and_wings/">Wheels &amp; Wings</a>, 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		 <li id="i3_1">
+			<a href="http://www.metacafe.com/watch/20406/martial_arts_tricks/" title="Martial Arts Tricks" class="ItemThumb" >
+								<img src="metacafe.com_files/martial_.jpg" alt="Martial Arts Tricks" />
+				 
+				<span>03:13</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/20406/martial_arts_tricks/" title="Martial Arts Tricks" >
+					<strong>Martial Arts Tricks</strong>
+				</a>
+								<span>
+										21-Dec-04									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.31</em> | 				<em >200,311 Views</em> | <em>55 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Crazy acrobatics from some martialarts demonstrations.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/" title="212971">212971</a>				More 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		 <li id="i3_2">
+			<a href="http://www.metacafe.com/watch/1011939/arnold_schwarzenegger_and_ronnie_coleman/" title="Arnold Schwarzenegger and Ronnie Coleman" class="ItemThumb" >
+								<img src="metacafe.com_files/arnold_s.jpg" alt="Arnold Schwarzenegger and Ronnie Coleman" />
+				 
+				<span>01:31</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1011939/arnold_schwarzenegger_and_ronnie_coleman/" title="Arnold Schwarzenegger and Ronnie Coleman" >
+					<strong>Arnold Schwarzene...</strong>
+				</a>
+								<span>
+										01-Jan-08									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.26</em> | 				<em >134,229 Views</em> | <em>16 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				this man is awesome... Just look Arnold in this video and you will have an idea.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/mib2_007/" title="mib2_007">mib2_007</a>				More 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>, 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		 <li id="i3_3">
+			<a href="http://www.metacafe.com/watch/34006/crybaby/" title="Crybaby" class="ItemThumb" >
+								<img src="metacafe.com_files/crybaby0.jpg" alt="Crybaby" />
+				 
+				<span>01:35</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/34006/crybaby/" title="Crybaby" >
+					<strong>Crybaby</strong>
+				</a>
+								<span>
+										03-Oct-05									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.30</em> | 				<em >83,060 Views</em> | <em>47 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Sometimes it pays to cry, and sometimes it doesn't			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Ronen/" title="Ronen">Ronen</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/people_and_stories/">People &amp; Stories</a>			</p>
+		</li>		 <li id="i3_4">
+			<a href="http://www.metacafe.com/watch/631151/aishwarya_rai_nude_back/" title="Aishwarya Rai Nude Back " class="ItemThumb" >
+								<img src="metacafe.com_files/aishwary.jpg" alt="Aishwarya Rai Nude Back " />
+				 
+				<span>00:27</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/631151/aishwarya_rai_nude_back/" title="Aishwarya Rai Nude Back " >
+					<strong>Aishwarya Rai Nud...</strong>
+				</a>
+								<span>
+										06-Jun-07									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.33</em> | 				<em >285,676 Views</em> | <em>17 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Indian actress Aishwarya Rai changing blouse, showing her nude back in one of the south indian movies. Wow, She is so hot !			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/amitmalhotra/" title="amitmalhotra">amitmalhotra</a>				More 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i3_5">
+			<a href="http://www.metacafe.com/watch/550877/messi_ronaldo_true_footballers/" title="Messi &amp; Ronaldo True Footballers" class="ItemThumb" >
+								<img src="metacafe.com_files/messi_ro.jpg" alt="Messi &amp; Ronaldo True Footballers" />
+				 
+				<span>03:18</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/550877/messi_ronaldo_true_footballers/" title="Messi &amp; Ronaldo True Footballers" >
+					<strong>Messi &amp; Ronaldo T...</strong>
+				</a>
+								<span>
+										30-Apr-07									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.22</em> | 				<em >20,365 Views</em> | <em>10 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Skills and thrills from to of the greatest footballers, which are still to reach their prime enjoy
+
+by keith swarnadhipathi			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/" title="5124430">5124430</a>				More 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		 <li id="i3_6">
+			<a href="http://www.metacafe.com/watch/894133/how_to_tie_a_tie_under_10_seconds_unbelievable/" title="How To Tie A Tie Under 10 Seconds - Unbelievable!!" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s2.mcstatic.com/thumb/894133/5239641/4/panel_catalog/0/1/how_to_tie_a_tie_under_10_seconds_unbelievable.jpg" alt="How To Tie A Tie Under 10 Seconds - Unbelievable!!" />
+				 
+				<span>02:36</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/894133/how_to_tie_a_tie_under_10_seconds_unbelievable/" title="How To Tie A Tie Under 10 Seconds - Unbelievable!!" >
+					<strong>How To Tie A Tie...</strong>
+				</a>
+								<span>
+										30-Oct-07									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.38</em> | 				<em >333,170 Views</em> | <em>41 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Earned $1,665</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				This is known as the fastest way to tie a tie under 10 seconds, save you a lot of time, everybody can learn it in 3 minutes.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/tycoyoken/" title="tycoyoken">tycoyoken</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/how_to/">How To</a>			</p>
+		</li>		 <li id="i3_7">
+			<a href="http://www.metacafe.com/watch/900910/best_compilation_jeff_dunham_comedy_arguing_with_myself_walter_p/" title="Best Compilation Jeff Dunham Comedy Arguing With Myself Walter P" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/900910/5268227/4/panel_catalog/0/1/best_compilation_jeff_dunham_comedy_arguing_with_myself_walter_p.jpg" alt="Best Compilation Jeff Dunham Comedy Arguing With Myself Walter P" />
+				 
+				<span>08:56</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/900910/best_compilation_jeff_dunham_comedy_arguing_with_myself_walter_p/" title="Best Compilation Jeff Dunham Comedy Arguing With Myself Walter P" >
+					<strong>Best Compilation...</strong>
+				</a>
+								<span>
+										05-Nov-07									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.31</em> | 				<em >20,337 Views</em> | <em>11 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Jeff Dunham best of Spark Of Insanity and Arguing With Myself			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/raducanuflorian/" title="raducanuflorian">raducanuflorian</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i3_8">
+			<a href="http://www.metacafe.com/watch/126377/army_special_operation_forces/" title="Army Special Operation Forces" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s2.mcstatic.com/thumb/126377/688813/4/panel_catalog/2/1/army_special_operation_forces.jpg" alt="Army Special Operation Forces" />
+				 
+				<span>01:18</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/126377/army_special_operation_forces/" title="Army Special Operation Forces" >
+					<strong>Army Special Oper...</strong>
+				</a>
+									<small dir="ltr">[13+]</small>
+								<span>
+										10-May-06									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.26</em> | 				<em >28,285 Views</em> | <em>15 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				this amazing video shows people why they are the best of the best			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Infidel+for+life/" title="Infidel for life">Infidel for life</a>				More 					<a href="http://www.metacafe.com/top_videos/news_and_events/">News &amp; Events</a>			</p>
+		</li>		 <li id="i3_9">
+			<a href="http://www.metacafe.com/watch/495066/fadi/" title="Fadi" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/495066/3388041/4/panel_catalog/0/1/fadi.jpg" alt="Fadi" />
+				 
+				<span>03:27</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/495066/fadi/" title="Fadi" >
+					<strong>Fadi</strong>
+				</a>
+								<span>
+										26-Mar-07									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.31</em> | 				<em >62,350 Views</em> | <em>16 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				aaaaaaaaaaaaaa			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/" title="4702773">4702773</a>				More 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		 <li id="i3_10">
+			<a href="http://www.metacafe.com/watch/1367609/top_20_comedy_moments_2/" title="Top 20  Comedy Moments 2" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s2.mcstatic.com/thumb/1367609/7098643/4/panel_catalog/0/1/top_20_comedy_moments_2.jpg" alt="Top 20  Comedy Moments 2" />
+				 
+				<span>05:52</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1367609/top_20_comedy_moments_2/" title="Top 20  Comedy Moments 2" >
+					<strong>Top 20  Comedy Mo...</strong>
+				</a>
+								<span>
+										06-Jun-08									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.25</em> | 				<em >31,099 Views</em> | <em>2 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				see this!!			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/bepop_siput/" title="bepop_siput">bepop_siput</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		 <li id="i3_11">
+			<a href="http://www.metacafe.com/watch/615618/skirts_away_funny_clip/" title="Skirts Away !!! - Funny Clip" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/615618/4028819/4/panel_catalog/0/1/skirts_away_funny_clip.jpg" alt="Skirts Away !!! - Funny Clip" />
+				 
+				<span>00:19</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/615618/skirts_away_funny_clip/" title="Skirts Away !!! - Funny Clip" >
+					<strong>Skirts Away !!! -...</strong>
+				</a>
+								<span>
+										30-May-07									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.41</em> | 				<em >154,388 Views</em> | <em>8 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Skirts Away !!! - funny clip			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/7eleveng/" title="7eleveng">7eleveng</a>				More 					<a href="http://www.metacafe.com/top_videos/comedy/">Comedy</a>, 					<a href="http://www.metacafe.com/top_videos/entertainment/">Entertainment</a>			</p>
+		</li>		 <li id="i3_12">
+			<a href="http://www.metacafe.com/watch/7710/nike_hotdog_cart/" title="Nike - Hotdog Cart" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/7710/25420/4/panel_catalog/0/1/nike_hotdog_cart.jpg" alt="Nike - Hotdog Cart" />
+				 
+				<span>01:00</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/7710/nike_hotdog_cart/" title="Nike - Hotdog Cart" >
+					<strong>Nike - Hotdog Cart</strong>
+				</a>
+								<span>
+										01-Dec-04									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.33</em> | 				<em >123,594 Views</em> | <em>21 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				Guy cahses a hotdog stand all around town just for some.....			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/Bill+-+Just+Bill/" title="Bill - Just Bill">Bill - Just Bill</a>				More 					<a href="http://www.metacafe.com/top_videos/cool_commercials/">Cool Commercials</a>			</p>
+		</li>		 <li id="i3_13">
+			<a href="http://www.metacafe.com/watch/1074/babysitter_dog/" title="Babysitter Dog" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s3.mcstatic.com/thumb/1074/4121/4/panel_catalog/2/1/babysitter_dog.jpg" alt="Babysitter Dog" />
+				 
+				<span>00:30</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1074/babysitter_dog/" title="Babysitter Dog" >
+					<strong>Babysitter Dog</strong>
+				</a>
+									<small dir="ltr">[13+]</small>
+								<span>
+										08-Apr-04									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.32</em> | 				<em >1,458,988 Views</em> | <em>193 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				This dog is the best babysitter. And they don't have to pay him.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/theman/" title="theman">theman</a>				More 					<a href="http://www.metacafe.com/top_videos/pets_and_animals/">Pets &amp; Animals</a>, 					<a href="http://www.metacafe.com/top_videos/people_and_stories/">People &amp; Stories</a>			</p>
+		</li>		 <li id="i3_14">
+			<a href="http://www.metacafe.com/watch/219695/the_jump_of_his_life/" title="The Jump Of His Life" class="ItemThumb" >
+								<img src="metacafe.com_files/Blank000.gif" title="http://s4.mcstatic.com/thumb/219695/1545643/4/panel_catalog/0/1/the_jump_of_his_life.jpg" alt="The Jump Of His Life" />
+				 
+				<span>02:14</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/219695/the_jump_of_his_life/" title="The Jump Of His Life" >
+					<strong>The Jump Of His Life</strong>
+				</a>
+								<span>
+										25-Aug-06									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 4.33</em> | 				<em >442,117 Views</em> | <em>64 Comments</em>
+							</p>
+			<p class="ItemInfo">
+				This professional, takes an illegal jump from one of the highest buildings in the world. It is so dangerous that in some countries, it's illegal.			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/" title="461023">461023</a>				More 					<a href="http://www.metacafe.com/top_videos/wheels_and_wings/">Wheels &amp; Wings</a>, 					<a href="http://www.metacafe.com/top_videos/sports/">Sports</a>			</p>
+		</li>		</ul>		</div>			<div class="PanelBtm"><a href="http://www.metacafe.com/classics/newest/">View all Metacafe Classics</a></div>			</div>		<div class="Panel" id="PRBox">
+			<h3 class="h3"><img src="metacafe.com_files/PRBoxLog.png" alt="Producer Rewards&trade; Powered by You" /></h3>
+			<div class="NoScrl">
+				<a class="report ProducerURL" href="http://www.metacafe.com/channels/LUCCHINA/">
+					<img src="metacafe.com_files/lucchina.jpg" class="UserThumb" alt="LUCCHINA's Videos" />
+				</a>
+				<h4><a class="report ProducerURL" href="http://www.metacafe.com/channels/LUCCHINA/" title="LUCCHINA">LUCCHINA</a></h4>
+				<ol class="UserInfo">
+					<li>Views: 40,953</li>
+					<li>Weekly Subscribers: 0</li>
+					<li>Comments: 43</li>
+					<li>Updated: 7.2.08</li>
+					<li>36 Videos</li>
+					<li class="Earn">Earnings: $8,096</li>
+				</ol>
+				<div class="Catalog">
+						<ul class="Mode1 Items" id="Catalog4">		 <li id="i4_0">
+			<a href="http://www.metacafe.com/watch/1424420/desperate_duck/" title="Desperate Duck!" class="ItemThumb" >
+								<img src="metacafe.com_files/desperat.jpg" alt="Desperate Duck!" />
+				 
+				<span>00:35</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1424420/desperate_duck/" title="Desperate Duck!" >
+					<strong>Desperate Duck!</strong>
+				</a>
+								<span>
+										24-Jun-08									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 2.89</em> | 				<em >62,309 Views</em> | <em>20 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Earned $311</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				A Desperate Duck in Central Park...			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/LUCCHINA/" title="LUCCHINA">LUCCHINA</a>				More 					<a href="http://www.metacafe.com/top_videos/pets_and_animals/">Pets &amp; Animals</a>, 					<a href="http://www.metacafe.com/top_videos/travel_and_outdoors/">Travel &amp; Outdoors</a>			</p>
+		</li>		 <li id="i4_1">
+			<a href="http://www.metacafe.com/watch/1424298/breaking_statue_of_liberty_stolen/" title="BREAKING : Statue Of Liberty STOLEN !" class="ItemThumb" >
+								<img src="metacafe.com_files/breaking.jpg" alt="BREAKING : Statue Of Liberty STOLEN !" />
+				 
+				<span>00:47</span>
+							</a>
+			<p class="ItemTitle">
+				<a href="http://www.metacafe.com/watch/1424298/breaking_statue_of_liberty_stolen/" title="BREAKING : Statue Of Liberty STOLEN !" >
+					<strong>BREAKING : Statue...</strong>
+				</a>
+								<span>
+										25-Jun-08									</span>
+			</p>
+			<p class="ItemStats">
+				<em >Rated 3.08</em> | 				<em >3,496 Views</em> | <em>12 Comments</em>
+								<span class="VisDif">
+					 | 
+					<a href="http://www.metacafe.com/producer_rewards_videos/" title="Producer Rewards" >Producer Rewards:</a><a title="Producer Rewards" href="http://www.metacafe.com/producer_rewards/" >Candidate</a>
+									</span>
+							</p>
+			<p class="ItemInfo">
+				Oops !			</p>
+			<p class="By">					From <a href="http://www.metacafe.com/channels/LUCCHINA/" title="LUCCHINA">LUCCHINA</a>				More 					<a href="http://www.metacafe.com/top_videos/news_and_events/">News &amp; Events</a>, 					<a href="http://www.metacafe.com/top_videos/travel_and_outdoors/">Travel &amp; Outdoors</a>			</p>
+		</li>		</ul>				</div>
+			</div>
+			<div class="PanelBtm">&nbsp;</div>
+		</div><div id="" class="AdProduct">				<!-- begin DoubleClick ad tag-->
+				<iframe id="DclkBnr" src="metacafe.com_files/all00001.htm" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling=no borderCOLOR="#000000" allowtransparancy="1">
+				<script src="http://ad.doubleclick.net/adj/mc.today.f1;sz=300x250;age=-1;gen=;leid=499;tile=2;pos=2;ord=1215698421;campaign=;dcZone=/rp/all;pg=1;abr=!ie?" type="text/javascript"></script>
+				<noscript><a href="http://ad.doubleclick.net/jump/mc.today.f1;sz=300x250;age=-1;gen=;leid=499;tile=2;pos=2;ord=1215698421;campaign=;dcZone=/rp/all;pg=1;abr=!ie4;abr=!ie5;abr=!ie6?" target="_blank"><img src="http://ad.doubleclick.net/ad/mc.today.f1;sz=300x250;age=-1;gen=;leid=499;tile=2;pos=2;ord=1215698421;campaign=;dcZone=/rp/all;pg=1;abr=!ie4;abr=!ie5;abr=!ie6;?" width="300" height="250" border="0" alt="" /></a></noscript>
+				</iframe>
+				<!-- End DoubleClick ad tag -->
+				</div></div>			<span class="Clr">&nbsp;</span>
+		</div>			<div id="Footer">
+			<form method="post" action="http://www.feedblitz.com/f/f.fbz?AddNewUserDirect">
+				<fieldset>
+					<label for="SubsribeEmail">Enter your email to get daily video updates:</label>
+					<input class="TextField" name="EMAIL" id="SubsribeEmail" maxlength="255" type="text" size="30" />
+					<input type="submit" name="subscribeMe" class="Btn" value="Subscribe Me" />
+					<input name="FEEDID" type="hidden" value="24137" />
+				</fieldset>
+			</form>
+			<ol id="FooterLinks">
+				<li>
+					<big>Your Account</big>
+					<ul>
+												<li><a href="https://secure.metacafe.com/account/login/?token=c831044bef29deb5add9a51ac0afef91" title="Your Channel">My Channel</a></li>
+						<li><a href="https://secure.metacafe.com/account/login/?token=c831044bef29deb5add9a51ac0afef91" title="Subscriptions">Subscriptions</a></li>
+						<li><a href="https://secure.metacafe.com/account/login/?token=c831044bef29deb5add9a51ac0afef91" title="Favorites">Favorites</a></li>
+						<li><a href="https://secure.metacafe.com/account/login/?token=c831044bef29deb5add9a51ac0afef91" title="Messages">Messages</a></li>
+											</ul>
+				</li>
+				<li>
+					<big>Help &amp; Discussion</big>
+					<ul>
+						<li><a href="http://help.metacafe.com/" title="Help">Help</a></li>
+						<li><a href="http://forums.metacafe.com/" title="Forums">Forums</a></li>
+						<li><a href="http://www.metacafe.com/contactUs/" title="Contact Us">Contact Us</a></li>
+					</ul>
+				</li>
+				<li>
+					<big>Metacafe To Go</big>
+					<ul>
+						<li><a href="http://www.metacafe.com/webmaster/" title="Developer Tools">Developer Tools</a></li>
+						<li><a href="http://www.metacafe.com/affiliates/" title="Affiliates">Affiliates</a></li>
+					</ul>
+				</li>
+				<li>
+					<big>Policy &amp; Rules</big>
+					<ul>
+						<li><a href="http://www.metacafe.com/usage_rules/" title="Usage Rules">Usage Rules</a></li>
+						<li><a href="http://www.metacafe.com/copyright/" title="Copyright">Copyright</a></li>
+						<li><a href="http://www.metacafe.com/privacy/" title="Privacy">Privacy</a></li>
+					</ul>
+				</li>
+				<li>
+					<big>Work With Us</big>
+					<ul>
+						<li><a href="http://www.metacafe.com/advertise/" title="Advertisers">Advertisers</a></li>
+						<li><a href="http://www.metacafe.com/partners/" title="Content Partners">Content Partners</a></li>
+						<li><a href="http://www.metacafe.com/jobs/" title="Jobs">Jobs</a></li>
+					</ul>
+				</li>
+				<li>
+					<big>Company Buzz</big>
+					<ul>
+						<li><a href="http://www.metacafe.com/aboutUs/" title="About Us">About Us</a></li>
+						<li><a href="http://press.metacafe.com/" title="Press">Press</a></li>
+						<li><a href="http://blog.metacafe.com/" title="Blog">Blog</a></li>
+					</ul>
+				</li>
+			</ol>
+			<div id="CopyrightNotice">
+				&copy; 2008 Metacafe Inc.
+			</div>
+			<div id="LangPos" class="Hidden">&nbsp;</div>
+		</div><!-- end Footer -->
+		<div id="AjaxProg" class="Hidden">&nbsp;</div>
+			</div>
+			<script type="text/javascript">
+			var sid = '29297b1cda13afbb696e84aa11661c36';
+			var ReportItemsID = '0';
+					var headerObj = {"userID":false,"nickName":"","myVideosURL":"","myFavoritesURL":"","myChannelURL":"","signInURL":"https:\/\/secure.metacafe.com\/account\/login\/?token=c831044bef29deb5add9a51ac0afef91","flagCode":"NO","flagImg":"metacafe.com_files\/no000000.gif","currentTab":"TodayTab","search":"","category":null,"pageType2Tab":{"today":"TodayTab","top_videos":"TopVideosTab","explore":"TopVideosTab","cs":"RewardsTab","upload":"SubmitTab","userchannel":"ChannelsTab","bourne":"BourneTab","gumball":"GumballTab","americangangster":"GangsterTab","supersalidos":"SupersalidosTab","virtualworlds":"MTVTab","classics":"TopVideosTab"},"absoluteServer":"\/","maxNickLength":"15","cdnImages":"metacafe.com_files\/","cdnFlash":"metacafe.com_files\/","Langs":{"countries":[{"value":4,"text":"Algeria","selected":false},{"value":11,"text":"Argentina","selected":false},{"value":12,"text":"Australia","selected":false},{"value":14,"text":"Austria","selected":false},{"value":21,"text":"Belgium","selected":false},{"value":32,"text":"Brazil","selected":false},{"value":35,"text":"Bulgaria","selected":false},{"value":39,"text":"Canada","selected":false},{"value":46,"text":"Chile","selected":false},{"value":45,"text":"China","selected":false},{"value":51,"text":"Colombia","selected":false},{"value":108,"text":"Croatia","selected":false},{"value":75,"text":"Czech Republic","selected":false},{"value":61,"text":"Denmark","selected":false},{"value":67,"text":"Egypt","selected":false},{"value":77,"text":"Finland","selected":false},{"value":84,"text":"France","selected":false},{"value":94,"text":"Germany","selected":false},{"value":98,"text":"Greece","selected":false},{"value":109,"text":"Hungary","selected":false},{"value":113,"text":"India","selected":false},{"value":111,"text":"Indonesia","selected":false},{"value":68,"text":"Ireland","selected":false},{"value":117,"text":"Israel","selected":false},{"value":118,"text":"Italy","selected":false},{"value":122,"text":"Japan","selected":false},{"value":126,"text":"Jordan","selected":false},{"value":134,"text":"Korea","selected":false},{"value":141,"text":"Lithuania","selected":false},{"value":149,"text":"Madagascar","selected":false},{"value":167,"text":"Malaysia","selected":false},{"value":166,"text":"Mexico","selected":false},{"value":176,"text":"Netherlands","selected":false},{"value":183,"text":"New Zealand","selected":false},{"value":177,"text":"Norway","selected":true},{"value":190,"text":"Pakistan","selected":false},{"value":187,"text":"Peru","selected":false},{"value":201,"text":"Philippines","selected":false},{"value":191,"text":"Poland","selected":false},{"value":193,"text":"Portugal","selected":false},{"value":200,"text":"Romania","selected":false},{"value":203,"text":"Russia","selected":false},{"value":215,"text":"Singapore","selected":false},{"value":143,"text":"Slovakia","selected":false},{"value":212,"text":"Slovenia","selected":false},{"value":209,"text":"South Africa","selected":false},{"value":217,"text":"Spain","selected":false},{"value":221,"text":"Sweden","selected":false},{"value":223,"text":"Switzerland","selected":false},{"value":237,"text":"Taiwan","selected":false},{"value":227,"text":"Thailand","selected":false},{"value":235,"text":"Turkey","selected":false},{"value":242,"text":"United Kingdom","selected":false},{"value":244,"text":"United States","selected":false},{"value":249,"text":"Venezuela","selected":false},{"value":251,"text":"Vietnam","selected":false}],"lang":[{"value":"20","text":"Norwegian (Bokm\u00e5l)","selected":false},{"value":"9","text":"English","selected":false},{"value":"20, 9","text":"Norwegian (Bokm\u00e5l), English","selected":true}],"langPref":[{"value":20,"text":"Norwegian (Bokm\u00e5l)","selected":false},{"value":9,"text":"English","selected":true}]},"cookieDomain":".metacafe.com","msgsCount":0,"notifyCount":0,"target":"","disableHover":false,"uuIDFlashFileURL":"metacafe.com_files\/uuid_1.1.swf"};
+		initPage();
+		window.addEvent('load', function() {
+			initUUID();
+		});
+				</script>
+		<script type="text/javascript">		window.addEvent('domready', function(){
+			new ItemCatalog2('Catalog1');
+		});		window.addEvent('domready', function(){
+			new ItemCatalog2('Catalog2');
+		});		window.addEvent('domready', function(){
+			new ItemCatalog2('Catalog3');
+		});		window.addEvent('domready', function(){
+			new ItemCatalog2('Catalog4');
+		});</script>		<script type="text/javascript">
+					initFooter();
+				</script>
+		<script type="text/javascript">
+  <!--
+
+			var clickTime = getCookie('clickTime');
+			if (clickTime){
+				var endTime = (new Date()).getTime();
+				var totLoadTime = getOmnitureIntervalTime(Math.ceil((endTime - clickTime)/1000));
+				setRealCookie('clickTime', '', getExpDate(0, 0, 0), "/", ".metacafe.com");
+			}
+			var omnitureHashCookie = new Hash.Cookie("Omniture", {domain: '.metacafe.com', path: '/'});
+			s = (new Hash(s).extend({"serverName":"159086-web23.metacafe.com","maxFlashVersion":"9","eVar1":"not logged-in","eVar2":"family filter on","prop1":499,"prop2":"C=177 L=9, L=20","prop20":"0","prop29":null,"server":"172.16.176.97","events":null,"campaign":"","prop3":"All","prop6":"Today Videos","prop7":"Recently Popular","channel":"Today Videos","pageName":"Today Videos - All - Recently Popular - P1","prop37":"Visit 1","prop28":"2","prop34":"2"}).extend(omnitureHashCookie.obj).obj);
+							s.prop13=totLoadTime;
+						Cookie.remove("Omniture", {domain: '.metacafe.com', path: '/'});
+			/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+			var s_code=s.t();
+			if(s_code)document.write(s_code);
+			//-->
+		</script>
+		<script language="JavaScript" type="text/javascript"><!--
+		if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+		//-->
+</script><noscript>
+  <img
+		src="http://metacafeprod.122.2O7.net/b/ss/metacafeprod/1/H.1--NS/0"
+		height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+		<!-- End SiteCatalyst code version: H.1. -->
+		<!-- Start Quantcast tag -->
+		<script type="text/javascript" src="metacafe.com_files/quant000.js"></script>
+		<script type="text/javascript">
+			_qacct="p-81LoeJ2N3PMZ2";
+			quantserve();
+		</script>
+		<noscript>
+		<img src="http://pixel.quantserve.com/pixel/p-81LoeJ2N3PMZ2.gif" style="display: none" height="1" width="1" alt="Quantcast"/></noscript>
+		<!-- End Quantcast tag -->
+    <script type="text/javascript">
+      var omnitureImg = $E('body img');
+      if(omnitureImg.getProperty('name')=='s_i_'+omnitureEnv)
+        omnitureImg.setStyle('display','none');
+    </script>
+		<script type="text/javascript">
+  if(document.location.protocol=='http:') {
+  iOmnitureMC = new OmnitureMC({"serverName":"159086-web23.metacafe.com","maxFlashVersion":"9","eVar1":"not logged-in","eVar2":"family filter on","prop1":499,"prop2":"C=177 L=9, L=20","prop20":"0","prop29":null,"server":"172.16.176.97","events":null,"campaign":"","prop3":"All","prop6":"Today Videos","prop7":"Recently Popular","channel":"Today Videos","pageName":"Today Videos - All - Recently Popular - P1","prop37":"Visit 1","prop28":"2","prop34":"2"}, {"SendS2F":{"prop39":"metacafemain's Channel"},"WikiRecentChanges":{"events":"event67"}});
+  }
+</script>
+					</body>
+			</html>
+<!-- This document saved from http://www.metacafe.com/ -->

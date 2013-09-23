@@ -1,0 +1,100 @@
+/* Universal Login ------------------------------------------------------ */
+
+.universalLogin {
+	float: left;
+	width: 100%;
+	background: #41454a;
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	font-size: x-small;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.universalLogin li.left a, .universalLogin li.right a {
+	color: #FFF;
+}
+
+.universalLogin li.left a.active {
+	color: #000;
+	font-weight: bold;
+	background: #FFF;
+	text-decoration: none;
+	padding: 1px 4px 3px 4px;
+}
+
+.universalLogin li.left {
+	float: left;
+	padding: 7px 0 7px 7px;
+}
+
+.universalLogin li.right {
+	float: right;
+	padding: 7px 8px 7px 0;
+}
+
+.universalLogin li.right a {
+	font-weight: bold;
+}
+
+.universalLogin form {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 4px;
+	right: 7px;
+	width:455px;
+	text-align:right;
+}
+
+* html .universalLogin form {
+	top: 3px;
+}
+
+* html .ul_fieldLabel {
+	/* ie 6 needs a nudge */
+	position: relative;
+	top: -1px;
+}
+
+.universalLogin input.field {
+	padding: 3px;
+	margin: 0 4px;
+	border: 0;
+	font-weight: normal;
+	font-size: x-small;
+	width: 100px;
+	background: url(bg_input.gif) no-repeat;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+
+.universalLogin input.ul_submit {
+	padding: 1px 3px;
+	margin: 0;
+	border: 1px solid #444;
+	font-size: x-small;
+	font-weight: bold;
+	background: url(bg_login.gif) repeat-x 0 50%;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	color: white;
+	cursor: pointer;
+}
+
+.universalLogin input.ul_submit_image {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    padding-left: 5px;
+}
+
+#login {
+	position: relative;
+	width: 772px;
+	height: 26px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	}
+
+.login-in-label{ line-height:16px; }

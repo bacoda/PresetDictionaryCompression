@@ -1,0 +1,211 @@
+/* Wrapper for the entire front */
+#drfront-mainfront {
+}
+
+#drfront-mainfront font {
+    font-size: 100%;
+}
+
+/* Container for the front */
+#drfront-mainfront #front {
+	font: 16px 'Times New Roman', Times, serif;
+	width: 468px;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+
+#drfront-mainfront * {
+	color: #000;
+}
+
+#drfront-mainfront a:link, #drfront-mainfront a:hover, #drfront-mainfront a:visited, #drfront-mainfront a:active {
+    color: #f00;
+    text-decoration: underline;
+}
+#drfront-mainfront a:visited {
+    color: #808080;
+}
+#drfront-mainfront a:active {
+    color: #00f;
+}
+
+#drfront-mainfront a * {
+	color: #f00;
+}
+
+#drfront-mainfront img {
+	border: 0;
+}
+
+#drfront-mainfront img.article-image, iframe.article-image {
+	margin: 0px;
+}
+
+/* Article title */
+#drfront-mainfront h1,#drfront-mainfront h2,#drfront-mainfront h3,#drfront-mainfront h4,#drfront-mainfront h5,#drfront-mainfront h6 {
+    line-height: 100%;
+    font-size: 100%;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+#drfront-mainfront h1 span,#drfront-mainfront h2 span,#drfront-mainfront h3 span,#drfront-mainfront h4 span,#drfront-mainfront h5 span,#drfront-mainfront h6 span,#drfront-mainfront h1 font,#drfront-mainfront h2 font,#drfront-mainfront h3 font,#drfront-mainfront h4 font,#drfront-mainfront h5 font,#drfront-mainfront h6 font {
+	line-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Article text */
+#drfront-mainfront p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Lists */
+#drfront-mainfront ul {
+    margin: 2px 0;
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+/* Container for all the articles */
+#drfront-mainfront #articles {
+    background: #fff;
+}
+
+#drfront-mainfront #article-toolbar {
+    display: none;
+}
+
+#drfront-mainfront .article-toolbar ul {
+    list-style-type: none;
+}
+
+/* Container for the article */
+#drfront-mainfront .article-extract {
+	background: url('p0000001.gif') #fff left top no-repeat;
+    margin: 2px 2px 0px 2px;
+    padding: 8px 0 0 0;
+	overflow: hidden;
+	border-top: none;
+}
+
+/* The different article sizes */
+#drfront-mainfront .article-extract-full {
+    width: 464px; /* 464 + 4 = 468 */
+}
+
+#drfront-mainfront .article-extract-half {
+    width: 230px; /* (230 + 4) * 2 = 468 */
+}
+
+#drfront-mainfront .article-extract-two-thirds {
+    width: 277px; /* 277 + 4 + 183 + 4 = 468 */
+}
+
+#drfront-mainfront .article-extract-one-third, #drfront-mainfront .article-extract-third {
+    width: 183px; /* 183 + 4 + 277 + 4 = 468 */
+}
+
+/* Article clearer */
+#drfront-mainfront .clearer {
+	clear: both;
+	font-size: 1px;
+}
+
+/* Positions for the article */
+#drfront-mainfront .left {
+	float: left;
+}
+
+
+#drfront-mainfront .right {
+	float: right;
+}
+
+/* Article skins */
+#drfront-mainfront .no-border {
+	border: none;
+}
+
+#drfront-mainfront .bg-red {
+    background-color: #c00;
+    border: 1px solid #400;
+    border-top: none;
+    color:white;
+}
+
+#drfront-mainfront .bg-green {
+    background-color: #0c0;
+    border: 1px solid #040;
+    border-top: none;
+}
+
+#drfront-mainfront .bg-blue {
+    background-color: #00c;
+    border: 1px solid #004;
+    border-top: none;
+}
+
+#drfront-mainfront .bg-transparent {
+    background-color: transparent;
+}
+
+#drfront-mainfront .bg-nbrd {
+	border: none;
+	background: transparent;
+}
+
+#drfront-mainfront .bg-ad {
+    border: none;
+    padding-top: 8px;
+    background: transparent url('ng000000.gif') left top no-repeat;
+    width: 468px;
+}
+
+/*
+#drfront-mainfront .bg-ad {
+	border: none;
+	background: none;
+}
+
+#drfront-mainfront .bg-ad object, #drfront-mainfront .bg-ad iframe {
+	padding-top: 8px;
+	background: transparent url('../gfx/ng.gif') left top no-repeat;
+}
+*/
+
+/* Image borders */
+#drfront-mainfront .img-brd-0 img.article-image {
+    border: none;
+}
+
+#drfront-mainfront .img-brd-1 img.article-image {
+    border: 1px solid #000;
+}
+
+#drfront-mainfront .img-brd-2 img.article-image {
+    border: 2px solid #000;
+}
+
+/**********************************************
+ * Fixes for IE                               *
+ *********************************************/
+
+/* fixes bug with invisible text */
+#drfront-mainfront img.article-image {
+	display: block;
+}
+
+/* doubled-margin bug */
+#drfront-mainfront .article-extract {
+	display: inline;
+}
+
+/* doubled-margin bug */
+#drfront-mainfront img.left, #drfront-mainfront img.right {
+	display: inline;
+}

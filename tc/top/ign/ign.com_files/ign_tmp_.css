@@ -1,0 +1,355 @@
+/************************
+* global
+************************/
+#colCenter, #colRight {position:relative; top:0px;}
+
+/************************
+* header
+************************/
+#masthead { background-image:url(mastheae.gif); width:974px; height:85px; }
+#leaderboardRow { background-image:url(leaderbo.gif); width:974px; height:96px; text-align:left; }
+#leaderboardAd, #leaderboardad { position:relative; left:-18px; top:0px; float:right; }
+/************************
+* center column
+************************/
+
+/* topStories */
+#topStories{ width:510px; height:403px; background-image:url(topstori.gif); }
+#ticker { width:465px; height:16px; background-image:url(ticker_b.gif); font:bold 10px tahoma,sans-serif; text-align:left; padding:4px 0px 0px 45px; }
+#topStoriesImage { width:428px; height:68px; font-size:14px; color:#fff; line-height:17px; text-align:left; padding:220px 20px 0px 20px; float:left; position:relative; left:-4px; cursor:pointer; }
+#topStoriesImage a { font-size:18px; font-weight:bold; color:#fff; }
+#topStoriesImage a:hover { color:#98A8C8; }
+#topStoriesThumbs { width:510px; height:78px; background-image:url(topstorj.gif); font:bold 9px arial,sans-serif; padding-top:17px; }
+.topStoriesThumbPadd { padding:0px 20px; }
+.topStoriesThumbPadd a { color:#fff; }
+.topStoriesThumbPadd a:hover { color:#000; }
+#searchbar { background-image:url(searchba.gif); }
+
+/* theme 2 */ 
+ #theme { background-image:url(theme_bg.gif); } 
+ #themeLeft, #themeRight { border:1px solid #000; float:left; text-align:left; color:#fff; position:relative; } 
+ #themeLeft { background-image:url(themelef.gif); width:278px; height:232px; padding:0px 10px 0px 0px; margin:0px 1px 0px 0px; left:11px; line-height:12px; } 
+ #themeLeft a:hover, #themeRight a:hover { color:#fff; } 
+ #themeHeadline { height:23px; padding:5px 10px 0px 10px; font-size:15px; font-weight:bold; text-align:left; color:#fff; } 
+ #themeImages { float:left; padding-right:7px; height:202px;  } 
+ #themeRight { background-image:url(themerig.gif); width:155px; height:202px; padding:30px 15px 0px 25px; margin:0px; left:11px;} 
+ .themeText { padding: 3px 0px; line-height:12px; } 
+ .themeText li {list-style-position:inside;} 
+ #themeLeft a, #themeRight a { color:#2F77E4 } 
+
+/* RunwayAd */
+#RunwayAd {padding: 2px 0px;}
+#RunwayAd img {display: block; }
+
+/* spotlights */
+#spotlights { margin-left:13px; padding:0px; width: 485px; margin-top: 7px; margin-bottom: 7px; border-bottom:1px solid #ccc; }
+.spotline { padding:0px; margin:0px; float:left; display:block; width:1px; height:146px; background:url(spotline.gif) no-repeat;}
+.spotlight { float:left; width:120px; overflow:hidden; }
+.spotHeader { border-top:2px solid #000; border-bottom:1px solid #000; margin:0px; padding-left:5px; margin:0px; background-image:url(spothead.gif); text-align:left; overflow:hidden; color:#fff; font-weight:bold; height:14px; }
+.spotImage {  display:block; margin:0px; border-bottom:1px solid #000; }
+.spotText { padding:5px 2px 3px 4px; margin:0px; height:29px; background-image:url(spottext.gif); text-align:left; }
+
+
+/*Latest Updates */
+#latestUpdates{width:510px;text-align:left}
+#latestUpdates_header,#latestUpdates_content {background:url(colCente.gif) repeat-y}
+#latestUpdates_content{padding:0;}
+#latestUpdates .header{position:relative;left:4px;font-size:17px;height:65px; font-weight:bold; border:0px solid black;color:#FFF;background-color:#000;}
+#latestUpdates .header_divider{padding:0px 10px;height:32px;background:url(latest_u.gif) no-repeat}
+#latestUpdates .header_divider_text{font-weight:bold; font-size:9px;font-family:tahoma,arial,helvetica,sans-serif;}
+#latestUpdates .myDefaultCheck { width:14px; }
+#latestUpdates .header_checkbox{padding-left:5px;}
+#latestUpdates .header_divider form{padding:0px; margin:0px;}
+#latestUpdates .tabHeaderText{padding:10px 0px 0px 10px;text-align:left;font-weight:bold;font-size: 17px}
+#latestUpdates .tabContainer{position:absolute;bottom:-1px;left:0;right:0;font-size:11pt;color:#009;}
+#latestUpdates .tab, #latestUpdates .tab_on {float:left;position:relative;height:27px}
+#latestUpdates  .tab_text{font-weight:bold;font-size:12px;height:15px;position:relative;top:7px;}
+.left_tab,.right_tab,.left_tab_on,.right_tab_on {position:absolute;float:left;height:27px;width:5px; }
+.left_tab,.left_tab_on {left:0;}
+.right_tab,.right_tab_on{right:0;}
+.middle_tab,.middle_tab_on{float:left;padding:0 5px;height:27px;}
+.left_tab {background:url(tab_left.gif) no-repeat}
+.left_tab_on { background:url(tab_lefu.gif) no-repeat}
+.middle_tab {background:url(tab_midd.gif) repeat-x;cursor:pointer}
+.middle_tab_on {background:url(tab_mide.gif) repeat-x;text-decoration:none;color:#FFF;cursor:default}
+.right_tab {background:url(tab_righ.gif) no-repeat}
+.right_tab_on {background:url(tab_rigi.gif) no-repeat}
+
+/*REMOVE THIS WHEN THE NEW IMAGE IS OFF THE MY UPDATES TAB*/
+.right_tab_new,.right_tab_on_new{position:absolute;float:left;height:27px;width:30px;right:0;}
+.right_tab_new {background:url(tab_rigj.gif) no-repeat;cursor:pointer}
+.right_tab_on_new {background:url(tab_rigj.gif) no-repeat}
+.middle_tab_new,.middle_tab_on_new{float:left;padding:0 30px 0 5px;height:27px;}
+.middle_tab_new {background:url(tab_midd.gif) repeat-x;cursor:pointer}
+.middle_tab_on_new {background:url(tab_mide.gif) repeat-x;text-decoration:none;color:#FFF;cursor:default}
+/*----------------------------------*/
+
+.latestUpdates_content_table{width:502px; margin-left:0px; padding: 0px;border:1px solid black;border-top:0px}
+.latestUpdates_content_table td{background:url(latest_v.gif) repeat-x;background-color:#f5f5f5}
+.latestUpdates_content_table tr{margin-bottom:1px}
+
+.latestUpdates_hot_td{width:30px; padding-left:5px;}
+.latestUpdates_time_td{width:38px;  }
+.latestUpdates_content_text_td{width:422px; }
+
+.latestUpdates_hot{float:left; padding:5px 0px 5px 5px;  margin:0px;}
+.latestUpdates_time{ float:left; padding:7px 5px; margin:0px;}
+.latestUpdates_image{float:left; padding:7px 10px; margin:0px; text-align:center; }
+.latestupdates_content_channelName{font-weight:bold}
+.latestUpdates_content_text{padding:7px 10px 7px 5px; margin:0px;}
+.latestUpdates_content_text a{font-weight:bold}
+
+.latestUpdates_footer{height:20px;}
+.latestUpdates_RSS{font-family:tahoma;font-size:10px;font-weight:bold;position:relative;left:5px}
+.latestUpdates_moreLink{font-weight:bold;margin-right:5px;}
+
+.myUpdatesDesc{padding:10px;}
+.myUpdatesDesc a{font-weight:bold}
+.myUpdatesHeader{font-size:14px;font-weight:bold;padding-bottom:5px}
+.myUpdatesSource{font-size:9px}
+
+/* columns within */
+.columns { background-image:url(columns_.gif); }
+.column { width:245px; text-align:left; position:relative; float:left; }
+/* .columnImage1, .columnImage2 { min-height:94px; } */
+/* IE hack for min-height below is commented out just for these two classes */ 
+/* * html body div.columnImage1, * html body div.columnImage2 { height:94px; } */
+.columnImage1, .columnImage2 { height:auto; min-height: 94px;}
+.columnImage1 { padding:5px 0px; }
+.columnImage2 { padding:5px 8px 5px 0px; background-color:#eee; }	
+.column1, .column2 { padding:5px 8px; min-height:45px; }
+/* IE hack for min-height */ * html body div.column1, * html body div.column2 { height:45px; }
+.column2 { background-color:#eee; }
+.columnsBottom { background-image:url(columns_.gif); height:22px; }
+
+.columnWideBottom { background-image:url(columnbo.gif); height:21px; }
+.columnWideBottomNoButton { background-image:url(columnwi.gif); height:21px; }
+.columnWideLeft, .columnWideRight { width:245px; text-align:left; position:relative; float:left; }
+.columnWideLeft { padding:7px 0px 7px 10px;}
+.columnWideRight { margin-left:10px; padding:7px 0;}
+.columnWideLeft img { border:2px solid #ccc; float:left; margin:0 7px; }
+.columnWideRightItem { padding:0 10px 7px 10px; }
+.columnWide { width:510px; text-align:left; position:relative; float:left; }
+.columnWideItem { margin:0 5px; border-top: 1px #cccccc solid;}
+.columnWideItem img { float:left; padding: 5px 10px; }
+.columnWideItemText { padding: 8px 10px 8px 100px; } 
+
+/*Recently Released and Upcoming Releases */
+#release_lists { margin:0px;margin-top:10px;float:left;  width:510px; background-image:url(releases.gif); padding:0px;}
+#release_lists .releaseHead {margin-left:4px; margin-right:4px; margin-top:-3px;width:502px; height:37px;}
+#release_lists form {background:url(releaset.gif) no-repeat #EFEFF0}
+#release_lists td{ font-size:11px}
+#release_lists .editHead2{border:0px;height:37px; color:#fff; text-align:left;padding:0px}
+.release_head_recent img, .release_head_upcoming img{position:relative;top:9px;left:7px}
+.release_head_recent {float:left;width:248px;margin-left:1px}
+.release_head_upcoming{float:right;width:247px;margin-right:1px}
+.release_lists_content{width:500px; margin:0px 5px; padding: 0px;}
+.release_list1,.release_list3 { width:248px; position:relative; float:left;}
+.release_list2,.release_list4  { width:247px; position:relative; float:left;}
+.release_listHeader { text-align:left;background:url(releaseu.gif) repeat-x; height:21px; }
+.release_email { float:right; padding-right:5px;position:relative;top:5px}
+.release_listHeader_text{ position:relative;top:4px;left:4px;color:#333; font:bold 11px arial,sans-serif; text-align:left;}
+.release_date, .release_title, .release_icon, .release_alert{vertical-align:top; padding:2px 0px 2px 0px; margin:0px; height:15px;}
+.release_date{ width:37px; margin-left:0px; padding-left:0px; line-height:14px;  text-align:center; }
+.release_title{width:150px; overflow:hidden; line-height:14px;  text-align:left; }
+.release_icon{ width:40px; padding-top:2px; height:15px; text-align:center; padding-right:0px; }
+.release_icon img {position:relative}
+.release_alert{padding-left:3px; padding-top:2px; text-align:center;}
+.release_check {position:relative;width:14px; height:15px; padding:0px; margin:0px; }
+
+/*Promotions and Sweepstakes*/
+.colWidePromotionsBoxItem { margin:0 5px; }
+.colWidePromotionsBoxItem img {float:left; padding: 3px 10px 0px 10px}
+.colWidePromotionsBoxItemText { padding: 0px 10px 5px 10px;} 
+.colWidePromotionsBoxItemText a {font-weight:bold;}
+#sweepstakes { margin-top:8px; width:510px; text-align:left; background-image:url(sweepsta.gif); }
+#sweepstakes .editHead2 {margin:0 4px; padding:0px;height:37px;}
+#sweepstakes a { font-weight: bold; } 
+.sweepstakes_heading{float:left; padding-top:10px; padding-left:10px; font:bold 17px arial,sans-serif; color:#fff;}
+.sweepsTable { border:1px solid #000; }
+.sweepsTable td {  padding-bottom: 4px;background: url(sweep_bg.gif) 0% 100% repeat-x;border-top:1px solid #EAEAE8;padding-top:3px;background-color:#fff}
+.sweepstakesBottom { background:url(sweepstb.gif) no-repeat;height:8px; padding:0;margin:0}
+.morePromosLink { float:right; font:bold 11px arial,sans-serif;padding-right:10px;text-align:right; }
+
+
+#lists { background-image:url(lists_bg.gif); margin-top:7px; }
+.list { width:245px; float:left; position:relative; }
+.listHeader { background:url(lists_he.gif) repeat-x; color:#333; font:bold 9px tahoma,sans-serif; height:14px; border:1px solid #ccc; padding:3px 0px 0px 5px; text-align:left; }
+.listHeaderEmphasis { }
+.listEmail { float:right; margin-right:7px; }
+.lD1, .lD2, .lT1, .lT2, .lT1alt, .lT2alt, .lP1, .lP2, .lE1, .lE2 { float:left; padding:2px 0px 0px 0px; margin:0px; height:15px; text-align:left; }
+.lD2, .lT2, .lT2alt, .lP2, .lE2 { background-color:#ededd8; }
+.lD1, .lD2 { width:39px; margin-left:1px; padding-left:6px; line-height:14px; }
+.lT1, .lT2, .lT1alt, .lT2alt { width:144px; overflow:hidden; line-height:14px; padding-right:5px; }
+.lT1alt, .lT2alt { width:166px; }
+.lP1, .lP2 { width:21px; padding-top:3px; height:14px; text-align:right; padding-right:5px; }
+.lE1, .lE2 { width:20px; padding-left:2px; }
+.checkbox { width:14px; height:14px; padding:0px; margin:0px; }
+
+#centerBottom { background:url(centerbo.gif); }
+.centerBottomBoxLeft { width:232px; padding:0px 16px 0px 21px; float:left; }
+.centerBottomBoxRight { width:232px; padding:0px 16px 0px 0px; float:left; }
+.centerBottomList { margin-left:8px; width:224px; background-image:url(centerbo.gif); border-top:1px solid #ccc; text-align:left; }
+.centerBottomListContent { padding:7px 5px 6px 10px; margin:0px; }
+.centerBottomListButton { background-image:url(centerbo.gif); width:224px; height:17px; }
+.centerBottomItem { float:left; }
+.centerBottomItemText { width:79px; padding:0px 18px 0px 7px; float:left; text-align:left; }
+
+/* Archive Highlights */
+#archiveHighlights{width:510px;text-align:left}
+#archiveHighlights_header,#archiveHighlights_content {background:url(colCente.gif) repeat-y}
+#archiveHighlights_content{padding:0;}
+#archiveHighlights .header{position:relative;left:4px;font-size:17px;height:37px; font-weight:bold; border:0px solid black;color:#FFF;background-color:#000;}
+#archiveHighlights .tabHeaderText{padding:10px 0px 0px 10px;text-align:left;font-weight:bold;font-size: 17px}
+#archiveHighlights .tabContainer{position:absolute;bottom:-1px;left:0;right:0;font-size:11pt;color:#009;}
+.archiveHighlights_content_table{width:502px; margin-left:0px; padding: 0px;border:1px solid black;border-top:0px}
+.archiveHighlights_content_table td{background:url(latest_v.gif) repeat-x;background-color:#f5f5f5}
+.archiveHighlights_content_table tr{margin-bottom:1px}
+.archiveHighlights_image{float:left; padding:5px 10px; margin:0px; text-align:center; }
+.archiveHighlights_content_text{padding:5px 10px; margin:0px;}
+.archiveHighlights_content_text a{font-weight:bold}
+.archiveHighlights_content_text_td{width:590px; }
+
+/************************
+* right column
+************************/
+#HalfPageAd, #largesweepsAd { position:relative; left:1px;}
+#largesweepsAd { margin-top:5px; }
+#sweeps1Ad { background-image:url(sweeps1a.gif); width:302px; height:98px; margin-top:-8px; }
+#insider { background-image:url(insider_.gif); width:302px; height:244px; }
+#fu { background-image:url(fu_bg000.gif); width:302px; height:130px; } 
+#fuImage { padding:5px 10px 5px 17px; float:left; width:120px; } 
+#fuText { padding:16px 0px 0px 0px; float:left; width:128px; }
+.right { padding:4px 0px 4px 5px; background-image:url(right_bg.gif); width:297px; }
+.rightHeader { width:280px; height:16px; padding:3px 5px 0px 5px; border-left:1px solid #000; border-right:1px solid #000; background-image:url(right_he.gif); font:bold 10px tahoma,sans-serif; color:#fff; }
+.rightHeaderEmphasis { color:#ff6;}
+.rightBox { background-color:#1F2747; width:290px; padding-top:3px; border:1px solid #000; }
+.rightBox, .rightBox a { color:#fff; }
+.rightBox a:hover { color:#98A8C8; }
+.rightBox2 {background-color:#1F2747; width:290px; padding-top:3px; border:1px solid #000;}
+.r1D1, .r1D2, .r1H1, .r1H2 { float:left; padding:2px 0px 0px 0px; margin:0px; height:15px; overflow:hidden; line-height:14px; }
+.r1D1, .r1D2 { width:57px; text-align:right; color:#fff; padding-left: 12px; } 
+.r1D2, .r1H2 { background-color:#1C2340; }
+.r1H1, .r1H2 { width:211px; padding-left:10px; }
+.r2D1, .r2D2, .r2T1, .r2T2, .r2P1, .r2P2, .r2E1, .r2E2  { float:left; padding:2px 0px 0px 0px; margin:0px; height:15px; text-align:left; }
+.r2D2, .r2T2, .r2P2, .r2E2 {background-color:#1C2340}
+.r2D1, .r2D2 { width:32px; margin-left:1px; padding-left:12px; line-height:14px; color:#fff; }
+.r2T1, .r2T2 { padding-left: 1px; width:180px; overflow:hidden; line-height:14px; padding-right:3px; }
+.r2P1, .r2P2 { width:32px; text-align:right; padding-right:5px; padding-top:2px; height:15px; }
+.r2E1, .r2E2  { width:20px; padding-left:2px; }
+.r3T1, .r3T2, .r3E1, .r3E2 { float:left; padding:2px 0px 0px 0px; margin:0px; height:15px; text-align:left; }
+.r3T2, .r3E2 { background-color:#1C2340; }
+.r3T1, .r3T2 { width:244px; overflow:hidden; line-height:14px; padding-left:12px; }
+.r3E1, .r3E2 { width:20px; padding-left:2px; }
+.r7E1, .r7E2 { height:94px; line-height: 14px;}
+.r7E1 { padding:5px 0px; }
+.r7E2 { padding:5px 8px 5px 0px; background-color:#1C2340; }	
+.r7T1, .r7T2 { padding:5px 8px; min-height:45px; }
+/* IE hack for min-height */ * html body div.r7T1, * html body div.r7T2 { height:45px; }
+.r7T2 { background-color:#1C2340; }
+.timeHilight { color:#ff6; }
+.rightBoxSpacing { background: url(floodlig.gif) repeat-y top left; padding: 0 0 5px 0; margin: 0;}
+
+/* PanelBox Ad Unit */
+#panelBoxAd { background-image:url(panelbox.gif); width:302px; } 
+
+/* Floodlight Ad Unit */
+#floodlight { padding-top: 0; padding-bottom:5px; background-image:url(floodlig.gif); width:302px; }
+.floodlightItem { padding: 5px 0px; line-height:12px; color:#000; text-align:left; }
+.floodlightItem a {text-decoration:none; }
+.floodlightItem a:hover { color:#000; }
+#floodlightItem1 { font-size:13px; padding-bottom: 5px; padding-top: 10px }
+
+/* Most Popular */
+#mostpop_btn_channel,#mostpop_btn_games,#mostpop_btn_ent{cursor:pointer;float:left;height:27px;}
+#mostpop_btn_channel{width:96px;color:#fff;background-image:url(mostpop_.gif)}
+#mostpop_btn_games{width:97px;background-image:url(mostpop0.gif); }
+#mostpop_btn_ent{width:97px;background-image:url(mostpop1.gif)}
+#mostpop_box { background:url(right_bo.gif) repeat-y; width:291px;position:relative;top: 0px;}
+#mostpop_box .rightBox2 {background-image:url(mostpop2.gif); background-color:#eaeae8; background-repeat: no-repeat; padding-top: 5px}
+#mostpop_box .editHead2 { height:40px; border:0px; font-weight:bold; font-size:17px;  color:#fff; }
+#mostpop_head_text{padding-top:8px;}
+#mostpop_subhead_text{padding-top:11px}
+#mostpop_btn_bar{margin-top:-4px;border-top:0px;border-left:1px solid #000; border-right:1px solid #000;height:27px;margin-right:-10px;width:290px;}
+.mostpop_rank, .mostpopr1Label{color:#000}
+.mostpopRank1 {color:#000}
+.mostpop_btn_text{font-weight:bold;position:relative;top:6px;left:6px}
+.mostpop_more{font-weight:bold;text-align:right;margin-right:5px}
+.mostpopAll{font-weight:bold;font-size:11px}
+.mostpop_rank{font-size:11pt;}
+.mostpop_rank,.mostpopTitle{font-weight:bold}
+.mostpopTitle{font-size:11px}
+.mostpopBoxart {padding-right:10px;}
+
+/*Community Club Box*/
+#clubOuterBox { margin-top: -4px; margin-bottom:0px;background: url(mostpop3.gif) repeat-y; }
+#club_box .editHead2 {height:36px; border:0px; border-top:1px solid black;border-bottom:1px solid black;font-weight:bold; font-size:17px;  color:#fff;}
+#club_box { background:url(right_bo.gif) repeat-y; width:291px;border:1px solid #000;border-top:0px;padding:0;margin:0; background:#fff;position:relative;top:-5px}
+#club_box .rightBox2 {font-weight:bold;font-family:arial,sans-serif;background-image:url(mostpop2.gif); 	background-repeat: no-repeat; padding-top: 5px}
+#quoteSection {background-image:url(clubbox_.gif); padding-bottom:0;margin-bottom:0; background-color: #ddd}
+#blogUserIcon{float:left}
+#blogSection {background-image:url(right_bp.gif); position:relative;width:290px;height:134px; padding-bottom:0;margin-bottom:0; background-repeat: no-repeat;background-color: #ddd}
+#blogSummary {height:40px;overflow:hidden;padding-bottom:1px}
+#readerReviewSection {background-image:url(clubbox_.gif); padding-bottom:0;margin-bottom:0; background-color: #ddd}
+#userInfo {height:85px;right:10px;padding:0px;position:absolute;top:35px;width:150px;}
+#clubOuterBox .topImg { position:relative; top:5px;left:0px; position:relative; }
+#clubOuterBox .clubHeader { background-image:url(right_bq.gif); height:75px; width: 291px}
+#clubOuterBox .clubBlog { background-image:url(right_bp.gif); background-repeat: no-repeat; width: 291px;}
+#clubOuterBox .clubRR { background-image:url(right_br.gif); width: 291px}
+#clubOuterBox .blogIcon { top: 35px; left:20px;position: relative;height:80px; width:80px}
+#clubOuterBox .quoteText { position: relative;  left: 20px; width: 250px; overflow:hidden}
+#clubOuterBox .rrIcon { height:50px; width:50px; position: relative; float:left;top: 1px; left: 20px; background-color: #ddd; border:1px solid #009 }
+#clubOuterBox .clubRightBox { width:302px; border-bottom: 1px solid #fff; background: url(mostpop3.gif) repeat-y; padding:4px 0px 4px 5px; margin-top: 2px; margin-bottom: 4px;}
+#clubOuterBox .clubBold { font-weight: bold}
+#clubOuterBox .quoteLink { float: right; position: relative; top: 5px; left: -15px; font-weight: bold }
+#clubOuterBox .clubbox_headtext {padding-top:8px; float: left;}
+#clubOuterBox .clubbox_subheader { padding-top:14px;float:right; font-size:7pt; position:relative;}
+
+
+/*Top Help Game Links and Popular DVDs*/
+#gamehelp_box { position:relative;top: 0px;width:291px;}
+#gamehelp_box .rightBox2 { background:url(helpLink.gif) repeat-x;  background-color:#ebebeb;padding-top: 5px}
+#gamehelp_box .editHead2 {height:36px; border:0px; font-weight:bold; font-size:17px;  color:#fff; }
+#gamehelp_head_text{padding-top:8px;}
+#gamehelp_btn_bar{margin-top:-4px;border-top:0px;border-left:1px solid #000; border-right:1px solid #000;height:27px;margin-right:-10px;width:290px;}
+#gamehelp_btn_guides,#gamehelp_btn_cheats,#gamehelp_btn_faqs{cursor:pointer;float:left;min-height:27px;height:27px;}
+#gamehelp_btn_guides{width:96px;color:#fff;background-image:url(gamehelp.gif)}
+#gamehelp_btn_cheats{width:97px;background-image:url(gamehelq.gif); }
+#gamehelp_btn_faqs{width:97px;background-image:url(gamehelr.gif)}
+.gamehelp_rank{color:#000;font-size:11px;font-weight:bold}
+.gamehelp_btn_text{font-weight:bold;position:relative;top:6px;left:6px}
+.gamehelp_more{font-weight:bold;text-align:right;margin-right:5px}
+.gamehelpTitle,.gamehelpAll{font-weight:bold;font-size:11px}
+.gamehelpAll {padding:3px 5px 3px 0}
+
+/* featured ad unit */
+#featuredAd { background-image:url(featured.gif); width:302px; height:130px; }
+#featuredAdImage { padding:5px 10px 5px 17px; float:left; width:120px; }
+#featuredAdText { padding:16px 0px 0px 0px; float:left; width:128px; }	
+
+/************************
+* poll
+************************/
+#poll { background-image:url(poll_bg0.gif); width:131px; float:right; }
+.pollQuestions, .pollAnswers { width:111px; padding:0px 10px 10px 10px; text-align:left; }
+.pollQuestions input { margin:2px; } 
+.pollImage {margin-left:6px;}
+
+/************************
+* Jamdat Flash Game Finder (should only be on the Wireless channel)
+************************/
+#gameFinder{padding-top:10px}
+
+/************************
+* Google Adsense
+************************/
+#afcGoogleHub {background:url(colCente.gif) repeat-y;}
+#afcGoogleHub #ad-hdr {background:url(editHead.gif) repeat-x #000;  margin: 0;height:30px;width: auto; text-align:left;color:#fff;font-weight:bold; font-size:17px;padding:10px 0px 0px 10px}
+#afcGoogleHub #ad-wrap{height: auto; background: #e5ebf9; font: 11px arial,helvetica,sans-serif; overflow: hidden; margin: 0; padding:0; width:498px;border:0;}
+#afcGoogleHub #ad-wrap a {text-align: left; text-decoration: none; display: block; width: 215px; margin: 0; padding: 5px 10px 10px 10px; float: left;}  
+* html #afcGoogleHub#ad-wrap a { width: 225px;}  
+#afcGoogleHub #ad-wrap p {color: #000; font-weight: normal; margin: 0; padding: 0;}  
+#afcGoogleHub #ad-wrap span {color:#009; font-weight: normal; text-decoration: none; }  
+#afcGoogleHub #ad-wrap strong {color:#009;font-size: 12px; font-weight: bold; text-decoration: underline; }
+#afcGoogleHub #innerAfcGoogle {margin-left:5px;border:1px solid #000;width:498px}
+#afcGoogleHub .afcRow {margin-top: -1px; padding:0; width:498px; height: auto;background:#F5F5F5 url(latest_v.gif) repeat-x; overflow: hidden;}  

@@ -1,0 +1,1 @@
+YAHOO.Fp.oPaModule.processResponse({"data":{"html":"<div class=\"error nologin\">  <p>Are you there? Find out who is online.<\/p>  <a href=\"r\/gj\"><strong>Sign In<\/strong><\/a><\/div>","retcode":0}},'messenger')

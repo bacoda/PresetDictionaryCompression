@@ -1,0 +1,50 @@
+.spaltetittel-ufront {
+	font-family:arial,helvetica,sans-serif;
+ 	font-size:12px;
+	}
+
+.spaltetekst-ufront {
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	}
+
+a.spaltetekst-ufront:hover {
+	color:black;	
+	}
+
+.btekst-kamera {
+	color:black;
+	font-family:arial, helvetica,sans-serif;
+	font-size:11px;
+	}
+
+.nyheter-blaa-bak {
+	background-color:blue;
+	}
+
+.sport-gronn-bak {
+	background-color:#339933;
+	}
+
+.rampelys-gul-bak {
+	background-color:#ff9900;
+	}
+
+.dato-dagensvg {
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	}
+
+.btekst-dagensfoto {
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	}
+
+
+
+
+
+
+
+
+

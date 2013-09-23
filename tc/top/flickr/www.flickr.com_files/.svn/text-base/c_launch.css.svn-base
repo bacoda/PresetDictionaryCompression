@@ -1,0 +1,110 @@
+/* CSS Document */
+
+/* LOGGED-IN HOME PAGE */
+
+body div#Main { padding-left: 0; padding-right: 0; width: 800px;}
+
+table.launchHead {margin:20px 0;}
+   .launchHead h1 {margin:0 0 0 5px;padding:0;}
+   .launchHead small {margin-left:12px}
+
+#VastConspiracytoDumbDownFlickr {color: #aaa;}
+
+.LeftCol { width: 340px; padding-left: 0; padding-right: 20px; }
+
+.LeftCol h3 { margin: 0; }
+.LeftCol p { margin-top: 5px; margin-bottom: 0; }
+
+.LeftCol .StartAlert { font: 11px Arial, Helvetica, sans-serif; background-color: #FBFFCC; text-align: left; margin: 0 0 15px 0; padding: 6px; }
+.LeftCol .StartAlert ul { margin-top: 0px; margin-bottom: 0px; }
+.LeftCol .HomeBox { background:#f3f3f3;  margin: 0 0 15px 0; padding: 10px; }
+.LeftCol .HomeBox .But { font: 11px Arial, Helvetica, sans-serif; color: #483100; }
+.LeftCol .PinkBox { background:#FFEFF8;  margin: 0 0 15px 0;; padding: 10px; }
+.LeftCol .UpgradeBox { text-align: center; margin-bottom: 25px; }
+.LeftCol .UpgradeBox .Graphic { margin-top: 15px; margin-bottom: 5px; }
+.LeftCol .UpgradeBox p { font-size: 12px; margin-top: 0px; }
+.LeftCol .HomeBoxTexty {
+	border:1px solid #cccccc;
+	margin-bottom:20px;
+	padding:4px;
+	text-align:center;
+} 
+
+.LeftCol .HomeBoxTexty h4 {
+	margin:0 0 2px 0;
+	padding:0;
+	font-size:20px;
+}
+
+.LeftCol .HomeBoxTexty h5 {
+	margin:0 0 3px 0;
+	padding:0;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.LeftCol .HomeBoxTexty h5 span {
+	color:#FF0084;
+}
+
+.LeftCol .HomeBoxTexty h6 {
+	margin:0 0 2px 0;
+	padding:0;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.LeftCol .HomeBoxTexty h5 b, .LeftCol .HomeBoxTexty h6 b {
+	color:#FF0084;
+}
+
+.LeftCol .HomeBoxTexty h6 span {
+	color:#000;
+}
+
+.LeftCol .HomeBoxTexty a {
+	text-decoration:none;
+	color:#000;
+}
+
+.LeftCol .HomeBoxTexty h6 a {
+	color:#999;
+}
+
+.LeftCol .HomeBoxTexty a:hover {
+	background:none;
+}
+
+.LeftCol .HomeBox3Bg {
+	background:transparent url(http://l.yimg.com/g/images/small_three_shadow.gif) no-repeat 10px center;
+}
+
+.LeftCol .AdSpace { background:#f3f3f3;  margin: 0 0 15px 0; padding: 10px; }
+.LeftCol .AdSpace img { float: left; margin-right: 10px; }
+
+#PartnerPromo {margin-bottom:15px;text-align:center;position:relative}
+#PartnerPromo img {height: 50px;width: 270px}
+#PartnerPromo span {display: block;text-align: center;font-size: 10px;color: #999;margin-bottom: 4px;}
+
+
+/*
+#promo_do_more { background:#FFF !important; border:0px; margin:0px 0 10px 0; }
+#candy_hide_promo_do_more {width:11px !important;height:11px !important;position:absolute;right:0}
+* html #candy_hide_promo_do_more {right: 20px;}
+*/
+
+.RightCol { width: 460px; }
+
+span.Explain { font-weight: normal; font-size: 12px; color: #000; }
+
+
+
+#homepage_ad {text-align:center;width:300px;margin-left:15px;margin-bottom:20px;}
+
+/* video group promo */
+div#vid_grouppromo {
+	margin: -10px 0 0 1px;
+}
+div#vid_grouppromo a:hover {
+	background-color: #fff;
+}

@@ -1,0 +1,1930 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head id="head">
+    <title>Dailymotion International</title>
+    <meta content="en" name="language" />
+    <meta content="en" http-equiv="content-language" />
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <link rel="stylesheet" href="dailymotion.com_files/baseskin.css" />
+    <script type="text/javascript" src="dailymotion.com_files/mandator.js"></script>
+    <link rel="search" type="application/opensearchdescription+xml" href="http://style.dailymotion.com/css/opensearch.xml" title="Search videos on Dailymotion" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="dailymotion.com_files/favicon0.ico" />
+  </head>
+  <body id="bodyall" class="dm_page_html_home">
+    <div id="wrapper" class="container">
+      <div class="dmpi_header" id="header">
+        <div class="top_left">
+          <ul class="dmco_list dmco_menu header_top_menu">
+            <li>
+              <div class="dmco_link logo">
+                <a class="dmco_link dmco_simplelink" href="" title="Home">Home</a>
+              </div>
+            </li>
+            <li>
+              <div class="dmco_localeselector">
+                <div class="selected_locale">
+                  <span class="prefix"></span>
+                  <a class="dmco_flag dmco_flag_en" href="" title="International">
+                    <span class="flag"></span>
+                    <span class="country_label">International</span>
+                  </a>
+                  <span class="suffix"></span>
+                </div>
+                <div class="available_locales" style="display: none;">
+                  <a class="dmco_flag language_en current_locale country_en dmco_flag_en" href="" title="International">
+                    <span class="flag"></span>
+                    <span class="country_label">International</span>
+                  </a>
+                  <a class="dmco_flag language_es country_ar dmco_flag_ar" href="" title="Argentina">
+                    <span class="flag"></span>
+                    <span class="country_label">Argentina</span>
+                  </a>
+                  <div class="dmco_box flag_multi_lang">
+                    <a class="dmco_flag language_fr country_be dmco_flag_be" href="" title="Belgique (FR)">
+                      <span class="flag"></span>
+                      <span class="country_label">Belgique (FR)</span>
+                    </a>
+                    <a class="dmco_flag language_nl country_be" href="" title=" | Belgi&euml; (NL)">
+                      <span class="country_label"> | Belgi&euml; (NL)</span>
+                    </a>
+                  </div>
+                  <a class="dmco_flag language_pt country_br dmco_flag_br" href="" title="Brasil">
+                    <span class="flag"></span>
+                    <span class="country_label">Brasil</span>
+                  </a>
+                  <div class="dmco_box flag_multi_lang">
+                    <a class="dmco_flag language_en country_ca dmco_flag_ca" href="" title="Canada (EN)">
+                      <span class="flag"></span>
+                      <span class="country_label">Canada (EN)</span>
+                    </a>
+                    <a class="dmco_flag language_fr country_ca" href="" title=" | Canada (FR)">
+                      <span class="country_label"> | Canada (FR)</span>
+                    </a>
+                  </div>
+                  <a class="dmco_flag language_da country_dk dmco_flag_dk" href="" title="Danmark">
+                    <span class="flag"></span>
+                    <span class="country_label">Danmark</span>
+                  </a>
+                  <a class="dmco_flag language_de country_de dmco_flag_de" href="" title="Deutschland">
+                    <span class="flag"></span>
+                    <span class="country_label">Deutschland</span>
+                  </a>
+                  <a class="dmco_flag language_es country_es dmco_flag_es" href="" title="Espa&ntilde;a">
+                    <span class="flag"></span>
+                    <span class="country_label">Espa&ntilde;a</span>
+                  </a>
+                  <a class="dmco_flag language_el country_gr dmco_flag_gr" href="" title="&Epsilon;&lambda;&lambda;ά&delta;&alpha;">
+                    <span class="flag"></span>
+                    <span class="country_label">&Epsilon;&lambda;&lambda;ά&delta;&alpha;</span>
+                  </a>
+                  <a class="dmco_flag language_fr country_fr dmco_flag_fr" href="" title="France">
+                    <span class="flag"></span>
+                    <span class="country_label">France</span>
+                  </a>
+                  <a class="dmco_flag language_en country_in dmco_flag_in" href="" title="India">
+                    <span class="flag"></span>
+                    <span class="country_label">India</span>
+                  </a>
+                  <a class="dmco_flag language_en country_ie dmco_flag_ie" href="" title="Ireland">
+                    <span class="flag"></span>
+                    <span class="country_label">Ireland</span>
+                  </a>
+                  <a class="dmco_flag language_it country_it dmco_flag_it" href="" title="Italia">
+                    <span class="flag"></span>
+                    <span class="country_label">Italia</span>
+                  </a>
+                  <a class="dmco_flag language_es country_mx dmco_flag_mx" href="" title="M&eacute;xico">
+                    <span class="flag"></span>
+                    <span class="country_label">M&eacute;xico</span>
+                  </a>
+                  <a class="dmco_flag language_nl country_nl dmco_flag_nl" href="" title="Nederland">
+                    <span class="flag"></span>
+                    <span class="country_label">Nederland</span>
+                  </a>
+                  <a class="dmco_flag language_de country_at dmco_flag_at" href="" title="&Ouml;sterreich">
+                    <span class="flag"></span>
+                    <span class="country_label">&Ouml;sterreich</span>
+                  </a>
+                  <a class="dmco_flag language_pl country_pl dmco_flag_pl" href="" title="Polska">
+                    <span class="flag"></span>
+                    <span class="country_label">Polska</span>
+                  </a>
+                  <a class="dmco_flag language_pt country_pt dmco_flag_pt" href="" title="Portugal">
+                    <span class="flag"></span>
+                    <span class="country_label">Portugal</span>
+                  </a>
+                  <a class="dmco_flag language_ru country_ru dmco_flag_ru" href="" title="Россия">
+                    <span class="flag"></span>
+                    <span class="country_label">Россия</span>
+                  </a>
+                  <a class="dmco_flag language_ro country_ro dmco_flag_ro" href="" title="Rom&acirc;nia">
+                    <span class="flag"></span>
+                    <span class="country_label">Rom&acirc;nia</span>
+                  </a>
+                  <div class="dmco_box flag_multi_lang">
+                    <a class="dmco_flag language_fr country_ch dmco_flag_ch" href="" title="Suisse (FR)">
+                      <span class="flag"></span>
+                      <span class="country_label">Suisse (FR)</span>
+                    </a>
+                    <a class="dmco_flag language_de country_ch" href="" title=" | Schweiz (DE)">
+                      <span class="country_label"> | Schweiz (DE)</span>
+                    </a>
+                    <a class="dmco_flag language_it country_ch" href="" title=" | Svizzera (IT)">
+                      <span class="country_label"> | Svizzera (IT)</span>
+                    </a>
+                  </div>
+                  <a class="dmco_flag language_sv country_se dmco_flag_se" href="" title="Sverige">
+                    <span class="flag"></span>
+                    <span class="country_label">Sverige</span>
+                  </a>
+                  <a class="dmco_flag language_tr country_tr dmco_flag_tr" href="" title="T&uuml;rkiye">
+                    <span class="flag"></span>
+                    <span class="country_label">T&uuml;rkiye</span>
+                  </a>
+                  <a class="dmco_flag language_en country_gb dmco_flag_gb" href="" title="United Kingdom">
+                    <span class="flag"></span>
+                    <span class="country_label">United Kingdom</span>
+                  </a>
+                  <a class="dmco_flag language_en country_us dmco_flag_us" href="" title="United States">
+                    <span class="flag"></span>
+                    <span class="country_label">United States</span>
+                  </a>
+                  <a class="dmco_flag language_ja country_jp dmco_flag_jp" href="" title="日本">
+                    <span class="flag"></span>
+                    <span class="country_label">日本</span>
+                  </a>
+                  <a class="dmco_flag language_ko country_kr dmco_flag_kr" href="" title="한국">
+                    <span class="flag"></span>
+                    <span class="country_label">한국</span>
+                  </a>
+                  <a class="dmco_flag language_zh country_cn dmco_flag_cn" href="" title="中国">
+                    <span class="flag"></span>
+                    <span class="country_label">中国</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="dmco_link upload_video">
+                <span class="prefix"> </span>
+                <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/upload" title="Upload Videos">Upload Videos</a>
+                <span class="suffix"> </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="top_right">
+          <form action="http://www.dailymotion.com/login" class="with_urlback dmco_form_container dmco_form dmpi_header_login" method="post">
+            <div>
+              <input class="dmco_form_input dmco_form_hidden" id="form_name" name="form_name" type="hidden" value="dm_pageitem_header_login" />
+            </div>
+            <div id="header_login_menu">
+              <ul class="dmco_list dmco_menu header_user_menu">
+                <li>
+                  <div class="dmco_link open_header_login_form">
+                    <a class="dmco_link dmco_simplelink" href="" title="Login">Login</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/register" title="Create an account">Create an account</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link family_filter_link">
+                    <span class="prefix">Family Filter </span>
+                    <a class="dmco_link dmco_simplelink" id="family_filter_link" href="http://www.dailymotion.com/family_filter?urlback=" title="ON">ON</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="header_login_form" style="display: none;">
+              <ul class="header_login_top">
+                <li>
+                  <span class="form_label">Login:</span>
+                </li>
+                <li>
+                  <input class="dmco_form_input dmco_form_text text" id="dmpi_header_login_username" name="username" type="text" value="" />
+                </li>
+                <li>
+                  <span class="form_label">Password:</span>
+                </li>
+                <li>
+                  <input class="dmco_form_input dmco_form_password password" id="dmpi_header_login_password" name="password" type="password" />
+                </li>
+                <li>
+                  <input class="dmco_form_input dmco_form_submit button short_input" id="login_submit" type="submit" name="login_submit" value="OK" />
+                </li>
+              </ul>
+              <div class="dmco_clear"></div>
+              <ul class="header_login_bottom">
+                <li>
+                  <span class="form_label">Remember me ?</span>
+                </li>
+                <li>
+                  <input class="dmco_form_input dmco_form_checkbox" id="dmpi_header_login_rememberme" name="rememberme" type="checkbox" value="1" />
+                </li>
+                <li>
+                  <div class="dmco_link forgotpassword">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/password/recover" title="forgot your login info?">forgot your login info?</a>
+                  </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0);" class="close_header_login_form">&nbsp;</a>
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+        <div class="bottom">
+          <ul class="dmco_list dmco_menu header_main_menu">
+            <li>
+              <div class="dmco_link" id="header_menu:videos">
+                <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/1" title="Videos">Videos</a>
+              </div>
+            </li>
+            <li>
+              <div class="dmco_separator">|</div>
+            </li>
+            <li>
+              <div class="dmco_link" id="header_menu:channels">
+                <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/channels" title="Channels">Channels</a>
+              </div>
+            </li>
+            <li>
+              <div class="dmco_separator">|</div>
+            </li>
+            <li>
+              <div class="dmco_link" id="header_menu:users">
+                <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/users/creative" title="Users">Users</a>
+              </div>
+            </li>
+            <li>
+              <div class="dmco_separator">|</div>
+            </li>
+            <li>
+              <div class="dmco_link" id="header_menu:groups">
+                <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/groups/featured" title="Groups">Groups</a>
+              </div>
+            </li>
+            <li>
+              <div class="dmco_separator">|</div>
+            </li>
+            <li>
+              <div class="dmco_link">
+                <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/login?restricted_action=1&amp;urlback=/mychannel/|login|/1" title="My Channel">My Channel</a>
+              </div>
+            </li>
+          </ul>
+          <form action="http://www.dailymotion.com/" class="dmco_form_container dmco_form dmpi_search" id="header_search" method="post">
+            <div>
+              <input class="dmco_form_input dmco_form_hidden" id="header_search_form_name" name="form_name" type="hidden" value="dm_pageitem_search" />
+            </div>
+            <div>
+              <input class="dmco_form_input dmco_form_text text" id="header_search_search" name="search" type="text" value="Search" />
+            </div>
+            <div>
+              <span class="form_label">IN</span>
+              <select class="dmco_form_input dmco_form_choice check rule_valid" id="header_search_kind" name="kind">
+                <option value="video" selected="selected">Videos</option>
+                <option value="user">Users</option>
+                <option value="group">Groups</option>
+              </select>
+              <input class="dmco_form_input dmco_form_submit button short_input" id="header_search_submit" type="submit" name="submit" value="OK" />
+            </div>
+          </form>
+        </div>
+        <div class="dmco_clear"><!--comment for IE6 height --></div>
+        <div class="sub_bottom" style="display: none">
+          <div class="sub_bottom_container">
+            <div class="header_sub_menu_container" id="header_sub_menu_container:videos" style="display: none">
+              <ul class="dmco_list dmco_menu header_sub_menu" id="header_sub_menu:videos">
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/1" title="most recent videos">most recent videos</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/1" title="Videostars">Videostars</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1" title="Original videos by MotionMakers">Creative Content</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/official/1" title="Original videos by Official Users">Official Content</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/hd/1" title="HD Content">HD Content</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/login?restricted_action=1&amp;urlback=/videos/|login|/1" title="My videos">My videos</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/login?restricted_action=1&amp;urlback=/bookmarks/|login|/1" title="My Favorites">My Favorites</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="header_sub_menu_container" id="header_sub_menu_container:channels" style="display: none">
+              <ul class="dmco_list dmco_menu header_sub_menu" id="header_sub_menu:channels">
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/news/featured" title="news &amp; politics">news & politics</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/fun/featured" title="funny">funny</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/shortfilms/featured" title="film &amp; tv">film & tv</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/music/featured" title="music">music</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/auto/featured" title="auto-moto">auto-moto</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/travel/featured" title="travel">travel</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/creation/featured" title="arts">arts</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/videogames/featured" title="gaming">gaming</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/webcam/featured" title="webcam &amp; vlogs">webcam & vlogs</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/sport/featured" title="sports &amp; extreme">sports & extreme</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/animals/featured" title="animals">animals</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/people/featured" title="people &amp; family">people & family</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/tech/featured" title="tech &amp; science">tech & science</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/school/featured" title="college">college</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/lifestyle/featured" title="life &amp; style">life & style</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/cluster/sexy/featured" title="sexy">sexy</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="dmco_link header_sub_menu_more" id="header_sub_menu_more:channels">
+              <span class="prefix"> </span>
+              <a class="dmco_link dmco_simplelink" href="" title="more">more</a>
+              <span class="suffix"> </span>
+            </div>
+            <div class="header_sub_menu_container" id="header_sub_menu_container:users" style="display: none">
+              <ul class="dmco_list dmco_menu header_sub_menu" id="header_sub_menu:users">
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/users/1" title="All users">All users</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/users/creative/1" title="Original content from creative users">MotionMakers</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/users/official/1" title="Content from official users">Official Users</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="header_sub_menu_container" id="header_sub_menu_container:groups" style="display: none">
+              <ul class="dmco_list dmco_menu header_sub_menu" id="header_sub_menu:groups">
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/groups/1" title="All groups">All groups</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/groups/featured/1" title="Featured groups">Featured groups</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="dmco_separator">|</div>
+                </li>
+                <li>
+                  <div class="dmco_link">
+                    <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/login?restricted_action=1&amp;urlback=/groups/|login|" title="My groups">My groups</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dmco_box">
+        <div class="dmpi_subheader">
+          <div class="subheader"></div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="dmpi_box home_content_box">
+          <div class="box_header box_header_width_content">
+            <div class="header_left"></div>
+            <div class="header_right"></div>
+            <div class="header_center">
+              <div class="dmco_box left_title">
+                <h1 class="dmco_title">
+                  <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/1" title="VIDEOS">VIDEOS</a>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="box_content">
+            <div class="content_right">
+              <div class="dmpi_box dmpi_subbox featured_box dmpi_subbox">
+                <div class="box_header">
+                  <div class="header_left"></div>
+                  <div class="header_right"></div>
+                  <div class="header_center">
+                    <div class="dmco_box right_title">
+                      <div class="dmpi_video_stats">
+                        <ul class="dmco_list">
+                          <li>
+                            <div class="dmco_counter views block">
+                              <span class="value">17737</span>
+                              <span class="suffix">views</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="dmco_separator">|</div>
+                          </li>
+                          <li>
+                            <div class="dmco_counter com">
+                              <span class="value">125</span>
+                              <span class="suffix">com.</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="dmco_separator">|</div>
+                          </li>
+                          <li>
+                            <div class="dmco_counter favs">
+                              <span class="value">65</span>
+                              <span class="suffix">fav.</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="dmco_box left_title">
+                      <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image creative_content_logo" title="creative content logo" />
+                      <h2 class="dmco_title">
+                        <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/featured/1" title="ALL VIDEOSTARS &raquo;">ALL VIDEOSTARS »</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_content">
+                  <div class="content_right">
+                    <div class="dmpi_video_featured">
+                      <div class="dmpi_video_preview">
+                        <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/video/x46ilx_blizzar-b-225-radiohead-cover_music">
+                          <img src="dailymotion.com_files/70225170.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="BLIZZAR B : 2+2=5 (Radiohead cover)" />
+                          <span class="preview_banner_background"></span>
+                          <span class="preview_banner"></span>
+                        </a>
+                        
+                      </div>
+                      <div class="dmco_box" id="video_featured_info">
+                        <h1 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/video/x46ilx_blizzar-b-225-radiohead-cover_music" title="BLIZZAR B : 2+2=5 (Radiohead cover)">BLIZZAR B : 2+2=5 (Radiohead cover)</a>
+                        </h1>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating normal_stars" style="width: 80px;">
+                              <div class="rating" style="width: 68.8px;"></div>
+                            </div>
+                          <ul class="dmco_list foreground_50">
+                            <li>
+                              <div class="dmco_counter">
+                                <span class="value">4.3</span>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="dmco_separator">-</div>
+                            </li>
+                            <li>
+                              <div class="dmco_counter">
+                                <span class="value">125</span>
+                                <span class="suffix">votes</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_video_senderinfos foreground_50">
+                          <a class="dmco_avatar dmpi_user_avatar small" href="http://www.dailymotion.com/faitsdiversshow" title="faitsdiversshow">
+                            <img src="dailymotion.com_files/77680850.jpg" alt="" class="dmco_image light_border" height="40" width="40" title="faitsdiversshow" />
+                          </a>
+                          <div class="dmpi_user_statusicon">
+                            <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                              <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                            </a>
+                          </div>
+                          <div class="dmco_box user_infos">
+                            <div class="dmpi_video_uploaddate">posted 6 months ago</div>
+                            <div class="dmpi_video_sentby">
+                              <div class="dmco_user_login">
+                                <span class="prefix">By </span>
+                                <a class="login name" href="http://www.dailymotion.com/faitsdiversshow" title="faitsdiversshow" rel="nofollow">faitsdiversshow</a>
+                              </div>
+                            </div>
+                            <div class="dmco_text">offline</div>
+                            <div class="dmpi_user_stats">
+                              <ul class="dmco_list">
+                                <li>
+                                  <div class="dmco_counter">
+                                    <span class="value">29</span>
+                                    <span class="suffix">vid.</span>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="dmco_separator">|</div>
+                                </li>
+                                <li>
+                                  <div class="dmco_counter">
+                                    <span class="value">19</span>
+                                    <span class="suffix">fans</span>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="dmco_separator">|</div>
+                                </li>
+                                <li>
+                                  <div class="dmco_counter">
+                                    <span class="value">21</span>
+                                    <span class="suffix">friends</span>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground description">Acoustic session recorded for the show "Faits divers" on Radio Dijon Campus.The cover is "one-shot", only for the show.http://www.myspace.com/blizzarbYou can watch other sessions on our page (Editors, Moriarty, Coming Soon, Noisettes, The Rakes...): http://www.dailymotion.com/faitsdiversshow</div>
+                        <div class="dmpi_tag_list background2 icon_list">
+                          <div class="icon">
+                            <div class="icon_background tag_background"></div>
+                            <div class="icon_image"></div>
+                          </div>
+                          <a href="http://www.dailymotion.com/tag/BLizzar" class="tag">BLizzar</a>
+                          <a href="http://www.dailymotion.com/tag/b" class="tag">b</a>
+                          <a href="http://www.dailymotion.com/tag/acoustic" class="tag">acoustic</a>
+                          <a href="http://www.dailymotion.com/tag/faits" class="tag">faits</a>
+                          <a href="http://www.dailymotion.com/tag/divers" class="tag">divers</a>
+                          <a href="http://www.dailymotion.com/tag/session" class="tag">session</a>
+                          <a href="http://www.dailymotion.com/tag/radio" class="tag">radio</a>
+                          <a href="http://www.dailymotion.com/tag/dijon" class="tag">dijon</a>
+                          <a href="http://www.dailymotion.com/tag/campus" class="tag">campus</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dmco_clear"><!--comment for IE6 height --></div>
+                  </div>
+                </div>
+                <div class="box_footer">
+                  <div class="footer_left"></div>
+                  <div class="footer_right"></div>
+                  <div class="footer_center"></div>
+                </div>
+                <div class="dmco_clear"><!--comment for IE6 height --></div>
+              </div>
+              <div class="dmpi_box dmpi_box_masscasttop dmpi_subbox masscast_box">
+                <div class="box_header box_header_width_content">
+                  <div class="header_left"></div>
+                  <div class="header_right"></div>
+                  <div class="header_center">
+                    <div class="dmco_box left_title">
+                      <h2 class="dmco_title" id="mc_title">advertising</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_content">
+                  <div class="content_right">
+                    <div class="dmco_clear"><!--comment for IE6 height --></div>
+                  </div>
+                </div>
+                <div class="box_footer">
+                  <div class="footer_left"></div>
+                  <div class="footer_right"></div>
+                  <div class="footer_center"></div>
+                </div>
+                <div class="dmco_clear"><!--comment for IE6 height --></div>
+              </div>
+              <div class="dmco_clear"><!--comment for IE6 height --></div>
+              <div class="dmpi_box dmpi_subbox content_box dmpi_subbox">
+                <div class="box_header box_header_width_content">
+                  <div class="header_left"></div>
+                  <div class="header_right"></div>
+                  <div class="header_center">
+                    <div class="dmco_box left_title">
+                      <h2 class="dmco_title">
+                        <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/channels" title="Channels &raquo;">Channels »</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_content">
+                  <div class="content_right">
+                    <div class="dmpi_slotlist dmpi_slotlists_home_videos">
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/news/featured" title="news &amp; politics">news & politics</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/news/video/x547rd_a-brazilian-immigrant_shortfilms" rel="nofollow">
+                            <img src="dailymotion.com_files/85947610.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="A Brazilian Immigrant" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">15:10</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/news/video/x547rd_a-brazilian-immigrant_shortfilms" title="A Brazilian Immigrant" rel="nofollow">A Brazilian Immigrant</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 60px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">1310</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_official_user_logo" title="Official User" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/RaindanceTV" title="RaindanceTV" rel="nofollow">RaindanceTV</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">The stories of people going through immigration at an...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/fun/featured" title="funny">funny</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/fun/video/x6c5is_angry-dog-episode-3-throbbing-pop-c_fun" rel="nofollow">
+                            <img src="dailymotion.com_files/10644724.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Angry Dog Episode 3:  Throbbing Pop Culture -  Funny Cartoon" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">04:26</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/fun/video/x6c5is_angry-dog-episode-3-throbbing-pop-c_fun" title="Angry Dog Episode 3:  Throbbing Pop Culture    Funny Cartoon" rel="nofollow">Angry Dog Episode 3:  Throbbing Pop Culture    Funny Cartoon</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 60px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">434</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_official_user_logo" title="Official User" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/aniboom" title="aniboom" rel="nofollow">aniboom</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">Angry Dog's adventures continue as he runs into an old...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/shortfilms/featured" title="film &amp; tv">film & tv</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/shortfilms/video/x4ioee_wainy-days-1-shelly_fun" rel="nofollow">
+                            <img src="dailymotion.com_files/75898940.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Wainy Days #1 Shelly" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">03:03</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/shortfilms/video/x4ioee_wainy-days-1-shelly_fun" title="Wainy Days #1 Shelly" rel="nofollow">Wainy Days #1 Shelly</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 60px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">1132</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_official_user_logo" title="Official User" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/MyDamnChannel" title="MyDamnChannel" rel="nofollow">MyDamnChannel</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">David makes a date with an old acquaintance -  a beautiful...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/music/featured" title="music">music</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/music/video/x5brjg_50-chris-garneau-relief_music" rel="nofollow">
+                            <img src="dailymotion.com_files/89469880.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="#50 Chris Garneau - Relief" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">04:04</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/music/video/x5brjg_50-chris-garneau-relief_music" title="#50 Chris Garneau   Relief" rel="nofollow">#50 Chris Garneau   Relief</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 54px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">4297</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/lecargo" title="lecargo" rel="nofollow">lecargo</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">Il est des sessions que l'on oublie, de celles que l'on...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/sport/featured" title="sports &amp; extreme">sports & extreme</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/sport/video/x6bkd4_raid-traineau-suede-2007_sport" rel="nofollow">
+                            <img src="dailymotion.com_files/10617304.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Raid traineau su&egrave;de 2007" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                            <span class="preview_hd"></span>
+                          </a>
+                          <div class="dmco_text duration">37:25</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/sport/video/x6bkd4_raid-traineau-suede-2007_sport" title="Raid traineau su&egrave;de 2007" rel="nofollow">Raid traineau suède 2007</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 58.8px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">1315</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/thierrynarcy" title="thierrynarcy" rel="nofollow">thierrynarcy</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">Raid de 9 jours en traineau en laponie suèdoise</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/creation/featured/1" title="arts">arts</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/creation/video/x62bae_inque-seiryoku_creation" rel="nofollow">
+                            <img src="dailymotion.com_files/10185638.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Inque - Seiryoku" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                            <span class="preview_hd"></span>
+                          </a>
+                          <div class="dmco_text duration">03:30</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/creation/video/x62bae_inque-seiryoku_creation" title="Inque   Seiryoku" rel="nofollow">Inque   Seiryoku</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 45.6px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">1768</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/wullon" title="wullon" rel="nofollow">wullon</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">Seiryoku by Inque. PC demo for the Intel Demo...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/videogames/featured" title="gaming">gaming</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/videogames/video/x6b9uy_saints-row-2-trailer-tera-patrick" rel="nofollow">
+                            <img src="dailymotion.com_files/10603690.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Saints Row 2 Trailer Tera Patrick" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                            <span class="preview_hd"></span>
+                          </a>
+                          <div class="dmco_text duration">01:27</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/videogames/video/x6b9uy_saints-row-2-trailer-tera-patrick" title="Saints Row 2 Trailer Tera Patrick" rel="nofollow">Saints Row 2 Trailer Tera Patrick</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 39.6px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">8096</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/Leaguexbox" title="Leaguexbox" rel="nofollow">Leaguexbox</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground"></div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/tech/featured" title="tech &amp; science">tech & science</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/tech/video/x6bvzw_ipod-touch-beatmakers-kaoss-pad_music" rel="nofollow">
+                            <img src="dailymotion.com_files/10632380.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Ipod touch beatmakers kaoss pad" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                            <span class="preview_hd"></span>
+                          </a>
+                          <div class="dmco_text duration">05:30</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/tech/video/x6bvzw_ipod-touch-beatmakers-kaoss-pad_music" title="Ipod touch beatmakers kaoss pad" rel="nofollow">Ipod touch beatmakers kaoss pad</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 55.2px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">2047</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/oscillogik" title="oscillogik" rel="nofollow">oscillogik</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">L'éditeur Intua a conçu avec BeatMaker un mini sampleur de...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/travel/featured" title="travel">travel</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/travel/video/x6au9i_brasil0745les-enfants-sans-toit2_travel" rel="nofollow">
+                            <img src="dailymotion.com_files/10583478.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="BRASIL_07_45_LES ENFANTS SANS TOIT_2" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">05:04</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/travel/video/x6au9i_brasil0745les-enfants-sans-toit2_travel" title="BRASIL 07 45 LES ENFANTS SANS TOIT 2" rel="nofollow">BRASIL 07 45 LES ENFANTS SANS TOIT 2</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 60px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">733</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/ziziche" title="ziziche" rel="nofollow">ziziche</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">2ème partie... On voit un peu l'extérieur du squat...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/auto/featured" title="auto-moto">auto-moto</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/auto/video/x69yg3_nissan-s15-2jz-driftworks-drift_auto" rel="nofollow">
+                            <img src="dailymotion.com_files/10542243.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="NISSAN S15 2JZ DRIFTWORKS DRIFT" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">00:34</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/auto/video/x69yg3_nissan-s15-2jz-driftworks-drift_auto" title="NISSAN S15 2JZ DRIFTWORKS DRIFT" rel="nofollow">NISSAN S15 2JZ DRIFTWORKS DRIFT</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 57.6px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">1652</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_official_user_logo" title="Official User" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/darkandier" title="darkandier" rel="nofollow">darkandier</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">Une des S15 les plus puissante au monde...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/animals/featured" title="animals">animals</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/animals/video/x6aymy_puppy-vs-mirror_animals" rel="nofollow">
+                            <img src="dailymotion.com_files/10589146.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Puppy vs. Mirror" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">00:47</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/animals/video/x6aymy_puppy-vs-mirror_animals" title="Puppy vs. Mirror" rel="nofollow">Puppy vs. Mirror</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 58.8px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">2770</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/gagfilms" title="gagfilms" rel="nofollow">gagfilms</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">A puppy sees himself in a mirror and thinks there's another...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/webcam/featured" title="webcam &amp; vlogs">webcam & vlogs</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/webcam/video/x6a1vt_david-guetta-dont-le-me-piano_webcam" rel="nofollow">
+                            <img src="dailymotion.com_files/10546697.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="David Guetta Don't Le Me Piano" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">03:22</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/webcam/video/x6a1vt_david-guetta-dont-le-me-piano_webcam" title="David Guetta Don't Le Me Piano" rel="nofollow">David Guetta Don't Le Me Piano</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 55.2px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">3436</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/Myth22" title="Myth22" rel="nofollow">Myth22</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">C'est la première fois que je fais une vidéo moins de quinze...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/school/featured" title="college">college</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/school/video/x5bv5q_coventry-university-students-union_music" rel="nofollow">
+                            <img src="dailymotion.com_files/89516780.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Coventry University Students Union - Dale Campbell" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">05:27</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/school/video/x5bv5q_coventry-university-students-union_music" title="Coventry University Students Union   Dale Campbell" rel="nofollow">Coventry University Students Union   Dale Campbell</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 60px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">349</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/DaleCampbell" title="DaleCampbell" rel="nofollow">DaleCampbell</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">Video of Dale playing at Coventry Uni SU  ..........</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/lifestyle/featured" title="lifestyle">lifestyle</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/lifestyle/video/x69om3_how-to-talk-dirty_lifestyle" rel="nofollow">
+                            <img src="dailymotion.com_files/10529499.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="How To Talk Dirty" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">02:39</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/lifestyle/video/x69om3_how-to-talk-dirty_lifestyle" title="How To Talk Dirty" rel="nofollow">How To Talk Dirty</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 48px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">1830</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_official_user_logo" title="Official User" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/VideoJug" title="VideoJug" rel="nofollow">VideoJug</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">http://www.videojug.com - How To Talk Dirty</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/cluster/people/featured" title="people &amp; family">people & family</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/featured/cluster/people/video/x68ufp_selena-gomez-on-her-best-friend-dem_shortfilms" rel="nofollow">
+                            <img src="dailymotion.com_files/10490389.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Selena Gomez on her best friend, Demi Lovato" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">01:29</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/featured/cluster/people/video/x68ufp_selena-gomez-on-her-best-friend-dem_shortfilms" title="Selena Gomez on her best friend, Demi Lovato" rel="nofollow">Selena Gomez on her best friend, Demi Lovato</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 60px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">2332</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_official_user_logo" title="Official User" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/younghollywood" title="younghollywood" rel="nofollow">younghollywood</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">https://secure.younghollywood...</div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_video background_5_on_hover">
+                        <h3 class="dmco_title">
+                          <a class="dmco_link dmco_simplelink video_title channel_title" href="http://www.dailymotion.com/video/x57mw8_magnetic-batons_creation" title="Best of Dailymotion">Best of Dailymotion</a>
+                        </h3>
+                        <div class="dmpi_video_preview">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/video/x57mw8_magnetic-batons_creation">
+                            <img src="dailymotion.com_files/87543440.jpg" alt="" class="dmco_image image_border" height="105" width="140" title="Magnetic batons" />
+                            <span class="preview_banner_background"></span>
+                            <span class="preview_banner"></span>
+                          </a>
+                          <div class="dmco_text duration">03:36</div>
+                          
+                        </div>
+                        <h4 class="dmco_title dmpi_video_title">
+                          <a class="dmco_link dmco_simplelink video_title" href="http://www.dailymotion.com/video/x57mw8_magnetic-batons_creation" title="Magnetic batons">Magnetic batons</a>
+                        </h4>
+                        <div class="dmpi_video_rating">
+                          <div class="dmco_starrating small_stars" style="width: 60px;">
+                            <div class="rating" style="width: 48px;"></div>
+                          </div>
+                        </div>
+                        <div class="dmpi_video_stats foreground2">
+                          <ul class="dmco_list">
+                            <li>
+                              <div class="dmco_counter views block">
+                                <span class="value">56386</span>
+                                <span class="suffix">views</span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                        <div class="dmpi_user_statusicon foreground2">
+                          <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/creative/1">
+                            <img src="dailymotion.com_files/transpar.gif" alt="" class="dmco_image sprite sprite__mini_creative_user_logo" title="MotionMaker" />
+                          </a>
+                        </div>
+                        <div class="dmpi_video_sentby foreground2">
+                          <div class="dmco_user_login">
+                            <span class="prefix">By </span>
+                            <a class="login name" href="http://www.dailymotion.com/Maniballe" title="Maniballe" rel="nofollow">Maniballe</a>
+                          </div>
+                        </div>
+                        <div class="dmco_html foreground">2 batons, 2 arms to create the effect.
+<br />
+<br />A collaborative video m</div>
+                      </div>
+                    </div>
+                    <div class="dmpi_box_round tag_box">
+                      <span class="xtop">
+                        <span class="xb1"></span>
+                        <span class="xb2"></span>
+                        <span class="xb3"></span>
+                        <span class="xb4"></span>
+                      </span>
+                      <div class="content">
+                        <div class="dmco_box tags_container">
+                          <div class="dmpi_tagcloud">
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/amour" title="click here to search for 'amour'">amour</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t5" href="http://www.dailymotion.com/tag/amv" title="click here to search for 'amv'">amv</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/chien" title="click here to search for 'chien'">chien</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/concert" title="click here to search for 'concert'">concert</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t7" href="http://www.dailymotion.com/tag/dance" title="click here to search for 'dance'">dance</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/danse" title="click here to search for 'danse'">danse</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/drole" title="click here to search for 'drole'">drole</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/d&eacute;lire" title="click here to search for 'd&eacute;lire'">délire</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/electro" title="click here to search for 'electro'">electro</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t5" href="http://www.dailymotion.com/tag/festival" title="click here to search for 'festival'">festival</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t6" href="http://www.dailymotion.com/tag/foot" title="click here to search for 'foot'">foot</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t10" href="http://www.dailymotion.com/tag/france" title="click here to search for 'france'">france</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/fun" title="click here to search for 'fun'">fun</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/funny" title="click here to search for 'funny'">funny</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/guitare" title="click here to search for 'guitare'">guitare</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/hip" title="click here to search for 'hip'">hip</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/hop" title="click here to search for 'hop'">hop</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t6" href="http://www.dailymotion.com/tag/hot" title="click here to search for 'hot'">hot</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t8" href="http://www.dailymotion.com/tag/humour" title="click here to search for 'humour'">humour</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/jeux" title="click here to search for 'jeux'">jeux</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/jump" title="click here to search for 'jump'">jump</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t8" href="http://www.dailymotion.com/tag/live" title="click here to search for 'live'">live</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t7" href="http://www.dailymotion.com/tag/love" title="click here to search for 'love'">love</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/manga" title="click here to search for 'manga'">manga</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t6" href="http://www.dailymotion.com/tag/maroc" title="click here to search for 'maroc'">maroc</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t6" href="http://www.dailymotion.com/tag/moi" title="click here to search for 'moi'">moi</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t5" href="http://www.dailymotion.com/tag/moto" title="click here to search for 'moto'">moto</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t6" href="http://www.dailymotion.com/tag/paris" title="click here to search for 'paris'">paris</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t5" href="http://www.dailymotion.com/tag/parodie" title="click here to search for 'parodie'">parodie</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t7" href="http://www.dailymotion.com/tag/part" title="click here to search for 'part'">part</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t5" href="http://www.dailymotion.com/tag/piscine" title="click here to search for 'piscine'">piscine</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/ps3" title="click here to search for 'ps3'">ps3</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t8" href="http://www.dailymotion.com/tag/rock" title="click here to search for 'rock'">rock</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/test" title="click here to search for 'test'">test</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t4" href="http://www.dailymotion.com/tag/trailer" title="click here to search for 'trailer'">trailer</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t7" href="http://www.dailymotion.com/tag/tv" title="click here to search for 'tv'">tv</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t3" href="http://www.dailymotion.com/tag/vid&eacute;o" title="click here to search for 'vid&eacute;o'">vidéo</a>
+                            <a class="dmco_link dmco_simplelink tag_list_item_add link t2" href="http://www.dailymotion.com/tag/world" title="click here to search for 'world'">world</a>
+                          </div>
+                        </div>
+                        <div class="dmco_clear"><!--comment for IE6 height --></div>
+                      </div>
+                      <span class="xbottom">
+                        <span class="xb4"></span>
+                        <span class="xb3"></span>
+                        <span class="xb2"></span>
+                        <span class="xb1"></span>
+                      </span>
+                    </div>
+                    <div class="dmco_clear"><!--comment for IE6 height --></div>
+                  </div>
+                </div>
+                <div class="box_footer">
+                  <div class="footer_left"></div>
+                  <div class="footer_right"></div>
+                  <div class="footer_center"></div>
+                </div>
+                <div class="dmco_clear"><!--comment for IE6 height --></div>
+              </div>
+              <div class="dmco_clear"><!--comment for IE6 height --></div>
+              <div class="dmpi_box dmpi_subbox users_box dmpi_subbox">
+                <div class="box_header box_header_width_content">
+                  <div class="header_left"></div>
+                  <div class="header_right"></div>
+                  <div class="header_center">
+                    <div class="dmco_box left_title">
+                      <h2 class="dmco_title">
+                        <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/users/featured" title="Users &raquo;">Users »</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_content">
+                  <div class="content_right">
+                    <div class="dmpi_slotlist dmpi_slotlists_home_users">
+                      <div class="dmpi_slotitem dmpi_slotitem_user">
+                        <a class="dmco_avatar dmpi_user_avatar medium" href="http://www.dailymotion.com/CFProductions" title="CFProductions">
+                          <img src="dailymotion.com_files/70020600.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="CFProductions" />
+                        </a>
+                        <div class="dmpi_slotitem_user_container">
+                          <div class="dmco_user_login">
+                            <a class="login name" href="http://www.dailymotion.com/CFProductions" title="CFProductions">CFProductions</a>
+                          </div>
+                          <div class="dmco_html foreground">I Envisage, I Shoot then I Edit.</div>
+                        </div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_user">
+                        <a class="dmco_avatar dmpi_user_avatar medium" href="http://www.dailymotion.com/mrpaparazzi" title="mrpaparazzi">
+                          <img src="dailymotion.com_files/10267347.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="mrpaparazzi" />
+                        </a>
+                        <div class="dmpi_slotitem_user_container">
+                          <div class="dmco_user_login">
+                            <a class="login name" href="http://www.dailymotion.com/mrpaparazzi" title="mrpaparazzi">mrpaparazzi</a>
+                          </div>
+                          <div class="dmco_html foreground">Claim to despise 'celebrity culture' but you secretly crave the latest gossip? Darryn Lyons, aka Mr Paparazzi, gives you what you want</div>
+                        </div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_user">
+                        <a class="dmco_avatar dmpi_user_avatar medium" href="http://www.dailymotion.com/genertik" title="genertik">
+                          <img src="dailymotion.com_files/11094692.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="genertik" />
+                        </a>
+                        <div class="dmpi_slotitem_user_container">
+                          <div class="dmco_user_login">
+                            <a class="login name" href="http://www.dailymotion.com/genertik" title="genertik">genertik</a>
+                          </div>
+                          <div class="dmco_html foreground">Genertik claim to be 'fluent in the language of what makes a music video kick ass' and we agree with them.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dmco_clear"><!--comment for IE6 height --></div>
+                  </div>
+                </div>
+                <div class="box_footer">
+                  <div class="footer_left"></div>
+                  <div class="footer_right"></div>
+                  <div class="footer_center"></div>
+                </div>
+                <div class="dmco_clear"><!--comment for IE6 height --></div>
+              </div>
+              <div class="dmpi_box dmpi_subbox partners_box dmpi_subbox">
+                <div class="box_header box_header_width_content">
+                  <div class="header_left"></div>
+                  <div class="header_right"></div>
+                  <div class="header_center">
+                    <div class="dmco_box left_title">
+                      <h2 class="dmco_title">Events</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_content">
+                  <div class="content_right">
+                    <div class="dmpi_slotlist dmpi_slotlists_home_events">
+                      <div class="dmpi_slotitem dmpi_slotitem_event">
+                        <a class="dmco_avatar" href="http://www.dailymotion.com/supershorts" title="supershorts">
+                          <img src="dailymotion.com_files/18498971.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="supershorts" />
+                        </a>
+                        <div class="dmco_box event_slot_infos">
+                          <a class="dmco_link dmco_simplelink name" href="http://www.dailymotion.com/supershorts" title="supershorts">supershorts</a>
+                          <div class="dmco_html foreground">The home of The 2008 Super Shorts International Film Festival</div>
+                        </div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_event">
+                        <a class="dmco_avatar" href="http://www.dailymotion.com/loveparadetv" title="love parade">
+                          <img src="dailymotion.com_files/91184260.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="love parade" />
+                        </a>
+                        <div class="dmco_box event_slot_infos">
+                          <a class="dmco_link dmco_simplelink name" href="http://www.dailymotion.com/loveparadetv" title="love parade">love parade</a>
+                          <div class="dmco_html foreground">Coming up on July 19. 2008 The Loveparade Highway to Love  at Dortmund! see u at the party :-) !  Up coming:   -Anja</div>
+                        </div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_event">
+                        <a class="dmco_avatar" href="http://www.dailymotion.com/group/spokenwordchallenge" title="Spoken Word">
+                          <img src="dailymotion.com_files/11688000.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="Spoken Word" />
+                        </a>
+                        <div class="dmco_box event_slot_infos">
+                          <a class="dmco_link dmco_simplelink name" href="http://www.dailymotion.com/group/spokenwordchallenge" title="Spoken Word">Spoken Word</a>
+                          <div class="dmco_html foreground">Trottoirpoesie Spoken Word Challenge  Kreiert Euer eigenes Trottoirpoesie Video – und gewinnt Euren eigenen LIVE AUFTRITT auf der</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dmco_clear"><!--comment for IE6 height --></div>
+                  </div>
+                </div>
+                <div class="box_footer">
+                  <div class="footer_left"></div>
+                  <div class="footer_right"></div>
+                  <div class="footer_center"></div>
+                </div>
+                <div class="dmco_clear"><!--comment for IE6 height --></div>
+              </div>
+              <div class="dmpi_box dmpi_subbox groups_box dmpi_subbox">
+                <div class="box_header box_header_width_content">
+                  <div class="header_left"></div>
+                  <div class="header_right"></div>
+                  <div class="header_center">
+                    <div class="dmco_box left_title">
+                      <h2 class="dmco_title">
+                        <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/en/groups/featured" title="Groups &raquo;">Groups »</a>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="box_content">
+                  <div class="content_right">
+                    <div class="dmpi_slotlist dmpi_slotlists_home_groups">
+                      <div class="dmpi_slotitem dmpi_slotitem_group">
+                        <a class="dmco_avatar dmpi_group_icon" href="http://www.dailymotion.com/group/NobodysPerfect" title="NobodysPerfect">
+                          <img src="dailymotion.com_files/12072400.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="NobodysPerfect" />
+                        </a>
+                        <div class="dmco_box group_slot_infos">
+                          <a class="dmco_link dmco_simplelink name" href="http://www.dailymotion.com/group/NobodysPerfect" title="Nobody's Perfect Film Competition">Nobody's Perfect Film Competition</a>
+                          <div class="dmco_html foreground">A competition for filmmakers under 25- enter a 5-minute film and get noticed</div>
+                        </div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_group">
+                        <a class="dmco_avatar dmpi_group_icon" href="http://www.dailymotion.com/group/SONAR08" title="SONAR08">
+                          <img src="dailymotion.com_files/11989600.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="SONAR08" />
+                        </a>
+                        <div class="dmco_box group_slot_infos">
+                          <a class="dmco_link dmco_simplelink name" href="http://www.dailymotion.com/group/SONAR08" title="SONAR 2008">SONAR 2008</a>
+                          <div class="dmco_html foreground">¡Añade tus videos del Festival Sonar 2008!</div>
+                        </div>
+                      </div>
+                      <div class="dmpi_slotitem dmpi_slotitem_group">
+                        <a class="dmco_avatar dmpi_group_icon" href="http://www.dailymotion.com/group/103122" title="103122">
+                          <img src="dailymotion.com_files/10312200.jpg" alt="" class="dmco_image light_border" height="80" width="80" title="103122" />
+                        </a>
+                        <div class="dmco_box group_slot_infos">
+                          <a class="dmco_link dmco_simplelink name" href="http://www.dailymotion.com/group/103122" title="CONCOURS M. GONDRY">CONCOURS M. GONDRY</a>
+                          <div class="dmco_html foreground">Après de longues délibérations et des débats passionnés, le</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dmco_clear"><!--comment for IE6 height --></div>
+                  </div>
+                </div>
+                <div class="box_footer">
+                  <div class="footer_left"></div>
+                  <div class="footer_right"></div>
+                  <div class="footer_center"></div>
+                </div>
+                <div class="dmco_clear"><!--comment for IE6 height --></div>
+              </div>
+              <div class="dm_widget_masscast dmpi_masscast mc_container top_container">
+                <div id="mc_Middle" class="mc_video_player">
+                  <script type="text/javascript">mcType = "video_player"; mcContainer = "Middle";</script>
+                  <script type="text/javascript" src="dailymotion.com_files/1100602384@Middle.html"></script>
+                </div>
+              </div>
+              <div class="dmco_clear"><!--comment for IE6 height --></div>
+            </div>
+          </div>
+          <div class="box_footer">
+            <div class="footer_left"></div>
+            <div class="footer_right"></div>
+            <div class="footer_center"></div>
+          </div>
+          <div class="dmco_clear"><!--comment for IE6 height --></div>
+        </div>
+        
+      </div>
+      <div class="dmpi_footer" id="footer">
+        <ul class="dmco_list dmco_menu footer footer_links">
+          <li>
+            <div class="dmco_link sub_title">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/faq" title="Help">Help</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link sub_title">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/feedback" title="Contact us">Contact us</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_separator">|</div>
+          </li>
+          <li>
+            <div class="dmco_link sub_title">
+              <a class="dmco_link dmco_simplelink" href="http://blog.dailymotion.com/" title="Our blog">Our blog</a>
+              <span class="dmco_text dmco_simpletext itnew suffix">&raquo;</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="dmco_list dmco_menu footer footer_about">
+          <li>
+            <div class="dmco_link title">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/about" title="About">About</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/about" title="Staff">Staff</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/advertise" title="Advertise">Advertise</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/press" title="Press">Press</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/job" title="Jobs">Jobs</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="dmco_list dmco_menu footer footer_legal">
+          <li>
+            <div class="dmco_link title">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/terms" title="Legal">Legal</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/terms" title="Terms of use">Terms of use</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/infos" title="Corporate information">Corporate information</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/privacy" title="Privacy policy">Privacy policy</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/prohibited" title="Prohibited content">Prohibited content</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/copyright" title="Copyright notification">Copyright notification</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/legal/contentprotection" title="Content Protection">Content Protection</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="dmco_list dmco_menu footer footer_tools">
+          <li>
+            <div class="dmco_text title">Tools</div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/factory/videowall" title="Videowall">Videowall</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/factory/jukebox" title="Jukebox">Jukebox</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/factory/uploader" title="Uploader">Uploader</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/factory/facebook" title="Facebook">Facebook</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://iphone.dailymotion.com/" title="iPhone">iPhone</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="dmco_list dmco_menu footer footer_content">
+          <li>
+            <div class="dmco_link title">
+              <a class="dmco_link dmco_simplelink" href="" title="Content">Content</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/register/motionmaker" title="Become a MotionMaker">Become a MotionMaker</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/users/creative/1" title="Our MotionMakers">Our MotionMakers</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/content/official" title="Become an Official User">Become an Official User</a>
+            </div>
+          </li>
+          <li>
+            <div class="dmco_link">
+              <a class="dmco_link dmco_simplelink" href="http://www.dailymotion.com/users/official/1" title="Our Official Users">Our Official Users</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="dmco_list dmco_menu footer footer_empty">
+          <li />
+        </ul>
+        <div class="dmco_text copy">&copy; 2005 - 2008 Dailymotion</div>
+        <form action="http://www.dailymotion.com/" class="dmco_form_container dmco_form dmpi_search" id="footer_search" method="post">
+          <div>
+            <input class="dmco_form_input dmco_form_hidden" id="footer_search_form_name" name="form_name" type="hidden" value="dm_pageitem_search" />
+          </div>
+          <div>
+            <input class="dmco_form_input dmco_form_text text" id="footer_search_search" name="search" type="text" value="Search" />
+          </div>
+          <div>
+            <span class="form_label">IN</span>
+            <select class="dmco_form_input dmco_form_choice check rule_valid" id="footer_search_kind" name="kind">
+              <option value="video" selected="selected">Videos</option>
+              <option value="user">Users</option>
+              <option value="group">Groups</option>
+            </select>
+            <input class="dmco_form_input dmco_form_submit button short_input" id="footer_search_submit" type="submit" name="submit" value="OK" />
+          </div>
+        </form>
+        <div class="dmco_clear"><!--comment for IE6 height --></div>
+      </div>
+    </div>
+    <div class="dmpi_pagestats"><div class="dm_widget_pagestats" >          <div style="display:none">
+             <script type="text/javascript" id="vstag">
+               var vskeys= {vs_version:"",vs_spb:"",vs_lat:"",vs_lng:"",vs_country:"",vs_rid:"",vs_log:"",vs_ff:"",vs_locale:"",vs_pagename:""};
+               var vsUrl= "dailymotion.com_files/tag.gif?";
+               var vsRedUrl= "http://www.dailymotion.com/images/vs/tag.gif?";
+             </script>
+          </div>
+</div></div>
+    <div id="loading"></div>
+    <div class="dm_scriptpack dmpi_bottomscripts">
+      <script type="text/javascript" src="dailymotion.com_files/base0000.js"></script>
+      <script type="text/javascript">
+	DM_Widget_PageItem_Header.search = null;
+	DM_Pagev3 = true;
+	DM_CloseLabel = 'close';
+	DM_CancelLabel = 'cancel';
+    </script>
+    </div>
+  </body>
+</html>
+<!-- This document saved from http://www.dailymotion.com/en -->

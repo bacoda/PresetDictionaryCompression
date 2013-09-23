@@ -1,0 +1,125 @@
+if(typeof showStitial == 'undefined' || !showStitial){
+    if(typeof adString == 'undefined') var adString = "";
+    
+    var tileDate = new Date();
+    var tile = tileDate.getTime();
+    var isLinkedAdGroup1 = false;
+    var isForSiteNeedingTheSameTile = false;
+    if(typeof fixedTile1 == 'undefined' || fixedTile1 == ''){
+        var fixedTileDate1 = new Date();
+        var fixedTile1 = fixedTileDate1.getTime() + Math.round(Math.random() * 1000);        
+    }
+    <!--/*isLinkedAdGroup1Check*/-->
+    if(isLinkedAdGroup1) { tile = fixedTile1; }
+    
+    
+isForSiteNeedingTheSameTile = true;
+
+    if(isForSiteNeedingTheSameTile) { tile = fixedTile1; }
+
+    var isDupAd = false;    
+    <!--/*dupAdCheck*/-->
+    <!--/*adStringAppend*/-->
+    if(!isDupAd){
+        if(true){
+            document.write("<"+"script type='text/javascript' src='ign.com_files/ng.js'>");
+            document.write("<"+"/script>");
+        }
+
+    }else if(isDupAd){
+	
+    }
+}
+
+
+if((typeof ataxscript == 'undefined' || ataxscript.length == 0) &&
+   (typeof ataximg == 'undefined' || ataximg.length == 0) &&
+   (typeof showStitial == 'undefined' || !showStitial) &&
+   (typeof forwardedByStitial == 'undefined' || !forwardedByStitial))
+{
+    var now 	 = new Date();
+    var random 	 = now.getTime();
+    var ref 	 = (document.referrer)?'&r='+escape(document.referrer):'';
+        ref      = ref.split('/').join('%2F');
+        ref      = ref.split('.').join('%2E');
+        ref      = ref.split('%').join('$');
+
+    var ataxscript = "<"+"script src='http://atax.ign.com/special=ctocsweeps&hosted_id=0&network=fim&src=wrapper&channel_id=58&reginsider=a&subdomain=www.ign.com&pagetype=channel&site=ign&dechannel=ign&size=1x1&server=linapp42.in.snowball.com&name=ATAtracker&PageId=1215519858676&random=1215519858676&ct=js" + ref + "&property=ign&'" + ">"+"<" + "/script" + ">";
+    document.write(ataxscript);
+    // ubt pixel as transparent GIF.  
+    if (ataxscript.indexOf("atax.ign.com") >= 0 && true)
+      {
+      // change to GIF form
+      var ubtscript = ataxscript.split('atax').join('ubt');
+      var tokens = ubtscript.split("'");
+          tokens = tokens[1].split('/');
+          tokens[3] = tokens[3].split('?').join('&');
+          ubtscript = '<img src ="http://ubt.ign.com/record?'+tokens[3]+'" height=1 width=1 style="position: absolute; visibility: hidden;">';
+          ubtscript = ubtscript.split('ct=js').join('ct=gif');
+      document.write(ubtscript);
+      }
+    // pixel for Akamai tracking
+    var akamai = '<img src="http://media.ign.com/akamai/pixy.gif" height=1 width=1 style="position: absolute; visibility: hidden;">';
+    document.write(akamai);
+
+    // nuconomy stuff
+    // gamespy only
+    if (false && ataxscript.indexOf("atax.gamespy.com") >= 0)
+      {
+      // setup stuff
+      document.writeln("<sc"+"ript src=\"http://services.nuconomy.com/n.js\" type=\"text/javascript\"></sc"+"ript>");
+ 
+      // make sure the ign read user stuff is in
+      if (typeof(getUsernameFromIgnLogin) == 'undefined') 
+        {
+        document.writeln("<sc"+"ript src=\"http://scri"+"pts.ign.com/scr"+"ipts/ign/data.js\" type=\"text/javascript\"></sc"+"ript>");
+        }
+  
+      // save old onload
+			var ___oldWinOnload = window.onload;
+
+      // wait for the document.writeln to load
+			window.onload = function() 
+        {
+        // execute old one first
+				if (typeof(___oldWinOnload) == 'function') {___oldWinOnload();}
+
+        // tell them it's gamespy
+        NUCONOMY.ProjectToken = "3e17decd-54";
+    
+        // log the PV; 1 = PV; 0 = value
+        NUCONOMY.Logger.LogActivity( getUsernameFromIgnLogin(), '', document.location , 1, 0);
+    
+        // the metadata will be the ATA name/value pairs
+        var tokens = ataxscript.split("'");
+            tokens = tokens[1].split('/');
+            tokens[3] = tokens[3].split('?').join('&'); // add in query string 
+            tokens[3] = tokens[3].split('&').join(';'); // convert to semi-colon delimited
+  
+        // we need to use pagetype expressly
+        var tokens2 = tokens[3].split(';');
+        var pagetype = '';
+        try 
+          {
+          for (token in tokens2)
+            {
+            if (tokens2[token].indexOf("pagetype") == 0)
+              {
+              pagetype = tokens2[token].substring(9);  // remove pagetype=
+              break;
+              }
+            }
+          }
+        catch (err) {}
+  
+        // set metadata---
+        NUCONOMY.Logger.SetContentMetadata (document.location, '' , pagetype, tokens[3] );
+        }
+      }
+
+    <!--/*GameSpyTextAdSrc*/-->
+}
+
+
+
+<!-- This document saved from http://wrapper.ign.com/a?pagetype=channel&size=tracker&special=ctocsweeps -->

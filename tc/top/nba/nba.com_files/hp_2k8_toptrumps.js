@@ -1,0 +1,1 @@
+document.write('<a target="_new" href="http://ad.doubleclick.net/click;h=v8/3707/0/0/%2a/n;152218812;0-0;0;21268617;5943-135/29;23249019/23266872/1;;~sscs=%3fhttp://toptrumps.nba.com/2ksports/"><img src="nba.com_files/135x29_2k8.gif" border=0 alt="Click here to find out more!"></a>');

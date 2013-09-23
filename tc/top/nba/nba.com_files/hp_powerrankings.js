@@ -1,0 +1,1 @@
+document.write('<a target="_new" href="http://ad.doubleclick.net/click;h=v8/3707/0/0/%2a/d;192963256;0-0;0;25180869;5943-135/29;25171101/25188958/1;;~sscs=%3fhttp://www.nba.com/powerrankings/"><img src="nba.com_files/hpadidas_135x29.gif" border=0 alt="Click here to find out more!"></a>');

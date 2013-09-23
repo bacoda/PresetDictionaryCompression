@@ -1,0 +1,14 @@
+document.write("<script type=\"text/javascript\">");
+document.write("google_ad_client = \"pub-2225071415168430\";");
+document.write("google_ad_slot = \"8997623253\";");
+document.write("google_ad_width = 300;");
+document.write("google_ad_height = 250;");
+document.write("google_color_border = \"\";");
+document.write("google_color_bg = \"\";");
+document.write("google_color_link = \"\";");
+document.write("google_color_url = \"\";");
+document.write("google_color_text = \"\";");
+document.write("</script>");
+document.write("<script type=\"text/javascript\"");
+document.write("src=\"show_ads.js\">");
+document.write("</script>");document.close();

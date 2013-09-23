@@ -1,0 +1,25 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><script language="JavaScript" type="text/javascript">
+
+  var qs = location.search.substring(1);
+  var nv = qs.split('&');
+  var url = new Object();
+  for(i = 0; i < nv.length; i++)
+  {
+    eq = nv[i].indexOf('=');
+    url[nv[i].substring(0,eq).toLowerCase()] = unescape(nv[i].substring(eq + 1));
+  }
+
+</script>
+
+
+<script language="JavaScript">
+	document.write('<SCRIPT LANGUAGE="JavaScript" SRC="'+url['source']+'?"\></SCRIPT\>');
+</script><script language="JavaScript" src="adform2_files/a.htm"></script><script language="Javascript1.1">adf_JS=2;</script> 
+<script language="Javascript1.2">adf_JS=3;</script> 
+<script language="Javascript1.3">adf_JS=4;</script> 
+<script language="Javascript1.4">adf_JS=5;</script> 
+<script language="Javascript1.5">adf_JS=6;</script> 
+<script language="Javascript1.6">adf_JS=7;</script> 
+<script language="Javascript1.7">adf_JS=8;</script> 
+<script language="JavaScript" src="adform2_files/a_002.htm"></script></head><body><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" id="FlashID1x" width="180" height="120"> <param name="movie" value="www.vg.no_files/adform2_files/215943.swf?bv=0&amp;ADFid=1x&amp;clickTAG=http%3A//ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/734165300/x21/OasDefault/komplett_knapp_front_2008/komplett_knapp_front_2008.html/64356563643031363438626538346630%3Fhttp%3A//track.adform.net/C/%3Fbn%3D79035%3Bbsqno%3D1%3Bli%3D1%3Bcset%3D19%7C19%7C21%7C1700%7C300%7C32%7C8%7C9%7C0%7C3%7C7%7C0%7C0;C=1&amp;clickTAG2=http%3A//ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/734165300/x21/OasDefault/komplett_knapp_front_2008/komplett_knapp_front_2008.html/64356563643031363438626538346630%3Fhttp%3A//track.adform.net/C/%3Fbn%3D79035%3Bbsqno%3D1%3Bli%3D1%3Bcset%3D19%7C19%7C21%7C1700%7C300%7C32%7C8%7C9%7C0%7C3%7C7%7C0%7C0;C=2&amp;clickTAG3=http%3A//ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/734165300/x21/OasDefault/komplett_knapp_front_2008/komplett_knapp_front_2008.html/64356563643031363438626538346630%3Fhttp%3A//track.adform.net/C/%3Fbn%3D79035%3Bbsqno%3D1%3Bli%3D1%3Bcset%3D19%7C19%7C21%7C1700%7C300%7C32%7C8%7C9%7C0%7C3%7C7%7C0%7C0;C=3&amp;clickTAG4=http%3A//ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/734165300/x21/OasDefault/komplett_knapp_front_2008/komplett_knapp_front_2008.html/64356563643031363438626538346630%3Fhttp%3A//track.adform.net/C/%3Fbn%3D79035%3Bbsqno%3D1%3Bli%3D1%3Bcset%3D19%7C19%7C21%7C1700%7C300%7C32%7C8%7C9%7C0%7C3%7C7%7C0%7C0;C=4">  <param name="quality" value="high"> <param name="wmode" value="Opaque"> <param name="allowScriptAccess" value="always"> <embed src="www.vg.no_files/adform2_files/215943.swf" name="FlashID1x" quality="high" wmode="Opaque" swliveconnect="true" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" width="180" height="120"></object></body></html>

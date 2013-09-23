@@ -1,0 +1,1 @@
+document.write("<embed src='/resources/objects/flash.swf'>");

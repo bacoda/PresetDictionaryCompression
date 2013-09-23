@@ -1,0 +1,11 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/friend_suggester.css r114564                                            */
+/*      Machine:  10.16.139.102                                                               */
+/*    Generated:  September 13th 2008 1:21:55 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.friend_suggester_dialog td.pop_content .dialog_body{padding:0px;}
+.friend_suggester_dialog #fb_multi_friend_selector h2{background:none;border:none;}
+.friend_suggester_dialog #fb_multi_friend_selector #view_unselected{display:none;}

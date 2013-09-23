@@ -1,0 +1,18 @@
+/*       Source:  Global Cache                                                                */
+/*     Location:  css/pic_container.css r117641                                               */
+/*      Machine:  10.16.139.108                                                               */
+/*    Generated:  September 13th 2008 1:22:04 AM PDT                                          */
+/*    HTTP Host:  static.ak.fbcdn.net                                                         */
+/*       Locale:  nu_ll                                                                       */
+
+
+.pictures_container{padding:10px 5px 0px 5px;margin-bottom:5px;}
+.profile_picture .pictures_container{margin-bottom:0px;padding-top:5px;}
+.pictures_container .pic_container{display:block;border:1px solid #ddd;padding:2px;margin:0 3px 0 0;width:50px;height:50px;text-align:center;}
+.pictures_container .pic_container:hover{border:1px solid #3b5998;text-decoration:none;}
+.pictures_container .pic_container span{display:block;width:50px;height:50px;}
+.pictures_container .pic_container a:hover{text-decoration:none;border:1px solid #3b5998;}
+.pictures_container .name_container{float:left;text-align:center;margin-bottom:3px;}
+.pictures_container a.see_all{border-bottom:1px solid #D8DFEA;clear:both;display:block;float:left;line-height:2em;text-align:left;width:100%;}
+.pictures_container .name a{display:block;clear:both;font-size:9px;color:#777;}
+.profile_picture_condensed .pic_container{margin-right:1px;}

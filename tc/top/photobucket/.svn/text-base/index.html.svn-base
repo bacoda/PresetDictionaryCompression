@@ -1,0 +1,645 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="index,follow">
+    <meta name="description" content="Photobucket offers image hosting, free photo sharing and video sharing. Upload your photos, host your videos, and share them with friends and family."/>
+    <meta name="keywords" content="free image hosting, free video hosting, image hosting, video hosting, photo image hosting site, video hosting site"/>
+
+<link rel="alternate" type="application/rss+xml" title="Featured Images feed" href="http://feed.photobucket.com/featuredimages.rss">
+<link rel="alternate" type="application/rss+xml" title="Featured Videos feed" href="http://feed.photobucket.com/featuredvideos.rss">
+
+<title>Image hosting, free photo sharing &amp; video sharing at Photobucket</title>
+
+
+<!-- Google Analytics include -->
+<script src="photobucket.com_files/ga000000.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-245455-1");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+	var clickTracker = pageTracker._createEventTracker('click');
+</script>
+
+<link href="http://static.photobucket.com/modules/opensearch/OpenSearch.xml" rel="search" type="application/opensearchdescription+xml" title="Photobucket Image Search">
+
+<link href="photobucket.com_files/photobuc.css" rel="stylesheet" type="text/css">
+<link href="photobucket.com_files/homepage.css" rel="stylesheet" type="text/css">
+<script src="photobucket.com_files/photobuc.js" type="text/javascript"></script>
+<script src="photobucket.com_files/homepage.js" type="text/javascript"></script>
+<!-- homepage -->
+<!-- index -->
+</head>
+<body class="is_op is_lin is_lin_op">
+
+<!-- Begin - containerPage -->
+<div id="containerPage">
+
+                        
+        <!-- Header - Start -->
+<div id="containerHeader" class="pageHome">
+    <div id="containerHeaderCtrls">
+
+        <div id="containerUserCtrls">
+                                    
+        
+<form id="formHeaderLogin" action="http://photobucket.com/login" method="post">
+<div class="groupUserCtrls">
+    <div id="ctrlsLogin">            
+        <input type="hidden" name="action" value="login">
+
+        <label for="usernameemail">username</label>
+        <input type="text" name="usernameemail" id="usernameemail" maxlength="50" size="10" value="">
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" maxlength="50" size="10">
+
+        <input type="submit" name="login" id="bttnHeaderLogin" value="log in">
+        <a id="bttnHeaderRegister" class="button_upsell_green" href="http://photobucket.com/register/?ref=headerregister" title="Sign up for a Photobucket Account Now!">Join Now</a>
+    </div>
+    <div id="menuLogin">
+        <input type="checkbox" name="remember" id="remember">
+        <label id="lblRemember" for="remember">remember me</label>
+        <span class="menuItemSep">|</span>
+        <a class="header_group_item" href="http://photobucket.com/userinfo?special_track=nav_forgot_password">forgot your username or password?</a>
+        <span class="menuItemSep">|</span>
+        <a class="header_group_item" href="http://photobucket.com/tips?special_track=nav_help" title="Help">help</a>
+    </div>
+</div>
+</form>
+
+            </div>
+    </div>
+
+    <!-- Start - Container Primary Nav -->
+    <div id="containerPrimaryNavigation">
+        <ul class="navBar">
+            <li id="cell_Logo"><a href="http://photobucket.com/?special_track=nav_logo" title="Photobucket - Video and Image Hosting"><img src="photobucket.com_files/pblogo_144ea2.gif" alt="Photobucket"></a></li>
+            <!-- Top Navigation Menu -->
+            
+                                <!-- Menu Item: Array -->
+<li id="cell_MyAlbum" class="menuLinkCell">
+			<a href="http://photobucket.com/register/?special_track=nav_tab_join_now" id="linkHeader_MyAlbum" class="menuLink noMenu">join now</a>
+	</li>
+                                                                                <!-- Menu Item: Array -->
+<li id="cell_Groups" class="menuLinkCell">
+			<a href="http://photobucket.com/groupalbums/?special_track=nav_tab_group_albums" id="linkHeader_Groups" class="menuLink">group albums</a>
+	</li>
+                                                                                <!-- Menu Item: Array -->
+<li id="cell_FindStuff" class="menuLinkCell">
+			<a href="http://photobucket.com/findstuff/?special_track=nav_tab_find_stuff" id="linkHeader_FindStuff" class="menuLink">find stuff</a>
+	</li>
+                                                                                    <!-- Menu Item: Array -->
+<li id="cell_WhatsNew" class="menuLinkCell last">
+			<a href="http://photobucket.com/whatsnew/?special_track=nav_tab_whats_new" id="linkHeader_WhatsNew" class="menuLink">what's new</a>
+	</li>
+                                                                
+            <!-- Header - Search -->
+            <li id="cell_Search">
+                    
+
+
+<form name="formHeaderSearch" id="formHeaderSearch" action="http://photobucket.com/images/" method="post" onsubmit="return searchFormHeaderSearch.handleSubmitClick(event);">
+    <div class="containerSearchWrapper">
+        <div id="containerHeaderSearch" class="containerSearchForm">
+
+        <!-- for web search -->
+        <input type="hidden" name="pbSearch" value="true">
+        <input type="hidden" name="domains" value="photobucket.com">
+        <input type="hidden" name="client" value="pub-6859639721029573">
+        <input type="hidden" name="channel" value="1948478515">
+        <input type="hidden" name="safe" value="active">
+        <input type="hidden" name="cof" value="GALT:666666;DIV:D3D3D3;VLC:0000FF;ALC:0000FF;LC:0000FF;BGC:FFFFFF;T:000000;GFNT:0000FF;GIMP:000000;S:http://photobucket.com;FORID:11;">
+        <!-- end web search values-->
+        <input type="hidden" name="modeHeaderSearch" id="modeHeaderSearch" value="">
+        <input type="hidden" name="userinit" value="true">
+        <input type="hidden" name="source" value="header" />
+
+
+                <div class="containerSearchCtrls">
+            <input type="text" name="q" id="qHeaderSearch" class="qSearch" title="Enter Search Term Here" value="">
+            <a href="javascript:void(0);" id="linkSearchModeHeaderSearch" class="linkSearchMode">images</a>
+        </div>
+        <button type="submit" id="submitHeaderSearch" class="button_search" title="Search">Search</button>
+
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+
+</script>
+
+
+            </li>
+        </ul>
+    </div>
+    <!-- End - Container Primary Nav -->
+    
+</div>
+
+<!-- Primary Nav Drop down container -->
+<div id="containerPrimaryNavigationDropDowns">
+    
+            
+                                                    
+    
+<!-- thumb -->
+<!-- Dropdown - Thumb: Groups -->
+<div id="menuHeader_Groups" class="headerDDMenu menuTypeThumbnail" style="display:none;">
+
+                  
+                           
+    <!-- Pitch -->
+    <a href="http://photobucket.com/groupalbums/" class="headerDDMenuLink">
+                    <img src="photobucket.com_files/img_grou.gif" alt="" />
+            <span>Upload images and videos with friends all in one place.</span>
+            </a>
+
+</div>
+                        
+                                    
+<!-- Dropdown-Standard: FindStuff -->
+<div id="menuHeader_FindStuff" class="headerDDMenu" style="display:none;">
+
+    	                                
+    <a href="http://photobucket.com/categories/?special_track=nav_fs_categories" id="linkTopCategories"><div class="headerDDMenuIcon floatL"></div><div class="headerDDMenuLink">top categories</div></a>
+
+
+    	                                
+    <a href="http://photobucket.com/icons/?special_track=nav_fs_ms_icons" id="linkMyspaceIcons"><div class="headerDDMenuIcon floatL"></div><div class="headerDDMenuLink">myspace icons</div></a>
+
+
+    	                                
+    <a href="http://photobucket.com/recent/images/?special_track=nav_fs_recent_images" id="linkRecentImages"><div class="headerDDMenuIcon floatL"></div><div class="headerDDMenuLink">recent images</div></a>
+
+
+    	                                
+    <a href="http://photobucket.com/recent/videos/?special_track=nav_fs_recent_videos" id="linkRecentVideos"><div class="headerDDMenuIcon floatL"></div><div class="headerDDMenuLink">recent videos</div></a>
+
+
+    	                                
+    <a href="http://photobucket.com/digg/?special_track=nav_fs_popular" id="linkPopular"><div class="headerDDMenuIcon floatL"></div><div class="headerDDMenuLink">popular</div></a>
+
+
+    	                                            
+    <a href="http://photobucket.com/findstuff/?special_track=nav_fs_see_more" id="linkFindStuffSeeMore"><div class="headerDDMenuIcon floatL"></div><div class="headerDDMenuLink last">see more&hellip;</div></a>
+
+</div>
+                        
+                                                    
+<!-- whatsnew -->
+<!-- Dropdown - What's New: WhatsNew -->
+<div id="menuHeader_WhatsNew" class="headerDDMenu menuTypeThumbnail" style="display:none;">
+
+                  
+                  
+    <!-- 0 -->
+    <a href="http://photobucket.com/albums/0008/ParisHiltonHair/" class="headerDDMenuLink">
+                    <img src="photobucket.com_files/promo_sp.jpg" alt="" />
+            <b>Paris on Photobucket</b>
+            <span>Check out Paris Hilton's hot hairstyles.</span>
+            </a>
+
+                  
+                  
+    <!-- 1 -->
+    <a href="http://photobucket.com/redirect/album?action=slideshow&sponsor=128" class="headerDDMenuLink">
+                    <img src="photobucket.com_files/toystory.jpg" alt="" />
+            <b>Toy Story </b>
+            <span>Cute new Disney slideshow!</span>
+            </a>
+
+                  
+                  
+    <!-- 2 -->
+    <a href="http://photobucket.com/FTSK" class="headerDDMenuLink">
+                    <img src="photobucket.com_files/pb_ftsk_.jpg" alt="" />
+            <b>FTSK Fans</b>
+            <span>Love FTSK? Check out the fan group.</span>
+            </a>
+
+                  
+                  
+    <!-- 3 -->
+    <a href="http://photobucket.com/grillinandchillin" class="headerDDMenuLink">
+                    <img src="photobucket.com_files/sta_5000.jpg" alt="" />
+            <b>Grillin and Chillin</b>
+            <span>A summertime tradition! Share your Grillin and Chillin pics here.</span>
+            </a>
+
+                  
+                  
+    <!-- SeeMore -->
+    <a href="http://photobucket.com/whatsnew/?special_track=nav_wn_see_more" class="headerDDMenuLink">
+                    see more&hellip;
+            </a>
+    <span class="clearL"></span>
+</div>
+                        
+        
+<!-- Search DD Menu -->
+<div id="groupSearchModeLinksHeaderSearch" class="headerDDMenu" style="display:none;">
+    <h4>Search for</h4>
+    <a href="http://photobucket.com/images/" id="imagesHeaderSearch" class="linkImagesSearch" onclick="searchFormHeaderSearch.handleModeLinkClick(event);">images</a>
+    <a href="http://photobucket.com/videos/" id="videosHeaderSearch" class="linkVideosSearch" onclick="searchFormHeaderSearch.handleModeLinkClick(event);">videos</a>
+
+        <a href="http://photobucket.com/websearch" id="websearchHeaderSearch" class="linkWebSearch last" onclick="searchFormHeaderSearch.handleModeLinkClick(event);">web</a>
+</div>
+<!-- End - Search DD Menu -->
+
+</div>
+<!-- End - Primary Nav Drop down container -->
+    <script type="text/javascript">
+    var searchFormHeaderSearch = new SearchController("HeaderSearch", false);
+        new DropDownMenu(
+                                                    {linkID : "linkHeader_Groups", subMenuID : "menuHeader_Groups", positionDynamically : "left:0;top:33", posFromElt : "", posPersist : true},
+                                            {linkID : "linkHeader_FindStuff", subMenuID : "menuHeader_FindStuff", positionDynamically : "left:0;top:33", posFromElt : "", posPersist : true},
+                                            {linkID : "linkHeader_WhatsNew", subMenuID : "menuHeader_WhatsNew", positionDynamically : "left:0;top:33", posFromElt : "", posPersist : true},
+                    
+                    {linkID : "linkSearchModeHeaderSearch", subMenuID : "groupSearchModeLinksHeaderSearch", onStateLinkClass : "menuOpen", positionDynamically : "left:0;top:18", posFromElt : "", posPersist : true}
+        );
+
+
+    </script>
+<!-- Header - End -->
+
+                                                                    
+
+
+<!-- Main Container -->
+<div id="containerMain">
+    <!-- PB Promo Panel -->
+    <div id="cellPitch">
+
+                                                                                                                    
+         <!-- Pitch -->
+         <h2>Where millions manage their media</h2>
+
+         <div id="containerPitch">
+              <div id="containerPitchImages">
+                    <a href="http://photobucket.com/register?ref=homeupload" title="Upload To Photobucket"><img src="photobucket.com_files/upload_s.jpg" /></a>
+                    <a href="http://photobucket.com/register/?ref=homeshare" title="Share From Photobucket"><img src="photobucket.com_files/share_sq.jpg" style="margin-left: 23px;" /></a>
+                                             <span id="pitchJoin"><a title="Join Now!" href="http://photobucket.com/register/?ref=homejoin" class="button_upsell">Join Now</a><br/>it's free</span>
+                                        <br class="clearBoth">
+              </div>
+         </div>
+                  <div id="containerHomepageSearch">
+             <div id="containerHomepageSearchDropDowns">
+                                  
+<!-- Search DD Menu -->
+<div id="groupSearchModeLinksHomepageSearchMid" class="headerDDMenu" style="display:none;">
+    <h4>Search for</h4>
+    <a href="http://photobucket.com/images/" id="imagesHomepageSearchMid" class="linkImagesSearch" onclick="searchFormHomepageSearchMid.handleModeLinkClick(event);">images</a>
+    <a href="http://photobucket.com/videos/" id="videosHomepageSearchMid" class="linkVideosSearch" onclick="searchFormHomepageSearchMid.handleModeLinkClick(event);">videos</a>
+
+        <a href="http://photobucket.com/websearch" id="websearchHomepageSearchMid" class="linkWebSearch last" onclick="searchFormHomepageSearchMid.handleModeLinkClick(event);">web</a>
+</div>
+<!-- End - Search DD Menu -->
+
+             </div>
+                 
+
+
+<form name="formHomepageSearchMid" id="formHomepageSearchMid" action="http://photobucket.com/images/" method="post" onsubmit="return searchFormHomepageSearchMid.handleSubmitClick(event);">
+    <div class="containerSearchWrapper">
+        <div id="containerHomepageSearchMid" class="containerSearchForm">
+
+        <!-- for web search -->
+        <input type="hidden" name="pbSearch" value="true">
+        <input type="hidden" name="domains" value="photobucket.com">
+        <input type="hidden" name="client" value="pub-6859639721029573">
+        <input type="hidden" name="channel" value="1948478515">
+        <input type="hidden" name="safe" value="active">
+        <input type="hidden" name="cof" value="GALT:666666;DIV:D3D3D3;VLC:0000FF;ALC:0000FF;LC:0000FF;BGC:FFFFFF;T:000000;GFNT:0000FF;GIMP:000000;S:http://photobucket.com;FORID:11;">
+        <!-- end web search values-->
+        <input type="hidden" name="modeHomepageSearchMid" id="modeHomepageSearchMid" value="">
+        <input type="hidden" name="userinit" value="true">
+        <input type="hidden" name="source" value="homepage" />
+
+
+                <div class="containerSearchCtrls">
+            <input type="text" name="q" id="qHomepageSearchMid" class="qSearch" title="Enter Search Term Here" value="">
+            <a href="javascript:void(0);" id="linkSearchModeHomepageSearchMid" class="linkSearchMode">images</a>
+        </div>
+        <button type="submit" id="submitHomepageSearchMid" class="button_search" title="Search">Search</button>
+
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+
+</script>
+
+
+         </div>
+         <script type="text/javascript">
+             new DropDownMenu({linkID : "linkSearchModeHomepageSearchMid", subMenuID : "groupSearchModeLinksHomepageSearchMid", onStateLinkClass : "menuOpen", positionDynamically : "left:0;bottom:18", posFrom : "", posPersist : true});
+
+             var searchFormHomepageSearchMid = new SearchController("HomepageSearchMid", false);
+         </script>
+    </div>
+
+    <div id="cellPromo">
+         <!-- Upper Promo -->
+         <!--Using collapsable ad redering mechanism (div/js) for PROMO_MINI_BANNER-->
+<div id="collapsable-ad-id-PROMO_MINI_BANNER" >
+</div>
+                  
+                  
+            <!--
+                 ad take over, which spans from
+                 Thursday, February  7, 2008 20:00:00
+                 to
+                 Saturday, February  9, 2008 06:00:00
+             -->
+
+                       <!-- Using static size ad redering mechanism (iframe) for PROMO_RECTANGLE -->
+
+  <iframe id="ad522647"
+        width="300"
+        height="250"
+        marginwidth="0" marginheight="0"
+        frameborder="0" scrolling="no"
+        src="photobucket.com_files/aamsz000.htm">
+
+  <script language="javascript" type="text/javascript"
+          src="http://a.photobucket.com/jnserver/random=203029/pageid=19588549/area=PB_HOME/aamsz=PROMO_RECTANGLE">
+  </script>
+
+  <!-- Noscript section for special clients that aren't Javascript enabled -->
+  <noscript>
+    <!-- Note that image size attributes are excluded deliberately -->
+    <a href="http://a.photobucket.com/adclick/random=823494/pageid=19588549/area=PB_HOME/aamsz=PROMO_RECTANGLE"
+       rel="nofollow" target="_blank">
+      <img src="http://a.photobucket.com/jserver/random=280455/pageid=19588549/area=PB_HOME/aamsz=PROMO_RECTANGLE" border="0" />
+    </a>
+  </noscript>
+</iframe>
+             </div>
+
+</div>
+<!-- End - Main Container -->
+
+<!-- News Ticker -->
+<div id="panelNewsTicker">
+    <a id="newsTickerHeader" target="_blank" href="http://press.photobucket.com/">Photobucket news:</a>
+    <a id="newsTickerLink" target="_blank" href="http://blog.photobucket.com/blog/2008/07/new-july-4th-sl.html">New July 4th Slideshow Style</a>
+</div>
+<script type="text/javascript">
+    var newsticker = new NewsTicker();
+    newsticker.add('New July 4th Slideshow Style', 'http://blog.photobucket.com/blog/2008/07/new-july-4th-sl.html');
+    newsticker.activate();
+</script>
+<!-- End - News Ticker -->
+
+<!-- Features Panel -->
+<div id="panelFeatures">
+
+    <div id="panelFeaturedMedia">
+
+    <!-- Lower Promo -->
+    <!--Using collapsable ad redering mechanism (div/js) for PROMO_BANNER-->
+<div id="collapsable-ad-id-PROMO_BANNER" >
+</div>
+        <!-- Featured Images -->
+        <div id="containerFeaturedImages">
+            <ul id="listFeaturedImages">
+
+                                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/Euro%202008/?ref=homepagequad1"><img src="photobucket.com_files/th_euro1.jpg" alt="View and share Euro 2008 images and Euro 2008 pictures and Euro 2008 videos online." title="Euro 2008" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/Euro%202008/?ref=homepagequad1">euro 2008</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/FTSK?ref=homepagequad2"><img src="photobucket.com_files/th_ftsk9.jpg" alt="View and share FTSK images and FTSK pictures and FTSK videos online." title="FTSK" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/FTSK?ref=homepagequad2">ftsk</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/4th%20of%20July%20icons%20or%20fireworks/?ref=homepagequad3"><img src="photobucket.com_files/th_july4.jpg" alt="View and share Happy 4th of July images and Happy 4th of July pictures and Happy 4th of July videos online." title="Happy 4th of July" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/4th%20of%20July%20icons%20or%20fireworks/?ref=homepagequad3">happy 4th of july</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/emo%20or%20emo%20kids/?ref=homepagequad4"><img src="photobucket.com_files/th_back0.jpg" alt="View and share Emo images and Emo pictures and Emo videos online." title="Emo" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/emo%20or%20emo%20kids/?ref=homepagequad4">emo</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/colorful%20or%20colorfull/?ref=homepagequad5"><img src="photobucket.com_files/th_color.jpg" alt="View and share colorful images and colorful pictures and colorful videos online." title="colorful" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/colorful%20or%20colorfull/?ref=homepagequad5">colorful</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/stars%20/?ref=homepagequad6"><img src="photobucket.com_files/th_glitt.jpg" alt="View and share stars images and stars pictures and stars videos online." title="stars" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/stars%20/?ref=homepagequad6">stars</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/Megan%20Fox/?ref=homepagequad7"><img src="photobucket.com_files/th_megan.jpg" alt="View and share Megan Fox images and Megan Fox pictures and Megan Fox videos online." title="Megan Fox" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/Megan%20Fox/?ref=homepagequad7">megan fox</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/vacations%20or%20tropical%20islands/?page=5&userinit=true&ref=homepagequad8"><img src="photobucket.com_files/th_SYDNE.jpg" alt="View and share Vacation time images and Vacation time pictures and Vacation time videos online." title="Vacation time" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/vacations%20or%20tropical%20islands/?page=5&userinit=true&ref=homepagequad8">vacation time</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/images/Christian%20Bale/?ref=homepagequad9"><img src="photobucket.com_files/th_cb120.jpg" alt="View and share Christian Bale images and Christian Bale pictures and Christian Bale videos online." title="Christian Bale" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/images/Christian%20Bale/?ref=homepagequad9">christian bale</a></p>
+                    </li>
+                
+            </ul>
+            <a href="http://photobucket.com/recent/images" class="moreMediaLink">more images</a>
+        </div>
+        <!-- Featured Videos -->
+        <div id="containerFeaturedVideos">
+            <ul id="listFeaturedVideos">
+
+                                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/video/Snapping%20ears/pbhomepage/video1/acfb44b9.pbr?ref=homepagequadv1"><img src="photobucket.com_files/th_acfb4.jpg" alt="View and share Snapping ears images and Snapping ears pictures and Snapping ears videos online." title="Snapping ears" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/video/Snapping%20ears/pbhomepage/video1/acfb44b9.pbr?ref=homepagequadv1">snapping ears</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/video/Gassy%20Bunny/pbhomepage/video2/TheFlatulatingBunny.flv?ref=homepagequadv2"><img src="photobucket.com_files/th_TheFl.jpg" alt="View and share Gassy Bunny images and Gassy Bunny pictures and Gassy Bunny videos online." title="Gassy Bunny" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/video/Gassy%20Bunny/pbhomepage/video2/TheFlatulatingBunny.flv?ref=homepagequadv2">gassy bunny</a></p>
+                    </li>
+                                                        <li>
+                        <div>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td><a href="http://photobucket.com/video/Flying%20Skiier/pbhomepage/video3/SkiJumpFailure.flv?ref=homepagequadv3"><img src="photobucket.com_files/th_SkiJu.jpg" alt="View and share Flying Skiier images and Flying Skiier pictures and Flying Skiier videos online." title="Flying Skiier" /></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p><a href="http://photobucket.com/video/Flying%20Skiier/pbhomepage/video3/SkiJumpFailure.flv?ref=homepagequadv3">flying skiier</a></p>
+                    </li>
+                
+            </ul>
+            <a href="http://photobucket.com/recent/videos" class="moreMediaLink">more videos</a>
+        </div>
+    </div>
+
+    <!-- Photobucket Today -->
+<div id="panelAnnouncements">
+	<h3>On Photobucket today</h3>
+
+    <ul>
+                <li>
+            <div class="imageEnvelope">
+                <a href="http://photobucket.com/redirect/album?action=slideshow&type=301" onclick="clickTracker._trackEvent('photobucket_today','Awesome new July 4th Slideshow Style');" ><img src="photobucket.com_files/firework.jpg" alt="Awesome new July 4th Slideshow Style" title="Awesome new July 4th Slideshow Style" /></a>
+            </div>
+            <div class="announcementContent">
+                <h4>Awesome new July 4th Slideshow Style</h4>
+                <p>Try out the amazing "video" style July 4th slideshows on Photobucket. Nothing will show off your July 4th parties better! <a href="http://photobucket.com/redirect/album?action=slideshow&type=301" onclick="clickTracker._trackEvent('photobucket_today','Awesome new July 4th Slideshow Style');" >more</a></p>
+            </div>
+        </li>
+                <li>
+            <div class="imageEnvelope">
+                <a href="http://photobucket.com/grillinandchillin" onclick="clickTracker._trackEvent('photobucket_today','Getting out the BBQ this July 4th?');" ><img src="photobucket.com_files/sta_1200.jpg" alt="Getting out the BBQ this July 4th?" title="Getting out the BBQ this July 4th?" /></a>
+            </div>
+            <div class="announcementContent">
+                <h4>Getting out the BBQ this July 4th?</h4>
+                <p>Wherever you are in the world, do you celebrate July 4th with a bit of "grillin' and chillin'"? Add your pics or videos to our group album and let's celebrate together! <a href="http://photobucket.com/grillinandchillin" onclick="clickTracker._trackEvent('photobucket_today','Getting out the BBQ this July 4th?');" >more</a></p>
+            </div>
+        </li>
+            </ul>
+
+    <div id="panelAbout">
+		<a href="http://photobucket.com/register/?ref=aboutTitle" class="aboutTitle">Photobucket. Where millions upload and share their photos and videos.</a>
+		<p>Upload all your photos, videos, and images for free. Make photo slide shows to share pics with friends. Host and share videos with us - we are one of the most popular video hosting sites in the world.  Plus, find and share the best MySpace icons for profile layouts.  <a href="http://photobucket.com/register/?ref=joinus">Join us today!</a></p>
+    </div>
+
+</div>
+<!-- End - Photobucket Today Panel -->    </div>
+<!-- End - Features Panel -->
+
+
+
+<!-- FOOTER START -->
+
+<script src="photobucket.com_files/aamsz000.js"
+        type="text/javascript">
+</script>
+<script type="text/javascript">
+  AAMB1 = AAMB1.replace('PB_CLOSING_JS_TAG', '<\/SCRIPT>');
+  if(typeof(AAMB1) != "undefined" && AAMB1.indexOf('CID=fffffffcfffffffc') == -1){
+    magickAdRender('collapsable-ad-id-PROMO_BANNER', AAMB1);
+  }
+</script>
+
+<script src="photobucket.com_files/aamsz001.js"
+        type="text/javascript">
+</script>
+<script type="text/javascript">
+  AAMB1 = AAMB1.replace('PB_CLOSING_JS_TAG', '<\/SCRIPT>');
+  if(typeof(AAMB1) != "undefined" && AAMB1.indexOf('CID=fffffffcfffffffc') == -1){
+    magickAdRender('collapsable-ad-id-PROMO_MINI_BANNER', AAMB1);
+  }
+</script>
+
+<div id="containerFooter">
+
+
+<div id="panelFooter">
+<p id="copywrite">copyright &copy; 2008 photobucket inc. all rights reserved.</p>
+<div id="menuBottom">
+<a href="http://photobucket.com/about">about us</a>
+<span class="menuItemSep">|</span>
+<a href="http://blog.photobucket.com/">blog</a>
+<span class="menuItemSep">|</span>
+<a href="http://developer.photobucket.com/">developers</a>
+<span class="menuItemSep">|</span>
+<a href="http://photobucket.com/about/advertise-with-us">advertise</a>
+<span class="menuItemSep">|</span>
+<a href="http://photobucket.com/sitemap">site map</a>
+<span class="menuItemSep">|</span>
+<a href="http://photobucket.com/about/contact-us">contact us</a>
+<span class="menuItemSep">|</span>
+<a href="http://forums.photobucket.com/">forums</a>
+<span class="menuItemSep">|</span>
+<a href="http://photobucket.com/terms">terms of use</a>
+<span class="menuItemSep">|</span>
+<a href="http://photobucket.com/tips">help</a>
+</div>
+<br class="clearBoth">
+</div>
+</div>
+<!-- FOOTER END -->
+</div>
+<!-- End - containerPage -->
+
+<!-- Bserver Implementation -->
+
+
+<script type="text/javascript">
+APIRequest.track("page_view");
+var preloader = new PBScriptPreloader();
+preloader.add("http://static.photobucket.com/include/js/pkgs/albumindex_v13.1.2.js");
+preloader.add("http://static.photobucket.com/include/js/pkgs/album_v13.1.2.js");
+</script>
+
+
+<!-- dfdfc4836b63dd84312279af52791431 -->
+<!-- den3pb040 --></body>
+</html>
+<!-- This document saved from http://photobucket.com/ -->

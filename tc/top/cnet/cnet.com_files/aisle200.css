@@ -1,0 +1,109 @@
+/* Home and home office = 4 / Business products = 3 */
+.asl_panel b.a2 {font:bold 12px arial,helvetica;}
+.asl_ad {background:url('arrow_dn.gif') no-repeat left;padding-left:13px;margin:5px 0;}
+.asl_ad.v1 {font:normal 10px verdana,geneva,helvetica;}
+.asl_margin {margin: 8px 0px 28px;}
+#asl_wrap {width:475px;}
+.asl_shell1 {border-top:solid 1px #ccc}
+.asl_main {text-align:left;font-weight:bold;width:475px;}
+
+.asl_panel_content {background:#fefefe;color:#000;border:solid #ccc;border-width:0 1px 1px;height:75px;}
+
+
+.asl_pnl_pad {padding:5px 5px 0 5px;}
+.asl_panel {clear:both;margin-top:-7px;background:#fff;position:absolute;width:475px;}
+.asl_panel a {color:#fc0}
+
+.asl_l {border-right:0px;float:left;width:320px;height:58px;font:normal 10px verdana,geneva,helvetica;}
+.asl_l a {color:#000;}
+.asl_l ul {padding:0;margin:0;}
+.asl_l ul li {color:#000;list-style:none;background:url('arrow_wh.gif') no-repeat 0 3px;padding-left:9px;padding-right:2px;display:inline}
+.asl_l .bllt {color:#000;padding-right:5px;}
+.asl_r {border-left:1px solid #ccc;float:left;padding-left:8px;width:130px;height:58px;font:normal 10px verdana,geneva,helvetica;}
+.asl_r b {font:bold 12px arial,helvetica;}
+.asl_r a {color:#000;}
+.asl_bullet {background:url('arrow_bl.gif') no-repeat 0 2px;padding-left:9px;}
+.asl_bullet2 {background:url('button_s.gif') no-repeat 0 3px;padding-left:12px;line-height:16px;}
+.asl_ss {
+	float:left;
+	background:url('prod_bg_.gif') no-repeat;
+	width:82px;
+	height:56px;
+	padding-top:5px;
+	text-align:center;
+}
+
+.asl_plnk {font-weight:bold}
+A.asl_plnk_rng {color: #000}
+.asl_plnk A.asl_plnk_shp {color: orange}
+
+
+a.asl_orange {color:#FF7529;font-weight:bold;text-decoration:none;}
+a:hover.asl_orange {color:#FF7529;font-weight:bold;text-decoration:underline;}
+
+.asl_homeGroup {width:268px;float:left}
+* html body .asl_homeGroup {width:268px;} // ie hack
+.asl_bizGroup {width:203px;}
+.asl_homeGroup, .asl_bizGroup {
+	display:block;
+	margin:0 auto;
+	padding:0;
+}
+.asl_homeGroup {
+	border-right: solid 1px #ccc;
+	margin-right: 4px;
+	*margin-right: 0;
+}
+
+.asl_img_b1 img {
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+.asl_img_b2 img {
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	border-left: solid 1px #eee;
+}
+
+.indic_top {
+	background: url(indic_g_.gif) bottom repeat-x;
+}
+.indic_btm {
+	display:none;
+}
+
+.asl_tab .asl_title {
+	display:inline;
+	padding: 0 15px 0 5px;
+	color: #666;
+}
+
+.asl_tab {
+	float:none;
+	padding-left:2px;
+}
+
+#fujitsuPanel,
+#fujitsuBizPanel, 
+#dellHomePanel, 
+#hpPanel, 
+#sonyPanel, 
+#sonyHomePanel, 
+#dellBizPanel, 
+#hpBizPanel, 
+#ibmBizPanel, 
+#sonyBizPanel, 
+#lenovoBizPanel,
+#gatewayHomePanel, 
+#samsungHomePanel, 
+#gatewayBizPanel,
+#attHomePanel {
+	height: 0px;
+	overflow: hidden;
+	display:none;
+}
+
+/* floating columns */
+
+.asl_linkLeft {float:left;}
+.asl_linkRight {float:left;padding-left:10px;}

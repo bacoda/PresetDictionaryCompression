@@ -1,0 +1,1235 @@
+/* $Id: framework.css,v 1.47 2008/04/01 15:59:37 nickc Exp $
+   /css/home/screen/framework.css
+   (c)2006 - 2007 The New York Times Company  */
+
+@import url(belowFol.css);
+
+body {
+	margin-right: 8px;
+	margin-left: 8px;
+	_margin-right: 10px;
+	_margin-left: 10px;
+	}
+
+* {
+	margin:0; padding:0;
+	}
+
+#main {
+	background: transparent!important;
+	}
+	
+  #abColumns div.aColumn,
+    div.subColumnA {float: left;}
+  
+  #abColumns div.bColumn,
+    div.subColumnB {float: right;} 	
+
+div#shell div#page div#main div#insideNYTimes{
+font-size:95%
+}
+
+/* BEGIN global layout styles 
+--------------------------------------------------------------*/
+#rightSpan, #wideSpan {
+	display:block;
+	padding-top:9px;
+	padding-left:10px;
+	padding-right:5px;
+	width:512px;
+	background-color:white;
+	/* refer to templateStyle.css for individual layout padding values */
+ 	}
+  
+  #abColumns {
+  	background: transparent url(vertical.gif) repeat-y 353px top;
+  	}
+  
+  .cColumn .story .callout,
+  .abColumnWrapper .story .callout {
+  	float:right;
+  	margin:0;
+  	padding:  4px 0 4px 5px; 
+  	} /* override /common/screen/general */		
+ 
+ .promo {
+ 	font-family: Georgia, Times, serif;
+ 	color:#333;
+	}
+ 
+  /* END global layout styles
+--------------------------------------------------------------*/
+  
+
+
+/* BEGIN breakingNews
+---------------------------------*/   
+
+#abColumns div.abColumn.breakingNewsAlert {
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #a81817;
+	font-size: 95%;
+	font-weight: bold;
+	border-bottom:1px solid #ccc;
+	padding:8px 7px 10px 11px ;
+	margin:0;
+	background:white;
+	}
+
+#abColumns div.abColumn.breakingNewsAlert span.timestamp,
+
+#latestDevelopments span.timestamp,
+#MoreNews span.timestamp {
+	font-weight: normal;
+	font-family:arial,sans-serif;
+        font-size: x-small;
+	}
+
+#abColumns div.abColumn.breakingNewsAlert h2 {
+	display: inline;
+	font-size: small;
+	text-transform: none;
+	font-family: Georgia, Times, serif;
+	color: #333;
+	}
+
+/* BEGIN MORE NEWS bottom of bColumn 
+---------------------------------*/   
+#latestDevelopments ul,
+#MoreNews ul {list-style:none;padding:0;margin:0;}
+
+#latestDevelopments ul li,
+#MoreNews ul li{
+	background: transparent url(bullet4x.gif) no-repeat left .45em;
+	padding-left:8px;
+	font-weight:bold;
+	padding-bottom:2px;
+	padding-bottom: expression( this == this.parentNode.lastChild ? "0" : "2px" );
+}   
+   
+#MoreNews ul li:last-child {padding-bottom:0;}
+
+ol {
+	padding-left: 0px;
+	margin-left: 26px;
+	_margin-left: 30px;
+	}
+
+/* General Float Cleaning*/
+.clearboth {
+	clear:both;
+	height: 10px;
+	background:white;
+	}
+	
+div#insideNYTimesHeader {
+	_height: 1%;
+	}	
+		
+.story:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html .story {
+	height: 1%; 
+	}			
+		
+/* BEGIN Masthead 
+-------------------------------------------------*/
+div#masthead {
+	min-height: 90px;
+	_height: 90px;
+	padding: 4px;
+	text-align: center;
+	}
+	
+div#masthead img#NYTLogo ,
+div#masthead div#date {
+	width: 379px;
+	}
+	
+div#masthead div#date {
+	text-align: center;
+	margin: 4px auto 0px auto;
+	}
+	
+#lastUpdate {
+	font-family: Arial, sans-serif;
+	color: #999;
+	font-size: 94%;
+	margin-left: 1em;
+	}
+	
+#date .timestamp {
+	font-family: Arial, sans-serif;
+	font-size: 92%;
+	}
+	
+div#masthead div#homeAd1 ,
+div#masthead div#homeAd2 {
+	margin: 0;
+	padding: 0;
+	}
+	
+div#masthead div#homeAd1 {
+	float: left;
+	}
+	
+div#masthead div#homeAd2 {
+	float: right;
+	}
+/* END Masthead */
+
+
+/* BEGIN Toolbar
+------------------------------------------------*/
+
+#welcomeuser {
+	color: #333;
+	}
+
+.username {
+	color: #004276;
+	font-weight: bold;
+	}
+	
+div#toolbar {
+	padding: 4px 7px 4px 4px;
+	/*\*/vertical-align: top;/*\*/
+	min-height: 31px;
+	_height: 31px;
+	position: relative;
+	border-bottom: 1px solid #d3d3d3;
+	}	
+	
+div#homepageTools {
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 85%;
+	margin-top: 0px;
+	color: #333;
+	line-height: 30px;
+	}
+	
+div#homepageTools a {
+	padding: 0px 4x;
+	}
+	
+div#homepageTools img {
+	float: left;
+	margin-right: 4px;
+	}
+
+	
+div#Middle1 ,
+div#searchWidget ,
+div#searchWidget input ,
+div#searchWidget input#searchQuery 
+div#searchWidget input#searchSubmit {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+div#Middle1 {
+	float: left;
+	margin-right: 10px;
+	}
+	
+div#Middle1 img { 
+	_float:right;
+	} 
+/* prevent images like dot.gif from adding bottom padding to toolar */
+
+	
+form#searchForm {
+	margin: 0;
+	padding: 0;
+	height: 10px;
+	}
+	
+div#searchWidget {
+	display: block;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	}
+	
+#searchWidget td {
+	padding-right: 5px;
+	padding-top: 5px;
+	}
+	
+input#searchQuery {
+	width: 250px;
+	border: 1px solid #b2b2b2;
+	font-size: small;
+	padding:1px;
+	padding-top:2px;
+	} 
+	
+	/*\*/
+	html*input#searchQuery {
+	font-size:small;
+	_font-size:110%;
+	}/**/
+	
+div#searchWidget div.customSelectContainer {
+	background: transparent url(searchSe.gif) no-repeat top left;
+	_background: none;
+	height: 15px;
+	width: 98px;
+	_width: 300px;
+	}
+	
+form#searchForm select {
+	_margin-top: 1px;
+	width: 165px;
+	font-size: 93%;
+	font-family: Arial, sans-serif;
+	}
+	
+form#searchForm input#searchSubmit {
+	_margin-top: 1px;
+	}
+	
+/* END toolbar */
+
+
+div#main {
+	padding:0;
+	position: relative;
+	overflow: visible;
+	_width: 970px;
+	min-width: 970px;
+	margin: 0;
+	} 
+
+
+
+/* BEGIN navigation
+-----------------------------------------------------*/
+/* <navigation> */
+
+	div#navigation {
+		width: 91px;
+		_width: 89px;
+		min-width: 91px;
+		max-width: 8.8em;
+		font-size:small;
+	}
+
+	#shell div#navigation ul.tabs * {
+		float: none;
+		height: auto;
+		z-index: 6000;
+		position: static;
+		text-align: left;
+		border: none;
+		line-height: normal;
+		color: black;
+		white-space: wrap;
+		background: none;
+	}
+	
+	
+	div#navigation ul.tabs li {
+		margin: 0;
+		padding: 3px 0px 2px 4px;
+		list-style: none;
+		display: block;
+		_width: 100%;
+		font-family:Georgia,Times;
+		font-size: 85%;
+		
+	}
+
+
+
+	 div#navigation ul.tabs li ul {
+		display: block;
+		margin-bottom: -2px;
+		margin-left: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		min-width: 0;
+	}
+	
+ 
+ 	div#navigation a {
+		display: block;
+		width: 100%;
+		
+	}
+	
+	div#shell div#navigation ul.tabs li ul li,
+	div#shell div#navigation ul.tabs li ul li a{
+		font-size:100%;
+		text-transform: none;
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		white-space: normal;
+		min-width: 0; 
+		color: #666;
+	}
+
+	div#navigation ul.tabs li#navAllClassifieds,
+	div#navigation ul.tabs li#navJobs ,
+	div#navigation ul.tabs li#navRealestate ,
+	div#navigation ul.tabs li#navAutos {
+		/*
+		font-size:73.3%!important;
+		*/
+		font-size:70%!important;
+		background: #e6eff8;
+		font-family: arial, sans-serif;
+		color: #333;	
+		padding: 2px 0px 2px 4px;
+	}
+	
+	div#navigation ul.tabs li#navJobs {
+		padding-top: 4px;
+	}
+		
+        div#navigation ul.tabs li#navAllClassifieds {
+		padding-bottom: 4px;
+		border-bottom: 1px solid #D3D3D3;
+		margin-bottom: 4px;
+	}
+	
+	div#navigation div.columnGroup {
+		margin: 4px;
+		padding-top: 4px;
+		border-top: 1px solid #ccc;
+		margin-left:3px;
+	}
+	
+	td.td-navigation div.columnGroup ul, 
+	td.td-navigation .columnGroup ul li {
+		margin:0;
+		padding: 0;
+		font-family: Arial, sans-serif;
+		min-width: 0px;
+		max-width: 7.6em;
+		color: #666;
+	}
+	
+	td.td-navigation .columnGroup ul li {
+	 	font-size:85%
+	 	}
+	 
+	td.td-navigation .columnGroup ul li.NavGroupTwo-firstchild{
+	padding-top:2px;
+	 	
+	 }
+	 
+	 td.td-navigation .columnGroup ul li.newspaper{
+	        color:black;
+         	font-size:xx-small;
+         	margin-bottom:1px;
+         	_margin-bottom:3px;
+         	}
+	 
+	 td.td-navigation div.columnGroup ul li a {
+		margin: 0 0 -3px 0;
+		padding: 0 0 6px 1px;
+		color: #666;
+		line-height: 1em;
+		
+			}
+	
+	 td.td-navigation div.columnGroup.advertisementColumnGroup {
+		margin: 4px 0 !important;
+		padding: 4px 0 0 0;
+		width: 92px;
+		_width: 89px;
+		text-align: center;
+	}
+	
+	td.td-navigation ul.advertisementThumbnails iframe {width:85px;} /* ads in left nav IE*/
+
+	#shell div#navigation ul li a .new{
+		font-weight: bold; 
+		font-size: 9px; 
+		font-family: arial;
+		color:#A81817;
+	}
+
+	div#navigation div.columnGroup ul.advertisementThumbnails li {
+		font-size:65.8%;
+		min-width:88px;
+		_width:86px !important;
+		padding-bottom:6px;
+		}
+
+	div#navigation div.columnGroup ul.advertisementThumbnails li.heading{
+		color:#808080;
+		margin-bottom:4px;
+		background-color:#f4f4f4;
+		padding-bottom:0px;
+		}
+
+	div#navigation div.columnGroup ul.advertisementThumbnails li a{
+		color:#004276;
+		line-height:1.3em;
+		}
+
+
+/* END navigation
+-----------------------------------------------------*/	
+	
+	
+/* BEGIN mainTable 
+-------------------------------------------------*/
+	#main {font-size: small;} /* set font-size foundation for all browsers */
+	
+	#PromoABC {min-height:0;}
+	
+	#mainTable {
+		width: 874px;
+		_width: 970px;
+		display: block; /* Safari needs this, or empty td gets height*/
+		/*\*/vertical-align: top;/*\*/
+		border-collapse: collapse;
+		font-size: 93%;
+		_font-size: 90%;
+		margin-top:0px;
+		padding-top:0px;
+		}
+	
+	div#main #mainTable:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+		}
+	
+	.td-navigation, 
+	#mainTable .cColumn {
+	padding: 0;
+	/*\*/vertical-align: top;/*\*/
+	}
+	
+	#mainTable td.td-navigation {
+		border-right: 1px solid #CBCBCB;
+		_width: 92px;
+	}
+	
+	#mainTable td.td-navigation .columnGroup ul li {
+		padding-bottom: 0;
+		}
+						
+/* BEGIN #abColumns
+--------------------------------------*/
+
+	#abColumns{padding:0;margin:0;vertical-align:top;}
+	#abColumns:after {
+	    	content: "."; 
+			display: block; 
+			height: 0; 
+			clear: both; 
+			visibility: hidden;
+			} 	
+			
+	/* BEGIN dynamicWidgetColumnGroup 
+	--------------------------------------*/
+	#abColumns div.aColumn div.dynamicWidgetColumnGroup { 
+		background: transparent url(aColumnH.gif) repeat-x top left;
+		clear: both;
+		_height: 1%;
+		padding-top: 10px;
+		}
+
+	#abColumns div.aColumn div.dynamicWidgetColumnGroup h4 {
+		padding-top:12px;
+		margin: 12px 0 !important;
+		color: black;
+		text-transform: uppercase;
+		font-weight:bold;
+		font-size: 100%; 
+		float: left;
+		}
+
+	/* END dynamicWidgetColumnGroup
+	--------------------------------------*/
+	
+	
+	/* BEGIN abColumnWrapper
+	--------------------------------------*/
+	
+	#abColumns div.abColumnWrapper { 
+		_height: 1%;
+		margin-top: 0;
+		padding-top: 0;
+		clear:both; /*  so multimedia box and bcolumn promo line up in ff*/
+		padding-left:11px;
+		}
+	
+	#abColumns div.abColumnWrapper .bColumn {
+		padding-right:5px;
+		_padding-right:7px;
+		}
+	
+	#abColumns div.abColumnWrapper:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+		}
+	
+	#abColumns div.abColumnWrapper div.bColumn div.columnGroup {	
+		padding-top: 10px !important;
+		margin-top: 0;
+		background: transparent url(aColumnH.gif) repeat-x left top !important;
+		background: expression( this == this.parentNode.firstChild ? "transparent url(/images/global/borders/aColumnHorizontalBorder.gif) repeat-x left top" : "transparent url(/images/global/borders/aColumnHorizontalBorder.gif) repeat-x left top" );
+		padding-top: expression( this == this.parentNode.firstChild ? "10px" : "0px" );
+		margin-top: expression( this == this.parentNode.firstChild ? "0px" : "0px" );
+		}
+		
+	#abColumns div.abColumnWrapper .story{padding-bottom:5px;_padding-bottom:0;} 	
+	
+	.abColumnWrapper .story{padding-top:0;margin-top:0;}
+	.abColumnWrapper h4 {padding-top:0 !important;}
+	
+	.abColumnWrapper #apr{
+		padding-bottom:5px; 
+		_padding-bottom:9px;}
+	
+	/* END abColumnWrapper
+	--------------------------------------*/
+	
+	#abColumns div.aColumn {
+		width: 337px;
+		border: none;
+		padding: 0;
+		}
+		
+	*html #abColumns div.aColumn {
+		overflow:hidden;
+	}	
+	
+	div.bColumn {
+		width: 163px;
+		border: none;
+		margin: 0;
+		}
+		
+	#abColumns #rightSpan .story:last-child,
+	#abColumns #wideSpan .story:last-child, 
+	#abColumns #rightSpanBelowWideSpan .story:last-child{
+		margin-bottom:0;
+		}
+	
+	/*\*/
+	html*#abColumns #rightSpan .story:last-child,
+	#abColumns #wideSpan .story:last-child, 
+	html*#abColumns #rightSpanBelowWideSpan .story:last-child{
+		margin-bottom:7px;
+	}/**/
+	
+	#abColumns #rightSpan .story,
+	#abColumns #wideSpan .story, 
+	#rightSpanBelowWideSpan .story {
+		margin-bottom: expression( this == this.parentNode.lastChild ? "0" : "12px" );
+		}
+
+/* END #abColumns
+--------------------------------------*/
+
+
+
+/* BEGIN c-column 
+------------------------------------------------------- */
+
+.cColumn {width: 336px;}
+
+.cColumn div.columnGroup {
+	clear: both;
+}
+
+.cColumn .firstAd {
+	padding-top: 10px;
+	padding-bottom: 12px; 
+	border-bottom: 1px solid #ccc;
+	}
+
+.cColumn div.columnGroup div#tabsContainer {
+	border-left: 1px solid #ccc;
+	display: block;
+	left: -1px;
+	_left: 0;
+	_padding-top: 6px;
+	position: relative;
+	top: 1px;
+	_top: 0;
+	}
+
+.cColumn div.columnGroup p.description {
+	font-size: 90%;
+	}	
+
+.cColumn div.columnGroup ul.tabs {
+	font-size: 10px;
+	_position: absolute;
+	top: 0;
+	}
+
+.cColumn div.columnGroup ul.tabs li {
+	padding-left: 5px;
+	padding-right: 5px;
+	_padding-bottom: 2px;
+	position: relative;
+	top: 0; 
+	}
+
+.cColumn div.columnGroup ul.tabs li.selected {	
+	_padding-bottom: 3px;
+	}	
+
+#main .cColumn div.columnGroup ul.tabs li:first-child {
+	border-left-width: 1px;
+	}
+		
+.cColumn div.columnGroup ul.tabs li a {
+	color: #333;
+	}				
+
+.cColumn div.columnGroup h4 {
+	font-weight: bold;
+	font-size: 95%; 
+	}
+				
+.cColumn div.columnGroup h4 span.columnHeaderLink {
+	text-transform: none;
+	float: right;
+	display: block;
+	padding-right: 12px;
+	}
+
+.cColumn div.columnGroup > h5 {
+	font-weight: normal;
+	color: #666;
+	margin-bottom: 2px;
+	font-size: 90%;
+	line-height: 1.4em;
+	}
+  
+/* END c-column 
+------------------------------------------------------- */
+
+
+/* BEGIN mainTable cColumn
+--------------------------------------*/
+
+	div#page div#main .cColumn div.columnGroup {
+		padding: 10px 0 0 0;
+		margin: 10px 0 0 0;
+		border-top: 1px solid #e2e2e2;
+	}
+	
+	
+	#mainTable .cColumn {
+		padding-left: 6px;
+		_padding-left:5px;
+		_padding-right:4px;
+		margin: 0;
+		float: none;
+		border-left:1px solid #ccc;
+		_margin-top:0px;
+		_padding-top:0px;
+		}
+
+	#mainTable .cColumn .clearboth{height:0;}
+	
+	/*\*/
+	html*#mainTable .cColumn .clearboth {
+	height:1px;
+	_display:none;
+	}/**/
+	
+#mainTable .cColumn #twoAds,
+#mainTable .cColumn #edPromo {
+	width:336px;
+	background: transparent url(vertical.gif) repeat-y 167px top;
+	_background-position:166px top;
+	_height:1%;
+	clear:both;
+        float:left;
+}
+
+#mainTable .cColumn #edPromo {
+	float: none;
+	overflow: hidden;
+}
+
+#mainTable .cColumn #twoAds {
+	margin:12px 0 0 0;
+}
+
+#mainTable .cColumn #twoAds:after,
+#mainTable .cColumn#edPromo:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}   
+
+#mainTable .cColumn #twoAds .subColumnA,
+#mainTable .cColumn #twoAds .subColumnB{
+	padding:0px!important;
+	margin:0px!important;
+}
+
+#shell #main #mainTable td.cColumn #twoAds .subColumnB #Middle5{
+	padding:0px!important;
+	margin:0px!important;
+}
+
+#shell #main #mainTable .cColumn #twoAds .subColumnB #Middle4{
+	border-top: 1px solid #e2e2e2;
+	padding:5px 0px 0px 0px!important;
+	margin:5px 0px 0px 0px!important;
+	_margin-bottom:0px;
+	_padding-bottom:0px;
+}
+
+/* Hides from IE-mac \*/
+* html #twoAds,
+* html #edPromo{
+	height: 1%; 
+}	
+
+	#mainTable .cColumn #edPromo div.columnGroup{
+		border:none!important;
+		margin:0px!important;
+		padding:0px!important;
+	}
+
+	#mainTable .cColumn #edPromo div#Middle5 {
+		padding: 10px 0 0!important;
+	}
+	
+	#mainTable .cColumn #edPromo div#Middle4 {
+		padding: 10px 0 0 0!important;
+	}
+	
+	#mainTable .cColumn #edPromo div.columnGroup.homeMediumAdGroup {
+		text-align: center;
+		clear: both;
+		padding: 0;
+		border:none;
+		background-color:#EFEFEF;
+		}
+
+	div#page div#main  .cColumn div.columnGroup.firstColumnGroup{
+		padding: 0px;
+		margin: 0px;
+		border:none;
+		}
+
+	#mainTable .cColumn div.columnGroup#adxBigAd, 
+	#mainTable .cColumn div.columnGroup#HPMiddle {
+		text-align: center;
+		padding: 10px 0 10px 0;
+		margin-top: 10px;
+		border-top: 1px solid #e2e2e2;
+		width: 337px;
+		clear:both;
+		}		
+	
+	
+#mainTable .cColumn div.subColumnA,
+#mainTable .cColumn div.subColumnB {
+	width: 163px;
+	_width: 163px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 10px;
+	margin-right:1px;
+	_margin-right:0;
+}
+	#mainTable .cColumn div.story {
+		margin-bottom:5px;
+	}
+	#mainTable .cColumn div.subColumnB{padding-right:1px;}
+	
+	/*  nested subColumns */
+	.columnGroup .subColumnA,
+  .columnGroup .subColumnB,
+	#mainTable .cColumn .subColumnA .subColumnA,
+	#mainTable .cColumn .subColumnA .subColumnB {
+		width:75px; 
+		padding:0;
+		margin:0;
+		overflow:hidden; /* eliminate scrollbars in netscape 7.1 */
+		}
+
+/* BEGIN cColumn Heading Styles
+----------------------------------*/
+	.cColumn h4,
+	.cColumn h5 {
+		margin:0;
+		padding:0;
+	}
+		
+	#mainTable .cColumn div.subColumnA .story h5,
+	#mainTable .cColumn div.subColumnB .story h5 {
+		font-size: 90%;
+		line-height: 1.1em;
+		}
+	
+	#mainTable .cColumn div.subColumn h5,
+	#mainTable .cColumn div.subColumnA h5,
+	#mainTable .cColumn div.subColumnB h5 {
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+		color: #333;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+
+	#mainTable .cColumn div.subColumn div.story h5,
+	#mainTable .cColumn div.subColumnA div.story h5,
+	#mainTable .cColumn div.subColumnB div.story h5  {
+		font-size: 100%;
+		line-height: 1.1em;
+		font-family: Georgia, Times, serif;
+		text-transform: none;
+		font-weight: bold;
+	}
+
+/* END cColumn Heading Styles 
+----------------------------------------*/
+	
+	#mainTable .cColumn div.subColumn ul ,
+	#mainTable .cColumn div.subColumnA ul ,
+	#mainTable .cColumn div.subColumnB ul {
+		margin: 0;
+		font-family: Arial, sans-serif;
+		list-style: none;
+	}
+	
+	#mainTable .cColumn div.subColumnA ul li {
+		list-style: none;
+		padding-left: 5px;
+		background: transparent url(bullet4x.gif) no-repeat 0px 5px;
+	}	
+		
+/* top stories */
+	div.aColumn div.story#topStory,
+	div.aColumn div.story#topStoryVertical,
+	div.aColumn div.story#topStoryThumbnailA,
+	div.aColumn div.story#topStoryThumbnailB,
+	div.aColumn div.story#topStoryHorizontal,
+	div#page div#main div.abColumn div.story#topStorySuperwide,
+	div.aColumn div.story#topStoryContinuedA,
+	div.aColumn div.story#topStoryContinuedB {
+		margin-top: 0px;
+	}
+
+/* BEGIN HEADING STYLES
+-----------------------------------------*/
+
+	h1{font-size:230%;}
+	h2{font-size:x-large;}
+	h4{font-size:medium;}
+		
+	div#main div.columnGroup h4 { 
+		text-transform: uppercase;
+		font-family: Georgia, Times, serif;
+		font-size: 95%;
+		margin-top: 0;
+		padding: 0;
+	}
+
+	#abColumns div.bColumn div.columnGroup h4 { 
+		text-transform: uppercase;
+		font-family: Arial;
+		font-size: 90%;
+		font-weight: normal;
+	}
+			
+	div#main div.bColumn div.columnGroup h4 {
+		_padding-top:10px;
+	} 
+	
+	.abColumnWrapper h4,
+	.abColumnWrapper h4 a {
+		color:black;
+		}
+	
+	.aColumn .columnGroup .story h5 {
+		font-size:medium;
+		line-height:1.08em;
+		padding-bottom:2px;
+		}
+	
+	.bColumn .story h5 {
+		font-size: 100%;
+		margin-bottom: 2px;
+	}
+
+	div.bColumn div.story#rank3 h5 {
+		line-height: 1.2em;
+		margin: 0;
+		padding: 0;
+		}
+
+	.aColumn .story#topStoryContinuedA .callout h5,
+	.bColumn .story#topStoryContinuedB .callout h5 {
+		font-size: 130%;
+		font-weight: bold;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		}
+
+	#mainTable .abColumnWrapper .bColumn div.story h5 {
+		margin-bottom: 1px;
+	}
+		
+	
+     /* ---------- AP Reuters styles -----------*/
+	div#apr h4 a {
+		color: black;
+		}
+	
+	div#apr h5 a {
+		font-size: 100%;
+		line-height: 1.2em;
+		font-weight: normal !important;
+		margin-bottom: 0;
+		padding-bottom: 0
+	}
+
+/* END HEADING STYLES
+-----------------------------------------*/	
+
+
+/* BEGIN KICKER STYLES
+-----------------------------------------*/
+	#latestDevelopments .kicker,
+	#MoreNews .kicker {
+	font-family:arial,sans-serif;
+	font-size: 90%; 
+	font-weight:normal;
+	margin-bottom:2px;
+		} 
+
+	.kicker, .kicker a{
+		color: black;
+		text-transform: uppercase;
+		font-family: Arial, sans-serif;
+		font-size: 100%;
+		line-height: 1.3em;
+		display:block;
+		}
+	
+/* BEGIN story styles
+-----------------------------------------------*/
+	.aColumn .story .summary{line-height:1.4em;}
+
+	div.aColumn div.story#topStoryContinuedA {
+		padding-top: 0;
+		margin-bottom: 10px;
+		_height: 1%;
+	}
+	
+	div.aColumn div.story#topStoryContinuedB {
+		background: transparent url(aColumnH.gif) repeat-x bottom left;
+		padding-top: 5px;
+		_padding-top: 7px;
+		_height: 1%;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	div.story#topStoryContinuedB .story {
+		padding-bottom: 0;
+		margin-bottom: 0;
+		}
+		
+	div#topStoryContinuedB .summary {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 100%;
+		font-weight: normal;
+		color: #333;
+	}
+	
+	div.story#topStoryContinuedB div.callout {
+		float: none;
+		
+		margin-left: 1px;
+		margin-top: 0;
+		margin-bottom: 0;
+		_margin-right: 2px;	
+		
+		padding-top: 4px;
+		_padding-top: 0px;
+		padding-bottom: 0;
+	}
+	
+	
+	div.story#topStoryContinuedB div.callout img {
+		margin-top: 0;
+		padding-top: 0;
+		}
+	
+	div.story#topStoryContinuedB div.callout .credit {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		}
+
+	.caption .credit {
+		text-align: right;
+		color: #666;
+		font-size: 89.5%;
+		}
+	
+	div.bColumn div.story#rank3 {
+		background: transparent url(aColumnH.gif) repeat-x bottom left;
+		padding-bottom: 13px;
+		clear: both;	
+		margin-top: 0;
+		padding-top: 0;
+		}
+	
+	div#apr .story {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		_margin-bottom: 6px;
+		}
+		
+	div#apr div.byline {
+		margin-bottom: 0;
+		padding-bottom: 0
+		}
+
+/* END top story styles
+-----------------------------------------------*/					
+
+div.columnGroup div.columnGroupTools {
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+	}
+					
+	#morevideo {
+		float: right;
+		margin-top: 11px;
+		font-size: 10px;
+		font-family: sans-serif;
+		}
+	
+	#most-emailed {
+		margin-left: 25px;
+		}
+	
+	
+/* Paus B Column Editorial Promos March 28 */
+	
+	
+.bColumn .columnGroup:after {
+    content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html .bColumn .columnGroup .tabContent {
+	height: 1%; 
+	}
+/* End hide from IE-mac */	
+
+.bColumn .subColumnA {
+        width:162px;
+        padding-left:1px;
+        _padding-left:2px;
+        padding-right:5px;
+        }
+        
+.bColumn .subColumnB {
+	width:160px;
+	padding-left:1px;
+	}
+ 
+a.select:hover {
+        text-decoration: underline;
+        }
+
+a.select:first-line {
+        line-height: 140%;
+        }
+
+
+/*Showtimes And Tickets*/
+
+#showtimesAndTicketsSearch label {
+		text-transform: uppercase;
+		font-family: Arial;
+		font-size: 90%;
+        margin-top: 30px !important;
+       	margin-bottom: 5px;
+        clear: both;
+        }
+
+#showtimesAndTicketsSearchTextInput {
+        width: 140px;
+        clear: both;
+        margin-top: 3px !important;
+        border: 1px solid #ccc;
+        /*\*/vertical-align: top;/*\*/
+		display: inline;
+		font-size: 90%;
+		line-height: 1.3em;
+        }
+		
+#showtimesAndTicketsSearchTextInput {
+        width: 140px;
+        clear: both;
+        margin-top: 3px !important;
+        border: 1px solid #ccc;
+        vertical-align: top;
+		display: inline;
+		font-size: 90%;
+		line-height: 1.3em;
+        }		
+		
+
+#showtimesAndTicketsSubmit {
+        margin-top: 3px !important;
+        /*\*/vertical-align: top; /*\*/
+		display: inline;
+        }
+			
+/* Ad FONT FIX */
+font {font-size: 90%;}	
+	
+
+/* BEGIN refer list styles
+-----------------------------------------------------------------------*/
+
+#shell ul.refer {font-size:small;padding-top:2px;}
+#shell .story ul.refer {padding-top:2px;}
+#shell ul.refer li {
+	font-size:86%;
+	_font-size:80%;
+	padding-bottom:2px;	
+	line-height:1.2em;
+		}
+
+#shell ul.refer li:last-child {
+	padding-bottom:0;	
+	}
+

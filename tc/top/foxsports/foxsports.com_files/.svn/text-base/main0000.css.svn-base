@@ -1,0 +1,402 @@
+body {
+background:url(page_bg_.jpg);
+background-repeat:repeat-x;
+background-color:#eaeaea;
+}
+body,td {font-family:arial; font-size: 11px;}
+#bodyBg {width:994px; background-image: url(pageside.gif); background-repeat:no-repeat;}
+#bodyBgNarrow {width:784px; background-image: url(pageside.gif); background-repeat:no-repeat;}
+
+#ad300x250box {margin-bottom:10px; height:264px;}
+#ad180x150box {margin-bottom:10px; height:150px;}
+#ad160x600box {margin-bottom:10px; height:600px;}
+#ad120x30 {
+	position:absolute; 
+	margin-left:850px;
+	margin-top:5px; 
+}
+#ad120x30 {
+	height:30px;
+	width:120px;
+}
+#ad120x30Narrow {
+	position:absolute; 
+	margin-left:640px;
+	margin-top:5px; 
+}
+#ad120x30Narrow {
+	height:30px;
+	width:120px;
+}
+#ad300x250sfbox {height:264px;}
+#advertLabel300x250sf {margin-bottom:10px;}
+#presentedBy {
+	position:absolute; 
+	margin-left:758px;
+	margin-top:7px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+}
+#presentedByNarrow {
+	position:absolute; 
+	margin-left:548px;
+	margin-top:7px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+}
+
+/* single centerpiece */
+#mainCPDivSingleCP {
+position:relative;
+}
+#blurbDivSingleCP {
+position:absolute; top:273px; left:10px; width:408px; height:30px; overflow:hidden;
+}
+#relatedDivSingleCP {
+position:absolute; top:298px; left:10px; height:49px; width:408px; overflow:hidden;
+}
+
+#blurbDivSingleCPLeft {
+position:absolute; position:absolute; top:273px; left:10px; width:408px; height:30px; overflow:hidden;
+}
+#relatedDivSingleCPLeft {
+position:absolute; position:absolute; top:302px; left:10px; height:47px; width:408px; overflow:hidden;
+}
+#titleDivSingleCP {
+position:absolute; top:8px; left:10px;
+}
+#imgDivSingleCP {
+position:absolute; top:45px; left:40px;
+}
+/* section front and lower level classes */
+div.spacer10 {height:10px;}
+div.spacer30 {height:30px;}
+.hdrContainer {
+  width:980px;
+  background-color:#a0a0a0;
+  border-left:1px solid #c1c1c1;
+  border-right:1px solid #c1c1c1;
+  padding-top:3px;
+}
+.narrowHdrContainer {
+  width:770px;
+  background-color:#a0a0a0;
+  border-left:1px solid #c1c1c1;
+  border-right:1px solid #c1c1c1;
+  padding-top:3px;
+}
+.bdyContainer {	
+  	width:980px;
+	border:1px solid #999;
+	text-align:left;
+}
+.narrowContainer {
+  width:770px;
+  border-top:1px solid #999;
+  border-right:1px solid #999;
+  border-left:1px solid #999;
+  text-align:left;
+}
+.bdyBottom {
+  background-image: url(page_bot.gif);
+  background-repeat: repeat-x;
+  height: 8px;
+  width: 982px;
+}
+.bdyBottomNarrow {
+  background-image: url(page_bot.gif);
+  background-repeat: repeat-x;
+  height: 7px;
+  width: 772px;
+}
+.bdy {background-color:#fff; table-layout:fixed;}
+
+.theFold {background-image:url(fold_bg0.jpg); background-repeat:repeat-x; width:980px; height:14px;}
+/*.belowFold {background-image:url(/fe/img/SectionFront/bottom_col_grad_bg.jpg); background-repeat:repeat;}*/
+.belowFold {background-image:url(belowFol.gif); background-repeat:repeat;}
+
+a:link.g {color:#fc0; font:bold;}
+a:visited.g {color:#efc300; font:bold;}
+
+a:link {color:#009;}
+a:visited {color:#555;}
+a:hover, a:hover.g  {color:#6699ff;}
+.nav a:link, .nav a:visited {text-transform:uppercase; font-size:10px; font-family:verdana; font-weight:bold; text-decoration: none; color:#000; padding:1px 0px 1px 0px;}
+#navOn {background-color:#fff;  border-bottom:1px solid #fff;}
+
+.sectionFrontNav, .featureNav {
+
+clear:both;
+overflow:hidden;
+height:19px; padding:4px 0px 0px 1px; font-weight:bold; font-family:verdana; font-size:10px; 
+*height:23px;*padding-bottom:4px;
+color:#d8d3da; text-align: left;
+background-image:url(subNav_5.gif);
+background-repeat:no-repeat;
+
+}
+.sectionFrontNarrowNav {
+width:770px; border-bottom:1px solid #996a00; padding:4px 0px 4px 0px; font-weight:bold; font-family:verdana; font-size:10px; color:#000; background-color:#eee;
+text-align: left;
+}
+
+.sectionFrontNav a:link, .sectionFrontNav a:visited, .featureNav a:link, .featureNav a:visited {
+  padding:0px 3px 0px 3px;font-weight:bold;font-family:verdana; font-size:10px;color:#d8d3da;text-decoration:none;
+}
+
+.sectionFrontNarrowNav a:link, .sectionFrontNarrowNav a:visited {
+  padding:0px 3px 0px 3px;font-weight:bold;font-family:verdana; font-size:10px;color:#000;text-decoration:none;
+}
+
+.sectionFrontNav a:hover, .sectionFrontNavOn a:link, .sectionFrontNavOn a:visited {color:#d8d3da; text-decoration:none;}
+.sectionFrontNarrowNav a:hover, .sectionFrontNarrowNavOn a:link, .sectionFrontNarrowNavOn a:visited {color:#000000; background-color:#ccc;}
+
+.coml {font-size:11px; width:100%; background-color:#e3e3e3; border:1px solid #b3b3b3; margin-bottom:10px;}
+.comlTan {width:100%; background-color:#E1DEC2; border:1px solid #B2AA5B; margin-bottom:10px;}
+.comlBlue {font-size: 11px; width:100%; background-color:#e3e3e3; border:1px solid #5E8099; margin-bottom:10px;}
+.comr {font-size:11px; background-color:#dee1ea; padding-top:0px;}
+.comHdr {font-size:15px; font-weight:bold;}
+.comHdrG {font-size:12px; font-weight:bold; font-family:arial; color:#fff; text-transform: capitalize;}
+
+.fade {background-image: url(ftr_bg00.gif); height:15px;}
+.fadeTan {background-image: url(ftr_bg_t.gif); height:13px;}
+
+.hdr {background-image:url(hdr_bg00.jpg); background-repeat:repeat-x; background-position:top; background-color:#e6eaf5; height:23px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; padding:2px 0px 0px 5px; position:relative;}
+.hdrTan {background-image: url(hdr_bg_t.gif); height:26px; font-family:verdana; font-size:17px; text-transform:uppercase; font-weight:bold; padding:2px 0px 0px 5px; position:relative; }
+.hdrBlue{background-image: url(hdr_bg_b.gif); height:25px; font-family:verdana; font-size:17px; text-transform:uppercase; font-weight:bold; padding:2px 0px 0px 5px; position:relative; }
+
+/* this is for unredesigned widgets */
+.hdrNarrow {background-image:url(hdr_bg00.jpg); background-repeat:repeat-x; background-position:top; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; padding:2px 0px 0px 5px; position:relative; font-weight:bold}
+
+/* content hdr */
+.hdr1 {font-size:18px;font-family:arial, helvetica, sans-serif; font-weight:bold;}
+.hdr2 {font-size:14px;font-family:arial, helvetica, sans-serif; font-weight:bold;}
+
+/* data table */
+.bgBdrOutline {background-color:#ddd;}
+.bgBdrOutline .bgC td {border-bottom:0px;}
+.formElement, .pulldown, .dataTable, .dataTable TH, .dataTable TD {font-size:10px;font-family:verdana, arial, helvetica, sans-serif;}
+.bgHdr1 td, td.bgHdr1, .bgHdr1 a:link, .bgHdr1 a:visited {background-color: #003399; color: #ffffff; text-transform: uppercase; font-weight: bold;}
+.bgHdr1 a:link, .bgHdr1 a:visited {color: #fff;}
+.bgHdr2 td, td.bgHdr2 {background-color: #ddd; color: #000; font-weight: bold;}
+.bgHdr3 td, td.bgHdr3 {background-color:#ddd; color:#000;}
+.bgBdr {background-color:#fff;}
+.bgC td {background-color:#fff; color:#000; border-bottom:1px solid #ddd;}
+.bgC tr.bgc td {background-color:#fff; color:#000; border-bottom:0px solid #ddd;} /* this is needed to prevent double lines on nested tables*/
+.bgC2 {background-color:#ccc;}
+.bgC3 {background-color:#eee;}
+tr.bgFtr td, .bgFtr {background-color:#fff; border-bottom:0px solid #fff;}
+.bgMore {text-align:right; padding:2px;}
+/*e6f2ff*/
+td.bgHigh, tr.bgHigh td {background-color:#F9FAD9; border-bottom:1px solid #eee;}
+td.bgCalHome {background-color:#F9FAD9;}
+
+/* sortable classes */
+a.sortableHeader:link {color:#0252A7; width:100%; height:100%; padding:0px 3px 0px 3px;}
+a.sortableHeader:visited {color:#0252A7;}
+a.sortableHeader:hover  {color:#69f; background-color:#eaf8ff;}
+a.sortableHeader {width:100%; height:100%; padding:0px 3px 0px 3px;}
+tr.bgHdr2 td.bgSort {background-color:#a2c4dd; color:#000;}
+tr.bgHdr2 td.bgSort a:link, tr.bgHdr2 td.bgSort a:visited {color:#000; text-decoration:none}
+td.bgSort, tr.bgSort td {background-color:#F9FAD9; border-bottom:1px solid #eee;}
+/* end sortable classes */
+
+/* start: New dataTable 12-07 */
+.dataDiv {border:1px solid #cccccc; padding:8px 6px 8px 6px;}
+.dataDiv, .dataDiv TD, .dataDiv TH {font-size:10px; font-family:verdana, arial, helvetica, sans-serif;}
+* html div.dataDiv {width:100%; wi\dth:100%;}
+.dataTbl {background-color:#fff;}
+.dataTrHdr1 td, td.dataTrHdr1, tr.dataTrHdr1 td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; font-size:12px; background-color:#003399; color:#ffffff; text-transform:uppercase; font-weight:bold; padding:2px 0px 2px 5px; border-bottom:2px solid #ffffff;}
+.dataTrHdr1 a:link, .dataTrHdr1 a:visited {color:#fff;}
+.dataTrHdr1 a:hover {color:#fc0;}
+.dataTrHdr2 td, td.dataTrHdr2, tr.dataTrHdr2 td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; background-color:#eeeeee; font-size:11px; color:#000; text-transform:uppercase; font-weight:bold; padding:5px 3px 5px 5px; border-bottom:1px solid #ffffff;}
+.dataTrHdr3 td, td.dataTrHdr3, tr.dataTrHdr3 td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; background-color:#a2a2a2; font-size:11px; color:#000; text-transform:uppercase; font-weight:bold; padding:3px 3px 3px 5px; border-bottom:2px solid #ffffff;}
+.dataTrHdr4 td, td.dataTrHdr4, tr.dataTrHdr4 td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; background-color:#a2a2a2; font-size:11px; color:#000; text-transform:uppercase; font-weight:bold; padding:3px 3px 3px 5px; border-bottom:2px solid #ffffff; border-top:10px solid #ffffff;}
+.dataTrHdr5 td, td.dataTrHdr5, tr.dataTrHdr5 td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; background-color:#eeeeee; font-size:11px; color:#000; text-transform:none; font-weight:bold; padding:5px 3px 5px 5px; border-bottom:1px solid #ffffff;}
+.dataTrHdr6 td, td.dataTrHdr6, tr.dataTrHdr6 td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; background-color:#a2a2a2; font-size:11px; color:#000; text-transform:none; font-weight:bold; padding:3px 3px 3px 5px; border-bottom:2px solid #ffffff;}
+.dataTr td, .dataTr, tr.dataTr td {background-color:#ffffff; color:#000; padding:4px 3px 4px 3px;}
+.dataTr2 td, .dataTr2, tr.dataTr2 td  {background-color:#eeeeee; color:#000; padding:4px 3px 4px 3px;}
+.dataTrTabs td, td.dataTrTabs, tr.dataTrTabs td {background-image:url(dataTrHd.gif); background-repeat:repeat-x; background-color:#ffffff; font-size:11px; color:#000; text-transform:uppercase; font-weight:bold; padding:8px 3px 0px 3px; border-bottom:1px solid #cccccc;}
+.dataTrFtr td, td.dataTrFtr, tr.dataTrFtr td {background-image:url(dataTrFt.gif); background-repeat:repeat-x; background-color:#a2a2a2; color:#000; padding:8px 3px 7px 3px;}
+.dataTdBdrRight td, .dataTdBdrRight, tr.dataTdBdrRight td {border-right:1px solid #ffffff;}
+.dataTdBdrLeft td, .dataTdBdrLeft, tr.dataTdBdrLeft td {border-left:1px solid #ffffff;}
+.dataTrHigh td, .dataTrHigh, tr.dataTrHigh td {background-color:#f9fad9; color:#000; padding:4px 3px 4px 3px;}
+.dataTrBreak td, .dataTrBreak, tr.dataTrBreak td {background-color:#ffffff; color:#000; padding:4px 3px 4px 3px; border-bottom:1px solid #cccccc;}
+.dataTr2Break td, .dataTr2Break, tr.dataTr2Break td {background-color:#eeeeee; color:#000; padding:4px 3px 4px 3px; border-bottom:1px solid #cccccc;}
+.dataTrHighBreak td, .dataTrHighBreak, tr.dataTrHighBreak td {background-color:#f9fad9; color:#000; padding:4px 3px 4px 3px; border-bottom:1px solid #cccccc;}
+.dataTrBlurb td, .dataTrBlurb, tr.dataTrBlurb td {background-color:#ffffff; color:#000; padding:10px 20px 10px 20px;}
+.dataTrBlurb2 td, .dataTrBlurb2, tr.dataTrBlurb2 td {background-color:#eeeeee; color:#000; padding:10px 20px 10px 20px;}
+.dataGrayItalics {color:#898989; font-style:italic;}
+.dataDivMore {text-align:right; font-size:10px; font-family:verdana; padding:2px;}
+.dataDivMore a:link, .dataDivMore a:visited {text-decoration:none; font-weight:bold;}
+.dataDivMore a:hover, .dataDivMore a:visited {text-decoration:underline; font-weight:bold;}
+
+.dataTabs {position:relative; z-index:200;}
+.dataTabDivs {padding:10px 0px 0px 0px;}
+a.tableTabOn, a:link.tableTabOn, a:hover.tableTabOn, a:visited.tableTabOn {font-family:verdana; font-size:10px; font-weight:bold; color:#000000; text-decoration:none; text-transform:uppercase; background-color:#fff; padding:2px 8px 0px 8px; margin:0px 3px 0px 0px; border-top:1px solid #cccccc; border-right:1px solid #cccccc; border-left:1px solid #cccccc; border-bottom:1px solid #ffffff;}
+a.tableTabOff, a:link.tableTabOff, a:hover.tableTabOff, a:visited.tableTabOff {font-family:verdana; font-size:10px; font-weight:normal; color:#000000; text-decoration:none; text-transform:uppercase; background-color:#cccccc; padding:2px 8px 0px 8px; margin:0px 3px 0px 0px; border-top:1px solid #bbbbbb; border-right:1px solid #bbbbbb; border-left:1px solid #bbbbbb;}
+a:hover.leaderTabOff {background-color:#dddddd; color:#000000;}
+/* end: New dataTable 12-07 */
+
+/* breaking news */
+.bn {background-image: url(breaking.gif);background-color:#c00;}
+.bn, .bn a, .bn td {color:#eee;font: 11px arial;}
+.bn .hdr1 {font : bold 17px verdana;}
+.bn .hdr2, .bn .hdr2 a:link, .bn .hdr2 a:visited, .bn .hdr2 a:active {font : bold 15px arial; color:#fff;}
+.bn .hdr2 a:hover, .bn td a:hover {color:#ffa;}
+
+/* centerpiece */
+#cp {padding:0px 0px 0px 0px;}
+#cp .h1 {font-size:32px;  font-weight:bold; font-family: verdana; text-transform:uppercase;}
+#cp .h1NonFlash {font-size:30px;  font-weight:bold; font-family: verdana; text-transform:uppercase;}
+#cp .h2 {font-size:13px;  font-weight:bold; font-family: verdana;}
+#cp .img {float:left; padding:0px 3px 3px 0px;}
+.cpBlurb, .cpBlurb td {color:#535957; font-weight:bold;}
+
+.h1NonFlash {
+	font-size:30px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+
+/* centerpiece2 */
+#cp2 {margin-bottom:10px;}
+#cp2 img {border:1px solid black;}
+
+/* fantasy */
+#fan .bgHdr2 {background-color:#999;color:#fff;font-weight: bold;}
+
+/* features */
+#fts {padding:0px;}
+.ftsImg {padding:0px 0px 5px 0px;}
+.ftsCom {border:1px solid #fff;	padding:2px; border-bottom-width:0px;}
+
+/* more fox sports */
+#moreFS { background-color:#E4E4E4; }
+#moreFSTV, #moreFSMobile, #moreFSRadio { background-color:#E4E4E4; }
+.moreFSTabOff {font-family:verdana; font-size:13px; text-transform:uppercase; font-weight:normal; padding:2px,0px,2px,5px; background-color:#BBBBBB; border:1px solid #fff;}
+.moreFSTabOn {font-family:verdana; font-size:13px; text-transform:uppercase; font-weight:bold; padding:2px,0px,2px,5px background-color:#E5E5E5; border-top:1px solid #fff; border-left:1px solid #fff; border-right:1px solid #fff; cursor:hand;}
+.moreFSTabHover {font-family:verdana; font-size:13px; text-transform:uppercase; font-weight:normal; padding:2px,0px,2px,5px; background-color:#DCDCDC; border:1px solid #fff; cursor:hand;}
+
+/* fox sports store */
+.comStore {width: 420px; position:relative; color:#000000; padding:0px 0px 0px 10px; margin-bottom:10px;}
+.hdrStore {height:31px; font-family:verdana; font-size:17px; font-weight:bold; text-transform:uppercase; padding:0px 0px 0px 0px; position:relative; color:#0045a0;}
+.dvrStore {width: 420px; height:10px; background-image: url(divider_.gif); padding:0px 0px 0px 0px; position:relative; top:1px; background-repeat:repeat-x;}
+.ftrStore {width: 420px; height:10px; background-image: url(cp_divid.jpg); background-repeat:repeat-x;}
+.moreStore {text-align:right; padding:7px 0px 0px 0px;}
+.moreStore a:link, .storeItemTitle a:link {color:#004495; font-size:11px; font-weight:bold; text-decoration:none;}
+.moreStore a:visited, .storeItemTitle a:visited  {color:#004495; font-size:11px; font-weight:bold; text-decoration:none;}
+.moreStore a:hover, .storeItemTitle a:hover  {color:#004495; font-size:11px; font-weight:bold; text-decoration:underline;}
+.storeItemTitle {width: 130px;}
+.storeItemPrice {color:#000000; font-size:11px; font-weight:normal;}
+.storeItemPrice2 {color:#9d0a0e; font-size:11px; font-weight:bold;}
+.storeItemPrice2 a:link {color:#9d0a0e; font-size:11px; font-weight:bold; text-decoration:none;}
+.storeItemPrice2 a:visited {color:#9d0a0e; font-size:11px; font-weight:bold; text-decoration:none;}
+.storeItemPrice2 a:hover {color:#9d0a0e; font-size:11px; font-weight:bold; text-decoration:underline;}
+
+/* life at the bottom */
+.comLife {width:420px; position:relative; color:#000000; padding:0px 0px 0px 10px; margin-bottom:10px;}
+.hdrLife {font-family:verdana; font-size:17px; font-weight:bold; text-transform:uppercase; padding:0px 0px 0px 0px; position:relative; color:#0045a0;}
+#bdylife {width:420px; background-image: url(divider_.gif); background-repeat:repeat-x; padding-top:6px; background-color:#f4f4f4;}
+.bdylife2 {width:420px; background-image: url(bdy_bg_l.gif); background-repeat:repeat-y; padding:15px;}
+.bdylife3 {width:390px;}
+.lifeQuote {color:#5f5f5f; font-size:11px; font-weight:normal; padding-top:8px;}
+.ftrLife {width:420px; height:21px; background-image: url(ftr_bg_l.gif); text-align:right; padding:0px,5px,0px,0px;}
+.ftrLife a:link {color:#004495; font-size:11px; font-weight:bold; text-decoration:none;}
+.ftrLife a:visited {color:#004495; font-size:11px; font-weight:bold; text-decoration:none;}
+.ftrLife a:hover {color:#004495; font-size:11px; font-weight:bold; text-decoration:underline;}
+
+/* opinions */
+#op {  padding-bottom:5px;  background-color:#E76500;}
+.comOp {width:100%; color:#eee; background-color:#E76500; border:1px solid #954201; margin-bottom:10px;}
+.comOp td {color:#000;}
+a:link.op {color:#F9E6D7;}
+a:visited.op {color:#e8d5c6;}
+a:hover.op {color:#fff;}
+.hdrOp {background-image: url(hdr_bg_o.gif); height:26px; font-family:verdana; font-size:17px; text-transform:uppercase; font-weight:bold; padding:3px 0px 0px 5px; position:relative; color:#000;}
+/*
+.hdrTan {background-image: url(/fe/img/SectionFront/hdr_bg_tan.gif); height:26px; font-family:verdana; font-size:17px; text-transform:uppercase; font-weight:bold; padding:3px 0px 0px 5px; position:relative; }
+*/
+
+.fadeOp {background-image: url(ftr_bg_o.gif); height:14px;}
+
+/* tv */
+#tv td {color:#000;}
+#tv .bgBdr {background-color:#B2AA5B;}
+#tv .bgC {background-color:#E1DEC2;}
+
+/* more than sports on msn */
+.comMSN {width:295px; margin-bottom:0px;}
+.hdrMSN {background-image: url(on_msn_h.gif); background-repeat:no-repeat; position:relative; height:25px;}
+.ftrMSN {background-image: url(on_msn_f.gif); background-repeat:no-repeat; position:relative; height:12px;}
+#MSN {width:295px; background-image: url(on_msn_b.gif); background-repeat:repeat-y; position:relative;}
+#MSN td {color:#004495;}
+#MSN a:link {color:#004495; font-size:11px; text-decoration:none;}
+#MSN a:visited {color:#004495; font-size:11px; text-decoration:none;}
+#MSN a:hover {color:#000000; font-size:11px; text-decoration:underline;}
+
+/* poll */
+#pol {padding-bottom:5px;}
+
+/* bottomNav */
+.comBottomNav {background-image: url(hdr_bg_b.gif); background-repeat:repeat-x; background-color:#ffffff; border-top:1px solid #c8c9cd;}
+.bottomNav {padding:5px 10px 10px 10px; font-family:verdana,tahoma,sans-serif; font-size:9px; color:#024395; }
+.bottomNav a:link, .bottomNav a:visited {color:#024395; text-decoration:none;}
+.bottomNav a:hover {color:#024395; text-decoration:underline;}
+
+/* section front component classes */
+#hl {padding-left:7px; padding-right:7px;}
+#hlA a {text-decoration:none; line-height:16px;}
+#hlA a:hover {text-decoration:underline;}
+#vid {padding:5px;}
+a.rssXML:link, a.rssXML {border:1px solid #fc0; color:#fff; background-color:#f60; font-weight: bold; font-size:10px;font-family:verdana; text-decoration:none; padding-right:1px;}
+a.rssXML:visited {border:1px solid #fc0; color:#fff; background-color:#f60; font-weight: bold; font-size:10px;font-family:verdana; text-decoration:none; padding-right:1px;}
+a.rssXML:hover {color:#fc0;}
+a.rumors {color:#cc0000; font-weight:normal;}
+
+.readerPicks {
+	font-size:10px;
+	color:#013f8c;
+	font-weight:bold;
+}
+
+.newsRSS {
+	float:right;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	margin-top:3px;
+}
+
+.dateTime {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	margin-bottom:3px;
+}
+
+/* bookmark class */
+.bkmk {
+  font-size: 10px;
+  color: #00009C;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.bkmk a:link, .bkmk a:visited {
+  color: #00009C;
+  text-decoration: none;
+}
+.bkmk a:hover {
+  color: #6699FF;
+}
+
+/* other classes */
+.advertisementLabel {
+  font-family:verdana,arial,tahoma; font-size:9px; color:gray; letter-spacing: 3px;
+}
+.advertisementLabelWhite {
+  font-family:verdana,arial,tahoma; font-size:9px; color:white; letter-spacing: 3px;
+}

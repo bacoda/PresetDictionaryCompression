@@ -1,0 +1,436 @@
+/* CSS VG Nett 2001 */
+BODY {
+	background-color: #ffffff;
+}
+
+a:link 			{ 	color:red;		}
+a:active 		{	color:blue;		}
+a:visited 		{	color:#808080;		}
+a.tvg 			{	color: blue;		}
+a.vsp 			{	color: black;		}
+a.vsp:visited 		{	color: #666666;		}
+a.vsp:hover 		{	color: #333333;		}
+a.globalsak:link	{	text-decoration:none;	}
+a.globalsak:active 	{	text-decoration:none;	}
+a.globalsak:visited 	{	text-decoration:none;
+				color:white;		}
+a.globalsak:hover 	{	color:black;		}
+
+H1  {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.bm {
+        font-weight: bold;
+        background: #ffcc00;
+}
+img.videoimg {border:0;  position:relative; top:42px; left:10px}
+.artVideoBoks {width:190px;
+        height: 230px;
+        position:relative;
+      /*  clear:both;
+        float:right; */
+        padding:5px;
+        background: url(player_t.png) no-repeat 5px 5px;}
+.artVideoBoks img {border:0}
+.artVideoBunn { position:relative; top:59px; left:0; border:0 }
+.globalsak {
+        font-family:Arial, Helvetica, Sans-serif;
+        font-size: 11px;
+        font-weight:bold;
+        color:white;
+}
+
+.saksok {
+	font-size: 11px;
+	color:#000000;
+	font-family:Arial, Helvetica, Sans-serif;
+	text-align:center;
+}
+.saksok-form {
+    	font-family: Arial, Helvetica, Sans-serif;
+    	font-size: 10px;
+	width:100px;
+}
+
+.seksjonsak {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+.submit {
+	font-family: Arial,Helvetica,Sans-serif;
+	font-size: 11px;
+	background: #444499;
+	color: white;
+}
+.soek {
+	font-family: Arial,Helvetica,Sans-serif;
+	font-size: 11px;
+	/* color: white; */
+	/* font-weight: bold; */
+
+}
+
+.dato {
+	font-family:Arial,Helvetica,Sans-serif;
+	font-size:11px;
+	}
+
+.txtann {
+	font-family: Arial,Helvetica,Sans-serif;
+	font-size:10px;
+	color:black;
+	}
+
+.txtannbak {
+	background-color:#feedd2;
+	}
+
+
+A.txtann {
+	color:red;
+	}
+
+.meny {
+	/* text-decoration: none; */
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.meny:hover {
+	text-decoration: underline;
+}
+DIV.flere {
+	text-align: right;
+}
+TD.ditv {
+	font-family: Arial,Helvetica,Sans-serif;
+	font-size: 11px;
+}
+
+a.eliteguide-boks-art {
+	color:black;
+	}
+
+a.hover.eliteguide-boks-art {
+	color:003333;
+	}
+
+.eliteguide-boks-art {
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+        }
+
+.smstittel {
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:blue;
+	}
+
+.smsvalg {
+	font-family:arial,helvetica,sans-serif;
+	font-size:9px;
+ 	}
+
+.smstekst {
+	font-family:arial,helvetica,sans-serif;
+	font-size:9px;
+	}
+
+.tpsnvn {
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	}
+
+.spaltetekst-ufront {
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+        }
+
+.tredblaa-v {
+	border-left: solid #63cef7 2px;
+	background: #1094c6;
+	}
+
+.tredblaa-h {
+	background: #1094c6;
+	border-right: solid #18637b 2px;
+	}
+
+.tredblaa-tb {
+	background: #1094c6;
+	border-top: solid #63cef7 2px;
+	border-bottom: solid #18637b 2px;
+	}
+
+.tredblaa-t {
+	background: #1094c6;
+	border-top: solid #63cef7 2px;
+	}
+
+.tredblaa-b {
+	background: #1094c6;
+	border-bottom: solid #18637b 2px;
+	}
+
+.tredsok {
+	margin-bottom: 2px;
+	font-size:11px;
+	height:19px;
+	width:125px;
+	border-right: solid #63cef7 2px;
+	border-bottom: solid #63cef7 2px;
+	border-top: solid #18637b 2px;
+	border-left: solid #18637b 2px;
+	}
+
+.tredsokart {
+	margin-bottom: 2px;
+	font-size:11px;
+	height:19px;
+	width:125px;
+	border-right: solid #cccccc 2px;
+	border-bottom: solid #cccccc 2px;
+	border-top: solid #666666 2px;
+	border-left: solid #666666 2px;
+	}
+
+.tredsokartssm {
+	margin-bottom: 2px;
+	font-size:11px;
+	height:17px;
+	width:90px;
+	border-right: solid #cccccc 2px;
+	border-bottom: solid #cccccc 2px;
+	border-top: solid #666666 2px;
+	border-left: solid #666666 2px;
+	}
+
+
+.tredsok-knapp {
+	width: 40px;
+	margin-bottom: 1px;
+	height: 19px;
+	font-size: 11px;
+	font-family: Arial,Helvetica,Sans-serif;
+	text-align: center;
+	background: #444444;
+	border-left: solid #808080 2px;
+	border-top: solid #808080 2px;
+	border-bottom: solid black 2px;
+	border-right: solid black 2px;
+	text-decoration: none;
+	margin-left: 2px;
+	font-weight: bold;
+	}
+
+
+.u-title {
+        font-size:large;
+        font-weight:bold;
+        }
+
+.u-preamble {
+        font-size:small;
+        }
+
+.u-date {
+        font-size:x-small;
+        }
+
+.u-link {
+        font-size:small;
+        color:red;
+        }
+
+a.u-link:hover {
+        color:black;
+        }
+
+.u-showfirst-title {
+        font-family:arial,helvetica,sans-serif;
+        font-size:small;
+        font-weight:bold;
+        color:red;
+        }
+
+a.u-showfirst-title:hover {
+        color:black;
+        }
+
+.u-showfirst-preamble {
+        font-family:arial,helvetica,sans-serif;
+        font-size:x-small;
+        }
+.u-showfirst-list {
+        font-family:arial,helvetica,sans-serif;
+        font-size:x-small;
+        color:red;
+        }
+
+a.u-showfirst-list:hover {
+        color:black;
+        }
+
+.u-shortformat-title {
+        font-family:arial,helvetica,sans-serif;
+        font-size:x-small;
+        color:red;
+        }
+
+a.u-shortformat-title:hover {
+        color:black;
+        }
+.u-shortformat-date {
+        font-family:arial,helvetica,sans-serif;
+        font-size:xx-small;
+        }
+
+.artspalte-ttl {
+        font-family:Verdana, helvetica, sans-serif;
+        font-size:13px;
+        color: black;
+        }
+
+a.artspalte-ttl {
+	color:black;
+}
+
+a.artspalte-ttl:hover {
+	color:red;
+}
+
+div.artspalte-ttl h3{
+margin: -2px 10px 0px 10px;
+font-size: 13px;
+}
+
+div h3.artspalte-ttl{
+margin: 0px 0px 0px 0px;
+font-size: 13px;
+}
+
+div.artspalte-ttl table, .artspalte-ttl a img{
+margin: 0px 0px 0px 4px;
+font-size: 13px;
+}
+
+
+div.artspalte-ttl li{
+margin: 0px 0px 0px 0px;
+}
+
+div.artspalte-ttl p{
+margin: 0px 6px 0px 10px;
+}
+
+
+.byline {
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+        color:red;
+        }
+
+a.byline,a.byline:visited {
+        color:red;
+        }
+
+.artspalte-txt {
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+        color:black;
+        }
+
+a.artspalte-txt,a.artspalte-txt:visited {
+        color:#000000;
+        }
+
+a.artspalte-txt:hover {
+        color:red;
+        }
+
+.art-relaterte {
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+
+	}
+
+a.art-relaterte:hover {
+	color:black;
+	}
+
+.art-nokkelord {
+	font-family:arial,helvetica,sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	}
+
+a.art-nokkelord:hover {
+	color:black;
+	}
+
+a.art-nokkelord:visited {
+	color:red;
+	}
+
+.ddform {
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+        width:180px;
+        }
+
+.skatt2004-tbl {
+	border:1px solid black;
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	}
+
+.skatt2004-ttl {
+	font-family:arial,helvetica,sans-serif;
+	font-size:13px;
+	color:white;
+	text-align:center;
+	background:#1094C6;
+	font-weight:bold;
+	}
+
+.skatt2004-uttl {
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	color:white;
+	background:#1094C6;
+	}
+
+table.skatten2005 {
+	width:440px;
+	border:1px solid black;
+        font-family:arial,helvetica,sans-serif;
+        font-size:11px;
+}
+
+table.skatten2005 td {
+	border-bottom:1px solid #ccc;
+        border-left:1px solid #ccc;
+}
+
+/*Bokser i artiklene. Andreasw nov 06*/
+.article_spalteboks#vgfolger h2 {display: block; height: 29px; background: transparent url(vgnett_f.png) 0 0 no-repeat; text-indent: -5000px;}
+.article_spalteboks {width: 188px; padding-bottom: 10px; background: transparent url("shadow00.gif") bottom left no-repeat; font-family: sans-serif; }
+.article_spalteboks h5 {margin: 10px 5px 0;}
+.article_spalteboks p {margin: 5px 10px; padding: 0;}
+.article_spalteboks ul {margin: 5px 10px; padding: 0; list-style: none;}
+
+div.dinepengerboks {width: 180px; font-family: "Lucida Grande", arial, sans-serif; font-size: 12px; background: #fcf2f2; border: 1px solid #c00; border-bottom-width: 8px;}
+.dinepengerboks h3 {margin: 0; text-align: center; font-size: 14px; color: #fff; background: #c00;}
+.dinepengerboks h3 span {display: block; height: 22px; width: 178px; text-align: left; text-indent: -5000px; background: url(dpboksto.gif) 0 0 no-repeat;}
+.dinepengerboks ul {list-style: none; margin: 5px; padding: 0;}
+.dinepengerboks li {margin: 5px 0;}
+.dinepengerboks a:link, .dinepengerboks a:visited {color: #000;}
+.dinepengerboks a:hover {color: #c00;}
+
+#artikkelspalte a.ll { color: #ad208e; font-weight: bold; background-image: url(sesam000.png); background-repeat: no-repeat; background-position: left top; padding-left: 12px; }

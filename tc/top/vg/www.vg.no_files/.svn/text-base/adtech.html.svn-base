@@ -1,0 +1,20 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><script language="JavaScript" type="text/javascript">
+
+  var qs = location.search.substring(1);
+  var nv = qs.split('&');
+  var url = new Object();
+  for(i = 0; i < nv.length; i++)
+  {
+    eq = nv[i].indexOf('=');
+    url[nv[i].substring(0,eq).toLowerCase()] = unescape(nv[i].substring(eq + 1));
+  }
+
+</script>
+
+<script language="javascript"><!--
+document.write('<scr'+'ipt language="javascript1.1" src="'+url['source']+'"></scri'+'pt>');
+//-->
+</script><script language="javascript1.1" src="http://t/imported/websites/2008/top/vg/www.vg.no_files/adtech_files/64356563643031363438626538346630.js"></script>
+
+</head><body><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  id="AT_FLASHO1677990" name="AT_FLASHO1677990" width="468" height="400"><param name="movie" value="/resources/objects/flash.swf"><param name="quality" value="autohigh"><param name="base" value="http://adtech.panthercustomer.com/apps/494/Ad1955822St3Sz261Sq1913268V0Id4/"><param name="flashvars" value="clickTAG=http%3A//adserver.adtech.de/adlink%7C580%7C1677990%7C0%7C261%7CAdId%3D1955822%3BBnId%3D4%3Bitime%3D455559490%3Bnodecode%3Dyes%3Blink%3Dhttp%3A//ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/772934715/Bottom2/OasDefault/norwegian_nb2_030908/norwegian_nb2_030908.html/64356563643031363438626538346630%3Fhttp%3A//31fa1168-cde1-4055-aa73-d64ea609e4eb.statcamp.net/turl/%3Fid%3D13e5a6755f6a4076a41ab558eca2f4e0%26mid%3Ddca676e62e624ab1968b900ee2f43f71%26cid%3D582e9434f2414e91a6857fb9ce5c2459%26lpid%3D9c3d0c356df1460392a157e982d64c25"><param name="allowscriptaccess" value="always"><param name="swLiveConnect" value="true"><param name="wmode" value="Opaque"><embed src="/resources/objects/flash.swf" id="AT_FLASHO1677990" name="AT_FLASHO1677990" base="http://adtech.panthercustomer.com/apps/494/Ad1955822St3Sz261Sq1913268V0Id4/" quality="autohigh" flashvars="clickTAG=http%3A//adserver.adtech.de/adlink%7C580%7C1677990%7C0%7C261%7CAdId%3D1955822%3BBnId%3D4%3Bitime%3D455559490%3Bnodecode%3Dyes%3Blink%3Dhttp%3A//ads.vg.basefarm.net/RealMedia/ads/click_lx.ads/www.vg.no/front/772934715/Bottom2/OasDefault/norwegian_nb2_030908/norwegian_nb2_030908.html/64356563643031363438626538346630%3Fhttp%3A//31fa1168-cde1-4055-aa73-d64ea609e4eb.statcamp.net/turl/%3Fid%3D13e5a6755f6a4076a41ab558eca2f4e0%26mid%3Ddca676e62e624ab1968b900ee2f43f71%26cid%3D582e9434f2414e91a6857fb9ce5c2459%26lpid%3D9c3d0c356df1460392a157e982d64c25" allowscriptaccess="always" swliveconnect="true" wmode="Opaque" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" width="468" height="400"></object></body></html>

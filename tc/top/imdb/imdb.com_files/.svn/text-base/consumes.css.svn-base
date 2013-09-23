@@ -1,0 +1,92 @@
+/*** Styles for the left and right nav columns of the home page ***/
+
+div.hpLeftNav, div.hpRightNav {
+  width: 171px;
+  overflow: hidden;
+}
+div.hpLeftNav {
+  background-color: #FFFFCC;
+  background: #FFFFCC;
+  left: 0px;
+  top: 100px;
+}
+.hpLeftNav h2, .hpRightNav h2 {
+  background-color: #6677DD;
+  background-image:  url(eyebrowc.gif);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  font-weight: bold;
+  line-height: 14px;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  padding: 3px 3px 3px 7px;
+}
+.hpRightNav h2 {
+  background-position:  -171px 0px;
+}
+.hpLeftNav div.boxSides, .hpRightNav div.boxSides {
+  background: #FFFFFF;
+  border-color: #6677DD;
+  border-width: 0px 3px 0px 3px;
+  border-style: solid;
+  margin: 0px 0px 0px 0px;
+  padding: 3px 3px 3px 3px;
+}
+.hpLeftNav div.boxBottom, .hpRightNav div.boxBottom {
+  background-color: #FFFFFF;
+  background-image:  url(eyebrowc.gif);
+  background-position: -342px 0px;
+  background-repeat: no-repeat;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.hpLeftNav a.title, .hpRightNav a.title {
+  text-decoration: none;
+}
+.hpLeftNav table {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hpLeftNav ol, .hpRightNav ol {
+  margin: 2px 0px 2px 0px;
+  padding: 0px 0px 0px 25px;
+}
+.hpLeftNav ul, .hpRightNav ul {
+  list-style-type: none;
+  margin: 2px 0px 2px 0px;
+  padding: 0;
+}
+.hpLeftNav li, .hpRightNav li {
+  cursor: hand;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+}
+.hpLeftNav ul li, .hpRightNav ul li {
+  background: url(f9600000.gif) no-repeat 1% 0%;
+  padding-left: 25px;
+}
+.hpLeftNav li.more, .hpRightNav li.more {
+  background: url(rightarr.gif) no-repeat 0 50%;
+  line-height: 13px;
+  list-style-type: none;
+  margin-left: 80px;
+  padding-top: 3px;
+}
+.hpLeftNav ol li.more, .hpRightNav ol li.more {
+  margin-left: 55px;
+  padding-left: 20px;
+}
+.hpRightNav div.bdaywidget {
+    height: 190px;
+    overflow: hidden;
+}
+.hpRightNav div.bdayctrl {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  padding: 3px;
+}

@@ -1,0 +1,1671 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML> <head>
+<TITLE>VG Nett - Hovedsiden</TITLE> <META HTTP-EQUIV="REFRESH" CONTENT="600">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="Expires" CONTENT="0"> <META HTTP-EQUIV="Pragma"
+CONTENT="no-cache"> <META NAME="verify-v1" CONTENT="oMgZtqMwDTFfakZF0gC07RcpEoQ5tDpCEzZQ/w7L04Q=">
+<link rel="alternate" type="application/rss+xml" TITLE="VG Netts RSS-feed"
+HREF="http://www.vg.no/export/Alle/rdf.hbs"> <link rel="alternate" type="application/rss+xml"
+TITLE="VG Netts Sport-RSS-feed" HREF="http://www.vg.no/export/Alle/rdf.hbs?kat=sport">
+<link rel="alternate" type="application/rss+xml" TITLE="VG Netts Nyhets-RSS-feed"
+HREF="http://www.vg.no/export/Alle/rdf.hbs?kat=nyheter"> <link rel="alternate"
+type="application/rss+xml" TITLE="VG Netts Rampelys-RSS-feed" HREF="http://www.vg.no/export/Alle/rdf.hbs?kat=rampelys">
+<link rel="alternate" type="application/rss+xml" TITLE="VG Netts Data og spill-RSS-feed"
+HREF="http://www.vg.no/export/Alle/rdf.hbs?kat=data"> <link rel="stylesheet"
+HREF="www.vg.no_files/hoved000.css"> <link rel="stylesheet" HREF="www.vg.no_files/ufront00.css"> <link
+rel="stylesheet" HREF="www.vg.no_files/front000.css"> <link rel="stylesheet" HREF="www.vg.no_files/blog0000.css"
+type="text/css"> <link rel="stylesheet" type="text/css" media="screen"
+HREF="www.vg.no_files/style000.css"> <link rel="stylesheet"
+type="text/css" media="screen" HREF="www.vg.no_files/front-25.css">
+<script language="javascript" type="text/javascript"> <!--
+    function popVideo(rm, w, h) {
+	if (w == 0) w = 190;
+	u = "/video/pop.hbs?rm=" + rm + "&w=" + w + "&h=" + h;
+	w += 250;
+	h = 400;
+	window.open(u, "videovindu", "width=" + w + ",height=" + h);
+    }
+
+    function mpPopVideo(videoId, b) {
+		if (b != null) videoPop(videoId, b);
+		else location.href = "http://www.vg.no/video/videoplayer/player.hbs?id="+videoId;
+    }
+	
+
+function videoPop(videoID, live) {
+  if (live != null) {
+    var url = "http://kroma.vg.no/live/player.php";
+    var name = "kroma_livewin";
+    var height = 600;
+    var width = 772;
+  }
+  else {
+    var url = "http://kroma.vg.no/player/player.php";
+    var name = "kroma_playerwin";
+    var height = 633;
+    var width = 772;
+  }
+  if(videoID) url += "?id="+videoID;
+  var str = "height=" + height + ",innerHeight=" + height;
+  str += ",width=" + width + ",innerWidth=" + width;
+  if (window.screen) {
+    var ah = screen.availHeight - 30;
+    var aw = screen.availWidth - 10;
+
+
+    var xc = (aw - width) / 2;
+    var yc = (ah - height) / 2;
+
+
+    str += ",left=" + xc + ",screenX=" + xc;
+    str += ",top=" + yc + ",screenY=" + yc;
+  }
+  newWin=window.open(url, name, str);
+  if (((navigator.appName.indexOf("Netscape") != 1) && (parseInt(navigator.appVersion) >=3)) || ((navigator.userAgent.indexOf("MSIE") != -1) && (parseInt(navigator.appVersion) >= 4))) {
+    newWin.focus();
+  }
+  return true; 
+}
+function genericPopup(url, width, height) {
+  thePopup = window.open(url, 'popup', 'width=' + width + ',height='  + height + ',resizable=yes,scrollbars=yes');
+}
+   //-->
+</script> <script SRC="www.vg.no_files/art00000.js" language="javascript"
+type="text/javascript"></script> <script SRC="www.vg.no_files/yahoo000.js"
+language="javascript" type="text/javascript"></script> <script SRC="www.vg.no_files/connecti.js"
+language="javascript" type="text/javascript"></script> <!-- <var annsek = "Right3,&quot;+checkStarTour()+&quot;,x09"> -->
+<script language="JavaScript" type="text/javascript"> var posisjon = "Right3,Top3,Bottom1,Bottom2,x21,x22,x23,x07,x09,x04,x05,x03";
+var page = "front"; </script> <!------ OAS SETUP begin ------> <script
+language="JavaScript" type="text/javascript"> <!--
+	//configuration
+	OAS_url ='http://ads.vg.basefarm.net/RealMedia/ads/';
+ 	OAS_listpos = posisjon;
+	OAS_query = '';
+	OAS_sitepage = 'www.vg.no/' + page;
+	//end of configuration
+
+	OAS_version = 10;
+	OAS_rn = '001234567890'; 
+	OAS_rns = '1234567890';
+	OAS_rn = new String (Math.random()); 
+	OAS_rns = OAS_rn.substring (2, 11);
+
+ 	function OAS_NORMAL(pos) { 
+ 		document.write('<' + 'A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + OAS_query + '" TARGET=_top><' + 'IMG alt="" SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + OAS_query + '" BORDER=0' + '><' + '/A' + '>');
+	}
+
+// --- DEL 2 ---
+
+	OAS_version = 11;
+	if (navigator.userAgent.indexOf('Mozilla/3') != -1)
+	OAS_version = 10;
+	showAds = true;
+	//showAds = Math.random() < 0.5 ? true : false;
+	
+	if (OAS_version >= 11 && showAds) {
+		document.write('<' + 'SCRIPT LANGUAGE="JavaScript" type="text/javascript" SRC="www.vg.no_files/1399418088@Right3,Top3,Bottom1,Bottom2,x21,x22,x23,x07,x09,x04,x05,x03.js"><' + '\/SCRIPT' + '>');
+		}
+
+// --- DEL 3 ---
+
+	function no_OAS_AD(pos) {
+	        document.write('<img alt="" src="www.vg.no_files/t.gif" width="1" height="1">');
+	}
+
+	function OAS_AD(pos) {
+	   if (!showAds) {
+	       no_OAS_AD(pos);
+	       return;
+	   }
+		if (OAS_version >= 11)
+  		OAS_RICH(pos);
+		else
+  		OAS_NORMAL(pos);
+
+
+	}
+
+// --- DEL 4 2006-06-01
+
+function placeButtons() {
+  if (typeof(eval("posisjon")) != 'undefined') {
+    for (i = 21; i <= 39; i++) {
+      OAS_AD2("x" + i);
+    }
+  }
+}
+
+function OAS_AD2(pos, adLabel) {
+  adLabel = (adLabel == null ? '' : adLabel);
+  ppad = (adLabel == '' ? 'top' : 'right');
+  ppos = (adLabel == 'right' ? 'right' : 'left');
+  if (posisjon.search(pos) > -1) {
+    document.write('<div style="padding-' + ppad + ': 8px; background: url(www.vg.no_files/' + (adLabel == '' ? 'ng' : 'vg') + '.gif) no-repeat top ' + ppos + '; margin-bottom: 3px;">');
+    OAS_AD(pos);
+    document.write('</div>');
+  }
+}
+//-->
+</script> <!------ OAS SETUP end ------> </head> <BODY text="#000000"
+BGCOLOR="#ffffff" link="#ff0000" vlink="#808080" style="margin: 7px; padding: 0px; font-family: 'Times New Roman', serif;"
+BACKGROUND="www.vg.no_files/theshado.jpg"> <div style="position: absolute; left: 810; top: 7; width: 180px; height: 600px; background: white; z-index: 999;">
+<TABLE cellpadding="0" cellspacing="0" BORDER="0"> <TR VALIGN="top"> <TD
+WIDTH="180" ALIGN="left"> <script language="JavaScript" type="text/javascript">
+<!--
+                    OAS_AD('x09');
+                    //--> </script>
+</TD> <TD VALIGN="top"> <IMG SRC="www.vg.no_files/vg000000.gif" WIDTH="8" HEIGHT="60"
+ALT="Annonse"> </TD> </TR> <TR> <TD> <script language="JavaScript" type="text/javascript">
+<!--
+                    OAS_AD('x07');
+                    //--> </script>
+<BR>&nbsp;<BR> </TD> </TR> </TABLE> </div> <TABLE cellpadding="0"
+cellspacing="0" BORDER="0" WIDTH="774"> <TR VALIGN="top"> <TD> <script
+language="JavaScript" type="text/javascript"> <!--
+                OAS_AD('Top3');
+                //-->
+</script> </TD> <TD></TD> </TR> <TR> <TD colspan="2"><IMG SRC="www.vg.no_files/t0000000.gif"
+WIDTH="1" HEIGHT="3" ALT=""></TD> </TR> </TABLE> <!-- header --> <TABLE
+cellpadding="0" cellspacing="0" BORDER="0"> <TR> <TD colspan="2"><TABLE
+cellpadding="0" cellspacing="0" BORDER="0" WIDTH="768"> <TR> <TD VALIGN="top"
+rowspan="3" WIDTH="199"><TABLE cellpadding="0" cellspacing="0" BORDER="0"
+WIDTH="199"> <TR> <TD ALIGN="left" BACKGROUND="www.vg.no_files/toppstre.gif"><A HREF="http://www.vg.no/rampelys/artikkel.php?artid=519777"><IMG
+SRC="www.vg.no_files/aaretsne.gif" style="border: none;"></A></TD> </TR>
+<TR> <TD ALIGN="left"><IMG SRC="www.vg.no_files/vglogo00.gif" WIDTH="199"
+HEIGHT="73"></TD> </TR> </TABLE></TD> <TD VALIGN="top" rowspan="3"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/tg/http://tpn.vg.no/intervju/index.php?Inr=1637"><IMG
+SRC="www.vg.no_files/12204322.gif" WIDTH="385" HEIGHT="82" BORDER="0"></A></TD>
+<TD WIDTH="184" ALIGN="left"><TABLE cellpadding="0" cellspacing="0"
+BORDER="0" WIDTH="100%"> <TR> <TD VALIGN="top" ALIGN="right" colspan="3"
+BACKGROUND="www.vg.no_files/toppstre.gif"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="182"
+HEIGHT="1"><IMG SRC="www.vg.no_files/toppstrf.gif" WIDTH="2" HEIGHT="9"></TD>
+</TR> <TR> <TD BGCOLOR="#ffffff" colspan="3"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="1"
+HEIGHT="3"></TD> </TR> <TR> <TD><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="3" HEIGHT="1"></TD>
+<TD VALIGN="top" ALIGN="left"><script language="JavaScript"> <!--
+      OAS_AD('Right3');
+      //-->
+</script></TD> <TD WIDTH="1"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="1" HEIGHT="70"></TD>
+</TR> </TABLE></TD> </TR> </TABLE> <TABLE cellpadding="0" cellspacing="0"
+BORDER="0" WIDTH="768"> <TR> <TD colspan="4"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="1"
+HEIGHT="3"></TD> </TR> <TR> <TD WIDTH="135" CLASS="tredblaa-v tredblaa-tb globalsak-front">
+<IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="135" HEIGHT="1"><BR>&nbsp;&nbsp; Onsdag 3. 
+sept. </TD> <TD WIDTH="5" ALIGN="left"> <IMG SRC="www.vg.no_files/VertSkil.gif"
+WIDTH="5" HEIGHT="20"><BR> </TD> <TD WIDTH="250" ALIGN="center" CLASS="globalsak-front tredblaa-tb">
+<IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="250" HEIGHT="1"><BR> <A HREF="http://www.storm.no/vgnett/" style="color: white; text-decoration:none;"><span
+style="text-decoration: underline;">V&aelig;ret hos VG n&aring;:</span> &nbsp; 18.9 grader &nbsp; Nedb&oslash;r: 0.0</A>
+&nbsp; </TD> <TD><IMG SRC="www.vg.no_files/Knappere.gif" WIDTH="376"
+HEIGHT="20" BORDER="0" usemap="#frontknapper"></TD> <map NAME="frontknapper">
+<area shape="rect" ALT="Finn nye venner på Møteplassen!" coords="11,1,122,20"
+HREF="http://go.vg.no/cgi-bin/go.cgi/fs/http://rms.admeta.com/public/transfer.asp?sitebanner_id=548658">
+<area shape="rect" ALT="Del videoene dine med venner og kjente - gratis!"
+coords="125,1,205,20" HREF="http://go.vg.no/cgi-bin/go.cgi/fs/http://www.snutter.no/">
+<area shape="rect" ALT="Hør alle hitlåtene fra VG-lista!" coords="208,1,258,20"
+HREF="http://go.vg.no/cgi-bin/go.cgi/fs/http://www.vg.no/radio" onClick="window.open('http://go.vg.no/cgi-bin/go.cgi/meny/http://player.minradio.no/Player.aspx?playerkey=vg_no&stationkey=vg_radio_no', '', 'scrollbars=0,resizable=0, width=565,height=500,left=300,top=300,screenX=300,screenY=300');">
+<area shape="rect" ALT="VG hjelper deg ned i vekt!" coords="261,1,361,20"
+HREF="http://go.vg.no/cgi-bin/go.cgi/fs/http://www.vektklubb.no/"> </map>
+<script language="JavaScript"> <!--
+
+    function openPlayer() {
+      var args = openPlayer.arguments;
+      if (args.length > 0) {
+        var playerKey = args[0];
+        var url = "http://www.nwrweb.com/player/show/" + playerKey + "/";
+        if (args.length > 1) {
+          url += args[1] + "/";
+        }
+        if (args.length > 2) {
+          url += args[2];
+        }
+
+        var player = window.open(url, "NWRPlayer", "width=378,height=424,scrollbars=no,resizable=no");
+        player.focus();
+      }
+    }
+
+    function sidet() { alert("sidet!"); }
+
+//-->
+</script> </TR> </TABLE></TD><TD VALIGN="top"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="8"
+HEIGHT="12"><BR><IMG SRC="www.vg.no_files/vg000000.gif" WIDTH="8" HEIGHT="60" BORDER="0"></TD></TR>
+<TR><TD><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="588" HEIGHT="3"></TD><TD><IMG SRC="www.vg.no_files/t0000000.gif"
+WIDTH="176" HEIGHT="3"></TD><TD><IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="8"></TD></TR>
+</TABLE> </TABLE> <!-- /header --> <div style="width:900px;"> <div
+style="float:left;"> <TABLE cellpadding="0" cellspacing="0" BORDER="0"
+WIDTH="115" BGCOLOR="#ffffff"> <TR> <TD> <style type="text/css">
+.boxtop { border-bottom: solid white 1px; margin: 2px; color: black; }
+.mdiv { border-top: solid white 1px; padding: 0px; } .mbox{
+font-family: Arial; color: black; font-weight: bold; font-size: 11px;
+border: none; } .mm { display: inline; border: none; cursor: auto;
+padding: 0px; margin: 0px; padding-left: 4px; margin-right: 0px;
+color: black; } .mea { color: black; text-decoration: none; } A.melm {
+padding: 0px; padding-left: 4px; background: #1097C6;
+border: solid #000000 1px; margin-bottom: 1px; display: block;
+height: 14px; color: black; text-decoration: none;
+background: lightBlue; } A.melm:hover { color: blue;
+text-decoration: underline; } A.melm:active { color: black; }
+A.melm:visited { color: black; } A.muelm { display: block;
+color: black; text-decoration: none; } A.muelm:hover {
+background: lightBlue; } A.muelm:visited { color: black; } A.mu2elm {
+display: block; /* width: 112px; */ color: black;
+text-decoration: none; } A.mu2elm:hover { background: lightBlue; }
+.meelm { background: white; display: none; border: solid #cccccc 1px; margin-bottom: 1px; }
+</style> <script language="javascript"> <!--
+    var minimg = new Image();
+    minimg.src = "www.vg.no_files/min2.gif";
+    var pluimg = new Image();
+    pluimg.src = "www.vg.no_files/plu2.gif";
+	var currentId = 0;
+	var mId = 0;
+	var cId = 0;
+
+	var agt=navigator.userAgent.toLowerCase();
+    var is_opera6 = (agt.indexOf("opera 6") != -1 || agt.indexOf("opera/6") != -1); // new 020128- abk
+	var is_opera7 = (agt.indexOf("opera 7") != -1 || agt.indexOf("opera/7") != -1);
+	var opera = is_opera6 || is_opera7;
+
+	if (!is_opera6) document.body.onclick = collapse;
+	try {
+		eval("menWidth");
+		insW = "";
+	}
+	catch (e) {
+	    insW = "width: 111px;";
+	}
+	if (document.all && !opera) {
+	   document.write("<style type=text/css> .me2 { " + insW + "padding-left: 3px; }</style>");
+        }
+      else if (!opera) {
+	  document.write("<style type=text/css> .me2 { width: 106px; padding-left: 3px; }</style>");
+      }
+      else {
+	  document.write("<style type=text/css> .me2 { width: 111px; padding-left: 3px; }</style>");
+      }
+
+
+	function absInit() {
+		if (location.href.indexOf("www.vg.no/") == location.href.length - 10 && !opera) {
+			document.getElementById("m243").onclick=function () {this.onclick=this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/');}
+			document.getElementById("m243").innerHTML = 'Sett som startside';
+			document.getElementById("m243").href = "http://go.vg.no/cgi-bin/go.cgi/sstart/http://www.vg.no/";
+
+
+		}
+		if (opera) {
+			document.write("<style type=text/css> .m { position: relative; }</style>");
+
+		}
+		else {
+			document.write("<style type=text/css> .m { position: absolute; }</style>");
+		}
+	}
+	function init(id) {
+		opera = true;
+		absInit();
+		if (!document.getElementById("mmm" + id)) return;
+		document.getElementById("mmm" + id).style.position = 'relative';
+		mclick(id);
+		currentId = 0;
+	}
+    function collapse() {
+		if (cId != 0 && document.getElementById("mmm" + cId).style.position.indexOf('relative') == -1) {
+			document.getElementById("mmm" + cId).style.display = 'none';
+			document.getElementById("mm" + cId).src = pluimg.src;
+		}
+	}
+	function mclick(id) {
+
+
+
+		currentId = id;
+		cId = 0;
+		var mmId = document.getElementById("mm" + id);
+		var mmmId = document.getElementById("mmm" + id);
+		var mmMId = document.getElementById("mm" + mId);
+		var mmmMId = document.getElementById("mmm" + mId);
+		// Hvis "false" er nettleser for gammel til dhtml
+/*
+		if (!document.getElementById("menyen").style.display) {
+			currentId = -id;
+			mgo(id);
+		}
+*/
+                if (is_opera6) return false;
+
+		if (mmmId.style.display == 'block') {
+			if (!opera) mmmMId.style.position = 'absolute';
+			mmmMId.style.display = 'none';
+			mmId.src = pluimg.src;
+			mId = 0;
+		}
+		else {
+			if (mId != 0) {
+				mmmMId.style.display = 'none';
+				if (!opera) mmmMId.style.position = 'absolute';
+				mmMId.src = pluimg.src;
+			}
+			mmmId.style.display = 'block';
+			mmId.src = minimg.src;
+
+			if (!opera && parseInt(mmmId.offsetHeight) > 300) {
+				mmmId.style.height = "300px";
+				mmmId.style.overflow = "auto";
+			}
+			mId = id;
+		}
+		setTimeout("if (mId != 0) cId = mId", 500);
+		return false;
+	}
+	function mgo(id) {
+		var retval = (id == currentId ? false : true);
+		if (id==243 && location.href.indexOf("www.vg.no/") == location.href.length - 10) {
+			m = eval("m" + id);
+			m.style.behavior='url(#default#homepage)';
+			m.setHomePage('http://www.vg.no/');
+			currentId = 0;
+			location.href = 'http://go.vg.no/cgi-bin/go.cgi/start/http://www.vg.no/';
+			return false;
+		}
+		if (id!=currentId) location.href = "http://go.vg.no/cgi-bin/jumper.pl?id=" + id;
+		else currentId = 0;
+		return retval;
+	}
+ //-->
+</script> <style type="text/css" media="display"> #menyen {
+display: block !important; } </style> <style type="text/css" media="handheld">
+#menyen { display: none !important; } </style> <div CLASS="mdiv" id="menyen"
+style="display: block; padding-right: 3px;"> <A HREF="javascript:void(window.open('http://www.vg.no/tips/?til=2200@vg.no&r=f', 'popup', 'width=450,height=580,scrollbars=no'));"><IMG
+SRC="www.vg.no_files/tipsvg00.png" WIDTH="112" HEIGHT="22"
+BORDER="0" ALT="" style="margin-bottom: 3px;"></A> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/" id="m243" style="background: #444444; border: solid #000000 1px; border-left: solid #000000 2px; color: #ffffff;" CLASS="melm">Forsiden</A>
+</div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/" id="m1" style="background: #1097C6; border: solid #007EAA 1px; border-left: solid #007EAA 2px; color: #ffffff;" CLASS="melm"><IMG
+id="mm1" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(1)" style="border-left: solid #007EAA 1px; background: #007EAA;"
+HEIGHT="14" WIDTH="14">Nyheter</A><div id="mmm1" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/" CLASS="muelm">Siste kl 15:53.</A>
+<A HREF="http://www.vg.no/pub/vgart.hbs?artid=529554">Halvorsen: - SV måtte si ifra</A><BR>
+<BR><!-- Generated by HexBase 2.0.33.6 from HexMac Intl.  #000019 --> <A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/innenriks/" CLASS="muelm">Innenriks</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/utenriks/" CLASS="muelm">Utenriks</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/okonomi/" CLASS="muelm">Økonomi</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/siste-48-timer/" CLASS="muelm">Siste 48 timer</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/side3" CLASS="muelm">Blogg: Side 3</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/arkiv/" CLASS="muelm">Siste syv dager</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/dagens_vg/" CLASS="muelm">Dagens VG</A>
+<A HREF="javascript:void(window.open('http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tips/?til=2200@vg.no', 'popup', 'width=450,height=500,scrollbars=no'));" CLASS="muelm">Tips VG Nett</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/siste-48-timer/" id="m100" style="background: #1097C6; border: solid #007EAA 1px; border-left: solid #007EAA 2px; color: #ffffff;" CLASS="melm"><IMG
+id="mm100" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(100)" style="border-left: solid #007EAA 1px; background: #007EAA;"
+HEIGHT="14" WIDTH="14">Siste 48 timer</A><div id="mmm100" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/siste-48-timer/" CLASS="muelm"></A>
+15:53: <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529554">Halvorsen: - SV måtte si ifra</A><BR>
+15:53: <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529559">Curbishley ferdig i West Ham</A><BR>
+15:47: <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529552">- De begynte å legge folk i plastposer</A><BR>
+15:40: <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529557">- 25 må gå i NRK</A><BR>
+15:35: <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529556">Pelé: - Robinho trenger seriøs rådgiving</A><BR>
+<!-- Generated by HexBase 2.0.33.6 from HexMac Intl.  #000019 --> </div>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/nyheter/utenriks/presidentvalg-2008/" id="m1294" style="background: #1097C6; border: solid #007EAA 1px; border-left: solid #007EAA 2px; color: #ffffff;" CLASS="melm">USA-valget NY!</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.pent.no" id="m199" style="background: #1097C6; border: solid #007EAA 1px; border-left: solid #007EAA 2px; color: #ffffff;" CLASS="melm"><IMG
+id="mm199" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(199)" style="border-left: solid #007EAA 1px; background: #007EAA;"
+HEIGHT="14" WIDTH="14">Været</A><div id="mmm199" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://full.storm.no/vgnett/Europa.aspx" CLASS="muelm">Tredagersvarsel</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/video/" id="m1160" style="background: #1097C6; border: solid #007EAA 1px; border-left: solid #007EAA 2px; color: #ffffff;" CLASS="melm">VGTV</A>
+</div> <IMG SRC="www.vg.no_files/n0000000.gif" HEIGHT="8" WIDTH="60"><BR>
+<div> <script type="text/javascript"> OAS_AD('x03'); </script> </div> <div
+CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.e24.no/#VG" id="m1198" style="background: #000000; border: solid #000000 1px; border-left: solid #000000 2px; color: #ffffff;" CLASS="melm">E24 Næringsliv</A>
+</div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/ol/2008" id="m1311" style="background: #AED7AE; border: solid #7BB87B 1px; border-left: solid #7BB87B 2px; color: #000000;" CLASS="melm">OL i Beijing NY!</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/" id="m7" style="background: #AED7AE; border: solid #7BB87B 1px; border-left: solid #7BB87B 2px; color: #000000;" CLASS="melm"><IMG
+id="mm7" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(7)" style="border-left: solid #7BB87B 1px; background: #7BB87B;"
+HEIGHT="14" WIDTH="14">Sport</A><div id="mmm7" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/" CLASS="muelm">Siste kl. 15:53.</A>
+<A HREF="http://www.vg.no/pub/vgart.hbs?artid=529559">Curbishley ferdig i West Ham</A><BR>
+<BR><!-- Generated by HexBase 2.0.33.6 from HexMac Intl.  #000019 --> <A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/ol/2008" CLASS="muelm">OL i Beijing</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/" CLASS="muelm">Fotball</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://live.vg.no/" CLASS="muelm">Live</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/live/betradar.php" CLASS="muelm">Målvarsel</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/spill/" CLASS="muelm">Tipperes.</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://trav.vg.no" CLASS="muelm">Trav</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/ishockey/" CLASS="muelm">Ishockey</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/haandball/" CLASS="muelm">Håndball</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/ski/" CLASS="muelm">Ski</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/skoyter/" CLASS="muelm">Skøyter</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/snowboard/" CLASS="muelm">Snowboard</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/friidrett/" CLASS="muelm">Friidrett</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/golf/" CLASS="muelm">Golf</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/motor/" CLASS="muelm">Motor</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/sykkel/" CLASS="muelm">Sykkel</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/tennis/" CLASS="muelm">Tennis</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.gameandgain.com/games/freekick/vg2006/" CLASS="muelm">Frisparkspillet</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/nettspill/?spillOp=searchSpill&search_sjanger_id=78&sjanger_navn=Sport" CLASS="muelm">Spill på nett!</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/pekere/diverse.hbs" CLASS="muelm">Linker</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/pekere/mesterskap.hbs" CLASS="muelm">Mesterskap</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/6339" CLASS="muelm">Henning Solbergs blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/17968/" CLASS="muelm">Hoppbloggen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/2273" CLASS="muelm">Henrik Bjørnstads blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/16318" CLASS="muelm">Alio Gaups blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/14617" CLASS="muelm">Pål A. Ullevålseters blogg</A>
+<A HREF="javascript:void(window.open('http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tips/?til=2200@vg.no', 'popup', 'width=450,height=500,scrollbars=no'));" CLASS="muelm">Tips VG Nett</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/" id="m16" style="background: #AED7AE; border: solid #7BB87B 1px; border-left: solid #7BB87B 2px; color: #000000;" CLASS="melm"><IMG
+id="mm16" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(16)" style="border-left: solid #7BB87B 1px; background: #7BB87B;"
+HEIGHT="14" WIDTH="14">Fotball</A><div id="mmm16" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://live.vg.no/" CLASS="muelm">Live</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/live/betradar.php" CLASS="muelm">Målvarsel</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/norsk/eliteguiden/" CLASS="muelm">Eliteguiden</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/31232" CLASS="muelm">Før avspark bloggen NY!</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/norsk/landslaget/" CLASS="muelm">Landslaget</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/norsk/1div/" CLASS="muelm">1. divisjon</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/norsk/cupen/" CLASS="muelm">Cupen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/fotball/kvinner/" CLASS="muelm">Kvinner</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/tabkonk/tk/?sesong_id=475923" CLASS="muelm">Tabkonk elite</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/tabkonk/tk/?sesong_id=423" CLASS="muelm">Tabkonk 1.div</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/engelsk/ligaguiden/" CLASS="muelm">Premier League</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://atvs.vg.no/player/?category_id=11" CLASS="muelm">Kick Off</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/index.hbs?liga=england1div" CLASS="muelm">Championship...</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/tabkonk/tk/?sesong_id=443" CLASS="muelm">Tabkonk engelsk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/fotball/cl/07/" CLASS="muelm">Champions League</A>
+<A HREF="http://www.vg.no/-1" CLASS="muelm"></A> <A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/sport/fotball/uefa/" CLASS="muelm">UEFA-cupen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/?liga=danmark" CLASS="muelm">Dansk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/?liga=frankrike" CLASS="muelm">Fransk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/?liga=italia" CLASS="muelm">Italiensk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/tabkonk/tk?sesong_id=445" CLASS="muelm">Tabkonk Italia</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/?liga=spania" CLASS="muelm">Spansk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://sport.vg.no/tabkonk/tk?sesong_id=444" CLASS="muelm">Tabkonk Spania</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/?liga=sverige" CLASS="muelm">Svensk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/fotball/ligaer/?liga=tyskland" CLASS="muelm">Tysk</A>
+<A HREF="javascript:void(window.open('http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/mobil/wap/ota/?case=fotball', 'fotball','top=20,left=20,width=525,height=460,scrollbars=yes,resizable=yes'))" CLASS="muelm">Fotball på mobilen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/spill/index.hbs?spill=langoddsen" CLASS="muelm">Tipperes.</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/nettspill/?spillOp=searchSpill&search_sjanger_id=78&sjanger_navn=Sport" CLASS="muelm">Spill på nett!</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=116&Group=Fotball%20-%20Premier%20League" CLASS="muelm">Diskutér</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/pekere/fotball.hbs" CLASS="muelm">Linker</A>
+<A HREF="javascript:void(window.open('http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tips/?til=2200@vg.no', 'popup', 'width=450,height=500,scrollbars=no'));" CLASS="muelm">Tips VG Nett</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/search.php?P=sport&search=k" id="m1244" style="background: #AED7AE; border: solid #7BB87B 1px; border-left: solid #7BB87B 2px; color: #000000;" CLASS="melm"><IMG
+id="mm1244" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(1244)" style="border-left: solid #7BB87B 1px; background: #7BB87B;"
+HEIGHT="14" WIDTH="14">Sportsblogger</A><div id="mmm1244" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/25321" CLASS="muelm">Kurt Asle Arvesens blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/17968/" CLASS="muelm">Hoppbloggen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/6339" CLASS="muelm">Henning Solbergs blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/16318" CLASS="muelm">Ailo Gaups blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/2273" CLASS="muelm">Henrik Bjørnstads blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/15528" CLASS="muelm">Marius Thorps blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/2491" CLASS="muelm">Suzann Pettersens blogg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/14617" CLASS="muelm">Pål A. Ullevålseters blogg</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://trav.vg.no" id="m1261" style="background: #AED7AE; border: solid #7BB87B 1px; border-left: solid #7BB87B 2px; color: #000000;" CLASS="melm">Hestespill</A>
+</div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/" id="m35" style="background: #FFD79A; border: solid #EEB156 1px; border-left: solid #EEB156 2px; color: #000000;" CLASS="melm"><IMG
+id="mm35" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(35)" style="border-left: solid #EEB156 1px; background: #EEB156;"
+HEIGHT="14" WIDTH="14">Rampelys</A><div id="mmm35" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/" CLASS="muelm">Siste kl. 15:40.</A>
+<A HREF="http://www.vg.no/pub/vgart.hbs?artid=529557">- 25 må gå i NRK</A><BR>
+<BR><!-- Generated by HexBase 2.0.33.6 from HexMac Intl.  #000019 --> <A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/bok" CLASS="muelm">Bøker</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/bok/anmeldelser/" CLASS="mu2elm">&middot; Anmeldelser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=135&Group=B%C3%B8ker" CLASS="mu2elm">&middot; Diskusjon</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/musikk/" CLASS="muelm">Musikk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lista.vg.no/" CLASS="mu2elm">&middot; VG-lista</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/festivalsommeren/" CLASS="mu2elm">&middot; Festivalsommeren</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/musikk/anmeldelser" CLASS="mu2elm">&middot; Anmeldelser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=138&Group=Musikk" CLASS="mu2elm">&middot; Diskusjon</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?nav_channelcategories=sgenericn8avigator&q=&c=t&sgeneric8nav=Musikk" CLASS="mu2elm">&middot; Musikk på TV</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lista.vg.no/show_list.php?ListsOp=showWeek" CLASS="muelm">VG-lista</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/tv/" CLASS="muelm">TV</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/spesial.php?id=958" CLASS="muelm">Bevegelser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/rampelys/et-rikere-norge" CLASS="muelm">Et rikere Norge</A>
+<A HREF="javascript:void(window.open('http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tips/?til=2200@vg.no', 'popup', 'width=450,height=500,scrollbars=no'));" CLASS="muelm">Tips VG Nett</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/radio" id="m1141" style="background: #FFD79A; border: solid #EEB156 1px; border-left: solid #EEB156 2px; color: #000000;" CLASS="melm">VG Radio</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lista.vg.no/" id="m80" style="background: #FFD79A; border: solid #EEB156 1px; border-left: solid #EEB156 2px; color: #000000;" CLASS="melm"><IMG
+id="mm80" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(80)" style="border-left: solid #EEB156 1px; background: #EEB156;"
+HEIGHT="14" WIDTH="14">VG-lista</A><div id="mmm80" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/musikk" CLASS="muelm">Musikk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lista.vg.no/show_list.php?ListsOp=showWeek" CLASS="muelm">Topp 20</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lista.vg.no/show_list.php?ListsOp=showWeek&listID=2" CLASS="muelm">Topp 40</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lista.vg.no/show_list.php?ListsOp=showWeek&listID=15" CLASS="muelm">Topp 30 Norsk</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/musikk/anmeldelser" CLASS="muelm">Anmeldelser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/musikk/helt-stein" CLASS="muelm">Helt Stein</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/musikk" id="m1076" style="background: #FFD79A; border: solid #EEB156 1px; border-left: solid #EEB156 2px; color: #000000;" CLASS="melm">Musikk</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film" id="m39" style="background: #FFD79A; border: solid #EEB156 1px; border-left: solid #EEB156 2px; color: #000000;" CLASS="melm"><IMG
+id="mm39" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(39)" style="border-left: solid #EEB156 1px; background: #EEB156;"
+HEIGHT="14" WIDTH="14">Film</A><div id="mmm39" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/anmeldelser.php" CLASS="muelm">Anmeldelser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/trailere.php" CLASS="muelm">Trailere</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/bilder.php" CLASS="muelm">Bilder</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/topp-10-kino.php" CLASS="muelm">Topp 10 kino</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/kommer-kino.php" CLASS="muelm">Kommer på kino</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/topp-20-dvd-utleie.php" CLASS="muelm">Topp 20 utleie</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/topp-10-dvd-salg.php" CLASS="muelm">Topp 10 salg</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/film/kommer-dvd.php" CLASS="muelm">Kommer på dvd</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=136&Group=Film" CLASS="muelm">Diskusjon</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/tvguiden/" id="m50" style="background: #FFD79A; border: solid #EEB156 1px; border-left: solid #EEB156 2px; color: #000000;" CLASS="melm"><IMG
+id="mm50" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(50)" style="border-left: solid #EEB156 1px; background: #EEB156;"
+HEIGHT="14" WIDTH="14">TV-guide</A><div id="mmm50" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?nav_channels=sgenericn5avigator&q=&c=t&sgeneric5nav=nrktv1&userSortBy=channel&allChannels=true" CLASS="muelm">NRK1</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?nav_channels=sgenericn5avigator&q=&c=t&sgeneric5nav=nrktv2&userSortBy=channel&allChannels=true" CLASS="muelm">NRK2</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?nav_channels=sgenericn5avigator&q=&c=t&sgeneric5nav=tv2&userSortBy=channel&allChannels=true" CLASS="muelm">TV 2</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?nav_channels=sgenericn5avigator&q=&c=t&sgeneric5nav=tvn&userSortBy=channel&nav_channelcategories=sgenericn8avigator&sgeneric8nav=Norske&allChannels=true" CLASS="muelm">TVNorge</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?nav_channels=sgenericn5avigator&q=&c=t&sgeneric5nav=tv3&userSortBy=channel&nav_channelcategories=sgenericn8avigator&sgeneric8nav=Norske&allChannels=true" CLASS="muelm">TV3</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/tvguiden/kanal_hel_uke.php?kan=865" CLASS="muelm">ZTV</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.sesam.no/search/?c=t&q=&allChannels=true" CLASS="muelm">+ 71 andre kanaler</A>
+</div> </div> <IMG SRC="www.vg.no_files/n0000000.gif" HEIGHT="8"
+WIDTH="60"><BR> <div> <script type="text/javascript"> OAS_AD('x04'); </script>
+</div><div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.nettby.no/" id="m1220" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm">Nettby.no</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/lesernesvg/" id="m1157" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm">Lesernes VG</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.snutter.no/" id="m1270" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm">Snutter.no</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://lister.vg.no" id="m1251" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm">Listefeber</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/" id="m1159" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm1159" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(1159)" style="border-left: solid #88BF3D 1px; background: #88BF3D;"
+HEIGHT="14" WIDTH="14">Blogg</A><div id="mmm1159" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no" CLASS="muelm">Lesernes blogger</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/8003/" CLASS="muelm">Teknoisme</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/7915" CLASS="muelm">Knut Jørgens univers</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://blog.vg.no/3" CLASS="muelm">Spillbloggen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://blog.vg.no/6" CLASS="muelm">Side 3</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/" id="m54" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm54" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(54)" style="border-left: solid #88BF3D 1px; background: #88BF3D;"
+HEIGHT="14" WIDTH="14">Tett på nett</A><div id="mmm54" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://tpn.vg.no/" CLASS="muelm">2004</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/index03_01.hbs" CLASS="muelm">Arkiv 2003</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/index02_01.hbs" CLASS="muelm">Arkiv 2002</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/index01_01.hbs" CLASS="muelm">Arkiv 2001</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/index00_01.hbs" CLASS="muelm">Arkiv 2000</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/index99_01.hbs" CLASS="muelm">Arkiv 1999</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/index98_01.hbs" CLASS="muelm">Arkiv 1998</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/html/index97.html" CLASS="muelm">Arkiv 1997</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/tett_paa_nett/html/9596.html" CLASS="muelm">Arkiv 1995/1996</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no" id="m55" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm55" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(55)" style="border-left: solid #88BF3D 1px; background: #88BF3D;"
+HEIGHT="14" WIDTH="14">Diskutér</A><div id="mmm55" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/debatt/" CLASS="muelm">7273 nye innlegg siste døgn</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/reisebrev" id="m1158" style="background: #BEDD94; border: solid #88BF3D 1px; border-left: solid #88BF3D 2px; color: #000000;" CLASS="melm">Reisebrev</A>
+</div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/" id="m1173" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm1173" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(1173)" style="border-left: solid #F4CC3D 1px; background: #F4CC3D;"
+HEIGHT="14" WIDTH="14">DINE PENGER</A><div id="mmm1173" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/bank/" CLASS="muelm">Bank</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/bil/" CLASS="muelm">Bil</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/bolig/" CLASS="muelm">Bolig</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/eget-firma/" CLASS="muelm">Eget firma</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/forsikring/" CLASS="muelm">Forsikring</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/jobb-og-pensjon/" CLASS="muelm">Jobb og pensjon</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/lov-og-rett/" CLASS="muelm">Lov og rett</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/laan/" CLASS="muelm">Lån</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/skatt/" CLASS="muelm">Skatt</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/sparing-og-fond/" CLASS="muelm">Sparing og fond</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/smarte-penger/" CLASS="muelm">Smarte penger</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/student/" CLASS="muelm">Student</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/sporsmal-og-svar/" CLASS="muelm">Spørsmål og svar</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/teknologi" id="m1232" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm1232" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(1232)" style="border-left: solid #F4CC3D 1px; background: #F4CC3D;"
+HEIGHT="14" WIDTH="14">Teknologi</A><div id="mmm1232" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/teknologi/spesial.php?id=1706" CLASS="muelm">Data og nett</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/teknologi/spesial.php?id=1704" CLASS="muelm">Mobil og tele</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/teknologi/spesial.php?id=1705" CLASS="muelm">Lyd og bilde</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/teknologi/spesial.php?id=1707" CLASS="muelm">Foto og video</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgb.no/8003/" CLASS="muelm">Blogg: Teknoisme</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/dilbert/" CLASS="muelm">Dilbert</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=124&Group=Data%20og%20Internett" CLASS="muelm">Diskuter data</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=171&Group=Mobil%20og%20PDA" CLASS="muelm">Diskuter mobil</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=165&Group=Foto%2C%20Video%2C%20Hifi%2C%20DVD%20m.m." CLASS="muelm">Diskuter lyd</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse" id="m51" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm51" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(51)" style="border-left: solid #F4CC3D 1px; background: #F4CC3D;"
+HEIGHT="14" WIDTH="14">Helse</A><div id="mmm51" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse/pollen-varsel" CLASS="muelm">Pollenvarsel</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse/spesial.php?id=841" CLASS="muelm">Treningstips</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse/spesial.php?id=178" CLASS="muelm">Helse og medisin</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse/spesial.php?id=842" CLASS="muelm">Slanking</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse/spesial.php?id=843" CLASS="muelm">Kosthold</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/helse/spesial.php?id=413" CLASS="muelm">Sex og samliv</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=145&Group=Helse" CLASS="muelm">Diskutér</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/vektklubb" CLASS="muelm">Vektklubbartikler</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vektklubb.no/" id="m1143" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm">Vektklubb.no</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/" id="m52" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm52" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(52)" style="border-left: solid #F4CC3D 1px; background: #F4CC3D;"
+HEIGHT="14" WIDTH="14">Reise</A><div id="mmm52" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=139&Group=Reisetips" CLASS="muelm">Diskutér</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/reisebrev" CLASS="muelm">Reisebrev</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/#valutakalk" CLASS="muelm">Valutakalkulator</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/" CLASS="muelm">Reiseforsiden</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/afrika/" CLASS="mu2elm">&middot; Afrika</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/asia/" CLASS="mu2elm">&middot; Asia</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/australia-og-oceania/" CLASS="mu2elm">&middot; Australia</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/europa/" CLASS="mu2elm">&middot; Europa</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/midtosten/" CLASS="mu2elm">&middot; Midtøsten</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/nord-og-mellom-amerika/" CLASS="mu2elm">&middot; Nord-amerika</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/polene/" CLASS="mu2elm">&middot; Polene</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/reise/sor-amerika/" CLASS="mu2elm">&middot; Sør-Amerika</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/matogdrikke/" id="m60" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm60" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(60)" style="border-left: solid #F4CC3D 1px; background: #F4CC3D;"
+HEIGHT="14" WIDTH="14">Mat og drikke</A><div id="mmm60" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/vinguiden/" CLASS="muelm">Vinguiden</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/matogdrikke/matguiden/" CLASS="muelm">Oppskrifter</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/matogdrikke/sjuve/" CLASS="muelm">Sjuves kjøkken</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/restaurantguiden/" CLASS="muelm">Restauranter</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=137&Group=Mat%20og%20drikke" CLASS="muelm">Diskutér</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/bil-og-motor/" id="m65" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm"><IMG
+id="mm65" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(65)" style="border-left: solid #F4CC3D 1px; background: #F4CC3D;"
+HEIGHT="14" WIDTH="14">Bil og motor</A><div id="mmm65" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/bil-og-motor/veimeldinger" CLASS="muelm">Trafikkmeldinger</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/bil-og-motor/spesial.php?id=1084" CLASS="muelm">Båt</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/bil-og-motor/havneguiden/" CLASS="muelm">Havneguiden</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=140&Group=Bil" CLASS="muelm">Diskutér bil</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=143&Group=Motorsykkel" CLASS="muelm">Diskutér motorsykkel</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/dinepenger/bolig/" id="m302" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm">Bolig</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/prisguide/" id="m1138" style="background: #FBEBB4; border: solid #F4CC3D 1px; border-left: solid #F4CC3D 2px; color: #000000;" CLASS="melm">Prisguide</A>
+</div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/spill/" id="m252" style="background: #BADDEA; border: solid #82B7CA 1px; border-left: solid #82B7CA 2px; color: #000000;" CLASS="melm"><IMG
+id="mm252" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(252)" style="border-left: solid #82B7CA 1px; background: #82B7CA;"
+HEIGHT="14" WIDTH="14">Spill</A><div id="mmm252" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://blog.vg.no/3" CLASS="muelm">Blog: Spill</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://blog.vg.no/1" CLASS="muelm">Blog: Dingser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/spill/spesial.php?id=546" CLASS="muelm">Anmeldelser</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/spillarkaden/" CLASS="muelm">Spillarkaden</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/nettspill/" CLASS="muelm">Gratis nettspill</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/spill/sudoku.hbs" CLASS="muelm">Sudoku</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.transact.no/Thread.asp?GroupID=178&Group=Dataspill" CLASS="muelm">Diskutér</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://go.vg.no/cgi-bin/front.cgi/meny/http://vg.soip.no/SoIP/" id="m1258" style="background: #BADDEA; border: solid #82B7CA 1px; border-left: solid #82B7CA 2px; color: #000000;" CLASS="melm">Toppspill</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/spillarkaden" id="m1278" style="background: #BADDEA; border: solid #82B7CA 1px; border-left: solid #82B7CA 2px; color: #000000;" CLASS="melm">Spillarkaden</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vg.games.is/" id="m1105" style="background: #BADDEA; border: solid #82B7CA 1px; border-left: solid #82B7CA 2px; color: #000000;" CLASS="melm">Spill spill!</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/lydbilder" id="m1298" style="background: #BADDEA; border: solid #82B7CA 1px; border-left: solid #82B7CA 2px; color: #000000;" CLASS="melm">Lydbilder NY!</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www1.vg.no/bildespesial/show/spesial.php" id="m1028" style="background: #BADDEA; border: solid #82B7CA 1px; border-left: solid #82B7CA 2px; color: #000000;" CLASS="melm"><IMG
+id="mm1028" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(1028)" style="border-left: solid #82B7CA 1px; background: #82B7CA;"
+HEIGHT="14" WIDTH="14">Bildespesialer</A><div id="mmm1028" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/video/" CLASS="muelm">VG TV</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/foto/panorama/" CLASS="muelm">Panorama</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://foto.vg.no/" CLASS="muelm">Fotoalbum</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://foto.vg.no/dagens_digitale.php" CLASS="muelm">Dagens leserbilde</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://foto.vg.no/public_albums.php" CLASS="muelm">Lesernes fotoalbum</A>
+</div> </div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/" id="m57" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm"><IMG
+id="mm57" SRC="www.vg.no_files/plu20000.gif" ALIGN="right" CLASS="mm mp"
+onclick="return mclick(57)" style="border-left: solid #DB7272 1px; background: #DB7272;"
+HEIGHT="14" WIDTH="14">Mobil</A><div id="mmm57" CLASS="meelm m me2"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/" CLASS="muelm">SMS</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/?page=ringtones" CLASS="mu2elm">&middot; Ringetoner</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/?page=funtones" CLASS="mu2elm">&middot; Funtones</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/?page=games" CLASS="mu2elm">&middot; Mobilspill</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/?page=animations" CLASS="mu2elm">&middot; Animasjoner</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/?page=wallpapers" CLASS="mu2elm">&middot; Bilder</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vgmobil.inpoc.no/?page=lurofonen" CLASS="mu2elm">&middot; Lurofonen</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/mobil/wap/" CLASS="muelm">WAP og PDA</A>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://foto.vg.no/vg_sms_galleri.php" CLASS="muelm">Lesernes SMS</A>
+</div> </div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://go.vg.no/cgi-bin/go.cgi/moteplassen/http://rms.admeta.com/public/transfer.asp?sitebanner_id=548658" id="m1071" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm">Møteplassen</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgpass.no" id="m1213" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm">VG Pass</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vgpass.no" id="m1216" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm">Gratis SMS</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.grenseguiden.no" id="m1275" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm">Grenseguiden</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/jobbnytt/" id="m1130" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm">Finn en jobb</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://foto.vg.no/" id="m107" style="background: #FEBABA; border: solid #DB7272 1px; border-left: solid #DB7272 2px; color: #000000;" CLASS="melm">Fotoalbum</A>
+</div> <div CLASS="boxtop"></div><div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://interaktiv.vg.no/restaurantguiden/" id="m1033" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Restaurantguiden</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/sport/spill/" id="m176" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Tipperesultater</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/mortenm/" id="m248" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Morten M.</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/dilbert/" id="m75" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Dilbert</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://www.vg.no/jobbeivg/" id="m1034" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Jobb i VG</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://vginfo.vg.no/" id="m1077" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Info om VG</A>
+</div> <div CLASS="mbox"><A HREF="http://go.vg.no/cgi-bin/go.cgi/meny/http://annonseinfo.vg.no/" id="m1081" style="background: #C6D6DE; border: solid #94ACB8 1px; border-left: solid #94ACB8 2px; color: #000000;" CLASS="melm">Annonseinfo</A>
+</div></div> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="5" WIDTH="5" ALT=""><BR> <IMG
+SRC="www.vg.no_files/n0000000.gif" HEIGHT="8" WIDTH="60"><BR> <div> <script
+type="text/javascript"> OAS_AD('x05'); </script> </div><script language="javascript"
+type="text/javascript">absInit();</script> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="5"
+WIDTH="5" ALT=""><BR> <TABLE WIDTH="100%" cellpadding="0" cellspacing="0"
+BORDER="0"> <TR VALIGN="top"> <TD colspan="2" style="font-family: Arial; font-size:10px;">
+<IMG style="border: none; margin: 0px 4px -5px 0px;" SRC="www.vg.no_files/feed-ico.gif">
+<A HREF="http://www1.vg.no/rss/podcast_links.php" style="color:black;">PODKAST</A> |
+<A HREF="http://www1.vg.no/rss/" style="color:black;">RSS</A> </TD> </TR>
+<TR VALIGN="top"> <TD ALIGN="right"></TD> <TD style="font-family: Arial; font-size:10px;"></TD>
+</TR> </TABLE> <IMG SRC="www.vg.no_files/h0000000.gif" WIDTH="114" HEIGHT="5"><BR> <div style="position: absolute; width: 115px;">
+<IMG SRC="www.vg.no_files/h0000000.gif" WIDTH="114" HEIGHT="5"><BR> <div style="width: 114px; font-family: Arial; font-size: 10px;">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/mm/http://www.vg.no/mortenm/"><IMG
+SRC="www.vg.no_files/299f0a19.jpg" WIDTH="114" HEIGHT="172"
+BORDER="0"></A> <div style="text-align: center; font-family: Arial; font-size: 9px;">(Klikk for stor versjon)</div>
+</div> <p> <A HREF="http://go.vg.no/cgi-bin/go.cgi/frontdilbert/http://www.vg.no/dilbert/" style="color: red; font-size: 11px;"><IMG
+SRC="www.vg.no_files/dilbert-2008-09-03.gif" WIDTH="" HEIGHT=""
+BORDER="0"></A><div style="text-align: center; font-family: Arial; font-size: 9px;">(Klikk for hele stripen)</div>
+<BR> <BR> <div style="text-align: center;"><IMG SRC="www.vg.no_files/n0000000.gif"
+WIDTH="60" HEIGHT="8"></div> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="1"><BR>
+<TABLE WIDTH="114" HEIGHT="120" BORDER="0" cellpadding="0" cellspacing="0">
+<TR> <TD><IMG SRC="www.vg.no_files/vgboks_f.gif" WIDTH="114"
+HEIGHT="120" BORDER="0" usemap="#Map"></TD> </TR> </TABLE> <map NAME="Map">
+<area shape="rect" coords="1,30,114,46" HREF="http://go.vg.no/cgi-bin/go.cgi/sol/http://www.sol.no/sgo/vg/http://www.sol.no/barn/?partnerid=vg"
+TARGET="_blank"> <area shape="rect" coords="1,102,114,118" HREF="http://go.vg.no/cgi-bin/go.cgi/sol/http://www.sol.no/sgo/vg/http://www.sol.no/helse/sex/?partnerid=vg"
+TARGET="_blank"> <area shape="rect" coords="1,84,114,100" HREF="http://go.vg.no/cgi-bin/go.cgi/sol/http://www.sol.no/sgo/vg/http://www.sol.no/spill/konkurranser/?partnerid=vg"
+TARGET="_blank"> <area shape="rect" coords="1,66,114,82" HREF="http://go.vg.no/cgi-bin/go.cgi/sol/http://www.sol.no/sgo/vg/http://www.sol.no/underholdning/humor/?partnerid=vg"
+TARGET="_blank"> <area shape="rect" coords="2,2,113,28" HREF="http://go.vg.no/cgi-bin/go.cgi/sol/http://www.sol.no/sgo/vg/http://www.sol.no/?partnerid=vg"
+TARGET="_blank"> <area shape="rect" coords="1,48,114,64" HREF="http://go.vg.no/cgi-bin/go.cgi/sol/http://www.sol.no/sgo/vg/http://www.sol.no/data/download/?partnerid=vg"
+TARGET="_blank"> </map> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="5" WIDTH="5" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/dagensvg/http://www.vg.no/dagens_vg/"><IMG
+SRC="www.vg.no_files/kjopavis.gif"
+ALT="kjøp dagens avis!" BORDER="0"></A><BR> <BR><BR> <p> <SCRIPT
+LANGUAGE="JavaScript" type="text/javascript"> <!--
+      //OAS_AD('x06');
+      //-->
+</SCRIPT> <BR> </div> </TD> </TR> </TABLE> </div> <div style="clear:none; float:left;width: 474px;">
+<TABLE cellpadding="0" cellspacing="0" BORDER="0" WIDTH="473"> <TR> <TD
+VALIGN="top"> <TABLE cellpadding="0" cellspacing="0" BORDER="0" WIDTH="473"
+ALIGN="left"> <TR> <TD> <IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="1" HEIGHT="1"> </TD> <TD
+WIDTH="468" HEIGHT="100%" VALIGN="top"> <div id="drfront-mainfront"> <div
+id="front-25" CLASS="drfront"> <div id="front"> <div id="articles"> <div
+id="529554" CLASS="article-extract article-extract-full  row-1 left bg-default img-brd-0">
+<p> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529554"><IMG
+SRC="www.vg.no_files/front-25.jpg"
+style="height: 273px; width: 460px;" CLASS="article-image" ALT="" WIDTH="460"
+HEIGHT="273"></A> </p> <h3 style="font-size: 78px;">- Måtte si ifra </h3>
+<p> <FONT style="font-size: 20px;"><b><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529554" style="font-size: 22px;">STORTINGET (VG Nett) SV uenige i asylvedtak</A></b></FONT>
+</p> <p style="font-size: 31px;"> <IMG SRC="www.vg.no_files/vgtv0000.gif"
+ALT=""> <b><A HREF="http://www.vgtv.no/?id=18313" style="line-height: 39px;">Regner med flere asylsøkere</A></b>
+</p> <p style="font-size: 24px;"> <b>Hva vil regjeringen gjøre? <IMG
+SRC="www.vg.no_files/HBAAA001.gif" ALT=""> <A HREF="http://tpn.vg.no/intervju/index.php?Inr=1638">Få svar kl. 18</A></b></p><p
+style="font-size: 28px;"><span style="font-size: 27px;"><b>Les også: <A HREF="http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529515" style="">Asylpolitikken strammes inn</A></b></span></p>
+<p> <!-- START Avsteminingsboks --> </p> <p>&nbsp;</p> <div style="border: 2px solid black; padding: 0px; background-image: none; background-color: white; width: 460px;">
+<TABLE CLASS="mceVisualAid" BORDER="0" cellpadding="0" cellspacing="0"
+WIDTH="100%"> <tbody> <TR> <TD CLASS="mceVisualAid" rowspan="2" style="width: 29px;"
+BACKGROUND="www.vg.no_files/greymafi.gif" VALIGN="top"
+WIDTH="29"><IMG SRC="www.vg.no_files/quest000.gif" ALT=""
+vspace="0" WIDTH="29" HEIGHT="41" HSPACE="0"></TD> <TD CLASS="mceVisualAid"
+style="border-style: solid; border-color: -moz-use-text-color; border-width: 0px 1px; height: 40px;"
+ALIGN="center"><b>Er det riktig å stramme inn asylpolitikken?</b></TD>
+<TD CLASS="mceVisualAid" rowspan="2" style="width: 27px;" ALIGN="right"
+BACKGROUND="www.vg.no_files/greymafi.gif" VALIGN="top"
+WIDTH="27"><IMG SRC="www.vg.no_files/fliken20.gif" ALT=""></TD>
+</TR> <TR> <TD CLASS="mceVisualAid" style="border-style: solid; border-color: -moz-use-text-color; border-width: 0px 1px 1px;"
+ALIGN="center" BGCOLOR="white"> <input onclick="popupWin = avstboxPop(6750,20965,6659);popupWin.opener.top.name='opener';popupWin.focus();"
+type="radio"> Ja, den bør bli strammere <input onclick="popupWin = avstboxPop(6750,20966,6659);popupWin.opener.top.name='opener';popupWin.focus();"
+type="radio"> Nei, den bør løsnes mer opp <input onclick="popupWin = avstboxPop(6750,20967,6659);popupWin.opener.top.name='opener';popupWin.focus();"
+type="radio"> Jeg er fornøyd med asylpolitikken som den er </TD> </TR>
+</tbody> </TABLE> </div> <!-- SLUTT Avsteminingsboks --> <BR CLASS="clearer">
+</div> <div id="2633463" CLASS="article-extract article-extract-two-thirds  row-2 start-row left bg-default img-brd-1">
+<A HREF="http://e24.no/lov-og-rett/article2633463.ece"> <IMG style="width: 273px; height: 119px;"
+CLASS="article-image" SRC="www.vg.no_files/front-26.jpg"
+ALT="" WIDTH="273" HEIGHT="119"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 36px;">Kona får beholde</span> <span style="font-size: 43px;">millionverdier</span></h3>
+<span style="font-size: 16px;"><strong><A HREF="http://e24.no/lov-og-rett/article2633463.ece" style="font-size: 18px;">Les om Langemyhr-saken på E24</A></strong></span>
+<BR CLASS="clearer"> </div> <div id="529542" CLASS="article-extract article-extract-third  row-2 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529542">
+<IMG SRC="www.vg.no_files/front-27.jpg"
+style="width: 179px; height: 131px;" CLASS="article-image" ALT=""> </A>
+<h3 style="font-size: 21px;"> <FONT style="font-size: 29px;"><span
+style="font-size: 27px;">- Google tjener</span> </FONT>penger på å hente ut <FONT
+style="font-size: 22px;">personopplysninger</FONT></h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529542">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529557" CLASS="article-extract article-extract-two-thirds  row-3 start-row left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/rampelys/artikkel.php?artid=529557">
+<IMG SRC="www.vg.no_files/front-28.jpg"
+style="width: 70px; height: 100px;" CLASS="article-image left" ALT="Foto: Scanpix">
+</A> <h3 style="font-size: 37px;"><FONT style="">- 25 må gå</FONT> i statskanalen<BR
+style=""> </h3> <p> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/rampelys/artikkel.php?artid=529557">NRK må spare 25 millioner kr.</A><BR>
+</p> <BR CLASS="clearer"> </div> <div id="529548" CLASS="article-extract article-extract-third  row-3 right bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529548">
+<IMG style="width: 67px; height: 100px" CLASS="article-image left" SRC="www.vg.no_files/front-29.jpg"
+ALT="Foto: Bjørn S. Delebekk"> </A> <h3 style="font-size: 21px">Solskjær blir ikke United-<span
+style="font-size: 30px">assistent</span></h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529548">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529550" CLASS="article-extract article-extract-two-thirds  row-4 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529550">
+<IMG style="width: 273px; height: 169px;" CLASS="article-image" SRC="www.vg.no_files/front-2A.jpg"
+ALT="" WIDTH="273" HEIGHT="169"> </A> <h3 style="font-size: 25px;">Full snøballkrig...i Kenya </h3>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529550">Les hele saken</A>
+<BR> <BR CLASS="clearer"> </div> <div id="529540" CLASS="article-extract article-extract-third  row-4 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529540">
+<IMG SRC="www.vg.no_files/front-2B.jpg"
+style="width: 179px; height: 133px;" CLASS="article-image" ALT=""> </A>
+<h3 style="font-size: 21px;"><span style="font-size: 31px;">Nerde-rap ble</span>
+<span style="font-size: 33px;">YouTube-hit</span> </h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529540">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div CLASS="clearer article-extract article-extract-full left bg-ad img-brd-0"
+id="advertisement_4"><script language="JavaScript"> <!--
+OAS_AD('Bottom1');
+//-->
+</script> </div> <div id="529549" CLASS="article-extract article-extract-two-thirds  row-5 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529549">
+<IMG SRC="www.vg.no_files/front-2C.jpg"
+style="width: 273px; height: 119px;" CLASS="article-image" ALT="" WIDTH="273"
+HEIGHT="119"> </A> <h3 style="font-size: 21px;"><span style="font-size: 45px;">Fant millioner</span>
+<span style="font-size: 41px;">etter vekterran</span><FONT style="font-size: 70px;"><BR>
+</FONT><FONT style="font-size: 128px;"> </FONT></h3><span style="font-size: 28px;"><b><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529549" style="font-size: 20px;">Les hele saken</A></b></span>
+<BR CLASS="clearer"> </div> <div id="529552" CLASS="article-extract article-extract-third  row-5 left bg-default img-brd-1">
+<h3 style="font-size: 21px;"> <IMG SRC="www.vg.no_files/front-2D.jpg"
+style="width: 179px; height: 119px;" CLASS="article-image" ALT="">    - De begynte å legge<FONT
+style="font-size: 26px;"> folk i plastposer </FONT></h3> <p>
+Norsk turist så «likbåt» legge til havn på Cran Canaria.  </p> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529552">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529515" CLASS="article-extract article-extract-two-thirds  row-6 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529515">
+<IMG style="width: 273px; height: 183px" CLASS="article-image" SRC="www.vg.no_files/front-2E.jpg"
+ALT="" TITLE="Foto: Scanpix" WIDTH="273" HEIGHT="183"> </A> <h3><span
+style="font-size: 39px">Vil stramme inn</span> <span style="font-size: 33px">Norges asylpolitikk</span></h3>
+<p> SV uenig i &aring;tte av punktene. <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529515">Les hele saken</A>
+</p> <p> <!-- START --> </p> <span style="font-size: 16px"><span style="font-size: 22px"><strong>Er dette riktig? <A HREF="http://interaktiv.vg.no/avstemning/?id=6659" onclick="javascript:void(window.open('http://interaktiv.vg.no/avstemning?id=6659', 'popup', 'width=520,height=450,resizable=yes,scrollbars=yes'));return false">Stem her!</A></strong></span><strong><A HREF="http://interaktiv.vg.no/avstemning/?id=6659" onclick="javascript:void(window.open('http://interaktiv.vg.no/avstemning?id=6659', 'popup', 'width=520,height=450,resizable=yes,scrollbars=yes'));return false"><IMG
+SRC="www.vg.no_files/sporsmaa.gif" BORDER="0" ALT=""></A></strong></span>
+<p> <IMG SRC="www.vg.no_files/vgtv0000.gif" ALT=""> <A HREF="http://www.vgtv.no/?id=18313">- Regner med f&aelig;rre s&oslash;kerer </A>
+</p> <BR CLASS="clearer"> </div> <div id="529535" CLASS="article-extract article-extract-third  row-6 left bg-default img-brd-1">
+<h3 style="font-size: 21px"> <A HREF="http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529535"><IMG
+style="width: 179px; height: 73px" CLASS="article-image" SRC="www.vg.no_files/front-2F.jpg"
+ALT="" WIDTH="179" HEIGHT="73"></A> </h3> <h3><span style="font-size: 28px">Frykter brudd</span>
+<span style="font-size: 21px">på FNs anbefalinger</span> </h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529535">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529533" CLASS="article-extract article-extract-third  row-6 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529533">
+<IMG SRC="www.vg.no_files/front-2G.jpg"
+style="width: 179px; height: 63px;" CLASS="article-image" ALT="" TITLE="Foto: Robert Eik">
+</A> <h3 style="font-size: 21px;"><FONT style="font-size: 23px;">Støtte fra Høyre -</FONT>
+<FONT style="font-size: 33px;">slakt fra Frp</FONT></h3><p><b>Samleside: <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/siste48/">Siste 48 timer</A></b>
+<BR></p> <p> <FONT style="font-size: 12px;"><b><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529533" style="font-size: 21px;">Asylinnstrammingen</A></b></FONT>
+</p> <BR CLASS="clearer"> </div> <div id="529538" CLASS="article-extract article-extract-two-thirds  row-7 start-row left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/presidentvalg-2008/artikkel.php?artid=529538">
+<IMG SRC="www.vg.no_files/front-2H.jpg"
+ALT="Foto: " CLASS="article-image right" style="width:65px; height:100px; ">
+</A> <h3 style="font-size: 21px;"><FONT style="font-size: 25px;">Kaller Obama ung</FONT>
+<FONT style="font-size: 41px;">og uerfaren</FONT> </h3> <p> Tidligere visepresidentkandidat... </p>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/presidentvalg-2008/artikkel.php?artid=529538">... for Demokratene - Les saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529556" CLASS="article-extract article-extract-third  row-7 left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529556"><IMG
+SRC="www.vg.no_files/front-2I.jpg"
+CLASS="article-image right" ALT="Foto: Reuters" WIDTH="66" HEIGHT="100"></A><h3
+style="font-size: 21px;"><span style="font-size: 23px;">Pelé mener</span>
+<span style="font-size: 29px;">Robinho</span> <span style="font-size: 20px;">trenger hjelp</span></h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529556">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529510" CLASS="article-extract article-extract-two-thirds  row-8 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/rampelys/artikkel.php?artid=529510">
+<IMG style="width: 273px; height: 112px" CLASS="article-image" SRC="www.vg.no_files/front-2J.jpg"
+ALT=""> </A> <h3><span style="font-size: 22px">TV3 kombinerer luksusliv og</span>
+<span style="font-size: 24px">flaggermuskos i Robinson</span></h3> <p>
+<strong>Samleside:</strong> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/rampelys/">Les flere rampelysnyheter her!</A>
+</p> <span style="font-size: 16px"><strong><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/rampelys/artikkel.php?artid=529510" style="font-size: 19px">I tillegg får deltagerne alkohol...</A></strong></span>
+<BR CLASS="clearer"> </div> <div id="529494" CLASS="article-extract article-extract-third  row-8 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529494">
+<IMG SRC="www.vg.no_files/front-2K.jpg"
+style="width: 179px; height: 110px;" CLASS="article-image" ALT="" WIDTH="179"
+HEIGHT="110"> </A> <h3 style="font-size: 21px;"><span style="font-size: 22px;">Eldre fedre har økt</span>
+<span style="font-size: 22px;">risiko for barn med</span> <FONT style="font-size: 25px;">psykiske lidelser</FONT>
+</h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529494">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div CLASS="clearer article-extract article-extract-full left bg-ad img-brd-0"
+id="advertisement_8"><script language="JavaScript"> <!--
+OAS_AD('Middle1');
+//-->
+</script> </div> <div id="529532" CLASS="article-extract article-extract-two-thirds  row-9 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529532"><IMG
+style="width: 273px; height: 75px;" CLASS="article-image" SRC="www.vg.no_files/front-2L.jpg"
+ALT="" WIDTH="273" HEIGHT="75"></A> <h3 style="font-size: 21px;"><span
+style="font-size: 24px;">Russenter må legge ned til</span> <span style="font-size: 27px;">tross for behandlingskø </span></h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529532">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="2633182" CLASS="article-extract article-extract-third  row-9 left bg-default img-brd-1">
+<A HREF="http://e24.no/makro-og-politikk/article2633182.ece"> <IMG SRC="www.vg.no_files/front-2M.jpg"
+style="width: 179px; height: 59px;" CLASS="article-image right" ALT=" Foto: SCANPIX">
+</A> <h3 style="font-size: 21px;"><FONT style="font-size: 21px;">Norsk milliontap på</FONT> dansk skandalebank</h3><p><b>Flere økonominyheter <A HREF="http://www.e24.no/">her </A></b><BR></p>
+<A HREF="http://e24.no/makro-og-politikk/article2633182.ece">Les saken på E24</A>
+<BR CLASS="clearer"> </div> <div id="529543" CLASS="article-extract article-extract-two-thirds  row-10 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/norsk-politikk/artikkel.php?artid=529543"><IMG
+SRC="www.vg.no_files/front-2N.jpg"
+style="height: 186px; width: 273px;" CLASS="article-image" ALT="" WIDTH="273"
+HEIGHT="186"></A> <h3 style="font-size: 25px;">Skriver bok om livet i UD</h3>
+<p style="font-size: 19px;"> <IMG SRC="www.vg.no_files/vgtv0000.gif"
+ALT=""> <b><A HREF="http://www.vgtv.no/?id=18312">Vil ha folkelig debatt</A></b>
+</p> <b><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/norsk-politikk/artikkel.php?artid=529543">Les hele saken</A></b>
+<BR CLASS="clearer"> </div> <div id="529537" CLASS="article-extract article-extract-third  row-10 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529537">
+<IMG SRC="www.vg.no_files/front-2O.jpg"
+style="width: 179px; height: 178px;" CLASS="article-image" ALT=""> </A>
+<h3 style="font-size: 21px;"><span style="font-size: 28px;">- Ikke trygt for</span>
+<span style="font-size: 26px;">tsjetsjenere her</span> </h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529537">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529531" CLASS="article-extract article-extract-full  row-11 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529531">
+<IMG style="width: 460px; height: 277px" CLASS="article-image" SRC="www.vg.no_files/front-2P.jpg"
+ALT="" TITLE="Foto: Politiet/Stian Eisenträger"> </A> <h3 style="font-size: 21px"><span
+style="font-size: 55px">- Familien hans har</span> <span style="font-size: 71px">mottatt trusler</span></h3>
+<p> <span style="font-size: 18px"><strong>Krigsforbrytertiltalt 42-åring frykter represalier. <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529531">Les saken</A></strong></span>
+</p> <p style="font-size: 21px"> <strong>Bildespesial:</strong><A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6343" TARGET="_blank"><strong>Se politiets bilder fra Dretelj-leiren</strong></A>
+<IMG SRC="www.vg.no_files/bildespe.gif" ALT=""> </p> <BR CLASS="clearer">
+</div> <div CLASS="clearer article-extract article-extract-full left bg-ad img-brd-0"
+id="advertisement_12"><script language="JavaScript"> <!--
+OAS_AD('Bottom2');
+//-->
+</script> </div> <div id="529422" CLASS="article-extract article-extract-two-thirds  row-12 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/pub/vgart.php?artid=529422">
+<IMG SRC="www.vg.no_files/front-2Q.jpg"
+style="width: 80px; height: 100px;" CLASS="article-image right" ALT="Foto: Dine Penger">
+</A> <h3 style="font-size: 21px;"><FONT style="font-size: 40px;">Velg riktig</FONT>
+<FONT style="font-size: 33px;">selskapsform</FONT></h3><p style="font-size: 20px;"><b
+style="">Få hjelp av <IMG style="" SRC="www.vg.no_files/dinepeng.gif"
+ALT=""></b> </p> <A HREF="http://www1.vg.no/pub/vgart.php?artid=529422">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529544" CLASS="article-extract article-extract-third  row-12 left bg-default img-brd-0">
+<h3 style="font-size: 21px;"><span style="font-size: 43px;">Skolebuss</span>
+<span style="font-size: 62px;">tok fyr </span></h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529544">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529503" CLASS="article-extract article-extract-two-thirds  row-13 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/presidentvalg-2008/artikkel.php?artid=529503">
+<IMG style="width: 273px; height: 123px;" CLASS="article-image" SRC="www.vg.no_files/front-2R.jpg"
+ALT="" TITLE="Foto: EPA" WIDTH="273" HEIGHT="123"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 27px;">Gravide Bristol (17) er</span> <span style="font-size: 32px;">USAs nye «snakkis»</span>
+</h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/presidentvalg-2008/artikkel.php?artid=529503">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529519" CLASS="article-extract article-extract-third  row-13 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529519">
+<IMG style="width: 179px; height: 121px;" CLASS="article-image" SRC="www.vg.no_files/front-2S.jpg"
+ALT="" TITLE="Foto: AFP" WIDTH="179" HEIGHT="121"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 21px;">Statsminister utsatt</span> <span style="font-size: 36px;">for attentat</span>
+</h3> <strong><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529519">I Pakistan - Les hele saken</A></strong>
+<BR CLASS="clearer"> </div> <div id="529539" CLASS="article-extract article-extract-two-thirds  row-14 start-row left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/film/artikkel.php?artid=529539">
+<IMG SRC="www.vg.no_files/front-2T.jpg"
+ALT="Foto: AFP" CLASS="article-image right" style="width:66px; height:100px; ">
+</A> <h3 style="font-size: 21px"><span style="font-size: 25px">Langhåret Mickey</span>
+<span style="font-size: 22px">Rourke i vinden igjen</span></h3> <p> Aktuell med «The Wrestler». </p>
+<p> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/film/artikkel.php?artid=529539">Les hele saken</A><BR>
+</p> <BR CLASS="clearer"> </div> <div id="529481" CLASS="article-extract article-extract-third  row-14 left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/bil-og-motor/artikkel.php?artid=529481">
+<IMG SRC="www.vg.no_files/front-25.gif"
+ALT="Foto: " CLASS="article-image right" style="width:80px; height:100px; ">
+</A> <h3 style="font-size: 21px"><span style="font-size: 26px">Verdens</span>
+<span style="font-size: 24px">styggeste</span> biler kåret </h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/bil-og-motor/artikkel.php?artid=529481">Se de her</A><BR>
+<BR CLASS="clearer"> </div> <div CLASS="clearer article-extract article-extract-full left bg-ad img-brd-0"
+id="advertisement_16"><script language="JavaScript"> <!--
+OAS_AD('Middle2');
+//-->
+</script> </div> <div id="529502" CLASS="article-extract article-extract-two-thirds  row-15 start-row left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/musikk/artikkel.php?artid=529502"><IMG
+SRC="www.vg.no_files/front-2U.jpg"
+style="width: 273px; height: 99px;" CLASS="article-image" ALT="" WIDTH="273"
+HEIGHT="99"></A> <h3 style="font-size: 21px;"><FONT style="font-size: 25px;">Her er videoen til sangen</FONT>
+<FONT style="font-size: 31px;">som topper VG-lista</FONT></h3><p style="font-size: 19px;"><b
+style=""><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/musikk/artikkel.php?artid=529502" CLASS="" style="">Metallicas plate lekket på nettet</A></b><BR
+style=""></p> <BR CLASS="clearer"> </div> <div id="2603098" CLASS="article-extract article-extract-third  row-15 left bg-default img-brd-1">
+<A HREF="http://e24.no/makro-og-politikk/article2603098.ece"> <IMG SRC="www.vg.no_files/front-2V.jpg"
+style="width: 179px; height: 80px;" CLASS="article-image right" ALT=" Foto: Borgen, Ã?Æ'Ã+âEUR(TM)Ã?âEUR¹Ã...âEURoern E. "
+WIDTH="179" HEIGHT="80"> </A> <h3 style="font-size: 21px;"><span style="font-size: 32px;">Polakkene vil</span>
+<span style="font-size: 43px;">ikke hjem</span></h3> <A HREF="http://e24.no/makro-og-politikk/article2603098.ece">Les saken på E24</A>
+<BR CLASS="clearer"> </div> <div id="529501" CLASS="article-extract article-extract-two-thirds  row-16 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529501">
+<IMG SRC="www.vg.no_files/front-2W.jpg"
+CLASS="article-image" style="width: 273px; height: 112px;" WIDTH="273"
+HEIGHT="112"> </A> <h3 style="font-size: 27px;">Slik får du høstferie-sol </h3>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529501">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529517" CLASS="article-extract article-extract-third  row-16 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529517">
+<IMG SRC="www.vg.no_files/front-2X.jpg"
+style="width: 179px; height: 90px;" CLASS="article-image" ALT="" WIDTH="179"
+HEIGHT="90"> </A> <h3 style=""><span style="font-size: 21px;">Høstferie på fjellet?</span>
+<span style="font-size: 24px;">Det er mye ledig!</span> </h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529517">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529509" CLASS="article-extract article-extract-two-thirds  row-17 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529509">
+<IMG SRC="www.vg.no_files/front-2Y.jpg"
+style="width: 273px; height: 86px;" CLASS="article-image" ALT="" WIDTH="273"
+HEIGHT="86"> </A> <h3 style="font-size: 24px;">Kontroversiell nettadresse <span
+style="font-size: 30px;">til topps på trendliste</span> </h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529509">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="2632660" CLASS="article-extract article-extract-third  row-17 left bg-default img-brd-1">
+<A HREF="http://e24.no/naeringsliv/article2632660.ece"> <IMG SRC="www.vg.no_files/front-2Z.jpg"
+ALT=" Foto: Holm, Morten " CLASS="article-image top" style="width:179px; height:59px; ">
+</A> <h3 style="font-size: 21px"><span style="font-size: 25px">Mangemillionær</span>
+<span style="font-size: 49px; line-height: 35px">på ett år</span></h3>
+<p style="line-height: 32px"> Komiker Bård Tufte Johansen </p> <A HREF="http://e24.no/naeringsliv/article2632660.ece" style="line-height: 11px">Les saken på E24</A>
+<BR CLASS="clearer"> </div> <div id="529498" CLASS="article-extract article-extract-two-thirds  row-17 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529498">
+<IMG style="width: 273px; height: 98px" CLASS="article-image" SRC="www.vg.no_files/front-30.jpg"
+ALT="" TITLE="Foto: Scanpix"> </A> <h3 style="font-size: 21px"><span
+style="font-size: 30px">- Den verste flommen</span> <span style="font-size: 40px">siden tsunamien</span>
+</h3> <p> Indere ber til oversvømt elv. <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529498">Les hele saken</A>
+</p> <p> Se bildespesial <IMG SRC="www.vg.no_files/bildespe.gif"
+ALT=""><A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6356">Frykter kjempekatastrofe</A>
+</p> <span style="font-size: 16px"><strong><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529498" style="font-size: 25px"></A></strong></span>
+<BR CLASS="clearer"> </div> <div id="529507" CLASS="article-extract article-extract-third  row-17 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529507">
+<IMG SRC="www.vg.no_files/front-31.jpg"
+style="width: 179px; height: 159px;" CLASS="article-image" ALT="" WIDTH="179"
+HEIGHT="159"> </A> <h3 style="font-size: 26px;">Ny iPod på vei?<BR
+style=""></h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529507">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529505" CLASS="article-extract article-extract-two-thirds  row-18 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529505">
+<IMG style="width: 273px; height: 91px;" CLASS="article-image" SRC="www.vg.no_files/front-32.jpg"
+ALT="" TITLE="Foto: EPA" WIDTH="273" HEIGHT="91"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 23px;">Ambassaden: - Situasjonen</span> <span style="font-size: 42px;">er uforutsigbar</span></h3>
+<p> <strong><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529505">Demonstrasjonene fortsetter i Bangkok</A></strong>
+</p> <p style="font-size: 17px;"> <strong>UD: <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529504">- Ikke farlig å reise til Thailand</A></strong>
+</p> <strong><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529505"></A></strong>
+<BR CLASS="clearer"> </div> <div id="529516" CLASS="article-extract article-extract-third  row-18 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529516">
+<IMG style="width: 179px; height: 119px;" CLASS="article-image" SRC="www.vg.no_files/front-33.jpg"
+ALT="" TITLE="Foto: Jan Ovind" WIDTH="179" HEIGHT="119"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 30px;">Kiel-ferge blir</span> <span style="font-size: 29px;">Karibia-cruise</span>
+</h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529516">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div CLASS="clearer article-extract article-extract-full left bg-ad img-brd-0"
+id="advertisement_20"><script language="JavaScript"> <!--
+OAS_AD('Bottom3');
+//-->
+</script> </div> <div id="529511" CLASS="article-extract article-extract-two-thirds  row-19 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529511">
+<IMG SRC="www.vg.no_files/front-34.jpg"
+style="width: 273px; height: 113px;" CLASS="article-image" ALT="" WIDTH="273"
+HEIGHT="113"> </A> <h3 style="font-size: 24px;">Raser på FIFA-rankingen</h3>
+<p> <b>Samleside:</b> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/sport/">Les flere ferske fotballnyheter</A>
+</p> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529511">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529492" CLASS="article-extract article-extract-third  row-19 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/pub/vgart.php?artid=529492">
+<IMG style="width: 179px; height: 96px;" CLASS="article-image" SRC="www.vg.no_files/front-35.jpg"
+ALT="" WIDTH="179" HEIGHT="96"> </A> <h3 style="font-size: 21px;">- Politikerne godtar <span
+style="font-size: 34px;">svart arbeid </span></h3> <IMG SRC="www.vg.no_files/dinepeng.gif"
+ALT=""> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/pub/vgart.php?artid=529492">Les kommentar</A><BR>
+<BR CLASS="clearer"> </div> <div id="529514" CLASS="article-extract article-extract-two-thirds  row-20 start-row left bg-default img-brd-0">
+<h3 style="font-size: 21px;"><span style="font-size: 28px;">Nordmann funnet død</span>
+<span style="font-size: 44px;">i svensk innsjø</span> </h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529514">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="525274" CLASS="article-extract article-extract-third  row-20 left bg-default img-brd-0">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=525274"><IMG
+SRC="www.vg.no_files/front-26.gif"
+CLASS="article-image right" ALT="Foto: " WIDTH="80" HEIGHT="100"></A><h3
+style="font-size: 21px;"><span style="font-size: 22px;">To mulige</span>
+<span style="font-size: 24px;">knallkjøp</span> <span style="font-size: 22px;">fra Rhône</span>
+</h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=525274">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529525" CLASS="article-extract article-extract-two-thirds  row-21 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529525">
+<IMG style="width: 273px; height: 135px;" CLASS="article-image" SRC="www.vg.no_files/front-36.jpg"
+ALT="" TITLE="Foto: Privat" WIDTH="273" HEIGHT="135"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 26px;">Heimdalsdrapet: - Tror</span> <span style="font-size: 34px;">ikke på hevnmotiv</span>
+</h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/innenriks/artikkel.php?artid=529525">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529518" CLASS="article-extract article-extract-third  row-21 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/film/artikkel.php?artid=529518"><IMG
+SRC="www.vg.no_files/front-37.jpg"
+style="height: 151px; width: 179px;" CLASS="article-image" ALT="" TITLE="Foto: AP"
+WIDTH="179" HEIGHT="151"></A> <h3 style="font-size: 21px;"><span style="font-size: 24px;">Usminket Natalie</span>
+<span style="font-size: 22px;">debuterte i Venezia</span></h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/film/artikkel.php?artid=529518">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529368" CLASS="article-extract article-extract-two-thirds  row-22 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529368">
+<IMG style="height: 135px; width: 273px;" SRC="www.vg.no_files/front-38.jpg"
+ALT="" TITLE="Foto: Scanpix" CLASS="article-image" WIDTH="273" HEIGHT="135">
+</A> <h3 style="font-size: 21px;"><span style="font-size: 31px;">Sykehus-Norge gikk</span>
+<span style="font-size: 32px;">på ny milliardsmell </span></h3><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529368">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529482" CLASS="article-extract article-extract-third  row-22 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529482"><IMG
+SRC="www.vg.no_files/front-39.jpg"
+style="height: 134px; width: 179px;" CLASS="article-image" ALT="" TITLE="Foto: EPA"
+WIDTH="179" HEIGHT="134"></A><h3 style="font-size: 21px;"><FONT style="font-size: 30px;">Høydehopper</FONT>
+<FONT style="font-size: 34px;">var stupfull</FONT> </h3> <p style=""><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529482" style="">Les hele saken</A></p>
+<BR CLASS="clearer"> </div> <div id="529480" CLASS="article-extract article-extract-full  row-23 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529480">
+<IMG SRC="www.vg.no_files/front-3A.jpg"
+style="width: 460px; height: 172px;" CLASS="article-image" ALT="" TITLE="Foto: VG/Aftenposten"
+WIDTH="460" HEIGHT="172"> </A> <h3 style="font-size: 21px;"><FONT style="font-size: 81px;">- Nok er nok!</FONT><FONT
+style="font-size: 64px;"> </FONT></h3> <p> <span style="font-size: 23px;"><b>Idrettstopp er kritisk til «Myggen». <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529480" style="">Les saken</A></b></span></p><p
+style="font-size: 24px;"><b>John Arne Riise: <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529431" style="font-size: 25px;">- Har taklet det veldig bra</A></b></p>
+<p style="font-size: 20px;"> <b>Start-kapteinen: <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529421">- Noen ganger tråkker man i salaten</A></b>
+</p> <p style="font-size: 18px;"> <b><IMG SRC="www.vg.no_files/vgtv0000.gif"
+ALT=""> Legende: <A HREF="http://www.vgtv.no/?id=18298">- Det var ikke med glede jeg leste det</A></b>
+</p> <BR CLASS="clearer"> </div> <div id="529491" CLASS="article-extract article-extract-two-thirds  row-24 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/film/artikkel.php?artid=529491">
+<IMG SRC="www.vg.no_files/front-3B.jpg"
+style="width: 273px; height: 154px;" CLASS="article-image" ALT=""> </A>
+<h3 style="font-size: 21px;"><span style="font-size: 36px;">Swank opp 10-15</span>
+<span style="font-size: 41px;">kg for filmrolle</span></h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/film/artikkel.php?artid=529491">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529500" CLASS="article-extract article-extract-third  row-24 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529500">
+<IMG SRC="www.vg.no_files/front-3C.jpg"
+style="width: 179px; height: 164px;" CLASS="article-image" ALT=""> </A>
+<h3 style="font-size: 21px;"><span style="font-size: 25px;">Jakter på skjulte</span>
+<span style="font-size: 40px;">kreftceller</span> </h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529500">Les hele saken</A><BR>
+<BR CLASS="clearer"> </div> <div id="529497" CLASS="article-extract article-extract-two-thirds  row-25 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/bil-og-motor/artikkel.php?artid=529497">
+<IMG style="width: 273px; height: 61px;" CLASS="article-image" SRC="www.vg.no_files/front-3D.jpg"
+ALT="" TITLE="Foto: Martin Nilsen" WIDTH="273" HEIGHT="61"> </A> <h3
+style="font-size: 21px;"><span style="font-size: 40px;">Maner til kamp</span>
+<span style="font-size: 48px;">for midtdeler </span></h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/bil-og-motor/artikkel.php?artid=529497">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529461" CLASS="article-extract article-extract-third  row-25 left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529461">
+<IMG SRC="www.vg.no_files/front-3E.jpg"
+style="width: 179px; height: 92px;" CLASS="article-image" ALT="" TITLE="Foto: Reuters">
+</A> <h3 style="font-size: 21px;"><span style="font-size: 27px;">Popsangerinne</span>
+<span style="font-size: 33px;">ble halshugd</span> </h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/nyheter/utenriks/artikkel.php?artid=529461">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="529459" CLASS="article-extract article-extract-two-thirds  row-26 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529459">
+<IMG SRC="www.vg.no_files/front-3F.jpg"
+style="width: 273px; height: 113px;" CLASS="article-image" ALT="" TITLE="Foto: Scanpix"
+WIDTH="273" HEIGHT="113"> </A> <h3 style="font-size: 30px;"><FONT style="font-size: 31px;">Skjelbred overrasket</FONT><BR></h3>
+<FONT style="font-size: 16px;"><b><A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529459" style="font-size: 21px;">over Hareides landslagsuttak</A></b></FONT>
+<BR CLASS="clearer"> </div> <div id="2632331" CLASS="article-extract article-extract-third  row-26 left bg-default img-brd-1">
+<A HREF="http://e24.no/naeringsliv/article2632331.ece"> <IMG style="width: 179px; height: 65px;"
+CLASS="article-image top" SRC="www.vg.no_files/front-3G.jpg"
+ALT=" Foto: Solum, Stian Lysberg " WIDTH="179" HEIGHT="65"> </A> <h3
+style="font-size: 21px;"><span style="font-size: 38px;">Magert for</span>
+<span style="font-size: 42px;">Håkonsen</span><BR> </h3> <A HREF="http://e24.no/naeringsliv/article2632331.ece">Les saken på E24</A>
+<BR CLASS="clearer"> </div> <div id="529485" CLASS="article-extract article-extract-two-thirds  row-27 start-row left bg-default img-brd-1">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529485">
+<IMG style="width: 273px; height: 77px;" CLASS="article-image" SRC="www.vg.no_files/front-3H.jpg"
+ALT="" TITLE="Foto: Lenovo" WIDTH="273" HEIGHT="77"> </A> <h3 style="font-size: 21px;"><span
+style="font-size: 38px;">Bærbar PC med</span> <span style="font-size: 32px;">turbo-3G inkludert</span>
+</h3> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529485">Les hele saken</A>
+<BR CLASS="clearer"> </div> <div id="nd5d7db8-1397-1c36-781d-08b287e99786"
+CLASS="article-extract article-extract-third  row-27 left bg-default img-brd-1">
+<p> <A HREF="http://tpn.vg.no/intervju/index.php?Inr=1637"><IMG SRC="www.vg.no_files/front-3I.jpg"
+style="width: 179px; height: 100px;" CLASS="article-image" ALT="" TITLE="Foto: Magnar Kirknes"
+WIDTH="179" HEIGHT="100"></A> </p> <h3><FONT style="font-size: 24px;">Spør VG-kokken</FONT>
+<FONT style="font-size: 25px;">om drømmemat!</FONT></h3><p style="font-size: 17px;"><b
+style=""><A HREF="http://tpn.vg.no/intervju/index.php?Inr=1637" style="">Send inn spørsmål her! </A></b><BR
+style=""></p> <BR CLASS="clearer"> </div> </div> <div CLASS="clearer ">&nbsp;</div>
+<!-- needed to make the container stretch around all the elements --> </div>
+<div CLASS="clearer">&nbsp;</div> </div> </div> </TD> <TD><IMG SRC="www.vg.no_files/t0000000.gif"
+WIDTH="3" HEIGHT="1"></TD> </TR> </TABLE> </TD> <TD VALIGN="top"> <div
+style="width:180px;"> <div style="font-family: Arial,helvetica,sans-serif; font-size: 10px;background-color: #dde3e5; border:2px solid #1093c5;"><div
+style="padding-left: 7px; padding-right: 7px;padding-top:4px;"> <form
+METHOD="get" ACTION="http://go.vg.no/cgi-bin/go.cgi/sesamnr/http://www.sesam.no/search/"
+style="display: inline; margin-bottom: 2px;"> <strong>S&oslash;k i <A HREF="http://www.sesam.no/katalog/" style="color: black;">katalogen</A>:</strong>
+<TABLE cellpadding="0" cellspacing="0" BORDER="0"> <TR><TD WIDTH="122"><input
+type="text" NAME="q" style="width: 116px; height: 24px; border: solid #AAAAAC 1px; font-size: 16px; font-weight: bold;"
+VALUE="firma, tlf, adr" onclick="this.value='';"> </TD> <TD WIDTH="48"
+ALIGN="right"> <input type="image" SRC="www.vg.no_files/vgfronts.png"></TD></TR>
+</TABLE> <input type="hidden" NAME="c" VALUE="yws"> </form> <BR> <form
+METHOD="get" ACTION="http://go.vg.no/cgi-bin/go.cgi/sesamwww/http://www.sesam.no/search/"
+style="display: inline; margin-bottom: 2px;"> <strong>Søk på <A HREF="http://www.sesam.no/" style="color: black;">Internett</A>:</strong>
+<TABLE cellpadding="0" cellspacing="0" BORDER="0"> <TR><TD WIDTH="122"><input
+type="text" NAME="q" VALUE="" style="width: 116px; height: 18px; border: solid #AAAAAC 1px; font-size: 9px;">
+</TD> <TD WIDTH="48" ALIGN="right"> <input type="image" SRC="www.vg.no_files/vgfronts.png"></TD></TR>
+</TABLE> <input type="hidden" NAME="w" VALUE="d"> </form> <form METHOD="get"
+ACTION="http://go.vg.no/cgi-bin/go.cgi/sesamvg/http://partner.sesam.no/vgnett/"
+style="display: inline;"> <strong>S&oslash;k i <A HREF="http://partner.sesam.no/vgnett/" style="color: black;">VG Nett</A>:</strong>
+<TABLE cellpadding="0" cellspacing="0" BORDER="0"> <TR><TD WIDTH="122"><input
+type="text" NAME="q" VALUE="" style="width: 116px; height: 18px; border: solid #AAAAAC 1px; font-size: 9px;">
+</TD> <TD WIDTH="48" ALIGN="right"><input type="image" SRC="www.vg.no_files/vgfrontt.png"></TD></TR>
+</TABLE> <input type="hidden" NAME="c" VALUE="n"> </form> <BR> <script
+SRC="www.vg.no_files/skatteso.js"> </script> <form METHOD="get" NAME="skatteSokFormFirstLastName"
+id="skatteSokFormFirstLastName" onsubmit="return validateSkattFirstLastNameSearchSubmit();"
+ACTION="http://skatt.vg.no/" style="display: inline;"> <strong>Søk i <A HREF="http://skatt.vg.no/" style="color: black;">skattelistene</A>:</strong>
+<input type="hidden" VALUE="search-person" NAME="do"> <TABLE
+cellpadding="0" cellspacing="0" BORDER="0"> <TR><TD WIDTH="122"><input
+type="text" NAME="navn" onfocus="this.value='';" VALUE="Fornavn Etternavn"
+style="width: 116px; height: 18px; border: solid #AAAAAC 1px; font-size: 9px;">
+</TD> <TD WIDTH="48" ALIGN="right"><input type="image" SRC="www.vg.no_files/vgfrontt.png"></TD></TR>
+</TABLE> <input type="hidden" NAME="fornavn"> <input type="hidden" NAME="etternavn">
+<input type="hidden" NAME="w" VALUE="vgalt"> </form> <IMG SRC="www.vg.no_files/pwrdby00.png"
+WIDTH="95" HEIGHT="14" ALT="Powered by Sesam.no" BORDER="0"></div></div></div>
+<IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="1" HEIGHT="3"><BR> <TABLE cellpadding="0"
+cellspacing="0" BORDER="0" WIDTH="188" ALIGN="left" BGCOLOR="#ffffff">
+<TR> <TD> <script language="javascript" type="text/javascript"> <!--
+         OAS_AD('x21');
+         //-->
+</script> <TD VALIGN="top"><IMG SRC="www.vg.no_files/vg000000.gif"></TD> </TR> <!--   <tr>
+      <td width="180" style="padding-top:3px;">
+       <!!call src="/html/include/front/txtann.reise.hbs">
+      </td>
+      <td valign="top" align="left">
+       <img src="/gfk/ann/vg.gif" width="8" height="60" border="0" alt="Annons&eacute;r p&aring; VG Nett!"></td>
+     </tr> -->
+<TR> <TD colspan="2"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="180" HEIGHT="3"></TD> </TR>
+<TR> <TD WIDTH="180"> </TD> <TD VALIGN="top" ALIGN="left"></TD> </TR> <TR>
+<TD colspan="2"><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="180" HEIGHT="3"></TD> </TR> <TR>
+<TD><IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="180" HEIGHT="3"><BR> <script language="javascript"
+type="text/javascript"> <!--
+         OAS_AD('x22');
+         //--> </script>
+<TD VALIGN="top"><IMG SRC="www.vg.no_files/vg000000.gif"></TD> </TR> <TR> <TD><IMG
+SRC="www.vg.no_files/t0000000.gif" WIDTH="180" HEIGHT="3"><BR> <script language="javascript"
+type="text/javascript"> <!--
+         OAS_AD('x23');
+         //--> </script>
+<TD VALIGN="top"><IMG SRC="www.vg.no_files/vg000000.gif"></TD> </TR> </TABLE> <BR
+clear="all"> <IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="3" HEIGHT="1"><BR> <div style="position: absolute; width: 180px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="8" WIDTH="3"><BR> <div style="border-left: solid black 1px; padding-left: 1px; font-family: Arial; font-size: 12px; font-weight: bold;">Siste nytt på VG Nett</div>
+<iframe WIDTH="180" HEIGHT="150" SRC="www.vg.no_files/sistenyt.htm" frameborder="0"
+style="border-left: solid black 1px; padding-top, padding-left, padding-bottom: 1px;">
+</iframe> <BR> <IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="175" HEIGHT="3" ALT=" "> <script
+type="text/javascript">
+// ID til kampanjene som skal rullere
+document.write ('<iframe width=180 height=70 scrolling=no marginheight=0 marginwidth=0 frameborder=0 src="www.vg.no_files/68.htm"></iframe>');
+</script> <BR><div ALIGN="center"><A HREF="http://go.vg.no/cgi-bin/go.cgi/adil/https://www.adicate.com/default.aspx?cid=56&ad_id=4121" style="font-family:arial,helvetica,sans-serif;font-size:11px;color:red;"><b>^^ Rimelig annonsering pr time!</b></A>
+</div> <IMG SRC="www.vg.no_files/t0000000.gif" WIDTH="175" HEIGHT="3" ALT=" "> <div style="border-left: solid black 1px; padding-left: 3px;">
+<div style="width: 180px"> <IMG SRC="www.vg.no_files/hspalte_.gif"
+ALT="Annet" BORDER="0" HSPACE="0" vspace="0"><BR> <div CLASS="akt-annet"
+style="padding: 2px;margin-bottom: 10px;margin-right: 0px;"> <span
+CLASS="akt-title-normal">Velg din startside her:<BR></span> <span CLASS="akt-preamble"><span
+style="font-size: 105%;font-weight: bold;"> <LI> <A HREF="javascript:void(window.open('http://www.vg.no/mobil/wap/ota/?case=vgmobil','vgmobil','top=20,left=20,width=525,height=460,scrollbars=yes,resizable=yes'))">VG på mobilen!</A>
+<LI><A HREF="http://go.vg.no/cgi-bin/go.cgi/sstart/http://www.vg.no/" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/');">VG
+Netts forside</A> <LI> <A HREF="http://go.vg.no/cgi-bin/go.cgi/sstart/http://www.vg.no/sport/fotball/" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/sport/fotball/');">VG Nett Fotball</A>
+<LI> <A HREF="http://go.vg.no/cgi-bin/go.cgi/sstart/http://www.vg.no/rampelys/" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/rampelys/');">VG Nett Rampelys</A>
+<LI> <A HREF="http://go.vg.no/cgi-bin/go.cgi/sstart/http://www.vg.no/spill/" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/spill/');">VG Nett Spill</A>
+<LI> <A HREF="http://go.vg.no/cgi-bin/go.cgi/sstart/http://www.vg.no/sport/" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/sport/');">VG Nett Sport</A>
+<LI> <A HREF="http://go.vg.no/cgi-bin/go.cgi/sstart/http://www1.vg.no/teknologi" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.vg.no/sport/');">VG Nett Teknologi</A></span></span><BR>
+<BR></div></div> <div style="width: 180px"> <A HREF="http://www.vg.no/dinhelse/"><IMG
+SRC="www.vg.no_files/hspalte0.gif" ALT="Helse"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-helse" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: none"><div
+ALIGN="center"> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529400"><IMG
+SRC="www.vg.no_files/12204298.jpg" BORDER="0"
+WIDTH="170" HEIGHT="180" ALT="Foto: " HSPACE="0" vspace="2"></A> </div>
+</span> <span CLASS="akt-title-large"><span style="FONT-SIZE: 90%">- La voksen være</span><BR></span>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=529400" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <BR></div></div> <div style="width: 180px"> <A HREF="http://www.vg.no/matogdrikke/"><IMG
+SRC="www.vg.no_files/hspalte1.gif" ALT="Mat og drikke"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-mat" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: none"><div
+ALIGN="center"> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529267"><IMG
+SRC="www.vg.no_files/12203441.jpg" BORDER="0"
+WIDTH="170" HEIGHT="147" ALT="Foto: " HSPACE="0" vspace="2"></A> </div>
+</span> <span CLASS="akt-title-normal"><span style="FONT-WEIGHT: bold; FONT-SIZE: 120%">Fem sikre sopper</span>
+<BR></span> <span CLASS="akt-preamble"><!-- START --> <b>• Mer:</b> <A HREF="http://www.vg.no/pub/vgart.hbs?artid=529281">(Døds)viktige råd</A>
+<!-- SLUTT --> </span><BR> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/pub/vgart.hbs?artid=529267" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <BR></div></div> <div style="width: 180px"> <A HREF="http://www.vg.no/bilogmotor/"><IMG
+SRC="www.vg.no_files/hspalte2.gif" ALT="Bil og Motor"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-bil" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: none"><div
+ALIGN="center"> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/bil-og-motor/artikkel.php?artid=525560"><IMG
+SRC="www.vg.no_files/12203444.jpg" BORDER="0"
+WIDTH="170" HEIGHT="162" ALT="Foto: " HSPACE="0" vspace="2"></A> </div>
+</span> <span CLASS="akt-title-normal"><span style="FONT-WEIGHT: bold; FONT-SIZE: 120%">Disse boksene har</span><BR><span
+style="FONT-WEIGHT: bold; FONT-SIZE: 105%">tatt over 900 bilister</span><BR></span>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www1.vg.no/bil-og-motor/artikkel.php?artid=525560" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <BR clear="all"></div></div> </div> <!--<img src="/t.gif" height="3" width="1"><br>-->
+<div style="border-left: solid black 1px;"> <Style type="text/css">
+a.linkstyle:link { color : #ff2906;  text-decoration : none; 
+font-weight : bold;  }  a.linkstyle:active { color : #ff2906; 
+text-decoration : none;  font-weight : bold;  }  a.linkstyle:visited {
+color : #ff2906;  text-decoration : none;  font-weight : bold;  } 
+a.linkstyle:hover { color : #ff2906;  text-decoration : none; 
+font-weight : bold;  }  #dropcontentsubject { width : 200px; 
+font-weight : bold;  }  .dropcontent { width : 200px;  height : 15px; 
+border-top : 1px solid black;  border-bottom : 1px solid black; 
+background-color : #ffffff;  padding : 0;  display : block;  }  </Style>
+<script language="javascript" type="text/javascript"> <!--
+
+
+var tickspeed=2500 
+var enablesubject=0 
+
+if (document.getElementById){
+document.write('<style type="text/css">\n')
+document.write('.dropcontent{display:none;}\n')
+document.write('</style>\n')
+}
+
+var selectedDiv=0
+var totalDivs=0
+
+function contractall(){
+var inc=0
+while (document.getElementById("dropmsg"+inc)){
+document.getElementById("dropmsg"+inc).style.display="none"
+inc++
+}
+}
+
+
+function expandone(){
+var selectedDivObj=document.getElementById("dropmsg"+selectedDiv)
+contractall()
+document.getElementById("dropcontentsubject").innerHTML=selectedDivObj.getAttribute("subject")
+selectedDivObj.style.display="block"
+selectedDiv=(selectedDiv<totalDivs-1)? selectedDiv+1 : 0
+setTimeout("expandone()",tickspeed)
+}
+
+function startscroller(){
+while (document.getElementById("dropmsg"+totalDivs)!=null)
+totalDivs++
+expandone()
+if (!enablesubject)
+document.getElementById("dropcontentsubject").style.display="none"
+}
+
+if (window.addEventListener)
+window.addEventListener("load", startscroller, false)
+else if (window.attachEvent)
+window.attachEvent("onload", startscroller)
+
+-->
+</script> <script language="javascript"> <!--
+
+var win = null;
+
+
+// Standard method for opening new windows
+function NewWindow( mypage, myname, w, h, scroll, buttons )
+{
+	var windowCnt = parseInt( Math.random() * 10000 )
+	myname = myname + windowCnt;
+	
+	LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+	TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+	settings = 'resizable=yes,top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll
+
+	if( buttons )
+	{
+		settings += ',status=1, toolbar=1, location=1, menubar=1';
+	}
+	else
+	{
+		settings += ', height=' + h + ', width=' + w
+	}
+
+	win = window.open(mypage,myname,settings)
+}
+
+-->
+</script> <!-- start hovedrammen rundt --> <TABLE WIDTH="224" Style="border-collapse: collapse"
+cellpadding="0" cellspacing="0" BORDER="0" BGCOLOR="#ffffff"
+bordercolor="#000000"> <TR> <TD><A HREF="http://www.vg.no/jobbnytt/"><!-- <IMG SRC="www.vg.no_files/JobbnyttTopp.gif" WIDTH="223" HEIGHT="89" BORDER=0 ><BR></A>-->
+<IMG SRC="www.vg.no_files/vg_bk010.gif" WIDTH="223"
+HEIGHT="72" BORDER=0><BR></A></TD> </TR> </TABLE> <!-- start ticker -->
+<TABLE WIDTH="223" Style="border-collapse: collapse; background: #ffffff url(www.vg.no_files/vg_bk02.gif) no-repeat top right;"
+cellpadding="0" cellspacing="0" BORDER="0" BGCOLOR="#ffffff"
+bordercolor="#000000"> <TR> <TD Style="font-family: arial,verdana; font-size: 11px; color:#ff0000">
+<div id="dropcontentsubject"></div> <div ALIGN="center" id="dropmsg0"
+CLASS="dropcontent"> <A HREF="http://www.vg.no/jobbnytt/" CLASS="linkstyle">1382 ledige stillinger.</A>
+</div> <div ALIGN="center" id="dropmsg1" CLASS="dropcontent"> <A HREF="http://www.vg.no/jobbnytt/" CLASS="linkstyle">422 annonser</A>
+</div> <div ALIGN="center" id="dropmsg2" CLASS="dropcontent"> <A HREF="http://www.vg.no/jobbnytt/" CLASS="linkstyle">Klikk her! Flere stillinger</A>
+</div> <div ALIGN="center" id="dropmsg3" CLASS="dropcontent"> <A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertiseinfo.html','Advertise','445','540','yes', false );return false">Annonsere? Klikk her!</A>
+</div> </TD> </TR> </TABLE> <TABLE WIDTH="223" Style="border-collapse: collapse"
+cellpadding="0" cellspacing="0" BORDER="0" bordercolor="#000000"> <TR>
+<TD BGCOLOR="#fff000"> <!-- start anonnseninfo --> <TABLE Style="border-collapse: collapse"
+cellpadding="0" cellspacing="0" BORDER="0" bordercolor="#000000"> <TR><TD
+Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Vi søker sjåfører !  </b><BR>Har ca. 75 % av bussmarkedet i Oslo målt i antall reiser. Vi søker flere sjåfører, og kan tilby..<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=106&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Konsulent - DnBNOR </b><BR>Oppsøkende Salg og Rådgivning har ansvaret for salg/rådgivning på tlf.Overfor personkunder i ... <BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1391&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Bli Fengselsbetjent !</b><BR>Jobben er så viktig at du får lønn fra første skoledag. Fengselsbetjentutdanningen er toårig.<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1342&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Jobb som konduktør i NSB !</b><BR>Ønsker du deg en spennende jobb - Bli konduktør i NSB. For mer info send sms "nsb" til 2229<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1365&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Coca Cola - Sjåfør klasse C</b><BR>Coca-Cola Drikker AS søker nå flere dyktige sjåfører i Stavanger Regionen.<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1383&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Montører - Icopal AS</b><BR>Icopal Metall as, Region Vest - Bergen. Søker for snarlig tiltredelse montører...  <BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1388&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Webdesigner/ webmaster</b><BR>Vi søker deg med erfaring fra internett, Dreamweaver og HTML.
+Hjemmet Mortensen/Klikk.no søker  <BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1392&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Senior Geoscientist</b><BR>You will be responsible for the evaluation of exploration opportunities to optimise..<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/Publisher/advertise.asp?advertiseId=198&referrer=1&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Prosjektleder -  Icopal Metall</b><BR>Prosjektleder søkes for snarlig tiltredelse i Icopal Metall as avdeling Bergen. Vi kan tilby ..<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1390&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Subsea adventures! Join us.</b><BR>Vi utfordrer grensen for hva som er mulig, hver dag. FMC Technologies søker nye medarbeidere..<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1381&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Systemkoordinatorer - IKT</b><BR>Utvikle avanserte dataløsninger for kraftbransjen basert på det siste nye innen Microsoft-teknologi?<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1387&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Coca-Cola  - Automatiker</b><BR>Vi søker en dyktig og engasjert automatiker til vår Engineering avdeling. 
+<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1376&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Vil du forandre verden ?</b><BR>WWF-Norge er i vekst og trenger stadig nye, dyktige medarbeidere. Er du vår neste, nye kollega?<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1378&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #D9EBF2; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Politihøgskolen - Studieleiar </b><BR>Politihøgskolen søker studieleiar (B1), som får fagleg og administrativt ansvar for planlegging..<BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1374&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+<TR><TD Style="font-family: arial,verdana; font-size: 11px; background-color: #FFFFFF; padding-top: 4px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px;"><b>Prosjektleder - IcopalTak AS</b><BR>Prosjektleder søkes for snarlig tiltredelse til ledelse av takprosjekter i Oslo og Akershus. <BR><A HREF="" CLASS="linkstyle" onclick="NewWindow( 'http://vg.jobb24.no/advertise.asp?advertiseId=1389&bannerFlag=1','Advertise','445','500','yes', true );return false">Les mer her</A><BR></TD></TR>
+</TABLE> <!-- slutt anonnseninfo --> </TD> <TD WIDTH="20" BACKGROUND="www.vg.no_files/Jobbnytt.gif"><IMG
+SRC="www.vg.no_files/Jobbnytt.gif" WIDTH="21"
+BORDER=0></TD> </TR> </TABLE> <!--  slutt hovedramme --> <TABLE WIDTH="224"
+Style="border-collapse: collapse" cellpadding="0" cellspacing="0"
+BORDER="0" BGCOLOR="#ffffff" bordercolor="#000000"> <TR> <TD> <map NAME="Map0">
+<area HREF="http://www.vg.no/jobbnytt/" shape="rect" coords="1, 4, 97, 19">
+<area HREF="" onclick="NewWindow( 'www.vg.no_files/advertiseinfo.html','Advertise','445','540','yes', false );return false"
+shape="rect" coords="103, 4, 183, 19"> </map> <IMG SRC="www.vg.no_files/Jobbnytu.gif"
+WIDTH="223" BORDER=0 usemap="#Map0"><BR> </TD> </TR> </TABLE> </div>
+<!--<img src="/t.gif" height="3" width="1"><br>--> <div style="border-left: solid black 1px; padding-left: 3px;">
+<div style="width: 180px"> <A HREF="http://www.vg.no/dinhelse/"><IMG
+SRC="www.vg.no_files/hspalte0.gif" ALT="Helse"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-helse" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: none"><div
+ALIGN="center"> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=525468"><IMG
+SRC="www.vg.no_files/12203437.jpg" BORDER="0"
+WIDTH="170" HEIGHT="139" ALT="Foto: " HSPACE="0" vspace="2"></A> </div>
+</span> <span CLASS="akt-title-large"><span style="FONT-SIZE: 90%">Snusere skal teste</span><BR><span
+style="FONT-SIZE: 93%">omstridt produkt</span><BR></span> <A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=525468" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <BR></div></div> <div style="width: 180px"> <A HREF="http://www.vg.no/reise/"><IMG
+SRC="www.vg.no_files/hspalte3.gif" ALT="Reise"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-reise" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: right">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529316"><IMG
+SRC="www.vg.no_files/12201742.jpg" BORDER="0"
+WIDTH="170" HEIGHT="123" ALT="Foto: " HSPACE="0" vspace="2"></A> </span>
+<span CLASS="akt-title-xlarge"><span style="FONT-WEIGHT: bold; FONT-SIZE: 75%">Spar penger, bo i Sopranos-land </span><BR></span>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/reise/artikkel.php?artid=529316" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <BR></div></div> <div style="width: 180px"> <A HREF="http://www1.vg.no/teknologi"><IMG
+SRC="www.vg.no_files/hspalte4.gif" ALT="Teknologi"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-data" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: right">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529163"><IMG
+SRC="www.vg.no_files/12198384.jpg" BORDER="0"
+WIDTH="80" HEIGHT="100" ALT="Foto: Foto: Mio" HSPACE="0" vspace="2"></A>
+</span> <span CLASS="akt-title-xlarge"><span style="FONT-WEIGHT: bold; FONT-SIZE: 75%">Suveren GPS til lav pris</span><BR></span>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/teknologi/artikkel.php?artid=529163" CLASS="akt-link" TARGET="">Les testen!</A>
+<BR> <BR></div></div> <div style="width: 180px"> <A HREF="http://www.vg.no/dinhelse/"><IMG
+SRC="www.vg.no_files/hspalte0.gif" ALT="Helse"
+BORDER="0" HSPACE="0" vspace="0"></A><BR> <div CLASS="akt-helse" style="padding: 2px;margin-bottom: 10px;margin-right: 0px;">
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: right">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=525545"><IMG
+SRC="www.vg.no_files/12203439.jpg" BORDER="0"
+WIDTH="170" HEIGHT="168" ALT="Foto: " HSPACE="0" vspace="2"></A> </span>
+<span CLASS="akt-title-normal"><span style="FONT-WEIGHT: bold; FONT-SIZE: 125%">Knytter sterilitet</span><BR><span
+style="FONT-WEIGHT: bold; FONT-SIZE: 130%">til parfymebruk</span> <BR></span>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=525545" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <HR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="100"><BR> <span style="float: right">
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=535046"><IMG
+SRC="www.vg.no_files/12201744.jpg" BORDER="0"
+WIDTH="170" HEIGHT="105" ALT="Foto: " HSPACE="0" vspace="2"></A> </span>
+<span CLASS="akt-title-xlarge">Slik dumper <span style="FONT-WEIGHT: bold; FONT-SIZE: 90%">du kjæresten</span><BR></span>
+<A HREF="http://go.vg.no/cgi-bin/front.cgi/0/http://www.vg.no/helse/artikkel.php?artid=535046" CLASS="akt-link" TARGET="">Les hele saken</A>
+<BR> <BR clear="all"></div></div> </div> <div style="padding: 3px; border-left: solid black 1px; font-family: Arial; font-size: 10px;">
+<BR> <b>SPILL SPILL!</b><BR> <span CLASS="spl-txt"> <A HREF="http://vg.games.is/product/product=110"><IMG
+SRC="www.vg.no_files/11000000.jpg" WIDTH="75" HEIGHT="75" BORDER="0" ALIGN="right"></A><A HREF="http://vg.games.is/product/product=110" CLASS="spl-txt">Jewel Quest</A><BR>
+<A HREF="http://vg.games.is/product/product=913" CLASS="spl-txt">Private Eye</A><BR>
+<A HREF="http://vg.games.is/product/product=882" CLASS="spl-txt">Superbike Racing</A><BR>
+<A HREF="http://vg.games.is/product/product=917" CLASS="spl-txt">Azada</A><BR>
+<A HREF="http://vg.games.is/product/product=919" CLASS="spl-txt">Escape from Paradise</A><BR>
+</span> <BR clear="all"> </div> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="1"><BR>
+<div style="background: url(www.vg.no_files/rutebak.gif); width: 180px; border: solid #aaaaaa 1px;">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/hurra/http://interaktiv.vg.no/vghurra/"><IMG
+SRC="www.vg.no_files/nhurrato.gif" WIDTH="178" HEIGHT="88" BORDER="0"></A>
+<div style="padding: 3px; font-family: Verdana, Arial; font-size: 11px; color: #737373; font-weight: bold;">
+<p ALIGN="center"> <span style="font-size: 14px;">Vår alles solstråle</span><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/hurra/http://interaktiv.vg.no/vghurra/ad.asp?id=20985"><IMG
+SRC="www.vg.no_files/340df702.jpg" BORDER="0"></A> <BR>Jenny Margrethe Sveen<BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/hurra/http://interaktiv.vg.no/vghurra/ad.asp?id=20985">Se hele annonsen</A>
+</p>
+Fortell verden om bryllup, bryllupsdager, bursdager, konfirmasjon eller kanskje du bare ønsker å være hyggelig i hverdagen?
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/hurra/http://interaktiv.vg.no/vghurra/" onmouseover="musOver(1)" onmouseout="musAv(1)"><IMG
+SRC="www.vg.no_files/link1000.gif" NAME="bilde1" BORDER="0" WIDTH="174"
+HEIGHT="48"></A> </div> <script language="javascript"> <!--
+    bildeOver = "www.vg.no_files/link2.gif";
+    bildeArr = new Image();
+    bildeArr.src = bildeOver;
+    function musOver(nr) {
+	bildeAv = eval("document.bilde" + nr).src; 
+	eval("document.bilde" + nr).src = bildeOver;
+    }
+    function musAv(nr) {
+	eval("document.bilde" + nr).src = bildeAv;
+    }
+//-->
+</script> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3"><BR> <div style="border-left: solid black 1px; padding-left: 3px;">
+</div> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3"><BR> </div> </TD> </TR> </TABLE>
+<TABLE WIDTH="473" cellpadding="0" cellspacing="0" BORDER="0"> <TR
+VALIGN="top"> <TD WIDTH="473"> <A HREF="http://www.vg.no/lesernesvg/"><IMG
+SRC="www.vg.no_files/lvgft000.gif" WIDTH="468" HEIGHT="54" BORDER="0" ALT=""></A>
+<TABLE cellspacing="2" cellpadding="0" BORDER="0" WIDTH="468"> <div id="drfront">
+<div id="front-5" CLASS="drfront"> <div id="front"> <div id="articles">
+<div id="aa7822d7-2b6e-e467-41cc-2e478d9a26d9" CLASS="article-extract article-extract-full  row-1 left bg-default img-brd-1">
+<A HREF="http://www.vgb.no/33290/perma/357232/"><IMG style="height: 250px; width: 455px;"
+SRC="www.vg.no_files/front-5-.jpg"
+ALT="" TITLE="Foto: Markus Aarstad" CLASS="article-image" HEIGHT="250"
+WIDTH="455"></A><A HREF="http://www.vgb.no/33290/perma/357232/"></A><h3
+style="font-size: 56px;">- Norske politikere <span style="font-size: 66px;">gjør meg kvalm</span><BR>
+</h3> <p> <strong>Blogg</strong>: <A HREF="http://www.vgb.no/33290/perma/357232/">- En vanlig mann på gata måtte ha betalt tilbake hele summen hvis han&nbsp; hadde mottatt mer pensjon enn han skulle</A>
+</p> <BR CLASS="clearer"> </div> <div id="gbfe9979-2f9d-c000-1e46-511e778a67ff"
+CLASS="article-extract article-extract-two-thirds  row-2 start-row left bg-default img-brd-1">
+<A HREF="http://vg.transact.no/Item.asp?GroupID=132&Group=Politikk+%2D+Norsk&ThreadID=1405842&Thread=F%F8dselspermisjon%20%u2013%20urettferdig%20ordning"><IMG
+style="height: 127px; width: 275px;" SRC="www.vg.no_files/front-50.jpg"
+ALT="" TITLE="Foto: Sara Johannessen/Scanpix" CLASS="article-image"
+HEIGHT="127" WIDTH="275"></A><h3 style="font-size: 22px;">- Fødselspermisjon for far er <span
+style="font-size: 32px;">særdeles urettferdig</span></h3> <p> <strong>Debatt</strong>: <A HREF="http://vg.transact.no/Item.asp?GroupID=132&Group=Politikk+%2D+Norsk&ThreadID=1405842&Thread=F%F8dselspermisjon%20%u2013%20urettferdig%20ordning">- Politikerne vet om dette, men gjør ingen ting</A>
+</p> <BR CLASS="clearer"> </div> <div id="sfcca7be-660d-5c12-97f9-3983cd67d54d"
+CLASS="article-extract article-extract-third  row-2 left bg-default img-brd-1">
+<A HREF="http://www.vgb.no/33458/perma/357283/"><IMG SRC="www.vg.no_files/front-51.jpg"
+ALT="" TITLE="Illustrasjonsfoto: Scanpix" CLASS="article-image" WIDTH="175"></A><h3
+style="font-size: 22px;">- Hjelp, jeg er blitt kompis med sjefen</h3> <p>
+<strong>Blogg</strong>: <A HREF="http://www.vgb.no/33458/perma/357283/">- Han har brukt betroelser mot meg </A>
+</p> <BR CLASS="clearer"> </div> <div CLASS="clearer">&nbsp;</div> </div></div></div>
+</div> </TABLE> <p ALIGN="center" style="font-weight: bold;"> &nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=aftenposten" style="font-size: 12px;">aftenposten</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=alta" style="font-size: 12px;">alta</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=bilde" style="font-size: 22px;">bilde</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=dagen" style="font-size: 18px;">dagen</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=et" style="font-size: 18px;">et</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=film" style="font-size: 14px;">film</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=filosofi" style="font-size: 10px;">filosofi</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=foto" style="font-size: 14px;">foto</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=f%F8lelser" style="font-size: 12px;">f&oslash;lelser</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=hemmelig" style="font-size: 10px;">hemmelig</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=h%F8st" style="font-size: 10px;">h&oslash;st</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=kj%E6rlighet" style="font-size: 14px;">kj&aelig;rlighet</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=motorsport" style="font-size: 12px;">motorsport</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=nisselue-sms" style="font-size: 10px;">nisselue-sms</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=obstfield" style="font-size: 10px;">obstfield</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=og" style="font-size: 12px;">og</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=om" style="font-size: 18px;">om</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=perler" style="font-size: 16px;">perler</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=perlevenn" style="font-size: 12px;">perlevenn</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=politikk" style="font-size: 24px;">politikk</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=rally" style="font-size: 12px;">rally</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=slanking" style="font-size: 10px;">slanking</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=smykker" style="font-size: 12px;">smykker</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=tanker" style="font-size: 14px;">tanker</A>&nbsp;
+&nbsp;<A HREF="http://go.vg.no/cgi-bin/go.cgi/lvg/http://www.vgb.no/search.php?P=uganda" style="font-size: 10px;">uganda</A>&nbsp;
+</p> <A HREF="http://www.vg.no/lesernesvg/"><IMG SRC="www.vg.no_files/lvgfb000.gif"
+WIDTH="468" HEIGHT="36" BORDER="0" ALT=""></A> </TD> </TR> </TABLE> </div>
+<BR clear="all"> <BR> <style type="text/css">
+.wl { color: white; text-decoration: none; }
+.wl:active { color: white; } .wl:visited { color: white; }
+.wl:link { color: white; } </style> <TABLE WIDTH="586" cellpadding="3"
+cellspacing="0" BORDER="0"> <TR><TD VALIGN="top" WIDTH="33%"> <p> <div
+style="background: #1a46b5; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/nyheter/" CLASS="wl">Nyheter</A>
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529552" style="font-size: medium; font-weight: bold;">- De begynte å legge folk i plastposer</A>
+<BR> <span style="">
+(VG Nett) Her blir overlevende fra dødsbåten plukket opp av kystvakten ved havnen i fiskelandsbyen A...
+</span><BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529552" style="color:red;">Les mer >></A>
+</TD><TD VALIGN="top" WIDTH="33%"> <div style="background: #339933; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/sport/" CLASS="wl">Sport/Fotball</A>
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529556" style="font-size: medium; font-weight: bold;">Pelé: - Robinho trenger seriøs rådgiving</A>
+<BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529556"><IMG
+SRC="www.vg.no_files/18575000.jpg" WIDTH=44 HEIGHT=67
+BORDER="0" HSPACE="3" VSPACE="2" ALIGN="right"></A> <span style="">
+I Brasil skjønner de ikke hvordan Robinho kunne vrake Chelsea til fordel for Manchester City....
+</span><BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529556" style="color:red;">Les mer >></A>
+</TD><TD VALIGN="top" WIDTH="34%"> <div style="background: #ff9900; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/rampelys/" CLASS="wl">Rampelys</A>
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529557" style="font-size: medium; font-weight: bold;">- 25 må gå i NRK</A>
+<BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529557"><IMG
+SRC="www.vg.no_files/18575100.jpg" WIDTH=47 HEIGHT=67
+BORDER="0" HSPACE="3" VSPACE="2" ALIGN="right"></A> <span style="">
+(VG Nett) 25 ansatte risikerer å miste jobben fordi NRK må spare 25 millioner kroner....
+</span><BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529557" style="color:red;">Les mer >></A>
+</TD> </TR> <TR><TD VALIGN="top" WIDTH="33%" style="font-size:12px;"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529552" TARGET="_top" style="">- De begynte å legge folk i plastposer</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529555" TARGET="_top" style="">Enda en journalist drept i Nord-Kaukasus</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529543" TARGET="_top" style="">Skriver bok om livet i UD</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529550" TARGET="_top" style="">Full snøballkrig...i Kenya</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529549" TARGET="_top" style="">Millionutbytte fra vekterran funnet</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+</TD> <TD VALIGN="top" WIDTH="33%" style="font-size:12px;"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529556" TARGET="_top" style="">Pelé: - Robinho trenger seriøs rådgiving</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529548" TARGET="_top" style="">Solskjær blir ikke United-assistent</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529534" TARGET="_top" style="">Hushovd trakk seg</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529511" TARGET="_top" style="">Ned fem plasser på FIFA-rankingen</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529482" TARGET="_top" style="">Høydehopper var stupfull</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+</TD> <TD VALIGN="top" WIDTH="34%" style="font-size:12px;"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529539" TARGET="_top" style="">Langhåret Mickey Rourke i vinden igjen</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529510" TARGET="_top" style="">TV3 lager luksus-Robinson</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529518" TARGET="_top" style="">Usminket Natalie debuterte i Venezia</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529502" TARGET="_top" style="">Her er videoen til sangen som topper VG-lista</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529491" TARGET="_top" style="">Swank opp 10-15 kilo for filmrolle</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+</TD> </TR> <TR><TD VALIGN="top" WIDTH="33%"> <div style="background: #1094c6; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/reise/" CLASS="wl">Reiseliv</A></div>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529517" style="font-size:medium;font-weight:bold;">Høstferie på fjellet? Fremdeles mye ledig!</A><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529517" TARGET="_top"><IMG
+SRC="www.vg.no_files/18572600.jpg" WIDTH=77 HEIGHT=100
+BORDER=0 ALIGN="right"></A>
+(VG Nett) Fjellet er på sitt aller flotteste om høsten. Og i uke 40, da de fleste skolene i landet h...<BR
+clear="all"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529517">Les mer >></A>
+</TD><TD VALIGN="top" WIDTH="33%"> <div style="background: #1094c6; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www1.vg.no/helse/" CLASS="wl">Helse</A>
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529532" style="font-size:medium;font-weight:bold;">Russenter må legge ned til tross for behandlingskø</A><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529532" TARGET="_top"><IMG
+SRC="www.vg.no_files/18573700.jpg" WIDTH=80 HEIGHT=100
+BORDER=0 ALIGN="right"></A>
+(VG Nett) Fossanåsen senter for behandling av rusavhengige sender nå sine pasienter vekk og permitte...<BR
+clear="all"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529532">Les mer >></A>
+</TD><TD VALIGN="top" WIDTH="34%"> <div style="background: #1094c6; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/bilogmotor/" CLASS="wl">Bil og motor</A>
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529481" style="font-size:medium;font-weight:bold;">Verdens styggeste biler kåret</A><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529481" TARGET="_top"><IMG
+SRC="www.vg.no_files/18570600.gif" WIDTH=80 HEIGHT=100
+BORDER=0 ALIGN="right"></A>
+(VG Nett) SsanYong Radius var en av modellene som kom dårlig ut da tidenes styggeste bil skulle kåre...<BR
+clear="all"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529481">Les mer >></A>
+</TD></TR> <TR><TD VALIGN="top" WIDTH="33%"> <FONT face="Times New Roman,Times"
+SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529524" TARGET="_top" style="font-size:12px" CLASS="">- Ferien spolert</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529504" TARGET="_top" style="font-size:12px" CLASS="">UD: - Ikke farlig å reise til Thailand</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529516" TARGET="_top" style="font-size:12px" CLASS="">Kiel-ferge blir Karibia-cruiseskip</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529501" TARGET="_top" style="font-size:12px" CLASS="">Slik får du høstferie-sol</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529408" TARGET="_top" style="font-size:12px" CLASS="">Hurtigruten må velge 52 år gammel veteran</A></FONT>
+</TD> <TD VALIGN="top" WIDTH="33%"> <FONT face="Times New Roman,Times"
+SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529508" TARGET="_top" style="font-size:12px" CLASS="">Forskningssentre uten penger</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529494" TARGET="_top" style="font-size:12px" CLASS="">Eldre fedre har økt risiko for barn med psykiske lidelser</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529500" TARGET="_top" style="font-size:12px" CLASS="">Jakter på skjulte kreftceller</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529368" TARGET="_top" style="font-size:12px" CLASS="">Sykehus-Norge gikk på ny milliardsmell</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529416" TARGET="_top" style="font-size:12px" CLASS="">- Svikter «sjeldne» pasienter</A></FONT>
+</TD> <TD VALIGN="top" WIDTH="34%"> <FONT face="Times New Roman,Times"
+SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529497" TARGET="_top" style="font-size:12px" CLASS="">Skjerpet kamp for midtdeler</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529488" TARGET="_top" style="font-size:12px" CLASS="">Rekordsalg av rød diesel</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529477" TARGET="_top" style="font-size:12px" CLASS="">Peugeot vurder eget lavprismerke</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529390" TARGET="_top" style="font-size:12px" CLASS="">Den hviskende motoren</A></FONT>
+<BR> <FONT face="Times New Roman,Times" SIZE=3 CLASS=""><A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529413" TARGET="_top" style="font-size:12px" CLASS="">Færre «fartshopp» langs norske veier</A></FONT>
+</TD> </TR> <TR> <TD colspan="3" style="padding: 0px;"> <TABLE WIDTH="100%"
+cellpadding="3" cellspacing="0" BORDER="0"> <TR> <TD VALIGN="top" WIDTH="33%">
+<div style="background: black; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.e24.no/" CLASS="wl">E24 N&aelig;ringsliv</A>
+</div><A HREF="http://e24.no/lov-og-rett/article2633463.ece#VG" style="font-size: medium; font-weight: bold;">Kona får beholde millionverdier</A><BR>
+<span style="">
+Harald Langemyhr har vunnet en viktig seier mot politiet. Kona Bente får utbetalt sin andel etter salget av parets eiendom i Tønsberg.
+</span><BR> <A HREF="http://e24.no/lov-og-rett/article2633463.ece#VG" style="color:red;">Les mer >></A>
+</TD> <TD VALIGN="top" WIDTH="33%"> <div style="background: #1094c6; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www1.vg.no/teknologi/" CLASS="wl">Teknologi</A>
+</div> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529540" style="font-size: medium; font-weight: bold;">Nerde-rap i seiersgang på YouTube</A>
+<BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529540"><IMG
+SRC="www.vg.no_files/18573900.jpg" WIDTH=53 HEIGHT=67
+BORDER="0" HSPACE="3" VSPACE="2" ALIGN="right"></A> <span style="">
+(VG Nett) Høres en rap om partikkelakseleratoren Large Hadron Collider spennende ut? Den 23 år gamle...
+</span><BR> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529540" style="color:red;">Les mer >></A>
+</span><BR> </TD> <TD VALIGN="top" WIDTH="34%" rowspan="2"> <div style="background: #1094c6; font-weight: bold; color: white; text-align: center">
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www1.vg.no/bildespesial/show/spesial.php" CLASS="wl">Bildespesialer</A>
+</div> <style type="text/css"> #bsBox {width: 210px;}
+#bsBoxInv {margin-left: 20px;}
+.bsElement a:link, .bsElement a:visited, .bsElement a:hover, .bsLink a {font: 11px/1 arial, "Lucida Grande", sans-serif; color: #ff0000;}
+#bsBox h2 {color: #ffffff; background-color: #1094c6; text-align: center; font: 20px/1 Times, Georgia, Serif; font-weight: bold;}
+#bsBox h2 a:link, #bsBox h2 a:visited {color: #fff; text-decoration: none;}
+#bsBox h2 a:hover {color: #fff; text-decoration: none;}
+.bsElement {margin: 3px; float: left; width: 70px; height: 110px;} </style>
+<div id="bsBox"> <div id="bsBoxInv"><div CLASS="bsElement"> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6356"><IMG
+SRC="www.vg.no_files/18573900.jpg"
+BORDER="0"></A><BR> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6356"> Flomkatastrofen i India </A></div>
+<div CLASS="bsElement"> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6355"><IMG
+SRC="www.vg.no_files/12203585.jpg"
+BORDER="0"></A><BR> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6355"> Demonstrasjoner i Bangkok </A></div>
+<div CLASS="bsElement"> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6354"><IMG
+SRC="www.vg.no_files/12202920.jpg"
+BORDER="0"></A><BR> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6354"> Her slår Gustav til </A></div>
+<div CLASS="bsElement"> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6353"><IMG
+SRC="www.vg.no_files/12202582.jpg"
+BORDER="0"></A><BR> <A HREF="http://www1.vg.no/bildespesial/show/spesial.php?id=6353"> Gustav slår inn over USA </A></div>
+<BR style="clear: both;"> <p CLASS="bsLink"><A HREF="http://www1.vg.no/bildespesial/show/spesial.php">>>Flere bildespesialer</A></p></div>
+</div> </TD> </TR> <TR> <TD VALIGN="top" WIDTH="33%" style="font-size:12px;">
+<A HREF="http://e24.no/medier-og-reklame/medier/article2633453.ece#VG" TARGET="_top" style="">25 må gå i NRK</A><BR>
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR> <A HREF="http://e24.no/medier-og-reklame/medier/article2633386.ece#VG" TARGET="_top" style="">TV3 blir fotballfri kanal</A><BR>
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR> <A HREF="http://e24.no/makro-og-politikk/article2633182.ece#VG" TARGET="_top" style="">Norsk milliontap 
+på dansk skandalebank</A><BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3"
+WIDTH="3" ALT=""><BR> <A HREF="http://e24.no/naeringsliv/article2632718.ece#VG" TARGET="_top" style="">Latterlig bra på ett år</A><BR>
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR> <A HREF="http://e24.no/boers-og-finans/article2633162.ece#VG" TARGET="_top" style="">Børsen faller under 400</A><BR>
+<IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR> </TD>
+<TD VALIGN="top" WIDTH="33%" style="font-size:12px;"> <A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529540" TARGET="_top" style="">Nerde-rap i seiersgang på YouTube</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529509" TARGET="_top" style="">Nettadressen med hakekors</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529507" TARGET="_top" style="">Mulig iPod-lansering til uken</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529485" TARGET="_top" style="">Bærbar PC med turbo-3G inkludert</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+<A HREF="http://go.vg.no/cgi-bin/go.cgi/bs/http://www.vg.no/pub/vgart.hbs?artid=529452" TARGET="_top" style="">Robotspill med hjerne</A>
+<BR> <IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="3" WIDTH="3" ALT=""><BR>
+</TD> </TR> </TABLE> </TD></TR> </TABLE> <!-- Generated by HexBase 2.0.33.6 from HexMac Intl.  #000019 -->
+<BR> </div> <script language="javascript"> <!--
+  function ml(ar, na) {
+  	str = eval('String.fromCharCode(' + ar + ')');
+	if (na == '') na = str;
+  	document.write('<a href="mailto:' + str + '">' + na + '</a>');	
+  }
+  function mt(ar, na) {
+  	str = eval('String.fromCharCode(' + ar + ')');
+	if (na == '') na = str;
+    document.write("<a href=\"javascript:void(window.open('http://www.vg.no/tips/?til=" + str + "', 'popup', 'width=450,height=500,scrollbars=no'));\">" + na + "</a>");
+  }
+//-->
+</script> <TABLE WIDTH="768" cellpadding="0" cellspacing="0" BORDER="0">
+<TR><TD ALIGN="center">[<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://www.vg.no/">Hovedsiden</A>] [<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://www.vg.no/nyheter/">Nyheter</A>] [<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://www.vg.no/sport/">Sport</A>] [<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://www.vg.no/sport/fotball/">Fotball</A>] [<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://www.vg.no/rampelys/">Rampelys</A>]  [<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://lista.vg.no/">VG-lista</A>] [<A HREF="http://go.vg.no/cgi-bin/go.cgi/r-b3/http://www.vg.no/soek/">S&oslash;k</A>]
+<BR><IMG SRC="www.vg.no_files/t0000000.gif" HEIGHT="4" WIDTH="1"><BR><b>TIPS OSS!</b> SMS til 2200 &middot; MMS m/bilde til 2200 &middot; Ring 22 00 00 00 &middot E-post til <script>mt('50,50,48,48,64,118,103,46,110,111', 'tusentipset')</script><BR><IMG
+SRC="www.vg.no_files/t0000000.gif" HEIGHT="4" WIDTH="1"><BR> <i>VG Nett har ikke ansvar for innhold på eksterne nettsider som det lenkes til.</i><BR>
+<FONT SIZE="-1">Henvendelser om denne tjenesten: <script>mt('119,101,98,109,97,115,116,101,114,64,118,103,46,110,111', 'Vakthavende journalist')</script><BR>
+Ansvarlig redakt&oslash;r: <script type="text/javascript">mt('69, 115, 112, 101, 110, 46, 69, 103, 105, 108, 46, 72, 97, 110, 115, 101, 110, 64, 118, 103, 46, 110, 111', 'Espen Egil Hansen');</script>
+/ Administrerende direkt&oslash;r: <script type="text/javascript">mt('106,111,46,99,104,114,105,115,116,105,97,110,46,111,116,101,114,104,97,108,115,64,118,103,46,110,111', 'Jo Christian Oterhals');</script><BR>
+<BR> Sentralbord VG: 22 00 00 00<BR>
+Kopiering av materiale fra VG Nett for bruk annet sted er ikke tillatt uten avtale | <A HREF="http://www.vg.no/copyright.hbs">&copy; 2008 Verdens Gang AS</A></FONT>
+</TD></TR></TABLE> <span style="color:white;">16:09:39 [moki]</span> <script
+language="JavaScript"> var seksjon = "Front"; </script> <!-- TNS Metrix -->
+<script type="text/javascript" SRC="www.vg.no_files/tmv11000.js"></script>
+</script> <noscript><IMG SRC="www.vg.no_files/(GIF Image, 1x1 pixels).gif"></noscript>
+<!-- TNS Metrix Ends --> <span style="color:white;">16:09:39</span> <script
+SRC="www.vg.no_files/setInc00.js" language="javascript" type="text/javascript"></script>
+</BODY> </HTML>
+<!-- Generated by HexBase 2.0.33.6 from HexMac Intl.  #000019 -->
+
+<!-- This document saved from http://www.vg.no/ -->

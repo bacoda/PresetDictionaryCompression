@@ -1,0 +1,201 @@
+/*
+   front.css
+   new-design
+
+   Created by Henrik Kjelsberg on 2007-12-12.
+   Copyright 2007 Zedge Ltd. All rights reserved.
+*/
+
+
+/* LAYOUT
+----------------------------------------------------------------------------- */
+#content							{ float: left; width: 630px; }
+#sidebar							{ float: right; padding-top: 10px; width: 320px; text-align: center; }
+#sidebar .advert					{ margin: 0 auto; }
+#sidebar .box						{ text-align: left; }
+
+
+#navbar								{ background:url(search_c.gif) no-repeat top right;height:54px;width:98%;margin-left:5px;margin-right:-20px;margin-bottom:-15px;margin-top:10px; }
+.navbarleft							{ background:url(search_c.gif) no-repeat top left; }
+.navbarbody							{ background:url(search_b.gif) repeat-x;margin-left:20px;height:54px;margin-right:20px; }
+#search								{ margin:0px; width: auto; text-align: left; height:28px;}
+#search div							{ margin: 1em auto 0 auto; }
+#search select						{ width: 180px; }
+p input#txt_query					{ width: 300px; }
+#itemsearchbrowse p input#txt_query			{ width: 16em; }
+#itemsearchbrowse select#lst_content_type	{ width: 90px; }
+#small-search #search				{ margin-left:-7px; padding-top:1px; }
+#search_box .breadcrumbs			{ left: 430px; position: absolute; top: 20px; overflow: hidden; width: 500px; }
+#itemsearch							{ float:left;height: auto;text-align:left; width: auto; }
+.item								{ float: left; margin: .5em 0; position: relative; }
+
+#description						{ margin-top:-15px; }
+#description .header				{ height: 20px; }
+#description .footer 				{ height: 18px; }
+#description .container				{ padding: 0px 15px; }
+#description #million8				{ background: url( 8million.gif ) no-repeat; float: left; margin-top:10px;margin-left: 5px; height: 53px; width: 182px; }
+#description #million9				{ background: url( 9million.gif ) no-repeat; float: left; margin-top:10px;margin-left: 5px; height: 53px; width: 182px; }
+#description #million10				{ background: url( 10millio.gif ) no-repeat; float: left; margin-top:0px;margin-left: 0px; height: 75px; width: 205px; }
+#description ul						{ background: url( rings000.gif ) no-repeat bottom right; list-style-type: none; margin-left: 220px; width: 355px;vertical-align:middle; }
+#description ul li					{ height: 24px; }
+#description li img					{ vertical-align: middle;padding-right:5px; }
+
+#browse .header li					{ position:relative; width: 126px; }
+#people .header li					{ position:relative; width: 210px; }
+
+.itemcontainer						{ margin: 10px 18px; }
+/*#browse .item dt span				{ display: block; height: 175px; }*/
+
+#flash_update_feed					{ background: url( feedBack.gif ) no-repeat center; }
+
+.tags								{ overflow: hidden; width: 100px; }
+
+#sidebar h2							{ margin: 0; padding: 0; }
+#tools dl, #todo dl					{ clear:both;height: auto; margin: 10px 0; position: relative; }
+#tools dt, #todo dt					{ float: left; height: 70px;margin-bottom:10px; width: 70px; }
+#tools dd, #todo dd					{ float: left; padding-left: 10px; width: 180px; }
+
+#browse .content, #people .content	{ margin: 0 0 1em; }
+#people .content-sm					{ margin:0px; }
+
+
+/* Looks
+----------------------------------------------------------------------------- */
+
+#freeyourphone						{ background: url( freeyour.gif ) no-repeat center left; }
+#ringtonemaker						{ background: url( ringtone.gif ) no-repeat top left; }
+#wallpapermaker						{ background: url( wallpape.gif ) no-repeat top left; }
+#voicetonemaker						{ background: url( voiceton.gif ) no-repeat top left; }
+#thememaker							{ background: url( theme_sm.gif ) no-repeat top left; }
+#screensavermaker					{ background: url( screensa.gif ) no-repeat top left; }
+/* styles for tool icons inside white round boxes on Create screen - Chris */
+#createwallpaper					{ background: url( wallpapf.gif ) no-repeat top left; height:80px; padding:15px 5px 5px 150px;margin:0px -10px -20px -10px; }
+#createringtone						{ background: url( ringtonf.gif ) no-repeat top left; height:80px; padding:15px 5px 5px 150px;margin:0px -10px -20px -10px; }
+#createvoicetone					{ background: url( voicetoo.gif ) no-repeat top left; height:80px; padding:15px 5px 5px 150px;margin:0px -10px -20px -10px; }
+#createtheme						{ background: url( theme000.gif ) no-repeat top left; height:80px; padding:15px 5px 5px 150px;margin:0px -10px -20px -10px; }
+#createpersonal						{ background: url( personal.gif ) no-repeat top left; height:80px; padding:15px 5px 5px 150px;margin:0px -10px -20px -10px; }
+#createscreensaver					{ background: url( screensb.gif ) no-repeat top left; height:80px; padding:15px 5px 5px 150px;margin:0px -10px -20px -10px; }
+#createwallpaper .padTop,
+#createringtone .padTop,
+#createvoicetone .padTop,
+#createpersonal .padTop,
+#createscreensaver .padTop,
+#createtheme .padTop 			{ padding-top:5px; }
+.createlink							{ float:left;margin-left:-150px;margin-top:-10px;width:130px;height:90px; }
+/* styles for tool icons inside white round boxes on Upload screen - Chris */
+#uploadringtone						{ background: url( ringtonf.gif ) no-repeat top left; height:100px; padding:15px 5px 5px 160px;margin:-5px -10px -20px -10px; }
+#uploadtheme						{ background: url( theme000.gif ) no-repeat top left; height:100px; padding:15px 5px 5px 160px;margin:-5px -10px -20px -10px; }
+#uploadvideo						{ background: url( video000.gif ) no-repeat top left; height:100px; padding:15px 5px 5px 160px;margin:-5px -10px -20px -10px; }
+#uploadwallpaper					{ background: url( wallpapf.gif ) no-repeat top left; height:100px; padding:15px 5px 5px 160px;margin:-5px -10px -20px -10px; }
+#uploadprivatefile					{ background: url( private0.gif) no-repeat top left; height:100px; padding:15px 5px 5px 160px;margin:-5px -10px -20px -10px; }
+#uploadringtone .padTop,
+#uploadtheme .padTop,
+#uploadvideo .padTop,
+#uploadwallpaper .padTop 			{ padding-top:15px; }
+
+/* styles for top round boxes on Download screen - Chris */
+#browsebox							{ background: url( browse00.jpg ) no-repeat 15px; height:60px; padding:15px 5px 5px 75px; }
+#downloadbox						{ background: url( download.jpg ) no-repeat 2px; height:60px; padding:15px 5px 5px 80px; }
+#sharebox							{ background: url( share000.jpg ) no-repeat 5px; height:60px; padding:15px 5px 5px 75px; }
+
+#create								{ background: url( create_s.gif ) no-repeat top left; }
+#upload								{ background: url( upload_s.gif ) no-repeat top left; }
+#download							{ background: url( download.gif ) no-repeat top left; }
+.sidelink							{ float:left;width:60px;height:60px;position:relative; }
+
+#make								{ padding-left:55px;margin-left:5px;background:url(make_it0.jpg) no-repeat 5px;height:70px; }
+#pack								{ padding-left:70px;margin-left:5px;background:url(pack_it0.jpg) no-repeat left;height:70px; }
+#ship								{ padding-left:60px;margin-left:5px;background:url(ship_it0.jpg) no-repeat left;height:70px; }
+#make .padTop, #pack .padTop,
+#ship .padTop 						{ padding-top:5px; }
+/* Typography
+----------------------------------------------------------------------------- */
+dd									{ font-size: 10px; }
+dd a								{ color: #000; }
+dd p a								{ color: #666; margin: .8em 0; }
+
+#description a 						{ font-size: larger; }
+
+/*----------------Styles for registration screen-----------------------------*/
+#registerfrm				{ float:left; width:100%; }
+#registerfrm .reg_container	{ position:relative; padding:4px 3px; margin:4px 0px; height:24px; }
+#registerfrm .fldLabel 		{ float:left; width:19%; line-height:2.2em; font-size:11px; text-align:left; padding-left:5px; font-weight:bold; }
+#registerfrm .fldInput 		{ float:right; width:80%; text-align:left; padding-top:1px; }
+#registerfrm .reg_msg 		{ float:right; padding:5px; font-size:11px; text-align:right; }
+#registerfrm .reg_msginfo	{ background-color:#fff9d7; border:1px #e2c822 solid; padding-top:3px; padding-left:2px; padding-bottom:3px; padding-right:2px; }
+#registerfrm .reg_msgerror	{ background-color:#ffe4e4; border:1px #dc8585 solid; padding-top:3px; padding-left:2px; padding-bottom:3px; padding-right:2px; }
+#registerfrm input[type="password"] { background-color: #fff; border: solid 1px; border-color: #aaa #eee #eee #aaa; }
+#registerfrm .generic		{ background:url(generic0.png) no-repeat; height:122px; border-bottom:1px solid #DEDEDE; margin-top:-5px; margin-bottom:-10px; }
+#registerfrm .nokia			{ background:url(nokia000.png) no-repeat 17px; height:120px; border-bottom:1px solid #DEDEDE; margin-top:-3px; margin-bottom:-10px; }
+#reg_div_notify	.invalid	{ color:#960000; font-size:14px; text-align:center; margin-bottom:10px; }
+#reg_div_tos input,
+#reg_div_tos label			{ margin-top:0px;; }
+#registerfrmTitle			{ padding-top:10px; height:50px; }
+#registerfrmTitle p			{ float:left; font-size:23px; font-weight:bold; color:#000000; }
+.regPrivacy					{ width:50%; }
+#why_register				{ margin-top:-6px; }
+#why_register .wrItem		{ height:50px; margin-top:15px; }
+#why_register p				{ margin:0px; }
+#why_register img			{ float:left;margin-right:10px; }
+div.zRegLayer				{ display:none; position:relative; width:300px; height:auto; left:25%; top:0px; border:2px #bbbbbb solid; background:#ffffff; padding:6px; margin-top:3px; }
+input.regDataFld			{ width:193px; }
+input.regGender				{ margin-left:20px; margin-top:2px; }
+input.regSignUp, input.regLogin { width:150px;font-size:15px;font-weight:bold;padding:3px 0px 3px 0px; }
+select.regDataSel			{ width:200px; }
+select.regBDay				{ width:60px; }
+select.regBMonth			{ width:65px; }
+select.regBYear				{ width:75px; }
+#registeruserfrm			{ width:100%; height:auto; position:relative; margin-top:-5px; }
+#registeruserfrm .choice	{ font-size:12px; font-weight:bold; color:#222222; padding-bottom:3px; }
+#registeruserfrm a			{ line-height:1.5em; }
+#registeruserfrm .reg_msg 	{ padding:5px; }
+#registeruserfrm .reg_msginfo { background-color:#fff9d7; border:1px #e2c822 solid; }
+#registeruserfrm .reg_msgerror { background-color:#ffe4e4; border:1px #dc8585 solid; }
+#registeruserfrm #user_check { width:120px; }
+#registeruserfrm .try		{ float:left; width:270px; }
+#registeruserfrm .or		{ float:left; margin-top:-7px; font-size:20px; color:#222; width:30px; height:76px; background:url(bg-vert-.gif) repeat-y 8px 0px; }
+#registeruserfrm .or span	{ background-color:#ffffff; }
+#registeruserfrm .choose	{ float:right; width:200px; }
+.regUsersignup				{ padding-left:40px; }
+#regsuccess	.close			{ font-weight:normal; font-size:10px; color:#960000; }
+
+
+#download_tools .header, #download_tools .footer, #introduction .footer, #introduction .header {
+	height: 12px;
+	position: relative;
+}
+#download_tools .footer span {
+	bottom: 15px;
+	color: #999;
+	font-size: 10px;
+	position: absolute;
+	right: 20px;
+}
+#download_tools, #introduction { margin-top:-15px; }
+.introduction .container	{ padding: 10px 15px; }
+.introduction ul.left		{ width: 280px; }
+.introduction ul li			{ list-style-type: none;padding-bottom:4px; }
+#download_tools ul li		{ height: 35px; }
+#download_tools ul li img	{ vertical-align:bottom; }
+#download_tools ul li img.enjoyimg	{ padding-top:2px;padding-right:5px;margin-bottom:-2px; }
+#download_tools ul li img.shareimg	{ padding-right:5px; }
+#introduction ul			{ margin-top: 10px; }
+.introduction span			{ font-size: 18px; }
+.introduction img			{ vertical-align: middle;padding-right:5px; }
+#download_tools .browsetext	{ color: #f90; }
+#download_tools .getittext	{ color: #bc4; }
+#download_tools .shareittext{ color: #5be; }
+#download_tools .enjoytext 	{ color: #b95; }
+#introduction .footer img	{ bottom: 15px; position: absolute; right: 30px; }
+/*#introduction ul li.votecomment		{ list-style-image: url( '/static/images/banners/peoplepage/blue.gif' ); }
+#introduction ul li.newfriends		{ list-style-image: url( '/static/images/banners/peoplepage/brown.gif' ); }
+#introduction ul li.toprank 		{ list-style-image: url( '/static/images/banners/peoplepage/orange.gif' ); }
+#introduction ul li.mostdownloaded	{ list-style-image: url( '/static/images/banners/peoplepage/green.gif' ); }*/
+
+#popular_ringtones .dlringtones	{ padding-bottom:15px; }
+
+#ringtone_maker_front .frontringlist	{ color:#000; }
+#ringtone_maker_front .frontringlist .frontringnum	{ font-size:44px;float:left;margin-right:5px; }
+#ringtone_maker_front .frontringlist #uploadring	{ float:left;padding-top:5px;height:55px; }
+#ringtone_maker_front .frontringlist #cutring		{ float:left;padding-top:5px;height:65px; }
+#ringtone_maker_front .frontringlist #getring		{ float:left;background:url(toPhone0.gif) no-repeat bottom left;height:75px;padding-left:50px;margin-top:5px; }
