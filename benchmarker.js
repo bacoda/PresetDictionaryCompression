@@ -60,7 +60,7 @@ function testSite(directory, callback) {
     var base = PATH.resolve(input_folder);
     var current = PATH.resolve(directory);
     var relative = PATH.relative(base, current);
-    if (relative.indexOf(PATh.sep))
+    if (relative.indexOf(PATH.sep))
         return;
 
     console.log('Parsing folder:' + directory);
