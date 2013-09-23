@@ -200,7 +200,7 @@ function benchmarkFile(site, path, type, completion) {
 	if (zopfli) {
 		localTask.addTask(function (callback) {
 			zopfli(path, function(){
-				var size = fs.statSync(path + '.gz');
+				var size = fs.statSync(path + '.gz').size;
 				if (size > gzip_size) {
 					size = gzip_size;
 				}
