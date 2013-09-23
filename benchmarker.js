@@ -69,6 +69,10 @@ function testSite(directory, callback) {
 
     var fileFinder = finder(directory);
     fileFinder.on('file', function (file, stat) {
+        if (command_line.verbose) {
+            console.log('Adding file:' + file);
+        }
+
         tasks.addTask(function (completion) {
             var type = fileExt(file);
             if (type == '.css' || type == '.html' || type == '.js') {
@@ -246,14 +250,14 @@ zip(keyword, function () {
         };
     }
 
-    if (command_line.lzma_dict) {
+    if (command_line.lzmadict) {
         lzma_dict = {
             type: 'shared dictionary lzma',
             total: 0,
         };
     }
 
-    if (command_line.gzip_dict) {
+    if (command_line.gzipdict) {
         gzip_dict = {
             type: 'shared dictionary gzip',
             total: 0,
