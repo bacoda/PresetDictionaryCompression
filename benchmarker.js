@@ -91,7 +91,11 @@ function benchmarkFile(site, path, type, completion) {
     var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"';
 		
 	var localTask = new taskgroup();
-		
+	
+	if (command_line.verbose) {
+	    console.log('Testing file:' + path);
+	}
+
     // gzip
 	if (rebase) {
 	    localTask.addTask(function (callback) {
@@ -99,6 +103,10 @@ function benchmarkFile(site, path, type, completion) {
 	            gzip_size = fs.statSync(path + '.gz').size;
 	            base_gzip.total += gzip_size;
 	            base_gzip.sizes[path] = gzip_size;
+
+	            if (command_line.verbose) {
+	                console.log('Gzip size:' + gzip_size);
+	            }
 	            callback();
 	        });
 	    });
@@ -160,7 +168,7 @@ function benchmarkFile(site, path, type, completion) {
 }
 
 function dump() {
-    console.log('gzip size:' + gzip.total);
+    console.log('gzip size:' + base_gzip.total);
 
     if (lzma) {
         console.log('lzma size:' + lzma.total + ' Compared with gzip:' + 100*(gzip.total - lzma.total)/gzip.total);
