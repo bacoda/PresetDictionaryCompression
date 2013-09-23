@@ -186,7 +186,7 @@ function done() {
 
     clearInterval(intervalId);
 
-    saveResult(gzip);
+    saveResult(base_gzip);
     saveResult(gzip_dict);
     saveResult(lzma);
     saveResult(lzma_dict);
