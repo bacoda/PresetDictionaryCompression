@@ -69,11 +69,6 @@ function testSite(directory, callback) {
                 benchmarkFile(name, file, type, completion);
             } else {
                 if (type != '.7z' && type != '.dict' && type != '.gz') {
-                    appendOutput({
-                        site: name,
-                        type: type,
-                        size: stat.size
-                    });
                 }
                 completion();
             }
