@@ -173,7 +173,11 @@ function benchmarkFile(site, path, type, completion) {
 	    localTask.addTask(function (callback) {
 	        gzip(cat_file, function () {
 	            var size = fs.statSync(cat_file + '.gz').size;
-	            gzip_dict.total += gzip_size;
+	            if (size > gzip_size) {
+	                console.log('Unexpected growth in size. ' + gzip_size + '->' + size + ' ' + path);
+	                size = gzip_size;
+	            }
+	            gzip_dict.total += size;
 	            callback();
 	        });
 	    });
