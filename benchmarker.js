@@ -226,6 +226,9 @@ function dump() {
     if (gzip_dict) {
         console.log('gzip with dict size:' + gzip_dict.total + ' Compared with gzip:' + 100 * (base_gzip.total - gzip_dict.total) / base_gzip.total);
     }
+	if (zopfli) {
+        console.log('zopfli size:' + zopfli.total + ' Compared with gzip:' + 100 * (base_gzip.total - zopfli.total) / base_gzip.total);		
+	}
 }
 
 function saveResult(obj) {
