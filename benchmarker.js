@@ -11,7 +11,7 @@ var input_folder = command_line.i;
 var output_file = command_line.o;
 var keyword = command_line.dict || 'keyword.txt';
 
-var base_gzip, lzma, lzma_dict, gzip_dict;
+var base_gzip, lzma, lzma_dict, gzip_dict, zopfli;
 
 var dict_lzma_size, dict_gzip_size, total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
 var rebase = false;
@@ -25,7 +25,6 @@ function fileExt(path) {
     if (ext == '.htm')
         ext = '.html';
     return ext;
-}
 
 function gzip(file, completion) {
     var command = 'gzip --best -f -c "' + file + '" > "' + file + '.gz"';
@@ -39,6 +38,17 @@ function gzip(file, completion) {
     });
 }
 
+function zopfli(file, completion) {
+    var command = './zopfli "' + file + '"';
+    child_process.exec(command, function (error, stdout, stderr) {
+        if (error) {
+            console.error(error);
+            console.error('when executing command: ' + command);
+            process.exit(1);
+        }
+        completion();
+    });
+}
 function zip(file, completion) {
     var command = '7zr a -t7z -m0=lzma -mx=9 -mfb=64 -md=2m -ms=on "' + file + '.7z" "' + file + '"';
     child_process.exec(command, function (error, stdout, stderr) {
@@ -80,7 +90,7 @@ function testSite(directory, callback) {
         tasks.addTask(function (completion) {
             var type = fileExt(file);
             if (type == '.css' || type == '.html' || type == '.js') {
-                benchmarkFile(name, file, type, completion);
+                benchmarkfile(name, file, type, completion);
             } else {
                 if (type != '.7z' && type != '.dict' && type != '.gz') {
                 }
@@ -185,6 +195,19 @@ function benchmarkFile(site, path, type, completion) {
 	    });
 	}
 
+	if (zopfli) {
+		localTask.addTask(function (callback) {
+			zopfli(path, function(){
+				var size = fs.statSync(path + '.gz');
+				if (size > gzip_size) {
+					size = gzip_size;
+				}
+				zopfli.total += size;
+				callback();
+			});
+		});
+	}
+
 	localTask.once('complete', completion);
 	localTask.run();
 }
@@ -280,6 +303,13 @@ zip(keyword, function () {
                 total: 0,
             };
         }
+
+	if (command_line.zopfli) {
+		zopfli = {
+			type: 'zopfli',
+			total: 0
+		}
+	}
 
         console.log('Scanning folders...');
 
