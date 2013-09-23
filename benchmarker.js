@@ -92,7 +92,7 @@ function testSite(directory, callback) {
         tasks.addTask(function (completion) {
             var type = fileExt(file);
             if (type == '.css' || type == '.html' || type == '.js') {
-                benchmarkfile(name, file, type, completion);
+                benchmarkFile(name, file, type, completion);
             } else {
                 if (type != '.7z' && type != '.dict' && type != '.gz') {
                 }
