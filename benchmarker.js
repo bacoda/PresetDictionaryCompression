@@ -204,12 +204,6 @@ function done() {
     saveResult(gzip_dict);
     saveResult(lzma);
     saveResult(lzma_dict);
-    //console.log('saving result to file');
-    //var result = '';
-    //output.forEach(function (obj) {
-    //    var str = obj.site + '\t' + obj.type + '\t' + obj.size + '\t' + (obj.size2 || '') + '\n';
-    //    result += str;
-    //});
 }
 
 console.log('Benchmarking with dictionary: ' + keyword + ' in ' + input_folder + ' output: ' + output);
@@ -233,7 +227,7 @@ zip(keyword, function () {
     console.log('Reading gzip data from ' + base_file_path);
 
     if (fs.existsSync(base_file_path)) {
-        var base_str = fs.readFileSync(folder, 'utf-8');
+        var base_str = fs.readFileSync(base_file_path, 'utf-8');
         base_gzip = JSON.parse(base_str);
     } else {
         console.log('Found no base file, will rebase');
