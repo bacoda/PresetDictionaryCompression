@@ -25,6 +25,7 @@ function fileExt(path) {
     if (ext == '.htm')
         ext = '.html';
     return ext;
+}
 
 function gzip(file, completion) {
     var command = 'gzip --best -f -c "' + file + '" > "' + file + '.gz"';
@@ -49,6 +50,7 @@ function zopfli(file, completion) {
         completion();
     });
 }
+
 function zip(file, completion) {
     var command = '7zr a -t7z -m0=lzma -mx=9 -mfb=64 -md=2m -ms=on "' + file + '.7z" "' + file + '"';
     child_process.exec(command, function (error, stdout, stderr) {
