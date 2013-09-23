@@ -39,7 +39,7 @@ function gzip(file, completion) {
     });
 }
 
-function zopfli(file, completion) {
+function gzip_zopfli(file, completion) {
     var command = './zopfli "' + file + '"';
     child_process.exec(command, function (error, stdout, stderr) {
         if (error) {
@@ -199,7 +199,7 @@ function benchmarkFile(site, path, type, completion) {
 
 	if (zopfli) {
 		localTask.addTask(function (callback) {
-			zopfli(path, function(){
+			gzip_zopfli(path, function(){
 				var size = fs.statSync(path + '.gz').size;
 				if (size > gzip_size) {
 					size = gzip_size;
