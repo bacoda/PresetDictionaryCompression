@@ -277,7 +277,6 @@ zip(keyword, function () {
             done();
         });
 
-        console.log('====ready to run tasks. ' + tasks.getTotals());
         tasks.run();
     });
 
