@@ -71,9 +71,9 @@ function testSite(directory, callback) {
 
     var fileFinder = finder(directory);
     fileFinder.on('file', function (file, stat) {
-        if (command_line.verbose) {
-            console.log('Adding file:' + file);
-        }
+        //if (command_line.verbose) {
+        //    console.log('Adding file:' + file);
+        //}
 
         tasks.addTask(function (completion) {
             var type = fileExt(file);
@@ -168,7 +168,17 @@ function benchmarkFile(site, path, type, completion) {
 		    });
 		});
 	}
-		
+	
+	if (gzip_dict) {
+	    localTask.addTask(function (callback) {
+	        gzip(cat_file, function () {
+	            var size = fs.statSync(cat_file + '.gz').size;
+	            gzip_dict.total += gzip_size;
+	            callback();
+	        });
+	    });
+	}
+
 	localTask.once('complete', completion);
 	localTask.run();
 }
@@ -177,13 +187,13 @@ function dump() {
     console.log('gzip size:' + base_gzip.total);
 
     if (lzma) {
-        console.log('lzma size:' + lzma.total + ' Compared with gzip:' + 100*(gzip.total - lzma.total)/gzip.total);
+        console.log('lzma size:' + lzma.total + ' Compared with gzip:' + 100 * (base_gzip.total - lzma.total) / base_gzip.total);
     }
     if (lzma_dict) {
-        console.log('lzma with dict size:' + lzma_dict.total + ' Compared with gzip:' + 100 * (gzip.total - lzma_dict.total) / gzip.total);
+        console.log('lzma with dict size:' + lzma_dict.total + ' Compared with gzip:' + 100 * (base_gzip.total - lzma_dict.total) / base_gzip.total);
     }
     if (gzip_dict) {
-        console.log('gzip with dict size:' + gzip_dict.total + ' Compared with gzip:' + 100 * (gzip.total - gzip_dict.total) / gzip.total);
+        console.log('gzip with dict size:' + gzip_dict.total + ' Compared with gzip:' + 100 * (base_gzip.total - gzip_dict.total) / base_gzip.total);
     }
 }
 
