@@ -175,7 +175,7 @@ function dump() {
 
 function saveResult(obj) {
     if (obj) {
-        var file = PATH.dirname(input_folder) + '.' + obj['type'];
+        var file = PATH.basename(input_folder) + '.' + obj['type'];
         console.log('Writing result to ' + file);
         fs.writeFileSync(file, JSON.stringify(obj));
     }
@@ -215,7 +215,7 @@ zip(keyword, function () {
     keyword_size = fs.statSync(zipped).size;
     console.log('Dictionary compressed size:' + keyword_size);
 
-    var base_file_path = PATH.dirname(input_folder) + '.gzip';
+    var base_file_path = PATH.basename(input_folder) + '.gzip';
     console.log('Reading gzip data from ' + base_file_path);
 
     if (fs.existsSync(base_file_path)) {
