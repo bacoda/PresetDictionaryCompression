@@ -172,7 +172,7 @@ function benchmarkFile(site, path, type, completion) {
 	if (gzip_dict) {
 	    localTask.addTask(function (callback) {
 	        gzip(cat_file, function () {
-	            var size = fs.statSync(cat_file + '.gz').size;
+	            var size = fs.statSync(cat_file + '.gz').size - dict_gzip_size;
 	            if (size > gzip_size) {
 	                console.log('Unexpected growth in size. ' + gzip_size + '->' + size + ' ' + path);
 	                size = gzip_size;
