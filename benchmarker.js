@@ -220,11 +220,11 @@ zip(keyword, function () {
 
     if (fs.existsSync(base_file_path)) {
         var base_str = fs.readFileSync(folder, 'utf-8');
-        gzip = JSON.parse(base_str);
+        base_gzip = JSON.parse(base_str);
     } else {
         console.log('Found no base file, will rebase');
         rebase = true;
-        gzip = {
+        base_gzip = {
             total: 0,
             type: 'gzip',
             sizes: {},
