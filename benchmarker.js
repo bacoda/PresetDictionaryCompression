@@ -223,8 +223,7 @@ function percent(gzip, other) {
 
 function dump() {
     var stats = tasks.getTotals();
-    
-    var str = 'Progress:' + stats.completed*100/stats.total + ' \tgzip:' + current_gzip_size;
+    var str = 'Progress:' + (stats.completed*100/stats.total).toPrecision(3) + '% \tgzip:' + current_gzip_size;
 
     if (gzip_dict) {
         str += 'gzip(dict):' + gzip_dict.total + '('+ percent(current_gzip_size, gzip_dict.total) + ')';
@@ -236,7 +235,7 @@ function dump() {
         str +='\tlzma(dict):' + lzma_dict.total + '(' + percent(current_gzip_size, lzma_dict.total) + ')';
     }
     if (zopfli) {
-        str += 'zopfli:' + zopfli.total + '(' + percent(current_gzip_size, zopfli.total) + ')';
+        str += '\tzopfli:' + zopfli.total + '(' + percent(current_gzip_size, zopfli.total) + ')';
     }
     
     console.log(str);
