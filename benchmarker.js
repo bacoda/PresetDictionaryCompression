@@ -347,6 +347,6 @@ zip(keyword, function () {
             tasks.run();
         });
 
-        intervalId = setInterval(dump, 10000);
+        intervalId = setInterval(dump, 2000);
     });
 });
