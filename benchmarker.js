@@ -138,8 +138,6 @@ function benchmarkFile(site, path, type, completion) {
       }
   }
   
-  current_gzip_size += gzip_size;
-
     // cat
   if (lzma_dict || gzip_dict) {
     localTask.addTask(function (callback) {
@@ -212,7 +210,10 @@ function benchmarkFile(site, path, type, completion) {
     });
   }
 
-  localTask.once('complete', completion);
+  localTask.once('complete', function() {
+    current_gzip_size += gzip_size;
+    completion();
+  });
   localTask.run();
 }
 
