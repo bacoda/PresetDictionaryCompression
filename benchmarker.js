@@ -216,22 +216,27 @@ function benchmarkFile(site, path, type, completion) {
   localTask.run();
 }
 
+function percent(gzip, other) {
+  var result = (gzip-other)*100/gzip;
+  return result.toPrecision(3) + '%';
+}
+
 function dump() {
     var stats = tasks.getTotals();
     
     var str = 'Progress:' + stats.completed*100/stats.total + ' \tgzip:' + current_gzip_size;
 
     if (gzip_dict) {
-        str += 'gzip(dict):' + gzip_dict.total + '('+ 100 * (current_gzip_size - gzip_dict.total) / current_gzip_size) + ')';
+        str += 'gzip(dict):' + gzip_dict.total + '('+ percent(current_gzip_size, gzip_dict.total) + ')';
     }
     if (lzma) {
-        str += '\tlzma:' + lzma.total + '(' + 100 * (current_gzip_size - lzma.total) / current_gzip_size) + ')';
+        str += '\tlzma:' + lzma.total + '(' + percent(current_gzip_size, lzma.total) + ')';
     }
     if (lzma_dict) {
-        str +='\tlzma(dict):' + lzma_dict.total + '(' + 100 * (current_gzip_size - lzma_dict.total) / current_gzip_size) + ')';
+        str +='\tlzma(dict):' + lzma_dict.total + '(' + percent(current_gzip_size, lzma_dict.total) + ')';
     }
     if (zopfli) {
-        str += 'zopfli:' + zopfli.total + '(' + 100 * (current_gzip_size - zopfli.total) / current_gzip_size) + ')';
+        str += 'zopfli:' + zopfli.total + '(' + percent(current_gzip_size, zopfli.total) + ')';
     }
     
     console.log(str);
