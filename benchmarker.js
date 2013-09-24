@@ -13,7 +13,7 @@ var keyword = command_line.dict || 'keyword.txt';
 
 var base_gzip, lzma, lzma_dict, gzip_dict, zopfli;
 
-var dict_lzma_size, dict_gzip_size, total_gzip_compressed_size = 0, total_7zip_compressed_size = 0, total_dict_compressed_size = 0;
+var current_gzip_size = 0, dict_lzma_size, dict_gzip_size;
 var rebase = false;
 var output = [];
 var intervalId;
@@ -105,130 +105,135 @@ function testSite(directory, callback) {
 }
 
 function benchmarkFile(site, path, type, completion) {
-	var gzip_size;
+  var gzip_size;
 
     var cat_file = path + '.dict';
     var command = 'cat "' + keyword + '" "' + path + '" > "' + cat_file + '"';
-		
-	var localTask = new taskgroup();
-	
-	if (command_line.verbose) {
-	    console.log('Testing file:' + path);
-	}
+    
+  var localTask = new taskgroup();
+  
+  if (command_line.verbose) {
+      console.log('Testing file:' + path);
+  }
 
     // gzip
-	if (rebase) {
-	    localTask.addTask(function (callback) {
-	        gzip(path, function () {
-	            gzip_size = fs.statSync(path + '.gz').size;
-	            base_gzip.total += gzip_size;
-	            base_gzip.sizes[path] = gzip_size;
+  if (rebase) {
+      localTask.addTask(function (callback) {
+          gzip(path, function () {
+              gzip_size = fs.statSync(path + '.gz').size;
+              base_gzip.total += gzip_size;
+              base_gzip.sizes[path] = gzip_size;
 
-	            if (command_line.verbose) {
-	                console.log('Gzip size:' + gzip_size);
-	            }
-	            callback();
-	        });
-	    });
-	} else {
-	    gzip_size = base_gzip.sizes[path];
-	    if (!gzip_size) {
-	        console.error('Failed to get size for ' + path);
-	        process.exit(1);
-	    }
-	}
+              if (command_line.verbose) {
+                  console.log('Gzip size:' + gzip_size);
+              }
+              callback();
+          });
+      });
+  } else {
+      gzip_size = base_gzip.sizes[path];
+      if (!gzip_size) {
+          console.error('Failed to get size for ' + path);
+          process.exit(1);
+      }
+  }
+  
+  current_gzip_size += gzip_size;
 
     // cat
-	if (lzma_dict || gzip_dict) {
-		localTask.addTask(function (callback) {
-		    child_process.exec(command, function (error, stdout, stderr) {
-		        if (error) {
-		            console.error(error);
-		            console.error('when executing command: ' + command);
-		            process.exit(1);
-		        }
-		        callback();
-		    });
-		});
-	}
-		
+  if (lzma_dict || gzip_dict) {
+    localTask.addTask(function (callback) {
+        child_process.exec(command, function (error, stdout, stderr) {
+            if (error) {
+                console.error(error);
+                console.error('when executing command: ' + command);
+                process.exit(1);
+            }
+            callback();
+        });
+    });
+  }
+    
     // 7zip
-	if (lzma) {
-		localTask.addTask(function (callback) {
-		    zip(path, function () {
-		        var zipped = path + '.7z';
-		        var size_7z = fs.statSync(zipped).size;
-		        if (size_7z > gzip_size)
-		            size_7z = gzip_size;
-		        lzma.total += size_7z;
-		        callback();
-		    });
-		});
-	}
-			
-    // 7zip with dict
-	if (lzma_dict) {
-		localTask.addTask(function (callback) {
-		    zip(cat_file, function () {
-		        var cat_size = fs.statSync(cat_file + '.7z').size - dict_lzma_size + 90;
+  if (lzma) {
+    localTask.addTask(function (callback) {
+        zip(path, function () {
+            var zipped = path + '.7z';
+            var size_7z = fs.statSync(zipped).size;
+            if (size_7z > gzip_size)
+                size_7z = gzip_size;
+            lzma.total += size_7z;
+            callback();
+        });
+    });
+  }
+      
+  // 7zip with dict
+  if (lzma_dict) {
+    localTask.addTask(function (callback) {
+        zip(cat_file, function () {
+            var cat_size = fs.statSync(cat_file + '.7z').size - dict_lzma_size + 90;
 
-		        if (cat_size > gzip_size) {
-		            console.log('Unexpected growth in size. ' + gzip_size + '->' + cat_size + ' ' + path);
-		            cat_size = gzip_size;
-		        }
+            if (cat_size > gzip_size) {
+                console.log('Unexpected growth in size. ' + gzip_size + '->' + cat_size + ' ' + path);
+                cat_size = gzip_size;
+            }
 
-		        lzma_dict.total += cat_size;
-		        callback();
-		    });
-		});
-	}
-	
-	if (gzip_dict) {
-	    localTask.addTask(function (callback) {
-	        gzip(cat_file, function () {
-	            var size = fs.statSync(cat_file + '.gz').size - dict_gzip_size;
-	            if (size > gzip_size) {
-	                console.log('Unexpected growth in size. ' + gzip_size + '->' + size + ' ' + path);
-	                size = gzip_size;
-	            }
-	            gzip_dict.total += size;
-	            callback();
-	        });
-	    });
-	}
+            lzma_dict.total += cat_size;
+            callback();
+        });
+    });
+  }
+  
+  if (gzip_dict) {
+      localTask.addTask(function (callback) {
+          gzip(cat_file, function () {
+              var size = fs.statSync(cat_file + '.gz').size - dict_gzip_size;
+              if (size > gzip_size) {
+                  console.log('Unexpected growth in size. ' + gzip_size + '->' + size + ' ' + path);
+                  size = gzip_size;
+              }
+              gzip_dict.total += size;
+              callback();
+          });
+      });
+  }
 
-	if (zopfli) {
-		localTask.addTask(function (callback) {
-			gzip_zopfli(path, function(){
-				var size = fs.statSync(path + '.gz').size;
-				if (size > gzip_size) {
-					size = gzip_size;
-				}
-				zopfli.total += size;
-				callback();
-			});
-		});
-	}
+  if (zopfli) {
+    localTask.addTask(function (callback) {
+      gzip_zopfli(path, function(){
+        var size = fs.statSync(path + '.gz').size;
+        if (size > gzip_size) {
+          size = gzip_size;
+        }
+        zopfli.total += size;
+        callback();
+      });
+    });
+  }
 
-	localTask.once('complete', completion);
-	localTask.run();
+  localTask.once('complete', completion);
+  localTask.run();
 }
 
 function dump() {
-    console.log('gzip size:' + base_gzip.total);
+    console.log(tasks.getTotals());
+    var str = 'gzip:' + current_gzip_size;
 
+    if (gzip_dict) {
+        str += 'gzip(dict):' + gzip_dict.total + '('+ 100 * (current_gzip_size - gzip_dict.total) / current_gzip_size) + ')';
+    }
     if (lzma) {
-        console.log('lzma size:' + lzma.total + ' Compared with gzip:' + 100 * (base_gzip.total - lzma.total) / base_gzip.total);
+        str += '\tlzma:' + lzma.total + '(' + 100 * (current_gzip_size - lzma.total) / current_gzip_size) + ')';
     }
     if (lzma_dict) {
-        console.log('lzma with dict size:' + lzma_dict.total + ' Compared with gzip:' + 100 * (base_gzip.total - lzma_dict.total) / base_gzip.total);
+        str +='\tlzma(dict):' + lzma_dict.total + '(' + 100 * (current_gzip_size - lzma_dict.total) / current_gzip_size) + ')';
     }
-    if (gzip_dict) {
-        console.log('gzip with dict size:' + gzip_dict.total + ' Compared with gzip:' + 100 * (base_gzip.total - gzip_dict.total) / base_gzip.total);
+    if (zopfli) {
+        str += 'zopfli:' + zopfli.total + '(' + 100 * (current_gzip_size - zopfli.total) / current_gzip_size) + ')';
     }
-	if (zopfli) {
-        console.log('zopfli size:' + zopfli.total + ' Compared with gzip:' + 100 * (base_gzip.total - zopfli.total) / base_gzip.total);		
-	}
+    
+    console.log(str);
 }
 
 function saveResult(obj) {
@@ -248,7 +253,7 @@ function done() {
     saveResult(gzip_dict);
     saveResult(lzma);
     saveResult(lzma_dict);
-	saveResult(zopfli);
+  saveResult(zopfli);
 }
 
 console.log('Benchmarking with dictionary: ' + keyword + ' in ' + input_folder + ' output: ' + output);
@@ -310,12 +315,12 @@ zip(keyword, function () {
             };
         }
 
-		if (command_line.zopfli) {
-			zopfli = {
-				type: 'zopfli',
-				total: 0
-			};
-		}
+        if (command_line.zopfli) {
+          zopfli = {
+            type: 'zopfli',
+            total: 0
+          };
+        }
 
         console.log('Scanning folders...');
 
