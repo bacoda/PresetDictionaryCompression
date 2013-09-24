@@ -217,8 +217,9 @@ function benchmarkFile(site, path, type, completion) {
 }
 
 function dump() {
-    console.log(tasks.getTotals());
-    var str = 'gzip:' + current_gzip_size;
+    var stats = tasks.getTotals();
+    
+    var str = 'Progress:' + stats.completed*100/stats.total + ' \tgzip:' + current_gzip_size;
 
     if (gzip_dict) {
         str += 'gzip(dict):' + gzip_dict.total + '('+ 100 * (current_gzip_size - gzip_dict.total) / current_gzip_size) + ')';
