@@ -111,17 +111,18 @@ function testPage(directory, callback) {
             var file_info = page_info[file_name];
             
             if (type == '.css' || type == '.html' || type == '.js') {
-                benchmarkFile(file_info, file, completion);
-                
-                if (rebase) {
-                    console.log('----' + file_info.size);
-                    if (type == '.css')
-                        page_info.stats.css += file_info.size;
-                    else if (type == '.html')
-                        page_info.stats.html += file_info.size;
-                    else
-                        page_info.stats.js += file_info.size;
-                }
+                benchmarkFile(file_info, file, function() {
+                    if (rebase) {
+                        console.log('----' + file_info.size);
+                        if (type == '.css')
+                            page_info.stats.css += file_info.size;
+                        else if (type == '.html')
+                            page_info.stats.html += file_info.size;
+                        else
+                            page_info.stats.js += file_info.size;
+                    }
+                    completion();
+                });
             } else {
                 if (type != '.7z' && type != '.dict' && type != '.gz') {
                     if (rebase) {
