@@ -280,7 +280,7 @@ function dumpTotal() {
 
     console.log(str);
     
-    var str = 'Overall stats                  gzip:' + current_gzip_textual_size + current_gzip_other_size +  '\t' +
+    var str = 'Overall stats                  gzip:' + (current_gzip_textual_size + current_gzip_other_size) +  '\t' +
               dumpTotalScheme(gzip_dict, true) + 
               dumpTotalScheme(lzma, true) +
               dumpTotalScheme(lzma_dict, true) +
