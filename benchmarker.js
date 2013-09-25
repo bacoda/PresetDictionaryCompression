@@ -171,9 +171,7 @@ function benchmarkFile(file_info, path, completion) {
                 callback();
             });
         });
-    }
-    
-    if (!file_info.size) {
+    } else if (!file_info.size) {
         console.error('Failed to get size for ' + path);
         process.exit(1);
     }
