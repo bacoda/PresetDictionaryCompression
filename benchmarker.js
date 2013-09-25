@@ -162,6 +162,7 @@ function benchmarkFile(file_info, path, completion) {
         localTask.addTask(function (callback) {
             gzip(path, function () {
                 file_info.size = fs.statSync(path + '.gz').size;
+                console.log(file_info.size + ' gzip size for file:' + path);
                 callback();
             });
         });
