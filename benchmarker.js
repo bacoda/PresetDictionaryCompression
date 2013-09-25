@@ -74,7 +74,7 @@ function testPage(directory, callback) {
     var base = PATH.resolve(input_folder);
     var current = PATH.resolve(directory);
     var relative = PATH.relative(base, current);
-    if (relative.indexOf(PATH.sep) != -1) {
+    if (relative.indexOf(PATH.sep) != -1 || current == PATH.resolve(input_folder)) {
         callback();
         return;
     }
@@ -115,7 +115,7 @@ function testPage(directory, callback) {
                     size:0
                 };
                 
-            var file_info = page_info[file_name]
+            var file_info = page_info[file_name];
             
             if (type == '.css' || type == '.html' || type == '.js') {
                 benchmarkFile(file_info, file, completion);
