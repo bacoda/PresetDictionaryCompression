@@ -114,7 +114,7 @@ function testPage(directory, callback) {
                 benchmarkFile(file_info, file, completion);
                 
                 if (rebase) {
-                    console.log('----');
+                    console.log('----' + file_info.size);
                     if (type == '.css')
                         page_info.stats.css += file_info.size;
                     else if (type == '.html')
