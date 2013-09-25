@@ -80,7 +80,7 @@ function testPage(directory, callback) {
     }
 
     var stats = tasks.getTotals();
-    console.log('Parsing webpage ' + stats.completed + '/' + stats.total + ':' + directory);
+    console.log('Testing webpage ' + stats.completed + '/' + stats.total + ':' + directory + '\t');
     
     var name = PATH.basename(directory);
     if (base_gzip.pages[name]) {
@@ -104,13 +104,9 @@ function testPage(directory, callback) {
   
     var fileFinder = finder(directory);
     fileFinder.on('file', function (file, stat) {
-        //if (command_line.verbose) {
-        //    console.log('Adding file:' + file);
-        //}
-
         files_task.addTask(function (completion) {
             var type = fileExt(file);
-            var file_name = PATH.basename(path);
+            var file_name = PATH.basename(file);
             var page_info = base_gzip.pages[page_name];
 
             if (!page_info[file_name])
