@@ -83,11 +83,6 @@ function testPage(directory, callback) {
     console.log('Testing webpage ' + stats.completed + '/' + stats.total + ':' + directory + '\t');
     
     var name = PATH.basename(directory);
-    if (base_gzip.pages[name]) {
-        console.error('Error: Ignoring duplicate page folder: ' + name);
-        callback();
-        return;
-    }
     var page_info = base_gzip.pages[name] = {
         files:{},
         stats:{
