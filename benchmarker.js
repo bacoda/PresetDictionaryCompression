@@ -88,9 +88,7 @@ function testPage(directory, callback) {
         callback();
         return;
     }
-    var page_info = base_gzip.pages[name];
-    
-    base_gzip.pages[name] = {
+    var page_info = base_gzip.pages[name] = {
         files:{},
         stats:{
           total:0,
