@@ -113,7 +113,6 @@ function testPage(directory, callback) {
             if (type == '.css' || type == '.html' || type == '.js') {
                 benchmarkFile(file_info, file, function() {
                     if (rebase) {
-                        console.log('----' + file_info.size);
                         if (type == '.css')
                             page_info.stats.css += file_info.size;
                         else if (type == '.html')
@@ -163,7 +162,6 @@ function benchmarkFile(file_info, path, completion) {
         localTask.addTask(function (callback) {
             gzip(path, function () {
                 file_info.size = fs.statSync(path + '.gz').size;
-                console.log(file_info.size + ' gzip size for file:' + path);
                 callback();
             });
         });
