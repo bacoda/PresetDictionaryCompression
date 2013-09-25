@@ -107,7 +107,7 @@ function testPage(directory, callback) {
         files_task.addTask(function (completion) {
             var type = fileExt(file);
             var file_name = PATH.basename(file);
-            var page_info = base_gzip.pages[page_name];
+            var page_info = base_gzip.pages[name];
 
             if (!page_info[file_name])
                 page_info[file_name] = {
